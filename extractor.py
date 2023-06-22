@@ -1,101 +1,282 @@
+# GPT 3.5 to support user story conceptual model extraction
+# author: Sebastien Mosser
+
 import openai
 import os
 import time
-import tiktoken
-import datetime
+import json
 
+####
+## Configuration
+####
 
+## OpenAI specific config
 openai.api_key_path = './openapi_key.txt' # Your API key should be here
-model = "gpt-3.5-turbo"
+MODEL = 'gpt-3.5-turbo-0613'              # required to use JSON schemas
 
-threshold = 750
-prompts = [
-   "You are a requirements engineering assistant. You will be provided by the user a set of User Stories, and your task is to extract element from these models and reply in JSON format. The elements you are asked to extract from the stories are the following: Persona, Action, Entity, Benefit. A Story can contain multiple elements in each categories. ",
-   "Here is an example. In the story 'As a UI designer, I want to begin user testing, so that I can validate stakeholder UI improvement requests', the Persona is 'UI designer'. The actions are 'begin' (primary) and 'validate' (secondary). The entities are 'user testing' (primary) and 'stakeholder UI improvement requests' (secondary). The benefit is 'I can validate stakeholder UI improvement requests'",
-   "You also have to extract relations between elements: Triggers is a link between a Persona and an Action, and Targets is a link between an Action and a Entity. You should make a difference between primary actions and secondary actions, as well as primary entities and secondary entities.",
-   "In the previous example, the persona 'UI designer' triggers the action 'begin', and the action 'begin' targets the entity 'user testing'.",
-   "You have to output a single JSON document containing all the stories (no other text than the expected JSON document). For each story, you will answer the input text, the personas (an array), the actions (an array), the entities (an array), the benefit (a scalar), and the relations (triggers and targets).",
-   "Do not pretty print the JSON, make it as compact as possible. And do not add any extra text around the JSON document."
-]
+## dataset location
+DATASET = './dataset/small'
 
-def main():
-  global model
-  print('Start: ' + stamp())
-  for file in os.listdir('./dataset'):
-    print(f'## Processing [{file}] with [{model}]')
-    stories = read_stories('./dataset/'+file)
-    process(stories, f'./output/{model}/{file}')
-  print('End: ' + stamp() )
+       ###############################
+######## Do not edit after this line ########
+       ###############################
 
-def read_stories(file_name):
-    with open(file_name, 'r') as file:
-        return file.read()
+####
+## Process Dataset
+####
 
-def stamp():
+def main(dataset, model):
+   print(f'START: {__stamp()}')
+   process_dataset(dataset, model)
+   print(f'END: {__stamp()}')
+
+def process_dataset(directory, model):
+   for file in os.listdir(directory):
+      print(f'# Processing {file}')
+      process_backlog(f'{directory}/{file}', model)
+
+def process_backlog(a_backlog, model):
+   output_file = f'./output/{model}/{os.path.basename(a_backlog)}'
+   counter = 0
+   for user_story in open(a_backlog, 'r'):
+      counter += 1
+      print(f'- Story #[{counter}] -- started at {__stamp()}')
+      print(f'    - {user_story}')
+      data = process_story(user_story, model)
+      print(f'    - saving result into: {output_file}_{counter}.json')
+      __store_result(data, f'{output_file}_{counter}.json')
+
+####
+## Business logic
+####
+
+def process_story(user_story, model):
+   result = dict()
+   result['story'] = user_story
+   # 0. Setting up the conversational context
+   cost = init_cost()
+   conversation = prompt_setup()
+   # 1. Extracting concepts
+   prompt_for_concept_extraction(conversation, user_story)
+   extracted = __call_GPT(model, conversation, record_extracted_concepts)
+   result['extraction'] = extracted['response']
+   cost = update_cost(cost, extracted)
+   # 2. Categorizing concepts
+   prompt_for_concept_categorization(conversation, result['extraction'])
+   categorized = __call_GPT(model, conversation, record_categories)
+   result['categories'] = categorized['response']
+   cost = update_cost(cost, categorized)
+   # 3. Extracting relations
+   prompt_for_relations_extraction(conversation, result['categories'])
+   relations = __call_GPT(model, conversation, record_links)
+   result['relations'] = relations['response']
+   cost = update_cost(cost, relations)
+   # 4. Returning result
+   result['cost'] = cost
+   return result
+
+## Cost Tracker
+####
+
+def init_cost():
+   return { 'input': 0, 'output': 0, 'time (ns)': 0 }
+
+def update_cost(cost, response):
+   return __update_cost(cost, 
+                      int(response['input_tokens']), 
+                      int(response['output_tokens']), 
+                      response['timer'])
+
+def __update_cost(cost_record, input, output, time):
+   return {
+      'input':  cost_record['input']  + input, 
+      'output': cost_record['output'] + output, 
+      'time (ns)':   cost_record['time (ns)']   + time
+   }
+
+####
+## Prompts
+####
+
+def prompt_setup():
+    conversation = list()
+    conversation.append(
+        {'role': 'system', 'content': 'You are a requirements engineering assistant specialized in agile methods and backlog management.'})
+    conversation.append(
+        {'role': 'system', 'content': 'You will be provided by the user a user story, and your task is to extract element from these models and call provided functions to record your findings.'})
+    conversation.append(
+        {'role': 'system', 'content': 'You are only allowed to call the provided function in your answer'})
+    return conversation
+
+def prompt_for_concept_extraction(conversation, story):
+    conversation.append(
+        {'role': 'system', 'content':'The elements you are asked to extract from the stories are the following: Persona, Action, Entity, Benefit. A Story can contain multiple elements in each categories.'})
+    conversation.append(
+        {'role': 'system', 'content': "Here is an example. In the story 'As a UI designer, I want to begin user testing, so that I can validate stakeholder UI improvement requests', the Persona is 'UI designer'. The actions are 'begin' and 'validate'. The entities are 'user testing' and 'stakeholder UI improvement requests'. The benefit is 'I can validate stakeholder UI improvement requests'"})
+    conversation.append(
+       {'role': 'user', 
+        'content': f'Here is the story you have to process:\n{story}'})
+    return conversation
+
+def prompt_for_concept_categorization(conversation, extracteds):
+   conversation.append(
+      {'role': 'assistant', 
+       'content': f'Here are the extracted concepts:\n{extracteds}'})
+   conversation.append(
+      {'role': 'system', 'content': "You know need to make the difference between primary concepts and secondary concepts in the information you have extracted"})
+   conversation.append(
+      {'role': 'system', 'content': "In the example that was given initially, the actions primary action is 'begin' and the secondary one is 'validate'. The primary entity is 'user testing' and the secondary entity is 'stakeholder UI improvement requests'."}
+   )
+   return conversation
+
+def prompt_for_relations_extraction(conversation, categories):
+   conversation.append(
+      {'role': 'assistant',
+       'content': f'Here is the categorization:\n{categories}'})
+   conversation.append(
+      {'role': 'system', 'content': "You now need to extract relationships betwen personas and actions (named trigger), and between actions and entities (named target)."})
+   conversation.append({'role': 'system', 'content': "In the example that was given initially, the persona 'UI designer' triggers the action 'begin', and the action 'begin' targets the entity 'user testing'."})
+   return conversation
+
+####
+## JSON Schemas
+####
+
+record_extracted_concepts = { 
+        "name": "record_elements",
+        "description": "Record the elements extracted from a story",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "personas": {
+                    "type": "array",
+                    "description": "The list of personas extracted from the story",
+                    "items": { "type": "string" }
+                },
+                "entities": {
+                    "type": "array",
+                    "description": "The list of entities extracted from the story",
+                    "items": { "type": "string" }
+                },
+                "actions": {
+                    "type": "array",
+                    "description": "The list of actions extracted from the story",
+                    "items": { "type": "string" }
+                },
+                "benefit": {
+                    "type": "string",
+                    "description": "A single string containing the benefit expected from the story",
+                },
+            },
+            "required": ["personas", "entities", "actions", "benefit"],
+        }
+      }
+
+record_categories = { 
+   "name": "categorize_elements",
+   "description": "Make the distinction between primary and secondary elements in a story",
+   "parameters": {
+      "type": "object",
+      "properties": {
+         "primary_entities": {
+            "type": "array",
+            "description": "The set of all primary entities in the story",
+            "items": { "type": "string" }
+          },
+          "secondary_entities": {
+             "type": "array",
+             "description": "The set of all secondary entities in the story",
+             "items": { "type": "string" }
+          },
+          "primary_actions": {
+             "type": "array",
+             "description": "The set of all primary actions in the story",
+             "items": { "type": "string" }
+          },
+          "secondary_actions": {
+             "type": "array",
+             "description": "The set of all secondary actions in the story",
+             "items": { "type": "string" }
+          }
+      },
+      "required": [
+         "primary_entities", "secondary_entities",
+         "primary_actions", "secondary_actions"
+      ],
+    },
+  }
+
+record_links = {
+   "name": "record_links",
+   "description": "Records trigger and target links between actions, personas and entities ",
+   "parameters": {
+      "type": "object",
+      "properties": {
+         "relations": {
+            "type": "array",
+            "description": "the link between elements",
+            "items": { 
+               "type": "object",
+               "properties": {
+                  "from": { 
+                     "type": "string",
+                     "description": "left part of the relation"
+                  },
+                  "to": { 
+                     "type": "string",
+                     "description": "right part of the relation"
+                  },
+                  "kind": {
+                     "type": "string", 
+                     "enum": ["triggers", "targets"],
+                     "description": "kind of relation: 'triggers' or 'targets'"
+                  }
+               }       
+            }
+         },
+      },
+      "required": ["relations"],
+   },
+}
+  
+####
+## Technical functions
+####
+
+def __stamp():
    return time.strftime("%H:%M:%S", time.localtime())
 
-def process(stories, output_file):
-  global threshold
-  chunks = split_data(stories)
-  print(f'  Detecting {len(chunks)} chunks of {threshold} tokens')
-  for idx, c in enumerate(chunks):
-     print(f'  ... processing chunk #{idx} into {output_file}_{idx} \t[{stamp()}]')
-     gptify(c, output_file+f'_{idx}')
-
-def split_data(stories):
-   global model, threshold
-   encoding = tiktoken.encoding_for_model(model)
-   nb_tokens = prompt_tokens()
-   chunks = []
-   current = ""
-   for line in stories.splitlines():
-      if line.isspace():
-         continue
-      if nb_tokens >= threshold:
-          chunks.append(current)
-          current = ""
-          nb_tokens = prompt_tokens()
-      nb_tokens += len(encoding.encode(f'{line}\n'))
-      current += f'{line}\n'
-   chunks.append(current)
-   return chunks
-
-def prompt_tokens():
-   global prompts, model
-   encoding = tiktoken.encoding_for_model(model)
-   tokens = len(encoding.encode(''.join(prompts)))
-   return int(tokens*1.05) # 5% safety margin
-
-def build_prompt():
-  global prompts
-  msg = []
-  for p in prompts:
-    msg.append({"role": "system", "content": p})
-  return msg
-
-def gptify(chunk, output_file):
-  global model, prompts
-  prompt = build_prompt()
-  prompt.append({"role": "user",   "content": "Here is the set of stories you have to process:\n" + chunk})
-  start = time.time()
+def __call_GPT(model, conversation, schema):
+  print(f'        - calling model {__stamp()}')
+  start = time.time_ns()
   response = openai.ChatCompletion.create(
-    model = model,
-    messages = prompt,
-    temperature = 0.0,
-    
+    model       = model,
+    functions   = [schema],
+    messages    = conversation,
+    temperature = 0.0 # Temperature set to 0 to be deterministic (kinda)
   )
-  stop = time.time()
-  save_result(output_file, response, stop-start)
+  end = time.time_ns()
+  payload = response["choices"][0]["message"]
+  contents = None
+  if payload.get("function_call"):
+     contents = json.loads(payload["function_call"]["arguments"])
+  result =  {
+      'response':      contents,
+      'input_tokens':  response['usage']['prompt_tokens'],
+      'output_tokens': response['usage']['completion_tokens'],
+      'timer':         end - start
+   }
+  time.sleep(2)
+  return result
 
-def save_result(output_file, response, timer):
-  with open(output_file, "w") as of:
-    of.write("### Content\n")
-    of.write(response['choices'][0]['message']['content']+"\n")
-    of.write("### Finish reason: " + response['choices'][0]['finish_reason']+"\n")
-    of.write("### Cost"+"\n")
-    of.write(str(response['usage'])+"\n")
-    of.write("### Time"+"\n")
-    of.write(str(timer)+"\n")
+def __store_result(result, file):
+   with open(file, 'w') as of:
+      of.write(json.dumps(result, indent=2))
+
+
+####
+## Main dispatch magic
+####
 
 if __name__ == "__main__":
-    main()
+    main(DATASET, MODEL)

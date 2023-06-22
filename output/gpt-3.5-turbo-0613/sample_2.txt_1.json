@@ -1,0 +1,44 @@
+{
+  "story": "#G25# As a repository manager, I want to know all the collections and objects in the DAMS for which I have custodial responsibility. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "DAMS"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "I can have custodial responsibility for all the collections and objects in the DAMS"
+  },
+  "categories": {
+    "primary_entities": [
+      "DAMS"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "DAMS",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1311,
+    "output": 162,
+    "time (ns)": 4130080000
+  }
+}

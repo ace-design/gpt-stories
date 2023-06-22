@@ -1,0 +1,2 @@
+#G25# As a repository manager, I want to know all the collections and objects in the DAMS for which I have custodial responsibility. 
+#G25# As a repository manager, I want to be able to update repository information in one place and be assured updates will be propagated to all relevant places. 
