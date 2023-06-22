@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+openai = "0.27.8"
+tiktoken = "0.4.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
