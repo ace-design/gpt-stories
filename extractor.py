@@ -15,7 +15,7 @@ openai.api_key_path = './openapi_key.txt' # Your API key should be here
 MODEL = 'gpt-3.5-turbo-0613'              # required to use JSON schemas
 
 ## dataset location
-DATASET = './dataset/small'
+DATASET = './dataset/current'
 
        ###############################
 ######## Do not edit after this line ########
@@ -249,12 +249,19 @@ def __stamp():
 def __call_GPT(model, conversation, schema):
   print(f'        - calling model {__stamp()}')
   start = time.time_ns()
-  response = openai.ChatCompletion.create(
-    model       = model,
-    functions   = [schema],
-    messages    = conversation,
-    temperature = 0.0 # Temperature set to 0 to be deterministic (kinda)
-  )
+  try:
+      response = openai.ChatCompletion.create(
+         model       = model,
+         functions   = [schema],
+         messages    = conversation,
+         temperature = 0.0 # Temperature set to 0 to be deterministic (kinda)
+      )
+  except:
+      __increment_failure()
+      print(f'       - exception caught! Pausing for 60 seconds')
+      time.sleep(60)
+      return __call_GPT(model, conversation, schema)
+  
   end = time.time_ns()
   payload = response["choices"][0]["message"]
   contents = None
@@ -273,6 +280,20 @@ def __store_result(result, file):
    with open(file, 'w') as of:
       of.write(json.dumps(result, indent=2))
 
+####
+## Circuit Breaker-like
+####
+
+__cb_counter = 0
+__cb_threshold = 5
+
+def __increment_failure():
+   __cb_counter += 1
+   if __cb_counter > __cb_threshold:
+      raise Exception("Circuit Breaker failed to recover")
+
+def __reset_failure():
+   __cb_counter = 0
 
 ####
 ## Main dispatch magic
