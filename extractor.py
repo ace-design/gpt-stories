@@ -249,6 +249,7 @@ def __stamp():
 def __call_GPT(model, conversation, schema):
   print(f'        - calling model {__stamp()}')
   start = time.time_ns()
+  
   try:
       response = openai.ChatCompletion.create(
          model       = model,
@@ -262,6 +263,7 @@ def __call_GPT(model, conversation, schema):
       time.sleep(60)
       return __call_GPT(model, conversation, schema)
   
+  __reset_failure()
   end = time.time_ns()
   payload = response["choices"][0]["message"]
   contents = None
