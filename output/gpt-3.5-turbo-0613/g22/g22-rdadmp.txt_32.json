@@ -1,0 +1,58 @@
+{
+  "story": "#G22# As a data librarian, I want to import administrative information regarding a project into DMP, so that I can prepopulate the DMP.\n",
+  "extraction": {
+    "personas": [
+      "data librarian"
+    ],
+    "entities": [
+      "administrative information",
+      "project",
+      "DMP"
+    ],
+    "actions": [
+      "import"
+    ],
+    "benefit": "prepopulate the DMP"
+  },
+  "categories": {
+    "primary_entities": [
+      "administrative information",
+      "project",
+      "DMP"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "import"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data librarian",
+        "to": "import",
+        "kind": "triggers"
+      },
+      {
+        "from": "import",
+        "to": "administrative information",
+        "kind": "targets"
+      },
+      {
+        "from": "import",
+        "to": "project",
+        "kind": "targets"
+      },
+      {
+        "from": "import",
+        "to": "DMP",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1316,
+    "output": 219,
+    "time (ns)": 6413895000
+  }
+}

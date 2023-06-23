@@ -1,0 +1,65 @@
+{
+  "story": "#G22# As a faculty data steward, I want to see the sections on costing, so that I can ensure sufficient expertise on data management to support the project.\n",
+  "extraction": {
+    "personas": [
+      "faculty data steward"
+    ],
+    "entities": [
+      "sections",
+      "costing",
+      "data management",
+      "project"
+    ],
+    "actions": [
+      "see",
+      "ensure",
+      "support"
+    ],
+    "benefit": "ensure sufficient expertise on data management to support the project"
+  },
+  "categories": {
+    "primary_entities": [
+      "sections",
+      "data management",
+      "project"
+    ],
+    "secondary_entities": [
+      "costing"
+    ],
+    "primary_actions": [
+      "see",
+      "ensure",
+      "support"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "faculty data steward",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "sections",
+        "kind": "targets"
+      },
+      {
+        "from": "ensure",
+        "to": "data management",
+        "kind": "targets"
+      },
+      {
+        "from": "support",
+        "to": "project",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1357,
+    "output": 239,
+    "time (ns)": 6651115000
+  }
+}

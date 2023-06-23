@@ -1,0 +1,60 @@
+{
+  "story": "#G22# As an archivemanager, I want to know the legal status of data, so that I can apply the legal requirements accordingly.\n",
+  "extraction": {
+    "personas": [
+      "archivemanager"
+    ],
+    "entities": [
+      "data",
+      "legal requirements"
+    ],
+    "actions": [
+      "know",
+      "apply"
+    ],
+    "benefit": "I can apply the legal requirements accordingly"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [
+      "legal requirements"
+    ],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "apply"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivemanager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "archivemanager",
+        "to": "apply",
+        "kind": "triggers"
+      },
+      {
+        "from": "apply",
+        "to": "legal requirements",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1312,
+    "output": 221,
+    "time (ns)": 7603222000
+  }
+}

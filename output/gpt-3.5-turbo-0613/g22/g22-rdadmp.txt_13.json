@@ -1,0 +1,60 @@
+{
+  "story": "#G22# As a legalofficer, I want to know about data sensitivity, so that I can establish sharing options.\n",
+  "extraction": {
+    "personas": [
+      "legalofficer"
+    ],
+    "entities": [
+      "data sensitivity",
+      "sharing options"
+    ],
+    "actions": [
+      "know",
+      "establish"
+    ],
+    "benefit": "I can establish sharing options"
+  },
+  "categories": {
+    "primary_entities": [
+      "data sensitivity"
+    ],
+    "secondary_entities": [
+      "sharing options"
+    ],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "establish"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "legalofficer",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "data sensitivity",
+        "kind": "targets"
+      },
+      {
+        "from": "legalofficer",
+        "to": "establish",
+        "kind": "triggers"
+      },
+      {
+        "from": "establish",
+        "to": "sharing options",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1294,
+    "output": 219,
+    "time (ns)": 7363827000
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "story": "#G22# As an IT staff member, I want to know the security requirements of the data, so that I know which kind of security measures to apply.\n",
+  "extraction": {
+    "personas": [
+      "IT staff member"
+    ],
+    "entities": [
+      "data"
+    ],
+    "actions": [
+      "know",
+      "apply"
+    ],
+    "benefit": "I know which kind of security measures to apply"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "apply"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "IT staff member",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "IT staff member",
+        "to": "apply",
+        "kind": "triggers"
+      },
+      {
+        "from": "apply",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1311,
+    "output": 213,
+    "time (ns)": 6685899000
+  }
+}

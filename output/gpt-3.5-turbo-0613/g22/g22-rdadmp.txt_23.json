@@ -1,0 +1,58 @@
+{
+  "story": "#G22# As a research head, I want to access to the persistent identifiers of datasets provided in the DMP, so that I can check that the DMP has been implemented.\n",
+  "extraction": {
+    "personas": [
+      "research head"
+    ],
+    "entities": [
+      "persistent identifiers",
+      "datasets",
+      "DMP"
+    ],
+    "actions": [
+      "access"
+    ],
+    "benefit": "I can check that the DMP has been implemented"
+  },
+  "categories": {
+    "primary_entities": [
+      "persistent identifiers",
+      "datasets",
+      "DMP"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "research head",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "persistent identifiers",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "DMP",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1341,
+    "output": 221,
+    "time (ns)": 22197974000
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "story": "#G22# As a researcher, I want to import metadata that I captured with a metadata tool, so that I do not have to capture it again in a DMP.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "metadata",
+      "metadata tool",
+      "DMP"
+    ],
+    "actions": [
+      "import",
+      "capture"
+    ],
+    "benefit": "I do not have to capture it again in a DMP"
+  },
+  "categories": {
+    "primary_entities": [
+      "metadata",
+      "DMP"
+    ],
+    "secondary_entities": [
+      "metadata tool"
+    ],
+    "primary_actions": [
+      "import"
+    ],
+    "secondary_actions": [
+      "capture"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "import",
+        "kind": "triggers"
+      },
+      {
+        "from": "import",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "import",
+        "to": "DMP",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1345,
+    "output": 201,
+    "time (ns)": 6558419000
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "story": "#G22# As a repository manager, I want to have metadata in additional languages, so that I can allow for multilingual data archive.\n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "metadata",
+      "additional languages",
+      "multilingual data archive"
+    ],
+    "actions": [
+      "have"
+    ],
+    "benefit": "I can allow for multilingual data archive"
+  },
+  "categories": {
+    "primary_entities": [
+      "metadata",
+      "additional languages",
+      "multilingual data archive"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "additional languages",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "multilingual data archive",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1316,
+    "output": 225,
+    "time (ns)": 6748574000
+  }
+}

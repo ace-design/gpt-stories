@@ -1,0 +1,51 @@
+{
+  "story": "#G22# As a data manager, I want to know which formats are used, so that I know what technology or background information might be necessary to use the data.\n",
+  "extraction": {
+    "personas": [
+      "data manager"
+    ],
+    "entities": [
+      "formats",
+      "data"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "I know what technology or background information might be necessary to use the data"
+  },
+  "categories": {
+    "primary_entities": [
+      "formats",
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "formats",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1325,
+    "output": 188,
+    "time (ns)": 5512020000
+  }
+}

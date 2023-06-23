@@ -1,0 +1,75 @@
+{
+  "story": "#G22# As a Director of Research Integrity, I want to access reports containing details of research projects in which data are classified as sensitive or highly sensitive, so that I can confirm security protocols are applied to these data.\n",
+  "extraction": {
+    "personas": [
+      "Director of Research Integrity"
+    ],
+    "entities": [
+      "reports",
+      "research projects",
+      "data"
+    ],
+    "actions": [
+      "access",
+      "confirm"
+    ],
+    "benefit": "confirm security protocols are applied to sensitive or highly sensitive data"
+  },
+  "categories": {
+    "primary_entities": [
+      "reports",
+      "research projects",
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "access",
+      "confirm"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Director of Research Integrity",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "reports",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "research projects",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "confirm",
+        "to": "security protocols",
+        "kind": "targets"
+      },
+      {
+        "from": "confirm",
+        "to": "sensitive data",
+        "kind": "targets"
+      },
+      {
+        "from": "confirm",
+        "to": "highly sensitive data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1374,
+    "output": 310,
+    "time (ns)": 8493733000
+  }
+}

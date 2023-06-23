@@ -1,0 +1,88 @@
+{
+  "story": "#G22# As a researcher, I want to record research publications in the institutional repository or CRIS with DMP records, so that I can generate reports of research output resulting from a project.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "research publications",
+      "institutional repository",
+      "CRIS",
+      "DMP records",
+      "reports",
+      "research output",
+      "project"
+    ],
+    "actions": [
+      "record",
+      "generate"
+    ],
+    "benefit": "I can generate reports of research output resulting from a project"
+  },
+  "categories": {
+    "primary_entities": [
+      "research publications",
+      "institutional repository",
+      "CRIS",
+      "DMP records",
+      "reports",
+      "research output",
+      "project"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "record",
+      "generate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "record",
+        "kind": "triggers"
+      },
+      {
+        "from": "record",
+        "to": "research publications",
+        "kind": "targets"
+      },
+      {
+        "from": "record",
+        "to": "institutional repository",
+        "kind": "targets"
+      },
+      {
+        "from": "record",
+        "to": "CRIS",
+        "kind": "targets"
+      },
+      {
+        "from": "record",
+        "to": "DMP records",
+        "kind": "targets"
+      },
+      {
+        "from": "generate",
+        "to": "reports",
+        "kind": "targets"
+      },
+      {
+        "from": "generate",
+        "to": "research output",
+        "kind": "targets"
+      },
+      {
+        "from": "generate",
+        "to": "project",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1409,
+    "output": 367,
+    "time (ns)": 9517158000
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "story": "#G22# As a PI, I want to properly record all metadata, so that I can ensure proper running of the project in case of staff changes.\n",
+  "extraction": {
+    "personas": [
+      "PI"
+    ],
+    "entities": [
+      "metadata",
+      "project",
+      "staff changes"
+    ],
+    "actions": [
+      "record"
+    ],
+    "benefit": "ensure proper running of the project in case of staff changes"
+  },
+  "categories": {
+    "primary_entities": [
+      "metadata",
+      "project"
+    ],
+    "secondary_entities": [
+      "staff changes"
+    ],
+    "primary_actions": [
+      "record"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "PI",
+        "to": "record",
+        "kind": "triggers"
+      },
+      {
+        "from": "record",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "record",
+        "to": "project",
+        "kind": "targets"
+      },
+      {
+        "from": "record",
+        "to": "staff changes",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1319,
+    "output": 216,
+    "time (ns)": 6964525000
+  }
+}

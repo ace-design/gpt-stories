@@ -1,0 +1,60 @@
+{
+  "story": "#G22# As an IT manager, I want to know about IT resource requirements early in the project lifecycle, so that I can enable resource acquisition planning.\n",
+  "extraction": {
+    "personas": [
+      "IT manager"
+    ],
+    "entities": [
+      "IT resource requirements",
+      "project lifecycle",
+      "resource acquisition planning"
+    ],
+    "actions": [
+      "know",
+      "enable"
+    ],
+    "benefit": "I can enable resource acquisition planning"
+  },
+  "categories": {
+    "primary_entities": [
+      "IT resource requirements",
+      "project lifecycle",
+      "resource acquisition planning"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "enable"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "IT manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "IT resource requirements",
+        "kind": "targets"
+      },
+      {
+        "from": "IT manager",
+        "to": "enable",
+        "kind": "triggers"
+      },
+      {
+        "from": "enable",
+        "to": "resource acquisition planning",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1333,
+    "output": 233,
+    "time (ns)": 6633177000
+  }
+}

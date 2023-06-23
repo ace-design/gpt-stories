@@ -1,0 +1,51 @@
+{
+  "story": "#G22# As a stakeholder, I want to know when the data management plan was created or updated, so that I know how up-to-date the plan is or whether it needs to be updated.\n",
+  "extraction": {
+    "personas": [
+      "stakeholder"
+    ],
+    "entities": [
+      "data management plan"
+    ],
+    "actions": [
+      "know",
+      "created",
+      "updated",
+      "need to be updated"
+    ],
+    "benefit": "know how up-to-date the plan is or whether it needs to be updated"
+  },
+  "categories": {
+    "primary_entities": [
+      "data management plan"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "created",
+      "updated",
+      "need to be updated"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "stakeholder",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "data management plan",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1381,
+    "output": 189,
+    "time (ns)": 11356001000
+  }
+}

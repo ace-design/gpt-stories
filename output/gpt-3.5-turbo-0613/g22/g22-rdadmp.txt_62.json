@@ -1,0 +1,75 @@
+{
+  "story": "#G22# As an IT staff member, I want to know which formats are used, so that I can determine what kind of technical services and functionalities are required.\n",
+  "extraction": {
+    "personas": [
+      "IT staff member"
+    ],
+    "entities": [
+      "formats",
+      "technical services",
+      "functionalities"
+    ],
+    "actions": [
+      "know",
+      "determine"
+    ],
+    "benefit": "I can determine what kind of technical services and functionalities are required"
+  },
+  "categories": {
+    "primary_entities": [
+      "formats",
+      "technical services",
+      "functionalities"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "determine"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "IT staff member",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "formats",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "technical services",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "functionalities",
+        "kind": "targets"
+      },
+      {
+        "from": "determine",
+        "to": "formats",
+        "kind": "targets"
+      },
+      {
+        "from": "determine",
+        "to": "technical services",
+        "kind": "targets"
+      },
+      {
+        "from": "determine",
+        "to": "functionalities",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1347,
+    "output": 313,
+    "time (ns)": 8584372000
+  }
+}

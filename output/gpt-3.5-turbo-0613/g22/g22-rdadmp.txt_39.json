@@ -1,0 +1,79 @@
+{
+  "story": "#G22# As a researcher, I want to store agreements relating to third party data used in a project, so that the data can be cited, attributed and used correctly.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "agreements",
+      "third party data",
+      "project"
+    ],
+    "actions": [
+      "store",
+      "cite",
+      "attribute",
+      "use"
+    ],
+    "benefit": "the data can be cited, attributed and used correctly"
+  },
+  "categories": {
+    "primary_entities": [
+      "agreements",
+      "third party data",
+      "project"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "store",
+      "cite",
+      "attribute",
+      "use"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "store",
+        "kind": "triggers"
+      },
+      {
+        "from": "store",
+        "to": "agreements",
+        "kind": "targets"
+      },
+      {
+        "from": "store",
+        "to": "third party data",
+        "kind": "targets"
+      },
+      {
+        "from": "store",
+        "to": "project",
+        "kind": "targets"
+      },
+      {
+        "from": "cite",
+        "to": "agreements",
+        "kind": "targets"
+      },
+      {
+        "from": "attribute",
+        "to": "agreements",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "agreements",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1365,
+    "output": 320,
+    "time (ns)": 8766697000
+  }
+}

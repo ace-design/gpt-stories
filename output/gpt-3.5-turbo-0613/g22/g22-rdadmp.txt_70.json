@@ -1,0 +1,56 @@
+{
+  "story": "#G22# As a data manager, I want to know the security requirements of the data, so that I can check whether the data can be kept secure.\n",
+  "extraction": {
+    "personas": [
+      "data manager"
+    ],
+    "entities": [
+      "data"
+    ],
+    "actions": [
+      "know",
+      "check"
+    ],
+    "benefit": "I can check whether the data can be kept secure"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "check"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "data manager",
+        "to": "check",
+        "kind": "triggers"
+      },
+      {
+        "from": "check",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1311,
+    "output": 211,
+    "time (ns)": 5942924000
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "story": "#G22# As a data manager, I want to plan the anonymization of data, so that we protect the privacy of the people participating in the research as good as possible and still ensure reusability of data.\n",
+  "extraction": {
+    "personas": [
+      "data manager"
+    ],
+    "entities": [
+      "data",
+      "privacy",
+      "people participating in the research"
+    ],
+    "actions": [
+      "plan",
+      "anonymization"
+    ],
+    "benefit": "protect the privacy of the people participating in the research as good as possible and still ensure reusability of data"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [
+      "privacy",
+      "people participating in the research"
+    ],
+    "primary_actions": [
+      "plan"
+    ],
+    "secondary_actions": [
+      "anonymization"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data manager",
+        "to": "plan",
+        "kind": "triggers"
+      },
+      {
+        "from": "plan",
+        "to": "anonymization",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1404,
+    "output": 195,
+    "time (ns)": 5818396000
+  }
+}

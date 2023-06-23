@@ -1,0 +1,85 @@
+{
+  "story": "#G22# As a data manager, I want to know which kind of data types will be produced or collected, so that I can ensure that the necessary technical resources and technical know-how is available.\n",
+  "extraction": {
+    "personas": [
+      "data manager"
+    ],
+    "entities": [
+      "data types",
+      "technical resources",
+      "technical know-how"
+    ],
+    "actions": [
+      "know",
+      "produce",
+      "collect",
+      "ensure"
+    ],
+    "benefit": "ensure that the necessary technical resources and technical know-how is available"
+  },
+  "categories": {
+    "primary_entities": [
+      "data types",
+      "technical resources",
+      "technical know-how"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "ensure"
+    ],
+    "secondary_actions": [
+      "produce",
+      "collect"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "data types",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "technical resources",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "technical know-how",
+        "kind": "targets"
+      },
+      {
+        "from": "ensure",
+        "to": "technical resources",
+        "kind": "targets"
+      },
+      {
+        "from": "ensure",
+        "to": "technical know-how",
+        "kind": "targets"
+      },
+      {
+        "from": "produce",
+        "to": "data types",
+        "kind": "targets"
+      },
+      {
+        "from": "collect",
+        "to": "data types",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1385,
+    "output": 351,
+    "time (ns)": 9597639000
+  }
+}

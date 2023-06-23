@@ -1,0 +1,72 @@
+{
+  "story": "#G22# As an archive, I want to get information about the volume of data to preserve at an early stage, so that I can provide the adequate storage infrastructure.\n",
+  "extraction": {
+    "personas": [
+      "archive"
+    ],
+    "entities": [
+      "information",
+      "volume of data",
+      "storage infrastructure"
+    ],
+    "actions": [
+      "get",
+      "preserve",
+      "provide"
+    ],
+    "benefit": "I can provide the adequate storage infrastructure"
+  },
+  "categories": {
+    "primary_entities": [
+      "information",
+      "volume of data",
+      "storage infrastructure"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "get",
+      "preserve",
+      "provide"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archive",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "information",
+        "kind": "targets"
+      },
+      {
+        "from": "archive",
+        "to": "preserve",
+        "kind": "triggers"
+      },
+      {
+        "from": "preserve",
+        "to": "volume of data",
+        "kind": "targets"
+      },
+      {
+        "from": "archive",
+        "to": "provide",
+        "kind": "triggers"
+      },
+      {
+        "from": "provide",
+        "to": "storage infrastructure",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1345,
+    "output": 283,
+    "time (ns)": 7923144000
+  }
+}

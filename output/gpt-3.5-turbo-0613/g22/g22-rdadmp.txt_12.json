@@ -1,0 +1,58 @@
+{
+  "story": "#G22# As a PI, I want to record information about my DMP, so that an Ethics Committee can review this for compliance with ethical standards.\n",
+  "extraction": {
+    "personas": [
+      "PI",
+      "Ethics Committee"
+    ],
+    "entities": [
+      "DMP"
+    ],
+    "actions": [
+      "record",
+      "review"
+    ],
+    "benefit": "An Ethics Committee can review the DMP for compliance with ethical standards."
+  },
+  "categories": {
+    "primary_entities": [
+      "DMP"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "record"
+    ],
+    "secondary_actions": [
+      "review"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "PI",
+        "to": "record",
+        "kind": "triggers"
+      },
+      {
+        "from": "record",
+        "to": "DMP",
+        "kind": "targets"
+      },
+      {
+        "from": "Ethics Committee",
+        "to": "review",
+        "kind": "triggers"
+      },
+      {
+        "from": "review",
+        "to": "DMP",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1325,
+    "output": 221,
+    "time (ns)": 24749816000
+  }
+}

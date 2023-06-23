@@ -1,0 +1,56 @@
+{
+  "story": "#G22# As an IT staff member, I want to know how the data is used, so that I can determine what kind of basic services and functionalities are required.\n",
+  "extraction": {
+    "personas": [
+      "IT staff member"
+    ],
+    "entities": [
+      "data"
+    ],
+    "actions": [
+      "know",
+      "determine"
+    ],
+    "benefit": "I can determine what kind of basic services and functionalities are required"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "determine"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "IT staff member",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "IT staff member",
+        "to": "determine",
+        "kind": "triggers"
+      },
+      {
+        "from": "determine",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1326,
+    "output": 220,
+    "time (ns)": 6906182000
+  }
+}

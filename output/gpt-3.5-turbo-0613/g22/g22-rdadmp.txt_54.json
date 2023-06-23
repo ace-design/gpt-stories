@@ -1,0 +1,56 @@
+{
+  "story": "#G22# As a researcher, I want to know how long it will take to archive, so that I can plan further steps.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "archive"
+    ],
+    "actions": [
+      "know",
+      "plan"
+    ],
+    "benefit": "I can plan further steps"
+  },
+  "categories": {
+    "primary_entities": [
+      "archive"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "plan"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "archive",
+        "kind": "targets"
+      },
+      {
+        "from": "researcher",
+        "to": "plan",
+        "kind": "triggers"
+      },
+      {
+        "from": "plan",
+        "to": "archive",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1286,
+    "output": 206,
+    "time (ns)": 5881485000
+  }
+}

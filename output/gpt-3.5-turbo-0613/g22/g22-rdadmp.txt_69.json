@@ -1,0 +1,44 @@
+{
+  "story": "#G22# As an administrator, I want to check that all data has the appropriate security level, so that I can demonstrate compliance.\n",
+  "extraction": {
+    "personas": [
+      "administrator"
+    ],
+    "entities": [
+      "data"
+    ],
+    "actions": [
+      "check"
+    ],
+    "benefit": "I can demonstrate compliance"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "check"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "administrator",
+        "to": "check",
+        "kind": "triggers"
+      },
+      {
+        "from": "check",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1273,
+    "output": 145,
+    "time (ns)": 4559438000
+  }
+}

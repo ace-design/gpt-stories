@@ -1,0 +1,99 @@
+{
+  "story": "#G22# As a researcher, I want to link research publications in the institutional repository or CRIS with DMP records, so that I can generate reports of research output resulting from a project.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "research publications",
+      "institutional repository",
+      "CRIS",
+      "DMP records",
+      "project"
+    ],
+    "actions": [
+      "link",
+      "generate reports"
+    ],
+    "benefit": "I can generate reports of research output resulting from a project"
+  },
+  "categories": {
+    "primary_entities": [
+      "research publications",
+      "institutional repository",
+      "CRIS",
+      "DMP records",
+      "project"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "link",
+      "generate reports"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "link",
+        "kind": "triggers"
+      },
+      {
+        "from": "link",
+        "to": "research publications",
+        "kind": "targets"
+      },
+      {
+        "from": "link",
+        "to": "institutional repository",
+        "kind": "targets"
+      },
+      {
+        "from": "link",
+        "to": "CRIS",
+        "kind": "targets"
+      },
+      {
+        "from": "link",
+        "to": "DMP records",
+        "kind": "targets"
+      },
+      {
+        "from": "link",
+        "to": "project",
+        "kind": "targets"
+      },
+      {
+        "from": "generate reports",
+        "to": "research publications",
+        "kind": "targets"
+      },
+      {
+        "from": "generate reports",
+        "to": "institutional repository",
+        "kind": "targets"
+      },
+      {
+        "from": "generate reports",
+        "to": "CRIS",
+        "kind": "targets"
+      },
+      {
+        "from": "generate reports",
+        "to": "DMP records",
+        "kind": "targets"
+      },
+      {
+        "from": "generate reports",
+        "to": "project",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1391,
+    "output": 440,
+    "time (ns)": 11603210000
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "story": "#G22# As a data manager, I want to clarify the necessary rights for re-using the data, so that it is legal to reuse the data.\n",
+  "extraction": {
+    "personas": [
+      "data manager"
+    ],
+    "entities": [
+      "data"
+    ],
+    "actions": [
+      "clarify",
+      "re-using"
+    ],
+    "benefit": "it is legal to reuse the data"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "clarify"
+    ],
+    "secondary_actions": [
+      "re-using"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data manager",
+        "to": "clarify",
+        "kind": "triggers"
+      },
+      {
+        "from": "clarify",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1306,
+    "output": 161,
+    "time (ns)": 5219572000
+  }
+}

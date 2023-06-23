@@ -1,0 +1,56 @@
+{
+  "story": "#G22# As a PI, I want to plan what kind of data I want to store, so that I can ensure it will be possible to store it.\n",
+  "extraction": {
+    "personas": [
+      "PI"
+    ],
+    "entities": [
+      "data"
+    ],
+    "actions": [
+      "plan",
+      "store"
+    ],
+    "benefit": "ensure it will be possible to store it"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "plan",
+      "store"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "PI",
+        "to": "plan",
+        "kind": "triggers"
+      },
+      {
+        "from": "plan",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "PI",
+        "to": "store",
+        "kind": "triggers"
+      },
+      {
+        "from": "store",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1308,
+    "output": 206,
+    "time (ns)": 5963389000
+  }
+}

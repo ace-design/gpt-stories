@@ -1,0 +1,73 @@
+{
+  "story": "#G22# As a repository owner, I want to be able to check the planned provenance of the data that will be submitted at the end of a project, so that I can calculate necessary submission fees and check whether it belongs to our target group.\n",
+  "extraction": {
+    "personas": [
+      "repository owner"
+    ],
+    "entities": [
+      "planned provenance",
+      "data",
+      "project",
+      "submission fees",
+      "target group"
+    ],
+    "actions": [
+      "check",
+      "calculate",
+      "check"
+    ],
+    "benefit": "I can calculate necessary submission fees and check whether it belongs to our target group"
+  },
+  "categories": {
+    "primary_entities": [
+      "planned provenance",
+      "data",
+      "project"
+    ],
+    "secondary_entities": [
+      "submission fees",
+      "target group"
+    ],
+    "primary_actions": [
+      "check",
+      "calculate"
+    ],
+    "secondary_actions": [
+      "check"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository owner",
+        "to": "check",
+        "kind": "triggers"
+      },
+      {
+        "from": "repository owner",
+        "to": "calculate",
+        "kind": "triggers"
+      },
+      {
+        "from": "check",
+        "to": "planned provenance",
+        "kind": "targets"
+      },
+      {
+        "from": "calculate",
+        "to": "submission fees",
+        "kind": "targets"
+      },
+      {
+        "from": "calculate",
+        "to": "target group",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1435,
+    "output": 284,
+    "time (ns)": 9980577000
+  }
+}

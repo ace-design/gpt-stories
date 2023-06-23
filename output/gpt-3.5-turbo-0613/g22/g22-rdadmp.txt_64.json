@@ -1,0 +1,76 @@
+{
+  "story": "#G22# As a data manager, I want to know which information is necessary to re-use the data, so that it can be checked whether all necessary information is available for researchers interested in re-using the data.\n",
+  "extraction": {
+    "personas": [
+      "data manager"
+    ],
+    "entities": [
+      "data",
+      "researchers"
+    ],
+    "actions": [
+      "know",
+      "re-use",
+      "check"
+    ],
+    "benefit": "it can be checked whether all necessary information is available for researchers interested in re-using the data"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [
+      "researchers"
+    ],
+    "primary_actions": [
+      "know",
+      "re-use",
+      "check"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "data manager",
+        "to": "re-use",
+        "kind": "triggers"
+      },
+      {
+        "from": "re-use",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "data manager",
+        "to": "check",
+        "kind": "triggers"
+      },
+      {
+        "from": "check",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "data",
+        "to": "researchers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1383,
+    "output": 314,
+    "time (ns)": 8830032000
+  }
+}

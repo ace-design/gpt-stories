@@ -1,0 +1,442 @@
+START: 14:19:37
+# Processing g22-rdadmp.txt
+Skipping Story #[1]
+Skipping Story #[2]
+Skipping Story #[3]
+Skipping Story #[4]
+Skipping Story #[5]
+Skipping Story #[6]
+Skipping Story #[7]
+Skipping Story #[8]
+Skipping Story #[9]
+Skipping Story #[10]
+Skipping Story #[11]
+Skipping Story #[12]
+Skipping Story #[13]
+Skipping Story #[14]
+Skipping Story #[15]
+Skipping Story #[16]
+Skipping Story #[17]
+Skipping Story #[18]
+Skipping Story #[19]
+Skipping Story #[20]
+Skipping Story #[21]
+Skipping Story #[22]
+Skipping Story #[23]
+Skipping Story #[24]
+Skipping Story #[25]
+Skipping Story #[26]
+- Story #[27] -- started at 14:19:37
+    - #G22# As a stakeholder, I want to know who is responsible for the DMP, so that I can ask them about further details.
+
+        - calling model 14:19:37
+        - calling model 14:19:41
+        - calling model 14:19:44
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_27.json
+- Story #[28] -- started at 14:19:49
+    - #G22# As a stakeholder, I want to have references to the project proposal, so that I can look up further general information.
+
+        - calling model 14:19:49
+        - calling model 14:19:53
+        - calling model 14:19:56
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_28.json
+- Story #[29] -- started at 14:20:02
+    - #G22# As a metadata manager, I want to have a short description of project, so that I can be informed about the metadata description.
+
+        - calling model 14:20:02
+        - calling model 14:20:05
+        - calling model 14:20:09
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_29.json
+- Story #[30] -- started at 14:20:12
+    - #G22# As a rector, I want to know how many data will be stored, so that I can plan long term resources.
+
+        - calling model 14:20:12
+        - calling model 14:20:16
+        - calling model 14:20:19
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_30.json
+- Story #[31] -- started at 14:20:23
+    - #G22# As a data manager, I want to know the time plan for collecting data, so that I can plan the data management.
+
+        - calling model 14:20:23
+        - calling model 14:20:28
+        - calling model 14:20:31
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_31.json
+- Story #[32] -- started at 14:20:37
+    - #G22# As a data librarian, I want to import administrative information regarding a project into DMP, so that I can prepopulate the DMP.
+
+        - calling model 14:20:37
+        - calling model 14:20:40
+        - calling model 14:20:44
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_32.json
+- Story #[33] -- started at 14:20:49
+    - #G22# As a manager, I want to know about all resources and services used for the data, so that I can estimate the true cost of the project.
+
+        - calling model 14:20:49
+        - calling model 14:20:53
+        - calling model 14:20:56
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_33.json
+- Story #[34] -- started at 14:21:02
+    - #G22# As an archivemanager, I want to reuse the information regarding file format, so that I can apply automated checks for the file validation.
+
+        - calling model 14:21:02
+        - calling model 14:21:06
+        - calling model 14:21:09
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_34.json
+- Story #[35] -- started at 14:21:15
+    - #G22# As a researcher, I want to know how many resources are needed during the project, so that I can calculate costs.
+
+        - calling model 14:21:15
+        - calling model 14:21:19
+        - calling model 14:21:22
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_35.json
+- Story #[36] -- started at 14:21:27
+    - #G22# As a researcher, I want to extract the description of the data collected, so that I can reuse it for the writing of a data paper.
+
+        - calling model 14:21:27
+        - calling model 14:21:30
+       - exception caught! Pausing for 60 seconds
+        - calling model 14:23:00
+        - calling model 14:23:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_36.json
+- Story #[37] -- started at 14:23:08
+    - #G22# As a researcher, I want to record research publications in the institutional repository or CRIS with DMP records, so that I can generate reports of research output resulting from a project.
+
+        - calling model 14:23:08
+        - calling model 14:23:12
+        - calling model 14:23:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_37.json
+- Story #[38] -- started at 14:23:24
+    - #G22# As a researcher, I want to link research publications in the institutional repository or CRIS with DMP records, so that I can generate reports of research output resulting from a project.
+
+        - calling model 14:23:24
+        - calling model 14:23:28
+        - calling model 14:23:31
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_38.json
+- Story #[39] -- started at 14:23:41
+    - #G22# As a researcher, I want to store agreements relating to third party data used in a project, so that the data can be cited, attributed and used correctly.
+
+        - calling model 14:23:41
+        - calling model 14:23:45
+        - calling model 14:23:49
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_39.json
+- Story #[40] -- started at 14:23:56
+    - #G22# As an ethics manager, I want to be informed about the data, so that I can check for sensitivity of data.
+
+        - calling model 14:23:56
+        - calling model 14:24:00
+        - calling model 14:24:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_40.json
+- Story #[41] -- started at 14:24:08
+    - #G22# As a repository operator, I want to know about the kind of data, so that I can evaluate the storage size and system.
+
+        - calling model 14:24:08
+        - calling model 14:24:12
+        - calling model 14:24:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_41.json
+- Story #[42] -- started at 14:24:23
+    - #G22# As a researcher, I want to know about costs, so that I can plan my research.
+
+        - calling model 14:24:23
+        - calling model 14:24:27
+        - calling model 14:24:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_42.json
+- Story #[43] -- started at 14:24:35
+    - #G22# As a repository manager, I need details on the type of data, so that I can check if the archiving can be arranged.
+
+        - calling model 14:24:35
+        - calling model 14:24:39
+        - calling model 14:24:42
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_43.json
+- Story #[44] -- started at 14:24:46
+    - #G22# As an IT officer, I want to know how secure data is, so that I can ensure legal compliance.
+
+        - calling model 14:24:46
+        - calling model 14:24:50
+        - calling model 14:24:53
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_44.json
+- Story #[45] -- started at 14:24:58
+    - #G22# As a funder, I want to know how secure data is, so that I can ensure legal compliance.
+
+        - calling model 14:24:58
+        - calling model 14:25:02
+        - calling model 14:25:05
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_45.json
+- Story #[46] -- started at 14:25:10
+    - #G22# As a Research Centre Director, I want to receive regular summary reports of research data, so that I understand trends in data use among staff and postgraduate students.
+
+        - calling model 14:25:10
+       - exception caught! Pausing for 60 seconds
+        - calling model 14:26:40
+        - calling model 14:26:44
+        - calling model 14:26:48
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_46.json
+- Story #[47] -- started at 14:26:55
+    - #G22# As a Postgraduate Convenor, I want to receive regular summary reports of research data, so that I understand trends in data use among staff and postgraduate students.
+
+        - calling model 14:26:55
+       - exception caught! Pausing for 60 seconds
+        - calling model 14:28:25
+        - calling model 14:28:29
+        - calling model 14:28:32
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_47.json
+- Story #[48] -- started at 14:28:40
+    - #G22# As a research support officer, I want to ensure compliance to the funders’ rules, so that I can ensure all costs will be accepted.
+
+        - calling model 14:28:40
+        - calling model 14:28:43
+        - calling model 14:28:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_48.json
+- Story #[49] -- started at 14:28:53
+    - #G22# As a funder, I want to be able to check all the repositories mentioned in a DMP, so that I can verify whether the project has followed our funding rules.
+
+        - calling model 14:28:53
+        - calling model 14:28:57
+        - calling model 14:29:01
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_49.json
+- Story #[50] -- started at 14:29:09
+    - #G22# As a PI, I want to plan what kind of data I want to store, so that I can ensure it will be possible to store it.
+
+        - calling model 14:29:09
+        - calling model 14:29:12
+        - calling model 14:29:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_50.json
+- Story #[51] -- started at 14:29:21
+    - #G22# As a PI, I want to know how secure data is, so that I can ensure legal compliance.
+
+        - calling model 14:29:21
+        - calling model 14:29:24
+        - calling model 14:29:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_51.json
+- Story #[52] -- started at 14:29:32
+    - #G22# As a Director of Research Integrity, I want to access reports containing details of research projects in which data are classified as sensitive or highly sensitive, so that I can confirm security protocols are applied to these data.
+
+        - calling model 14:29:32
+        - calling model 14:29:36
+        - calling model 14:29:39
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_52.json
+- Story #[53] -- started at 14:29:46
+    - #G22# As an archive, I want to get information about the volume of data to preserve at an early stage, so that I can provide the adequate storage infrastructure.
+
+        - calling model 14:29:46
+        - calling model 14:29:50
+        - calling model 14:29:54
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_53.json
+- Story #[54] -- started at 14:30:00
+    - #G22# As a researcher, I want to know how long it will take to archive, so that I can plan further steps.
+
+        - calling model 14:30:00
+        - calling model 14:30:04
+        - calling model 14:30:07
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_54.json
+- Story #[55] -- started at 14:30:12
+    - #G22# As a PI, I want to know who owns the data, so that I know what I am allowed to do with it.
+
+        - calling model 14:30:12
+        - calling model 14:30:16
+        - calling model 14:30:19
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_55.json
+- Story #[56] -- started at 14:30:23
+    - #G22# As a data manager, I want to have references to documentation of the data and its creation process, so that the data can be re-used and managed.
+
+        - calling model 14:30:23
+        - calling model 14:30:27
+        - calling model 14:30:31
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_56.json
+- Story #[57] -- started at 14:30:38
+    - #G22# As an archivemanager, I want to make sure that detailed metadata are associated to data so that it will be understandable by future users.
+
+        - calling model 14:30:38
+        - calling model 14:30:41
+        - calling model 14:30:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_57.json
+- Story #[58] -- started at 14:30:49
+    - #G22# As a data manager, I want to know which kind of data types will be produced or collected, so that I can ensure that the necessary technical resources and technical know-how is available.
+
+        - calling model 14:30:49
+        - calling model 14:30:53
+        - calling model 14:30:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_58.json
+- Story #[59] -- started at 14:31:05
+    - #G22# As an IT staff member, I want to know which kind of data types will be produced or collected, so that I can ensure that the necessary technical resources and technical know-how is available.
+
+        - calling model 14:31:05
+        - calling model 14:31:09
+        - calling model 14:31:13
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_59.json
+- Story #[60] -- started at 14:31:21
+    - #G22# As an IT staff member, I want to know how the data is used, so that I can determine what kind of basic services and functionalities are required.
+
+        - calling model 14:31:21
+       - exception caught! Pausing for 60 seconds
+        - calling model 14:32:51
+        - calling model 14:32:55
+        - calling model 14:32:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_60.json
+- Story #[61] -- started at 14:33:04
+    - #G22# As a data manager, I want to know whether the collected data depends on other data sets from my own or other institutions, so that I can ensure that these dependencies are maintained.
+
+        - calling model 14:33:04
+        - calling model 14:33:08
+        - calling model 14:33:12
+       - exception caught! Pausing for 60 seconds
+        - calling model 14:34:42
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_61.json
+- Story #[62] -- started at 14:34:50
+    - #G22# As an IT staff member, I want to know which formats are used, so that I can determine what kind of technical services and functionalities are required.
+
+        - calling model 14:34:50
+        - calling model 14:34:53
+        - calling model 14:34:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_62.json
+- Story #[63] -- started at 14:35:04
+    - #G22# As an IT staff member, I want to know with which software or technology the data is produced or used, so that I can determine what kind of technical services and functionalities are required.
+
+        - calling model 14:35:04
+        - calling model 14:35:08
+        - calling model 14:35:12
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_63.json
+- Story #[64] -- started at 14:35:19
+    - #G22# As a data manager, I want to know which information is necessary to re-use the data, so that it can be checked whether all necessary information is available for researchers interested in re-using the data.
+
+        - calling model 14:35:19
+        - calling model 14:35:22
+        - calling model 14:35:26
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_64.json
+- Story #[65] -- started at 14:35:33
+    - #G22# As a data manager, I want to know which formats are used, so that I know what technology or background information might be necessary to use the data.
+
+        - calling model 14:35:33
+        - calling model 14:35:37
+        - calling model 14:35:40
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_65.json
+- Story #[66] -- started at 14:35:45
+    - #G22# As a data manager, I want to know whether the data can be reproduced efficiently, so that I can determine whether and how the data has to be stored.
+
+        - calling model 14:35:45
+        - calling model 14:35:49
+        - calling model 14:35:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_66.json
+- Story #[67] -- started at 14:36:01
+    - #G22# As a data manager, I want to know with which software or technology the data is produced or used, so that I know what technology or background information might be necessary to (re-)use the data.
+
+        - calling model 14:36:01
+        - calling model 14:36:05
+        - calling model 14:36:08
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_67.json
+- Story #[68] -- started at 14:36:16
+    - #G22# As a research evaluation manager, I want to ensure all data are quoted correctly with our affiliation, so that they are counted towards our citation counts.
+
+        - calling model 14:36:16
+        - calling model 14:36:19
+        - calling model 14:36:23
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_68.json
+- Story #[69] -- started at 14:36:27
+    - #G22# As an administrator, I want to check that all data has the appropriate security level, so that I can demonstrate compliance.
+
+        - calling model 14:36:27
+        - calling model 14:36:30
+        - calling model 14:36:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_69.json
+- Story #[70] -- started at 14:36:37
+    - #G22# As a data manager, I want to know the security requirements of the data, so that I can check whether the data can be kept secure.
+
+        - calling model 14:36:37
+       - exception caught! Pausing for 60 seconds
+        - calling model 14:38:07
+        - calling model 14:38:11
+        - calling model 14:38:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_70.json
+- Story #[71] -- started at 14:38:19
+    - #G22# As a institutional data steward, I want to be able to extract the data sets that are submitted to external repositories, so that I can add them to an institutional data catalogue.
+
+        - calling model 14:38:19
+        - calling model 14:38:23
+        - calling model 14:38:27
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_71.json
+- Story #[72] -- started at 14:38:32
+    - #G22# As an institutional data manager, I want to know about the privacy and security requirements of the data, so that I can plan the right storage system and sharing permissions.
+
+        - calling model 14:38:32
+        - calling model 14:38:36
+       - exception caught! Pausing for 60 seconds
+        - calling model 14:40:06
+        - calling model 14:40:10
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_72.json
+- Story #[73] -- started at 14:40:16
+    - #G22# As a researcher, I want to see the sections on costing by other researchers in my department, so that I can see if we could share data manager posts.
+
+        - calling model 14:40:16
+        - calling model 14:40:20
+        - calling model 14:40:23
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_73.json
+- Story #[74] -- started at 14:40:29
+    - #G22# As a researcher, I want to see the sections on roles submitted by other researchers in my department, so that I can see if we could share data manager posts.
+
+        - calling model 14:40:29
+        - calling model 14:40:33
+        - calling model 14:40:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_74.json
+- Story #[75] -- started at 14:40:45
+    - #G22# As a researcher, I want to see the sections on responsibilities submitted by other researchers in my department, so that I can see if we could share data manager posts.
+
+        - calling model 14:40:45
+        - calling model 14:40:49
+        - calling model 14:40:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_75.json
+- Story #[76] -- started at 14:40:59
+    - #G22# As a faculty data steward, I want to see the sections on costing, so that I can ensure sufficient expertise on data management to support the project.
+
+        - calling model 14:40:59
+        - calling model 14:41:03
+        - calling model 14:41:06
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_76.json
+- Story #[77] -- started at 14:41:11
+    - #G22# As a faculty data steward, I want to see the sections on roles, so that I can ensure sufficient expertise on data management to support the project.
+
+        - calling model 14:41:11
+        - calling model 14:41:16
+        - calling model 14:41:19
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_77.json
+- Story #[78] -- started at 14:41:26
+    - #G22# As a faculty data steward, I want to see the sections on responsibilities, so that I can ensure sufficient expertise on data management to support the project.
+
+        - calling model 14:41:26
+        - calling model 14:41:29
+        - calling model 14:41:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_78.json
+- Story #[79] -- started at 14:41:44
+    - #G22# As a data manager, I want to clarify the necessary rights for re-using the data, so that it is legal to reuse the data.
+
+        - calling model 14:41:44
+        - calling model 14:41:47
+        - calling model 14:41:51
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_79.json
+- Story #[80] -- started at 14:41:55
+    - #G22# As a researcher, I want to record my intention to share data I have collected under terms of a particular licence, so that other researchers who use the data understand the rights of use.
+
+        - calling model 14:41:55
+        - calling model 14:41:59
+        - calling model 14:42:02
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_80.json
+- Story #[81] -- started at 14:42:10
+    - #G22# As a data manager, I want to plan the anonymization of data, so that we protect the privacy of the people participating in the research as good as possible and still ensure reusability of data.
+
+        - calling model 14:42:10
+        - calling model 14:42:14
+        - calling model 14:42:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_81.json
+- Story #[82] -- started at 14:42:21
+    - #G22# As a repository manager, I want to have metadata in additional languages, so that I can allow for multilingual data archive.
+
+        - calling model 14:42:21
+        - calling model 14:42:25
+        - calling model 14:42:29
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_82.json
+- Story #[83] -- started at 14:42:34
+    - #G22# As a data manager, I want to know whether the DMP was approved, so that I can proceed with the required next steps.
+
+        - calling model 14:42:34
+        - calling model 14:42:38
+        - calling model 14:42:41
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_83.json
+END: 14:42:46

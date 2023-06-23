@@ -1,0 +1,75 @@
+{
+  "story": "#G22# As a repository operator, I want to know about the kind of data, so that I can evaluate the storage size and system.\n",
+  "extraction": {
+    "personas": [
+      "repository operator"
+    ],
+    "entities": [
+      "data",
+      "storage size",
+      "system"
+    ],
+    "actions": [
+      "know",
+      "evaluate"
+    ],
+    "benefit": "I can evaluate the storage size and system"
+  },
+  "categories": {
+    "primary_entities": [
+      "data",
+      "storage size",
+      "system"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "evaluate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository operator",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "storage size",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "system",
+        "kind": "targets"
+      },
+      {
+        "from": "evaluate",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "evaluate",
+        "to": "storage size",
+        "kind": "targets"
+      },
+      {
+        "from": "evaluate",
+        "to": "system",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1319,
+    "output": 298,
+    "time (ns)": 8581753000
+  }
+}

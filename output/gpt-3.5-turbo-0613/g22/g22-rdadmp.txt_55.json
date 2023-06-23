@@ -1,0 +1,44 @@
+{
+  "story": "#G22# As a PI, I want to know who owns the data, so that I know what I am allowed to do with it.\n",
+  "extraction": {
+    "personas": [
+      "PI"
+    ],
+    "entities": [
+      "data"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "I know what I am allowed to do with it"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "PI",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1291,
+    "output": 151,
+    "time (ns)": 4859127000
+  }
+}

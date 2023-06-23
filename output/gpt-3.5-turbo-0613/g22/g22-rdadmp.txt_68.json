@@ -1,0 +1,47 @@
+{
+  "story": "#G22# As a research evaluation manager, I want to ensure all data are quoted correctly with our affiliation, so that they are counted towards our citation counts.\n",
+  "extraction": {
+    "personas": [
+      "research evaluation manager"
+    ],
+    "entities": [
+      "data"
+    ],
+    "actions": [
+      "ensure",
+      "quote"
+    ],
+    "benefit": "they are counted towards our citation counts"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "ensure"
+    ],
+    "secondary_actions": [
+      "quote"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "research evaluation manager",
+        "to": "ensure",
+        "kind": "triggers"
+      },
+      {
+        "from": "ensure",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1305,
+    "output": 157,
+    "time (ns)": 4943648000
+  }
+}

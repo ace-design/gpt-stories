@@ -1,0 +1,56 @@
+{
+  "story": "#G22# As a data manager, I want to know whether the DMP was approved, so that I can proceed with the required next steps.\n",
+  "extraction": {
+    "personas": [
+      "data manager"
+    ],
+    "entities": [
+      "DMP"
+    ],
+    "actions": [
+      "know",
+      "proceed"
+    ],
+    "benefit": "I can proceed with the required next steps"
+  },
+  "categories": {
+    "primary_entities": [
+      "DMP"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "proceed"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "DMP",
+        "kind": "targets"
+      },
+      {
+        "from": "data manager",
+        "to": "proceed",
+        "kind": "triggers"
+      },
+      {
+        "from": "proceed",
+        "to": "required next steps",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1307,
+    "output": 218,
+    "time (ns)": 6277002000
+  }
+}

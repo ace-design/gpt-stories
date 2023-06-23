@@ -1,0 +1,56 @@
+{
+  "story": "#G22# As an archivemanager, I want to reuse the information regarding file format, so that I can apply automated checks for the file validation.\n",
+  "extraction": {
+    "personas": [
+      "archivemanager"
+    ],
+    "entities": [
+      "file format"
+    ],
+    "actions": [
+      "reuse",
+      "apply automated checks"
+    ],
+    "benefit": "I can apply automated checks for the file validation"
+  },
+  "categories": {
+    "primary_entities": [
+      "file format"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "reuse",
+      "apply automated checks"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivemanager",
+        "to": "reuse",
+        "kind": "triggers"
+      },
+      {
+        "from": "reuse",
+        "to": "file format",
+        "kind": "targets"
+      },
+      {
+        "from": "archivemanager",
+        "to": "apply automated checks",
+        "kind": "triggers"
+      },
+      {
+        "from": "apply automated checks",
+        "to": "file format",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1322,
+    "output": 228,
+    "time (ns)": 6727744000
+  }
+}

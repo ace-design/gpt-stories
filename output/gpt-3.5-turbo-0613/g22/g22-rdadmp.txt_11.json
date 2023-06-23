@@ -1,0 +1,72 @@
+{
+  "story": "#G22# As a data manager, I want to know what the content of the data is, so that I can decide to which collection or repository the data fits.\n",
+  "extraction": {
+    "personas": [
+      "data manager"
+    ],
+    "entities": [
+      "data",
+      "collection",
+      "repository"
+    ],
+    "actions": [
+      "know",
+      "decide"
+    ],
+    "benefit": "I can decide to which collection or repository the data fits"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [
+      "collection",
+      "repository"
+    ],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "decide"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "collection",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "decide",
+        "to": "collection",
+        "kind": "targets"
+      },
+      {
+        "from": "decide",
+        "to": "repository",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1337,
+    "output": 274,
+    "time (ns)": 12079166000
+  }
+}

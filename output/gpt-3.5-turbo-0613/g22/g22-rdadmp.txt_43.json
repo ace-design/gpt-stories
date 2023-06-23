@@ -1,0 +1,47 @@
+{
+  "story": "#G22# As a repository manager, I need details on the type of data, so that I can check if the archiving can be arranged.\n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "type of data",
+      "archiving"
+    ],
+    "actions": [
+      "check"
+    ],
+    "benefit": "I can check if the archiving can be arranged"
+  },
+  "categories": {
+    "primary_entities": [
+      "type of data"
+    ],
+    "secondary_entities": [
+      "archiving"
+    ],
+    "primary_actions": [
+      "check"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "check",
+        "kind": "triggers"
+      },
+      {
+        "from": "check",
+        "to": "type of data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1313,
+    "output": 166,
+    "time (ns)": 5078963000
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "story": "#G22# As a researcher, I want to know about costs, so that I can plan my research.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "costs"
+    ],
+    "actions": [
+      "know",
+      "plan"
+    ],
+    "benefit": "I can plan my research"
+  },
+  "categories": {
+    "primary_entities": [
+      "costs"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "plan"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "researcher",
+        "to": "plan",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "costs",
+        "kind": "targets"
+      },
+      {
+        "from": "plan",
+        "to": "costs",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1274,
+    "output": 210,
+    "time (ns)": 6285017000
+  }
+}

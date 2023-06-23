@@ -1,0 +1,70 @@
+{
+  "story": "#G22# As an archivemanager, I want to know in advance the conservation period of data, so that I can better organize the service by adapting the preservation actions.\n",
+  "extraction": {
+    "personas": [
+      "archivemanager"
+    ],
+    "entities": [
+      "data",
+      "service"
+    ],
+    "actions": [
+      "know",
+      "organize",
+      "adapt"
+    ],
+    "benefit": "better organize the service by adapting the preservation actions"
+  },
+  "categories": {
+    "primary_entities": [
+      "data",
+      "service"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "organize",
+      "adapt"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivemanager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "archivemanager",
+        "to": "organize",
+        "kind": "triggers"
+      },
+      {
+        "from": "organize",
+        "to": "service",
+        "kind": "targets"
+      },
+      {
+        "from": "archivemanager",
+        "to": "adapt",
+        "kind": "triggers"
+      },
+      {
+        "from": "adapt",
+        "to": "service",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1346,
+    "output": 286,
+    "time (ns)": 9173737000
+  }
+}

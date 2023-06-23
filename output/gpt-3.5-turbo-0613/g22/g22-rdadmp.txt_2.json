@@ -1,0 +1,56 @@
+{
+  "story": "#G22# As a researcher, I want to indicate where my data will be stored during the project and where after the project, so that it remains accessible during all stages of the data lifecycle.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "data"
+    ],
+    "actions": [
+      "indicate",
+      "store"
+    ],
+    "benefit": "data remains accessible during all stages of the data lifecycle"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "indicate",
+      "store"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "researcher",
+        "to": "store",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "store",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1335,
+    "output": 215,
+    "time (ns)": 6972092000
+  }
+}

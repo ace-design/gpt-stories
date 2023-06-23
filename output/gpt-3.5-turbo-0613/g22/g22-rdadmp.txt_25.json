@@ -1,0 +1,77 @@
+{
+  "story": "#G22# As a researcher, I want the DMP to prepopulate information that I have already entered in other institutional systems, so that I do not have to re-enter information ensuring the DMP contains accurate and standardized information.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "DMP",
+      "institutional systems"
+    ],
+    "actions": [
+      "prepopulate",
+      "enter",
+      "ensure"
+    ],
+    "benefit": "I do not have to re-enter information ensuring the DMP contains accurate and standardized information."
+  },
+  "categories": {
+    "primary_entities": [
+      "DMP"
+    ],
+    "secondary_entities": [
+      "institutional systems"
+    ],
+    "primary_actions": [
+      "prepopulate"
+    ],
+    "secondary_actions": [
+      "enter",
+      "ensure"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "prepopulate",
+        "kind": "triggers"
+      },
+      {
+        "from": "prepopulate",
+        "to": "DMP",
+        "kind": "targets"
+      },
+      {
+        "from": "enter",
+        "to": "DMP",
+        "kind": "targets"
+      },
+      {
+        "from": "ensure",
+        "to": "DMP",
+        "kind": "targets"
+      },
+      {
+        "from": "researcher",
+        "to": "enter",
+        "kind": "triggers"
+      },
+      {
+        "from": "researcher",
+        "to": "ensure",
+        "kind": "triggers"
+      },
+      {
+        "from": "institutional systems",
+        "to": "prepopulate",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1396,
+    "output": 322,
+    "time (ns)": 10758258000
+  }
+}

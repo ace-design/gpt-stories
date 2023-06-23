@@ -1,0 +1,82 @@
+{
+  "story": "#G22# As a data manager, I want to document all rights necessary for managing the data, so that I can curate and preserve the data.\n",
+  "extraction": {
+    "personas": [
+      "data manager"
+    ],
+    "entities": [
+      "rights",
+      "data"
+    ],
+    "actions": [
+      "document",
+      "managing",
+      "curate",
+      "preserve"
+    ],
+    "benefit": "I can curate and preserve the data"
+  },
+  "categories": {
+    "primary_entities": [
+      "rights",
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "document",
+      "managing",
+      "curate",
+      "preserve"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data manager",
+        "to": "document",
+        "kind": "triggers"
+      },
+      {
+        "from": "document",
+        "to": "rights",
+        "kind": "targets"
+      },
+      {
+        "from": "data manager",
+        "to": "managing",
+        "kind": "triggers"
+      },
+      {
+        "from": "managing",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "data manager",
+        "to": "curate",
+        "kind": "triggers"
+      },
+      {
+        "from": "curate",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "data manager",
+        "to": "preserve",
+        "kind": "triggers"
+      },
+      {
+        "from": "preserve",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1337,
+    "output": 339,
+    "time (ns)": 10814346000
+  }
+}

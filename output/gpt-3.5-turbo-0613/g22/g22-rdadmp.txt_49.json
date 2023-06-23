@@ -1,0 +1,87 @@
+{
+  "story": "#G22# As a funder, I want to be able to check all the repositories mentioned in a DMP, so that I can verify whether the project has followed our funding rules.\n",
+  "extraction": {
+    "personas": [
+      "funder"
+    ],
+    "entities": [
+      "repositories",
+      "DMP",
+      "project",
+      "funding rules"
+    ],
+    "actions": [
+      "check",
+      "verify"
+    ],
+    "benefit": "I can verify whether the project has followed our funding rules"
+  },
+  "categories": {
+    "primary_entities": [
+      "repositories",
+      "DMP",
+      "project",
+      "funding rules"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "check",
+      "verify"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "funder",
+        "to": "check",
+        "kind": "triggers"
+      },
+      {
+        "from": "check",
+        "to": "repositories",
+        "kind": "targets"
+      },
+      {
+        "from": "check",
+        "to": "DMP",
+        "kind": "targets"
+      },
+      {
+        "from": "check",
+        "to": "project",
+        "kind": "targets"
+      },
+      {
+        "from": "check",
+        "to": "funding rules",
+        "kind": "targets"
+      },
+      {
+        "from": "verify",
+        "to": "repositories",
+        "kind": "targets"
+      },
+      {
+        "from": "verify",
+        "to": "DMP",
+        "kind": "targets"
+      },
+      {
+        "from": "verify",
+        "to": "project",
+        "kind": "targets"
+      },
+      {
+        "from": "verify",
+        "to": "funding rules",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1367,
+    "output": 365,
+    "time (ns)": 9891172000
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "story": "#G22# As an archivemanager, I want to make sure that detailed metadata are associated to data so that it will be understandable by future users.\n",
+  "extraction": {
+    "personas": [
+      "archivemanager"
+    ],
+    "entities": [
+      "detailed metadata",
+      "data"
+    ],
+    "actions": [
+      "make sure",
+      "associated"
+    ],
+    "benefit": "it will be understandable by future users"
+  },
+  "categories": {
+    "primary_entities": [
+      "detailed metadata"
+    ],
+    "secondary_entities": [
+      "data"
+    ],
+    "primary_actions": [
+      "make sure"
+    ],
+    "secondary_actions": [
+      "associated"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivemanager",
+        "to": "make sure",
+        "kind": "triggers"
+      },
+      {
+        "from": "make sure",
+        "to": "detailed metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "make sure",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1324,
+    "output": 200,
+    "time (ns)": 5822234000
+  }
+}

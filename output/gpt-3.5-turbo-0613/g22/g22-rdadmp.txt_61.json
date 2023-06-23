@@ -1,0 +1,83 @@
+{
+  "story": "#G22# As a data manager, I want to know whether the collected data depends on other data sets from my own or other institutions, so that I can ensure that these dependencies are maintained.\n",
+  "extraction": {
+    "personas": [
+      "data manager"
+    ],
+    "entities": [
+      "collected data",
+      "other data sets",
+      "my own",
+      "other institutions",
+      "dependencies"
+    ],
+    "actions": [
+      "know",
+      "depend",
+      "maintain"
+    ],
+    "benefit": "ensure that these dependencies are maintained"
+  },
+  "categories": {
+    "primary_entities": [
+      "collected data",
+      "dependencies"
+    ],
+    "secondary_entities": [
+      "other data sets",
+      "my own",
+      "other institutions"
+    ],
+    "primary_actions": [
+      "know",
+      "maintain"
+    ],
+    "secondary_actions": [
+      "depend"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "collected data",
+        "kind": "targets"
+      },
+      {
+        "from": "data manager",
+        "to": "depend",
+        "kind": "triggers"
+      },
+      {
+        "from": "depend",
+        "to": "other data sets",
+        "kind": "targets"
+      },
+      {
+        "from": "depend",
+        "to": "my own",
+        "kind": "targets"
+      },
+      {
+        "from": "depend",
+        "to": "other institutions",
+        "kind": "targets"
+      },
+      {
+        "from": "maintain",
+        "to": "dependencies",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1387,
+    "output": 331,
+    "time (ns)": 9311440000
+  }
+}

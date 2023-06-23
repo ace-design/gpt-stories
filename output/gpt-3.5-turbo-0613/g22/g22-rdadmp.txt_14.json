@@ -1,0 +1,68 @@
+{
+  "story": "#G22# As a data librarian, I want to extract pointers from the DMP to metadata held in other systems, so that I can import this metadata into a data catalogue.\n",
+  "extraction": {
+    "personas": [
+      "data librarian"
+    ],
+    "entities": [
+      "DMP",
+      "metadata",
+      "other systems",
+      "data catalogue"
+    ],
+    "actions": [
+      "extract",
+      "import"
+    ],
+    "benefit": "I can import this metadata into a data catalogue"
+  },
+  "categories": {
+    "primary_entities": [
+      "DMP",
+      "metadata",
+      "data catalogue"
+    ],
+    "secondary_entities": [
+      "other systems"
+    ],
+    "primary_actions": [
+      "extract",
+      "import"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data librarian",
+        "to": "extract",
+        "kind": "triggers"
+      },
+      {
+        "from": "extract",
+        "to": "DMP",
+        "kind": "targets"
+      },
+      {
+        "from": "data librarian",
+        "to": "import",
+        "kind": "triggers"
+      },
+      {
+        "from": "import",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "import",
+        "to": "data catalogue",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1356,
+    "output": 260,
+    "time (ns)": 10102615000
+  }
+}

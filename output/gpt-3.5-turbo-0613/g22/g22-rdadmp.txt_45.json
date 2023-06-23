@@ -1,0 +1,56 @@
+{
+  "story": "#G22# As a funder, I want to know how secure data is, so that I can ensure legal compliance.\n",
+  "extraction": {
+    "personas": [
+      "funder"
+    ],
+    "entities": [
+      "data"
+    ],
+    "actions": [
+      "know",
+      "ensure"
+    ],
+    "benefit": "I can ensure legal compliance"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "ensure"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "funder",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "funder",
+        "to": "ensure",
+        "kind": "triggers"
+      },
+      {
+        "from": "ensure",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1280,
+    "output": 206,
+    "time (ns)": 6192354000
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "story": "#G22# As an IT staff member, I want to know which kind of data types will be produced or collected, so that I can determine what basic support services and functionalities are required.\n",
+  "extraction": {
+    "personas": [
+      "IT staff member"
+    ],
+    "entities": [
+      "data types",
+      "basic support services",
+      "functionalities"
+    ],
+    "actions": [
+      "know",
+      "produce",
+      "collect",
+      "determine",
+      "require"
+    ],
+    "benefit": "determine what basic support services and functionalities are required"
+  },
+  "categories": {
+    "primary_entities": [
+      "data types",
+      "basic support services",
+      "functionalities"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "determine",
+      "require"
+    ],
+    "secondary_actions": [
+      "produce",
+      "collect"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "IT staff member",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "data types",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "basic support services",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "functionalities",
+        "kind": "targets"
+      },
+      {
+        "from": "IT staff member",
+        "to": "determine",
+        "kind": "triggers"
+      },
+      {
+        "from": "determine",
+        "to": "basic support services",
+        "kind": "targets"
+      },
+      {
+        "from": "determine",
+        "to": "functionalities",
+        "kind": "targets"
+      },
+      {
+        "from": "IT staff member",
+        "to": "require",
+        "kind": "triggers"
+      },
+      {
+        "from": "require",
+        "to": "basic support services",
+        "kind": "targets"
+      },
+      {
+        "from": "require",
+        "to": "functionalities",
+        "kind": "targets"
+      },
+      {
+        "from": "IT staff member",
+        "to": "produce",
+        "kind": "triggers"
+      },
+      {
+        "from": "produce",
+        "to": "data types",
+        "kind": "targets"
+      },
+      {
+        "from": "IT staff member",
+        "to": "collect",
+        "kind": "triggers"
+      },
+      {
+        "from": "collect",
+        "to": "data types",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1389,
+    "output": 527,
+    "time (ns)": 15918413000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G22# As a researcher, I want to extract the description of the data collected, so that I can reuse it for the writing of a data paper.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "data collected"
+    ],
+    "actions": [
+      "extract"
+    ],
+    "benefit": "reuse it for the writing of a data paper"
+  },
+  "categories": {
+    "primary_entities": [
+      "data collected"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "extract"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "extract",
+        "kind": "triggers"
+      },
+      {
+        "from": "extract",
+        "to": "data collected",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1303,
+    "output": 155,
+    "time (ns)": 5250613000
+  }
+}

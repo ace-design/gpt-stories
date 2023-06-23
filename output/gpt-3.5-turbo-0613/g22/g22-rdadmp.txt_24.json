@@ -1,0 +1,44 @@
+{
+  "story": "#G22# As a funder, I want to be able to read the costs for data management from the DMP, so that I can check whether our policies work as intended.\n",
+  "extraction": {
+    "personas": [
+      "funder"
+    ],
+    "entities": [
+      "DMP"
+    ],
+    "actions": [
+      "read"
+    ],
+    "benefit": "I can check whether our policies work as intended"
+  },
+  "categories": {
+    "primary_entities": [
+      "DMP"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "read"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "funder",
+        "to": "read",
+        "kind": "triggers"
+      },
+      {
+        "from": "read",
+        "to": "DMP",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1318,
+    "output": 155,
+    "time (ns)": 6083627000
+  }
+}

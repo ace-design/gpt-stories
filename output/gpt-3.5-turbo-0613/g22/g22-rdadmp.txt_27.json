@@ -1,0 +1,57 @@
+{
+  "story": "#G22# As a stakeholder, I want to know who is responsible for the DMP, so that I can ask them about further details.\n",
+  "extraction": {
+    "personas": [
+      "stakeholder"
+    ],
+    "entities": [
+      "DMP"
+    ],
+    "actions": [
+      "know",
+      "ask"
+    ],
+    "benefit": "I can ask them about further details"
+  },
+  "categories": {
+    "primary_entities": [
+      "DMP"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "ask"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "stakeholder",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "DMP",
+        "kind": "targets"
+      },
+      {
+        "from": "stakeholder",
+        "to": "ask",
+        "kind": "triggers"
+      },
+      {
+        "from": "ask",
+        "to": "DMP",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1302,
+    "output": 214,
+    "time (ns)": 6399384000
+  }
+}

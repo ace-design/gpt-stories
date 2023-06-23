@@ -1,0 +1,75 @@
+{
+  "story": "#G22# As a data manager, I want to know which kind of data types will be produced or collected, so that I can determine what basic support services and functionalities are required.\n",
+  "extraction": {
+    "personas": [
+      "data manager"
+    ],
+    "entities": [
+      "data types",
+      "support services",
+      "functionalities"
+    ],
+    "actions": [
+      "know",
+      "determine"
+    ],
+    "benefit": "I can determine what basic support services and functionalities are required"
+  },
+  "categories": {
+    "primary_entities": [
+      "data types",
+      "support services",
+      "functionalities"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "determine"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "data types",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "support services",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "functionalities",
+        "kind": "targets"
+      },
+      {
+        "from": "determine",
+        "to": "data types",
+        "kind": "targets"
+      },
+      {
+        "from": "determine",
+        "to": "support services",
+        "kind": "targets"
+      },
+      {
+        "from": "determine",
+        "to": "functionalities",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1358,
+    "output": 314,
+    "time (ns)": 10164822000
+  }
+}

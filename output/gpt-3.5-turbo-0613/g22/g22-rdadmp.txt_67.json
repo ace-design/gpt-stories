@@ -1,0 +1,79 @@
+{
+  "story": "#G22# As a data manager, I want to know with which software or technology the data is produced or used, so that I know what technology or background information might be necessary to (re-)use the data.\n",
+  "extraction": {
+    "personas": [
+      "data manager"
+    ],
+    "entities": [
+      "software",
+      "technology",
+      "data"
+    ],
+    "actions": [
+      "know",
+      "produced",
+      "used",
+      "(re-)use"
+    ],
+    "benefit": "know what technology or background information might be necessary to (re-)use the data"
+  },
+  "categories": {
+    "primary_entities": [
+      "software",
+      "technology",
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "produced",
+      "used",
+      "(re-)use"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "software",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "technology",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "produced",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "used",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "(re-)use",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1404,
+    "output": 323,
+    "time (ns)": 9121687000
+  }
+}

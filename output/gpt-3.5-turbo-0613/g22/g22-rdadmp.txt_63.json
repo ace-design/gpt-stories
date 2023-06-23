@@ -1,0 +1,77 @@
+{
+  "story": "#G22# As an IT staff member, I want to know with which software or technology the data is produced or used, so that I can determine what kind of technical services and functionalities are required.\n",
+  "extraction": {
+    "personas": [
+      "IT staff member"
+    ],
+    "entities": [
+      "software",
+      "technology",
+      "data"
+    ],
+    "actions": [
+      "know",
+      "produce",
+      "used",
+      "determine",
+      "required"
+    ],
+    "benefit": "determine what kind of technical services and functionalities are required"
+  },
+  "categories": {
+    "primary_entities": [
+      "software",
+      "technology",
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "determine",
+      "required"
+    ],
+    "secondary_actions": [
+      "produce",
+      "used"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "IT staff member",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "software",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "technology",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "determine",
+        "kind": "triggers"
+      },
+      {
+        "from": "determine",
+        "to": "required",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1385,
+    "output": 296,
+    "time (ns)": 8474453000
+  }
+}

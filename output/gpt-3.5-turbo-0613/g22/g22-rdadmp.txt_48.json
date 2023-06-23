@@ -1,0 +1,58 @@
+{
+  "story": "#G22# As a research support officer, I want to ensure compliance to the funders\u2019 rules, so that I can ensure all costs will be accepted.\n",
+  "extraction": {
+    "personas": [
+      "research support officer"
+    ],
+    "entities": [
+      "funders' rules",
+      "costs"
+    ],
+    "actions": [
+      "ensure compliance",
+      "ensure all costs will be accepted"
+    ],
+    "benefit": "I can ensure all costs will be accepted"
+  },
+  "categories": {
+    "primary_entities": [
+      "funders' rules",
+      "costs"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "ensure compliance",
+      "ensure all costs will be accepted"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "research support officer",
+        "to": "ensure compliance",
+        "kind": "triggers"
+      },
+      {
+        "from": "ensure compliance",
+        "to": "funders' rules",
+        "kind": "targets"
+      },
+      {
+        "from": "research support officer",
+        "to": "ensure all costs will be accepted",
+        "kind": "triggers"
+      },
+      {
+        "from": "ensure all costs will be accepted",
+        "to": "costs",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1348,
+    "output": 254,
+    "time (ns)": 7360130000
+  }
+}

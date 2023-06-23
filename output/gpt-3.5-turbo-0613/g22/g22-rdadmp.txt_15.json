@@ -1,0 +1,58 @@
+{
+  "story": "#G22# As an IT staff member, I want to have an estimate of the produced data volume, so that I can plan the overall storage consumption.\n",
+  "extraction": {
+    "personas": [
+      "IT staff member"
+    ],
+    "entities": [
+      "produced data volume",
+      "overall storage consumption"
+    ],
+    "actions": [
+      "have an estimate",
+      "plan"
+    ],
+    "benefit": "I can plan the overall storage consumption"
+  },
+  "categories": {
+    "primary_entities": [
+      "produced data volume",
+      "overall storage consumption"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have an estimate",
+      "plan"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "IT staff member",
+        "to": "have an estimate",
+        "kind": "triggers"
+      },
+      {
+        "from": "have an estimate",
+        "to": "produced data volume",
+        "kind": "targets"
+      },
+      {
+        "from": "IT staff member",
+        "to": "plan",
+        "kind": "triggers"
+      },
+      {
+        "from": "plan",
+        "to": "overall storage consumption",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1334,
+    "output": 240,
+    "time (ns)": 10084434000
+  }
+}

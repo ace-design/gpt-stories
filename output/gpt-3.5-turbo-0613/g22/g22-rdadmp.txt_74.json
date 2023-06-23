@@ -1,0 +1,88 @@
+{
+  "story": "#G22# As a researcher, I want to see the sections on roles submitted by other researchers in my department, so that I can see if we could share data manager posts.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "sections",
+      "roles",
+      "researchers",
+      "department",
+      "data manager posts"
+    ],
+    "actions": [
+      "see",
+      "submitted",
+      "share"
+    ],
+    "benefit": "I can see if we could share data manager posts"
+  },
+  "categories": {
+    "primary_entities": [
+      "sections",
+      "roles",
+      "researchers",
+      "department"
+    ],
+    "secondary_entities": [
+      "data manager posts"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": [
+      "submitted",
+      "share"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "sections",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "roles",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "researchers",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "department",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "data manager posts",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "submitted",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "share",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1374,
+    "output": 346,
+    "time (ns)": 9552181000
+  }
+}

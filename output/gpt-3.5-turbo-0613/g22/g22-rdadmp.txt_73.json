@@ -1,0 +1,66 @@
+{
+  "story": "#G22# As a researcher, I want to see the sections on costing by other researchers in my department, so that I can see if we could share data manager posts.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "sections on costing",
+      "other researchers",
+      "my department",
+      "data manager posts"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "I can see if we could share data manager posts"
+  },
+  "categories": {
+    "primary_entities": [
+      "sections on costing",
+      "my department"
+    ],
+    "secondary_entities": [
+      "other researchers",
+      "data manager posts"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "sections on costing",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "other researchers",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "my department",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "data manager posts",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1355,
+    "output": 263,
+    "time (ns)": 7574273000
+  }
+}

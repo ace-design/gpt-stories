@@ -1,0 +1,56 @@
+{
+  "story": "#G22# As an ethics manager, I want to be informed about the data, so that I can check for sensitivity of data.\n",
+  "extraction": {
+    "personas": [
+      "ethics manager"
+    ],
+    "entities": [
+      "data"
+    ],
+    "actions": [
+      "be informed",
+      "check for sensitivity"
+    ],
+    "benefit": "I can check for sensitivity of data"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "be informed",
+      "check for sensitivity"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "ethics manager",
+        "to": "be informed",
+        "kind": "triggers"
+      },
+      {
+        "from": "be informed",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "ethics manager",
+        "to": "check for sensitivity",
+        "kind": "triggers"
+      },
+      {
+        "from": "check for sensitivity",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1301,
+    "output": 223,
+    "time (ns)": 6323237000
+  }
+}

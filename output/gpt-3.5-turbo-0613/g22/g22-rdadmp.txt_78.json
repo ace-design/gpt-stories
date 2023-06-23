@@ -1,0 +1,109 @@
+{
+  "story": "#G22# As a faculty data steward, I want to see the sections on responsibilities, so that I can ensure sufficient expertise on data management to support the project.\n",
+  "extraction": {
+    "personas": [
+      "faculty data steward"
+    ],
+    "entities": [
+      "sections",
+      "responsibilities",
+      "data management",
+      "project"
+    ],
+    "actions": [
+      "see",
+      "ensure",
+      "support"
+    ],
+    "benefit": "ensure sufficient expertise on data management to support the project"
+  },
+  "categories": {
+    "primary_entities": [
+      "sections",
+      "responsibilities",
+      "data management",
+      "project"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see",
+      "ensure",
+      "support"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "faculty data steward",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "sections",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "responsibilities",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "data management",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "project",
+        "kind": "targets"
+      },
+      {
+        "from": "ensure",
+        "to": "sections",
+        "kind": "targets"
+      },
+      {
+        "from": "ensure",
+        "to": "responsibilities",
+        "kind": "targets"
+      },
+      {
+        "from": "ensure",
+        "to": "data management",
+        "kind": "targets"
+      },
+      {
+        "from": "ensure",
+        "to": "project",
+        "kind": "targets"
+      },
+      {
+        "from": "support",
+        "to": "sections",
+        "kind": "targets"
+      },
+      {
+        "from": "support",
+        "to": "responsibilities",
+        "kind": "targets"
+      },
+      {
+        "from": "support",
+        "to": "data management",
+        "kind": "targets"
+      },
+      {
+        "from": "support",
+        "to": "project",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1358,
+    "output": 470,
+    "time (ns)": 12308754000
+  }
+}

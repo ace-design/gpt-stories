@@ -1,0 +1,69 @@
+{
+  "story": "#G22# As an institutional data manager, I want to know about the privacy and security requirements of the data, so that I can plan the right storage system and sharing permissions.\n",
+  "extraction": {
+    "personas": [
+      "institutional data manager"
+    ],
+    "entities": [
+      "privacy and security requirements",
+      "data",
+      "storage system",
+      "sharing permissions"
+    ],
+    "actions": [
+      "know",
+      "plan"
+    ],
+    "benefit": "plan the right storage system and sharing permissions"
+  },
+  "categories": {
+    "primary_entities": [
+      "privacy and security requirements",
+      "data"
+    ],
+    "secondary_entities": [
+      "storage system",
+      "sharing permissions"
+    ],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "plan"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "institutional data manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "privacy and security requirements",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "plan",
+        "to": "storage system",
+        "kind": "targets"
+      },
+      {
+        "from": "plan",
+        "to": "sharing permissions",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1362,
+    "output": 267,
+    "time (ns)": 7336617000
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "story": "#G22# As a metadata manager, I want to have a short description of project, so that I can be informed about the metadata description.\n",
+  "extraction": {
+    "personas": [
+      "metadata manager"
+    ],
+    "entities": [
+      "project",
+      "metadata"
+    ],
+    "actions": [
+      "have"
+    ],
+    "benefit": "I can be informed about the metadata description"
+  },
+  "categories": {
+    "primary_entities": [
+      "project"
+    ],
+    "secondary_entities": [
+      "metadata"
+    ],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "metadata manager",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "project",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1297,
+    "output": 156,
+    "time (ns)": 4617112000
+  }
+}

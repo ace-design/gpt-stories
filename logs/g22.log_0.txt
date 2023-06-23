@@ -1,0 +1,287 @@
+START: 13:52:30
+# Processing g22-rdadmp.txt
+- Story #[1] -- started at 13:52:30
+    - #G22# As a PI, I want to properly record all metadata, so that I can ensure proper running of the project in case of staff changes.
+
+        - calling model 13:52:30
+        - calling model 13:52:34
+        - calling model 13:52:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_1.json
+- Story #[2] -- started at 13:52:43
+    - #G22# As a researcher, I want to indicate where my data will be stored during the project and where after the project, so that it remains accessible during all stages of the data lifecycle.
+
+        - calling model 13:52:43
+        - calling model 13:52:47
+        - calling model 13:52:50
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_2.json
+- Story #[3] -- started at 13:52:56
+    - #G22# As a researcher, I want to import metadata that I captured with a metadata tool, so that I do not have to capture it again in a DMP.
+
+        - calling model 13:52:56
+        - calling model 13:53:00
+        - calling model 13:53:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_3.json
+- Story #[4] -- started at 13:53:09
+    - #G22# As a data manager, I want to know how the data is used, so that I can develop more detailed usage and support scenarios with researchers.
+
+        - calling model 13:53:09
+        - calling model 13:53:12
+        - calling model 13:53:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_4.json
+- Story #[5] -- started at 13:53:22
+    - #G22# As a repository owner, I want to be able to check the planned provenance of the data that will be submitted at the end of a project, so that I can calculate necessary submission fees and check whether it belongs to our target group.
+
+        - calling model 13:53:22
+        - calling model 13:53:26
+        - calling model 13:53:29
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_5.json
+- Story #[6] -- started at 13:53:38
+    - #G22# As an IT manager, I want to know about IT resource requirements early in the project lifecycle, so that I can enable resource acquisition planning.
+
+        - calling model 13:53:38
+        - calling model 13:53:41
+        - calling model 13:53:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_6.json
+- Story #[7] -- started at 13:53:50
+    - #G22# As a PI, I want to plan what kind of data I want to record/store, so that I can ensure it will possible to store it.
+
+        - calling model 13:53:50
+        - calling model 13:53:54
+        - calling model 13:53:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_7.json
+- Story #[8] -- started at 13:54:04
+    - #G22# As an IT staff member, I want to know the security requirements of the data, so that I know which kind of security measures to apply.
+
+        - calling model 13:54:04
+        - calling model 13:54:08
+        - calling model 13:54:11
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_8.json
+- Story #[9] -- started at 13:54:17
+    - #G22# As a data manager, I want to have the description of collected data sets that are used or updated throughout the project lifecycle, so that I can ensure the descriptions are current and add detail as the study proceeds.
+
+        - calling model 13:54:17
+        - calling model 13:54:21
+        - calling model 13:54:24
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_9.json
+- Story #[10] -- started at 13:54:32
+    - #G22# As a researcher, I want to know which topics are mandatory and similar in all DMPs, so that I can save time through quickly writing it.
+
+        - calling model 13:54:32
+        - calling model 13:54:36
+        - calling model 13:54:39
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_10.json
+- Story #[11] -- started at 13:54:45
+    - #G22# As a data manager, I want to know what the content of the data is, so that I can decide to which collection or repository the data fits.
+
+        - calling model 13:54:45
+        - calling model 13:54:49
+        - calling model 13:54:52
+       - exception caught! Pausing for 60 seconds
+        - calling model 13:56:22
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_11.json
+- Story #[12] -- started at 13:56:33
+    - #G22# As a PI, I want to record information about my DMP, so that an Ethics Committee can review this for compliance with ethical standards.
+
+        - calling model 13:56:33
+        - calling model 13:56:37
+        - calling model 13:56:41
+       - exception caught! Pausing for 60 seconds
+        - calling model 13:58:11
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_12.json
+- Story #[13] -- started at 13:58:34
+    - #G22# As a legalofficer, I want to know about data sensitivity, so that I can establish sharing options.
+
+        - calling model 13:58:34
+        - calling model 13:58:38
+        - calling model 13:58:41
+       - exception caught! Pausing for 60 seconds
+        - calling model 14:00:11
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_13.json
+- Story #[14] -- started at 14:00:17
+    - #G22# As a data librarian, I want to extract pointers from the DMP to metadata held in other systems, so that I can import this metadata into a data catalogue.
+
+        - calling model 14:00:17
+        - calling model 14:00:21
+        - calling model 14:00:26
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_14.json
+- Story #[15] -- started at 14:00:33
+    - #G22# As an IT staff member, I want to have an estimate of the produced data volume, so that I can plan the overall storage consumption.
+
+        - calling model 14:00:33
+        - calling model 14:00:38
+        - calling model 14:00:43
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_15.json
+- Story #[16] -- started at 14:00:49
+    - #G22# As an administrator, I want to know who funded the project and their requirements, so that I can track the funder specific obligations.
+
+        - calling model 14:00:49
+        - calling model 14:00:53
+        - calling model 14:00:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_16.json
+- Story #[17] -- started at 14:01:04
+    - #G22# As an archivemanager, I want to know the legal status of data, so that I can apply the legal requirements accordingly.
+
+        - calling model 14:01:04
+        - calling model 14:01:08
+       - exception caught! Pausing for 60 seconds
+        - calling model 14:02:38
+       - exception caught! Pausing for 60 seconds
+        - calling model 14:04:08
+        - calling model 14:04:12
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_17.json
+- Story #[18] -- started at 14:04:17
+    - #G22# As a data manager, I want to know which kind of data types will be produced or collected, so that I can determine what basic support services and functionalities are required.
+
+        - calling model 14:04:17
+        - calling model 14:04:22
+        - calling model 14:04:25
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_18.json
+- Story #[19] -- started at 14:04:34
+    - #G22# As an IT staff member, I want to know which kind of data types will be produced or collected, so that I can determine what basic support services and functionalities are required.
+
+        - calling model 14:04:34
+        - calling model 14:04:38
+        - calling model 14:04:42
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_19.json
+- Story #[20] -- started at 14:04:56
+    - #G22# As an archivemanager, I want to know in advance the conservation period of data, so that I can better organize the service by adapting the preservation actions.
+
+        - calling model 14:04:56
+        - calling model 14:05:00
+        - calling model 14:05:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_20.json
+- Story #[21] -- started at 14:05:11
+    - #G22# As a data manager, I want to document all rights necessary for managing the data, so that I can curate and preserve the data.
+
+        - calling model 14:05:11
+        - calling model 14:05:15
+        - calling model 14:05:19
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_21.json
+- Story #[22] -- started at 14:05:28
+    - #G22# As a data manager, I want to know what the content of the data is, so that I can check whether the necessary expertise for maintaining intellectual reusability is available.
+
+        - calling model 14:05:28
+        - calling model 14:05:32
+        - calling model 14:05:36
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_22.json
+- Story #[23] -- started at 14:05:40
+    - #G22# As a research head, I want to access to the persistent identifiers of datasets provided in the DMP, so that I can check that the DMP has been implemented.
+
+        - calling model 14:05:40
+        - calling model 14:05:44
+        - calling model 14:05:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_23.json
+- Story #[24] -- started at 14:06:08
+    - #G22# As a funder, I want to be able to read the costs for data management from the DMP, so that I can check whether our policies work as intended.
+
+        - calling model 14:06:08
+        - calling model 14:06:12
+       - exception caught! Pausing for 60 seconds
+        - calling model 14:07:42
+        - calling model 14:07:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_24.json
+- Story #[25] -- started at 14:07:50
+    - #G22# As a researcher, I want the DMP to prepopulate information that I have already entered in other institutional systems, so that I do not have to re-enter information ensuring the DMP contains accurate and standardized information.
+
+        - calling model 14:07:50
+        - calling model 14:07:54
+       - exception caught! Pausing for 60 seconds
+        - calling model 14:09:24
+       - exception caught! Pausing for 60 seconds
+        - calling model 14:10:54
+        - calling model 14:10:58
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_25.json
+- Story #[26] -- started at 14:11:07
+    - #G22# As a stakeholder, I want to know when the data management plan was created or updated, so that I know how up-to-date the plan is or whether it needs to be updated.
+
+        - calling model 14:11:07
+        - calling model 14:11:11
+        - calling model 14:11:19
+    - saving result into: ./output/gpt-3.5-turbo-0613/g22-rdadmp.txt_26.json
+- Story #[27] -- started at 14:11:24
+    - #G22# As a stakeholder, I want to know who is responsible for the DMP, so that I can ask them about further details.
+
+        - calling model 14:11:24
+        - calling model 14:11:28
+       - exception caught! Pausing for 60 seconds
+^CTraceback (most recent call last):
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 260, in __call_GPT
+    response = __call_with_timeout(model, conversation, schema)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/timeout_decorator/timeout_decorator.py", line 82, in new_function
+    return function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 286, in __call_with_timeout
+    response = openai.ChatCompletion.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+                           ^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_requestor.py", line 288, in request
+    result = self.request_raw(
+             ^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_requestor.py", line 596, in request_raw
+    result = _thread_context.session.request(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connection.py", line 454, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/timeout_decorator/timeout_decorator.py", line 69, in handler
+    _raise_exception(timeout_exception, exception_message)
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/timeout_decorator/timeout_decorator.py", line 45, in _raise_exception
+    raise exception()
+timeout_decorator.timeout_decorator.TimeoutError: 'Timed Out'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 321, in <module>
+    main(DATASET, MODEL)
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 32, in main
+    process_dataset(dataset, model)
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 38, in process_dataset
+    process_backlog(f'{directory}/{file}', model)
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 51, in process_backlog
+    data = process_story(user_story, model)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 72, in process_story
+    categorized = __call_GPT(model, conversation, record_categories)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 264, in __call_GPT
+    time.sleep(60)
+KeyboardInterrupt

@@ -1,0 +1,74 @@
+{
+  "story": "#G22# As a Research Centre Director, I want to receive regular summary reports of research data, so that I understand trends in data use among staff and postgraduate students.\n",
+  "extraction": {
+    "personas": [
+      "Research Centre Director"
+    ],
+    "entities": [
+      "regular summary reports",
+      "research data",
+      "staff",
+      "postgraduate students"
+    ],
+    "actions": [
+      "receive",
+      "understand"
+    ],
+    "benefit": "I understand trends in data use among staff and postgraduate students"
+  },
+  "categories": {
+    "primary_entities": [
+      "regular summary reports",
+      "research data"
+    ],
+    "secondary_entities": [
+      "staff",
+      "postgraduate students"
+    ],
+    "primary_actions": [
+      "receive"
+    ],
+    "secondary_actions": [
+      "understand"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Research Centre Director",
+        "to": "receive",
+        "kind": "triggers"
+      },
+      {
+        "from": "receive",
+        "to": "regular summary reports",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "research data",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "staff",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "postgraduate students",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "understand",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1368,
+    "output": 298,
+    "time (ns)": 8284911000
+  }
+}

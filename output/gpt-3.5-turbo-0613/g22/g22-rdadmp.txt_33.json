@@ -1,0 +1,65 @@
+{
+  "story": "#G22# As a manager, I want to know about all resources and services used for the data, so that I can estimate the true cost of the project.\n",
+  "extraction": {
+    "personas": [
+      "manager"
+    ],
+    "entities": [
+      "resources",
+      "services",
+      "data"
+    ],
+    "actions": [
+      "know",
+      "estimate"
+    ],
+    "benefit": "I can estimate the true cost of the project"
+  },
+  "categories": {
+    "primary_entities": [
+      "resources",
+      "services",
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "estimate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "manager",
+        "to": "estimate",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "resources",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "services",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1328,
+    "output": 244,
+    "time (ns)": 7048674000
+  }
+}

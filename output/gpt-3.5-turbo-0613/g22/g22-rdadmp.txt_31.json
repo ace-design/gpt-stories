@@ -1,0 +1,60 @@
+{
+  "story": "#G22# As a data manager, I want to know the time plan for collecting data, so that I can plan the data management.\n",
+  "extraction": {
+    "personas": [
+      "data manager"
+    ],
+    "entities": [
+      "time plan",
+      "collecting data",
+      "data management"
+    ],
+    "actions": [
+      "know",
+      "plan"
+    ],
+    "benefit": "I can plan the data management"
+  },
+  "categories": {
+    "primary_entities": [
+      "time plan",
+      "collecting data",
+      "data management"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "plan"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "time plan",
+        "kind": "targets"
+      },
+      {
+        "from": "data manager",
+        "to": "plan",
+        "kind": "triggers"
+      },
+      {
+        "from": "plan",
+        "to": "data management",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1321,
+    "output": 229,
+    "time (ns)": 7709205000
+  }
+}

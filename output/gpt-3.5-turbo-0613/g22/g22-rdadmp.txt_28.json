@@ -1,0 +1,57 @@
+{
+  "story": "#G22# As a stakeholder, I want to have references to the project proposal, so that I can look up further general information.\n",
+  "extraction": {
+    "personas": [
+      "stakeholder"
+    ],
+    "entities": [
+      "project proposal"
+    ],
+    "actions": [
+      "have references",
+      "look up"
+    ],
+    "benefit": "I can look up further general information"
+  },
+  "categories": {
+    "primary_entities": [
+      "project proposal"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have references"
+    ],
+    "secondary_actions": [
+      "look up"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "stakeholder",
+        "to": "have references",
+        "kind": "triggers"
+      },
+      {
+        "from": "have references",
+        "to": "project proposal",
+        "kind": "targets"
+      },
+      {
+        "from": "stakeholder",
+        "to": "look up",
+        "kind": "triggers"
+      },
+      {
+        "from": "look up",
+        "to": "project proposal",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1302,
+    "output": 222,
+    "time (ns)": 6506729000
+  }
+}

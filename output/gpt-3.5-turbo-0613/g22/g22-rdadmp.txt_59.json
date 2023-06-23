@@ -1,0 +1,91 @@
+{
+  "story": "#G22# As an IT staff member, I want to know which kind of data types will be produced or collected, so that I can ensure that the necessary technical resources and technical know-how is available.\n",
+  "extraction": {
+    "personas": [
+      "IT staff member"
+    ],
+    "entities": [
+      "data types",
+      "technical resources",
+      "technical know-how"
+    ],
+    "actions": [
+      "know",
+      "produce",
+      "collect",
+      "ensure"
+    ],
+    "benefit": "ensure that the necessary technical resources and technical know-how is available"
+  },
+  "categories": {
+    "primary_entities": [
+      "data types"
+    ],
+    "secondary_entities": [
+      "technical resources",
+      "technical know-how"
+    ],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "produce",
+      "collect",
+      "ensure"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "IT staff member",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "data types",
+        "kind": "targets"
+      },
+      {
+        "from": "IT staff member",
+        "to": "produce",
+        "kind": "triggers"
+      },
+      {
+        "from": "produce",
+        "to": "technical resources",
+        "kind": "targets"
+      },
+      {
+        "from": "IT staff member",
+        "to": "collect",
+        "kind": "triggers"
+      },
+      {
+        "from": "collect",
+        "to": "technical resources",
+        "kind": "targets"
+      },
+      {
+        "from": "IT staff member",
+        "to": "ensure",
+        "kind": "triggers"
+      },
+      {
+        "from": "ensure",
+        "to": "technical resources",
+        "kind": "targets"
+      },
+      {
+        "from": "ensure",
+        "to": "technical know-how",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1389,
+    "output": 383,
+    "time (ns)": 10248331000
+  }
+}

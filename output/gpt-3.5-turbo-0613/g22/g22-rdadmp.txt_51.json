@@ -1,0 +1,47 @@
+{
+  "story": "#G22# As a PI, I want to know how secure data is, so that I can ensure legal compliance.\n",
+  "extraction": {
+    "personas": [
+      "PI"
+    ],
+    "entities": [
+      "secure data",
+      "legal compliance"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "I can ensure legal compliance"
+  },
+  "categories": {
+    "primary_entities": [
+      "secure data"
+    ],
+    "secondary_entities": [
+      "legal compliance"
+    ],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "PI",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "secure data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1280,
+    "output": 156,
+    "time (ns)": 5052045000
+  }
+}

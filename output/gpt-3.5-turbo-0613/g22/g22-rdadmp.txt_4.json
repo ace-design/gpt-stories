@@ -1,0 +1,57 @@
+{
+  "story": "#G22# As a data manager, I want to know how the data is used, so that I can develop more detailed usage and support scenarios with researchers.\n",
+  "extraction": {
+    "personas": [
+      "data manager",
+      "researchers"
+    ],
+    "entities": [
+      "data"
+    ],
+    "actions": [
+      "know",
+      "develop"
+    ],
+    "benefit": "I can develop more detailed usage and support scenarios with researchers"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "develop"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "data manager",
+        "to": "develop",
+        "kind": "triggers"
+      },
+      {
+        "from": "develop",
+        "to": "researchers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1321,
+    "output": 217,
+    "time (ns)": 6991231000
+  }
+}

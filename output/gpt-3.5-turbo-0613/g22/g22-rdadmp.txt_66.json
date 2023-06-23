@@ -1,0 +1,80 @@
+{
+  "story": "#G22# As a data manager, I want to know whether the data can be reproduced efficiently, so that I can determine whether and how the data has to be stored.\n",
+  "extraction": {
+    "personas": [
+      "data manager"
+    ],
+    "entities": [
+      "data"
+    ],
+    "actions": [
+      "know",
+      "reproduce",
+      "determine",
+      "store"
+    ],
+    "benefit": "I can determine whether and how the data has to be stored"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "reproduce",
+      "determine",
+      "store"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "data manager",
+        "to": "reproduce",
+        "kind": "triggers"
+      },
+      {
+        "from": "reproduce",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "data manager",
+        "to": "determine",
+        "kind": "triggers"
+      },
+      {
+        "from": "determine",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "data manager",
+        "to": "store",
+        "kind": "triggers"
+      },
+      {
+        "from": "store",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1348,
+    "output": 337,
+    "time (ns)": 9613048000
+  }
+}

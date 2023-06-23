@@ -1,0 +1,61 @@
+{
+  "story": "#G22# As a researcher, I want to know which topics are mandatory and similar in all DMPs, so that I can save time through quickly writing it.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "topics",
+      "DMPs"
+    ],
+    "actions": [
+      "know",
+      "save time",
+      "writing"
+    ],
+    "benefit": "save time through quickly writing it"
+  },
+  "categories": {
+    "primary_entities": [
+      "topics"
+    ],
+    "secondary_entities": [
+      "DMPs"
+    ],
+    "primary_actions": [
+      "know",
+      "save time",
+      "writing"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "topics",
+        "kind": "targets"
+      },
+      {
+        "from": "researcher",
+        "to": "save time",
+        "kind": "triggers"
+      },
+      {
+        "from": "save time",
+        "to": "writing",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1335,
+    "output": 226,
+    "time (ns)": 6987551000
+  }
+}

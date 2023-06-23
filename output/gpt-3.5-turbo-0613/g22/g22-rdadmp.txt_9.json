@@ -1,0 +1,68 @@
+{
+  "story": "#G22# As a data manager, I want to have the description of collected data sets that are used or updated throughout the project lifecycle, so that I can ensure the descriptions are current and add detail as the study proceeds.\n",
+  "extraction": {
+    "personas": [
+      "data manager"
+    ],
+    "entities": [
+      "collected data sets"
+    ],
+    "actions": [
+      "have",
+      "ensure",
+      "add"
+    ],
+    "benefit": "ensure the descriptions are current and add detail as the study proceeds"
+  },
+  "categories": {
+    "primary_entities": [
+      "collected data sets"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "ensure",
+      "add"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data manager",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "collected data sets",
+        "kind": "targets"
+      },
+      {
+        "from": "data manager",
+        "to": "ensure",
+        "kind": "triggers"
+      },
+      {
+        "from": "ensure",
+        "to": "collected data sets",
+        "kind": "targets"
+      },
+      {
+        "from": "data manager",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "collected data sets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1372,
+    "output": 286,
+    "time (ns)": 9089112000
+  }
+}

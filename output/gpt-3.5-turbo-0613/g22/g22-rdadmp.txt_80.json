@@ -1,0 +1,77 @@
+{
+  "story": "#G22# As a researcher, I want to record my intention to share data I have collected under terms of a particular licence, so that other researchers who use the data understand the rights of use.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "data",
+      "terms",
+      "licence"
+    ],
+    "actions": [
+      "record",
+      "share",
+      "collected"
+    ],
+    "benefit": "other researchers who use the data understand the rights of use"
+  },
+  "categories": {
+    "primary_entities": [
+      "data",
+      "terms",
+      "licence"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "record",
+      "share",
+      "collected"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "record",
+        "kind": "triggers"
+      },
+      {
+        "from": "record",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "record",
+        "to": "terms",
+        "kind": "targets"
+      },
+      {
+        "from": "record",
+        "to": "licence",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "collected",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "data",
+        "to": "other researchers who use the data understand the rights of use",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1367,
+    "output": 316,
+    "time (ns)": 8448983000
+  }
+}

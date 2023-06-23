@@ -1,0 +1,60 @@
+{
+  "story": "#G22# As a institutional data steward, I want to be able to extract the data sets that are submitted to external repositories, so that I can add them to an institutional data catalogue.\n",
+  "extraction": {
+    "personas": [
+      "institutional data steward"
+    ],
+    "entities": [
+      "data sets",
+      "external repositories",
+      "institutional data catalogue"
+    ],
+    "actions": [
+      "extract",
+      "add"
+    ],
+    "benefit": "I can add them to an institutional data catalogue"
+  },
+  "categories": {
+    "primary_entities": [
+      "data sets",
+      "external repositories",
+      "institutional data catalogue"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "extract",
+      "add"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "institutional data steward",
+        "to": "extract",
+        "kind": "triggers"
+      },
+      {
+        "from": "extract",
+        "to": "data sets",
+        "kind": "targets"
+      },
+      {
+        "from": "institutional data steward",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "institutional data catalogue",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1364,
+    "output": 242,
+    "time (ns)": 7096257000
+  }
+}

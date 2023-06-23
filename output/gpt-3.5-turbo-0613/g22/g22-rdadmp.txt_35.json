@@ -1,0 +1,55 @@
+{
+  "story": "#G22# As a researcher, I want to know how many resources are needed during the project, so that I can calculate costs.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "resources",
+      "project",
+      "costs"
+    ],
+    "actions": [
+      "know",
+      "calculate"
+    ],
+    "benefit": "I can calculate costs"
+  },
+  "categories": {
+    "primary_entities": [
+      "resources",
+      "project",
+      "costs"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "calculate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "resources",
+        "kind": "targets"
+      },
+      {
+        "from": "calculate",
+        "to": "costs",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1305,
+    "output": 193,
+    "time (ns)": 5932473000
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "story": "#G22# As an administrator, I want to know who funded the project and their requirements, so that I can track the funder specific obligations.\n",
+  "extraction": {
+    "personas": [
+      "administrator"
+    ],
+    "entities": [
+      "project",
+      "funder",
+      "requirements",
+      "obligations"
+    ],
+    "actions": [
+      "know",
+      "track"
+    ],
+    "benefit": "I can track the funder specific obligations"
+  },
+  "categories": {
+    "primary_entities": [
+      "project",
+      "funder",
+      "requirements",
+      "obligations"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "track"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "administrator",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "project",
+        "kind": "targets"
+      },
+      {
+        "from": "administrator",
+        "to": "track",
+        "kind": "triggers"
+      },
+      {
+        "from": "track",
+        "to": "funder",
+        "kind": "targets"
+      },
+      {
+        "from": "track",
+        "to": "requirements",
+        "kind": "targets"
+      },
+      {
+        "from": "track",
+        "to": "obligations",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1335,
+    "output": 283,
+    "time (ns)": 8361586000
+  }
+}

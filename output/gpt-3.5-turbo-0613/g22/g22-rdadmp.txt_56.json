@@ -1,0 +1,72 @@
+{
+  "story": "#G22# As a data manager, I want to have references to documentation of the data and its creation process, so that the data can be re-used and managed.\n",
+  "extraction": {
+    "personas": [
+      "data manager"
+    ],
+    "entities": [
+      "documentation",
+      "data",
+      "creation process"
+    ],
+    "actions": [
+      "have references",
+      "re-use",
+      "manage"
+    ],
+    "benefit": "the data can be re-used and managed"
+  },
+  "categories": {
+    "primary_entities": [
+      "documentation",
+      "data",
+      "creation process"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have references",
+      "re-use",
+      "manage"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data manager",
+        "to": "have references",
+        "kind": "triggers"
+      },
+      {
+        "from": "have references",
+        "to": "documentation",
+        "kind": "targets"
+      },
+      {
+        "from": "have references",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "have references",
+        "to": "creation process",
+        "kind": "targets"
+      },
+      {
+        "from": "re-use",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "manage",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1349,
+    "output": 287,
+    "time (ns)": 8423140000
+  }
+}
