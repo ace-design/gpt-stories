@@ -1,0 +1,56 @@
+{
+  "story": "#G28# As a user, I want to search and discover music using content identification or fingerprinting.\t\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "music"
+    ],
+    "actions": [
+      "search",
+      "discover"
+    ],
+    "benefit": "I can use content identification or fingerprinting"
+  },
+  "categories": {
+    "primary_entities": [
+      "music"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "search",
+      "discover"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "user",
+        "to": "discover",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "music",
+        "kind": "targets"
+      },
+      {
+        "from": "discover",
+        "to": "music",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1275,
+    "output": 206,
+    "time (ns)": 6349539000
+  }
+}

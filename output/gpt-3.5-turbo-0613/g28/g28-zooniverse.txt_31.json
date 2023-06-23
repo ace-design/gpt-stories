@@ -1,0 +1,44 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to automatically detect Snapshot Serengeti images with no classifiable animals in them.\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [
+      "Snapshot Serengeti images"
+    ],
+    "actions": [
+      "automatically detect"
+    ],
+    "benefit": "identify images with no classifiable animals"
+  },
+  "categories": {
+    "primary_entities": [
+      "Snapshot Serengeti images"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "automatically detect"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "automatically detect",
+        "kind": "triggers"
+      },
+      {
+        "from": "automatically detect",
+        "to": "Snapshot Serengeti images",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1312,
+    "output": 177,
+    "time (ns)": 4982930000
+  }
+}

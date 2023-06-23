@@ -1,0 +1,52 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to identify the number of whales heard in a single audio file.\t\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [
+      "whales",
+      "audio file"
+    ],
+    "actions": [
+      "identify"
+    ],
+    "benefit": "to determine the number of whales heard in a single audio file"
+  },
+  "categories": {
+    "primary_entities": [
+      "whales"
+    ],
+    "secondary_entities": [
+      "audio file"
+    ],
+    "primary_actions": [
+      "identify"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "identify",
+        "kind": "triggers"
+      },
+      {
+        "from": "identify",
+        "to": "whales",
+        "kind": "targets"
+      },
+      {
+        "from": "identify",
+        "to": "audio file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1306,
+    "output": 195,
+    "time (ns)": 5817237000
+  }
+}

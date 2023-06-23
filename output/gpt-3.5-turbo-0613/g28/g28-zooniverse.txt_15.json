@@ -1,0 +1,63 @@
+{
+  "story": "#G28# As a user, I want to identify brands in videos, and receive related information about them.\t\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "brands",
+      "videos"
+    ],
+    "actions": [
+      "identify",
+      "receive"
+    ],
+    "benefit": "receive related information about brands in videos"
+  },
+  "categories": {
+    "primary_entities": [
+      "brands",
+      "videos"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "identify",
+      "receive"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "identify",
+        "kind": "triggers"
+      },
+      {
+        "from": "identify",
+        "to": "brands",
+        "kind": "targets"
+      },
+      {
+        "from": "identify",
+        "to": "videos",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "brands",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "videos",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1285,
+    "output": 235,
+    "time (ns)": 6730700000
+  }
+}

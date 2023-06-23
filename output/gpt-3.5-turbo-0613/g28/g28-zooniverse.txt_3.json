@@ -1,0 +1,60 @@
+{
+  "story": "#G28# As a user, I want to search and discover music based on other users similar to myself.\t\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "music",
+      "other users"
+    ],
+    "actions": [
+      "search",
+      "discover"
+    ],
+    "benefit": "I can find music based on other users similar to myself"
+  },
+  "categories": {
+    "primary_entities": [
+      "music",
+      "user"
+    ],
+    "secondary_entities": [
+      "other users"
+    ],
+    "primary_actions": [
+      "search",
+      "discover"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "user",
+        "to": "discover",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "music",
+        "kind": "targets"
+      },
+      {
+        "from": "discover",
+        "to": "other users",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1298,
+    "output": 220,
+    "time (ns)": 6376054000
+  }
+}

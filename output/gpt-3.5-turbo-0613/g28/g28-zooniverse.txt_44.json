@@ -1,0 +1,69 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to perform prefiltering of the images to remove artefacts such as bright stars and camera read errors.\t\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [
+      "images",
+      "artefacts",
+      "bright stars",
+      "camera read errors"
+    ],
+    "actions": [
+      "perform prefiltering",
+      "remove"
+    ],
+    "benefit": "to remove artefacts such as bright stars and camera read errors"
+  },
+  "categories": {
+    "primary_entities": [
+      "images"
+    ],
+    "secondary_entities": [
+      "artefacts",
+      "bright stars",
+      "camera read errors"
+    ],
+    "primary_actions": [
+      "perform prefiltering"
+    ],
+    "secondary_actions": [
+      "remove"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "perform prefiltering",
+        "kind": "triggers"
+      },
+      {
+        "from": "perform prefiltering",
+        "to": "images",
+        "kind": "targets"
+      },
+      {
+        "from": "perform prefiltering",
+        "to": "artefacts",
+        "kind": "targets"
+      },
+      {
+        "from": "perform prefiltering",
+        "to": "bright stars",
+        "kind": "targets"
+      },
+      {
+        "from": "perform prefiltering",
+        "to": "camera read errors",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1373,
+    "output": 292,
+    "time (ns)": 8117195000
+  }
+}

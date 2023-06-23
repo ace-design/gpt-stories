@@ -1,0 +1,56 @@
+{
+  "story": "#G28# As an admin, I want to filter and rank videos based on A/V quality aspects.\t\n",
+  "extraction": {
+    "personas": [
+      "admin"
+    ],
+    "entities": [
+      "videos"
+    ],
+    "actions": [
+      "filter",
+      "rank"
+    ],
+    "benefit": "based on A/V quality aspects"
+  },
+  "categories": {
+    "primary_entities": [
+      "videos"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "filter",
+      "rank"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "admin",
+        "to": "filter",
+        "kind": "triggers"
+      },
+      {
+        "from": "admin",
+        "to": "rank",
+        "kind": "triggers"
+      },
+      {
+        "from": "filter",
+        "to": "videos",
+        "kind": "targets"
+      },
+      {
+        "from": "rank",
+        "to": "videos",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1271,
+    "output": 204,
+    "time (ns)": 5948874000
+  }
+}

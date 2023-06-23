@@ -1,0 +1,52 @@
+{
+  "story": "#G28# As a user, I want to receive content recommendations from similar profiles.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "content recommendations",
+      "similar profiles"
+    ],
+    "actions": [
+      "receive"
+    ],
+    "benefit": "I can receive content recommendations from similar profiles"
+  },
+  "categories": {
+    "primary_entities": [
+      "content recommendations"
+    ],
+    "secondary_entities": [
+      "similar profiles"
+    ],
+    "primary_actions": [
+      "receive"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "receive",
+        "kind": "triggers"
+      },
+      {
+        "from": "receive",
+        "to": "content recommendations",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "similar profiles",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1265,
+    "output": 185,
+    "time (ns)": 5480688000
+  }
+}

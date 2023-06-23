@@ -1,0 +1,58 @@
+{
+  "story": "#G28# As a user, I want to receive content recommendations based on most relevant news events in my area.\t\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "content recommendations",
+      "news events",
+      "my area"
+    ],
+    "actions": [
+      "receive"
+    ],
+    "benefit": "I can receive content recommendations based on most relevant news events in my area"
+  },
+  "categories": {
+    "primary_entities": [
+      "content recommendations",
+      "news events",
+      "my area"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "receive"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "receive",
+        "kind": "triggers"
+      },
+      {
+        "from": "receive",
+        "to": "content recommendations",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "news events",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "my area",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1311,
+    "output": 226,
+    "time (ns)": 6724746000
+  }
+}

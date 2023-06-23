@@ -1,0 +1,47 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to preclassify the Galaxy Zoo images using simple low-level image features.\t\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [
+      "Galaxy Zoo images",
+      "simple low-level image features"
+    ],
+    "actions": [
+      "preclassify"
+    ],
+    "benefit": "I can preclassify the Galaxy Zoo images using simple low-level image features"
+  },
+  "categories": {
+    "primary_entities": [
+      "Galaxy Zoo images"
+    ],
+    "secondary_entities": [
+      "simple low-level image features"
+    ],
+    "primary_actions": [
+      "preclassify"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "preclassify",
+        "kind": "triggers"
+      },
+      {
+        "from": "preclassify",
+        "to": "Galaxy Zoo images",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1331,
+    "output": 187,
+    "time (ns)": 5472581000
+  }
+}

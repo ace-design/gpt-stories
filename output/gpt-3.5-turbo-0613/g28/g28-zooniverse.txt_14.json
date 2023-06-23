@@ -1,0 +1,63 @@
+{
+  "story": "#G28# As a user, I want to identify broadcaster logos in videos, and receive related information about them.\t\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "broadcaster logos",
+      "videos"
+    ],
+    "actions": [
+      "identify",
+      "receive"
+    ],
+    "benefit": "receive related information about broadcaster logos in videos"
+  },
+  "categories": {
+    "primary_entities": [
+      "broadcaster logos",
+      "videos"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "identify",
+      "receive"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "identify",
+        "kind": "triggers"
+      },
+      {
+        "from": "identify",
+        "to": "broadcaster logos",
+        "kind": "targets"
+      },
+      {
+        "from": "identify",
+        "to": "videos",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "broadcaster logos",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "related information",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1299,
+    "output": 249,
+    "time (ns)": 7011193000
+  }
+}

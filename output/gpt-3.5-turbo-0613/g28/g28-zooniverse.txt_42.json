@@ -1,0 +1,66 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to detect important features such as areas of flooding, damage, temporary shelters, blocked roads etc in the satellite images.\t\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [
+      "areas of flooding",
+      "damage",
+      "temporary shelters",
+      "blocked roads"
+    ],
+    "actions": [
+      "detect"
+    ],
+    "benefit": "I can identify important features in the satellite images"
+  },
+  "categories": {
+    "primary_entities": [
+      "areas of flooding"
+    ],
+    "secondary_entities": [
+      "damage",
+      "temporary shelters",
+      "blocked roads"
+    ],
+    "primary_actions": [
+      "detect"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "detect",
+        "kind": "triggers"
+      },
+      {
+        "from": "detect",
+        "to": "areas of flooding",
+        "kind": "targets"
+      },
+      {
+        "from": "detect",
+        "to": "damage",
+        "kind": "targets"
+      },
+      {
+        "from": "detect",
+        "to": "temporary shelters",
+        "kind": "targets"
+      },
+      {
+        "from": "detect",
+        "to": "blocked roads",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1354,
+    "output": 260,
+    "time (ns)": 7253368000
+  }
+}

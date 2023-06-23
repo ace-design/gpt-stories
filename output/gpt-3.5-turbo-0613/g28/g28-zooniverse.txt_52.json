@@ -1,0 +1,44 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to know whether I should educate a volunteer with text, an image, or a video.\t\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [
+      "volunteer"
+    ],
+    "actions": [
+      "educate"
+    ],
+    "benefit": "know whether I should educate a volunteer with text, an image, or a video"
+  },
+  "categories": {
+    "primary_entities": [
+      "volunteer"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "educate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "educate",
+        "kind": "triggers"
+      },
+      {
+        "from": "educate",
+        "to": "volunteer",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1321,
+    "output": 170,
+    "time (ns)": 5159248000
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to automatically detect the time in a Worm Watch Lab video where the worm lays an egg.\t\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [
+      "Worm Watch Lab video"
+    ],
+    "actions": [
+      "automatically detect",
+      "lays an egg"
+    ],
+    "benefit": "identify the time in the video when the worm lays an egg"
+  },
+  "categories": {
+    "primary_entities": [
+      "Worm Watch Lab video"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "automatically detect"
+    ],
+    "secondary_actions": [
+      "lays an egg"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "automatically detect",
+        "kind": "triggers"
+      },
+      {
+        "from": "automatically detect",
+        "to": "Worm Watch Lab video",
+        "kind": "targets"
+      },
+      {
+        "from": "Zooniverse admin",
+        "to": "lays an egg",
+        "kind": "triggers"
+      },
+      {
+        "from": "lays an egg",
+        "to": "Worm Watch Lab video",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1338,
+    "output": 250,
+    "time (ns)": 7229446000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to assess the probability/weight of a volunteer's classification based on their experience.\t\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [
+      "volunteer's classification"
+    ],
+    "actions": [
+      "assess"
+    ],
+    "benefit": "to determine the probability/weight based on their experience"
+  },
+  "categories": {
+    "primary_entities": [
+      "volunteer's classification"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "assess"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "assess",
+        "kind": "triggers"
+      },
+      {
+        "from": "assess",
+        "to": "volunteer's classification",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1309,
+    "output": 170,
+    "time (ns)": 5251620000
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to perform automatic segmentation or localization of plankton in Plankton Portal.\t\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [
+      "Plankton Portal"
+    ],
+    "actions": [
+      "perform automatic segmentation",
+      "perform automatic localization"
+    ],
+    "benefit": "I can automate the process of segmenting or localizing plankton in Plankton Portal."
+  },
+  "categories": {
+    "primary_entities": [
+      "Plankton Portal"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "perform automatic segmentation",
+      "perform automatic localization"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "perform automatic segmentation",
+        "kind": "triggers"
+      },
+      {
+        "from": "Zooniverse admin",
+        "to": "perform automatic localization",
+        "kind": "triggers"
+      },
+      {
+        "from": "perform automatic segmentation",
+        "to": "Plankton Portal",
+        "kind": "targets"
+      },
+      {
+        "from": "perform automatic localization",
+        "to": "Plankton Portal",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1342,
+    "output": 253,
+    "time (ns)": 7115202000
+  }
+}

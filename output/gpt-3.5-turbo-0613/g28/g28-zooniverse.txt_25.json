@@ -1,0 +1,44 @@
+{
+  "story": "#G28# As an admin, I want to automatically validated the ingested contents for copyright infringement.\t\n",
+  "extraction": {
+    "personas": [
+      "admin"
+    ],
+    "entities": [
+      "ingested contents"
+    ],
+    "actions": [
+      "automatically validate"
+    ],
+    "benefit": "for copyright infringement"
+  },
+  "categories": {
+    "primary_entities": [
+      "ingested contents"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "automatically validate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "admin",
+        "to": "automatically validate",
+        "kind": "triggers"
+      },
+      {
+        "from": "automatically validate",
+        "to": "ingested contents",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1265,
+    "output": 158,
+    "time (ns)": 4835042000
+  }
+}

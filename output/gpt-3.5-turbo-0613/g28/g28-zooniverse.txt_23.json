@@ -1,0 +1,44 @@
+{
+  "story": "#G28# As an admin, I want to prefilter nudity content.\t\n",
+  "extraction": {
+    "personas": [
+      "admin"
+    ],
+    "entities": [
+      "nudity content"
+    ],
+    "actions": [
+      "prefilter"
+    ],
+    "benefit": "prevent nudity content from being displayed"
+  },
+  "categories": {
+    "primary_entities": [
+      "nudity content"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "prefilter"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "admin",
+        "to": "prefilter",
+        "kind": "triggers"
+      },
+      {
+        "from": "prefilter",
+        "to": "nudity content",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1256,
+    "output": 160,
+    "time (ns)": 4786458000
+  }
+}

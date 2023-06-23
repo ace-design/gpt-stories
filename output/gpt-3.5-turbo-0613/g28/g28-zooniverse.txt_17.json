@@ -1,0 +1,88 @@
+{
+  "story": "#G28# As a user, I want to walk around, access content using a geographical map and be informed if there are videos covering the area, monuments or any other relevant point of interest.\t\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "geographical map",
+      "videos",
+      "area",
+      "monuments",
+      "point of interest"
+    ],
+    "actions": [
+      "walk around",
+      "access content",
+      "be informed"
+    ],
+    "benefit": "access content using a geographical map and be informed if there are videos covering the area, monuments or any other relevant point of interest"
+  },
+  "categories": {
+    "primary_entities": [
+      "geographical map",
+      "videos"
+    ],
+    "secondary_entities": [
+      "area",
+      "monuments",
+      "point of interest"
+    ],
+    "primary_actions": [
+      "walk around",
+      "access content"
+    ],
+    "secondary_actions": [
+      "be informed"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "walk around",
+        "kind": "triggers"
+      },
+      {
+        "from": "user",
+        "to": "access content",
+        "kind": "triggers"
+      },
+      {
+        "from": "walk around",
+        "to": "geographical map",
+        "kind": "targets"
+      },
+      {
+        "from": "access content",
+        "to": "geographical map",
+        "kind": "targets"
+      },
+      {
+        "from": "be informed",
+        "to": "videos",
+        "kind": "targets"
+      },
+      {
+        "from": "be informed",
+        "to": "area",
+        "kind": "targets"
+      },
+      {
+        "from": "be informed",
+        "to": "monuments",
+        "kind": "targets"
+      },
+      {
+        "from": "be informed",
+        "to": "point of interest",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1429,
+    "output": 382,
+    "time (ns)": 12446658000
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to know when I should educate a volunteer.\t\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [],
+    "actions": [
+      "know",
+      "educate"
+    ],
+    "benefit": "I should know when to educate a volunteer"
+  },
+  "categories": {
+    "primary_entities": [],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "educate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "educate",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1276,
+    "output": 159,
+    "time (ns)": 4865570000
+  }
+}

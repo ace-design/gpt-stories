@@ -1,0 +1,58 @@
+{
+  "story": "#G28# As an admin, I want to prefilter content using search based on low-level asset information.\t\n",
+  "extraction": {
+    "personas": [
+      "admin"
+    ],
+    "entities": [
+      "content",
+      "search",
+      "low-level asset information"
+    ],
+    "actions": [
+      "prefilter"
+    ],
+    "benefit": "I can prefilter content using search based on low-level asset information"
+  },
+  "categories": {
+    "primary_entities": [
+      "content",
+      "search",
+      "low-level asset information"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "prefilter"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "admin",
+        "to": "prefilter",
+        "kind": "triggers"
+      },
+      {
+        "from": "prefilter",
+        "to": "content",
+        "kind": "targets"
+      },
+      {
+        "from": "prefilter",
+        "to": "search",
+        "kind": "targets"
+      },
+      {
+        "from": "prefilter",
+        "to": "low-level asset information",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1309,
+    "output": 231,
+    "time (ns)": 7202419000
+  }
+}

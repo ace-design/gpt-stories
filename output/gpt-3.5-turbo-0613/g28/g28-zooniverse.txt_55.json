@@ -1,0 +1,65 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to know when Zoonibot should comment on a subject.\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [
+      "Zoonibot",
+      "subject"
+    ],
+    "actions": [
+      "know",
+      "comment"
+    ],
+    "benefit": "I want to know when Zoonibot should comment on a subject."
+  },
+  "categories": {
+    "primary_entities": [
+      "Zoonibot"
+    ],
+    "secondary_entities": [
+      "subject"
+    ],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "comment"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "Zoonibot",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "subject",
+        "kind": "targets"
+      },
+      {
+        "from": "Zoonibot",
+        "to": "comment",
+        "kind": "triggers"
+      },
+      {
+        "from": "comment",
+        "to": "subject",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1319,
+    "output": 259,
+    "time (ns)": 7421607000
+  }
+}

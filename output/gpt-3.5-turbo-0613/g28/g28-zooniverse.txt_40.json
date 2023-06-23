@@ -1,0 +1,60 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to perform automatic worm motion analysis to reduce video duration in Worm Watch Lab.\t\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [
+      "automatic worm motion analysis",
+      "Worm Watch Lab"
+    ],
+    "actions": [
+      "perform",
+      "reduce"
+    ],
+    "benefit": "reduce video duration in Worm Watch Lab"
+  },
+  "categories": {
+    "primary_entities": [
+      "automatic worm motion analysis"
+    ],
+    "secondary_entities": [
+      "Worm Watch Lab"
+    ],
+    "primary_actions": [
+      "perform"
+    ],
+    "secondary_actions": [
+      "reduce"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "perform",
+        "kind": "triggers"
+      },
+      {
+        "from": "perform",
+        "to": "automatic worm motion analysis",
+        "kind": "targets"
+      },
+      {
+        "from": "perform",
+        "to": "reduce",
+        "kind": "targets"
+      },
+      {
+        "from": "reduce",
+        "to": "Worm Watch Lab",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1321,
+    "output": 232,
+    "time (ns)": 6778064000
+  }
+}

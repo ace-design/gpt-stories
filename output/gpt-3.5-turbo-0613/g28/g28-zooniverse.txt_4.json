@@ -1,0 +1,65 @@
+{
+  "story": "#G28# As a user, I want to search and discover music or ringback tones similar to a given music video based on content similarity.\t\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "music",
+      "ringback tones",
+      "music video"
+    ],
+    "actions": [
+      "search",
+      "discover"
+    ],
+    "benefit": "I can find music or ringback tones similar to a given music video based on content similarity"
+  },
+  "categories": {
+    "primary_entities": [
+      "music",
+      "ringback tones",
+      "music video"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "search",
+      "discover"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "user",
+        "to": "discover",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "music",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "ringback tones",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "music video",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1346,
+    "output": 262,
+    "time (ns)": 7103176000
+  }
+}

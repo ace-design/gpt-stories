@@ -1,0 +1,59 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to perform automatic detection of plankton size or orientation in Plankton Portal images.\t\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [
+      "plankton size",
+      "orientation",
+      "Plankton Portal images"
+    ],
+    "actions": [
+      "perform automatic detection"
+    ],
+    "benefit": "I can detect plankton size or orientation in Plankton Portal images"
+  },
+  "categories": {
+    "primary_entities": [
+      "plankton size"
+    ],
+    "secondary_entities": [
+      "orientation",
+      "Plankton Portal images"
+    ],
+    "primary_actions": [
+      "perform automatic detection"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "perform automatic detection",
+        "kind": "triggers"
+      },
+      {
+        "from": "perform automatic detection",
+        "to": "plankton size",
+        "kind": "targets"
+      },
+      {
+        "from": "perform automatic detection",
+        "to": "orientation",
+        "kind": "targets"
+      },
+      {
+        "from": "perform automatic detection",
+        "to": "Plankton Portal images",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1352,
+    "output": 255,
+    "time (ns)": 7195623000
+  }
+}

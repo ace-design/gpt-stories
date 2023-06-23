@@ -1,0 +1,44 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to perform automatic animal species preclassification in Snapshot Serengeti.\t\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [
+      "Snapshot Serengeti"
+    ],
+    "actions": [
+      "perform automatic animal species preclassification"
+    ],
+    "benefit": "improve efficiency of animal species preclassification in Snapshot Serengeti"
+  },
+  "categories": {
+    "primary_entities": [
+      "Snapshot Serengeti"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "perform automatic animal species preclassification"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "perform automatic animal species preclassification",
+        "kind": "triggers"
+      },
+      {
+        "from": "perform automatic animal species preclassification",
+        "to": "Snapshot Serengeti",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1326,
+    "output": 193,
+    "time (ns)": 6710139000
+  }
+}

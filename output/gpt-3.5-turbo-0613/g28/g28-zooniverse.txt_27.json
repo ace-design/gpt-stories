@@ -1,0 +1,59 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to assess how interesting or appealing or complex a picture is based on automated analysis, citizen annotations, and comments on Talk.\t\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [
+      "automated analysis",
+      "citizen annotations",
+      "comments on Talk"
+    ],
+    "actions": [
+      "assess"
+    ],
+    "benefit": "to determine how interesting or appealing or complex a picture is"
+  },
+  "categories": {
+    "primary_entities": [
+      "automated analysis"
+    ],
+    "secondary_entities": [
+      "citizen annotations",
+      "comments on Talk"
+    ],
+    "primary_actions": [
+      "assess"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "assess",
+        "kind": "triggers"
+      },
+      {
+        "from": "assess",
+        "to": "automated analysis",
+        "kind": "targets"
+      },
+      {
+        "from": "assess",
+        "to": "citizen annotations",
+        "kind": "targets"
+      },
+      {
+        "from": "assess",
+        "to": "comments on Talk",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1361,
+    "output": 243,
+    "time (ns)": 6781562000
+  }
+}

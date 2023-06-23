@@ -1,0 +1,52 @@
+{
+  "story": "#G28# As a user, I want to get info about perceptually similar video items and segments.\t\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "perceptually similar video items",
+      "segments"
+    ],
+    "actions": [
+      "get info"
+    ],
+    "benefit": "I can find perceptually similar video items and segments"
+  },
+  "categories": {
+    "primary_entities": [
+      "perceptually similar video items"
+    ],
+    "secondary_entities": [
+      "segments"
+    ],
+    "primary_actions": [
+      "get info"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "get info",
+        "kind": "triggers"
+      },
+      {
+        "from": "get info",
+        "to": "perceptually similar video items",
+        "kind": "targets"
+      },
+      {
+        "from": "get info",
+        "to": "segments",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1296,
+    "output": 201,
+    "time (ns)": 5928989000
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to know which piece of education I should give to a volunteer.\t\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [
+      "piece of education",
+      "volunteer"
+    ],
+    "actions": [
+      "know",
+      "give"
+    ],
+    "benefit": "I can provide the appropriate education to a volunteer"
+  },
+  "categories": {
+    "primary_entities": [
+      "piece of education"
+    ],
+    "secondary_entities": [
+      "volunteer"
+    ],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "give"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "piece of education",
+        "kind": "targets"
+      },
+      {
+        "from": "Zooniverse admin",
+        "to": "give",
+        "kind": "triggers"
+      },
+      {
+        "from": "give",
+        "to": "volunteer",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1310,
+    "output": 229,
+    "time (ns)": 7425410000
+  }
+}

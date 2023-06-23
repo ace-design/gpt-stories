@@ -1,0 +1,67 @@
+{
+  "story": "#G28# As a user, I want to take a picture or upload an image, so that I am recommended with videos related to that picture or image.\t\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "picture",
+      "image",
+      "videos"
+    ],
+    "actions": [
+      "take",
+      "upload",
+      "recommended"
+    ],
+    "benefit": "I am recommended with videos related to that picture or image"
+  },
+  "categories": {
+    "primary_entities": [
+      "picture",
+      "image",
+      "videos"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "take",
+      "upload",
+      "recommended"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "take",
+        "kind": "triggers"
+      },
+      {
+        "from": "user",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "take",
+        "to": "picture",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "image",
+        "kind": "targets"
+      },
+      {
+        "from": "recommended",
+        "to": "videos",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1341,
+    "output": 252,
+    "time (ns)": 7142471000
+  }
+}

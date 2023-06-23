@@ -1,0 +1,56 @@
+{
+  "story": "#G28# As an admin, I want to annotate news video segments and extract a topic for each segment.\t\n",
+  "extraction": {
+    "personas": [
+      "admin"
+    ],
+    "entities": [
+      "news video segments"
+    ],
+    "actions": [
+      "annotate",
+      "extract"
+    ],
+    "benefit": "I can extract a topic for each segment"
+  },
+  "categories": {
+    "primary_entities": [
+      "news video segments"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "annotate",
+      "extract"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "admin",
+        "to": "annotate",
+        "kind": "triggers"
+      },
+      {
+        "from": "annotate",
+        "to": "news video segments",
+        "kind": "targets"
+      },
+      {
+        "from": "admin",
+        "to": "extract",
+        "kind": "triggers"
+      },
+      {
+        "from": "extract",
+        "to": "news video segments",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1284,
+    "output": 214,
+    "time (ns)": 6072484000
+  }
+}

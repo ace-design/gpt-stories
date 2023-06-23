@@ -1,0 +1,77 @@
+{
+  "story": "#G28# As an admin, I want to prefilter the content using search on high-level asset information such as metadata and tags either recognized by the system of provided by the user.\t\n",
+  "extraction": {
+    "personas": [
+      "admin"
+    ],
+    "entities": [
+      "content",
+      "metadata",
+      "tags"
+    ],
+    "actions": [
+      "prefilter",
+      "search"
+    ],
+    "benefit": "I can easily find and filter content based on high-level asset information"
+  },
+  "categories": {
+    "primary_entities": [
+      "content"
+    ],
+    "secondary_entities": [
+      "metadata",
+      "tags"
+    ],
+    "primary_actions": [
+      "prefilter"
+    ],
+    "secondary_actions": [
+      "search"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "admin",
+        "to": "prefilter",
+        "kind": "triggers"
+      },
+      {
+        "from": "prefilter",
+        "to": "content",
+        "kind": "targets"
+      },
+      {
+        "from": "prefilter",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "prefilter",
+        "to": "tags",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "content",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "tags",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1351,
+    "output": 301,
+    "time (ns)": 8143642000
+  }
+}

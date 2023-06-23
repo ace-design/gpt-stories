@@ -1,0 +1,47 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to know when Zoonibot should give an explanation.\t\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [
+      "Zoonibot"
+    ],
+    "actions": [
+      "know",
+      "give an explanation"
+    ],
+    "benefit": "know when Zoonibot should give an explanation"
+  },
+  "categories": {
+    "primary_entities": [
+      "Zoonibot"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "give an explanation"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "Zoonibot",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1307,
+    "output": 175,
+    "time (ns)": 5353616000
+  }
+}

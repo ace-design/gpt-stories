@@ -1,0 +1,44 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to group subjects by similarity.\t\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [
+      "subjects"
+    ],
+    "actions": [
+      "group"
+    ],
+    "benefit": "I can group subjects by similarity"
+  },
+  "categories": {
+    "primary_entities": [
+      "subjects"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "group"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "group",
+        "kind": "triggers"
+      },
+      {
+        "from": "group",
+        "to": "subjects",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1259,
+    "output": 153,
+    "time (ns)": 4596495000
+  }
+}

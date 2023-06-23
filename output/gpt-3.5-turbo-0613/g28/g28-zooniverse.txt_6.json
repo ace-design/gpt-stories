@@ -1,0 +1,52 @@
+{
+  "story": "#G28# As a user, I want to upload tagged videos and have tags available for all further processing steps.\t\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "tagged videos",
+      "tags"
+    ],
+    "actions": [
+      "upload"
+    ],
+    "benefit": "have tags available for all further processing steps"
+  },
+  "categories": {
+    "primary_entities": [
+      "tagged videos"
+    ],
+    "secondary_entities": [
+      "tags"
+    ],
+    "primary_actions": [
+      "upload"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "tagged videos",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "tags",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1286,
+    "output": 185,
+    "time (ns)": 5640547000
+  }
+}

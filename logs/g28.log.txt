@@ -1,0 +1,427 @@
+START: 21:13:02
+# Processing g28-zooniverse.txt
+- Story #[1] -- started at 21:13:02
+    - #G28# As a user, I want to search and discover music using content identification or fingerprinting.	
+
+        - calling model 21:13:02
+        - calling model 21:13:06
+        - calling model 21:13:09
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_1.json
+- Story #[2] -- started at 21:13:14
+    - #G28# As a user, I want to search and discover music based on my profile.	
+
+        - calling model 21:13:14
+        - calling model 21:13:18
+        - calling model 21:13:21
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_2.json
+- Story #[3] -- started at 21:13:26
+    - #G28# As a user, I want to search and discover music based on other users similar to myself.	
+
+        - calling model 21:13:26
+        - calling model 21:13:30
+        - calling model 21:13:34
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_3.json
+- Story #[4] -- started at 21:13:39
+    - #G28# As a user, I want to search and discover music or ringback tones similar to a given music video based on content similarity.	
+
+        - calling model 21:13:39
+        - calling model 21:13:43
+        - calling model 21:13:46
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_4.json
+- Story #[5] -- started at 21:13:52
+    - #G28# As a user, I want to search and discover music by exploiting enriched metadata and image tags, so that I find related artists, new genre, or other relevant listening path.
+
+        - calling model 21:13:52
+        - calling model 21:13:56
+        - calling model 21:14:00
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_5.json
+- Story #[6] -- started at 21:14:07
+    - #G28# As a user, I want to upload tagged videos and have tags available for all further processing steps.	
+
+        - calling model 21:14:07
+        - calling model 21:14:11
+        - calling model 21:14:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_6.json
+- Story #[7] -- started at 21:14:19
+    - #G28# As a user, I want to view thumbnail sequences of video segments.	
+
+        - calling model 21:14:19
+        - calling model 21:14:22
+        - calling model 21:14:26
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_7.json
+- Story #[8] -- started at 21:14:30
+    - #G28# As a user, I want to get info about similar video items and segments.	
+
+        - calling model 21:14:30
+        - calling model 21:14:34
+        - calling model 21:14:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_8.json
+- Story #[9] -- started at 21:14:42
+    - #G28# As a user, I want to get info about perceptually similar video items and segments.	
+
+        - calling model 21:14:42
+        - calling model 21:14:46
+        - calling model 21:14:49
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_9.json
+- Story #[10] -- started at 21:14:54
+    - #G28# As a user, I want to receive content recommendations from similar profiles.
+
+        - calling model 21:14:54
+        - calling model 21:14:58
+        - calling model 21:15:01
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_10.json
+- Story #[11] -- started at 21:15:06
+    - #G28# As a user, I want to receive content recommendations based on most relevant news events in my area.	
+
+        - calling model 21:15:06
+        - calling model 21:15:09
+        - calling model 21:15:13
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_11.json
+- Story #[12] -- started at 21:15:18
+    - #G28# As a user, I want to identify persons in videos, and receive related information about them.	
+
+        - calling model 21:15:18
+        - calling model 21:15:22
+        - calling model 21:15:25
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_12.json
+- Story #[13] -- started at 21:15:31
+    - #G28# As a user, I want to identify products in videos, and receive related information about them.	
+
+        - calling model 21:15:31
+        - calling model 21:15:35
+        - calling model 21:15:38
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_13.json
+- Story #[14] -- started at 21:15:43
+    - #G28# As a user, I want to identify broadcaster logos in videos, and receive related information about them.	
+
+        - calling model 21:15:43
+        - calling model 21:15:47
+        - calling model 21:15:50
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_14.json
+- Story #[15] -- started at 21:15:56
+    - #G28# As a user, I want to identify brands in videos, and receive related information about them.	
+
+        - calling model 21:15:56
+        - calling model 21:16:00
+        - calling model 21:16:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_15.json
+- Story #[16] -- started at 21:16:09
+    - #G28# As a user, I want to take a picture or upload an image, so that I am recommended with videos related to that picture or image.	
+
+        - calling model 21:16:09
+        - calling model 21:16:13
+        - calling model 21:16:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_16.json
+- Story #[17] -- started at 21:16:22
+    - #G28# As a user, I want to walk around, access content using a geographical map and be informed if there are videos covering the area, monuments or any other relevant point of interest.	
+
+        - calling model 21:16:22
+        - calling model 21:16:27
+        - calling model 21:16:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_17.json
+- Story #[18] -- started at 21:16:41
+    - #G28# As a user, I want to search content items using automatic speech recognition.	
+
+        - calling model 21:16:41
+        - calling model 21:16:44
+        - calling model 21:16:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_18.json
+- Story #[19] -- started at 21:16:51
+    - #G28# As an admin, I want to see, validate and edit segmentation of videos.	
+
+        - calling model 21:16:51
+        - calling model 21:16:55
+        - calling model 21:16:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_19.json
+- Story #[20] -- started at 21:17:05
+    - #G28# As an admin, I want to annotate news video segments and extract a topic for each segment.	
+
+        - calling model 21:17:05
+        - calling model 21:17:09
+        - calling model 21:17:12
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_20.json
+- Story #[21] -- started at 21:17:17
+    - #G28# As an admin, I want to filter and rank videos based on A/V quality aspects.	
+
+        - calling model 21:17:17
+        - calling model 21:17:21
+        - calling model 21:17:24
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_21.json
+- Story #[22] -- started at 21:17:29
+    - #G28# As an admin, I want to get a quick assessment of whether audio material has been edited before the upload.	
+
+        - calling model 21:17:29
+        - calling model 21:17:33
+        - calling model 21:17:36
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_22.json
+- Story #[23] -- started at 21:17:45
+    - #G28# As an admin, I want to prefilter nudity content.	
+
+        - calling model 21:17:45
+        - calling model 21:17:49
+        - calling model 21:17:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_23.json
+- Story #[24] -- started at 21:17:56
+    - #G28# As an admin, I want to prefilter content using search based on low-level asset information.	
+
+        - calling model 21:17:56
+        - calling model 21:18:00
+        - calling model 21:18:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_24.json
+- Story #[25] -- started at 21:18:09
+    - #G28# As an admin, I want to automatically validated the ingested contents for copyright infringement.	
+
+        - calling model 21:18:09
+        - calling model 21:18:13
+        - calling model 21:18:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_25.json
+- Story #[26] -- started at 21:18:20
+    - #G28# As an admin, I want to prefilter the content using search on high-level asset information such as metadata and tags either recognized by the system of provided by the user.	
+
+        - calling model 21:18:20
+        - calling model 21:18:24
+        - calling model 21:18:27
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_26.json
+- Story #[27] -- started at 21:18:34
+    - #G28# As a Zooniverse admin, I want to assess how interesting or appealing or complex a picture is based on automated analysis, citizen annotations, and comments on Talk.	
+
+        - calling model 21:18:34
+        - calling model 21:18:38
+        - calling model 21:18:42
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_27.json
+- Story #[28] -- started at 21:18:47
+    - #G28# As a Zooniverse admin, I want to detect when a scientist should be prompted to look at a subject, based on annotations and information from Talk comments.	
+
+        - calling model 21:18:47
+        - calling model 21:18:51
+        - calling model 21:18:55
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_28.json
+- Story #[29] -- started at 21:19:03
+    - #G28# As a Zooniverse admin, I want to identify volunteer types.
+
+        - calling model 21:19:03
+        - calling model 21:19:06
+        - calling model 21:19:10
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_29.json
+- Story #[30] -- started at 21:19:14
+    - #G28# As a Zooniverse admin, I want to preclassify the Galaxy Zoo images using simple low-level image features.	
+
+        - calling model 21:19:14
+        - calling model 21:19:18
+        - calling model 21:19:21
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_30.json
+- Story #[31] -- started at 21:19:25
+    - #G28# As a Zooniverse admin, I want to automatically detect Snapshot Serengeti images with no classifiable animals in them.
+
+        - calling model 21:19:25
+        - calling model 21:19:29
+        - calling model 21:19:32
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_31.json
+- Story #[32] -- started at 21:19:36
+    - #G28# As a Zooniverse admin, I want to perform automatic image series detection for the case of timestamping malfunction in Snapshot Serengeti images.	
+
+        - calling model 21:19:36
+        - calling model 21:19:40
+        - calling model 21:19:44
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_32.json
+- Story #[33] -- started at 21:19:48
+    - #G28# As a Zooniverse admin, I want to perform automatic animal species preclassification in Snapshot Serengeti.	
+
+        - calling model 21:19:48
+        - calling model 21:19:51
+        - calling model 21:19:55
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_33.json
+- Story #[34] -- started at 21:20:00
+    - #G28# As a Zooniverse admin, I want to perform automatic animal attribute preclassification in Snapshot Serengeti.	
+
+        - calling model 21:20:00
+        - calling model 21:20:04
+        - calling model 21:20:08
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_34.json
+- Story #[35] -- started at 21:20:12
+    - #G28# As a Zooniverse admin, I want to perform automatic animal number detection in Snapshot Serengeti.	
+
+        - calling model 21:20:12
+        - calling model 21:20:16
+        - calling model 21:20:20
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_35.json
+- Story #[36] -- started at 21:20:24
+    - #G28# As a Zooniverse admin, I want to perform automatic segmentation or localization of plankton in Plankton Portal.	
+
+        - calling model 21:20:24
+        - calling model 21:20:28
+        - calling model 21:20:32
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_36.json
+- Story #[37] -- started at 21:20:37
+    - #G28# As a Zooniverse admin, I want to automatically detect Plankton Portal images with no classifiable plankton in them.	
+
+        - calling model 21:20:37
+        - calling model 21:20:41
+        - calling model 21:20:44
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_37.json
+- Story #[38] -- started at 21:20:48
+    - #G28# As a Zooniverse admin, I want to perform automatic detection of plankton size or orientation in Plankton Portal images.	
+
+        - calling model 21:20:48
+        - calling model 21:20:52
+        - calling model 21:20:56
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_38.json
+- Story #[39] -- started at 21:21:01
+    - #G28# As a Zooniverse admin, I want to perform automatic preclassification of plankton species in Plankton Portal images.	
+
+        - calling model 21:21:01
+        - calling model 21:21:05
+        - calling model 21:21:10
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_39.json
+- Story #[40] -- started at 21:21:15
+    - #G28# As a Zooniverse admin, I want to perform automatic worm motion analysis to reduce video duration in Worm Watch Lab.	
+
+        - calling model 21:21:15
+        - calling model 21:21:18
+        - calling model 21:21:22
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_40.json
+- Story #[41] -- started at 21:21:27
+    - #G28# As a Zooniverse admin, I want to automatically detect the time in a Worm Watch Lab video where the worm lays an egg.	
+
+        - calling model 21:21:27
+        - calling model 21:21:31
+        - calling model 21:21:35
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_41.json
+- Story #[42] -- started at 21:21:41
+    - #G28# As a Zooniverse admin, I want to detect important features such as areas of flooding, damage, temporary shelters, blocked roads etc in the satellite images.	
+
+        - calling model 21:21:41
+       - exception caught! Pausing for 60 seconds
+        - calling model 21:23:11
+        - calling model 21:23:15
+        - calling model 21:23:18
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_42.json
+- Story #[43] -- started at 21:23:24
+    - #G28# As a Zooniverse admin, I want to assess the probability/weight of a volunteer's classification based on their experience.	
+
+        - calling model 21:23:24
+        - calling model 21:23:28
+        - calling model 21:23:31
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_43.json
+- Story #[44] -- started at 21:23:35
+    - #G28# As a Zooniverse admin, I want to perform prefiltering of the images to remove artefacts such as bright stars and camera read errors.	
+
+        - calling model 21:23:35
+        - calling model 21:23:40
+        - calling model 21:23:43
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_44.json
+- Story #[45] -- started at 21:23:50
+    - #G28# As a Zooniverse admin, I want to detect moving and transient objects in the images.	
+
+        - calling model 21:23:50
+        - calling model 21:23:53
+        - calling model 21:23:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_45.json
+- Story #[46] -- started at 21:24:01
+    - #G28# As a Zooniverse admin, I want to remove background noise and distracting sounds from the audio files.	
+
+        - calling model 21:24:01
+        - calling model 21:24:05
+        - calling model 21:24:08
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_46.json
+- Story #[47] -- started at 21:24:14
+    - #G28# As a Zooniverse admin, I want to group whale calls that are similar.	
+
+        - calling model 21:24:14
+        - calling model 21:24:17
+        - calling model 21:24:21
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_47.json
+- Story #[48] -- started at 21:24:25
+    - #G28# As a Zooniverse admin, I want to identify the number of whales heard in a single audio file.	
+
+        - calling model 21:24:25
+        - calling model 21:24:28
+        - calling model 21:24:32
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_48.json
+- Story #[49] -- started at 21:24:36
+    - #G28# As a Zooniverse admin, I want to know when I should interrupt a volunteer.	
+
+        - calling model 21:24:36
+        - calling model 21:24:40
+        - calling model 21:24:43
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_49.json
+- Story #[50] -- started at 21:24:47
+    - #G28# As a Zooniverse admin, I want to know whether I should interrupt a volunteer with text, an image, or a video.	
+
+        - calling model 21:24:47
+        - calling model 21:24:51
+        - calling model 21:24:56
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_50.json
+- Story #[51] -- started at 21:25:01
+    - #G28# As a Zooniverse admin, I want to know when I should educate a volunteer.	
+
+        - calling model 21:25:01
+        - calling model 21:25:05
+        - calling model 21:25:08
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_51.json
+- Story #[52] -- started at 21:25:12
+    - #G28# As a Zooniverse admin, I want to know whether I should educate a volunteer with text, an image, or a video.	
+
+        - calling model 21:25:12
+        - calling model 21:25:16
+        - calling model 21:25:19
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_52.json
+- Story #[53] -- started at 21:25:23
+    - #G28# As a Zooniverse admin, I want to know which piece of education I should give to a volunteer.	
+
+        - calling model 21:25:23
+        - calling model 21:25:28
+        - calling model 21:25:31
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_53.json
+- Story #[54] -- started at 21:25:37
+    - #G28# As a Zooniverse admin, I want to know when a volunteer has made an interesting comment on a subject.	
+
+        - calling model 21:25:37
+        - calling model 21:25:41
+        - calling model 21:25:44
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_54.json
+- Story #[55] -- started at 21:25:49
+    - #G28# As a Zooniverse admin, I want to know when Zoonibot should comment on a subject.
+
+        - calling model 21:25:49
+       - exception caught! Pausing for 60 seconds
+        - calling model 21:27:20
+        - calling model 21:27:23
+        - calling model 21:27:27
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_55.json
+- Story #[56] -- started at 21:27:33
+    - #G28# As a Zooniverse admin, I want to know when Zoonibot should give an explanation.	
+
+        - calling model 21:27:33
+        - calling model 21:27:37
+        - calling model 21:27:40
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_56.json
+- Story #[57] -- started at 21:27:44
+    - #G28# As a Zooniverse admin, I want to know what Zoonibot should say to a volunteer.	
+
+        - calling model 21:27:44
+        - calling model 21:27:48
+        - calling model 21:27:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_57.json
+- Story #[58] -- started at 21:27:57
+    - #G28# As a Zooniverse admin, I want to group subjects by similarity.	
+
+        - calling model 21:27:57
+        - calling model 21:28:00
+        - calling model 21:28:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_58.json
+- Story #[59] -- started at 21:28:08
+    - #G28# As a Zooniverse admin, I want to recommend different projects to volunteers based on their previous experiences.	
+
+        - calling model 21:28:08
+        - calling model 21:28:12
+        - calling model 21:28:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_59.json
+- Story #[60] -- started at 21:28:20
+    - #G28# As an admin, I want to see a summary of articles, so that I reuse them.	
+
+        - calling model 21:28:20
+        - calling model 21:28:24
+        - calling model 21:28:27
+    - saving result into: ./output/gpt-3.5-turbo-0613/g28-zooniverse.txt_60.json
+END: 21:28:32

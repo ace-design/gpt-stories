@@ -1,0 +1,63 @@
+{
+  "story": "#G28# As a user, I want to identify persons in videos, and receive related information about them.\t\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "persons",
+      "videos"
+    ],
+    "actions": [
+      "identify",
+      "receive"
+    ],
+    "benefit": "receive related information about them"
+  },
+  "categories": {
+    "primary_entities": [
+      "persons",
+      "videos"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "identify",
+      "receive"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "identify",
+        "kind": "triggers"
+      },
+      {
+        "from": "identify",
+        "to": "persons",
+        "kind": "targets"
+      },
+      {
+        "from": "identify",
+        "to": "videos",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "persons",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "videos",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1281,
+    "output": 233,
+    "time (ns)": 6830998000
+  }
+}

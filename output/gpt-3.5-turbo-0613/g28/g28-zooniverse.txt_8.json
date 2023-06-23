@@ -1,0 +1,52 @@
+{
+  "story": "#G28# As a user, I want to get info about similar video items and segments.\t\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "similar video items",
+      "segments"
+    ],
+    "actions": [
+      "get info"
+    ],
+    "benefit": "I can get information about similar video items and segments."
+  },
+  "categories": {
+    "primary_entities": [
+      "similar video items"
+    ],
+    "secondary_entities": [
+      "segments"
+    ],
+    "primary_actions": [
+      "get info"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "get info",
+        "kind": "triggers"
+      },
+      {
+        "from": "get info",
+        "to": "similar video items",
+        "kind": "targets"
+      },
+      {
+        "from": "get info",
+        "to": "segments",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1283,
+    "output": 192,
+    "time (ns)": 5652326000
+  }
+}

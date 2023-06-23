@@ -1,0 +1,43 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to know when I should interrupt a volunteer.\t\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [],
+    "actions": [
+      "know",
+      "interrupt"
+    ],
+    "benefit": "I should know when to interrupt a volunteer"
+  },
+  "categories": {
+    "primary_entities": [],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "interrupt"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "interrupt",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1273,
+    "output": 156,
+    "time (ns)": 4841156000
+  }
+}

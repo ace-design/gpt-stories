@@ -1,0 +1,52 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to detect moving and transient objects in the images.\t\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [
+      "moving and transient objects",
+      "images"
+    ],
+    "actions": [
+      "detect"
+    ],
+    "benefit": "to detect moving and transient objects in the images"
+  },
+  "categories": {
+    "primary_entities": [
+      "moving and transient objects"
+    ],
+    "secondary_entities": [
+      "images"
+    ],
+    "primary_actions": [
+      "detect"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "detect",
+        "kind": "triggers"
+      },
+      {
+        "from": "detect",
+        "to": "moving and transient objects",
+        "kind": "targets"
+      },
+      {
+        "from": "detect",
+        "to": "images",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1294,
+    "output": 195,
+    "time (ns)": 5657331000
+  }
+}

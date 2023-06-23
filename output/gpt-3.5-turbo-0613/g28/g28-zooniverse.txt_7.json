@@ -1,0 +1,51 @@
+{
+  "story": "#G28# As a user, I want to view thumbnail sequences of video segments.\t\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "thumbnail sequences",
+      "video segments"
+    ],
+    "actions": [
+      "view"
+    ],
+    "benefit": "I can easily navigate through video content"
+  },
+  "categories": {
+    "primary_entities": [
+      "thumbnail sequences",
+      "video segments"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "thumbnail sequences",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "video segments",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1267,
+    "output": 185,
+    "time (ns)": 5497240000
+  }
+}

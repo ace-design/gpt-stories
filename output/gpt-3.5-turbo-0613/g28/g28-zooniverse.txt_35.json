@@ -1,0 +1,44 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to perform automatic animal number detection in Snapshot Serengeti.\t\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [
+      "Snapshot Serengeti"
+    ],
+    "actions": [
+      "perform automatic animal number detection"
+    ],
+    "benefit": "I can improve the efficiency of animal number detection in Snapshot Serengeti"
+  },
+  "categories": {
+    "primary_entities": [
+      "Snapshot Serengeti"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "perform automatic animal number detection"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "perform automatic animal number detection",
+        "kind": "triggers"
+      },
+      {
+        "from": "perform automatic animal number detection",
+        "to": "Snapshot Serengeti",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1322,
+    "output": 190,
+    "time (ns)": 5686598000
+  }
+}

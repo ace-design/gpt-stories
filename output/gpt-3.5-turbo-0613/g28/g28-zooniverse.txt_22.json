@@ -1,0 +1,80 @@
+{
+  "story": "#G28# As an admin, I want to get a quick assessment of whether audio material has been edited before the upload.\t\n",
+  "extraction": {
+    "personas": [
+      "admin"
+    ],
+    "entities": [
+      "audio material"
+    ],
+    "actions": [
+      "get",
+      "assessment",
+      "edited",
+      "upload"
+    ],
+    "benefit": "quick assessment of whether audio material has been edited before the upload"
+  },
+  "categories": {
+    "primary_entities": [
+      "audio material"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "get",
+      "assessment",
+      "edited",
+      "upload"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "admin",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "audio material",
+        "kind": "targets"
+      },
+      {
+        "from": "admin",
+        "to": "assessment",
+        "kind": "triggers"
+      },
+      {
+        "from": "assessment",
+        "to": "audio material",
+        "kind": "targets"
+      },
+      {
+        "from": "admin",
+        "to": "edited",
+        "kind": "triggers"
+      },
+      {
+        "from": "edited",
+        "to": "audio material",
+        "kind": "targets"
+      },
+      {
+        "from": "admin",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "audio material",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1316,
+    "output": 330,
+    "time (ns)": 9940963000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to identify volunteer types.\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [
+      "volunteer types"
+    ],
+    "actions": [
+      "identify"
+    ],
+    "benefit": ""
+  },
+  "categories": {
+    "primary_entities": [
+      "volunteer types"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "identify"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "identify",
+        "kind": "triggers"
+      },
+      {
+        "from": "identify",
+        "to": "volunteer types",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1247,
+    "output": 152,
+    "time (ns)": 4836719000
+  }
+}

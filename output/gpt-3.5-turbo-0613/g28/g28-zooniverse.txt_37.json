@@ -1,0 +1,44 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to automatically detect Plankton Portal images with no classifiable plankton in them.\t\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [
+      "Plankton Portal images"
+    ],
+    "actions": [
+      "automatically detect"
+    ],
+    "benefit": "identify images with no classifiable plankton"
+  },
+  "categories": {
+    "primary_entities": [
+      "Plankton Portal images"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "automatically detect"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "automatically detect",
+        "kind": "triggers"
+      },
+      {
+        "from": "automatically detect",
+        "to": "Plankton Portal images",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1314,
+    "output": 175,
+    "time (ns)": 5094494000
+  }
+}

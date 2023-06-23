@@ -1,0 +1,60 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to know when a volunteer has made an interesting comment on a subject.\t\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [
+      "volunteer",
+      "subject"
+    ],
+    "actions": [
+      "know",
+      "made an interesting comment"
+    ],
+    "benefit": "I can be aware of interesting comments made by volunteers on subjects"
+  },
+  "categories": {
+    "primary_entities": [
+      "volunteer"
+    ],
+    "secondary_entities": [
+      "subject"
+    ],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "made an interesting comment"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "volunteer",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "subject",
+        "kind": "targets"
+      },
+      {
+        "from": "made an interesting comment",
+        "to": "subject",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1322,
+    "output": 231,
+    "time (ns)": 6565903000
+  }
+}

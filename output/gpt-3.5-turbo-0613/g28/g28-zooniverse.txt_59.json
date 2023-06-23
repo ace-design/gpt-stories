@@ -1,0 +1,59 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to recommend different projects to volunteers based on their previous experiences.\t\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [
+      "projects",
+      "volunteers",
+      "previous experiences"
+    ],
+    "actions": [
+      "recommend"
+    ],
+    "benefit": "to recommend different projects to volunteers based on their previous experiences"
+  },
+  "categories": {
+    "primary_entities": [
+      "projects",
+      "volunteers"
+    ],
+    "secondary_entities": [
+      "previous experiences"
+    ],
+    "primary_actions": [
+      "recommend"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "recommend",
+        "kind": "triggers"
+      },
+      {
+        "from": "recommend",
+        "to": "projects",
+        "kind": "targets"
+      },
+      {
+        "from": "recommend",
+        "to": "volunteers",
+        "kind": "targets"
+      },
+      {
+        "from": "volunteers",
+        "to": "previous experiences",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1310,
+    "output": 226,
+    "time (ns)": 6607261000
+  }
+}

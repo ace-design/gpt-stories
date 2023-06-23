@@ -1,0 +1,69 @@
+{
+  "story": "#G28# As an admin, I want to see, validate and edit segmentation of videos.\t\n",
+  "extraction": {
+    "personas": [
+      "admin"
+    ],
+    "actions": [
+      "see",
+      "validate",
+      "edit"
+    ],
+    "entities": [
+      "segmentation of videos"
+    ],
+    "benefit": "I can see, validate and edit segmentation of videos"
+  },
+  "categories": {
+    "primary_entities": [
+      "segmentation of videos"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see",
+      "edit"
+    ],
+    "secondary_actions": [
+      "validate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "admin",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "admin",
+        "to": "validate",
+        "kind": "triggers"
+      },
+      {
+        "from": "admin",
+        "to": "edit",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "segmentation of videos",
+        "kind": "targets"
+      },
+      {
+        "from": "validate",
+        "to": "segmentation of videos",
+        "kind": "targets"
+      },
+      {
+        "from": "edit",
+        "to": "segmentation of videos",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1289,
+    "output": 279,
+    "time (ns)": 7807132000
+  }
+}

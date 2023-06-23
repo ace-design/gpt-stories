@@ -1,0 +1,59 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to remove background noise and distracting sounds from the audio files.\t\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [
+      "background noise",
+      "distracting sounds",
+      "audio files"
+    ],
+    "actions": [
+      "remove"
+    ],
+    "benefit": "improve audio quality"
+  },
+  "categories": {
+    "primary_entities": [
+      "background noise",
+      "distracting sounds"
+    ],
+    "secondary_entities": [
+      "audio files"
+    ],
+    "primary_actions": [
+      "remove"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "remove",
+        "kind": "triggers"
+      },
+      {
+        "from": "remove",
+        "to": "background noise",
+        "kind": "targets"
+      },
+      {
+        "from": "remove",
+        "to": "distracting sounds",
+        "kind": "targets"
+      },
+      {
+        "from": "remove",
+        "to": "audio files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1305,
+    "output": 227,
+    "time (ns)": 6429812000
+  }
+}

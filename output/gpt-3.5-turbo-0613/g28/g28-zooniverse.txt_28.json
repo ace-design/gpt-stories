@@ -1,0 +1,89 @@
+{
+  "story": "#G28# As a Zooniverse admin, I want to detect when a scientist should be prompted to look at a subject, based on annotations and information from Talk comments.\t\n",
+  "extraction": {
+    "personas": [
+      "Zooniverse admin"
+    ],
+    "entities": [
+      "scientist",
+      "subject",
+      "annotations",
+      "Talk comments"
+    ],
+    "actions": [
+      "detect",
+      "prompt"
+    ],
+    "benefit": "I can detect when a scientist should be prompted to look at a subject based on annotations and information from Talk comments"
+  },
+  "categories": {
+    "primary_entities": [
+      "scientist",
+      "subject"
+    ],
+    "secondary_entities": [
+      "annotations",
+      "Talk comments"
+    ],
+    "primary_actions": [
+      "detect"
+    ],
+    "secondary_actions": [
+      "prompt"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zooniverse admin",
+        "to": "detect",
+        "kind": "triggers"
+      },
+      {
+        "from": "detect",
+        "to": "scientist",
+        "kind": "targets"
+      },
+      {
+        "from": "detect",
+        "to": "subject",
+        "kind": "targets"
+      },
+      {
+        "from": "detect",
+        "to": "annotations",
+        "kind": "targets"
+      },
+      {
+        "from": "detect",
+        "to": "Talk comments",
+        "kind": "targets"
+      },
+      {
+        "from": "prompt",
+        "to": "scientist",
+        "kind": "targets"
+      },
+      {
+        "from": "prompt",
+        "to": "subject",
+        "kind": "targets"
+      },
+      {
+        "from": "prompt",
+        "to": "annotations",
+        "kind": "targets"
+      },
+      {
+        "from": "prompt",
+        "to": "Talk comments",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1381,
+    "output": 374,
+    "time (ns)": 9973175000
+  }
+}

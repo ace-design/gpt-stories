@@ -1,0 +1,60 @@
+{
+  "story": "#G28# As an admin, I want to see a summary of articles, so that I reuse them.\t\n",
+  "extraction": {
+    "personas": [
+      "admin"
+    ],
+    "entities": [
+      "summary",
+      "articles"
+    ],
+    "actions": [
+      "see",
+      "reuse"
+    ],
+    "benefit": "I can reuse articles"
+  },
+  "categories": {
+    "primary_entities": [
+      "summary"
+    ],
+    "secondary_entities": [
+      "articles"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": [
+      "reuse"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "admin",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "summary",
+        "kind": "targets"
+      },
+      {
+        "from": "admin",
+        "to": "reuse",
+        "kind": "triggers"
+      },
+      {
+        "from": "reuse",
+        "to": "articles",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1276,
+    "output": 206,
+    "time (ns)": 5930504000
+  }
+}
