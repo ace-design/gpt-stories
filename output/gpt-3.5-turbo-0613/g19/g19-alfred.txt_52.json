@@ -1,0 +1,49 @@
+{
+  "story": "#G19# As an OlderPerson, I want to receive a message when my home care nurse is on her way. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "home care nurse"
+    ],
+    "actions": [
+      "receive",
+      "message",
+      "on her way"
+    ],
+    "benefit": "I can be prepared for the arrival of my home care nurse"
+  },
+  "categories": {
+    "primary_entities": [
+      "home care nurse"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "receive",
+      "message"
+    ],
+    "secondary_actions": [
+      "on her way"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "receive",
+        "kind": "triggers"
+      },
+      {
+        "from": "receive",
+        "to": "home care nurse",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1315,
+    "output": 178,
+    "time (ns)": 5248157000
+  }
+}

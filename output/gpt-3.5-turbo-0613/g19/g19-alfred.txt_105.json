@@ -1,0 +1,54 @@
+{
+  "story": "#G19# As a MedicalCaregiver, I want to have ALFRED to remind people to exercise regularly. \n",
+  "extraction": {
+    "personas": [
+      "MedicalCaregiver"
+    ],
+    "entities": [
+      "ALFRED",
+      "people"
+    ],
+    "actions": [
+      "remind",
+      "exercise regularly"
+    ],
+    "benefit": "people can exercise regularly"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED",
+      "people"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "remind"
+    ],
+    "secondary_actions": [
+      "exercise regularly"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "MedicalCaregiver",
+        "to": "remind",
+        "kind": "triggers"
+      },
+      {
+        "from": "remind",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "remind",
+        "to": "people",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1301,
+    "output": 200,
+    "time (ns)": 5764216000
+  }
+}

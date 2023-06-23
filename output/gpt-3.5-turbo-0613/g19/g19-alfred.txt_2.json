@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As an OlderPerson, I want to receive information from ALFRED by speech technology. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED"
+    ],
+    "actions": [
+      "receive information"
+    ],
+    "benefit": "I can receive information from ALFRED by speech technology"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "receive information"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "receive information",
+        "kind": "triggers"
+      },
+      {
+        "from": "receive information",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1285,
+    "output": 166,
+    "time (ns)": 5259582000
+  }
+}

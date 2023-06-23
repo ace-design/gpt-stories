@@ -1,0 +1,61 @@
+{
+  "story": "#G19# As a developer, I want to enable customers to provide feedback about my App and need an easy way to watch this feedback. \n",
+  "extraction": {
+    "personas": [
+      "developer",
+      "customers"
+    ],
+    "entities": [
+      "App",
+      "feedback"
+    ],
+    "actions": [
+      "enable",
+      "watch"
+    ],
+    "benefit": "an easy way to watch this feedback"
+  },
+  "categories": {
+    "primary_entities": [
+      "App"
+    ],
+    "secondary_entities": [
+      "feedback"
+    ],
+    "primary_actions": [
+      "enable"
+    ],
+    "secondary_actions": [
+      "watch"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "enable",
+        "kind": "triggers"
+      },
+      {
+        "from": "enable",
+        "to": "feedback",
+        "kind": "targets"
+      },
+      {
+        "from": "customers",
+        "to": "watch",
+        "kind": "triggers"
+      },
+      {
+        "from": "watch",
+        "to": "feedback",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1306,
+    "output": 212,
+    "time (ns)": 6028734000
+  }
+}

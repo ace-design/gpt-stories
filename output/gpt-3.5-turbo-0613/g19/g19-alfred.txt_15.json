@@ -1,0 +1,49 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have an introduction conversation with ALFRED, so that I can learn everything about him and he about me. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED"
+    ],
+    "actions": [
+      "have an introduction conversation",
+      "learn everything about",
+      "he about me"
+    ],
+    "benefit": "I can learn everything about ALFRED and he can learn everything about me"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have an introduction conversation"
+    ],
+    "secondary_actions": [
+      "learn everything about",
+      "he about me"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "have an introduction conversation",
+        "kind": "triggers"
+      },
+      {
+        "from": "have an introduction conversation",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1363,
+    "output": 197,
+    "time (ns)": 6005462000
+  }
+}

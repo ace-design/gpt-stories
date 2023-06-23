@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As an OlderPerson, I want to always keep control on the activities of ALFRED. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED"
+    ],
+    "actions": [
+      "keep control on the activities"
+    ],
+    "benefit": "always keep control on the activities of ALFRED"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "keep control on the activities"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "keep control on the activities",
+        "kind": "triggers"
+      },
+      {
+        "from": "keep control on the activities",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1295,
+    "output": 177,
+    "time (ns)": 6621702000
+  }
+}

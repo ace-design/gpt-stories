@@ -1,0 +1,49 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have an ALFRED device that helps me to communicate with my friends and family. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED device",
+      "friends",
+      "family"
+    ],
+    "actions": [
+      "communicate"
+    ],
+    "benefit": "helps me to communicate with my friends and family"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED device"
+    ],
+    "secondary_entities": [
+      "friends",
+      "family"
+    ],
+    "primary_actions": [
+      "communicate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "communicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "communicate",
+        "to": "ALFRED device",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1324,
+    "output": 179,
+    "time (ns)": 5808639000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have the ALFRED shirt to look good. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED shirt"
+    ],
+    "actions": [
+      "look good"
+    ],
+    "benefit": "I want to have the ALFRED shirt to look good"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED shirt"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "look good"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "look good",
+        "kind": "triggers"
+      },
+      {
+        "from": "look good",
+        "to": "ALFRED shirt",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1290,
+    "output": 170,
+    "time (ns)": 5122858000
+  }
+}

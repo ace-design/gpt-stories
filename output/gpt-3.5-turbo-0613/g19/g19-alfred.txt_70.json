@@ -1,0 +1,65 @@
+{
+  "story": "#G19# As an OlderPerson, I want to use ALFRED to set up social groups of people with similar diseases. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "social groups",
+      "people",
+      "diseases"
+    ],
+    "actions": [
+      "set up"
+    ],
+    "benefit": "to connect with people who have similar diseases"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED",
+      "social groups",
+      "people",
+      "diseases"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "set up"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "set up",
+        "kind": "triggers"
+      },
+      {
+        "from": "set up",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "set up",
+        "to": "social groups",
+        "kind": "targets"
+      },
+      {
+        "from": "set up",
+        "to": "people",
+        "kind": "targets"
+      },
+      {
+        "from": "set up",
+        "to": "diseases",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1330,
+    "output": 268,
+    "time (ns)": 7575917000
+  }
+}

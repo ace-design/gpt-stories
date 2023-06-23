@@ -1,0 +1,54 @@
+{
+  "story": "#G19# As a MedicalCaregiver, I want to have a regular summary on how much exercise is performed by the user. \n",
+  "extraction": {
+    "personas": [
+      "MedicalCaregiver"
+    ],
+    "entities": [
+      "user",
+      "exercise"
+    ],
+    "actions": [
+      "have",
+      "perform"
+    ],
+    "benefit": "have a regular summary on how much exercise is performed by the user"
+  },
+  "categories": {
+    "primary_entities": [
+      "user",
+      "exercise"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": [
+      "perform"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "MedicalCaregiver",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "user",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "exercise",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1316,
+    "output": 196,
+    "time (ns)": 5457910000
+  }
+}

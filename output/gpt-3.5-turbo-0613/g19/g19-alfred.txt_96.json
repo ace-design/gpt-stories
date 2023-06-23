@@ -1,0 +1,52 @@
+{
+  "story": "#G19# As a SocialCaregiver, I want to have ALFRED to be able to recognize pain and or stress by using skin conduction sensors. \n",
+  "extraction": {
+    "personas": [
+      "SocialCaregiver"
+    ],
+    "entities": [
+      "ALFRED",
+      "skin conduction sensors"
+    ],
+    "actions": [
+      "recognize"
+    ],
+    "benefit": "to be able to recognize pain and or stress"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [
+      "skin conduction sensors"
+    ],
+    "primary_actions": [
+      "recognize"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "SocialCaregiver",
+        "to": "recognize",
+        "kind": "triggers"
+      },
+      {
+        "from": "recognize",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "recognize",
+        "to": "skin conduction sensors",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1336,
+    "output": 206,
+    "time (ns)": 6236783000
+  }
+}

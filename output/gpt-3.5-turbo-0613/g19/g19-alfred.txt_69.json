@@ -1,0 +1,51 @@
+{
+  "story": "#G19# As a SocialCaregiver, I want ALFRED to remind me of the things I need to bring to the person I care for. \n",
+  "extraction": {
+    "personas": [
+      "SocialCaregiver"
+    ],
+    "entities": [
+      "ALFRED",
+      "person I care for"
+    ],
+    "actions": [
+      "remind"
+    ],
+    "benefit": "I can remember the things I need to bring"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED",
+      "person I care for"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "remind"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "SocialCaregiver",
+        "to": "remind",
+        "kind": "triggers"
+      },
+      {
+        "from": "remind",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "remind",
+        "to": "person I care for",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1334,
+    "output": 207,
+    "time (ns)": 7364720000
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "story": "#G19# As a developer, I want to be notified as soon as possible when the state of any of my Apps changes. \n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "Apps"
+    ],
+    "actions": [
+      "be notified",
+      "changes"
+    ],
+    "benefit": "I want to be notified as soon as possible when the state of any of my Apps changes."
+  },
+  "categories": {
+    "primary_entities": [
+      "Apps"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "be notified"
+    ],
+    "secondary_actions": [
+      "changes"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "be notified",
+        "kind": "triggers"
+      },
+      {
+        "from": "be notified",
+        "to": "Apps",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1313,
+    "output": 168,
+    "time (ns)": 5452396000
+  }
+}

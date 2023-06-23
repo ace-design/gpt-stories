@@ -1,0 +1,51 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have my data stored directly on the phone.\n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "data",
+      "phone"
+    ],
+    "actions": [
+      "stored"
+    ],
+    "benefit": "I can have my data stored directly on the phone"
+  },
+  "categories": {
+    "primary_entities": [
+      "data",
+      "phone"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "stored"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "stored",
+        "kind": "triggers"
+      },
+      {
+        "from": "stored",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "stored",
+        "to": "phone",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1277,
+    "output": 186,
+    "time (ns)": 5398612000
+  }
+}

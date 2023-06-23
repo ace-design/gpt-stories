@@ -1,0 +1,51 @@
+{
+  "story": "#G19# As an OlderPerson, I want to use ALFRED to pick the phone sooner up when I am at home. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "phone"
+    ],
+    "actions": [
+      "pick up"
+    ],
+    "benefit": "I can answer the phone sooner when I am at home"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED",
+      "phone"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "pick up"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "pick up",
+        "kind": "triggers"
+      },
+      {
+        "from": "pick up",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "pick up",
+        "to": "phone",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1312,
+    "output": 198,
+    "time (ns)": 5843821000
+  }
+}

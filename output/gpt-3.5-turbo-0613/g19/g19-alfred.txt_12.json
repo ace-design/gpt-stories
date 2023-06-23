@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have an ALFRED device that speaks very slowly and clearly.\n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED device"
+    ],
+    "actions": [
+      "speaks"
+    ],
+    "benefit": "I can understand the device better"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED device"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "speaks"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "speaks",
+        "kind": "triggers"
+      },
+      {
+        "from": "speaks",
+        "to": "ALFRED device",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1284,
+    "output": 164,
+    "time (ns)": 5277196000
+  }
+}

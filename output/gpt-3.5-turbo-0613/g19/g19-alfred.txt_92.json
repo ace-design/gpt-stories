@@ -1,0 +1,51 @@
+{
+  "story": "#G19# As a MedicalCaregiver, I want to have ALFRED to be able to determine the user's heart rate. \n",
+  "extraction": {
+    "personas": [
+      "MedicalCaregiver"
+    ],
+    "entities": [
+      "ALFRED",
+      "user's heart rate"
+    ],
+    "actions": [
+      "determine"
+    ],
+    "benefit": "I can monitor the user's heart rate"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED",
+      "user's heart rate"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "determine"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "MedicalCaregiver",
+        "to": "determine",
+        "kind": "triggers"
+      },
+      {
+        "from": "determine",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "determine",
+        "to": "user's heart rate",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1320,
+    "output": 206,
+    "time (ns)": 6230049000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As a MedicalCaregiver, I want to have ALFRED to propose training that promotes complex thinking. \n",
+  "extraction": {
+    "personas": [
+      "MedicalCaregiver"
+    ],
+    "entities": [
+      "ALFRED"
+    ],
+    "actions": [
+      "propose"
+    ],
+    "benefit": "promotes complex thinking"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "propose"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "MedicalCaregiver",
+        "to": "propose",
+        "kind": "triggers"
+      },
+      {
+        "from": "propose",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1285,
+    "output": 161,
+    "time (ns)": 4827164000
+  }
+}

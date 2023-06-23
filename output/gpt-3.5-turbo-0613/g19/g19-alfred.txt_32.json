@@ -1,0 +1,52 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have an ALFRED device that provides me with information about existing apps that corresponds to my interests. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED device",
+      "existing apps"
+    ],
+    "actions": [
+      "provides"
+    ],
+    "benefit": "I can get information about apps that correspond to my interests"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED device"
+    ],
+    "secondary_entities": [
+      "existing apps"
+    ],
+    "primary_actions": [
+      "provides"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "provides",
+        "kind": "triggers"
+      },
+      {
+        "from": "provides",
+        "to": "ALFRED device",
+        "kind": "targets"
+      },
+      {
+        "from": "provides",
+        "to": "existing apps",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1329,
+    "output": 203,
+    "time (ns)": 5789990000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have the ALFRED shirt has to be non stigmatizing. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED shirt"
+    ],
+    "actions": [
+      "have to be non stigmatizing"
+    ],
+    "benefit": ""
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED shirt"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have to be non stigmatizing"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "have to be non stigmatizing",
+        "kind": "triggers"
+      },
+      {
+        "from": "have to be non stigmatizing",
+        "to": "ALFRED shirt",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1293,
+    "output": 177,
+    "time (ns)": 5172005000
+  }
+}

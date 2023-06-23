@@ -1,0 +1,47 @@
+{
+  "story": "#G19# As an OlderPerson, I want to play online games together with other users. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "online games",
+      "other users"
+    ],
+    "actions": [
+      "play"
+    ],
+    "benefit": "I can play online games together with other users"
+  },
+  "categories": {
+    "primary_entities": [
+      "online games"
+    ],
+    "secondary_entities": [
+      "other users"
+    ],
+    "primary_actions": [
+      "play"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "play",
+        "kind": "triggers"
+      },
+      {
+        "from": "play",
+        "to": "online games",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1280,
+    "output": 164,
+    "time (ns)": 5116759000
+  }
+}

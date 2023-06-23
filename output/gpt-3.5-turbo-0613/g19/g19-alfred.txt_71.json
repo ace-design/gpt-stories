@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As an OlderPerson, I want to use ALFRED to contact people from my own circle. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED"
+    ],
+    "actions": [
+      "contact"
+    ],
+    "benefit": "I can contact people from my own circle"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "contact"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "contact",
+        "kind": "triggers"
+      },
+      {
+        "from": "contact",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1282,
+    "output": 159,
+    "time (ns)": 5029214000
+  }
+}

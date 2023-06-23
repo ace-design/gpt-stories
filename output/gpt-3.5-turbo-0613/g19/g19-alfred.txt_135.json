@@ -1,0 +1,56 @@
+{
+  "story": "#G19# As a serious games developer, I want to be able to take control over some functions to provide the desired user experience. \n",
+  "extraction": {
+    "personas": [
+      "serious games developer"
+    ],
+    "entities": [
+      "functions"
+    ],
+    "actions": [
+      "take control",
+      "provide"
+    ],
+    "benefit": "to provide the desired user experience"
+  },
+  "categories": {
+    "primary_entities": [
+      "functions"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "take control",
+      "provide"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "serious games developer",
+        "to": "take control",
+        "kind": "triggers"
+      },
+      {
+        "from": "serious games developer",
+        "to": "provide",
+        "kind": "triggers"
+      },
+      {
+        "from": "take control",
+        "to": "functions",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "functions",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1296,
+    "output": 214,
+    "time (ns)": 6156681000
+  }
+}

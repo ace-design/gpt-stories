@@ -1,0 +1,47 @@
+{
+  "story": "#G19# As an OlderPerson, I want to use ALFRED to control the heating. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "heating"
+    ],
+    "actions": [
+      "control"
+    ],
+    "benefit": "I can control the heating using ALFRED"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [
+      "heating"
+    ],
+    "primary_actions": [
+      "control"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "control",
+        "kind": "triggers"
+      },
+      {
+        "from": "control",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1286,
+    "output": 167,
+    "time (ns)": 5064530000
+  }
+}

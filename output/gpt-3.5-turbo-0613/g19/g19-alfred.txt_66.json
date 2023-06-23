@@ -1,0 +1,47 @@
+{
+  "story": "#G19# As an OlderPerson, I want to insert my meetings into ALFRED using speech. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "meetings",
+      "ALFRED"
+    ],
+    "actions": [
+      "insert"
+    ],
+    "benefit": "I can insert my meetings into ALFRED using speech"
+  },
+  "categories": {
+    "primary_entities": [
+      "meetings"
+    ],
+    "secondary_entities": [
+      "ALFRED"
+    ],
+    "primary_actions": [
+      "insert"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "insert",
+        "kind": "triggers"
+      },
+      {
+        "from": "insert",
+        "to": "meetings",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1293,
+    "output": 168,
+    "time (ns)": 5212991000
+  }
+}

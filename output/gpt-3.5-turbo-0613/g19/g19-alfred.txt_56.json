@@ -1,0 +1,52 @@
+{
+  "story": "#G19# As an OlderPerson, I want to use ALFRED to do my grocery shopping. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "grocery shopping"
+    ],
+    "actions": [
+      "use"
+    ],
+    "benefit": "I can do my grocery shopping"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [
+      "grocery shopping"
+    ],
+    "primary_actions": [
+      "use"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "grocery shopping",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1286,
+    "output": 193,
+    "time (ns)": 5453928000
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "story": "#G19# As an OlderPerson, I want to use only well-visible buttons.\n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [],
+    "actions": [
+      "use"
+    ],
+    "benefit": "I want to use only well-visible buttons"
+  },
+  "categories": {
+    "primary_entities": [],
+    "secondary_entities": [],
+    "primary_actions": [
+      "use"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "well-visible buttons",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1249,
+    "output": 151,
+    "time (ns)": 4748176000
+  }
+}

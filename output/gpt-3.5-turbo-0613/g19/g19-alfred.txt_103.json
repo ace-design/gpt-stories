@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As an OlderPerson, I want to receive suggestions about local sport Classes. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "local sport Classes"
+    ],
+    "actions": [
+      "receive suggestions"
+    ],
+    "benefit": "I can find suitable sport classes in my local area"
+  },
+  "categories": {
+    "primary_entities": [
+      "local sport Classes"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "receive suggestions"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "receive suggestions",
+        "kind": "triggers"
+      },
+      {
+        "from": "receive suggestions",
+        "to": "local sport Classes",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1274,
+    "output": 165,
+    "time (ns)": 5456739000
+  }
+}

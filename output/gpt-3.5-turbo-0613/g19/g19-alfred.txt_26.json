@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As an OlderPerson, I want to be able to zoom into visual content. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "visual content"
+    ],
+    "actions": [
+      "zoom into"
+    ],
+    "benefit": "be able to zoom into visual content"
+  },
+  "categories": {
+    "primary_entities": [
+      "visual content"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "zoom into"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "zoom into",
+        "kind": "triggers"
+      },
+      {
+        "from": "zoom into",
+        "to": "visual content",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1268,
+    "output": 159,
+    "time (ns)": 4842249000
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "story": "#G19# As an OlderPerson, I want to receive support to have a taxi on time. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "support",
+      "taxi"
+    ],
+    "actions": [
+      "receive"
+    ],
+    "benefit": "I can have a taxi on time"
+  },
+  "categories": {
+    "primary_entities": [
+      "support",
+      "taxi"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "receive"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "receive",
+        "kind": "triggers"
+      },
+      {
+        "from": "receive",
+        "to": "support",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "taxi",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1277,
+    "output": 186,
+    "time (ns)": 5832667000
+  }
+}

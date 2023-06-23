@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have an ALFRED device that only listens to me when I ask it to. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED device"
+    ],
+    "actions": [
+      "listen"
+    ],
+    "benefit": "I can have an ALFRED device that only listens to me when I ask it to"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED device"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "listen"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "listen",
+        "kind": "triggers"
+      },
+      {
+        "from": "listen",
+        "to": "ALFRED device",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1320,
+    "output": 172,
+    "time (ns)": 5409367000
+  }
+}

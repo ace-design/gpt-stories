@@ -1,0 +1,69 @@
+{
+  "story": "#G19# As an OlderPerson, I want to games that require the combination of mental and physical exercise, such as opposing motion exercises of the arms and legs. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "games"
+    ],
+    "actions": [
+      "require",
+      "combination of mental and physical exercise",
+      "opposing motion exercises of the arms and legs"
+    ],
+    "benefit": "I can engage in activities that promote both mental and physical health"
+  },
+  "categories": {
+    "primary_entities": [
+      "games"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "require",
+      "combination of mental and physical exercise"
+    ],
+    "secondary_actions": [
+      "opposing motion exercises of the arms and legs"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "require",
+        "kind": "triggers"
+      },
+      {
+        "from": "require",
+        "to": "games",
+        "kind": "targets"
+      },
+      {
+        "from": "OlderPerson",
+        "to": "combination of mental and physical exercise",
+        "kind": "triggers"
+      },
+      {
+        "from": "combination of mental and physical exercise",
+        "to": "games",
+        "kind": "targets"
+      },
+      {
+        "from": "OlderPerson",
+        "to": "opposing motion exercises of the arms and legs",
+        "kind": "triggers"
+      },
+      {
+        "from": "opposing motion exercises of the arms and legs",
+        "to": "games",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1369,
+    "output": 326,
+    "time (ns)": 8601810000
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "story": "#G19# As an OlderPerson, I want to help me to control my body weight. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "body weight"
+    ],
+    "actions": [
+      "help",
+      "control"
+    ],
+    "benefit": "I can control my body weight"
+  },
+  "categories": {
+    "primary_entities": [
+      "body weight"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "help",
+      "control"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "help",
+        "kind": "triggers"
+      },
+      {
+        "from": "help",
+        "to": "body weight",
+        "kind": "targets"
+      },
+      {
+        "from": "OlderPerson",
+        "to": "control",
+        "kind": "triggers"
+      },
+      {
+        "from": "control",
+        "to": "body weight",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1272,
+    "output": 214,
+    "time (ns)": 6444906000
+  }
+}

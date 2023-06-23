@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As an OlderPerson, I want to be able to call someone with ALFRED. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED"
+    ],
+    "actions": [
+      "call"
+    ],
+    "benefit": "I want to be able to call someone with ALFRED"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "call"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "call",
+        "kind": "triggers"
+      },
+      {
+        "from": "call",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1284,
+    "output": 163,
+    "time (ns)": 5213411000
+  }
+}

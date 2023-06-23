@@ -1,0 +1,47 @@
+{
+  "story": "#G19# As an OlderPerson, I want to use ALFRED to turn on/off the lights. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "lights"
+    ],
+    "actions": [
+      "turn on/off"
+    ],
+    "benefit": "I can control the lights using ALFRED"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [
+      "lights"
+    ],
+    "primary_actions": [
+      "turn on/off"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "turn on/off",
+        "kind": "triggers"
+      },
+      {
+        "from": "turn on/off",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1295,
+    "output": 173,
+    "time (ns)": 5215621000
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "story": "#G19# As an OlderPerson, I want to be able to see whether I already have taken my pills, so that I can avoid an overdose. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "pills"
+    ],
+    "actions": [
+      "see",
+      "taken"
+    ],
+    "benefit": "avoid an overdose"
+  },
+  "categories": {
+    "primary_entities": [
+      "pills"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": [
+      "taken"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "pills",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1300,
+    "output": 156,
+    "time (ns)": 5106384000
+  }
+}

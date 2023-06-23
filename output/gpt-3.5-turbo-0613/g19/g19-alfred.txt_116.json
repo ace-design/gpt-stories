@@ -1,0 +1,62 @@
+{
+  "story": "#G19# As an InformalCaregiver, I want to have a game that the carer could play together with the user, so that it would enable to monitor the users\u2019 state of health but also have some fun time. \n",
+  "extraction": {
+    "personas": [
+      "InformalCaregiver"
+    ],
+    "entities": [
+      "game",
+      "carer",
+      "user"
+    ],
+    "actions": [
+      "play",
+      "monitor"
+    ],
+    "benefit": "enable to monitor the users\u2019 state of health but also have some fun time"
+  },
+  "categories": {
+    "primary_entities": [
+      "game",
+      "user"
+    ],
+    "secondary_entities": [
+      "carer"
+    ],
+    "primary_actions": [
+      "play"
+    ],
+    "secondary_actions": [
+      "monitor"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "InformalCaregiver",
+        "to": "play",
+        "kind": "triggers"
+      },
+      {
+        "from": "play",
+        "to": "game",
+        "kind": "targets"
+      },
+      {
+        "from": "play",
+        "to": "user",
+        "kind": "targets"
+      },
+      {
+        "from": "monitor",
+        "to": "user",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1396,
+    "output": 232,
+    "time (ns)": 6192283000
+  }
+}

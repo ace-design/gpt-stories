@@ -1,0 +1,63 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have an ALFRED device that responds to the changing demand of the users by offering new Apps in the ALFREDO platform.\n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED device",
+      "ALFREDO platform"
+    ],
+    "actions": [
+      "responds",
+      "offering"
+    ],
+    "benefit": "to have an ALFRED device that responds to the changing demand of the users by offering new Apps in the ALFREDO platform"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED device",
+      "ALFREDO platform"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "responds",
+      "offering"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "responds",
+        "kind": "triggers"
+      },
+      {
+        "from": "responds",
+        "to": "ALFRED device",
+        "kind": "targets"
+      },
+      {
+        "from": "responds",
+        "to": "ALFREDO platform",
+        "kind": "targets"
+      },
+      {
+        "from": "offering",
+        "to": "ALFRED device",
+        "kind": "targets"
+      },
+      {
+        "from": "offering",
+        "to": "ALFREDO platform",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1401,
+    "output": 296,
+    "time (ns)": 8075993000
+  }
+}

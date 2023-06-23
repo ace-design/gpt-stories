@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have ALFRED to remind me to keep a good body posture. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED"
+    ],
+    "actions": [
+      "remind"
+    ],
+    "benefit": "to keep a good body posture"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "remind"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "remind",
+        "kind": "triggers"
+      },
+      {
+        "from": "remind",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1287,
+    "output": 161,
+    "time (ns)": 5048136000
+  }
+}

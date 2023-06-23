@@ -1,0 +1,51 @@
+{
+  "story": "#G19# As a developer, I want to have an easy way to manage the pricing modality of my Apps. \n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "pricing modality",
+      "Apps"
+    ],
+    "actions": [
+      "manage"
+    ],
+    "benefit": "have an easy way to manage the pricing modality of my Apps"
+  },
+  "categories": {
+    "primary_entities": [
+      "pricing modality",
+      "Apps"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "manage"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "manage",
+        "kind": "triggers"
+      },
+      {
+        "from": "manage",
+        "to": "pricing modality",
+        "kind": "targets"
+      },
+      {
+        "from": "manage",
+        "to": "Apps",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1300,
+    "output": 191,
+    "time (ns)": 5578822000
+  }
+}

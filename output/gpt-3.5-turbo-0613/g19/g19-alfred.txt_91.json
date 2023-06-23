@@ -1,0 +1,47 @@
+{
+  "story": "#G19# As a MedicalCaregiver, I want to have ALFRED to be able to determine the user's body temperature. \n",
+  "extraction": {
+    "personas": [
+      "MedicalCaregiver"
+    ],
+    "entities": [
+      "ALFRED",
+      "user's body temperature"
+    ],
+    "actions": [
+      "determine"
+    ],
+    "benefit": "I want to have ALFRED to be able to determine the user's body temperature"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [
+      "user's body temperature"
+    ],
+    "primary_actions": [
+      "determine"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "MedicalCaregiver",
+        "to": "determine",
+        "kind": "triggers"
+      },
+      {
+        "from": "determine",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1337,
+    "output": 185,
+    "time (ns)": 5608658000
+  }
+}

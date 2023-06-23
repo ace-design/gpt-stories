@@ -1,0 +1,60 @@
+{
+  "story": "#G19# As a MedicalCaregiver, I want to be sure that the user can decide who has access to her data. \n",
+  "extraction": {
+    "personas": [
+      "MedicalCaregiver"
+    ],
+    "entities": [
+      "user",
+      "data"
+    ],
+    "actions": [
+      "decide",
+      "has access"
+    ],
+    "benefit": "be sure that the user can decide who has access to her data"
+  },
+  "categories": {
+    "primary_entities": [
+      "user"
+    ],
+    "secondary_entities": [
+      "data"
+    ],
+    "primary_actions": [
+      "decide"
+    ],
+    "secondary_actions": [
+      "has access"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "MedicalCaregiver",
+        "to": "decide",
+        "kind": "triggers"
+      },
+      {
+        "from": "decide",
+        "to": "user",
+        "kind": "targets"
+      },
+      {
+        "from": "MedicalCaregiver",
+        "to": "has access",
+        "kind": "triggers"
+      },
+      {
+        "from": "has access",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1321,
+    "output": 232,
+    "time (ns)": 6671919000
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have video conversation with others. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "video conversation",
+      "others"
+    ],
+    "actions": [
+      "have"
+    ],
+    "benefit": "I can have video conversation with others"
+  },
+  "categories": {
+    "primary_entities": [
+      "video conversation"
+    ],
+    "secondary_entities": [
+      "others"
+    ],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "video conversation",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1267,
+    "output": 160,
+    "time (ns)": 5109402000
+  }
+}

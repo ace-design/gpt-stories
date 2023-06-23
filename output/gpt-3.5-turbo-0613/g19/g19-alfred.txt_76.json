@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As an OlderPerson, I want to use ALFRED to help me navigate despite my mild cognitive impairments. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED"
+    ],
+    "actions": [
+      "navigate"
+    ],
+    "benefit": "help me navigate despite my mild cognitive impairments"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "navigate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "navigate",
+        "kind": "triggers"
+      },
+      {
+        "from": "navigate",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1293,
+    "output": 160,
+    "time (ns)": 5054451000
+  }
+}

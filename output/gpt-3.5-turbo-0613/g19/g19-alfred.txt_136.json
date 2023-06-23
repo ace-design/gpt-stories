@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As a developer, I want to provide an easy way to manage the user Settings. \n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "user Settings"
+    ],
+    "actions": [
+      "manage"
+    ],
+    "benefit": "provide an easy way to manage the user Settings"
+  },
+  "categories": {
+    "primary_entities": [
+      "user Settings"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "manage"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "manage",
+        "kind": "triggers"
+      },
+      {
+        "from": "manage",
+        "to": "user Settings",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1268,
+    "output": 153,
+    "time (ns)": 4738717000
+  }
+}

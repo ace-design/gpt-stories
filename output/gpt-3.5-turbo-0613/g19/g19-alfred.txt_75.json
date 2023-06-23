@@ -1,0 +1,62 @@
+{
+  "story": "#G19# As an OlderPerson, I want to use ALFRED to navigate to an event or concert and help me when I am lost. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "event",
+      "concert"
+    ],
+    "actions": [
+      "navigate",
+      "help"
+    ],
+    "benefit": "I can navigate to an event or concert and get help when I am lost."
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [
+      "event",
+      "concert"
+    ],
+    "primary_actions": [
+      "navigate"
+    ],
+    "secondary_actions": [
+      "help"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "navigate",
+        "kind": "triggers"
+      },
+      {
+        "from": "navigate",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "OlderPerson",
+        "to": "help",
+        "kind": "triggers"
+      },
+      {
+        "from": "help",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1343,
+    "output": 237,
+    "time (ns)": 6511344000
+  }
+}

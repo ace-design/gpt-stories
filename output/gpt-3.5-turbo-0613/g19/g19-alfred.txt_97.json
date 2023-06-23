@@ -1,0 +1,47 @@
+{
+  "story": "#G19# As a SocialCaregiver, I want to have a step counter included into ALFRED. \n",
+  "extraction": {
+    "personas": [
+      "SocialCaregiver"
+    ],
+    "entities": [
+      "ALFRED"
+    ],
+    "actions": [
+      "have",
+      "included"
+    ],
+    "benefit": "I want to have a step counter included into ALFRED"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": [
+      "included"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "SocialCaregiver",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1299,
+    "output": 170,
+    "time (ns)": 5083635000
+  }
+}

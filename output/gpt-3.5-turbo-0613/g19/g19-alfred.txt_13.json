@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have an ALFRED device that only reacts to me.\n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED device"
+    ],
+    "actions": [
+      "reacts"
+    ],
+    "benefit": "have an ALFRED device that only reacts to me"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED device"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "reacts"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "reacts",
+        "kind": "triggers"
+      },
+      {
+        "from": "reacts",
+        "to": "ALFRED device",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1291,
+    "output": 169,
+    "time (ns)": 4996912000
+  }
+}

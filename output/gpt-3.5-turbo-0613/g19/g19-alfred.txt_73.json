@@ -1,0 +1,59 @@
+{
+  "story": "#G19# As an OlderPerson, I want to use ALFRED to learn about all the social activities that are organized in my neighborhood. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "social activities",
+      "neighborhood"
+    ],
+    "actions": [
+      "learn"
+    ],
+    "benefit": "I can learn about all the social activities organized in my neighborhood"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [
+      "social activities",
+      "neighborhood"
+    ],
+    "primary_actions": [
+      "learn"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "learn",
+        "kind": "triggers"
+      },
+      {
+        "from": "learn",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "learn",
+        "to": "social activities",
+        "kind": "targets"
+      },
+      {
+        "from": "learn",
+        "to": "neighborhood",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1331,
+    "output": 230,
+    "time (ns)": 7463130000
+  }
+}

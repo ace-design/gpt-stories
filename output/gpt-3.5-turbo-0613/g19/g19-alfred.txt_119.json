@@ -1,0 +1,47 @@
+{
+  "story": "#G19# As a developer, I want to present my app to as many people as Possible. \n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "app",
+      "people"
+    ],
+    "actions": [
+      "present"
+    ],
+    "benefit": "present my app to as many people as possible"
+  },
+  "categories": {
+    "primary_entities": [
+      "app"
+    ],
+    "secondary_entities": [
+      "people"
+    ],
+    "primary_actions": [
+      "present"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "present",
+        "kind": "triggers"
+      },
+      {
+        "from": "present",
+        "to": "app",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1273,
+    "output": 155,
+    "time (ns)": 4641259000
+  }
+}

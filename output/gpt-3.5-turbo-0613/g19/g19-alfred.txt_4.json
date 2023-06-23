@@ -1,0 +1,52 @@
+{
+  "story": "#G19# As an OlderPerson, I want to use ALFRED as much as possible with speech interaction.\n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED"
+    ],
+    "actions": [
+      "use",
+      "speech interaction"
+    ],
+    "benefit": "I can use ALFRED as much as possible"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "use"
+    ],
+    "secondary_actions": [
+      "speech interaction"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "speech interaction",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1293,
+    "output": 196,
+    "time (ns)": 6058345000
+  }
+}

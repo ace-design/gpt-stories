@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have some games that show me how good my memory and physical health is. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "games"
+    ],
+    "actions": [
+      "show"
+    ],
+    "benefit": "I can assess my memory and physical health"
+  },
+  "categories": {
+    "primary_entities": [
+      "games"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "show"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "show",
+        "kind": "triggers"
+      },
+      {
+        "from": "show",
+        "to": "games",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1285,
+    "output": 153,
+    "time (ns)": 4746072000
+  }
+}

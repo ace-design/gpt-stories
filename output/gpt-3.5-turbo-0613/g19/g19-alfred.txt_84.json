@@ -1,0 +1,56 @@
+{
+  "story": "#G19# As an OlderPerson, I want to decide who has access to my vital data. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "vital data"
+    ],
+    "actions": [
+      "decide",
+      "has access"
+    ],
+    "benefit": "I can control who has access to my vital data"
+  },
+  "categories": {
+    "primary_entities": [
+      "vital data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "decide",
+      "has access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "decide",
+        "kind": "triggers"
+      },
+      {
+        "from": "OlderPerson",
+        "to": "has access",
+        "kind": "triggers"
+      },
+      {
+        "from": "decide",
+        "to": "vital data",
+        "kind": "targets"
+      },
+      {
+        "from": "has access",
+        "to": "vital data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1292,
+    "output": 230,
+    "time (ns)": 6171569000
+  }
+}

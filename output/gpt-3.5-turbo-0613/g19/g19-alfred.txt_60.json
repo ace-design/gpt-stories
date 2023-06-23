@@ -1,0 +1,57 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have ALFRED ask spontaneous questions but it would be better to programme it during certain times of the day. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED"
+    ],
+    "actions": [
+      "ask spontaneous questions",
+      "programme"
+    ],
+    "benefit": "have ALFRED ask spontaneous questions during certain times of the day"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "ask spontaneous questions"
+    ],
+    "secondary_actions": [
+      "programme"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "ask spontaneous questions",
+        "kind": "triggers"
+      },
+      {
+        "from": "ask spontaneous questions",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "OlderPerson",
+        "to": "programme",
+        "kind": "triggers"
+      },
+      {
+        "from": "programme",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1338,
+    "output": 236,
+    "time (ns)": 6520712000
+  }
+}

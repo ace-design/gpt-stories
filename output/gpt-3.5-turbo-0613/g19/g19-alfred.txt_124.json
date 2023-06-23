@@ -1,0 +1,68 @@
+{
+  "story": "#G19# As a developer, I want to have the API to be well defined and well documented. \n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "API"
+    ],
+    "actions": [
+      "have",
+      "defined",
+      "documented"
+    ],
+    "benefit": "to be well defined and well documented"
+  },
+  "categories": {
+    "primary_entities": [
+      "API"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "defined",
+      "documented"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "API",
+        "kind": "targets"
+      },
+      {
+        "from": "developer",
+        "to": "defined",
+        "kind": "triggers"
+      },
+      {
+        "from": "defined",
+        "to": "API",
+        "kind": "targets"
+      },
+      {
+        "from": "developer",
+        "to": "documented",
+        "kind": "triggers"
+      },
+      {
+        "from": "documented",
+        "to": "API",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1285,
+    "output": 266,
+    "time (ns)": 7493966000
+  }
+}

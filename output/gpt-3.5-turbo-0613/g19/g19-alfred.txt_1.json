@@ -1,0 +1,60 @@
+{
+  "story": "#G19# As an OlderPerson, I want to know exactly what ALFRED does with my personal data, and share it only on my specific permission. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "personal data"
+    ],
+    "actions": [
+      "know",
+      "share"
+    ],
+    "benefit": "I can control the sharing of my personal data"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [
+      "personal data"
+    ],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "share"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "OlderPerson",
+        "to": "share",
+        "kind": "triggers"
+      },
+      {
+        "from": "share",
+        "to": "personal data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1329,
+    "output": 226,
+    "time (ns)": 7814939000
+  }
+}

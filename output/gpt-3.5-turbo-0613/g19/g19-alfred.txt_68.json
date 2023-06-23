@@ -1,0 +1,52 @@
+{
+  "story": "#G19# As an OlderPerson, I want to receive a reminder from ALFRED on all the things I need to bring with me when I leave the house. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED"
+    ],
+    "actions": [
+      "receive",
+      "bring"
+    ],
+    "benefit": "I can be reminded of all the things I need to bring with me when I leave the house"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "receive"
+    ],
+    "secondary_actions": [
+      "bring"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "receive",
+        "kind": "triggers"
+      },
+      {
+        "from": "receive",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "bring",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1344,
+    "output": 202,
+    "time (ns)": 5805959000
+  }
+}

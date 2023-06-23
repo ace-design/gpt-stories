@@ -1,0 +1,51 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have ALFRED on all my computers, tablets and phone.\n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "computers",
+      "tablets",
+      "phone"
+    ],
+    "actions": [
+      "have"
+    ],
+    "benefit": "I can have ALFRED on all my devices"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [
+      "computers",
+      "tablets",
+      "phone"
+    ],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1318,
+    "output": 182,
+    "time (ns)": 6511034000
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "story": "#G19# As an OlderPerson, I want to use ALFRED to manage my agenda. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "agenda"
+    ],
+    "actions": [
+      "manage"
+    ],
+    "benefit": "I can manage my agenda efficiently"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [
+      "agenda"
+    ],
+    "primary_actions": [
+      "manage"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "manage",
+        "kind": "triggers"
+      },
+      {
+        "from": "manage",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "manage",
+        "to": "agenda",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1277,
+    "output": 187,
+    "time (ns)": 5558448000
+  }
+}

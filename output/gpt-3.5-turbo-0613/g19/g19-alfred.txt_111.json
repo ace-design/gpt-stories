@@ -1,0 +1,64 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have ALFRED to help to motivate me during the week to do exercise that should change daily, as the constant change motivates me. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED"
+    ],
+    "actions": [
+      "help",
+      "motivate",
+      "change"
+    ],
+    "benefit": "to do exercise that should change daily, as the constant change motivates me"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "help",
+      "motivate"
+    ],
+    "secondary_actions": [
+      "change"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "help",
+        "kind": "triggers"
+      },
+      {
+        "from": "OlderPerson",
+        "to": "motivate",
+        "kind": "triggers"
+      },
+      {
+        "from": "help",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "motivate",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "change",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1363,
+    "output": 263,
+    "time (ns)": 7759168000
+  }
+}

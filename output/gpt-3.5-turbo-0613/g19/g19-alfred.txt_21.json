@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have an ALFRED device that informs me about a low battery when leaving the house. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED device"
+    ],
+    "actions": [
+      "informs"
+    ],
+    "benefit": "be informed about a low battery when leaving the house"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED device"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "informs"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "UI designer",
+        "to": "begin",
+        "kind": "triggers"
+      },
+      {
+        "from": "begin",
+        "to": "user testing",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1310,
+    "output": 163,
+    "time (ns)": 4824307000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As a MedicalCaregiver, I want to control if the user does the exercise correct. \n",
+  "extraction": {
+    "personas": [
+      "MedicalCaregiver"
+    ],
+    "entities": [
+      "exercise"
+    ],
+    "actions": [
+      "control"
+    ],
+    "benefit": "ensure correct exercise execution"
+  },
+  "categories": {
+    "primary_entities": [
+      "exercise"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "control"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "MedicalCaregiver",
+        "to": "control",
+        "kind": "triggers"
+      },
+      {
+        "from": "control",
+        "to": "exercise",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1267,
+    "output": 151,
+    "time (ns)": 4648015000
+  }
+}

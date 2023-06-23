@@ -1,0 +1,47 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have training for specific muscle Groups. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "training",
+      "muscle Groups"
+    ],
+    "actions": [
+      "have"
+    ],
+    "benefit": "I want to have training for specific muscle Groups"
+  },
+  "categories": {
+    "primary_entities": [
+      "training"
+    ],
+    "secondary_entities": [
+      "muscle Groups"
+    ],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "training",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1277,
+    "output": 163,
+    "time (ns)": 4934433000
+  }
+}

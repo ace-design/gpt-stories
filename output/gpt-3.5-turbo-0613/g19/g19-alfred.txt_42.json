@@ -1,0 +1,58 @@
+{
+  "story": "#G19# As an OlderPerson, I want to use ALFRED to see who is standing at my door and open the door. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "door"
+    ],
+    "actions": [
+      "see",
+      "open"
+    ],
+    "benefit": "I can see who is standing at my door and open it"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED",
+      "door"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see",
+      "open"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "OlderPerson",
+        "to": "open",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "open",
+        "to": "door",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1323,
+    "output": 228,
+    "time (ns)": 6642739000
+  }
+}

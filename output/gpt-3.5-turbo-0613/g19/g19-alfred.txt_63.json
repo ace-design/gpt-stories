@@ -1,0 +1,55 @@
+{
+  "story": "#G19# As an OlderPerson, I want to activate the vocal interaction mode of ALFRED by pushing a specific button. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "specific button"
+    ],
+    "actions": [
+      "activate",
+      "push"
+    ],
+    "benefit": "I can use the vocal interaction mode of ALFRED"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [
+      "specific button"
+    ],
+    "primary_actions": [
+      "activate"
+    ],
+    "secondary_actions": [
+      "push"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "activate",
+        "kind": "triggers"
+      },
+      {
+        "from": "activate",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "push",
+        "to": "specific button",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1315,
+    "output": 200,
+    "time (ns)": 5797530000
+  }
+}

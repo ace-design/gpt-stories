@@ -1,0 +1,47 @@
+{
+  "story": "#G19# As an OlderPerson, I want to see my vital parameters myself on the phone. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "vital parameters",
+      "phone"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "I can see my vital parameters myself on the phone"
+  },
+  "categories": {
+    "primary_entities": [
+      "vital parameters"
+    ],
+    "secondary_entities": [
+      "phone"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "vital parameters",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1285,
+    "output": 166,
+    "time (ns)": 5042173000
+  }
+}

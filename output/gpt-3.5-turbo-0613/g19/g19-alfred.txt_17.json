@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As an OlderPerson, I want to buy ALFRED for a low price. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED"
+    ],
+    "actions": [
+      "buy"
+    ],
+    "benefit": "I want to buy ALFRED for a low price."
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "buy"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "buy",
+        "kind": "triggers"
+      },
+      {
+        "from": "buy",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1281,
+    "output": 162,
+    "time (ns)": 4875486000
+  }
+}

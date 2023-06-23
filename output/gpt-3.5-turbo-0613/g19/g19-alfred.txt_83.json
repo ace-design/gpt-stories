@@ -1,0 +1,58 @@
+{
+  "story": "#G19# As an OlderPerson, I want to just press one button to call my caregiver. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "button",
+      "caregiver"
+    ],
+    "actions": [
+      "press",
+      "call"
+    ],
+    "benefit": "I can easily call my caregiver with just one button press"
+  },
+  "categories": {
+    "primary_entities": [
+      "button",
+      "caregiver"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "press",
+      "call"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "press",
+        "kind": "triggers"
+      },
+      {
+        "from": "press",
+        "to": "button",
+        "kind": "targets"
+      },
+      {
+        "from": "press",
+        "to": "call",
+        "kind": "targets"
+      },
+      {
+        "from": "call",
+        "to": "caregiver",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1297,
+    "output": 224,
+    "time (ns)": 5992221000
+  }
+}

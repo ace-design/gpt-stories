@@ -1,0 +1,58 @@
+{
+  "story": "#G19# As a MedicalCaregiver, I want to give corrective feedback if exercises are performed wrong, too much or in any other way harmful to the user. \n",
+  "extraction": {
+    "personas": [
+      "MedicalCaregiver"
+    ],
+    "entities": [
+      "exercises",
+      "user"
+    ],
+    "actions": [
+      "give corrective feedback",
+      "perform"
+    ],
+    "benefit": "ensure exercises are performed correctly and safely"
+  },
+  "categories": {
+    "primary_entities": [
+      "exercises",
+      "user"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "give corrective feedback",
+      "perform"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "MedicalCaregiver",
+        "to": "give corrective feedback",
+        "kind": "triggers"
+      },
+      {
+        "from": "MedicalCaregiver",
+        "to": "perform",
+        "kind": "triggers"
+      },
+      {
+        "from": "give corrective feedback",
+        "to": "exercises",
+        "kind": "targets"
+      },
+      {
+        "from": "give corrective feedback",
+        "to": "user",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1336,
+    "output": 233,
+    "time (ns)": 6986786000
+  }
+}

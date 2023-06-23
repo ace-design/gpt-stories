@@ -1,0 +1,57 @@
+{
+  "story": "#G19# As an OlderPerson, I want to receive reminders on my appointments. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "reminders",
+      "appointments"
+    ],
+    "actions": [
+      "receive"
+    ],
+    "benefit": "I can stay organized and not miss any appointments"
+  },
+  "categories": {
+    "primary_entities": [
+      "reminders"
+    ],
+    "secondary_entities": [
+      "appointments"
+    ],
+    "primary_actions": [
+      "receive"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "receive",
+        "kind": "triggers"
+      },
+      {
+        "from": "receive",
+        "to": "reminders",
+        "kind": "targets"
+      },
+      {
+        "from": "OlderPerson",
+        "to": "receive",
+        "kind": "triggers"
+      },
+      {
+        "from": "receive",
+        "to": "appointments",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1274,
+    "output": 218,
+    "time (ns)": 6191267000
+  }
+}

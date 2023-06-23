@@ -1,0 +1,68 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have a small ALFRED device that is wearable and easy to carry with me.\n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED device"
+    ],
+    "actions": [
+      "have",
+      "wearable",
+      "carry"
+    ],
+    "benefit": "I can have a small ALFRED device that is wearable and easy to carry with me."
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED device"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "wearable",
+      "carry"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "ALFRED device",
+        "kind": "targets"
+      },
+      {
+        "from": "OlderPerson",
+        "to": "wearable",
+        "kind": "triggers"
+      },
+      {
+        "from": "wearable",
+        "to": "ALFRED device",
+        "kind": "targets"
+      },
+      {
+        "from": "OlderPerson",
+        "to": "carry",
+        "kind": "triggers"
+      },
+      {
+        "from": "carry",
+        "to": "ALFRED device",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1340,
+    "output": 300,
+    "time (ns)": 8289501000
+  }
+}

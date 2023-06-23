@@ -1,0 +1,52 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have ALFRED contact the nearest caregiver when I ask ALFRED for urgent help. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "caregiver"
+    ],
+    "actions": [
+      "contact"
+    ],
+    "benefit": "I can ask ALFRED for urgent help and have it contact the nearest caregiver"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [
+      "caregiver"
+    ],
+    "primary_actions": [
+      "contact"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "contact",
+        "kind": "triggers"
+      },
+      {
+        "from": "contact",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "contact",
+        "to": "caregiver",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1330,
+    "output": 203,
+    "time (ns)": 7913400000
+  }
+}

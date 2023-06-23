@@ -1,0 +1,60 @@
+{
+  "story": "#G19# As a developer, I want to have detailed information of what happened when my App crashes on the user\u2019s device. \n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "App",
+      "user's device"
+    ],
+    "actions": [
+      "have detailed information",
+      "crashes"
+    ],
+    "benefit": "I can understand what happened when my App crashes on the user's device"
+  },
+  "categories": {
+    "primary_entities": [
+      "App"
+    ],
+    "secondary_entities": [
+      "user's device"
+    ],
+    "primary_actions": [
+      "have detailed information"
+    ],
+    "secondary_actions": [
+      "crashes"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "have detailed information",
+        "kind": "triggers"
+      },
+      {
+        "from": "have detailed information",
+        "to": "App",
+        "kind": "targets"
+      },
+      {
+        "from": "have detailed information",
+        "to": "user's device",
+        "kind": "targets"
+      },
+      {
+        "from": "crashes",
+        "to": "App",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1323,
+    "output": 234,
+    "time (ns)": 6787110000
+  }
+}

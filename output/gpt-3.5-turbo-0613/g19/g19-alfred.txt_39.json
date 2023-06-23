@@ -1,0 +1,47 @@
+{
+  "story": "#G19# As an OlderPerson, I want to use ALFRED for navigation. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED"
+    ],
+    "actions": [
+      "use",
+      "navigation"
+    ],
+    "benefit": "I can use ALFRED for navigation"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "use"
+    ],
+    "secondary_actions": [
+      "navigation"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1274,
+    "output": 164,
+    "time (ns)": 5039536000
+  }
+}

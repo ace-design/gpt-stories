@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As an OlderPerson, I want to receive support to use the public transport. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "public transport"
+    ],
+    "actions": [
+      "receive support"
+    ],
+    "benefit": "I can use the public transport"
+  },
+  "categories": {
+    "primary_entities": [
+      "public transport"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "receive support"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "receive support",
+        "kind": "triggers"
+      },
+      {
+        "from": "receive support",
+        "to": "public transport",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1266,
+    "output": 158,
+    "time (ns)": 5176450000
+  }
+}

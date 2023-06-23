@@ -1,0 +1,66 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have ALFRED to give me goals and missions that encourage me to do new activities and exercises and to go out. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED"
+    ],
+    "actions": [
+      "give",
+      "encourage",
+      "do",
+      "go out"
+    ],
+    "benefit": "to have goals and missions that encourage me to do new activities and exercises and to go out"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "give",
+      "encourage"
+    ],
+    "secondary_actions": [
+      "do",
+      "go out"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "give",
+        "kind": "triggers"
+      },
+      {
+        "from": "give",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "OlderPerson",
+        "to": "encourage",
+        "kind": "triggers"
+      },
+      {
+        "from": "encourage",
+        "to": "do",
+        "kind": "targets"
+      },
+      {
+        "from": "encourage",
+        "to": "go out",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1369,
+    "output": 272,
+    "time (ns)": 7003342000
+  }
+}

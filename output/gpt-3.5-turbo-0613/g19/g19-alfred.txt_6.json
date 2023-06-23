@@ -1,0 +1,51 @@
+{
+  "story": "#G19# As an OlderPerson, I want to be able to manage my privacy and data settings. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "privacy",
+      "data settings"
+    ],
+    "actions": [
+      "manage"
+    ],
+    "benefit": "be able to manage my privacy and data settings"
+  },
+  "categories": {
+    "primary_entities": [
+      "privacy",
+      "data settings"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "manage"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "manage",
+        "kind": "triggers"
+      },
+      {
+        "from": "manage",
+        "to": "privacy",
+        "kind": "targets"
+      },
+      {
+        "from": "manage",
+        "to": "data settings",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1284,
+    "output": 188,
+    "time (ns)": 5660753000
+  }
+}

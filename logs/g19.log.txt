@@ -1,0 +1,987 @@
+START: 16:07:49
+# Processing g19-alfred.txt
+- Story #[1] -- started at 16:07:49
+    - #G19# As an OlderPerson, I want to know exactly what ALFRED does with my personal data, and share it only on my specific permission. 
+
+        - calling model 16:07:49
+        - calling model 16:07:53
+        - calling model 16:07:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_1.json
+- Story #[2] -- started at 16:08:02
+    - #G19# As an OlderPerson, I want to receive information from ALFRED by speech technology. 
+
+        - calling model 16:08:02
+        - calling model 16:08:06
+        - calling model 16:08:10
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_2.json
+- Story #[3] -- started at 16:08:14
+    - #G19# As an OlderPerson, I want to use only well-visible buttons.
+
+        - calling model 16:08:14
+        - calling model 16:08:17
+        - calling model 16:08:20
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_3.json
+- Story #[4] -- started at 16:08:24
+    - #G19# As an OlderPerson, I want to use ALFRED as much as possible with speech interaction.
+
+        - calling model 16:08:24
+        - calling model 16:08:28
+        - calling model 16:08:32
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_4.json
+- Story #[5] -- started at 16:08:37
+    - #G19# As an OlderPerson, I want to always keep control on the activities of ALFRED. 
+
+        - calling model 16:08:37
+        - calling model 16:08:41
+        - calling model 16:08:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_5.json
+- Story #[6] -- started at 16:08:49
+    - #G19# As an OlderPerson, I want to be able to manage my privacy and data settings. 
+
+        - calling model 16:08:49
+        - calling model 16:08:53
+        - calling model 16:08:56
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_6.json
+- Story #[7] -- started at 16:09:01
+    - #G19# As an OlderPerson, I want to have everything preinstalled, so that I do not have to set up ALFRED by myself.
+
+        - calling model 16:09:01
+        - calling model 16:09:05
+        - calling model 16:09:08
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_7.json
+- Story #[8] -- started at 16:09:12
+    - #G19# As an OlderPerson, I want to have a small ALFRED device that is wearable and easy to carry with me.
+
+        - calling model 16:09:12
+        - calling model 16:09:16
+        - calling model 16:09:20
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_8.json
+- Story #[9] -- started at 16:09:27
+    - #G19# As an OlderPerson, I want to have ALFRED on all my computers, tablets and phone.
+
+        - calling model 16:09:27
+        - calling model 16:09:30
+        - calling model 16:09:34
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_9.json
+- Story #[10] -- started at 16:09:39
+    - #G19# As an OlderPerson, I want to have ALFRED on a bracelet or a necklace, so that I can always wear him with me. 
+
+        - calling model 16:09:39
+        - calling model 16:09:43
+        - calling model 16:09:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_10.json
+- Story #[11] -- started at 16:09:53
+    - #G19# As an OlderPerson, I want to have clear instructions and service after sales that guide me if I have trouble in using ALFRED.
+
+        - calling model 16:09:53
+        - calling model 16:09:56
+        - calling model 16:10:00
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_11.json
+- Story #[12] -- started at 16:10:05
+    - #G19# As an OlderPerson, I want to have an ALFRED device that speaks very slowly and clearly.
+
+        - calling model 16:10:05
+        - calling model 16:10:08
+        - calling model 16:10:12
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_12.json
+- Story #[13] -- started at 16:10:16
+    - #G19# As an OlderPerson, I want to have an ALFRED device that only reacts to me.
+
+        - calling model 16:10:16
+        - calling model 16:10:20
+        - calling model 16:10:23
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_13.json
+- Story #[14] -- started at 16:10:27
+    - #G19# As an OlderPerson, I want to have an ALFRED device that only listens to me when I ask it to. 
+
+        - calling model 16:10:27
+        - calling model 16:10:31
+        - calling model 16:10:34
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_14.json
+- Story #[15] -- started at 16:10:38
+    - #G19# As an OlderPerson, I want to have an introduction conversation with ALFRED, so that I can learn everything about him and he about me. 
+
+        - calling model 16:10:38
+        - calling model 16:10:42
+        - calling model 16:10:46
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_15.json
+- Story #[16] -- started at 16:10:50
+    - #G19# As an OlderPerson, I want to buy ALFRED in a senior shop with special client support. 
+
+        - calling model 16:10:50
+        - calling model 16:10:54
+        - calling model 16:10:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_16.json
+- Story #[17] -- started at 16:11:01
+    - #G19# As an OlderPerson, I want to buy ALFRED for a low price. 
+
+        - calling model 16:11:01
+        - calling model 16:11:05
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:12:35
+        - calling model 16:12:38
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_17.json
+- Story #[18] -- started at 16:12:42
+    - #G19# As an OlderPerson, I want to receive visual support, especially when looking at a list, map or agenda.
+
+        - calling model 16:12:42
+        - calling model 16:12:46
+        - calling model 16:12:50
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_18.json
+- Story #[19] -- started at 16:12:54
+    - #G19# As an OlderPerson, I want to use ALFRED to pay for small amounts.
+
+        - calling model 16:12:54
+        - calling model 16:12:57
+        - calling model 16:13:01
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_19.json
+- Story #[20] -- started at 16:13:05
+    - #G19# As an OlderPerson, I want to have a very good battery for ALFRED so I can keep him on the whole day.
+
+        - calling model 16:13:05
+        - calling model 16:13:08
+        - calling model 16:13:12
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_20.json
+- Story #[21] -- started at 16:13:16
+    - #G19# As an OlderPerson, I want to have an ALFRED device that informs me about a low battery when leaving the house. 
+
+        - calling model 16:13:16
+        - calling model 16:13:19
+        - calling model 16:13:23
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_21.json
+- Story #[22] -- started at 16:13:26
+    - #G19# As an OlderPerson, I want to have an ALFRED device that can be easily adapted for user that have visual or hearing troubles.
+
+        - calling model 16:13:26
+        - calling model 16:13:30
+        - calling model 16:13:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_22.json
+- Story #[23] -- started at 16:13:37
+    - #G19# As an OlderPerson, I want to have an ALFRED device that can be easily adapted for user that have visual troubles. 
+
+        - calling model 16:13:37
+        - calling model 16:13:41
+        - calling model 16:13:44
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_23.json
+- Story #[24] -- started at 16:13:49
+    - #G19# As an OlderPerson, I want to have an ALFRED device that can be easily adapted for user that have hearing trouble. 
+
+        - calling model 16:13:49
+        - calling model 16:13:52
+        - calling model 16:13:56
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_24.json
+- Story #[25] -- started at 16:14:00
+    - #G19# As an OlderPerson, I want to have an ALFRED device that repeats the last phrase. 
+
+        - calling model 16:14:00
+        - calling model 16:14:04
+        - calling model 16:14:07
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_25.json
+- Story #[26] -- started at 16:14:12
+    - #G19# As an OlderPerson, I want to be able to zoom into visual content. 
+
+        - calling model 16:14:12
+        - calling model 16:14:15
+        - calling model 16:14:19
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_26.json
+- Story #[27] -- started at 16:14:23
+    - #G19# As an OlderPerson, I want to have an ALFRED device that responds to the changing demand of the users by offering new Apps in the ALFREDO platform.
+
+        - calling model 16:14:23
+        - calling model 16:14:27
+        - calling model 16:14:31
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_27.json
+- Story #[28] -- started at 16:14:37
+    - #G19# As an OlderPerson, I want to have an ALFRED device that helps me to communicate with my friends and family. 
+
+        - calling model 16:14:37
+        - calling model 16:14:41
+        - calling model 16:14:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_28.json
+- Story #[29] -- started at 16:14:49
+    - #G19# As an OlderPerson, I want to have video conversation with others. 
+
+        - calling model 16:14:49
+        - calling model 16:14:52
+        - calling model 16:14:56
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_29.json
+- Story #[30] -- started at 16:15:00
+    - #G19# As a MedicalCaregiver, I want to have videophone. 
+
+        - calling model 16:15:00
+        - calling model 16:15:03
+        - calling model 16:15:07
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_30.json
+- Story #[31] -- started at 16:15:11
+    - #G19# As an OlderPerson, I want to have an AFLRED device that encourages its users for real interaction between humans and not only with ICT tools. 
+
+        - calling model 16:15:11
+        - calling model 16:15:14
+        - calling model 16:15:18
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_31.json
+- Story #[32] -- started at 16:15:23
+    - #G19# As an OlderPerson, I want to have an ALFRED device that provides me with information about existing apps that corresponds to my interests. 
+
+        - calling model 16:15:23
+        - calling model 16:15:27
+        - calling model 16:15:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_32.json
+- Story #[33] -- started at 16:15:35
+    - #G19# As an OlderPerson, I want to be able to customize my preferences in the different functionalities of the solution.
+
+        - calling model 16:15:35
+        - calling model 16:15:39
+        - calling model 16:15:42
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_33.json
+- Story #[34] -- started at 16:15:47
+    - #G19# As a MedicalCaregiver, I want to have a simple ALFRED unit that is expandable in is functions. 
+
+        - calling model 16:15:47
+        - calling model 16:15:51
+        - calling model 16:15:55
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_34.json
+- Story #[35] -- started at 16:16:00
+    - #G19# As an OlderPerson, I want to have my data stored directly on the phone.
+
+        - calling model 16:16:00
+        - calling model 16:16:04
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:17:34
+        - calling model 16:17:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_35.json
+- Story #[36] -- started at 16:17:42
+    - #G19# As an OlderPerson, I want to receive a wake up call from ALFRED in the morning checking on me if I am ok.
+
+        - calling model 16:17:42
+        - calling model 16:17:45
+        - calling model 16:17:49
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_36.json
+- Story #[37] -- started at 16:17:55
+    - #G19# As an OlderPerson, I want to receive day and night rythm support with agenda reminders. 
+
+        - calling model 16:17:55
+        - calling model 16:17:59
+        - calling model 16:18:02
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_37.json
+- Story #[38] -- started at 16:18:07
+    - #G19# As an OlderPerson, I want to receive support to use the public transport. 
+
+        - calling model 16:18:07
+        - calling model 16:18:10
+        - calling model 16:18:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_38.json
+- Story #[39] -- started at 16:18:18
+    - #G19# As an OlderPerson, I want to use ALFRED for navigation. 
+
+        - calling model 16:18:18
+        - calling model 16:18:22
+        - calling model 16:18:25
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_39.json
+- Story #[40] -- started at 16:18:29
+    - #G19# As an OlderPerson, I want to use ALFRED for touristic walks and indications with explanations on historical and cultural sights. 
+
+        - calling model 16:18:29
+        - calling model 16:18:33
+        - calling model 16:18:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_40.json
+- Story #[41] -- started at 16:18:44
+    - #G19# As an OlderPerson, I want to receive support to have a taxi on time. 
+
+        - calling model 16:18:44
+        - calling model 16:18:48
+        - calling model 16:18:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_41.json
+- Story #[42] -- started at 16:18:56
+    - #G19# As an OlderPerson, I want to use ALFRED to see who is standing at my door and open the door. 
+
+        - calling model 16:18:56
+        - calling model 16:19:00
+        - calling model 16:19:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_42.json
+- Story #[43] -- started at 16:19:09
+    - #G19# As an OlderPerson, I want to use ALFRED to pick the phone sooner up when I am at home. 
+
+        - calling model 16:19:09
+        - calling model 16:19:13
+        - calling model 16:19:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_43.json
+- Story #[44] -- started at 16:19:21
+    - #G19# As an OlderPerson, I want to use ALFRED to turn on/off the lights. 
+
+        - calling model 16:19:21
+        - calling model 16:19:24
+        - calling model 16:19:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_44.json
+- Story #[45] -- started at 16:19:32
+    - #G19# As an OlderPerson, I want to use ALFRED to control the heating. 
+
+        - calling model 16:19:32
+        - calling model 16:19:36
+        - calling model 16:19:39
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_45.json
+- Story #[46] -- started at 16:19:43
+    - #G19# As an OlderPerson, I want to use ALFRED to control the TV and radio. 
+
+        - calling model 16:19:43
+        - calling model 16:19:47
+        - calling model 16:19:51
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_46.json
+- Story #[47] -- started at 16:19:56
+    - #G19# As an OlderPerson, I want to use ALFRED to watch movies. 
+
+        - calling model 16:19:56
+        - calling model 16:20:00
+        - calling model 16:20:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_47.json
+- Story #[48] -- started at 16:20:07
+    - #G19# As an OlderPerson, I want to use ALFRED to hear about the news. 
+
+        - calling model 16:20:07
+        - calling model 16:20:11
+        - calling model 16:20:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_48.json
+- Story #[49] -- started at 16:20:19
+    - #G19# As an OlderPerson, I want to use ALFRED to contact help in case of an emergency. 
+
+        - calling model 16:20:19
+        - calling model 16:20:22
+        - calling model 16:20:25
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_49.json
+- Story #[50] -- started at 16:20:30
+    - #G19# As a MedicalCaregiver, I want to use video calls in case of emergency. 
+
+        - calling model 16:20:30
+        - calling model 16:20:33
+        - calling model 16:20:36
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_50.json
+- Story #[51] -- started at 16:20:40
+    - #G19# As an OlderPerson, I want to have ALFRED contact the nearest caregiver when I ask ALFRED for urgent help. 
+
+        - calling model 16:20:40
+        - calling model 16:20:44
+        - calling model 16:20:50
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_51.json
+- Story #[52] -- started at 16:20:54
+    - #G19# As an OlderPerson, I want to receive a message when my home care nurse is on her way. 
+
+        - calling model 16:20:54
+        - calling model 16:20:58
+        - calling model 16:21:01
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_52.json
+- Story #[53] -- started at 16:21:05
+    - #G19# As an OlderPerson, I want to receive a medicine reminder from ALFRED. 
+
+        - calling model 16:21:05
+        - calling model 16:21:09
+        - calling model 16:21:13
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_53.json
+- Story #[54] -- started at 16:21:17
+    - #G19# As an OlderPerson, I want to be able to see whether I already have taken my pills, so that I can avoid an overdose. 
+
+        - calling model 16:21:17
+        - calling model 16:21:20
+        - calling model 16:21:24
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_54.json
+- Story #[55] -- started at 16:21:28
+    - #G19# As a MedicalCaregiver, I want to be able to see if the patient has taken her medicine. 
+
+        - calling model 16:21:28
+        - calling model 16:21:31
+        - calling model 16:21:35
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_55.json
+- Story #[56] -- started at 16:21:39
+    - #G19# As an OlderPerson, I want to use ALFRED to do my grocery shopping. 
+
+        - calling model 16:21:39
+        - calling model 16:21:42
+        - calling model 16:21:46
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_56.json
+- Story #[57] -- started at 16:21:50
+    - #G19# As an OlderPerson, I want to use ALFRED to send messages. 
+
+        - calling model 16:21:50
+        - calling model 16:21:54
+        - calling model 16:21:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_57.json
+- Story #[58] -- started at 16:22:01
+    - #G19# As an OlderPerson, I want to have ALFRED to detect falls and send an emergency to a specific contact. 
+
+        - calling model 16:22:01
+        - calling model 16:22:05
+        - calling model 16:22:08
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_58.json
+- Story #[59] -- started at 16:22:13
+    - #G19# As an OlderPerson, I want to have ALFRED to suggest healthy recipes. 
+
+        - calling model 16:22:13
+        - calling model 16:22:17
+        - calling model 16:22:20
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_59.json
+- Story #[60] -- started at 16:22:25
+    - #G19# As an OlderPerson, I want to have ALFRED ask spontaneous questions but it would be better to programme it during certain times of the day. 
+
+        - calling model 16:22:25
+        - calling model 16:22:29
+        - calling model 16:22:32
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_60.json
+- Story #[61] -- started at 16:22:37
+    - #G19# As an OlderPerson, I want to have ALFRED to initiate questions, but it should be in the domains of my interest such as cinema, exhibitions, cooking. 
+
+        - calling model 16:22:37
+        - calling model 16:22:41
+        - calling model 16:22:44
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_61.json
+- Story #[62] -- started at 16:22:49
+    - #G19# As an OlderPerson, I want to be able to call someone with ALFRED. 
+
+        - calling model 16:22:49
+        - calling model 16:22:52
+        - calling model 16:22:56
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_62.json
+- Story #[63] -- started at 16:23:00
+    - #G19# As an OlderPerson, I want to activate the vocal interaction mode of ALFRED by pushing a specific button. 
+
+        - calling model 16:23:00
+        - calling model 16:23:04
+        - calling model 16:23:07
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_63.json
+- Story #[64] -- started at 16:23:12
+    - #G19# As an OlderPerson, I want to use ALFRED to maintain my contact list in my phone. 
+
+        - calling model 16:23:12
+        - calling model 16:23:16
+        - calling model 16:23:20
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:24:50
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_64.json
+- Story #[65] -- started at 16:24:56
+    - #G19# As an OlderPerson, I want to use ALFRED to manage my agenda. 
+
+        - calling model 16:24:56
+        - calling model 16:24:59
+        - calling model 16:25:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_65.json
+- Story #[66] -- started at 16:25:07
+    - #G19# As an OlderPerson, I want to insert my meetings into ALFRED using speech. 
+
+        - calling model 16:25:07
+        - calling model 16:25:11
+        - calling model 16:25:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_66.json
+- Story #[67] -- started at 16:25:19
+    - #G19# As an OlderPerson, I want to receive reminders on my appointments. 
+
+        - calling model 16:25:19
+        - calling model 16:25:22
+        - calling model 16:25:26
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_67.json
+- Story #[68] -- started at 16:25:31
+    - #G19# As an OlderPerson, I want to receive a reminder from ALFRED on all the things I need to bring with me when I leave the house. 
+
+        - calling model 16:25:31
+        - calling model 16:25:35
+        - calling model 16:25:38
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_68.json
+- Story #[69] -- started at 16:25:43
+    - #G19# As a SocialCaregiver, I want ALFRED to remind me of the things I need to bring to the person I care for. 
+
+        - calling model 16:25:43
+        - calling model 16:25:47
+        - calling model 16:25:51
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_69.json
+- Story #[70] -- started at 16:25:56
+    - #G19# As an OlderPerson, I want to use ALFRED to set up social groups of people with similar diseases. 
+
+        - calling model 16:25:56
+        - calling model 16:26:00
+        - calling model 16:26:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_70.json
+- Story #[71] -- started at 16:26:10
+    - #G19# As an OlderPerson, I want to use ALFRED to contact people from my own circle. 
+
+        - calling model 16:26:10
+        - calling model 16:26:13
+        - calling model 16:26:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_71.json
+- Story #[72] -- started at 16:26:21
+    - #G19# As an OlderPerson, I want to use ALFRED to learn about art expositions or a museum. 
+
+        - calling model 16:26:21
+        - calling model 16:26:24
+        - calling model 16:26:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_72.json
+- Story #[73] -- started at 16:26:33
+    - #G19# As an OlderPerson, I want to use ALFRED to learn about all the social activities that are organized in my neighborhood. 
+
+        - calling model 16:26:33
+        - calling model 16:26:38
+        - calling model 16:26:41
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_73.json
+- Story #[74] -- started at 16:26:47
+    - #G19# As an OlderPerson, I want to use ALFRED to get a personalized invitation to a social event, so that it motivates more to go. 
+
+        - calling model 16:26:47
+        - calling model 16:26:51
+        - calling model 16:26:54
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_74.json
+- Story #[75] -- started at 16:27:01
+    - #G19# As an OlderPerson, I want to use ALFRED to navigate to an event or concert and help me when I am lost. 
+
+        - calling model 16:27:01
+        - calling model 16:27:05
+        - calling model 16:27:09
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_75.json
+- Story #[76] -- started at 16:27:14
+    - #G19# As an OlderPerson, I want to use ALFRED to help me navigate despite my mild cognitive impairments. 
+
+        - calling model 16:27:14
+        - calling model 16:27:17
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:28:47
+        - calling model 16:28:51
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_76.json
+- Story #[77] -- started at 16:28:55
+    - #G19# As an OlderPerson, I want to be able to pay for small amounts. 
+
+        - calling model 16:28:55
+        - calling model 16:28:58
+        - calling model 16:29:02
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_77.json
+- Story #[78] -- started at 16:29:05
+    - #G19# As an OlderPerson, I want to use ALFRED to organize a meeting with a group of friends at a certain place. 
+
+        - calling model 16:29:05
+        - calling model 16:29:10
+        - calling model 16:29:13
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_78.json
+- Story #[79] -- started at 16:29:19
+    - #G19# As an OlderPerson, I want to play online games together with other users. 
+
+        - calling model 16:29:19
+        - calling model 16:29:23
+        - calling model 16:29:27
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_79.json
+- Story #[80] -- started at 16:29:31
+    - #G19# As an OlderPerson, I want to get suggestions for sports classes in my neighbourhood. 
+
+        - calling model 16:29:31
+        - calling model 16:29:34
+        - calling model 16:29:38
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_80.json
+- Story #[81] -- started at 16:29:42
+    - #G19# As an OlderPerson, I want to have ALFRED to enable me to have face to face contacts as well, so that I do not just have virtual contacts over ALFRED. 
+
+        - calling model 16:29:42
+        - calling model 16:29:45
+        - calling model 16:29:49
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:31:19
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_81.json
+- Story #[82] -- started at 16:31:24
+    - #G19# As an OlderPerson, I want to help me to control my body weight. 
+
+        - calling model 16:31:24
+        - calling model 16:31:28
+        - calling model 16:31:31
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_82.json
+- Story #[83] -- started at 16:31:37
+    - #G19# As an OlderPerson, I want to just press one button to call my caregiver. 
+
+        - calling model 16:31:37
+        - calling model 16:31:41
+        - calling model 16:31:44
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_83.json
+- Story #[84] -- started at 16:31:49
+    - #G19# As an OlderPerson, I want to decide who has access to my vital data. 
+
+        - calling model 16:31:49
+        - calling model 16:31:52
+        - calling model 16:31:56
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_84.json
+- Story #[85] -- started at 16:32:01
+    - #G19# As a MedicalCaregiver, I want to be sure that the user can decide who has access to her data. 
+
+        - calling model 16:32:01
+        - calling model 16:32:05
+        - calling model 16:32:08
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_85.json
+- Story #[86] -- started at 16:32:14
+    - #G19# As an OlderPerson, I want to have the wearables with integrated sensors to look good and not to be stigmatizing. 
+
+        - calling model 16:32:14
+        - calling model 16:32:18
+        - calling model 16:32:21
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_86.json
+- Story #[87] -- started at 16:32:27
+    - #G19# As an OlderPerson, I want to see my vital parameters myself on the phone. 
+
+        - calling model 16:32:27
+        - calling model 16:32:30
+        - calling model 16:32:34
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_87.json
+- Story #[88] -- started at 16:32:38
+    - #G19# As an OlderPerson, I want to have the ALFRED shirt to look good. 
+
+        - calling model 16:32:38
+        - calling model 16:32:41
+        - calling model 16:32:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_88.json
+- Story #[89] -- started at 16:32:49
+    - #G19# As an OlderPerson, I want to have the ALFRED shirt has to be non stigmatizing. 
+
+        - calling model 16:32:49
+        - calling model 16:32:52
+        - calling model 16:32:56
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_89.json
+- Story #[90] -- started at 16:33:00
+    - #G19# As a MedicalCaregiver, I want to have ALFRED to be able to determine the user's blood pressure. 
+
+        - calling model 16:33:00
+        - calling model 16:33:04
+        - calling model 16:33:07
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_90.json
+- Story #[91] -- started at 16:33:13
+    - #G19# As a MedicalCaregiver, I want to have ALFRED to be able to determine the user's body temperature. 
+
+        - calling model 16:33:13
+        - calling model 16:33:17
+        - calling model 16:33:20
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_91.json
+- Story #[92] -- started at 16:33:24
+    - #G19# As a MedicalCaregiver, I want to have ALFRED to be able to determine the user's heart rate. 
+
+        - calling model 16:33:24
+        - calling model 16:33:28
+        - calling model 16:33:32
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_92.json
+- Story #[93] -- started at 16:33:37
+    - #G19# As a MedicalCaregiver, I want to have ALFRED to be able to determine the user's breathing frequency. 
+
+        - calling model 16:33:37
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:35:07
+        - calling model 16:35:10
+        - calling model 16:35:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_93.json
+- Story #[94] -- started at 16:35:18
+    - #G19# As a MedicalCaregiver, I want to have feedback on the activity level of the user. 
+
+        - calling model 16:35:18
+        - calling model 16:35:21
+        - calling model 16:35:25
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_94.json
+- Story #[95] -- started at 16:35:29
+    - #G19# As a MedicalCaregiver, I want to locate the ALFRED user. 
+
+        - calling model 16:35:29
+        - calling model 16:35:32
+        - calling model 16:35:36
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_95.json
+- Story #[96] -- started at 16:35:40
+    - #G19# As a SocialCaregiver, I want to have ALFRED to be able to recognize pain and or stress by using skin conduction sensors. 
+
+        - calling model 16:35:40
+        - calling model 16:35:43
+        - calling model 16:35:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_96.json
+- Story #[97] -- started at 16:35:52
+    - #G19# As a SocialCaregiver, I want to have a step counter included into ALFRED. 
+
+        - calling model 16:35:52
+        - calling model 16:35:56
+        - calling model 16:35:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_97.json
+- Story #[98] -- started at 16:36:03
+    - #G19# As an OlderPerson, I want to have ALFRED to give me goals and missions that encourage me to do new activities and exercises and to go out. 
+
+        - calling model 16:36:03
+        - calling model 16:36:07
+        - calling model 16:36:11
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_98.json
+- Story #[99] -- started at 16:36:16
+    - #G19# As an OlderPerson, I want to have ALFRED to set limits in the games duration as I get bored easily. 
+
+        - calling model 16:36:16
+        - calling model 16:36:20
+        - calling model 16:36:23
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_99.json
+- Story #[100] -- started at 16:36:27
+    - #G19# As an OlderPerson, I want to play games where I can use my Imagination. 
+
+        - calling model 16:36:27
+        - calling model 16:36:30
+        - calling model 16:36:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_100.json
+- Story #[101] -- started at 16:36:37
+    - #G19# As an OlderPerson, I want to do guided exercises with ALFRED and ALFRED should also use sensors to capture health data while I am doing exercises. 
+
+        - calling model 16:36:37
+        - calling model 16:36:41
+        - calling model 16:36:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_101.json
+- Story #[102] -- started at 16:36:50
+    - #G19# As an OlderPerson, I want to have games that include my favourite sports. 
+
+        - calling model 16:36:50
+        - calling model 16:36:53
+        - calling model 16:36:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_102.json
+- Story #[103] -- started at 16:37:01
+    - #G19# As an OlderPerson, I want to receive suggestions about local sport Classes. 
+
+        - calling model 16:37:01
+        - calling model 16:37:04
+        - calling model 16:37:08
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:38:38
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_103.json
+- Story #[104] -- started at 16:38:42
+    - #G19# As an OlderPerson, I want to have ALFRED to remind me to keep a good body posture. 
+
+        - calling model 16:38:42
+        - calling model 16:38:46
+        - calling model 16:38:49
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:40:19
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_104.json
+- Story #[105] -- started at 16:40:23
+    - #G19# As a MedicalCaregiver, I want to have ALFRED to remind people to exercise regularly. 
+
+        - calling model 16:40:23
+        - calling model 16:40:27
+        - calling model 16:40:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_105.json
+- Story #[106] -- started at 16:40:35
+    - #G19# As an OlderPerson, I want to receive specific tips how to reduce my health impairments without medication. 
+
+        - calling model 16:40:35
+        - calling model 16:40:39
+        - calling model 16:40:43
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_106.json
+- Story #[107] -- started at 16:40:48
+    - #G19# As an OlderPerson, I want to have some games that show me how good my memory and physical health is. 
+
+        - calling model 16:40:48
+        - calling model 16:40:52
+        - calling model 16:40:55
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_107.json
+- Story #[108] -- started at 16:40:59
+    - #G19# As an OlderPerson, I want to have training for specific muscle Groups. 
+
+        - calling model 16:40:59
+        - calling model 16:41:03
+        - calling model 16:41:06
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_108.json
+- Story #[109] -- started at 16:41:10
+    - #G19# As a MedicalCaregiver, I want to have ALFRED to offer training for specific muscle groups. 
+
+        - calling model 16:41:10
+        - calling model 16:41:14
+        - calling model 16:41:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_109.json
+- Story #[110] -- started at 16:41:21
+    - #G19# As an OlderPerson, I want to be able to see my training Performance. 
+
+        - calling model 16:41:21
+        - calling model 16:41:25
+        - calling model 16:41:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_110.json
+- Story #[111] -- started at 16:41:32
+    - #G19# As an OlderPerson, I want to have ALFRED to help to motivate me during the week to do exercise that should change daily, as the constant change motivates me. 
+
+        - calling model 16:41:32
+        - calling model 16:41:36
+        - calling model 16:41:39
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_111.json
+- Story #[112] -- started at 16:41:46
+    - #G19# As a MedicalCaregiver, I want to have ALFRED to propose me games that require the combination of mental and physical exercise, such as opposing motion exercises of the arms and legs. 
+
+        - calling model 16:41:46
+        - calling model 16:41:49
+        - calling model 16:41:53
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_112.json
+- Story #[113] -- started at 16:41:57
+    - #G19# As an OlderPerson, I want to games that require the combination of mental and physical exercise, such as opposing motion exercises of the arms and legs. 
+
+        - calling model 16:41:57
+        - calling model 16:42:01
+        - calling model 16:42:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_113.json
+- Story #[114] -- started at 16:42:11
+    - #G19# As a MedicalCaregiver, I want to control if the user does the exercise correct. 
+
+        - calling model 16:42:11
+        - calling model 16:42:15
+        - calling model 16:42:18
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_114.json
+- Story #[115] -- started at 16:42:22
+    - #G19# As a MedicalCaregiver, I want to have a regular summary on how much exercise is performed by the user. 
+
+        - calling model 16:42:22
+        - calling model 16:42:25
+        - calling model 16:42:29
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_115.json
+- Story #[116] -- started at 16:42:33
+    - #G19# As an InformalCaregiver, I want to have a game that the carer could play together with the user, so that it would enable to monitor the users’ state of health but also have some fun time. 
+
+        - calling model 16:42:33
+        - calling model 16:42:37
+        - calling model 16:42:41
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_116.json
+- Story #[117] -- started at 16:42:46
+    - #G19# As a MedicalCaregiver, I want to have ALFRED to propose training that promotes complex thinking. 
+
+        - calling model 16:42:46
+        - calling model 16:42:49
+        - calling model 16:42:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_117.json
+- Story #[118] -- started at 16:42:56
+    - #G19# As a MedicalCaregiver, I want to give corrective feedback if exercises are performed wrong, too much or in any other way harmful to the user. 
+
+        - calling model 16:42:56
+        - calling model 16:43:00
+        - calling model 16:43:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_118.json
+- Story #[119] -- started at 16:43:09
+    - #G19# As a developer, I want to present my app to as many people as Possible. 
+
+        - calling model 16:43:09
+        - calling model 16:43:13
+        - calling model 16:43:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_119.json
+- Story #[120] -- started at 16:43:20
+    - #G19# As a developer, I want to have the accounting to be as simple and clear as Possible. 
+
+        - calling model 16:43:20
+        - calling model 16:43:24
+        - calling model 16:43:26
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_120.json
+- Story #[121] -- started at 16:43:30
+    - #G19# As a developer, I want to easily create and to maintain my apps within the market place. 
+
+        - calling model 16:43:30
+        - calling model 16:43:34
+        - calling model 16:43:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_121.json
+- Story #[122] -- started at 16:43:44
+    - #G19# As a developer, I want to enable customers to provide feedback about my App and need an easy way to watch this feedback. 
+
+        - calling model 16:43:44
+        - calling model 16:43:47
+        - calling model 16:43:51
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_122.json
+- Story #[123] -- started at 16:43:56
+    - #G19# As a developer, I want to have an easy way to manage the pricing modality of my Apps. 
+
+        - calling model 16:43:56
+        - calling model 16:44:00
+        - calling model 16:44:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_123.json
+- Story #[124] -- started at 16:44:07
+    - #G19# As a developer, I want to have the API to be well defined and well documented. 
+
+        - calling model 16:44:07
+        - calling model 16:44:11
+        - calling model 16:44:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_124.json
+- Story #[125] -- started at 16:44:21
+    - #G19# As a developer, I want to obtain Apps development support. 
+
+        - calling model 16:44:21
+        - calling model 16:44:24
+        - calling model 16:44:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_125.json
+- Story #[126] -- started at 16:44:32
+    - #G19# As a developer, I want to know the fees the provider of the market place charges for using the platform. 
+
+        - calling model 16:44:32
+        - calling model 16:44:35
+        - calling model 16:44:39
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_126.json
+- Story #[127] -- started at 16:44:45
+    - #G19# As a developer, I want to be notified as soon as possible when the state of any of my Apps changes. 
+
+        - calling model 16:44:45
+        - calling model 16:44:49
+        - calling model 16:44:52
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:46:22
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_127.json
+- Story #[128] -- started at 16:46:26
+    - #G19# As a developer, I want to have detailed information of what happened when my App crashes on the user’s device. 
+
+        - calling model 16:46:26
+        - calling model 16:46:30
+        - calling model 16:46:34
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_128.json
+- Story #[129] -- started at 16:46:39
+    - #G19# As a developer, I want to present my App in several ways. 
+
+        - calling model 16:46:39
+        - calling model 16:46:42
+        - calling model 16:46:46
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_129.json
+- Story #[130] -- started at 16:46:49
+    - #G19# As a developer, I want to be able to design my App on my own - though there will be a few rules I have to stand to. 
+
+        - calling model 16:46:49
+        - calling model 16:46:53
+        - calling model 16:46:56
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_130.json
+- Story #[131] -- started at 16:47:01
+    - #G19# As a developer, I want to have an easy way to define questions the user can ask and perform. 
+
+        - calling model 16:47:01
+        - calling model 16:47:04
+        - calling model 16:47:07
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_131.json
+- Story #[132] -- started at 16:47:16
+    - #G19# As a developer, I want to have my App to be granted access to several operating system features. 
+
+        - calling model 16:47:16
+        - calling model 16:47:19
+        - calling model 16:47:23
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_132.json
+- Story #[133] -- started at 16:47:28
+    - #G19# As a developer, I want to have the API components to be on a high level so that I don’t have to deal with their details. 
+
+        - calling model 16:47:28
+        - calling model 16:47:31
+        - calling model 16:47:35
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_133.json
+- Story #[134] -- started at 16:47:39
+    - #G19# As a developer, I want to have an easy way to read data from health sensors the user is wearing. 
+
+        - calling model 16:47:39
+        - calling model 16:47:42
+        - calling model 16:47:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_134.json
+- Story #[135] -- started at 16:47:49
+    - #G19# As a serious games developer, I want to be able to take control over some functions to provide the desired user experience. 
+
+        - calling model 16:47:49
+        - calling model 16:47:53
+        - calling model 16:47:56
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_135.json
+- Story #[136] -- started at 16:48:02
+    - #G19# As a developer, I want to provide an easy way to manage the user Settings. 
+
+        - calling model 16:48:02
+        - calling model 16:48:05
+        - calling model 16:48:09
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_136.json
+- Story #[137] -- started at 16:48:12
+    - #G19# As a developer, I want to have the ALFRED API to reduce the work to achieve my goals. 
+
+        - calling model 16:48:12
+        - calling model 16:48:16
+        - calling model 16:48:19
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_137.json
+- Story #[138] -- started at 16:48:23
+    - #G19# As a developer, I want to have the ALFRED API to reduce the work to achieve my goals.
+
+        - calling model 16:48:23
+        - calling model 16:48:27
+        - calling model 16:48:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g19-alfred.txt_138.json
+END: 16:48:34

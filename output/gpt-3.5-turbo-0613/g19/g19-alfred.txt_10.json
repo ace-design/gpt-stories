@@ -1,0 +1,67 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have ALFRED on a bracelet or a necklace, so that I can always wear him with me. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "bracelet",
+      "necklace"
+    ],
+    "actions": [
+      "have",
+      "wear"
+    ],
+    "benefit": "I can always have ALFRED with me"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [
+      "bracelet",
+      "necklace"
+    ],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": [
+      "wear"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "bracelet",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "necklace",
+        "kind": "targets"
+      },
+      {
+        "from": "wear",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1341,
+    "output": 259,
+    "time (ns)": 7353568000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As a developer, I want to have an easy way to read data from health sensors the user is wearing. \n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "health sensors"
+    ],
+    "actions": [
+      "read data"
+    ],
+    "benefit": "have an easy way to read data from health sensors the user is wearing"
+  },
+  "categories": {
+    "primary_entities": [
+      "health sensors"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "read data"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "read data",
+        "kind": "triggers"
+      },
+      {
+        "from": "read data",
+        "to": "health sensors",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1296,
+    "output": 162,
+    "time (ns)": 4863264000
+  }
+}

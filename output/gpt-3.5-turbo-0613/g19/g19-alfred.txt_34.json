@@ -1,0 +1,57 @@
+{
+  "story": "#G19# As a MedicalCaregiver, I want to have a simple ALFRED unit that is expandable in is functions. \n",
+  "extraction": {
+    "personas": [
+      "MedicalCaregiver"
+    ],
+    "entities": [
+      "ALFRED unit"
+    ],
+    "actions": [
+      "have",
+      "expand"
+    ],
+    "benefit": "to have a simple ALFRED unit that is expandable in its functions"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED unit"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": [
+      "expand"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "MedicalCaregiver",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "ALFRED unit",
+        "kind": "targets"
+      },
+      {
+        "from": "MedicalCaregiver",
+        "to": "expand",
+        "kind": "triggers"
+      },
+      {
+        "from": "expand",
+        "to": "ALFRED unit",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1323,
+    "output": 233,
+    "time (ns)": 6892989000
+  }
+}

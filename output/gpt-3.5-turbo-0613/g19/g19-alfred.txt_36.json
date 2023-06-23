@@ -1,0 +1,63 @@
+{
+  "story": "#G19# As an OlderPerson, I want to receive a wake up call from ALFRED in the morning checking on me if I am ok.\n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED"
+    ],
+    "actions": [
+      "receive",
+      "wake up call",
+      "checking on"
+    ],
+    "benefit": "I am ok"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "receive",
+      "wake up call",
+      "checking on"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "receive",
+        "kind": "triggers"
+      },
+      {
+        "from": "receive",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "wake up call",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "checking on",
+        "kind": "targets"
+      },
+      {
+        "from": "checking on",
+        "to": "I am ok",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1320,
+    "output": 253,
+    "time (ns)": 7276427000
+  }
+}

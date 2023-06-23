@@ -1,0 +1,57 @@
+{
+  "story": "#G19# As a MedicalCaregiver, I want to have ALFRED to be able to determine the user's blood pressure. \n",
+  "extraction": {
+    "personas": [
+      "MedicalCaregiver"
+    ],
+    "entities": [
+      "ALFRED",
+      "user's blood pressure"
+    ],
+    "actions": [
+      "determine"
+    ],
+    "benefit": "I want to have ALFRED to be able to determine the user's blood pressure"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [
+      "user's blood pressure"
+    ],
+    "primary_actions": [
+      "determine"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "MedicalCaregiver",
+        "to": "determine",
+        "kind": "triggers"
+      },
+      {
+        "from": "determine",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "MedicalCaregiver",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "MedicalCaregiver",
+        "to": "user's blood pressure",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1337,
+    "output": 246,
+    "time (ns)": 6799547000
+  }
+}

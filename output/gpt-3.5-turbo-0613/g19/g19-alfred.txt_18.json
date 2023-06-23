@@ -1,0 +1,51 @@
+{
+  "story": "#G19# As an OlderPerson, I want to receive visual support, especially when looking at a list, map or agenda.\n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "visual support",
+      "list",
+      "map",
+      "agenda"
+    ],
+    "actions": [
+      "receive"
+    ],
+    "benefit": "I can receive visual support, especially when looking at a list, map or agenda."
+  },
+  "categories": {
+    "primary_entities": [
+      "visual support"
+    ],
+    "secondary_entities": [
+      "list",
+      "map",
+      "agenda"
+    ],
+    "primary_actions": [
+      "receive"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "receive",
+        "kind": "triggers"
+      },
+      {
+        "from": "receive",
+        "to": "visual support",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1329,
+    "output": 181,
+    "time (ns)": 5339789000
+  }
+}

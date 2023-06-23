@@ -1,0 +1,56 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have ALFRED to enable me to have face to face contacts as well, so that I do not just have virtual contacts over ALFRED. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED"
+    ],
+    "actions": [
+      "enable",
+      "have face to face contacts"
+    ],
+    "benefit": "I do not just have virtual contacts over ALFRED"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "enable",
+      "have face to face contacts"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "enable",
+        "kind": "triggers"
+      },
+      {
+        "from": "OlderPerson",
+        "to": "have face to face contacts",
+        "kind": "triggers"
+      },
+      {
+        "from": "enable",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "have face to face contacts",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1363,
+    "output": 239,
+    "time (ns)": 6831491000
+  }
+}

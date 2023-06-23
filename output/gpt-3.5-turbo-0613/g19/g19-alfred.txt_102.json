@@ -1,0 +1,47 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have games that include my favourite sports. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "games",
+      "favourite sports"
+    ],
+    "actions": [
+      "have"
+    ],
+    "benefit": "I can enjoy playing games that include my favourite sports"
+  },
+  "categories": {
+    "primary_entities": [
+      "games"
+    ],
+    "secondary_entities": [
+      "favourite sports"
+    ],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "games",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1282,
+    "output": 164,
+    "time (ns)": 4944539000
+  }
+}

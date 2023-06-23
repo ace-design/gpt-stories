@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As a developer, I want to present my App in several ways. \n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "App"
+    ],
+    "actions": [
+      "present"
+    ],
+    "benefit": "I can present my App in several ways"
+  },
+  "categories": {
+    "primary_entities": [
+      "App"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "present"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "present",
+        "kind": "triggers"
+      },
+      {
+        "from": "present",
+        "to": "App",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1254,
+    "output": 149,
+    "time (ns)": 4430339000
+  }
+}

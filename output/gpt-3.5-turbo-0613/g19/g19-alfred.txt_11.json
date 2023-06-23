@@ -1,0 +1,52 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have clear instructions and service after sales that guide me if I have trouble in using ALFRED.\n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED"
+    ],
+    "actions": [
+      "have",
+      "guide"
+    ],
+    "benefit": "clear instructions and service after sales"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": [
+      "guide"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "guide",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1306,
+    "output": 189,
+    "time (ns)": 6038188000
+  }
+}

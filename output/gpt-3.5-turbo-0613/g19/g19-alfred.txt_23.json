@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have an ALFRED device that can be easily adapted for user that have visual troubles. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED device"
+    ],
+    "actions": [
+      "easily adapted"
+    ],
+    "benefit": "for user that have visual troubles"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED device"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "easily adapted"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "easily adapted",
+        "kind": "triggers"
+      },
+      {
+        "from": "easily adapted",
+        "to": "ALFRED device",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1305,
+    "output": 168,
+    "time (ns)": 5267907000
+  }
+}

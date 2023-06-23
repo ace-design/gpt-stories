@@ -1,0 +1,49 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have everything preinstalled, so that I do not have to set up ALFRED by myself.\n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED"
+    ],
+    "actions": [
+      "have",
+      "preinstalled",
+      "set up"
+    ],
+    "benefit": "I do not have to set up ALFRED by myself"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "preinstalled"
+    ],
+    "secondary_actions": [
+      "set up"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1333,
+    "output": 178,
+    "time (ns)": 5511154000
+  }
+}

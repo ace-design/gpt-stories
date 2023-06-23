@@ -1,0 +1,47 @@
+{
+  "story": "#G19# As an OlderPerson, I want to use ALFRED to watch movies. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "movies"
+    ],
+    "actions": [
+      "watch"
+    ],
+    "benefit": "I can use ALFRED to watch movies"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [
+      "movies"
+    ],
+    "primary_actions": [
+      "watch"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "watch",
+        "kind": "triggers"
+      },
+      {
+        "from": "watch",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1280,
+    "output": 165,
+    "time (ns)": 5266067000
+  }
+}

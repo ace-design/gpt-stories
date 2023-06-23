@@ -1,0 +1,59 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have an AFLRED device that encourages its users for real interaction between humans and not only with ICT tools. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "AFLRED device",
+      "humans",
+      "ICT tools"
+    ],
+    "actions": [
+      "encourages"
+    ],
+    "benefit": "real interaction between humans and not only with ICT tools"
+  },
+  "categories": {
+    "primary_entities": [
+      "AFLRED device",
+      "humans"
+    ],
+    "secondary_entities": [
+      "ICT tools"
+    ],
+    "primary_actions": [
+      "encourages"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "encourages",
+        "kind": "triggers"
+      },
+      {
+        "from": "encourages",
+        "to": "AFLRED device",
+        "kind": "targets"
+      },
+      {
+        "from": "encourages",
+        "to": "humans",
+        "kind": "targets"
+      },
+      {
+        "from": "encourages",
+        "to": "ICT tools",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1345,
+    "output": 243,
+    "time (ns)": 6635662000
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "story": "#G19# As an OlderPerson, I want to use ALFRED to organize a meeting with a group of friends at a certain place. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "meeting",
+      "group of friends",
+      "place"
+    ],
+    "actions": [
+      "organize"
+    ],
+    "benefit": "I can use ALFRED to organize a meeting with a group of friends at a certain place"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED",
+      "meeting",
+      "group of friends",
+      "place"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "organize"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "organize",
+        "kind": "triggers"
+      },
+      {
+        "from": "organize",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "organize",
+        "to": "meeting",
+        "kind": "targets"
+      },
+      {
+        "from": "organize",
+        "to": "group of friends",
+        "kind": "targets"
+      },
+      {
+        "from": "organize",
+        "to": "place",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1358,
+    "output": 276,
+    "time (ns)": 7941382000
+  }
+}

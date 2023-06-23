@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As a MedicalCaregiver, I want to locate the ALFRED user. \n",
+  "extraction": {
+    "personas": [
+      "MedicalCaregiver"
+    ],
+    "entities": [
+      "ALFRED user"
+    ],
+    "actions": [
+      "locate"
+    ],
+    "benefit": "I can locate the ALFRED user"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED user"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "locate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "MedicalCaregiver",
+        "to": "locate",
+        "kind": "triggers"
+      },
+      {
+        "from": "locate",
+        "to": "ALFRED user",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1278,
+    "output": 164,
+    "time (ns)": 4882905000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As an OlderPerson, I want to play games where I can use my Imagination. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "games"
+    ],
+    "actions": [
+      "play"
+    ],
+    "benefit": "I can use my Imagination"
+  },
+  "categories": {
+    "primary_entities": [
+      "games"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "play"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "play",
+        "kind": "triggers"
+      },
+      {
+        "from": "play",
+        "to": "games",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1266,
+    "output": 151,
+    "time (ns)": 4114794000
+  }
+}

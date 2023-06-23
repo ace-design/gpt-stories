@@ -1,0 +1,52 @@
+{
+  "story": "#G19# As an OlderPerson, I want to receive day and night rythm support with agenda reminders. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "day and night rhythm support",
+      "agenda reminders"
+    ],
+    "actions": [
+      "receive"
+    ],
+    "benefit": "I can have support for my day and night rhythm with agenda reminders"
+  },
+  "categories": {
+    "primary_entities": [
+      "day and night rhythm support"
+    ],
+    "secondary_entities": [
+      "agenda reminders"
+    ],
+    "primary_actions": [
+      "receive"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "receive",
+        "kind": "triggers"
+      },
+      {
+        "from": "receive",
+        "to": "day and night rhythm support",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "agenda reminders",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1309,
+    "output": 203,
+    "time (ns)": 5887015000
+  }
+}

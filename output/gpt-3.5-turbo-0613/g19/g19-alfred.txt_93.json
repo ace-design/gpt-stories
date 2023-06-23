@@ -1,0 +1,51 @@
+{
+  "story": "#G19# As a MedicalCaregiver, I want to have ALFRED to be able to determine the user's breathing frequency. \n",
+  "extraction": {
+    "personas": [
+      "MedicalCaregiver"
+    ],
+    "entities": [
+      "ALFRED",
+      "user's breathing frequency"
+    ],
+    "actions": [
+      "determine"
+    ],
+    "benefit": "I want to have ALFRED to be able to determine the user's breathing frequency"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED",
+      "user's breathing frequency"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "determine"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "MedicalCaregiver",
+        "to": "determine",
+        "kind": "triggers"
+      },
+      {
+        "from": "determine",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "determine",
+        "to": "user's breathing frequency",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1338,
+    "output": 215,
+    "time (ns)": 5341715000
+  }
+}

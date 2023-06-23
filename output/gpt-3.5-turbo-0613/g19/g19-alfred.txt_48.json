@@ -1,0 +1,47 @@
+{
+  "story": "#G19# As an OlderPerson, I want to use ALFRED to hear about the news. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "news"
+    ],
+    "actions": [
+      "hear"
+    ],
+    "benefit": "I can stay informed about the news"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [
+      "news"
+    ],
+    "primary_actions": [
+      "hear"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "hear",
+        "kind": "triggers"
+      },
+      {
+        "from": "hear",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1282,
+    "output": 163,
+    "time (ns)": 5563896000
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have ALFRED to set limits in the games duration as I get bored easily. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "games duration"
+    ],
+    "actions": [
+      "set limits"
+    ],
+    "benefit": "I get bored easily"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [
+      "games duration"
+    ],
+    "primary_actions": [
+      "set limits"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "set limits",
+        "kind": "triggers"
+      },
+      {
+        "from": "set limits",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1303,
+    "output": 166,
+    "time (ns)": 4845807000
+  }
+}

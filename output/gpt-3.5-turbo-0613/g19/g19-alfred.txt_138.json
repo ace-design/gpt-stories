@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As a developer, I want to have the ALFRED API to reduce the work to achieve my goals.\n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "ALFRED API"
+    ],
+    "actions": [
+      "reduce the work"
+    ],
+    "benefit": "to achieve my goals"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED API"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "reduce the work"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "reduce the work",
+        "kind": "triggers"
+      },
+      {
+        "from": "reduce the work",
+        "to": "ALFRED API",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1282,
+    "output": 162,
+    "time (ns)": 4783971000
+  }
+}

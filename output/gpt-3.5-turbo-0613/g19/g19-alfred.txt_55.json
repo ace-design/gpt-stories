@@ -1,0 +1,47 @@
+{
+  "story": "#G19# As a MedicalCaregiver, I want to be able to see if the patient has taken her medicine. \n",
+  "extraction": {
+    "personas": [
+      "MedicalCaregiver"
+    ],
+    "entities": [
+      "patient",
+      "medicine"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "I can see if the patient has taken her medicine"
+  },
+  "categories": {
+    "primary_entities": [
+      "patient"
+    ],
+    "secondary_entities": [
+      "medicine"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "MedicalCaregiver",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "patient",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1296,
+    "output": 162,
+    "time (ns)": 4869743000
+  }
+}

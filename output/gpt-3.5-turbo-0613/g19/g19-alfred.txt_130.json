@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As a developer, I want to be able to design my App on my own - though there will be a few rules I have to stand to. \n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "App"
+    ],
+    "actions": [
+      "design"
+    ],
+    "benefit": "be able to design my App on my own"
+  },
+  "categories": {
+    "primary_entities": [
+      "App"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "design"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "design",
+        "kind": "triggers"
+      },
+      {
+        "from": "design",
+        "to": "App",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1304,
+    "output": 150,
+    "time (ns)": 5098434000
+  }
+}

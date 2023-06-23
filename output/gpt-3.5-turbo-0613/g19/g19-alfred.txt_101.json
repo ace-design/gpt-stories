@@ -1,0 +1,60 @@
+{
+  "story": "#G19# As an OlderPerson, I want to do guided exercises with ALFRED and ALFRED should also use sensors to capture health data while I am doing exercises. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "sensors"
+    ],
+    "actions": [
+      "do guided exercises",
+      "capture health data"
+    ],
+    "benefit": "I can do guided exercises with ALFRED and capture health data"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [
+      "sensors"
+    ],
+    "primary_actions": [
+      "do guided exercises"
+    ],
+    "secondary_actions": [
+      "capture health data"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "do guided exercises",
+        "kind": "triggers"
+      },
+      {
+        "from": "do guided exercises",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "ALFRED",
+        "to": "capture health data",
+        "kind": "triggers"
+      },
+      {
+        "from": "capture health data",
+        "to": "sensors",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1361,
+    "output": 246,
+    "time (ns)": 6580298000
+  }
+}

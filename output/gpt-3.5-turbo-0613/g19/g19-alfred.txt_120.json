@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As a developer, I want to have the accounting to be as simple and clear as Possible. \n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "accounting"
+    ],
+    "actions": [
+      "have"
+    ],
+    "benefit": "to be as simple and clear as possible"
+  },
+  "categories": {
+    "primary_entities": [
+      "accounting"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "accounting",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1272,
+    "output": 152,
+    "time (ns)": 4226625000
+  }
+}

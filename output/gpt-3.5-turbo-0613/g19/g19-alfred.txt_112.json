@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As a MedicalCaregiver, I want to have ALFRED to propose me games that require the combination of mental and physical exercise, such as opposing motion exercises of the arms and legs. \n",
+  "extraction": {
+    "personas": [
+      "MedicalCaregiver"
+    ],
+    "entities": [
+      "ALFRED"
+    ],
+    "actions": [
+      "propose"
+    ],
+    "benefit": "have games that require the combination of mental and physical exercise"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "propose"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "MedicalCaregiver",
+        "to": "propose",
+        "kind": "triggers"
+      },
+      {
+        "from": "propose",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1350,
+    "output": 168,
+    "time (ns)": 5008925000
+  }
+}

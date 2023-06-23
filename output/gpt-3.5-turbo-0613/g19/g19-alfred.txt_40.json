@@ -1,0 +1,80 @@
+{
+  "story": "#G19# As an OlderPerson, I want to use ALFRED for touristic walks and indications with explanations on historical and cultural sights. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "touristic walks",
+      "indications",
+      "explanations",
+      "historical sights",
+      "cultural sights"
+    ],
+    "actions": [
+      "use"
+    ],
+    "benefit": "I can have touristic walks and indications with explanations on historical and cultural sights"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED",
+      "touristic walks",
+      "indications"
+    ],
+    "secondary_entities": [
+      "explanations",
+      "historical sights",
+      "cultural sights"
+    ],
+    "primary_actions": [
+      "use"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "touristic walks",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "indications",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "explanations",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "historical sights",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "cultural sights",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1385,
+    "output": 347,
+    "time (ns)": 9183319000
+  }
+}

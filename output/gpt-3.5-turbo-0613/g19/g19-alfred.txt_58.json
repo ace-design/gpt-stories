@@ -1,0 +1,56 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have ALFRED to detect falls and send an emergency to a specific contact. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED"
+    ],
+    "actions": [
+      "detect falls",
+      "send an emergency"
+    ],
+    "benefit": "to send an emergency to a specific contact"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "detect falls",
+      "send an emergency"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "detect falls",
+        "kind": "triggers"
+      },
+      {
+        "from": "OlderPerson",
+        "to": "send an emergency",
+        "kind": "triggers"
+      },
+      {
+        "from": "detect falls",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "send an emergency",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1312,
+    "output": 232,
+    "time (ns)": 6673088000
+  }
+}

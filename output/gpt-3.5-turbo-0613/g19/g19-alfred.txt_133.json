@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As a developer, I want to have the API components to be on a high level so that I don\u2019t have to deal with their details. \n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "API components"
+    ],
+    "actions": [
+      "have"
+    ],
+    "benefit": "I don\u2019t have to deal with their details"
+  },
+  "categories": {
+    "primary_entities": [
+      "API components"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "API components",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1304,
+    "output": 153,
+    "time (ns)": 4872767000
+  }
+}

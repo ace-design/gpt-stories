@@ -1,0 +1,85 @@
+{
+  "story": "#G19# As a developer, I want to have an easy way to define questions the user can ask and perform. \n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "questions",
+      "user"
+    ],
+    "actions": [
+      "define",
+      "ask",
+      "perform"
+    ],
+    "benefit": "have an easy way to define questions the user can ask and perform"
+  },
+  "categories": {
+    "primary_entities": [
+      "questions",
+      "user"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "define",
+      "ask",
+      "perform"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "define",
+        "kind": "triggers"
+      },
+      {
+        "from": "developer",
+        "to": "ask",
+        "kind": "triggers"
+      },
+      {
+        "from": "developer",
+        "to": "perform",
+        "kind": "triggers"
+      },
+      {
+        "from": "define",
+        "to": "questions",
+        "kind": "targets"
+      },
+      {
+        "from": "ask",
+        "to": "questions",
+        "kind": "targets"
+      },
+      {
+        "from": "perform",
+        "to": "questions",
+        "kind": "targets"
+      },
+      {
+        "from": "define",
+        "to": "user",
+        "kind": "targets"
+      },
+      {
+        "from": "ask",
+        "to": "user",
+        "kind": "targets"
+      },
+      {
+        "from": "perform",
+        "to": "user",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1312,
+    "output": 349,
+    "time (ns)": 9028184000
+  }
+}

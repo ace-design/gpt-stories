@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As a developer, I want to obtain Apps development support. \n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "Apps development support"
+    ],
+    "actions": [
+      "obtain"
+    ],
+    "benefit": "I can get support for Apps development"
+  },
+  "categories": {
+    "primary_entities": [
+      "Apps development support"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "obtain"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "obtain",
+        "kind": "triggers"
+      },
+      {
+        "from": "obtain",
+        "to": "Apps development support",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1255,
+    "output": 158,
+    "time (ns)": 4870300000
+  }
+}

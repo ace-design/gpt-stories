@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As an OlderPerson, I want to use ALFRED to pay for small amounts.\n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED"
+    ],
+    "actions": [
+      "pay"
+    ],
+    "benefit": "I can pay for small amounts"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "pay"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "pay",
+        "kind": "triggers"
+      },
+      {
+        "from": "pay",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1269,
+    "output": 157,
+    "time (ns)": 4850553000
+  }
+}

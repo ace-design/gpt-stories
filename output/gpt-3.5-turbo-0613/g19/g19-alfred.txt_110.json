@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As an OlderPerson, I want to be able to see my training Performance. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "training Performance"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "be able to see my training Performance"
+  },
+  "categories": {
+    "primary_entities": [
+      "training Performance"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "training Performance",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1265,
+    "output": 155,
+    "time (ns)": 4774056000
+  }
+}

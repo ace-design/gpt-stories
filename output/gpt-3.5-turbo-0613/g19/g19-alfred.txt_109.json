@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As a MedicalCaregiver, I want to have ALFRED to offer training for specific muscle groups. \n",
+  "extraction": {
+    "personas": [
+      "MedicalCaregiver"
+    ],
+    "entities": [
+      "ALFRED"
+    ],
+    "actions": [
+      "offer training"
+    ],
+    "benefit": "to train specific muscle groups"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "offer training"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "MedicalCaregiver",
+        "to": "offer training",
+        "kind": "triggers"
+      },
+      {
+        "from": "offer training",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1287,
+    "output": 162,
+    "time (ns)": 5011494000
+  }
+}

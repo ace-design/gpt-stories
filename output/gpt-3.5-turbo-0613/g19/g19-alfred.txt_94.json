@@ -1,0 +1,47 @@
+{
+  "story": "#G19# As a MedicalCaregiver, I want to have feedback on the activity level of the user. \n",
+  "extraction": {
+    "personas": [
+      "MedicalCaregiver"
+    ],
+    "entities": [
+      "activity level",
+      "user"
+    ],
+    "actions": [
+      "have feedback"
+    ],
+    "benefit": "to monitor the user's activity level"
+  },
+  "categories": {
+    "primary_entities": [
+      "activity level"
+    ],
+    "secondary_entities": [
+      "user"
+    ],
+    "primary_actions": [
+      "have feedback"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "MedicalCaregiver",
+        "to": "have feedback",
+        "kind": "triggers"
+      },
+      {
+        "from": "have feedback",
+        "to": "activity level",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1290,
+    "output": 166,
+    "time (ns)": 4922712000
+  }
+}

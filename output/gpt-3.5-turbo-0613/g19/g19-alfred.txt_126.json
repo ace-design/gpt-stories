@@ -1,0 +1,65 @@
+{
+  "story": "#G19# As a developer, I want to know the fees the provider of the market place charges for using the platform. \n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "fees",
+      "provider",
+      "market place",
+      "platform"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "I can understand the charges for using the platform"
+  },
+  "categories": {
+    "primary_entities": [
+      "fees",
+      "provider",
+      "market place",
+      "platform"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "fees",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "provider",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "market place",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "platform",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1313,
+    "output": 249,
+    "time (ns)": 6958041000
+  }
+}

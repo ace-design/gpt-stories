@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As a MedicalCaregiver, I want to have videophone. \n",
+  "extraction": {
+    "personas": [
+      "MedicalCaregiver"
+    ],
+    "entities": [
+      "videophone"
+    ],
+    "actions": [
+      "have"
+    ],
+    "benefit": ""
+  },
+  "categories": {
+    "primary_entities": [
+      "videophone"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "MedicalCaregiver",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "videophone",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1247,
+    "output": 149,
+    "time (ns)": 4788127000
+  }
+}

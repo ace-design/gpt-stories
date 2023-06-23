@@ -1,0 +1,47 @@
+{
+  "story": "#G19# As an OlderPerson, I want to buy ALFRED in a senior shop with special client support. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "senior shop"
+    ],
+    "actions": [
+      "buy"
+    ],
+    "benefit": "I can buy ALFRED with special client support"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [
+      "senior shop"
+    ],
+    "primary_actions": [
+      "buy"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "buy",
+        "kind": "triggers"
+      },
+      {
+        "from": "buy",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1303,
+    "output": 170,
+    "time (ns)": 5072545000
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "story": "#G19# As an OlderPerson, I want to be able to customize my preferences in the different functionalities of the solution.\n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "preferences",
+      "functionalities",
+      "solution"
+    ],
+    "actions": [
+      "customize"
+    ],
+    "benefit": "be able to customize my preferences in the different functionalities of the solution"
+  },
+  "categories": {
+    "primary_entities": [
+      "preferences",
+      "functionalities",
+      "solution"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "customize"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "customize",
+        "kind": "triggers"
+      },
+      {
+        "from": "customize",
+        "to": "preferences",
+        "kind": "targets"
+      },
+      {
+        "from": "customize",
+        "to": "functionalities",
+        "kind": "targets"
+      },
+      {
+        "from": "customize",
+        "to": "solution",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1310,
+    "output": 223,
+    "time (ns)": 6396250000
+  }
+}

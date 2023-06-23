@@ -1,0 +1,52 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have an ALFRED device that repeats the last phrase. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED device"
+    ],
+    "actions": [
+      "have",
+      "repeats"
+    ],
+    "benefit": "I can have an ALFRED device that repeats the last phrase"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED device"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": [
+      "repeats"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "ALFRED device",
+        "kind": "targets"
+      },
+      {
+        "from": "repeats",
+        "to": "ALFRED device",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1305,
+    "output": 203,
+    "time (ns)": 6070997000
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "story": "#G19# As a developer, I want to have my App to be granted access to several operating system features. \n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "App",
+      "operating system features"
+    ],
+    "actions": [
+      "granted access"
+    ],
+    "benefit": "have my App to be granted access to several operating system features"
+  },
+  "categories": {
+    "primary_entities": [
+      "App"
+    ],
+    "secondary_entities": [
+      "operating system features"
+    ],
+    "primary_actions": [
+      "granted access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "granted access",
+        "kind": "triggers"
+      },
+      {
+        "from": "granted access",
+        "to": "App",
+        "kind": "targets"
+      },
+      {
+        "from": "granted access",
+        "to": "operating system features",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1303,
+    "output": 202,
+    "time (ns)": 6133525000
+  }
+}

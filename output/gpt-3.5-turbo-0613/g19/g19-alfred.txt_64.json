@@ -1,0 +1,58 @@
+{
+  "story": "#G19# As an OlderPerson, I want to use ALFRED to maintain my contact list in my phone. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "contact list",
+      "phone"
+    ],
+    "actions": [
+      "maintain"
+    ],
+    "benefit": "I can easily manage and update my contact list"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED",
+      "contact list",
+      "phone"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "maintain"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "maintain",
+        "kind": "triggers"
+      },
+      {
+        "from": "maintain",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "maintain",
+        "to": "contact list",
+        "kind": "targets"
+      },
+      {
+        "from": "maintain",
+        "to": "phone",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1311,
+    "output": 231,
+    "time (ns)": 8138700000
+  }
+}

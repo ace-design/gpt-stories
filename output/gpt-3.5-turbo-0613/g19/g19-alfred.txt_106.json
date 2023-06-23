@@ -1,0 +1,66 @@
+{
+  "story": "#G19# As an OlderPerson, I want to receive specific tips how to reduce my health impairments without medication. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "specific tips",
+      "health impairments",
+      "medication"
+    ],
+    "actions": [
+      "receive",
+      "reduce"
+    ],
+    "benefit": "reduce my health impairments without medication"
+  },
+  "categories": {
+    "primary_entities": [
+      "specific tips",
+      "health impairments"
+    ],
+    "secondary_entities": [
+      "medication"
+    ],
+    "primary_actions": [
+      "receive",
+      "reduce"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "receive",
+        "kind": "triggers"
+      },
+      {
+        "from": "receive",
+        "to": "specific tips",
+        "kind": "targets"
+      },
+      {
+        "from": "OlderPerson",
+        "to": "reduce",
+        "kind": "triggers"
+      },
+      {
+        "from": "reduce",
+        "to": "health impairments",
+        "kind": "targets"
+      },
+      {
+        "from": "reduce",
+        "to": "medication",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1315,
+    "output": 259,
+    "time (ns)": 7308340000
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "story": "#G19# As an OlderPerson, I want to use ALFRED to send messages. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "messages"
+    ],
+    "actions": [
+      "send"
+    ],
+    "benefit": "I can use ALFRED to send messages"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [
+      "messages"
+    ],
+    "primary_actions": [
+      "send"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "send",
+        "kind": "triggers"
+      },
+      {
+        "from": "send",
+        "to": "ALFRED",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1280,
+    "output": 165,
+    "time (ns)": 4737310000
+  }
+}

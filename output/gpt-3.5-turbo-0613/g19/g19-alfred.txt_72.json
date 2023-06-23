@@ -1,0 +1,59 @@
+{
+  "story": "#G19# As an OlderPerson, I want to use ALFRED to learn about art expositions or a museum. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "art expositions",
+      "museum"
+    ],
+    "actions": [
+      "learn"
+    ],
+    "benefit": "I can learn about art expositions or a museum"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [
+      "art expositions",
+      "museum"
+    ],
+    "primary_actions": [
+      "learn"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "learn",
+        "kind": "triggers"
+      },
+      {
+        "from": "learn",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "learn",
+        "to": "art expositions",
+        "kind": "targets"
+      },
+      {
+        "from": "learn",
+        "to": "museum",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1318,
+    "output": 231,
+    "time (ns)": 6679985000
+  }
+}

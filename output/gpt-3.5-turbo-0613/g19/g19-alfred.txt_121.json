@@ -1,0 +1,68 @@
+{
+  "story": "#G19# As a developer, I want to easily create and to maintain my apps within the market place. \n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "apps",
+      "market place"
+    ],
+    "actions": [
+      "create",
+      "maintain"
+    ],
+    "benefit": "easily create and maintain my apps within the market place"
+  },
+  "categories": {
+    "primary_entities": [
+      "apps",
+      "market place"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create",
+      "maintain"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "developer",
+        "to": "maintain",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "apps",
+        "kind": "targets"
+      },
+      {
+        "from": "maintain",
+        "to": "apps",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "market place",
+        "kind": "targets"
+      },
+      {
+        "from": "maintain",
+        "to": "market place",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1299,
+    "output": 274,
+    "time (ns)": 7344668000
+  }
+}

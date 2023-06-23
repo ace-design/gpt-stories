@@ -1,0 +1,75 @@
+{
+  "story": "#G19# As an OlderPerson, I want to use ALFRED to get a personalized invitation to a social event, so that it motivates more to go. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "personalized invitation",
+      "social event"
+    ],
+    "actions": [
+      "get",
+      "motivates"
+    ],
+    "benefit": "it motivates me more to go"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED",
+      "personalized invitation",
+      "social event"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "get",
+      "motivates"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "personalized invitation",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "social event",
+        "kind": "targets"
+      },
+      {
+        "from": "motivates",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "motivates",
+        "to": "personalized invitation",
+        "kind": "targets"
+      },
+      {
+        "from": "motivates",
+        "to": "social event",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1355,
+    "output": 325,
+    "time (ns)": 8497233000
+  }
+}

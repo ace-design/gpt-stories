@@ -1,0 +1,52 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have ALFRED to suggest healthy recipes. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "ALFRED",
+      "healthy recipes"
+    ],
+    "actions": [
+      "suggest"
+    ],
+    "benefit": "I can have ALFRED suggest healthy recipes"
+  },
+  "categories": {
+    "primary_entities": [
+      "ALFRED"
+    ],
+    "secondary_entities": [
+      "healthy recipes"
+    ],
+    "primary_actions": [
+      "suggest"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "suggest",
+        "kind": "triggers"
+      },
+      {
+        "from": "suggest",
+        "to": "ALFRED",
+        "kind": "targets"
+      },
+      {
+        "from": "suggest",
+        "to": "healthy recipes",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1286,
+    "output": 193,
+    "time (ns)": 5320982000
+  }
+}

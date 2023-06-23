@@ -1,0 +1,57 @@
+{
+  "story": "#G19# As an OlderPerson, I want to have the wearables with integrated sensors to look good and not to be stigmatizing. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "wearables with integrated sensors"
+    ],
+    "actions": [
+      "look good",
+      "not be stigmatizing"
+    ],
+    "benefit": "I want to have the wearables with integrated sensors to look good and not to be stigmatizing"
+  },
+  "categories": {
+    "primary_entities": [
+      "wearables with integrated sensors"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "look good"
+    ],
+    "secondary_actions": [
+      "not be stigmatizing"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "look good",
+        "kind": "triggers"
+      },
+      {
+        "from": "look good",
+        "to": "wearables with integrated sensors",
+        "kind": "targets"
+      },
+      {
+        "from": "OlderPerson",
+        "to": "not be stigmatizing",
+        "kind": "triggers"
+      },
+      {
+        "from": "not be stigmatizing",
+        "to": "wearables with integrated sensors",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1352,
+    "output": 259,
+    "time (ns)": 6777304000
+  }
+}

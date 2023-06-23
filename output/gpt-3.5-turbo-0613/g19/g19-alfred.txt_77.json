@@ -1,0 +1,44 @@
+{
+  "story": "#G19# As an OlderPerson, I want to be able to pay for small amounts. \n",
+  "extraction": {
+    "personas": [
+      "OlderPerson"
+    ],
+    "entities": [
+      "small amounts"
+    ],
+    "actions": [
+      "pay"
+    ],
+    "benefit": "be able to pay for small amounts"
+  },
+  "categories": {
+    "primary_entities": [
+      "small amounts"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "pay"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OlderPerson",
+        "to": "pay",
+        "kind": "triggers"
+      },
+      {
+        "from": "pay",
+        "to": "small amounts",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1265,
+    "output": 155,
+    "time (ns)": 4529262000
+  }
+}
