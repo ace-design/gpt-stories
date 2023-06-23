@@ -1,0 +1,44 @@
+{
+  "story": "#G26# As a researcher, I want to share reports I've written, so that it is available to staff and researchers.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "reports"
+    ],
+    "actions": [
+      "share"
+    ],
+    "benefit": "it is available to staff and researchers"
+  },
+  "categories": {
+    "primary_entities": [
+      "reports"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "share"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "share",
+        "kind": "triggers"
+      },
+      {
+        "from": "share",
+        "to": "reports",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1278,
+    "output": 150,
+    "time (ns)": 5856719000
+  }
+}

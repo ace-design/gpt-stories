@@ -1,0 +1,44 @@
+{
+  "story": "#G26# As an archivist, I want to apply automatic contrast and level operations to a scanned file, so that I can eliminate unnecessary work.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "scanned file"
+    ],
+    "actions": [
+      "apply automatic contrast and level operations"
+    ],
+    "benefit": "eliminate unnecessary work"
+  },
+  "categories": {
+    "primary_entities": [
+      "scanned file"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "apply automatic contrast and level operations"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "apply automatic contrast and level operations",
+        "kind": "triggers"
+      },
+      {
+        "from": "apply automatic contrast and level operations",
+        "to": "scanned file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1305,
+    "output": 173,
+    "time (ns)": 6850819000
+  }
+}

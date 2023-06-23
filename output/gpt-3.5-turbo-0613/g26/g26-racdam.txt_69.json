@@ -1,0 +1,44 @@
+{
+  "story": "#G26# As a researcher, I want to access tagged working papers, so that my research process is better informed.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "tagged working papers"
+    ],
+    "actions": [
+      "access"
+    ],
+    "benefit": "my research process is better informed"
+  },
+  "categories": {
+    "primary_entities": [
+      "tagged working papers"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "tagged working papers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1279,
+    "output": 158,
+    "time (ns)": 6129232000
+  }
+}

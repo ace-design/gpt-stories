@@ -1,0 +1,83 @@
+{
+  "story": "#G26# As a donor representative, I want to supply incremental accruals to new and existing collections, so that material can be transferred on an ongoing basis.\n",
+  "extraction": {
+    "personas": [
+      "donor representative"
+    ],
+    "entities": [
+      "incremental accruals",
+      "new collections",
+      "existing collections",
+      "material"
+    ],
+    "actions": [
+      "supply",
+      "transfer"
+    ],
+    "benefit": "material can be transferred on an ongoing basis"
+  },
+  "categories": {
+    "primary_entities": [
+      "incremental accruals",
+      "material"
+    ],
+    "secondary_entities": [
+      "new collections",
+      "existing collections"
+    ],
+    "primary_actions": [
+      "supply",
+      "transfer"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "donor representative",
+        "to": "supply",
+        "kind": "triggers"
+      },
+      {
+        "from": "supply",
+        "to": "incremental accruals",
+        "kind": "targets"
+      },
+      {
+        "from": "donor representative",
+        "to": "supply",
+        "kind": "triggers"
+      },
+      {
+        "from": "supply",
+        "to": "new collections",
+        "kind": "targets"
+      },
+      {
+        "from": "donor representative",
+        "to": "supply",
+        "kind": "triggers"
+      },
+      {
+        "from": "supply",
+        "to": "existing collections",
+        "kind": "targets"
+      },
+      {
+        "from": "supply",
+        "to": "material",
+        "kind": "targets"
+      },
+      {
+        "from": "transfer",
+        "to": "material",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1356,
+    "output": 350,
+    "time (ns)": 12848123000
+  }
+}

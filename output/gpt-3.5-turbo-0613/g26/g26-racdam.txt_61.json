@@ -1,0 +1,44 @@
+{
+  "story": "#G26# As an archivist, I want to search all files by keyword.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "files"
+    ],
+    "actions": [
+      "search"
+    ],
+    "benefit": "to search all files by keyword"
+  },
+  "categories": {
+    "primary_entities": [
+      "files"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "search"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1249,
+    "output": 149,
+    "time (ns)": 5735865000
+  }
+}

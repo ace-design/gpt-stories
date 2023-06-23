@@ -1,0 +1,52 @@
+{
+  "story": "#G26# As an archivist, I want to search index cards and other non-public finding aids, so that I can provide better research assistance.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "index cards",
+      "non-public finding aids"
+    ],
+    "actions": [
+      "search"
+    ],
+    "benefit": "provide better research assistance"
+  },
+  "categories": {
+    "primary_entities": [
+      "index cards"
+    ],
+    "secondary_entities": [
+      "non-public finding aids"
+    ],
+    "primary_actions": [
+      "search"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "index cards",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "non-public finding aids",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1304,
+    "output": 189,
+    "time (ns)": 9581062000
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "story": "#G26# As an archivist, I want to distinguish between digital objects digitized to preservation standards and those created for access purposes only, so that I know whether I should apply preservation actions.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "digital objects"
+    ],
+    "actions": [
+      "distinguish",
+      "apply preservation actions"
+    ],
+    "benefit": "know whether I should apply preservation actions"
+  },
+  "categories": {
+    "primary_entities": [
+      "digital objects"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "distinguish",
+      "apply preservation actions"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "distinguish",
+        "kind": "triggers"
+      },
+      {
+        "from": "distinguish",
+        "to": "digital objects",
+        "kind": "targets"
+      },
+      {
+        "from": "archivist",
+        "to": "apply preservation actions",
+        "kind": "triggers"
+      },
+      {
+        "from": "apply preservation actions",
+        "to": "digital objects",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1338,
+    "output": 224,
+    "time (ns)": 8235834000
+  }
+}

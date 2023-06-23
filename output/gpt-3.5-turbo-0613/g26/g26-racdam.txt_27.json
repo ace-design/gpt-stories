@@ -1,0 +1,52 @@
+{
+  "story": "#G26# As an archivist, I want to automatically embed metadata in file headers, so that I avoid repetitive and easily-forgotten tasks.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "metadata",
+      "file headers"
+    ],
+    "actions": [
+      "embed"
+    ],
+    "benefit": "avoid repetitive and easily-forgotten tasks"
+  },
+  "categories": {
+    "primary_entities": [
+      "metadata"
+    ],
+    "secondary_entities": [
+      "file headers"
+    ],
+    "primary_actions": [
+      "embed"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "embed",
+        "kind": "triggers"
+      },
+      {
+        "from": "embed",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "embed",
+        "to": "file headers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1303,
+    "output": 184,
+    "time (ns)": 6696471000
+  }
+}

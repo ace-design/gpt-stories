@@ -1,0 +1,69 @@
+{
+  "story": "#G26# As an archivist, I want to make information about rights available to researchers and donors, so that they know what they can do with images.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "information about rights",
+      "researchers",
+      "donors",
+      "images"
+    ],
+    "actions": [
+      "make available",
+      "know"
+    ],
+    "benefit": "researchers and donors know what they can do with images"
+  },
+  "categories": {
+    "primary_entities": [
+      "information about rights",
+      "images"
+    ],
+    "secondary_entities": [
+      "researchers",
+      "donors"
+    ],
+    "primary_actions": [
+      "make available"
+    ],
+    "secondary_actions": [
+      "know"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "make available",
+        "kind": "triggers"
+      },
+      {
+        "from": "make available",
+        "to": "information about rights",
+        "kind": "targets"
+      },
+      {
+        "from": "make available",
+        "to": "researchers",
+        "kind": "targets"
+      },
+      {
+        "from": "make available",
+        "to": "donors",
+        "kind": "targets"
+      },
+      {
+        "from": "make available",
+        "to": "images",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1352,
+    "output": 270,
+    "time (ns)": 10456646000
+  }
+}

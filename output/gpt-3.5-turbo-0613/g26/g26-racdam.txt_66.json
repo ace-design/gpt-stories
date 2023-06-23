@@ -1,0 +1,77 @@
+{
+  "story": "#G26# As an archivist, I want to have electronic versions of the collection files available for staff use, so that I increase accessibility and I do not lose the original files.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "electronic versions",
+      "collection files",
+      "staff"
+    ],
+    "actions": [
+      "have available",
+      "increase accessibility",
+      "do not lose"
+    ],
+    "benefit": "increase accessibility and preserve original files"
+  },
+  "categories": {
+    "primary_entities": [
+      "electronic versions",
+      "collection files",
+      "staff"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have available",
+      "increase accessibility",
+      "do not lose"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "have available",
+        "kind": "triggers"
+      },
+      {
+        "from": "have available",
+        "to": "electronic versions",
+        "kind": "targets"
+      },
+      {
+        "from": "have available",
+        "to": "collection files",
+        "kind": "targets"
+      },
+      {
+        "from": "have available",
+        "to": "staff",
+        "kind": "targets"
+      },
+      {
+        "from": "increase accessibility",
+        "to": "electronic versions",
+        "kind": "targets"
+      },
+      {
+        "from": "increase accessibility",
+        "to": "collection files",
+        "kind": "targets"
+      },
+      {
+        "from": "do not lose",
+        "to": "collection files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1366,
+    "output": 327,
+    "time (ns)": 11835420000
+  }
+}

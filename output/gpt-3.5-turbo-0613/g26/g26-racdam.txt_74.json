@@ -1,0 +1,47 @@
+{
+  "story": "#G26# As a researcher, I want to ask a question about a specific file, so that I can find out more information.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "specific file"
+    ],
+    "actions": [
+      "ask",
+      "find out"
+    ],
+    "benefit": "I can find out more information"
+  },
+  "categories": {
+    "primary_entities": [
+      "specific file"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "ask"
+    ],
+    "secondary_actions": [
+      "find out"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "ask",
+        "kind": "triggers"
+      },
+      {
+        "from": "ask",
+        "to": "specific file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1292,
+    "output": 159,
+    "time (ns)": 5939259000
+  }
+}

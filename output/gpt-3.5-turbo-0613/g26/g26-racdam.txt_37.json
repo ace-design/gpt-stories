@@ -1,0 +1,47 @@
+{
+  "story": "#G26# As a researcher I want clear citation information on each document, so that I can cite accurately in a publication.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "citation information",
+      "document"
+    ],
+    "actions": [
+      "cite"
+    ],
+    "benefit": "I can cite accurately in a publication"
+  },
+  "categories": {
+    "primary_entities": [
+      "citation information"
+    ],
+    "secondary_entities": [
+      "document"
+    ],
+    "primary_actions": [
+      "cite"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "cite",
+        "kind": "triggers"
+      },
+      {
+        "from": "cite",
+        "to": "citation information",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1286,
+    "output": 158,
+    "time (ns)": 6173825000
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "story": "#G26# As an archivist, I want to perform contrast, level and other manipulations manually, so that I can improve on results from automated tools.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "contrast",
+      "level",
+      "other manipulations",
+      "automated tools"
+    ],
+    "actions": [
+      "perform",
+      "improve"
+    ],
+    "benefit": "I can improve on results from automated tools"
+  },
+  "categories": {
+    "primary_entities": [
+      "contrast",
+      "level",
+      "other manipulations"
+    ],
+    "secondary_entities": [
+      "automated tools"
+    ],
+    "primary_actions": [
+      "perform",
+      "improve"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "perform",
+        "kind": "triggers"
+      },
+      {
+        "from": "perform",
+        "to": "contrast",
+        "kind": "targets"
+      },
+      {
+        "from": "perform",
+        "to": "level",
+        "kind": "targets"
+      },
+      {
+        "from": "perform",
+        "to": "other manipulations",
+        "kind": "targets"
+      },
+      {
+        "from": "perform",
+        "to": "improve",
+        "kind": "triggers"
+      },
+      {
+        "from": "improve",
+        "to": "automated tools",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1348,
+    "output": 291,
+    "time (ns)": 11243871000
+  }
+}

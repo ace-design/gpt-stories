@@ -1,0 +1,44 @@
+{
+  "story": "#G26# As a researcher, I want to access digitized archival materials without mediation, so that I can decide what, I want to look at.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "digitized archival materials"
+    ],
+    "actions": [
+      "access"
+    ],
+    "benefit": "I can decide what I want to look at"
+  },
+  "categories": {
+    "primary_entities": [
+      "digitized archival materials"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "digitized archival materials",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1306,
+    "output": 161,
+    "time (ns)": 6481124000
+  }
+}

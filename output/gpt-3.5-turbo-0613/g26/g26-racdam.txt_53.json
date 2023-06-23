@@ -1,0 +1,72 @@
+{
+  "story": "#G26# As an archivist, I want to use archival content on the RAC website, so that I can integrate our collections into our web presence.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "archival content",
+      "RAC website",
+      "collections",
+      "web presence"
+    ],
+    "actions": [
+      "use",
+      "integrate"
+    ],
+    "benefit": "I can integrate our collections into our web presence"
+  },
+  "categories": {
+    "primary_entities": [
+      "archival content",
+      "RAC website",
+      "collections",
+      "web presence"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "use",
+      "integrate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "archival content",
+        "kind": "targets"
+      },
+      {
+        "from": "archivist",
+        "to": "integrate",
+        "kind": "triggers"
+      },
+      {
+        "from": "integrate",
+        "to": "RAC website",
+        "kind": "targets"
+      },
+      {
+        "from": "integrate",
+        "to": "collections",
+        "kind": "targets"
+      },
+      {
+        "from": "integrate",
+        "to": "web presence",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1354,
+    "output": 299,
+    "time (ns)": 10893879000
+  }
+}

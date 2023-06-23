@@ -1,0 +1,59 @@
+{
+  "story": "#G26# As an archivist, I want to restrict access to certain files by user, so that I can allow donor representatives to see certain files.\n",
+  "extraction": {
+    "personas": [
+      "archivist",
+      "donor representatives"
+    ],
+    "entities": [
+      "files",
+      "user"
+    ],
+    "actions": [
+      "restrict access",
+      "allow"
+    ],
+    "benefit": "I can allow donor representatives to see certain files"
+  },
+  "categories": {
+    "primary_entities": [
+      "files",
+      "user"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "restrict access",
+      "allow"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "restrict access",
+        "kind": "triggers"
+      },
+      {
+        "from": "restrict access",
+        "to": "files",
+        "kind": "targets"
+      },
+      {
+        "from": "allow",
+        "to": "donor representatives",
+        "kind": "triggers"
+      },
+      {
+        "from": "allow",
+        "to": "files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1328,
+    "output": 226,
+    "time (ns)": 7917849000
+  }
+}

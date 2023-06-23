@@ -1,0 +1,59 @@
+{
+  "story": "#G26# As an archivist, I want to mark individual files as restricted, so that they don't get shared by mistake.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "individual files"
+    ],
+    "actions": [
+      "mark",
+      "restricted",
+      "share"
+    ],
+    "benefit": "they don't get shared by mistake"
+  },
+  "categories": {
+    "primary_entities": [
+      "individual files"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "mark",
+      "restricted"
+    ],
+    "secondary_actions": [
+      "share"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "mark",
+        "kind": "triggers"
+      },
+      {
+        "from": "mark",
+        "to": "individual files",
+        "kind": "targets"
+      },
+      {
+        "from": "mark",
+        "to": "restricted",
+        "kind": "targets"
+      },
+      {
+        "from": "mark",
+        "to": "share",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1300,
+    "output": 214,
+    "time (ns)": 7254711000
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "story": "#G26# As an archivist, I want to automatically assign unique identifiers to material I scan, so that I avoid potential errors.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "material"
+    ],
+    "actions": [
+      "assign unique identifiers",
+      "scan"
+    ],
+    "benefit": "avoid potential errors"
+  },
+  "categories": {
+    "primary_entities": [
+      "material"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "assign unique identifiers",
+      "scan"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "assign unique identifiers",
+        "kind": "triggers"
+      },
+      {
+        "from": "assign unique identifiers",
+        "to": "material",
+        "kind": "targets"
+      },
+      {
+        "from": "archivist",
+        "to": "scan",
+        "kind": "triggers"
+      },
+      {
+        "from": "scan",
+        "to": "material",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1288,
+    "output": 212,
+    "time (ns)": 7483121000
+  }
+}

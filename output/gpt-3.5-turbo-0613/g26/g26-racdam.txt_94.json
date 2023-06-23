@@ -1,0 +1,60 @@
+{
+  "story": "#G26# As an administrator, I want to create user groups, so that I can control user permissions.\n",
+  "extraction": {
+    "personas": [
+      "administrator"
+    ],
+    "entities": [
+      "user groups",
+      "user permissions"
+    ],
+    "actions": [
+      "create",
+      "control"
+    ],
+    "benefit": "I can control user permissions"
+  },
+  "categories": {
+    "primary_entities": [
+      "user groups"
+    ],
+    "secondary_entities": [
+      "user permissions"
+    ],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": [
+      "control"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "administrator",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "user groups",
+        "kind": "targets"
+      },
+      {
+        "from": "administrator",
+        "to": "control",
+        "kind": "triggers"
+      },
+      {
+        "from": "control",
+        "to": "user permissions",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1281,
+    "output": 213,
+    "time (ns)": 9262950000
+  }
+}

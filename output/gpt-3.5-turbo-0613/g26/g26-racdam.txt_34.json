@@ -1,0 +1,70 @@
+{
+  "story": "#G26# As a researcher, I want to generate structured citation data, so that so I can cite a file in a publication.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "structured citation data",
+      "file",
+      "publication"
+    ],
+    "actions": [
+      "generate",
+      "cite"
+    ],
+    "benefit": "I can cite a file in a publication"
+  },
+  "categories": {
+    "primary_entities": [
+      "structured citation data",
+      "file",
+      "publication"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "generate",
+      "cite"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "generate",
+        "kind": "triggers"
+      },
+      {
+        "from": "generate",
+        "to": "structured citation data",
+        "kind": "targets"
+      },
+      {
+        "from": "generate",
+        "to": "file",
+        "kind": "targets"
+      },
+      {
+        "from": "generate",
+        "to": "publication",
+        "kind": "targets"
+      },
+      {
+        "from": "cite",
+        "to": "file",
+        "kind": "targets"
+      },
+      {
+        "from": "cite",
+        "to": "publication",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1316,
+    "output": 275,
+    "time (ns)": 10212689000
+  }
+}

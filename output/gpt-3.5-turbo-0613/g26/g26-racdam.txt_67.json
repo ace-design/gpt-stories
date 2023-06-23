@@ -1,0 +1,47 @@
+{
+  "story": "#G26# As a researcher, I want to be able to search across photo collection images, so that I can prepare presentations.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "photo collection images",
+      "presentations"
+    ],
+    "actions": [
+      "search"
+    ],
+    "benefit": "I can prepare presentations"
+  },
+  "categories": {
+    "primary_entities": [
+      "photo collection images"
+    ],
+    "secondary_entities": [
+      "presentations"
+    ],
+    "primary_actions": [
+      "search"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "photo collection images",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1289,
+    "output": 160,
+    "time (ns)": 5910067000
+  }
+}

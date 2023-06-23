@@ -1,0 +1,70 @@
+{
+  "story": "#G26# As an archivist, I want to see what a particular user has downloaded, so that I can track use of assets.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "user",
+      "assets"
+    ],
+    "actions": [
+      "see",
+      "downloaded",
+      "track"
+    ],
+    "benefit": "I can track use of assets"
+  },
+  "categories": {
+    "primary_entities": [
+      "user",
+      "assets"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see",
+      "downloaded",
+      "track"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "user",
+        "kind": "targets"
+      },
+      {
+        "from": "archivist",
+        "to": "downloaded",
+        "kind": "triggers"
+      },
+      {
+        "from": "downloaded",
+        "to": "assets",
+        "kind": "targets"
+      },
+      {
+        "from": "archivist",
+        "to": "track",
+        "kind": "triggers"
+      },
+      {
+        "from": "track",
+        "to": "assets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1312,
+    "output": 275,
+    "time (ns)": 9428804000
+  }
+}

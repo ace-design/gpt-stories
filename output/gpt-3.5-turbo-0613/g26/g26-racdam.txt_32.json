@@ -1,0 +1,74 @@
+{
+  "story": "#G26# As an archivist, I want to manage scans of archival material created for educational visits, so that find and refer to them for another visit.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "scans",
+      "archival material",
+      "educational visits"
+    ],
+    "actions": [
+      "manage",
+      "find",
+      "refer"
+    ],
+    "benefit": "find and refer to them for another visit"
+  },
+  "categories": {
+    "primary_entities": [
+      "scans",
+      "archival material"
+    ],
+    "secondary_entities": [
+      "educational visits"
+    ],
+    "primary_actions": [
+      "manage"
+    ],
+    "secondary_actions": [
+      "find",
+      "refer"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "manage",
+        "kind": "triggers"
+      },
+      {
+        "from": "manage",
+        "to": "scans",
+        "kind": "targets"
+      },
+      {
+        "from": "manage",
+        "to": "archival material",
+        "kind": "targets"
+      },
+      {
+        "from": "manage",
+        "to": "educational visits",
+        "kind": "targets"
+      },
+      {
+        "from": "find",
+        "to": "scans",
+        "kind": "targets"
+      },
+      {
+        "from": "refer",
+        "to": "scans",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1346,
+    "output": 290,
+    "time (ns)": 13462694000
+  }
+}

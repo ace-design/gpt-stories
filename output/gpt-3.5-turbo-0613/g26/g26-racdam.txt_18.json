@@ -1,0 +1,47 @@
+{
+  "story": "#G26# As an archivist, I want to automatically create access copies of files, so that I don't have to do this manually.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "access copies",
+      "files"
+    ],
+    "actions": [
+      "automatically create"
+    ],
+    "benefit": "I don't have to do this manually"
+  },
+  "categories": {
+    "primary_entities": [
+      "access copies"
+    ],
+    "secondary_entities": [
+      "files"
+    ],
+    "primary_actions": [
+      "automatically create"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "automatically create",
+        "kind": "triggers"
+      },
+      {
+        "from": "automatically create",
+        "to": "access copies",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1306,
+    "output": 167,
+    "time (ns)": 6148330000
+  }
+}

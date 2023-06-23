@@ -1,0 +1,56 @@
+{
+  "story": "#G26# As an archivist, I want to set a date on which restrictions will be removed from a file, so that that I don't have to update this by hand.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "file"
+    ],
+    "actions": [
+      "set",
+      "remove"
+    ],
+    "benefit": "I don't have to update this by hand"
+  },
+  "categories": {
+    "primary_entities": [
+      "file"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "set",
+      "remove"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "set",
+        "kind": "triggers"
+      },
+      {
+        "from": "set",
+        "to": "file",
+        "kind": "targets"
+      },
+      {
+        "from": "archivist",
+        "to": "remove",
+        "kind": "triggers"
+      },
+      {
+        "from": "remove",
+        "to": "file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1324,
+    "output": 210,
+    "time (ns)": 9597170000
+  }
+}

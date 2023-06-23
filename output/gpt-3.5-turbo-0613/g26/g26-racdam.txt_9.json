@@ -1,0 +1,65 @@
+{
+  "story": "#G26# As an archivist, I want to restrict access to some files by IP address, so that I can give reading room access only to certain digital files.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "files",
+      "IP address",
+      "reading room"
+    ],
+    "actions": [
+      "restrict access",
+      "give"
+    ],
+    "benefit": "I can give reading room access only to certain digital files"
+  },
+  "categories": {
+    "primary_entities": [
+      "files",
+      "IP address",
+      "reading room"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "restrict access",
+      "give"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "restrict access",
+        "kind": "triggers"
+      },
+      {
+        "from": "restrict access",
+        "to": "files",
+        "kind": "targets"
+      },
+      {
+        "from": "archivist",
+        "to": "give",
+        "kind": "triggers"
+      },
+      {
+        "from": "give",
+        "to": "IP address",
+        "kind": "targets"
+      },
+      {
+        "from": "give",
+        "to": "reading room",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1346,
+    "output": 259,
+    "time (ns)": 8621494000
+  }
+}

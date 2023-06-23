@@ -1,0 +1,56 @@
+{
+  "story": "#G26# As an archivist, I want to add restriction end date information to files, so that I can share files when they become open.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "files"
+    ],
+    "actions": [
+      "add restriction end date information",
+      "share"
+    ],
+    "benefit": "I can share files when they become open"
+  },
+  "categories": {
+    "primary_entities": [
+      "files"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "add restriction end date information",
+      "share"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "add restriction end date information",
+        "kind": "triggers"
+      },
+      {
+        "from": "add restriction end date information",
+        "to": "files",
+        "kind": "targets"
+      },
+      {
+        "from": "archivist",
+        "to": "share",
+        "kind": "triggers"
+      },
+      {
+        "from": "share",
+        "to": "files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1313,
+    "output": 225,
+    "time (ns)": 7564285000
+  }
+}

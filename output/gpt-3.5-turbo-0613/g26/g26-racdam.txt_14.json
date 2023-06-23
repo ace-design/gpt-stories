@@ -1,0 +1,60 @@
+{
+  "story": "#G26# As an archivist, I want to have an online form for licensing archival material, so that the process is more transparent and some of the back and forth can be eliminated.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "online form",
+      "licensing archival material"
+    ],
+    "actions": [
+      "have",
+      "eliminate"
+    ],
+    "benefit": "the process is more transparent and some of the back and forth can be eliminated"
+  },
+  "categories": {
+    "primary_entities": [
+      "online form"
+    ],
+    "secondary_entities": [
+      "licensing archival material"
+    ],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": [
+      "eliminate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "online form",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "licensing archival material",
+        "kind": "targets"
+      },
+      {
+        "from": "eliminate",
+        "to": "back and forth",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1360,
+    "output": 235,
+    "time (ns)": 8318259000
+  }
+}

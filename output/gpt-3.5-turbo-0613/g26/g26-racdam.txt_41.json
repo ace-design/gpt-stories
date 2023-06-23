@@ -1,0 +1,60 @@
+{
+  "story": "#G26# As a researcher, I want to locate photographs and documents that I can share on social media.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "photographs",
+      "documents"
+    ],
+    "actions": [
+      "locate",
+      "share"
+    ],
+    "benefit": "I can share on social media"
+  },
+  "categories": {
+    "primary_entities": [
+      "photographs"
+    ],
+    "secondary_entities": [
+      "documents"
+    ],
+    "primary_actions": [
+      "locate"
+    ],
+    "secondary_actions": [
+      "share"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "locate",
+        "kind": "triggers"
+      },
+      {
+        "from": "locate",
+        "to": "photographs",
+        "kind": "targets"
+      },
+      {
+        "from": "locate",
+        "to": "documents",
+        "kind": "targets"
+      },
+      {
+        "from": "locate",
+        "to": "share",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1282,
+    "output": 212,
+    "time (ns)": 7707238000
+  }
+}

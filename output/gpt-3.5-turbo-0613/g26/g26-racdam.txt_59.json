@@ -1,0 +1,47 @@
+{
+  "story": "#G26# As a researcher, I want to browse through files in a collection.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "files",
+      "collection"
+    ],
+    "actions": [
+      "browse"
+    ],
+    "benefit": "I can easily access and view files in a collection."
+  },
+  "categories": {
+    "primary_entities": [
+      "files"
+    ],
+    "secondary_entities": [
+      "collection"
+    ],
+    "primary_actions": [
+      "browse"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "browse",
+        "kind": "triggers"
+      },
+      {
+        "from": "browse",
+        "to": "files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1267,
+    "output": 158,
+    "time (ns)": 5906066000
+  }
+}

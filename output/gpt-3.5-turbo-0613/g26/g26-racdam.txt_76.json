@@ -1,0 +1,44 @@
+{
+  "story": "#G26# As a researcher, I want to know the date on which something was digitized, so that I know if it's been digitized since I last looked.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "something"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "I know if it's been digitized since I last looked"
+  },
+  "categories": {
+    "primary_entities": [
+      "something"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "something",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1315,
+    "output": 155,
+    "time (ns)": 5869823000
+  }
+}

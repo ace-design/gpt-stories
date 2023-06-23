@@ -1,0 +1,47 @@
+{
+  "story": "#G26# As a researcher, I want to search using structured data, so that I can find everything relevant to my inquiry across collections.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "structured data",
+      "collections"
+    ],
+    "actions": [
+      "search"
+    ],
+    "benefit": "find everything relevant to my inquiry across collections"
+  },
+  "categories": {
+    "primary_entities": [
+      "structured data"
+    ],
+    "secondary_entities": [
+      "collections"
+    ],
+    "primary_actions": [
+      "search"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "structured data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1297,
+    "output": 159,
+    "time (ns)": 5641752000
+  }
+}

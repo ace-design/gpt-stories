@@ -1,0 +1,60 @@
+{
+  "story": "#G26# As a researcher, I want to have accurate cross-collection citation information, so that I can find materials again.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "cross-collection citation information",
+      "materials"
+    ],
+    "actions": [
+      "have",
+      "find"
+    ],
+    "benefit": "I can find materials again"
+  },
+  "categories": {
+    "primary_entities": [
+      "cross-collection citation information"
+    ],
+    "secondary_entities": [
+      "materials"
+    ],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": [
+      "find"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "cross-collection citation information",
+        "kind": "targets"
+      },
+      {
+        "from": "researcher",
+        "to": "find",
+        "kind": "triggers"
+      },
+      {
+        "from": "find",
+        "to": "materials",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1295,
+    "output": 219,
+    "time (ns)": 8541377000
+  }
+}

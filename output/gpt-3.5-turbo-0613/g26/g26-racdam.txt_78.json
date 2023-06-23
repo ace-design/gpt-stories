@@ -1,0 +1,68 @@
+{
+  "story": "#G26# As an archivist, I want to access inventories for unprocessed collections, so that I can provide reference services to donors.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "inventories",
+      "unprocessed collections",
+      "reference services",
+      "donors"
+    ],
+    "actions": [
+      "access",
+      "provide"
+    ],
+    "benefit": "I can provide reference services to donors"
+  },
+  "categories": {
+    "primary_entities": [
+      "inventories",
+      "reference services"
+    ],
+    "secondary_entities": [
+      "unprocessed collections",
+      "donors"
+    ],
+    "primary_actions": [
+      "access",
+      "provide"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "inventories",
+        "kind": "targets"
+      },
+      {
+        "from": "archivist",
+        "to": "provide",
+        "kind": "triggers"
+      },
+      {
+        "from": "provide",
+        "to": "reference services",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "donors",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1340,
+    "output": 266,
+    "time (ns)": 9553282000
+  }
+}

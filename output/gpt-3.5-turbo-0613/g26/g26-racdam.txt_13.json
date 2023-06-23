@@ -1,0 +1,58 @@
+{
+  "story": "#G26# As an archivist, I want to redact information in digital files for a period of time, so that I can provide access to non-sensitive portions of a record.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "digital files",
+      "record"
+    ],
+    "actions": [
+      "redact",
+      "provide access"
+    ],
+    "benefit": "I can provide access to non-sensitive portions of a record"
+  },
+  "categories": {
+    "primary_entities": [
+      "digital files",
+      "record"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "redact",
+      "provide access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "redact",
+        "kind": "triggers"
+      },
+      {
+        "from": "redact",
+        "to": "digital files",
+        "kind": "targets"
+      },
+      {
+        "from": "archivist",
+        "to": "provide access",
+        "kind": "triggers"
+      },
+      {
+        "from": "provide access",
+        "to": "record",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1346,
+    "output": 229,
+    "time (ns)": 7905301000
+  }
+}

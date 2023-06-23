@@ -1,0 +1,49 @@
+{
+  "story": "#G26# As a researcher, I want to share a link to a file on social media, so that so I can show other people an interesting thing I found.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "link",
+      "file",
+      "social media"
+    ],
+    "actions": [
+      "share"
+    ],
+    "benefit": "show other people an interesting thing I found"
+  },
+  "categories": {
+    "primary_entities": [
+      "link"
+    ],
+    "secondary_entities": [
+      "file",
+      "social media"
+    ],
+    "primary_actions": [
+      "share"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "share",
+        "kind": "triggers"
+      },
+      {
+        "from": "share",
+        "to": "link",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1324,
+    "output": 164,
+    "time (ns)": 6418154000
+  }
+}

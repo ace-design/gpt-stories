@@ -1,0 +1,55 @@
+{
+  "story": "#G26# As a donor representative, I want to access the descriptive information about the images scanned for my institutions needs.\n",
+  "extraction": {
+    "personas": [
+      "donor representative"
+    ],
+    "entities": [
+      "descriptive information",
+      "images"
+    ],
+    "actions": [
+      "access",
+      "scanned"
+    ],
+    "benefit": "for my institution's needs"
+  },
+  "categories": {
+    "primary_entities": [
+      "descriptive information"
+    ],
+    "secondary_entities": [
+      "images"
+    ],
+    "primary_actions": [
+      "access"
+    ],
+    "secondary_actions": [
+      "scanned"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "donor representative",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "descriptive information",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "images",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1294,
+    "output": 193,
+    "time (ns)": 6668603000
+  }
+}

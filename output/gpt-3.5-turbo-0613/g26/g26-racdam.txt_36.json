@@ -1,0 +1,47 @@
+{
+  "story": "#G26# As a researcher, I want to understand the copyright status of the image, so that I know if I can use it.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "image"
+    ],
+    "actions": [
+      "understand",
+      "know"
+    ],
+    "benefit": "I know if I can use it"
+  },
+  "categories": {
+    "primary_entities": [
+      "image"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "understand"
+    ],
+    "secondary_actions": [
+      "know"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "understand",
+        "kind": "triggers"
+      },
+      {
+        "from": "understand",
+        "to": "image",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1294,
+    "output": 159,
+    "time (ns)": 5617039000
+  }
+}

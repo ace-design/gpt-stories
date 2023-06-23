@@ -1,0 +1,51 @@
+{
+  "story": "#G26# As an archivist, I want to automatically create access derivatives of digital objects, so that I don't have to do this manually.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "access derivatives",
+      "digital objects"
+    ],
+    "actions": [
+      "automatically create"
+    ],
+    "benefit": "don't have to do this manually"
+  },
+  "categories": {
+    "primary_entities": [
+      "access derivatives",
+      "digital objects"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "automatically create"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "automatically create",
+        "kind": "triggers"
+      },
+      {
+        "from": "automatically create",
+        "to": "access derivatives",
+        "kind": "targets"
+      },
+      {
+        "from": "automatically create",
+        "to": "digital objects",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1311,
+    "output": 197,
+    "time (ns)": 7603357000
+  }
+}

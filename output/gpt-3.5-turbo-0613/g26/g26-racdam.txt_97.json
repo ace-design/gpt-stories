@@ -1,0 +1,70 @@
+{
+  "story": "#G26# As an administrator, I want to assign rights to user groups or roles, so that I can control what users can and can't do.\n",
+  "extraction": {
+    "personas": [
+      "administrator"
+    ],
+    "entities": [
+      "user groups",
+      "roles"
+    ],
+    "actions": [
+      "assign rights",
+      "control"
+    ],
+    "benefit": "I can control what users can and can't do"
+  },
+  "categories": {
+    "primary_entities": [
+      "user groups"
+    ],
+    "secondary_entities": [
+      "roles"
+    ],
+    "primary_actions": [
+      "assign rights"
+    ],
+    "secondary_actions": [
+      "control"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "administrator",
+        "to": "assign rights",
+        "kind": "triggers"
+      },
+      {
+        "from": "assign rights",
+        "to": "user groups",
+        "kind": "targets"
+      },
+      {
+        "from": "assign rights",
+        "to": "roles",
+        "kind": "targets"
+      },
+      {
+        "from": "administrator",
+        "to": "control",
+        "kind": "triggers"
+      },
+      {
+        "from": "control",
+        "to": "user groups",
+        "kind": "targets"
+      },
+      {
+        "from": "control",
+        "to": "roles",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1318,
+    "output": 271,
+    "time (ns)": 9523669000
+  }
+}

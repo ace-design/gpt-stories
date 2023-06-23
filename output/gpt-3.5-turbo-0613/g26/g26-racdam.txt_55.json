@@ -1,0 +1,86 @@
+{
+  "story": "#G26# As a donor representative, I want to look at images that have been scanned from my collection, so that so that I can use them in my institutions exhibits, reports etc.\n",
+  "extraction": {
+    "personas": [
+      "donor representative"
+    ],
+    "entities": [
+      "images",
+      "collection",
+      "institutions exhibits",
+      "reports"
+    ],
+    "actions": [
+      "look at",
+      "scanned",
+      "use"
+    ],
+    "benefit": "I can use them in my institutions exhibits, reports etc."
+  },
+  "categories": {
+    "primary_entities": [
+      "images",
+      "collection"
+    ],
+    "secondary_entities": [
+      "institutions exhibits",
+      "reports"
+    ],
+    "primary_actions": [
+      "look at",
+      "scanned"
+    ],
+    "secondary_actions": [
+      "use"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "donor representative",
+        "to": "look at",
+        "kind": "triggers"
+      },
+      {
+        "from": "look at",
+        "to": "images",
+        "kind": "targets"
+      },
+      {
+        "from": "look at",
+        "to": "collection",
+        "kind": "targets"
+      },
+      {
+        "from": "look at",
+        "to": "institutions exhibits",
+        "kind": "targets"
+      },
+      {
+        "from": "look at",
+        "to": "reports",
+        "kind": "targets"
+      },
+      {
+        "from": "scanned",
+        "to": "images",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "institutions exhibits",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "reports",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1380,
+    "output": 352,
+    "time (ns)": 13558443000
+  }
+}

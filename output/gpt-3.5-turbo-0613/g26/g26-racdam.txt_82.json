@@ -1,0 +1,47 @@
+{
+  "story": "#G26# As an researcher, I want to view film clips, so that I can see excerpts of films.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "film clips",
+      "films"
+    ],
+    "actions": [
+      "view"
+    ],
+    "benefit": "I can see excerpts of films"
+  },
+  "categories": {
+    "primary_entities": [
+      "film clips"
+    ],
+    "secondary_entities": [
+      "films"
+    ],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "film clips",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1278,
+    "output": 157,
+    "time (ns)": 6473910000
+  }
+}

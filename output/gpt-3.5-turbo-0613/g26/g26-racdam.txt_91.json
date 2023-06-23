@@ -1,0 +1,116 @@
+{
+  "story": "#G26# As an archivist, I want to access metadata and visual representations of index cards, so that I can use that information to assist researchers.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "metadata",
+      "visual representations",
+      "index cards",
+      "researchers"
+    ],
+    "actions": [
+      "access",
+      "use",
+      "assist"
+    ],
+    "benefit": "I can use that information to assist researchers"
+  },
+  "categories": {
+    "primary_entities": [
+      "metadata",
+      "visual representations",
+      "index cards"
+    ],
+    "secondary_entities": [
+      "researchers"
+    ],
+    "primary_actions": [
+      "access"
+    ],
+    "secondary_actions": [
+      "use",
+      "assist"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "visual representations",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "index cards",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "researchers",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "visual representations",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "index cards",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "researchers",
+        "kind": "targets"
+      },
+      {
+        "from": "assist",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "assist",
+        "to": "visual representations",
+        "kind": "targets"
+      },
+      {
+        "from": "assist",
+        "to": "index cards",
+        "kind": "targets"
+      },
+      {
+        "from": "assist",
+        "to": "researchers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1346,
+    "output": 495,
+    "time (ns)": 18106467000
+  }
+}

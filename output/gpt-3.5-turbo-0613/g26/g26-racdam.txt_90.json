@@ -1,0 +1,44 @@
+{
+  "story": "#G26# As an archivist, I want to find files that cannot be made publicly available, so that I can easily access everything that's been digitized.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "files"
+    ],
+    "actions": [
+      "find"
+    ],
+    "benefit": "I can easily access everything that's been digitized"
+  },
+  "categories": {
+    "primary_entities": [
+      "files"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "find"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "find",
+        "kind": "triggers"
+      },
+      {
+        "from": "find",
+        "to": "files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1305,
+    "output": 153,
+    "time (ns)": 6181481000
+  }
+}

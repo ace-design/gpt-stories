@@ -1,0 +1,49 @@
+{
+  "story": "#G26# As an archivist, I want to distinguish between images scanned in color or black and white, so that I know whether or not these images meet publication requirements.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "images"
+    ],
+    "actions": [
+      "distinguish",
+      "scanned",
+      "meet"
+    ],
+    "benefit": "know whether or not these images meet publication requirements"
+  },
+  "categories": {
+    "primary_entities": [
+      "images"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "distinguish"
+    ],
+    "secondary_actions": [
+      "scanned",
+      "meet"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "distinguish",
+        "kind": "triggers"
+      },
+      {
+        "from": "distinguish",
+        "to": "images",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1331,
+    "output": 169,
+    "time (ns)": 6171347000
+  }
+}

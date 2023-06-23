@@ -1,0 +1,60 @@
+{
+  "story": "#G26# As a researcher, I want to keyword search across all of an RF program officer's scanned diaries, rather than having to search each scanned diary segment separately, so that I can more efficiently locate diary entries relevant to my research.\n",
+  "extraction": {
+    "personas": [
+      "researcher",
+      "RF program officer"
+    ],
+    "entities": [
+      "scanned diaries",
+      "RF program officer's scanned diaries",
+      "diary entries"
+    ],
+    "actions": [
+      "keyword search",
+      "search",
+      "locate"
+    ],
+    "benefit": "more efficiently locate diary entries relevant to my research"
+  },
+  "categories": {
+    "primary_entities": [
+      "scanned diaries",
+      "diary entries"
+    ],
+    "secondary_entities": [
+      "RF program officer's scanned diaries"
+    ],
+    "primary_actions": [
+      "keyword search",
+      "locate"
+    ],
+    "secondary_actions": [
+      "search"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "keyword search",
+        "kind": "triggers"
+      },
+      {
+        "from": "keyword search",
+        "to": "scanned diaries",
+        "kind": "targets"
+      },
+      {
+        "from": "keyword search",
+        "to": "diary entries",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1430,
+    "output": 236,
+    "time (ns)": 7913458000
+  }
+}

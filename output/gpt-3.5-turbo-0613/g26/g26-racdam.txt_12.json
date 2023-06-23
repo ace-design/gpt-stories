@@ -1,0 +1,70 @@
+{
+  "story": "#G26# As an archivist, I want to select existing rights statuses and statements, so that I can easily create uniform rights statements.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "existing rights statuses",
+      "statements",
+      "uniform rights statements"
+    ],
+    "actions": [
+      "select",
+      "create"
+    ],
+    "benefit": "I can easily create uniform rights statements"
+  },
+  "categories": {
+    "primary_entities": [
+      "existing rights statuses",
+      "statements",
+      "uniform rights statements"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "select",
+      "create"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "select",
+        "kind": "triggers"
+      },
+      {
+        "from": "select",
+        "to": "existing rights statuses",
+        "kind": "targets"
+      },
+      {
+        "from": "select",
+        "to": "statements",
+        "kind": "targets"
+      },
+      {
+        "from": "select",
+        "to": "uniform rights statements",
+        "kind": "targets"
+      },
+      {
+        "from": "archivist",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "uniform rights statements",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1323,
+    "output": 284,
+    "time (ns)": 10547262000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G26# As a researcher, I want to know when only part of a folder has been digitized, so that I know if I am seeing everything or only a portion.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "folder"
+    ],
+    "actions": [
+      "digitized"
+    ],
+    "benefit": "I know if I am seeing everything or only a portion"
+  },
+  "categories": {
+    "primary_entities": [
+      "folder"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "digitized"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "digitized",
+        "kind": "triggers"
+      },
+      {
+        "from": "digitized",
+        "to": "folder",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1319,
+    "output": 158,
+    "time (ns)": 6142400000
+  }
+}

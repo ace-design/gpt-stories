@@ -1,0 +1,60 @@
+{
+  "story": "#G26# As an administrator, I want to create user roles, so that I can group users by role.\n",
+  "extraction": {
+    "personas": [
+      "administrator"
+    ],
+    "entities": [
+      "user roles",
+      "users"
+    ],
+    "actions": [
+      "create",
+      "group"
+    ],
+    "benefit": "I can group users by role"
+  },
+  "categories": {
+    "primary_entities": [
+      "user roles"
+    ],
+    "secondary_entities": [
+      "users"
+    ],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": [
+      "group"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "administrator",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "user roles",
+        "kind": "targets"
+      },
+      {
+        "from": "administrator",
+        "to": "group",
+        "kind": "triggers"
+      },
+      {
+        "from": "group",
+        "to": "users",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1283,
+    "output": 211,
+    "time (ns)": 9753785000
+  }
+}

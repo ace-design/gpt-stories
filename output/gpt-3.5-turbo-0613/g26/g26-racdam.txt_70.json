@@ -1,0 +1,60 @@
+{
+  "story": "#G26# As a researcher, I want to access educational outreach materials, so that I can make connections with institutions.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "educational outreach materials",
+      "institutions"
+    ],
+    "actions": [
+      "access",
+      "make connections"
+    ],
+    "benefit": "I can make connections with institutions"
+  },
+  "categories": {
+    "primary_entities": [
+      "educational outreach materials"
+    ],
+    "secondary_entities": [
+      "institutions"
+    ],
+    "primary_actions": [
+      "access"
+    ],
+    "secondary_actions": [
+      "make connections"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "educational outreach materials",
+        "kind": "targets"
+      },
+      {
+        "from": "researcher",
+        "to": "make connections",
+        "kind": "triggers"
+      },
+      {
+        "from": "make connections",
+        "to": "institutions",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1300,
+    "output": 227,
+    "time (ns)": 8788822000
+  }
+}

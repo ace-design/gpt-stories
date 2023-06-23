@@ -1,0 +1,61 @@
+{
+  "story": "#G26# As an archivist, I want to upload inventories, so that our donor representatives have an easier time requesting their material.\n",
+  "extraction": {
+    "personas": [
+      "archivist",
+      "donor representatives"
+    ],
+    "entities": [
+      "inventories",
+      "material"
+    ],
+    "actions": [
+      "upload",
+      "requesting"
+    ],
+    "benefit": "our donor representatives have an easier time requesting their material"
+  },
+  "categories": {
+    "primary_entities": [
+      "inventories"
+    ],
+    "secondary_entities": [
+      "material"
+    ],
+    "primary_actions": [
+      "upload"
+    ],
+    "secondary_actions": [
+      "requesting"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "inventories",
+        "kind": "targets"
+      },
+      {
+        "from": "donor representatives",
+        "to": "requesting",
+        "kind": "triggers"
+      },
+      {
+        "from": "requesting",
+        "to": "material",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1324,
+    "output": 231,
+    "time (ns)": 8578761000
+  }
+}

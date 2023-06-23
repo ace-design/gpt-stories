@@ -1,0 +1,44 @@
+{
+  "story": "#G26# As an archivist, I want to rotate images, so that I can orient them correctly.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "images"
+    ],
+    "actions": [
+      "rotate"
+    ],
+    "benefit": "I can orient them correctly"
+  },
+  "categories": {
+    "primary_entities": [
+      "images"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "rotate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "rotate",
+        "kind": "triggers"
+      },
+      {
+        "from": "rotate",
+        "to": "images",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1262,
+    "output": 148,
+    "time (ns)": 5367145000
+  }
+}

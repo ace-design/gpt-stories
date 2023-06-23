@@ -1,0 +1,44 @@
+{
+  "story": "#G26# As an archivist, I want to restrict a group of files from view.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "group of files"
+    ],
+    "actions": [
+      "restrict"
+    ],
+    "benefit": "restrict a group of files from view"
+  },
+  "categories": {
+    "primary_entities": [
+      "group of files"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "restrict"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "restrict",
+        "kind": "triggers"
+      },
+      {
+        "from": "restrict",
+        "to": "group of files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1263,
+    "output": 156,
+    "time (ns)": 5552746000
+  }
+}

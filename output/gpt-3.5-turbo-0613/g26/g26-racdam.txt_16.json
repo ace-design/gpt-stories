@@ -1,0 +1,44 @@
+{
+  "story": "#G26# As an archivist, I want to upload a single file.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "single file"
+    ],
+    "actions": [
+      "upload"
+    ],
+    "benefit": "I can upload a single file"
+  },
+  "categories": {
+    "primary_entities": [
+      "single file"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "upload"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "single file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1249,
+    "output": 152,
+    "time (ns)": 5536787000
+  }
+}

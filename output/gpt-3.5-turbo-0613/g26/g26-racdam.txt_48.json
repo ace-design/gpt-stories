@@ -1,0 +1,67 @@
+{
+  "story": "#G26# As a researcher, I want to export descriptive data in a common format, so that I can use text mining tools on it.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "descriptive data",
+      "common format",
+      "text mining tools"
+    ],
+    "actions": [
+      "export",
+      "use"
+    ],
+    "benefit": "I can use text mining tools on it"
+  },
+  "categories": {
+    "primary_entities": [
+      "descriptive data"
+    ],
+    "secondary_entities": [
+      "common format",
+      "text mining tools"
+    ],
+    "primary_actions": [
+      "export"
+    ],
+    "secondary_actions": [
+      "use"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "export",
+        "kind": "triggers"
+      },
+      {
+        "from": "export",
+        "to": "descriptive data",
+        "kind": "targets"
+      },
+      {
+        "from": "researcher",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "common format",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "text mining tools",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1328,
+    "output": 259,
+    "time (ns)": 12820022000
+  }
+}

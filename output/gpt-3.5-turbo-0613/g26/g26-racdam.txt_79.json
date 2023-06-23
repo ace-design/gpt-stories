@@ -1,0 +1,60 @@
+{
+  "story": "#G26# As a researcher, I want to view thumbnails of photos, so that I can make a selection of which one I want to license.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "thumbnails",
+      "photos"
+    ],
+    "actions": [
+      "view",
+      "make a selection",
+      "license"
+    ],
+    "benefit": "I can make a selection of which photo I want to license"
+  },
+  "categories": {
+    "primary_entities": [
+      "thumbnails",
+      "photos"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view",
+      "make a selection",
+      "license"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "thumbnails",
+        "kind": "targets"
+      },
+      {
+        "from": "make a selection",
+        "to": "photos",
+        "kind": "targets"
+      },
+      {
+        "from": "license",
+        "to": "photos",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1333,
+    "output": 229,
+    "time (ns)": 8270766000
+  }
+}

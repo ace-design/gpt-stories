@@ -1,0 +1,75 @@
+{
+  "story": "#G26# As an archivist, I want to ensure that emails sent about specific objects contain accurate citation information, so that I can confirm which object is being referred to.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "emails",
+      "specific objects"
+    ],
+    "actions": [
+      "ensure",
+      "contain",
+      "confirm"
+    ],
+    "benefit": "I can confirm which object is being referred to"
+  },
+  "categories": {
+    "primary_entities": [
+      "emails",
+      "specific objects"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "ensure",
+      "contain",
+      "confirm"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "ensure",
+        "kind": "triggers"
+      },
+      {
+        "from": "ensure",
+        "to": "emails",
+        "kind": "targets"
+      },
+      {
+        "from": "ensure",
+        "to": "specific objects",
+        "kind": "targets"
+      },
+      {
+        "from": "contain",
+        "to": "emails",
+        "kind": "targets"
+      },
+      {
+        "from": "contain",
+        "to": "specific objects",
+        "kind": "targets"
+      },
+      {
+        "from": "confirm",
+        "to": "emails",
+        "kind": "targets"
+      },
+      {
+        "from": "confirm",
+        "to": "specific objects",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1339,
+    "output": 300,
+    "time (ns)": 10370781000
+  }
+}

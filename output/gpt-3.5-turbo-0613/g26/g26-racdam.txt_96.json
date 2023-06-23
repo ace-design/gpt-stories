@@ -1,0 +1,52 @@
+{
+  "story": "#G26# As an administrator, I want to assign RAC staff to different user groups, so that I can control read/write access.\n",
+  "extraction": {
+    "personas": [
+      "administrator"
+    ],
+    "entities": [
+      "RAC staff",
+      "user groups"
+    ],
+    "actions": [
+      "assign"
+    ],
+    "benefit": "I can control read/write access"
+  },
+  "categories": {
+    "primary_entities": [
+      "RAC staff"
+    ],
+    "secondary_entities": [
+      "user groups"
+    ],
+    "primary_actions": [
+      "assign"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "administrator",
+        "to": "assign",
+        "kind": "triggers"
+      },
+      {
+        "from": "assign",
+        "to": "RAC staff",
+        "kind": "targets"
+      },
+      {
+        "from": "assign",
+        "to": "user groups",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1297,
+    "output": 186,
+    "time (ns)": 7201365000
+  }
+}

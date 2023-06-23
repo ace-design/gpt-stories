@@ -1,0 +1,44 @@
+{
+  "story": "#G26# As an archivist, I want to upload groups of files, so that I can save time.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "groups of files"
+    ],
+    "actions": [
+      "upload"
+    ],
+    "benefit": "save time"
+  },
+  "categories": {
+    "primary_entities": [
+      "groups of files"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "upload"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "groups of files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1265,
+    "output": 151,
+    "time (ns)": 5400709000
+  }
+}

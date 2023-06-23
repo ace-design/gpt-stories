@@ -1,0 +1,51 @@
+{
+  "story": "#G26# As an archivist, I want to create quality scans of images and documents, so that they can be reused.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "images",
+      "documents"
+    ],
+    "actions": [
+      "create quality scans"
+    ],
+    "benefit": "they can be reused"
+  },
+  "categories": {
+    "primary_entities": [
+      "images",
+      "documents"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create quality scans"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "create quality scans",
+        "kind": "triggers"
+      },
+      {
+        "from": "create quality scans",
+        "to": "images",
+        "kind": "targets"
+      },
+      {
+        "from": "create quality scans",
+        "to": "documents",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1287,
+    "output": 188,
+    "time (ns)": 6987861000
+  }
+}

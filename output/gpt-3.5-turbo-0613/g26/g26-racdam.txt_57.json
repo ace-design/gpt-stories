@@ -1,0 +1,72 @@
+{
+  "story": "#G26# As a researcher, I want to search by keyword, so that I can learn what already exists digitally and avoid placing additional duplication requests.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "keyword",
+      "digitally",
+      "duplication requests"
+    ],
+    "actions": [
+      "search",
+      "learn",
+      "avoid placing"
+    ],
+    "benefit": "I can learn what already exists digitally and avoid placing additional duplication requests"
+  },
+  "categories": {
+    "primary_entities": [
+      "keyword",
+      "digitally",
+      "duplication requests"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "search",
+      "learn",
+      "avoid placing"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "keyword",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "digitally",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "duplication requests",
+        "kind": "targets"
+      },
+      {
+        "from": "learn",
+        "to": "digitally",
+        "kind": "targets"
+      },
+      {
+        "from": "avoid placing",
+        "to": "duplication requests",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1350,
+    "output": 295,
+    "time (ns)": 15418771000
+  }
+}

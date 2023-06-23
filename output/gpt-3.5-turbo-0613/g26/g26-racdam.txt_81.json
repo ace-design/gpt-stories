@@ -1,0 +1,60 @@
+{
+  "story": "#G26# As a donor representative, I want to see thumbnails of images, so that I can select which one I want.\n",
+  "extraction": {
+    "personas": [
+      "donor representative"
+    ],
+    "entities": [
+      "thumbnails",
+      "images"
+    ],
+    "actions": [
+      "see",
+      "select"
+    ],
+    "benefit": "I can select which image I want"
+  },
+  "categories": {
+    "primary_entities": [
+      "thumbnails"
+    ],
+    "secondary_entities": [
+      "images"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": [
+      "select"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "donor representative",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "thumbnails",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "images",
+        "kind": "targets"
+      },
+      {
+        "from": "select",
+        "to": "thumbnails",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1295,
+    "output": 212,
+    "time (ns)": 8007860000
+  }
+}

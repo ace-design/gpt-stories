@@ -1,0 +1,60 @@
+{
+  "story": "#G26# As an archivist, I want to make as much archival material as possible available for use, so that I can fulfill the RAC's mission.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "archival material",
+      "RAC's mission"
+    ],
+    "actions": [
+      "make available",
+      "fulfill"
+    ],
+    "benefit": "I can fulfill the RAC's mission"
+  },
+  "categories": {
+    "primary_entities": [
+      "archival material"
+    ],
+    "secondary_entities": [
+      "RAC's mission"
+    ],
+    "primary_actions": [
+      "make available"
+    ],
+    "secondary_actions": [
+      "fulfill"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "make available",
+        "kind": "triggers"
+      },
+      {
+        "from": "make available",
+        "to": "archival material",
+        "kind": "targets"
+      },
+      {
+        "from": "archivist",
+        "to": "fulfill",
+        "kind": "triggers"
+      },
+      {
+        "from": "fulfill",
+        "to": "RAC's mission",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1337,
+    "output": 236,
+    "time (ns)": 14972123000
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "story": "#G26# As an archivist, I want to access the digital files on the X-drive, so that I can use them.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "digital files",
+      "X-drive"
+    ],
+    "actions": [
+      "access",
+      "use"
+    ],
+    "benefit": "I can use the digital files on the X-drive"
+  },
+  "categories": {
+    "primary_entities": [
+      "digital files"
+    ],
+    "secondary_entities": [
+      "X-drive"
+    ],
+    "primary_actions": [
+      "access"
+    ],
+    "secondary_actions": [
+      "use"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "digital files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1308,
+    "output": 168,
+    "time (ns)": 6222898000
+  }
+}

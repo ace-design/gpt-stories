@@ -1,0 +1,62 @@
+{
+  "story": "#G26# As an archivist, I want to view collection files, so that I can gain background information for processing a collection.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "collection files",
+      "collection"
+    ],
+    "actions": [
+      "view",
+      "gain background information",
+      "processing"
+    ],
+    "benefit": "I can gain background information for processing a collection"
+  },
+  "categories": {
+    "primary_entities": [
+      "collection"
+    ],
+    "secondary_entities": [
+      "collection files"
+    ],
+    "primary_actions": [
+      "processing"
+    ],
+    "secondary_actions": [
+      "view",
+      "gain background information"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "collection files",
+        "kind": "targets"
+      },
+      {
+        "from": "archivist",
+        "to": "gain background information",
+        "kind": "triggers"
+      },
+      {
+        "from": "gain background information",
+        "to": "processing",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1318,
+    "output": 231,
+    "time (ns)": 8164865000
+  }
+}

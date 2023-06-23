@@ -1,0 +1,60 @@
+{
+  "story": "#G26# As an archivist, I want to track use of a photo, so that I know if I've sent it to a researcher before.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "photo",
+      "researcher"
+    ],
+    "actions": [
+      "track",
+      "sent"
+    ],
+    "benefit": "know if I've sent it to a researcher before"
+  },
+  "categories": {
+    "primary_entities": [
+      "photo"
+    ],
+    "secondary_entities": [
+      "researcher"
+    ],
+    "primary_actions": [
+      "track"
+    ],
+    "secondary_actions": [
+      "sent"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "track",
+        "kind": "triggers"
+      },
+      {
+        "from": "track",
+        "to": "photo",
+        "kind": "targets"
+      },
+      {
+        "from": "track",
+        "to": "sent",
+        "kind": "targets"
+      },
+      {
+        "from": "sent",
+        "to": "researcher",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1317,
+    "output": 216,
+    "time (ns)": 7625393000
+  }
+}

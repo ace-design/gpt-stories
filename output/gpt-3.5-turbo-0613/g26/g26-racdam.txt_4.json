@@ -1,0 +1,44 @@
+{
+  "story": "#G26# As an archivist, I want to restrict a file from view.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "file"
+    ],
+    "actions": [
+      "restrict"
+    ],
+    "benefit": "restrict a file from view"
+  },
+  "categories": {
+    "primary_entities": [
+      "file"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "restrict"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "restrict",
+        "kind": "triggers"
+      },
+      {
+        "from": "restrict",
+        "to": "file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1247,
+    "output": 148,
+    "time (ns)": 5910917000
+  }
+}

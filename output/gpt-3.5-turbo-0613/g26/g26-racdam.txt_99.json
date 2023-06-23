@@ -1,0 +1,50 @@
+{
+  "story": "#G26# As an administrator, I want to have researchers reset their own passwords, so that I don't have to send passwords in cleartext.\n",
+  "extraction": {
+    "personas": [
+      "administrator",
+      "researchers"
+    ],
+    "entities": [
+      "passwords"
+    ],
+    "actions": [
+      "reset"
+    ],
+    "benefit": "I don't have to send passwords in cleartext"
+  },
+  "categories": {
+    "primary_entities": [
+      "passwords"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "reset"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "administrator",
+        "to": "reset",
+        "kind": "triggers"
+      },
+      {
+        "from": "reset",
+        "to": "passwords",
+        "kind": "targets"
+      },
+      {
+        "from": "researchers",
+        "to": "reset",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1310,
+    "output": 186,
+    "time (ns)": 7319681000
+  }
+}

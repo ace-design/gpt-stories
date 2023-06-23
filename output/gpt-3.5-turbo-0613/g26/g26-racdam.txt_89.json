@@ -1,0 +1,60 @@
+{
+  "story": "#G26# As an archivist, I want to view physical locations for non-archival material, so that I can provide research services to donors.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "physical locations",
+      "non-archival material"
+    ],
+    "actions": [
+      "view",
+      "provide"
+    ],
+    "benefit": "I can provide research services to donors"
+  },
+  "categories": {
+    "primary_entities": [
+      "physical locations"
+    ],
+    "secondary_entities": [
+      "non-archival material"
+    ],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": [
+      "provide"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "physical locations",
+        "kind": "targets"
+      },
+      {
+        "from": "archivist",
+        "to": "provide",
+        "kind": "triggers"
+      },
+      {
+        "from": "provide",
+        "to": "non-archival material",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1323,
+    "output": 227,
+    "time (ns)": 9537616000
+  }
+}

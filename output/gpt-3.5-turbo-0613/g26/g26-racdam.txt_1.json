@@ -1,0 +1,58 @@
+{
+  "story": "#G26# As an archivist, I want to apply a license or rights statement, so that I know what I can do with a file.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "license",
+      "rights statement",
+      "file"
+    ],
+    "actions": [
+      "apply"
+    ],
+    "benefit": "know what I can do with a file"
+  },
+  "categories": {
+    "primary_entities": [
+      "license",
+      "rights statement",
+      "file"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "apply"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "apply",
+        "kind": "triggers"
+      },
+      {
+        "from": "apply",
+        "to": "license",
+        "kind": "targets"
+      },
+      {
+        "from": "apply",
+        "to": "rights statement",
+        "kind": "targets"
+      },
+      {
+        "from": "apply",
+        "to": "file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1313,
+    "output": 216,
+    "time (ns)": 8671102000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G26# As a researcher, I want to order copies of photos, so that I can use them in a publication.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "copies of photos"
+    ],
+    "actions": [
+      "order"
+    ],
+    "benefit": "use them in a publication"
+  },
+  "categories": {
+    "primary_entities": [
+      "copies of photos"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "order"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "order",
+        "kind": "triggers"
+      },
+      {
+        "from": "order",
+        "to": "copies of photos",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1277,
+    "output": 154,
+    "time (ns)": 6485618000
+  }
+}

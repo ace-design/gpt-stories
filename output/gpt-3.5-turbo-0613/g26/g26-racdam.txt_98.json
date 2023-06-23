@@ -1,0 +1,84 @@
+{
+  "story": "#G26# As an administrator, I want to allow users to log in using Active Directory credentials, so that I don't have to manage another set of usernames and passwords.\n",
+  "extraction": {
+    "personas": [
+      "administrator"
+    ],
+    "entities": [
+      "users",
+      "Active Directory credentials",
+      "set of usernames and passwords"
+    ],
+    "actions": [
+      "allow",
+      "log in",
+      "manage"
+    ],
+    "benefit": "I don't have to manage another set of usernames and passwords"
+  },
+  "categories": {
+    "primary_entities": [
+      "users",
+      "Active Directory credentials"
+    ],
+    "secondary_entities": [
+      "set of usernames and passwords"
+    ],
+    "primary_actions": [
+      "allow",
+      "log in"
+    ],
+    "secondary_actions": [
+      "manage"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "administrator",
+        "to": "allow",
+        "kind": "triggers"
+      },
+      {
+        "from": "allow",
+        "to": "users",
+        "kind": "targets"
+      },
+      {
+        "from": "allow",
+        "to": "Active Directory credentials",
+        "kind": "targets"
+      },
+      {
+        "from": "allow",
+        "to": "set of usernames and passwords",
+        "kind": "targets"
+      },
+      {
+        "from": "log in",
+        "to": "users",
+        "kind": "targets"
+      },
+      {
+        "from": "log in",
+        "to": "Active Directory credentials",
+        "kind": "targets"
+      },
+      {
+        "from": "log in",
+        "to": "set of usernames and passwords",
+        "kind": "targets"
+      },
+      {
+        "from": "manage",
+        "to": "set of usernames and passwords",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1367,
+    "output": 358,
+    "time (ns)": 11553522000
+  }
+}

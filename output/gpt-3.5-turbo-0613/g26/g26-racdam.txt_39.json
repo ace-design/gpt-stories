@@ -1,0 +1,50 @@
+{
+  "story": "#G26# As a researcher, I want to download a file, so that I can use it for research without having to come to the reading room.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "file",
+      "reading room"
+    ],
+    "actions": [
+      "download",
+      "use"
+    ],
+    "benefit": "I can use it for research without having to come to the reading room"
+  },
+  "categories": {
+    "primary_entities": [
+      "file"
+    ],
+    "secondary_entities": [
+      "reading room"
+    ],
+    "primary_actions": [
+      "download"
+    ],
+    "secondary_actions": [
+      "use"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "download",
+        "kind": "triggers"
+      },
+      {
+        "from": "download",
+        "to": "file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1325,
+    "output": 169,
+    "time (ns)": 6477797000
+  }
+}

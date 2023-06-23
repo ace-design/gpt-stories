@@ -1,0 +1,47 @@
+{
+  "story": "#G26# As an archivist, I want to browse through files in a collection.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "files",
+      "collection"
+    ],
+    "actions": [
+      "browse"
+    ],
+    "benefit": "I can easily navigate and access files in a collection."
+  },
+  "categories": {
+    "primary_entities": [
+      "files"
+    ],
+    "secondary_entities": [
+      "collection"
+    ],
+    "primary_actions": [
+      "browse"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "browse",
+        "kind": "triggers"
+      },
+      {
+        "from": "browse",
+        "to": "files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1270,
+    "output": 158,
+    "time (ns)": 7357536000
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "story": "#G26# As an archivist, I want to automatically generate technical metadata, so that I know the file size.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "technical metadata",
+      "file size"
+    ],
+    "actions": [
+      "automatically generate"
+    ],
+    "benefit": "I know the file size"
+  },
+  "categories": {
+    "primary_entities": [
+      "technical metadata"
+    ],
+    "secondary_entities": [
+      "file size"
+    ],
+    "primary_actions": [
+      "automatically generate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "automatically generate",
+        "kind": "triggers"
+      },
+      {
+        "from": "automatically generate",
+        "to": "technical metadata",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1288,
+    "output": 166,
+    "time (ns)": 6163579000
+  }
+}

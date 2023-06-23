@@ -1,0 +1,82 @@
+{
+  "story": "#G26# As an assistant archivist, I want to upload and tag staff generated working papers, so that staff and researchers are able to easily access them.\n",
+  "extraction": {
+    "personas": [
+      "assistant archivist"
+    ],
+    "entities": [
+      "working papers",
+      "staff",
+      "researchers"
+    ],
+    "actions": [
+      "upload",
+      "tag",
+      "access"
+    ],
+    "benefit": "staff and researchers are able to easily access them"
+  },
+  "categories": {
+    "primary_entities": [
+      "working papers",
+      "staff",
+      "researchers"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "upload",
+      "tag",
+      "access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "assistant archivist",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "assistant archivist",
+        "to": "tag",
+        "kind": "triggers"
+      },
+      {
+        "from": "assistant archivist",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "working papers",
+        "kind": "targets"
+      },
+      {
+        "from": "tag",
+        "to": "working papers",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "working papers",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "staff",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "researchers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1344,
+    "output": 342,
+    "time (ns)": 11501066000
+  }
+}

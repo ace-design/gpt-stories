@@ -1,0 +1,69 @@
+{
+  "story": "#G26# As an archivist, I want to know if a photo has already been scanned, so that I can license it to a researcher.\n",
+  "extraction": {
+    "personas": [
+      "archivist",
+      "researcher"
+    ],
+    "entities": [
+      "photo"
+    ],
+    "actions": [
+      "know",
+      "scan",
+      "license"
+    ],
+    "benefit": "I can license it to a researcher"
+  },
+  "categories": {
+    "primary_entities": [
+      "photo"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "scan",
+      "license"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "photo",
+        "kind": "targets"
+      },
+      {
+        "from": "archivist",
+        "to": "scan",
+        "kind": "triggers"
+      },
+      {
+        "from": "scan",
+        "to": "photo",
+        "kind": "targets"
+      },
+      {
+        "from": "archivist",
+        "to": "license",
+        "kind": "triggers"
+      },
+      {
+        "from": "license",
+        "to": "photo",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1316,
+    "output": 270,
+    "time (ns)": 9993459000
+  }
+}

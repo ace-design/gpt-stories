@@ -1,0 +1,57 @@
+{
+  "story": "#G26# As a researcher, I want to receive a notification if something I request in the reading room or for duplication is already digitized, so that I don't have to put in that request.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "reading room",
+      "duplication"
+    ],
+    "actions": [
+      "receive",
+      "request",
+      "digitized"
+    ],
+    "benefit": "I don't have to put in that request"
+  },
+  "categories": {
+    "primary_entities": [
+      "reading room"
+    ],
+    "secondary_entities": [
+      "duplication"
+    ],
+    "primary_actions": [
+      "receive"
+    ],
+    "secondary_actions": [
+      "request",
+      "digitized"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "receive",
+        "kind": "triggers"
+      },
+      {
+        "from": "receive",
+        "to": "reading room",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "duplication",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1360,
+    "output": 201,
+    "time (ns)": 9148025000
+  }
+}

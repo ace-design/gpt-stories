@@ -1,0 +1,52 @@
+{
+  "story": "#G26# As an archivist, I want to search images by uploading an image, so that so I can find images when i don't have any metadata.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "images"
+    ],
+    "actions": [
+      "search",
+      "uploading"
+    ],
+    "benefit": "find images when I don't have any metadata"
+  },
+  "categories": {
+    "primary_entities": [
+      "images"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "search"
+    ],
+    "secondary_actions": [
+      "uploading"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "images",
+        "kind": "targets"
+      },
+      {
+        "from": "archivist",
+        "to": "uploading",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1313,
+    "output": 187,
+    "time (ns)": 8245626000
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "story": "#G26# As an archivist, I want to link electronic versions of researchers' publications to citations, so that I can share them with other researchers.\n",
+  "extraction": {
+    "personas": [
+      "archivist",
+      "researchers"
+    ],
+    "entities": [
+      "electronic versions",
+      "citations",
+      "other researchers"
+    ],
+    "actions": [
+      "link",
+      "share"
+    ],
+    "benefit": "I can share electronic versions of researchers' publications with other researchers"
+  },
+  "categories": {
+    "primary_entities": [
+      "electronic versions",
+      "citations"
+    ],
+    "secondary_entities": [
+      "other researchers"
+    ],
+    "primary_actions": [
+      "link"
+    ],
+    "secondary_actions": [
+      "share"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "link",
+        "kind": "triggers"
+      },
+      {
+        "from": "link",
+        "to": "electronic versions",
+        "kind": "targets"
+      },
+      {
+        "from": "link",
+        "to": "citations",
+        "kind": "targets"
+      },
+      {
+        "from": "link",
+        "to": "other researchers",
+        "kind": "targets"
+      },
+      {
+        "from": "archivist",
+        "to": "share",
+        "kind": "triggers"
+      },
+      {
+        "from": "share",
+        "to": "electronic versions",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "citations",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "other researchers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1347,
+    "output": 343,
+    "time (ns)": 11089699000
+  }
+}

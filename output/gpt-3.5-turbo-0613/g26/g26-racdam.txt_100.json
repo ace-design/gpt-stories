@@ -1,0 +1,67 @@
+{
+  "story": "#G26# As an administrator, I want to limit who can see certain metadata fields, so that I can show or hide things from display based on user groups.\n",
+  "extraction": {
+    "personas": [
+      "administrator"
+    ],
+    "entities": [
+      "metadata fields",
+      "user groups"
+    ],
+    "actions": [
+      "limit",
+      "show",
+      "hide"
+    ],
+    "benefit": "I can show or hide things from display based on user groups"
+  },
+  "categories": {
+    "primary_entities": [
+      "metadata fields"
+    ],
+    "secondary_entities": [
+      "user groups"
+    ],
+    "primary_actions": [
+      "limit"
+    ],
+    "secondary_actions": [
+      "show",
+      "hide"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "administrator",
+        "to": "limit",
+        "kind": "triggers"
+      },
+      {
+        "from": "limit",
+        "to": "metadata fields",
+        "kind": "targets"
+      },
+      {
+        "from": "limit",
+        "to": "user groups",
+        "kind": "targets"
+      },
+      {
+        "from": "show",
+        "to": "metadata fields",
+        "kind": "targets"
+      },
+      {
+        "from": "hide",
+        "to": "metadata fields",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1337,
+    "output": 252,
+    "time (ns)": 9810634000
+  }
+}

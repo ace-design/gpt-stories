@@ -1,0 +1,56 @@
+{
+  "story": "#G26# As an archivist, I want to upload scans of images created while answering research requests, so that they can be used again for other research requests.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "scans of images",
+      "research requests"
+    ],
+    "actions": [
+      "upload",
+      "answering",
+      "used again"
+    ],
+    "benefit": "they can be used again for other research requests"
+  },
+  "categories": {
+    "primary_entities": [
+      "scans of images",
+      "research requests"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "upload"
+    ],
+    "secondary_actions": [
+      "answering",
+      "used again"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "scans of images",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "research requests",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1349,
+    "output": 212,
+    "time (ns)": 7680993000
+  }
+}

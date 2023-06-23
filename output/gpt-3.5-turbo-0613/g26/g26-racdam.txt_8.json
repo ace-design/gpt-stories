@@ -1,0 +1,44 @@
+{
+  "story": "#G26# As an archivist, I want to add detailed restrictions to groups of files, so that I know if and how they can be shared.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "groups of files"
+    ],
+    "actions": [
+      "add detailed restrictions"
+    ],
+    "benefit": "know if and how they can be shared"
+  },
+  "categories": {
+    "primary_entities": [
+      "groups of files"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "add detailed restrictions"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "add detailed restrictions",
+        "kind": "triggers"
+      },
+      {
+        "from": "add detailed restrictions",
+        "to": "groups of files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1307,
+    "output": 165,
+    "time (ns)": 6480250000
+  }
+}

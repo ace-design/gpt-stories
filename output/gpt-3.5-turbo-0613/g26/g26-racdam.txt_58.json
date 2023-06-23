@@ -1,0 +1,60 @@
+{
+  "story": "#G26# As a researcher, I want to see common material across collections, so that so I can prepare a comprehensive analysis.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "common material",
+      "collections"
+    ],
+    "actions": [
+      "see",
+      "prepare"
+    ],
+    "benefit": "prepare a comprehensive analysis"
+  },
+  "categories": {
+    "primary_entities": [
+      "common material"
+    ],
+    "secondary_entities": [
+      "collections"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": [
+      "prepare"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "common material",
+        "kind": "targets"
+      },
+      {
+        "from": "researcher",
+        "to": "prepare",
+        "kind": "triggers"
+      },
+      {
+        "from": "prepare",
+        "to": "comprehensive analysis",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1290,
+    "output": 214,
+    "time (ns)": 9593790000
+  }
+}

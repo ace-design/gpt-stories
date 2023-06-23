@@ -1,0 +1,47 @@
+{
+  "story": "#G26# As an archivist, I want to batch edit metadata about files.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "metadata",
+      "files"
+    ],
+    "actions": [
+      "batch edit"
+    ],
+    "benefit": "to efficiently update metadata about files"
+  },
+  "categories": {
+    "primary_entities": [
+      "metadata"
+    ],
+    "secondary_entities": [
+      "files"
+    ],
+    "primary_actions": [
+      "batch edit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "batch edit",
+        "kind": "triggers"
+      },
+      {
+        "from": "batch edit",
+        "to": "metadata",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1260,
+    "output": 158,
+    "time (ns)": 5992615000
+  }
+}

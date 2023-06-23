@@ -1,0 +1,727 @@
+START: 07:36:36
+# Processing g26-racdam.txt
+- Story #[1] -- started at 07:36:36
+    - #G26# As an archivist, I want to apply a license or rights statement, so that I know what I can do with a file.
+
+        - calling model 07:36:36
+        - calling model 07:36:40
+        - calling model 07:36:44
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_1.json
+- Story #[2] -- started at 07:36:50
+    - #G26# As an archivist, I want to mark individual files as restricted, so that they don't get shared by mistake.
+
+        - calling model 07:36:50
+        - calling model 07:36:54
+        - calling model 07:36:58
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_2.json
+- Story #[3] -- started at 07:37:03
+    - #G26# As an archivist, I want to mark groups of files as restricted, so that they don't get shared by mistake.
+
+        - calling model 07:37:03
+        - calling model 07:37:07
+        - calling model 07:37:11
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_3.json
+- Story #[4] -- started at 07:37:19
+    - #G26# As an archivist, I want to restrict a file from view.
+
+        - calling model 07:37:19
+        - calling model 07:37:23
+        - calling model 07:37:27
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_4.json
+- Story #[5] -- started at 07:37:31
+    - #G26# As an archivist, I want to restrict a group of files from view.
+
+        - calling model 07:37:31
+        - calling model 07:37:35
+        - calling model 07:37:38
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_5.json
+- Story #[6] -- started at 07:37:43
+    - #G26# As an archivist, I want to set a date on which restrictions will be removed from a file, so that that I don't have to update this by hand.
+
+        - calling model 07:37:43
+        - calling model 07:37:48
+        - calling model 07:37:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_6.json
+- Story #[7] -- started at 07:37:58
+    - #G26# As an archivist, I want to add restriction end date information to files, so that I can share files when they become open.
+
+        - calling model 07:37:58
+        - calling model 07:38:02
+        - calling model 07:38:06
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_7.json
+- Story #[8] -- started at 07:38:12
+    - #G26# As an archivist, I want to add detailed restrictions to groups of files, so that I know if and how they can be shared.
+
+        - calling model 07:38:12
+        - calling model 07:38:16
+        - calling model 07:38:20
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_8.json
+- Story #[9] -- started at 07:38:24
+    - #G26# As an archivist, I want to restrict access to some files by IP address, so that I can give reading room access only to certain digital files.
+
+        - calling model 07:38:24
+        - calling model 07:38:29
+        - calling model 07:38:32
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_9.json
+- Story #[10] -- started at 07:38:39
+    - #G26# As an archivist, I want to restrict access to certain files by user, so that I can allow donor representatives to see certain files.
+
+        - calling model 07:38:39
+        - calling model 07:38:43
+        - calling model 07:38:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_10.json
+- Story #[11] -- started at 07:38:53
+    - #G26# As an archivist, I want to know if a photo has already been scanned, so that I can license it to a researcher.
+
+        - calling model 07:38:53
+        - calling model 07:38:57
+        - calling model 07:39:01
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_11.json
+- Story #[12] -- started at 07:39:09
+    - #G26# As an archivist, I want to select existing rights statuses and statements, so that I can easily create uniform rights statements.
+
+        - calling model 07:39:09
+        - calling model 07:39:13
+        - calling model 07:39:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_12.json
+- Story #[13] -- started at 07:39:26
+    - #G26# As an archivist, I want to redact information in digital files for a period of time, so that I can provide access to non-sensitive portions of a record.
+
+        - calling model 07:39:26
+        - calling model 07:39:30
+        - calling model 07:39:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_13.json
+- Story #[14] -- started at 07:39:39
+    - #G26# As an archivist, I want to have an online form for licensing archival material, so that the process is more transparent and some of the back and forth can be eliminated.
+
+        - calling model 07:39:39
+        - calling model 07:39:44
+        - calling model 07:39:48
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_14.json
+- Story #[15] -- started at 07:39:54
+    - #G26# As an archivist, I want to batch edit metadata about files.
+
+        - calling model 07:39:54
+        - calling model 07:39:57
+        - calling model 07:40:01
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_15.json
+- Story #[16] -- started at 07:40:06
+    - #G26# As an archivist, I want to upload a single file.
+
+        - calling model 07:40:06
+        - calling model 07:40:09
+        - calling model 07:40:13
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_16.json
+- Story #[17] -- started at 07:40:17
+    - #G26# As an archivist, I want to upload groups of files, so that I can save time.
+
+        - calling model 07:40:17
+        - calling model 07:40:21
+        - calling model 07:40:24
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_17.json
+- Story #[18] -- started at 07:40:29
+    - #G26# As an archivist, I want to automatically create access copies of files, so that I don't have to do this manually.
+
+        - calling model 07:40:29
+        - calling model 07:40:33
+        - calling model 07:40:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_18.json
+- Story #[19] -- started at 07:40:41
+    - #G26# As an archivist, I want to automatically generate technical metadata, so that I know the file size.
+
+        - calling model 07:40:41
+        - calling model 07:40:45
+        - calling model 07:40:48
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_19.json
+- Story #[20] -- started at 07:40:53
+    - #G26# As an assistant archivist, I want to upload and tag staff generated working papers, so that staff and researchers are able to easily access them.
+
+        - calling model 07:40:53
+       - exception caught! Pausing for 60 seconds
+        - calling model 07:47:06
+        - calling model 07:47:10
+        - calling model 07:47:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_20.json
+- Story #[21] -- started at 07:47:23
+    - #G26# As an archivist, I want to distinguish between digital objects digitized to preservation standards and those created for access purposes only, so that I know whether I should apply preservation actions.
+
+        - calling model 07:47:23
+        - calling model 07:47:27
+       - exception caught! Pausing for 60 seconds
+        - calling model 08:06:55
+        - calling model 08:06:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_21.json
+- Story #[22] -- started at 08:07:06
+    - #G26# As an archivist, I want to link electronic versions of researchers' publications to citations, so that I can share them with other researchers.
+
+        - calling model 08:07:06
+        - calling model 08:07:10
+        - calling model 08:07:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_22.json
+- Story #[23] -- started at 08:07:23
+    - #G26# As an archivist, I want to upload scans of images created while answering research requests, so that they can be used again for other research requests.
+
+        - calling model 08:07:23
+        - calling model 08:07:27
+        - calling model 08:07:31
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_23.json
+- Story #[24] -- started at 08:07:36
+    - #G26# As an archivist, I want to create quality scans of images and documents, so that they can be reused.
+
+        - calling model 08:07:36
+        - calling model 08:07:40
+        - calling model 08:07:44
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_24.json
+- Story #[25] -- started at 08:07:49
+    - #G26# As an archivist, I want to automatically create access derivatives of digital objects, so that I don't have to do this manually.
+
+        - calling model 08:07:49
+        - calling model 08:07:54
+        - calling model 08:07:58
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_25.json
+- Story #[26] -- started at 08:08:03
+    - #G26# As an archivist, I want to automatically assign unique identifiers to material I scan, so that I avoid potential errors.
+
+        - calling model 08:08:03
+        - calling model 08:08:07
+        - calling model 08:08:10
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_26.json
+- Story #[27] -- started at 08:08:17
+    - #G26# As an archivist, I want to automatically embed metadata in file headers, so that I avoid repetitive and easily-forgotten tasks.
+
+        - calling model 08:08:17
+        - calling model 08:08:20
+       - exception caught! Pausing for 60 seconds
+        - calling model 08:09:51
+        - calling model 08:09:54
+       - exception caught! Pausing for 60 seconds
+        - calling model 08:52:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_27.json
+- Story #[28] -- started at 08:52:58
+    - #G26# As an archivist, I want to rotate images, so that I can orient them correctly.
+
+        - calling model 08:52:58
+        - calling model 08:53:01
+        - calling model 08:53:05
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_28.json
+- Story #[29] -- started at 08:53:09
+    - #G26# As an archivist, I want to apply automatic contrast and level operations to a scanned file, so that I can eliminate unnecessary work.
+
+        - calling model 08:53:09
+        - calling model 08:53:13
+        - calling model 08:53:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_29.json
+- Story #[30] -- started at 08:53:22
+    - #G26# As an archivist, I want to perform contrast, level and other manipulations manually, so that I can improve on results from automated tools.
+
+        - calling model 08:53:22
+        - calling model 08:53:26
+        - calling model 08:53:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_30.json
+- Story #[31] -- started at 08:53:39
+    - #G26# As a donor representative, I want to supply incremental accruals to new and existing collections, so that material can be transferred on an ongoing basis.
+
+        - calling model 08:53:39
+        - calling model 08:53:44
+        - calling model 08:53:48
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_31.json
+- Story #[32] -- started at 08:53:58
+    - #G26# As an archivist, I want to manage scans of archival material created for educational visits, so that find and refer to them for another visit.
+
+        - calling model 08:53:58
+        - calling model 08:54:03
+        - calling model 08:54:09
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_32.json
+- Story #[33] -- started at 08:54:18
+    - #G26# As an archivist, I want to manage loan documentation, including preservation photos, forms and correspondence, so that I can find it easily later.
+
+        - calling model 08:54:18
+        - calling model 08:54:22
+       - exception caught! Pausing for 60 seconds
+        - calling model 09:00:25
+        - calling model 09:00:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_33.json
+- Story #[34] -- started at 09:00:35
+    - #G26# As a researcher, I want to generate structured citation data, so that so I can cite a file in a publication.
+
+        - calling model 09:00:35
+        - calling model 09:00:39
+        - calling model 09:00:43
+       - exception caught! Pausing for 60 seconds
+        - calling model 09:30:43
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_34.json
+- Story #[35] -- started at 09:30:51
+    - #G26# As a researcher, I want to share a link to a file on social media, so that so I can show other people an interesting thing I found.
+
+        - calling model 09:30:51
+        - calling model 09:30:55
+        - calling model 09:30:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_35.json
+- Story #[36] -- started at 09:31:04
+    - #G26# As a researcher, I want to understand the copyright status of the image, so that I know if I can use it.
+
+        - calling model 09:31:04
+        - calling model 09:31:07
+        - calling model 09:31:11
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_36.json
+- Story #[37] -- started at 09:31:15
+    - #G26# As a researcher I want clear citation information on each document, so that I can cite accurately in a publication.
+
+        - calling model 09:31:15
+        - calling model 09:31:19
+        - calling model 09:31:23
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_37.json
+- Story #[38] -- started at 09:31:27
+    - #G26# As a researcher, I want to share reports I've written, so that it is available to staff and researchers.
+
+        - calling model 09:31:27
+        - calling model 09:31:31
+        - calling model 09:31:35
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_38.json
+- Story #[39] -- started at 09:31:39
+    - #G26# As a researcher, I want to download a file, so that I can use it for research without having to come to the reading room.
+
+        - calling model 09:31:39
+        - calling model 09:31:43
+        - calling model 09:31:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_39.json
+- Story #[40] -- started at 09:31:52
+    - #G26# As a researcher, I want to download reports, so that I can use them in immediate and future in talks and articles.
+
+        - calling model 09:31:52
+        - calling model 09:31:56
+        - calling model 09:31:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_40.json
+- Story #[41] -- started at 09:32:04
+    - #G26# As a researcher, I want to locate photographs and documents that I can share on social media.
+
+        - calling model 09:32:04
+        - calling model 09:32:08
+        - calling model 09:32:12
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_41.json
+- Story #[42] -- started at 09:32:18
+    - #G26# As a researcher, I want to request analog versions of digital objects, so that I can view them in the reading room.
+
+        - calling model 09:32:18
+        - calling model 09:32:22
+        - calling model 09:32:27
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_42.json
+- Story #[43] -- started at 09:32:33
+    - #G26# As a researcher, I want to order copies of photos, so that I can use them in a publication.
+
+        - calling model 09:32:33
+        - calling model 09:32:37
+        - calling model 09:32:40
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_43.json
+- Story #[44] -- started at 09:32:45
+    - #G26# As a researcher, I want to receive a notification if something I request in the reading room or for duplication is already digitized, so that I don't have to put in that request.
+
+        - calling model 09:32:45
+        - calling model 09:32:51
+        - calling model 09:32:55
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_44.json
+- Story #[45] -- started at 09:33:00
+    - #G26# As an archivist, I want to make information about rights available to researchers and donors, so that they know what they can do with images.
+
+        - calling model 09:33:00
+        - calling model 09:33:05
+        - calling model 09:33:09
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_45.json
+- Story #[46] -- started at 09:33:17
+    - #G26# As an archivist, I want to ensure that emails sent about specific objects contain accurate citation information, so that I can confirm which object is being referred to.
+
+        - calling model 09:33:17
+        - calling model 09:33:21
+        - calling model 09:33:25
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_46.json
+- Story #[47] -- started at 09:33:33
+    - #G26# As a researcher, I want to stream audio and video files in my web browser.
+
+        - calling model 09:33:33
+        - calling model 09:33:37
+        - calling model 09:33:41
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_47.json
+- Story #[48] -- started at 09:33:49
+    - #G26# As a researcher, I want to export descriptive data in a common format, so that I can use text mining tools on it.
+
+        - calling model 09:33:49
+        - calling model 09:33:57
+        - calling model 09:34:01
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_48.json
+- Story #[49] -- started at 09:34:08
+    - #G26# As an archivist, I want to track use of a photo, so that I know if I've sent it to a researcher before.
+
+        - calling model 09:34:08
+        - calling model 09:34:12
+        - calling model 09:34:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_49.json
+- Story #[50] -- started at 09:34:21
+    - #G26# As an archivist, I want to see what a particular user has downloaded, so that I can track use of assets.
+
+        - calling model 09:34:21
+        - calling model 09:34:25
+        - calling model 09:34:29
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_50.json
+- Story #[51] -- started at 09:34:37
+    - #G26# As an archivist, I want to provide access to digital copies of unprocessed material, so that donors can access things they have given us.
+
+        - calling model 09:34:37
+        - calling model 09:34:41
+        - calling model 09:34:48
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_51.json
+- Story #[52] -- started at 09:34:58
+    - #G26# As an archivist, I want to make as much archival material as possible available for use, so that I can fulfill the RAC's mission.
+
+        - calling model 09:34:58
+        - calling model 09:35:03
+        - calling model 09:35:12
+       - exception caught! Pausing for 60 seconds
+        - calling model 09:36:42
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_52.json
+- Story #[53] -- started at 09:36:49
+    - #G26# As an archivist, I want to use archival content on the RAC website, so that I can integrate our collections into our web presence.
+
+        - calling model 09:36:49
+        - calling model 09:36:53
+        - calling model 09:36:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_53.json
+- Story #[54] -- started at 09:37:06
+    - #G26# As a donor representative, I want to access the descriptive information about the images scanned for my institutions needs.
+
+        - calling model 09:37:06
+        - calling model 09:37:10
+        - calling model 09:37:13
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_54.json
+- Story #[55] -- started at 09:37:18
+    - #G26# As a donor representative, I want to look at images that have been scanned from my collection, so that so that I can use them in my institutions exhibits, reports etc.
+
+        - calling model 09:37:18
+        - calling model 09:37:23
+        - calling model 09:37:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_55.json
+- Story #[56] -- started at 09:37:38
+    - #G26# As a researcher, I want to search all files by keyword.
+
+        - calling model 09:37:38
+        - calling model 09:37:42
+       - exception caught! Pausing for 60 seconds
+        - calling model 09:39:12
+        - calling model 09:39:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_56.json
+- Story #[57] -- started at 09:39:20
+    - #G26# As a researcher, I want to search by keyword, so that I can learn what already exists digitally and avoid placing additional duplication requests.
+
+        - calling model 09:39:20
+        - calling model 09:39:28
+        - calling model 09:39:34
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_57.json
+- Story #[58] -- started at 09:39:42
+    - #G26# As a researcher, I want to see common material across collections, so that so I can prepare a comprehensive analysis.
+
+        - calling model 09:39:42
+        - calling model 09:39:45
+        - calling model 09:39:49
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_58.json
+- Story #[59] -- started at 09:39:57
+    - #G26# As a researcher, I want to browse through files in a collection.
+
+        - calling model 09:39:57
+        - calling model 09:40:01
+        - calling model 09:40:05
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_59.json
+- Story #[60] -- started at 09:40:09
+    - #G26# As an archivist, I want to browse through files in a collection.
+
+        - calling model 09:40:09
+        - calling model 09:40:13
+        - calling model 09:40:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_60.json
+- Story #[61] -- started at 09:40:23
+    - #G26# As an archivist, I want to search all files by keyword.
+
+        - calling model 09:40:23
+       - exception caught! Pausing for 60 seconds
+        - calling model 09:41:53
+        - calling model 09:41:56
+        - calling model 09:42:00
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_61.json
+- Story #[62] -- started at 09:42:05
+    - #G26# As an archivist, I want to upload inventories, so that our donor representatives have an easier time requesting their material.
+
+        - calling model 09:42:05
+        - calling model 09:42:10
+        - calling model 09:42:13
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_62.json
+- Story #[63] -- started at 09:42:19
+    - #G26# As an archivist, I want to search by tag, so that it makes finding particular photographs easier.
+
+        - calling model 09:42:19
+        - calling model 09:42:23
+        - calling model 09:42:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_63.json
+- Story #[64] -- started at 09:42:33
+    - #G26# As an archivist, I want to access the digital files on the X-drive, so that I can use them.
+
+        - calling model 09:42:33
+        - calling model 09:42:38
+        - calling model 09:42:41
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_64.json
+- Story #[65] -- started at 09:42:46
+    - #G26# As an assistant archivist, I want to easily access interdepartmental forms.
+
+        - calling model 09:42:46
+        - calling model 09:42:49
+        - calling model 09:42:53
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_65.json
+- Story #[66] -- started at 09:42:58
+    - #G26# As an archivist, I want to have electronic versions of the collection files available for staff use, so that I increase accessibility and I do not lose the original files.
+
+        - calling model 09:42:58
+        - calling model 09:43:02
+        - calling model 09:43:06
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_66.json
+- Story #[67] -- started at 09:43:15
+    - #G26# As a researcher, I want to be able to search across photo collection images, so that I can prepare presentations.
+
+        - calling model 09:43:15
+        - calling model 09:43:19
+        - calling model 09:43:23
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_67.json
+- Story #[68] -- started at 09:43:27
+    - #G26# As a researcher, I want to search using structured data, so that I can find everything relevant to my inquiry across collections.
+
+        - calling model 09:43:27
+        - calling model 09:43:31
+        - calling model 09:43:35
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_68.json
+- Story #[69] -- started at 09:43:39
+    - #G26# As a researcher, I want to access tagged working papers, so that my research process is better informed.
+
+        - calling model 09:43:39
+        - calling model 09:43:43
+        - calling model 09:43:46
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_69.json
+- Story #[70] -- started at 09:43:51
+    - #G26# As a researcher, I want to access educational outreach materials, so that I can make connections with institutions.
+
+        - calling model 09:43:51
+        - calling model 09:43:55
+        - calling model 09:43:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_70.json
+- Story #[71] -- started at 09:44:06
+    - #G26# As a researcher, I want to have accurate cross-collection citation information, so that I can find materials again.
+
+        - calling model 09:44:06
+        - calling model 09:44:10
+        - calling model 09:44:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_71.json
+- Story #[72] -- started at 09:44:20
+    - #G26# As a researcher, I want to access digitized archival materials without mediation, so that I can decide what, I want to look at.
+
+        - calling model 09:44:20
+        - calling model 09:44:24
+        - calling model 09:44:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_72.json
+- Story #[73] -- started at 09:44:33
+    - #G26# As an archivist, I want to distinguish between images scanned in color or black and white, so that I know whether or not these images meet publication requirements.
+
+        - calling model 09:44:33
+        - calling model 09:44:37
+        - calling model 09:44:41
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_73.json
+- Story #[74] -- started at 09:44:45
+    - #G26# As a researcher, I want to ask a question about a specific file, so that I can find out more information.
+
+        - calling model 09:44:45
+       - exception caught! Pausing for 60 seconds
+        - calling model 09:46:15
+        - calling model 09:46:19
+        - calling model 09:46:23
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_74.json
+- Story #[75] -- started at 09:46:27
+    - #G26# As a researcher, I want to search OCRed text in all available digitized textual documents, so that I can more efficiently locate digitized documents relevant to my research.
+
+        - calling model 09:46:27
+        - calling model 09:46:32
+        - calling model 09:46:35
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_75.json
+- Story #[76] -- started at 09:46:41
+    - #G26# As a researcher, I want to know the date on which something was digitized, so that I know if it's been digitized since I last looked.
+
+        - calling model 09:46:41
+        - calling model 09:46:45
+        - calling model 09:46:48
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_76.json
+- Story #[77] -- started at 09:46:53
+    - #G26# As a researcher, I want to keyword search across all of an RF program officer's scanned diaries, rather than having to search each scanned diary segment separately, so that I can more efficiently locate diary entries relevant to my research.
+
+        - calling model 09:46:53
+        - calling model 09:46:57
+        - calling model 09:47:01
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_77.json
+- Story #[78] -- started at 09:47:07
+    - #G26# As an archivist, I want to access inventories for unprocessed collections, so that I can provide reference services to donors.
+
+        - calling model 09:47:07
+        - calling model 09:47:11
+        - calling model 09:47:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_78.json
+- Story #[79] -- started at 09:47:22
+    - #G26# As a researcher, I want to view thumbnails of photos, so that I can make a selection of which one I want to license.
+
+        - calling model 09:47:22
+        - calling model 09:47:27
+        - calling model 09:47:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_79.json
+- Story #[80] -- started at 09:47:37
+    - #G26# As a researcher, I want to know when only part of a folder has been digitized, so that I know if I am seeing everything or only a portion.
+
+        - calling model 09:47:37
+        - calling model 09:47:41
+        - calling model 09:47:44
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_80.json
+- Story #[81] -- started at 09:47:49
+    - #G26# As a donor representative, I want to see thumbnails of images, so that I can select which one I want.
+
+        - calling model 09:47:49
+        - calling model 09:47:53
+        - calling model 09:47:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_81.json
+- Story #[82] -- started at 09:48:03
+    - #G26# As an researcher, I want to view film clips, so that I can see excerpts of films.
+
+        - calling model 09:48:03
+        - calling model 09:48:07
+        - calling model 09:48:11
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_82.json
+- Story #[83] -- started at 09:48:15
+    - #G26# As an archivist, I want to search images by photographer.
+
+        - calling model 09:48:15
+        - calling model 09:48:19
+        - calling model 09:48:23
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_83.json
+- Story #[84] -- started at 09:48:28
+    - #G26# As an archivist, I want to search images by people represented in them.
+
+        - calling model 09:48:28
+        - calling model 09:48:32
+        - calling model 09:48:35
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_84.json
+- Story #[85] -- started at 09:48:39
+    - #G26# As an archivist, I want to search images by place the photo was taken.
+
+        - calling model 09:48:39
+        - calling model 09:48:43
+        - calling model 09:48:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_85.json
+- Story #[86] -- started at 09:48:53
+    - #G26# As an archivist, I want to search images by rights.
+
+        - calling model 09:48:53
+        - calling model 09:48:56
+        - calling model 09:49:00
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_86.json
+- Story #[87] -- started at 09:49:05
+    - #G26# As an archivist, I want to search index cards and other non-public finding aids, so that I can provide better research assistance.
+
+        - calling model 09:49:05
+        - calling model 09:49:09
+        - calling model 09:49:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_87.json
+- Story #[88] -- started at 09:49:21
+    - #G26# As an archivist, I want to view collection files, so that I can gain background information for processing a collection.
+
+        - calling model 09:49:21
+        - calling model 09:49:25
+        - calling model 09:49:29
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_88.json
+- Story #[89] -- started at 09:49:35
+    - #G26# As an archivist, I want to view physical locations for non-archival material, so that I can provide research services to donors.
+
+        - calling model 09:49:35
+        - calling model 09:49:40
+        - calling model 09:49:44
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_89.json
+- Story #[90] -- started at 09:49:51
+    - #G26# As an archivist, I want to find files that cannot be made publicly available, so that I can easily access everything that's been digitized.
+
+        - calling model 09:49:51
+        - calling model 09:49:55
+        - calling model 09:49:58
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_90.json
+- Story #[91] -- started at 09:50:03
+    - #G26# As an archivist, I want to access metadata and visual representations of index cards, so that I can use that information to assist researchers.
+
+        - calling model 09:50:03
+        - calling model 09:50:07
+        - calling model 09:50:12
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_91.json
+- Story #[92] -- started at 09:50:27
+    - #G26# As an archivist, I want to search individual material types.
+
+        - calling model 09:50:27
+        - calling model 09:50:31
+        - calling model 09:50:35
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_92.json
+- Story #[93] -- started at 09:50:40
+    - #G26# As an archivist, I want to search images by uploading an image, so that so I can find images when i don't have any metadata.
+
+        - calling model 09:50:40
+        - calling model 09:50:44
+        - calling model 09:50:49
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_93.json
+- Story #[94] -- started at 09:50:54
+    - #G26# As an administrator, I want to create user groups, so that I can control user permissions.
+
+        - calling model 09:50:54
+        - calling model 09:50:58
+       - exception caught! Pausing for 60 seconds
+        - calling model 09:52:28
+        - calling model 09:52:32
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_94.json
+- Story #[95] -- started at 09:52:40
+    - #G26# As an administrator, I want to create user roles, so that I can group users by role.
+
+        - calling model 09:52:40
+        - calling model 09:52:44
+        - calling model 09:52:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_95.json
+- Story #[96] -- started at 09:52:55
+    - #G26# As an administrator, I want to assign RAC staff to different user groups, so that I can control read/write access.
+
+        - calling model 09:52:55
+        - calling model 09:52:59
+        - calling model 09:53:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_96.json
+- Story #[97] -- started at 09:53:09
+    - #G26# As an administrator, I want to assign rights to user groups or roles, so that I can control what users can and can't do.
+
+        - calling model 09:53:09
+        - calling model 09:53:13
+        - calling model 09:53:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_97.json
+- Story #[98] -- started at 09:53:24
+    - #G26# As an administrator, I want to allow users to log in using Active Directory credentials, so that I don't have to manage another set of usernames and passwords.
+
+        - calling model 09:53:24
+        - calling model 09:53:28
+        - calling model 09:53:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_98.json
+- Story #[99] -- started at 09:53:42
+    - #G26# As an administrator, I want to have researchers reset their own passwords, so that I don't have to send passwords in cleartext.
+
+        - calling model 09:53:42
+        - calling model 09:53:46
+       - exception caught! Pausing for 60 seconds
+        - calling model 09:55:17
+        - calling model 09:55:21
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_99.json
+- Story #[100] -- started at 09:55:27
+    - #G26# As an administrator, I want to limit who can see certain metadata fields, so that I can show or hide things from display based on user groups.
+
+        - calling model 09:55:27
+        - calling model 09:55:31
+        - calling model 09:55:35
+    - saving result into: ./output/gpt-3.5-turbo-0613/g26-racdam.txt_100.json
+END: 09:55:42

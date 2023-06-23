@@ -1,0 +1,70 @@
+{
+  "story": "#G26# As an archivist, I want to provide access to digital copies of unprocessed material, so that donors can access things they have given us.\n",
+  "extraction": {
+    "personas": [
+      "archivist",
+      "donors"
+    ],
+    "entities": [
+      "digital copies",
+      "unprocessed material"
+    ],
+    "actions": [
+      "provide access",
+      "access"
+    ],
+    "benefit": "donors can access things they have given us"
+  },
+  "categories": {
+    "primary_entities": [
+      "digital copies",
+      "unprocessed material"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "provide access"
+    ],
+    "secondary_actions": [
+      "access"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "provide access",
+        "kind": "triggers"
+      },
+      {
+        "from": "provide access",
+        "to": "digital copies",
+        "kind": "targets"
+      },
+      {
+        "from": "provide access",
+        "to": "unprocessed material",
+        "kind": "targets"
+      },
+      {
+        "from": "donors",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "digital copies",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "unprocessed material",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1336,
+    "output": 286,
+    "time (ns)": 14747292000
+  }
+}

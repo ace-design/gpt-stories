@@ -1,0 +1,44 @@
+{
+  "story": "#G26# As an assistant archivist, I want to easily access interdepartmental forms.\n",
+  "extraction": {
+    "personas": [
+      "assistant archivist"
+    ],
+    "entities": [
+      "interdepartmental forms"
+    ],
+    "actions": [
+      "access"
+    ],
+    "benefit": "easily"
+  },
+  "categories": {
+    "primary_entities": [
+      "interdepartmental forms"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "assistant archivist",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "interdepartmental forms",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1258,
+    "output": 156,
+    "time (ns)": 5823913000
+  }
+}
