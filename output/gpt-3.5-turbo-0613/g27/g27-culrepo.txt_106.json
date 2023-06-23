@@ -1,0 +1,80 @@
+{
+  "story": "#G27# As a library staff member, I want to preserve both the content and the metadata within the repository in a robust manner, so that I can provide stable, long-term access to this material.\n",
+  "extraction": {
+    "personas": [
+      "library staff member"
+    ],
+    "entities": [
+      "content",
+      "metadata",
+      "repository"
+    ],
+    "actions": [
+      "preserve",
+      "provide"
+    ],
+    "benefit": "provide stable, long-term access to this material"
+  },
+  "categories": {
+    "primary_entities": [
+      "content",
+      "metadata",
+      "repository"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "preserve",
+      "provide"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "library staff member",
+        "to": "preserve",
+        "kind": "triggers"
+      },
+      {
+        "from": "preserve",
+        "to": "content",
+        "kind": "targets"
+      },
+      {
+        "from": "preserve",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "preserve",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "library staff member",
+        "to": "provide",
+        "kind": "triggers"
+      },
+      {
+        "from": "provide",
+        "to": "content",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "repository",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1356,
+    "output": 325,
+    "time (ns)": 9008413000
+  }
+}

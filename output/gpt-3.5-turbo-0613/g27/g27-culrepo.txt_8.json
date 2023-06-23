@@ -1,0 +1,57 @@
+{
+  "story": "#G27# As a Cornell faculty member, I want to see clearly what reuse rights I have to files discovered in the repository, so that I know how I can reuse them.\n",
+  "extraction": {
+    "personas": [
+      "Cornell faculty member"
+    ],
+    "entities": [
+      "files discovered in the repository"
+    ],
+    "actions": [
+      "see",
+      "know"
+    ],
+    "benefit": "I know how I can reuse them"
+  },
+  "categories": {
+    "primary_entities": [
+      "files discovered in the repository"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": [
+      "know"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Cornell faculty member",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "files discovered in the repository",
+        "kind": "targets"
+      },
+      {
+        "from": "Cornell faculty member",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "files discovered in the repository",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1331,
+    "output": 229,
+    "time (ns)": 6908201000
+  }
+}

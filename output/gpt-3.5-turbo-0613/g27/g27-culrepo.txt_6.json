@@ -1,0 +1,44 @@
+{
+  "story": "#G27# As a DB/IR administrator, I want to mark report/dataset not to be emailed/viewable due to error being discovered.\n",
+  "extraction": {
+    "personas": [
+      "DB/IR administrator"
+    ],
+    "entities": [
+      "report/dataset"
+    ],
+    "actions": [
+      "mark"
+    ],
+    "benefit": "not to be emailed/viewable due to error being discovered"
+  },
+  "categories": {
+    "primary_entities": [
+      "report/dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "mark"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DB/IR administrator",
+        "to": "mark",
+        "kind": "triggers"
+      },
+      {
+        "from": "mark",
+        "to": "report/dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1305,
+    "output": 164,
+    "time (ns)": 4832905000
+  }
+}

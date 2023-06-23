@@ -1,0 +1,92 @@
+{
+  "story": "#G27# As a DB/IR administrator, I want to administrate patron accounts for purpose of closing accounts, viewing subscriptions, changing subscriptions, resetting passwords, changing email address, etc.\n",
+  "extraction": {
+    "personas": [
+      "DB/IR administrator"
+    ],
+    "entities": [
+      "patron accounts"
+    ],
+    "actions": [
+      "closing accounts",
+      "viewing subscriptions",
+      "changing subscriptions",
+      "resetting passwords",
+      "changing email address"
+    ],
+    "benefit": "To administrate patron accounts"
+  },
+  "categories": {
+    "primary_entities": [
+      "patron accounts"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "closing accounts",
+      "viewing subscriptions",
+      "changing subscriptions",
+      "resetting passwords",
+      "changing email address"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DB/IR administrator",
+        "to": "closing accounts",
+        "kind": "triggers"
+      },
+      {
+        "from": "DB/IR administrator",
+        "to": "viewing subscriptions",
+        "kind": "triggers"
+      },
+      {
+        "from": "DB/IR administrator",
+        "to": "changing subscriptions",
+        "kind": "triggers"
+      },
+      {
+        "from": "DB/IR administrator",
+        "to": "resetting passwords",
+        "kind": "triggers"
+      },
+      {
+        "from": "DB/IR administrator",
+        "to": "changing email address",
+        "kind": "triggers"
+      },
+      {
+        "from": "closing accounts",
+        "to": "patron accounts",
+        "kind": "targets"
+      },
+      {
+        "from": "viewing subscriptions",
+        "to": "patron accounts",
+        "kind": "targets"
+      },
+      {
+        "from": "changing subscriptions",
+        "to": "patron accounts",
+        "kind": "targets"
+      },
+      {
+        "from": "resetting passwords",
+        "to": "patron accounts",
+        "kind": "targets"
+      },
+      {
+        "from": "changing email address",
+        "to": "patron accounts",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1380,
+    "output": 438,
+    "time (ns)": 11819114000
+  }
+}

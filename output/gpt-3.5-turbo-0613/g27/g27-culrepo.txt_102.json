@@ -1,0 +1,87 @@
+{
+  "story": "#G27# As an asset manager, I want to know what the intellectual value of the asset is to the institution at the time of deposit, so that I obtain guidance in the evaluation of it for current value for the institution.\n",
+  "extraction": {
+    "personas": [
+      "asset manager"
+    ],
+    "entities": [
+      "intellectual value",
+      "asset",
+      "institution"
+    ],
+    "actions": [
+      "know",
+      "obtain",
+      "evaluate"
+    ],
+    "benefit": "obtain guidance in the evaluation of it for current value for the institution"
+  },
+  "categories": {
+    "primary_entities": [
+      "intellectual value",
+      "asset",
+      "institution"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "obtain",
+      "evaluate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "asset manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "asset manager",
+        "to": "obtain",
+        "kind": "triggers"
+      },
+      {
+        "from": "asset manager",
+        "to": "evaluate",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "intellectual value",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "asset",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "institution",
+        "kind": "targets"
+      },
+      {
+        "from": "obtain",
+        "to": "guidance",
+        "kind": "targets"
+      },
+      {
+        "from": "evaluate",
+        "to": "current value",
+        "kind": "targets"
+      },
+      {
+        "from": "evaluate",
+        "to": "institution",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1397,
+    "output": 372,
+    "time (ns)": 9945152000
+  }
+}

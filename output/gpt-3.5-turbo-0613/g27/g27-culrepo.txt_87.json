@@ -1,0 +1,68 @@
+{
+  "story": "#G27# As a DB/IR administrator, I want to set up or delete accounts for other administrators with various levels of permission.\n",
+  "extraction": {
+    "personas": [
+      "DB/IR administrator"
+    ],
+    "entities": [
+      "accounts",
+      "administrators"
+    ],
+    "actions": [
+      "set up",
+      "delete"
+    ],
+    "benefit": "with various levels of permission"
+  },
+  "categories": {
+    "primary_entities": [
+      "accounts",
+      "administrators"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "set up",
+      "delete"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DB/IR administrator",
+        "to": "set up",
+        "kind": "triggers"
+      },
+      {
+        "from": "DB/IR administrator",
+        "to": "delete",
+        "kind": "triggers"
+      },
+      {
+        "from": "set up",
+        "to": "accounts",
+        "kind": "targets"
+      },
+      {
+        "from": "delete",
+        "to": "accounts",
+        "kind": "targets"
+      },
+      {
+        "from": "set up",
+        "to": "administrators",
+        "kind": "targets"
+      },
+      {
+        "from": "delete",
+        "to": "administrators",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1305,
+    "output": 277,
+    "time (ns)": 8264233000
+  }
+}

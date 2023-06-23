@@ -1,0 +1,58 @@
+{
+  "story": "#G27# As a DB/IR administrator, I want to add future release dates of reports/datasets to calendar for patron FYI.\n",
+  "extraction": {
+    "personas": [
+      "DB/IR administrator"
+    ],
+    "entities": [
+      "reports",
+      "datasets",
+      "calendar"
+    ],
+    "actions": [
+      "add"
+    ],
+    "benefit": "patron FYI"
+  },
+  "categories": {
+    "primary_entities": [
+      "reports",
+      "datasets",
+      "calendar"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "add"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DB/IR administrator",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "reports",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "calendar",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1300,
+    "output": 213,
+    "time (ns)": 6199096000
+  }
+}

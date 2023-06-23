@@ -1,0 +1,67 @@
+{
+  "story": "#G27# As a library staff member, I want to upload large batches of items simultaneously, including descriptive metadata, so that I can offer service to authors efficiently.\n",
+  "extraction": {
+    "personas": [
+      "library staff member"
+    ],
+    "entities": [
+      "large batches of items",
+      "descriptive metadata",
+      "authors"
+    ],
+    "actions": [
+      "upload",
+      "offer service"
+    ],
+    "benefit": "I can offer service to authors efficiently"
+  },
+  "categories": {
+    "primary_entities": [
+      "large batches of items",
+      "descriptive metadata"
+    ],
+    "secondary_entities": [
+      "authors"
+    ],
+    "primary_actions": [
+      "upload"
+    ],
+    "secondary_actions": [
+      "offer service"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "library staff member",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "large batches of items",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "descriptive metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "authors",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "offer service",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1343,
+    "output": 262,
+    "time (ns)": 7511418000
+  }
+}

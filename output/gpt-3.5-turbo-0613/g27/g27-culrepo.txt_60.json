@@ -1,0 +1,77 @@
+{
+  "story": "#G27# As an administrator, I want to have a platform that can support a variety of media file and text-based formats, so that the intellectual output of the school can be showcased and preserved in a more comprehensive way.\n",
+  "extraction": {
+    "personas": [
+      "administrator"
+    ],
+    "entities": [
+      "platform",
+      "media file",
+      "text-based formats",
+      "intellectual output",
+      "school"
+    ],
+    "actions": [
+      "support",
+      "showcase",
+      "preserve"
+    ],
+    "benefit": "the intellectual output of the school can be showcased and preserved in a more comprehensive way"
+  },
+  "categories": {
+    "primary_entities": [
+      "platform",
+      "intellectual output"
+    ],
+    "secondary_entities": [
+      "media file",
+      "text-based formats",
+      "school"
+    ],
+    "primary_actions": [
+      "support",
+      "showcase",
+      "preserve"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "administrator",
+        "to": "support",
+        "kind": "triggers"
+      },
+      {
+        "from": "support",
+        "to": "platform",
+        "kind": "targets"
+      },
+      {
+        "from": "administrator",
+        "to": "showcase",
+        "kind": "triggers"
+      },
+      {
+        "from": "showcase",
+        "to": "intellectual output",
+        "kind": "targets"
+      },
+      {
+        "from": "administrator",
+        "to": "preserve",
+        "kind": "triggers"
+      },
+      {
+        "from": "preserve",
+        "to": "intellectual output",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1422,
+    "output": 312,
+    "time (ns)": 8670256000
+  }
+}

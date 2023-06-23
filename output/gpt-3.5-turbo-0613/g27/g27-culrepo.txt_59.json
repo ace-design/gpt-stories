@@ -1,0 +1,47 @@
+{
+  "story": "#G27# As a library staff member, I want to deliver streaming media from within the repository, so that I can deliver such content in the manner expected and ensure continued access to said content.\n",
+  "extraction": {
+    "personas": [
+      "library staff member"
+    ],
+    "entities": [
+      "streaming media",
+      "repository"
+    ],
+    "actions": [
+      "deliver"
+    ],
+    "benefit": "ensure continued access to said content"
+  },
+  "categories": {
+    "primary_entities": [
+      "streaming media"
+    ],
+    "secondary_entities": [
+      "repository"
+    ],
+    "primary_actions": [
+      "deliver"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "library staff member",
+        "to": "deliver",
+        "kind": "triggers"
+      },
+      {
+        "from": "deliver",
+        "to": "streaming media",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1331,
+    "output": 162,
+    "time (ns)": 5075741000
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "story": "#G27# As a DB/IR administrator, I want to have a personal account with the ability to change passwords to make them more secure or to retrieve forgotten ones.\n",
+  "extraction": {
+    "personas": [
+      "DB/IR administrator"
+    ],
+    "entities": [
+      "personal account"
+    ],
+    "actions": [
+      "change passwords",
+      "retrieve forgotten ones"
+    ],
+    "benefit": "make passwords more secure or retrieve forgotten ones"
+  },
+  "categories": {
+    "primary_entities": [
+      "personal account"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "change passwords",
+      "retrieve forgotten ones"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DB/IR administrator",
+        "to": "change passwords",
+        "kind": "triggers"
+      },
+      {
+        "from": "DB/IR administrator",
+        "to": "retrieve forgotten ones",
+        "kind": "triggers"
+      },
+      {
+        "from": "change passwords",
+        "to": "personal account",
+        "kind": "targets"
+      },
+      {
+        "from": "retrieve forgotten ones",
+        "to": "personal account",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1329,
+    "output": 231,
+    "time (ns)": 6577382000
+  }
+}

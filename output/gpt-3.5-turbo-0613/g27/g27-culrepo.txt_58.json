@@ -1,0 +1,62 @@
+{
+  "story": "#G27# As a library staff member, I want to include supplementary files such as datasets, slideshows, etc. \u2013 with DOIs for each, as needed \u2013 when uploading a given work, so that I can provide a robust image of the work in question.\n",
+  "extraction": {
+    "personas": [
+      "library staff member"
+    ],
+    "entities": [
+      "supplementary files",
+      "datasets",
+      "slideshows"
+    ],
+    "actions": [
+      "include",
+      "upload"
+    ],
+    "benefit": "provide a robust image of the work in question"
+  },
+  "categories": {
+    "primary_entities": [
+      "supplementary files"
+    ],
+    "secondary_entities": [
+      "datasets",
+      "slideshows"
+    ],
+    "primary_actions": [
+      "include"
+    ],
+    "secondary_actions": [
+      "upload"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "library staff member",
+        "to": "include",
+        "kind": "triggers"
+      },
+      {
+        "from": "include",
+        "to": "supplementary files",
+        "kind": "targets"
+      },
+      {
+        "from": "include",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "include",
+        "to": "slideshows",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1407,
+    "output": 232,
+    "time (ns)": 7412456000
+  }
+}

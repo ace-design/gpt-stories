@@ -1,0 +1,51 @@
+{
+  "story": "#G27# As a library staff member, I want to be able to assign an item to more than one collection.\n",
+  "extraction": {
+    "personas": [
+      "library staff member"
+    ],
+    "entities": [
+      "item",
+      "collection"
+    ],
+    "actions": [
+      "assign"
+    ],
+    "benefit": "be able to assign an item to more than one collection"
+  },
+  "categories": {
+    "primary_entities": [
+      "item",
+      "collection"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "assign"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "library staff member",
+        "to": "assign",
+        "kind": "triggers"
+      },
+      {
+        "from": "assign",
+        "to": "item",
+        "kind": "targets"
+      },
+      {
+        "from": "assign",
+        "to": "collection",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1291,
+    "output": 187,
+    "time (ns)": 5477896000
+  }
+}

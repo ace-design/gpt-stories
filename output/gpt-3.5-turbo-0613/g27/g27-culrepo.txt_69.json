@@ -1,0 +1,84 @@
+{
+  "story": "#G27# As a student, I want to upload to the repository the data that is associated with my embargoed dissertation to meet requirements of a DMP I submitted with my NSF DDIG.\n",
+  "extraction": {
+    "personas": [
+      "student"
+    ],
+    "entities": [
+      "repository",
+      "data",
+      "embargoed dissertation",
+      "DMP",
+      "NSF DDIG"
+    ],
+    "actions": [
+      "upload",
+      "meet requirements"
+    ],
+    "benefit": "to meet requirements of a DMP I submitted with my NSF DDIG"
+  },
+  "categories": {
+    "primary_entities": [
+      "repository",
+      "data",
+      "embargoed dissertation",
+      "DMP",
+      "NSF DDIG"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "upload",
+      "meet requirements"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "student",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "embargoed dissertation",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "DMP",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "NSF DDIG",
+        "kind": "targets"
+      },
+      {
+        "from": "meet requirements",
+        "to": "DMP",
+        "kind": "targets"
+      },
+      {
+        "from": "meet requirements",
+        "to": "NSF DDIG",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1398,
+    "output": 364,
+    "time (ns)": 9956374000
+  }
+}

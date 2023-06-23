@@ -1,0 +1,58 @@
+{
+  "story": "#G27# As a library staff member, I want to create metadata for items within the repository that includes document title, description, author, document type, status, file locations, subscribable flag, subject area, release frequency, and keywords for searching.\n",
+  "extraction": {
+    "personas": [
+      "library staff member"
+    ],
+    "entities": [
+      "metadata",
+      "items",
+      "repository"
+    ],
+    "actions": [
+      "create"
+    ],
+    "benefit": "include document title, description, author, document type, status, file locations, subscribable flag, subject area, release frequency, and keywords for searching"
+  },
+  "categories": {
+    "primary_entities": [
+      "metadata",
+      "items",
+      "repository"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "library staff member",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "items",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "repository",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1419,
+    "output": 237,
+    "time (ns)": 6823421000
+  }
+}

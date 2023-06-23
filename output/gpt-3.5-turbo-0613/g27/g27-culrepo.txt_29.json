@@ -1,0 +1,124 @@
+{
+  "story": "#G27# As a library staff member, I want to be able to tell the researchers I'm helping with DMPs that Cornell has a repository system I can use for archiving and sharing results of their research, so that I can easily meet the needs of funder DMP requirements.\n",
+  "extraction": {
+    "personas": [
+      "library staff member"
+    ],
+    "entities": [
+      "researchers",
+      "DMPs",
+      "Cornell",
+      "repository system",
+      "archiving",
+      "sharing results",
+      "research",
+      "funder DMP requirements"
+    ],
+    "actions": [
+      "tell",
+      "helping",
+      "use",
+      "meet"
+    ],
+    "benefit": "easily meet the needs of funder DMP requirements"
+  },
+  "categories": {
+    "primary_entities": [
+      "researchers",
+      "DMPs",
+      "Cornell",
+      "repository system",
+      "archiving",
+      "sharing results",
+      "research",
+      "funder DMP requirements"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "tell",
+      "helping",
+      "use",
+      "meet"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "library staff member",
+        "to": "tell",
+        "kind": "triggers"
+      },
+      {
+        "from": "tell",
+        "to": "researchers",
+        "kind": "targets"
+      },
+      {
+        "from": "library staff member",
+        "to": "helping",
+        "kind": "triggers"
+      },
+      {
+        "from": "helping",
+        "to": "DMPs",
+        "kind": "targets"
+      },
+      {
+        "from": "library staff member",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "Cornell",
+        "kind": "targets"
+      },
+      {
+        "from": "library staff member",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "repository system",
+        "kind": "targets"
+      },
+      {
+        "from": "library staff member",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "archiving",
+        "kind": "targets"
+      },
+      {
+        "from": "library staff member",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "sharing results",
+        "kind": "targets"
+      },
+      {
+        "from": "library staff member",
+        "to": "meet",
+        "kind": "triggers"
+      },
+      {
+        "from": "meet",
+        "to": "funder DMP requirements",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1513,
+    "output": 571,
+    "time (ns)": 14869474000
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "story": "#G27# As an Extension Administrator, I want to make resources that were developed for specific projects and geographic areas available to other faculty and educators across NYS.\n",
+  "extraction": {
+    "personas": [
+      "Extension Administrator"
+    ],
+    "entities": [
+      "resources",
+      "specific projects",
+      "geographic areas",
+      "faculty",
+      "educators",
+      "NYS"
+    ],
+    "actions": [
+      "make available"
+    ],
+    "benefit": "other faculty and educators across NYS can access resources developed for specific projects and geographic areas"
+  },
+  "categories": {
+    "primary_entities": [
+      "resources",
+      "specific projects",
+      "geographic areas"
+    ],
+    "secondary_entities": [
+      "faculty",
+      "educators",
+      "NYS"
+    ],
+    "primary_actions": [
+      "make available"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Extension Administrator",
+        "to": "make available",
+        "kind": "triggers"
+      },
+      {
+        "from": "make available",
+        "to": "resources",
+        "kind": "targets"
+      },
+      {
+        "from": "make available",
+        "to": "specific projects",
+        "kind": "targets"
+      },
+      {
+        "from": "make available",
+        "to": "geographic areas",
+        "kind": "targets"
+      },
+      {
+        "from": "make available",
+        "to": "faculty",
+        "kind": "targets"
+      },
+      {
+        "from": "make available",
+        "to": "educators",
+        "kind": "targets"
+      },
+      {
+        "from": "make available",
+        "to": "NYS",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1378,
+    "output": 338,
+    "time (ns)": 9191780000
+  }
+}

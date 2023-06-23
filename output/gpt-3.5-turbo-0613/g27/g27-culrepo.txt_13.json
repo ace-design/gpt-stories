@@ -1,0 +1,60 @@
+{
+  "story": "#G27# As a Cornell faculty member, I want to upload data and provide a cut and paste formatted citation for people who use it, so that I receive proper attribution for my work.\n",
+  "extraction": {
+    "personas": [
+      "Cornell faculty member"
+    ],
+    "entities": [
+      "data",
+      "cut and paste formatted citation"
+    ],
+    "actions": [
+      "upload",
+      "provide"
+    ],
+    "benefit": "receive proper attribution for my work"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [
+      "cut and paste formatted citation"
+    ],
+    "primary_actions": [
+      "upload"
+    ],
+    "secondary_actions": [
+      "provide"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Cornell faculty member",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "Cornell faculty member",
+        "to": "provide",
+        "kind": "triggers"
+      },
+      {
+        "from": "provide",
+        "to": "cut and paste formatted citation",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1343,
+    "output": 229,
+    "time (ns)": 6340484000
+  }
+}

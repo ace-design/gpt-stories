@@ -1,0 +1,70 @@
+{
+  "story": "#G27# As a researcher, I want to promote/share my work through interactive maps, so that I can display the range and extent of my work graphically.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "interactive maps",
+      "range and extent of my work"
+    ],
+    "actions": [
+      "promote",
+      "share",
+      "display"
+    ],
+    "benefit": "I can display the range and extent of my work graphically"
+  },
+  "categories": {
+    "primary_entities": [
+      "interactive maps",
+      "range and extent of my work"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "promote",
+      "share",
+      "display"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "promote",
+        "kind": "triggers"
+      },
+      {
+        "from": "researcher",
+        "to": "share",
+        "kind": "triggers"
+      },
+      {
+        "from": "researcher",
+        "to": "display",
+        "kind": "triggers"
+      },
+      {
+        "from": "promote",
+        "to": "interactive maps",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "interactive maps",
+        "kind": "targets"
+      },
+      {
+        "from": "display",
+        "to": "range and extent of my work",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1357,
+    "output": 300,
+    "time (ns)": 8200356000
+  }
+}

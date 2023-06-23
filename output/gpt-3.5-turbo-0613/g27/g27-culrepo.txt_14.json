@@ -1,0 +1,61 @@
+{
+  "story": "#G27# As a patron, I want to view/upload content in multiple formats, including old formats such as Lotus Works.\n",
+  "extraction": {
+    "personas": [
+      "patron"
+    ],
+    "entities": [
+      "content",
+      "multiple formats",
+      "Lotus Works"
+    ],
+    "actions": [
+      "view",
+      "upload"
+    ],
+    "benefit": "I can view/upload content in multiple formats, including old formats such as Lotus Works"
+  },
+  "categories": {
+    "primary_entities": [
+      "content"
+    ],
+    "secondary_entities": [
+      "multiple formats",
+      "Lotus Works"
+    ],
+    "primary_actions": [
+      "view",
+      "upload"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "patron",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "patron",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "content",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "content",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1328,
+    "output": 234,
+    "time (ns)": 6728633000
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "story": "#G27# As a patron, I want to download report/dataset release calendar to load into own calendar.\n",
+  "extraction": {
+    "personas": [
+      "patron"
+    ],
+    "entities": [
+      "report/dataset release calendar",
+      "own calendar"
+    ],
+    "actions": [
+      "download",
+      "load"
+    ],
+    "benefit": "to have the report/dataset release calendar in my own calendar"
+  },
+  "categories": {
+    "primary_entities": [
+      "report/dataset release calendar",
+      "own calendar"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "download",
+      "load"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "patron",
+        "to": "download",
+        "kind": "triggers"
+      },
+      {
+        "from": "download",
+        "to": "report/dataset release calendar",
+        "kind": "targets"
+      },
+      {
+        "from": "load",
+        "to": "own calendar",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1309,
+    "output": 207,
+    "time (ns)": 6169777000
+  }
+}

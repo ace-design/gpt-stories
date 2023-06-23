@@ -1,0 +1,51 @@
+{
+  "story": "#G27# As a library staff member, I want to have customizable metadata fields, so that each project is described in the most accurate way possible.\n",
+  "extraction": {
+    "personas": [
+      "library staff member"
+    ],
+    "entities": [
+      "customizable metadata fields",
+      "project"
+    ],
+    "actions": [
+      "have"
+    ],
+    "benefit": "each project is described in the most accurate way possible"
+  },
+  "categories": {
+    "primary_entities": [
+      "customizable metadata fields",
+      "project"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "library staff member",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "customizable metadata fields",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "project",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1316,
+    "output": 195,
+    "time (ns)": 5725405000
+  }
+}

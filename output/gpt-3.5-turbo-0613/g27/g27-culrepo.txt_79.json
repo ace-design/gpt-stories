@@ -1,0 +1,60 @@
+{
+  "story": "#G27# As a patron, I want to create a personal account to request email notification when new version of report/dataset is available.\n",
+  "extraction": {
+    "personas": [
+      "patron"
+    ],
+    "entities": [
+      "personal account",
+      "report/dataset"
+    ],
+    "actions": [
+      "create",
+      "request email notification"
+    ],
+    "benefit": "to be notified when new version of report/dataset is available"
+  },
+  "categories": {
+    "primary_entities": [
+      "personal account"
+    ],
+    "secondary_entities": [
+      "report/dataset"
+    ],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": [
+      "request email notification"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "patron",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "personal account",
+        "kind": "targets"
+      },
+      {
+        "from": "patron",
+        "to": "request email notification",
+        "kind": "triggers"
+      },
+      {
+        "from": "request email notification",
+        "to": "report/dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1324,
+    "output": 234,
+    "time (ns)": 7294416000
+  }
+}

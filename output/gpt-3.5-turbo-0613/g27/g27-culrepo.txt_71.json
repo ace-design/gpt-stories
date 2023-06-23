@@ -1,0 +1,63 @@
+{
+  "story": "#G27# As a faculty member, I want to associate files with my scholarly works such that someone accessing the latter also receives access to the former, so that I can deliver the fullest picture of my research.\n",
+  "extraction": {
+    "personas": [
+      "faculty member"
+    ],
+    "entities": [
+      "files",
+      "scholarly works"
+    ],
+    "actions": [
+      "associate",
+      "accessing",
+      "receive",
+      "deliver"
+    ],
+    "benefit": "I can deliver the fullest picture of my research"
+  },
+  "categories": {
+    "primary_entities": [
+      "files",
+      "scholarly works"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "associate",
+      "deliver"
+    ],
+    "secondary_actions": [
+      "accessing",
+      "receive"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "faculty member",
+        "to": "associate",
+        "kind": "triggers"
+      },
+      {
+        "from": "associate",
+        "to": "files",
+        "kind": "targets"
+      },
+      {
+        "from": "faculty member",
+        "to": "deliver",
+        "kind": "triggers"
+      },
+      {
+        "from": "deliver",
+        "to": "scholarly works",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1376,
+    "output": 238,
+    "time (ns)": 7056994000
+  }
+}

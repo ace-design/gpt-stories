@@ -1,0 +1,83 @@
+{
+  "story": "#G27# As an asset manager, I want to be assured that funding and staffing of the IR have a commitment to longevity of the repository through published plans and/or explicit contract clauses.\n",
+  "extraction": {
+    "personas": [
+      "asset manager"
+    ],
+    "entities": [
+      "funding",
+      "staffing",
+      "IR",
+      "repository",
+      "published plans",
+      "explicit contract clauses"
+    ],
+    "actions": [
+      "assured",
+      "commitment"
+    ],
+    "benefit": "longevity of the repository"
+  },
+  "categories": {
+    "primary_entities": [
+      "funding",
+      "staffing",
+      "IR",
+      "repository"
+    ],
+    "secondary_entities": [
+      "published plans",
+      "explicit contract clauses"
+    ],
+    "primary_actions": [
+      "assured"
+    ],
+    "secondary_actions": [
+      "commitment"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "asset manager",
+        "to": "assured",
+        "kind": "triggers"
+      },
+      {
+        "from": "assured",
+        "to": "funding",
+        "kind": "targets"
+      },
+      {
+        "from": "assured",
+        "to": "staffing",
+        "kind": "targets"
+      },
+      {
+        "from": "assured",
+        "to": "IR",
+        "kind": "targets"
+      },
+      {
+        "from": "assured",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "assured",
+        "to": "published plans",
+        "kind": "targets"
+      },
+      {
+        "from": "assured",
+        "to": "explicit contract clauses",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1379,
+    "output": 333,
+    "time (ns)": 9594665000
+  }
+}

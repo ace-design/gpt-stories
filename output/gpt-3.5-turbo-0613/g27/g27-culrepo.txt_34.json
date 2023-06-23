@@ -1,0 +1,59 @@
+{
+  "story": "#G27# As a researcher, I want to discover items in the repository through the library's discovery system and Google, so that I can facilitate my easy use of the content.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "repository",
+      "library's discovery system",
+      "Google"
+    ],
+    "actions": [
+      "discover"
+    ],
+    "benefit": "facilitate easy use of the content"
+  },
+  "categories": {
+    "primary_entities": [
+      "repository"
+    ],
+    "secondary_entities": [
+      "library's discovery system",
+      "Google"
+    ],
+    "primary_actions": [
+      "discover"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "discover",
+        "kind": "triggers"
+      },
+      {
+        "from": "discover",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "discover",
+        "to": "library's discovery system",
+        "kind": "targets"
+      },
+      {
+        "from": "discover",
+        "to": "Google",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1336,
+    "output": 221,
+    "time (ns)": 6209333000
+  }
+}

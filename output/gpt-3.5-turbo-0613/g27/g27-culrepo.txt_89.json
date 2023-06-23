@@ -1,0 +1,60 @@
+{
+  "story": "#G27# As a DB/IR administrator, I want to have robust searching and tracking features for existing and newly created patron accounts.\n",
+  "extraction": {
+    "personas": [
+      "DB/IR administrator"
+    ],
+    "entities": [
+      "existing patron accounts",
+      "newly created patron accounts"
+    ],
+    "actions": [
+      "searching",
+      "tracking"
+    ],
+    "benefit": "have robust searching and tracking features"
+  },
+  "categories": {
+    "primary_entities": [
+      "existing patron accounts"
+    ],
+    "secondary_entities": [
+      "newly created patron accounts"
+    ],
+    "primary_actions": [
+      "searching"
+    ],
+    "secondary_actions": [
+      "tracking"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DB/IR administrator",
+        "to": "searching",
+        "kind": "triggers"
+      },
+      {
+        "from": "searching",
+        "to": "existing patron accounts",
+        "kind": "targets"
+      },
+      {
+        "from": "DB/IR administrator",
+        "to": "tracking",
+        "kind": "triggers"
+      },
+      {
+        "from": "tracking",
+        "to": "newly created patron accounts",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1319,
+    "output": 239,
+    "time (ns)": 6907658000
+  }
+}

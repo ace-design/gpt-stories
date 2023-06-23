@@ -1,0 +1,53 @@
+{
+  "story": "#G27# As an academicresearcher, I want to find the works of a particular author in one easily sortable spot, so that I can see the evolution of their scholarship over time.\n",
+  "extraction": {
+    "personas": [
+      "academic researcher"
+    ],
+    "entities": [
+      "works",
+      "author"
+    ],
+    "actions": [
+      "find",
+      "sort"
+    ],
+    "benefit": "see the evolution of their scholarship over time"
+  },
+  "categories": {
+    "primary_entities": [
+      "works",
+      "author"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "find",
+      "sort"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "academic researcher",
+        "to": "find",
+        "kind": "triggers"
+      },
+      {
+        "from": "find",
+        "to": "works",
+        "kind": "targets"
+      },
+      {
+        "from": "sort",
+        "to": "works",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1334,
+    "output": 188,
+    "time (ns)": 5582557000
+  }
+}

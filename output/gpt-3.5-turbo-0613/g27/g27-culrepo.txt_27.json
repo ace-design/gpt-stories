@@ -1,0 +1,71 @@
+{
+  "story": "#G27# As a faculty member, I want to maintain versioning of Extension brochures, FAQs, etc., so that only the most current are used/adapted by other CCE Educators in their work.\n",
+  "extraction": {
+    "personas": [
+      "faculty member",
+      "CCE Educators"
+    ],
+    "entities": [
+      "Extension brochures",
+      "FAQs"
+    ],
+    "actions": [
+      "maintain versioning",
+      "used/adapted"
+    ],
+    "benefit": "only the most current are used/adapted by other CCE Educators in their work"
+  },
+  "categories": {
+    "primary_entities": [
+      "Extension brochures"
+    ],
+    "secondary_entities": [
+      "FAQs"
+    ],
+    "primary_actions": [
+      "maintain versioning"
+    ],
+    "secondary_actions": [
+      "used/adapted"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "faculty member",
+        "to": "maintain versioning",
+        "kind": "triggers"
+      },
+      {
+        "from": "maintain versioning",
+        "to": "Extension brochures",
+        "kind": "targets"
+      },
+      {
+        "from": "maintain versioning",
+        "to": "FAQs",
+        "kind": "targets"
+      },
+      {
+        "from": "faculty member",
+        "to": "used/adapted",
+        "kind": "triggers"
+      },
+      {
+        "from": "used/adapted",
+        "to": "Extension brochures",
+        "kind": "targets"
+      },
+      {
+        "from": "used/adapted",
+        "to": "FAQs",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1414,
+    "output": 325,
+    "time (ns)": 10784809000
+  }
+}

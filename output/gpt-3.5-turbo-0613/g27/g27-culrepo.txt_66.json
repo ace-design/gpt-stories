@@ -1,0 +1,58 @@
+{
+  "story": "#G27# As a Cornell faculty member, I want to easily assign a CC license to the files I are depositing, so that users know how the materials can be used.\n",
+  "extraction": {
+    "personas": [
+      "Cornell faculty member"
+    ],
+    "entities": [
+      "CC license",
+      "files"
+    ],
+    "actions": [
+      "assign",
+      "depositing"
+    ],
+    "benefit": "users know how the materials can be used"
+  },
+  "categories": {
+    "primary_entities": [
+      "CC license",
+      "files"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "assign",
+      "depositing"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Cornell faculty member",
+        "to": "assign",
+        "kind": "triggers"
+      },
+      {
+        "from": "assign",
+        "to": "CC license",
+        "kind": "targets"
+      },
+      {
+        "from": "Cornell faculty member",
+        "to": "depositing",
+        "kind": "triggers"
+      },
+      {
+        "from": "depositing",
+        "to": "files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1338,
+    "output": 228,
+    "time (ns)": 6978284000
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "story": "#G27# As a data curator, I want to have a mechanism to allow for records scheduling for items that do not need to be stored indefinitely.\n",
+  "extraction": {
+    "personas": [
+      "data curator"
+    ],
+    "entities": [
+      "records",
+      "items"
+    ],
+    "actions": [
+      "have",
+      "allow",
+      "scheduling",
+      "store"
+    ],
+    "benefit": "to allow for records scheduling for items that do not need to be stored indefinitely"
+  },
+  "categories": {
+    "primary_entities": [
+      "records",
+      "items"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "allow",
+      "scheduling",
+      "store"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data curator",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "records",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "items",
+        "kind": "targets"
+      },
+      {
+        "from": "allow",
+        "to": "scheduling",
+        "kind": "targets"
+      },
+      {
+        "from": "scheduling",
+        "to": "records",
+        "kind": "targets"
+      },
+      {
+        "from": "scheduling",
+        "to": "items",
+        "kind": "targets"
+      },
+      {
+        "from": "store",
+        "to": "records",
+        "kind": "targets"
+      },
+      {
+        "from": "store",
+        "to": "items",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1345,
+    "output": 337,
+    "time (ns)": 9937307000
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "story": "#G27# As a library staff member, I want to use content and metadata from the repository in other systems and/or web pages easily, so that I can deliver such content in the manner best fit to the audience or occasion.\n",
+  "extraction": {
+    "personas": [
+      "library staff member"
+    ],
+    "entities": [
+      "content",
+      "metadata",
+      "repository",
+      "other systems",
+      "web pages"
+    ],
+    "actions": [
+      "use",
+      "deliver"
+    ],
+    "benefit": "deliver such content in the manner best fit to the audience or occasion"
+  },
+  "categories": {
+    "primary_entities": [
+      "content",
+      "metadata",
+      "repository"
+    ],
+    "secondary_entities": [
+      "other systems",
+      "web pages"
+    ],
+    "primary_actions": [
+      "use"
+    ],
+    "secondary_actions": [
+      "deliver"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "library staff member",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "content",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "other systems",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "web pages",
+        "kind": "targets"
+      },
+      {
+        "from": "deliver",
+        "to": "content",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1400,
+    "output": 317,
+    "time (ns)": 8558551000
+  }
+}

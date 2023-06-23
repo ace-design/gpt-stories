@@ -1,0 +1,62 @@
+{
+  "story": "#G27# As a DB/IR administrator, I want to see list of subscribers for specified report in order research missing report complaints.\n",
+  "extraction": {
+    "personas": [
+      "DB/IR administrator"
+    ],
+    "entities": [
+      "list of subscribers",
+      "specified report"
+    ],
+    "actions": [
+      "see",
+      "research",
+      "missing report complaints"
+    ],
+    "benefit": "research missing report complaints"
+  },
+  "categories": {
+    "primary_entities": [
+      "list of subscribers"
+    ],
+    "secondary_entities": [
+      "specified report"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": [
+      "research",
+      "missing report complaints"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DB/IR administrator",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "list of subscribers",
+        "kind": "targets"
+      },
+      {
+        "from": "DB/IR administrator",
+        "to": "research",
+        "kind": "triggers"
+      },
+      {
+        "from": "research",
+        "to": "missing report complaints",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1318,
+    "output": 235,
+    "time (ns)": 6690013000
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "story": "#G27# As a faculty member, I want to upload my scholarly work to the repository, so that I can reach a non-academic audience, expand my influence within my academic community, and use it for teaching.\n",
+  "extraction": {
+    "personas": [
+      "faculty member"
+    ],
+    "entities": [
+      "scholarly work",
+      "repository"
+    ],
+    "actions": [
+      "upload"
+    ],
+    "benefit": "reach a non-academic audience, expand influence within academic community, use it for teaching"
+  },
+  "categories": {
+    "primary_entities": [
+      "scholarly work"
+    ],
+    "secondary_entities": [
+      "repository"
+    ],
+    "primary_actions": [
+      "upload"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "faculty member",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "scholarly work",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1369,
+    "output": 174,
+    "time (ns)": 5147219000
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "story": "#G27# As a library staff member, I want to access useful and comprehensive usage statistics and analytics, including altmetrics, at the repository, collection, author, and item level, so that I can assess the results of this service.\n",
+  "extraction": {
+    "personas": [
+      "library staff member"
+    ],
+    "entities": [
+      "usage statistics",
+      "analytics",
+      "altmetrics",
+      "repository",
+      "collection",
+      "author",
+      "item"
+    ],
+    "actions": [
+      "access",
+      "assess"
+    ],
+    "benefit": "I can assess the results of this service"
+  },
+  "categories": {
+    "primary_entities": [
+      "usage statistics",
+      "analytics",
+      "altmetrics"
+    ],
+    "secondary_entities": [
+      "repository",
+      "collection",
+      "author",
+      "item"
+    ],
+    "primary_actions": [
+      "access"
+    ],
+    "secondary_actions": [
+      "assess"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "library staff member",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "usage statistics",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "analytics",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "altmetrics",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "collection",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "author",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "item",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "assess",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1417,
+    "output": 377,
+    "time (ns)": 10376533000
+  }
+}

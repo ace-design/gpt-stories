@@ -1,0 +1,73 @@
+{
+  "story": "#G27# As a faculty member, I want to upload my scholarly work to the repository, so that I can have a persistent URL that can be used for my personal web page and CV.\n",
+  "extraction": {
+    "personas": [
+      "faculty member"
+    ],
+    "entities": [
+      "scholarly work",
+      "repository",
+      "persistent URL",
+      "personal web page",
+      "CV"
+    ],
+    "actions": [
+      "upload"
+    ],
+    "benefit": "have a persistent URL that can be used for my personal web page and CV"
+  },
+  "categories": {
+    "primary_entities": [
+      "scholarly work",
+      "repository",
+      "persistent URL"
+    ],
+    "secondary_entities": [
+      "personal web page",
+      "CV"
+    ],
+    "primary_actions": [
+      "upload"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "faculty member",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "scholarly work",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "persistent URL",
+        "kind": "targets"
+      },
+      {
+        "from": "persistent URL",
+        "to": "personal web page",
+        "kind": "targets"
+      },
+      {
+        "from": "persistent URL",
+        "to": "CV",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1386,
+    "output": 301,
+    "time (ns)": 8428010000
+  }
+}

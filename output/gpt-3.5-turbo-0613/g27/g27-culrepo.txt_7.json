@@ -1,0 +1,74 @@
+{
+  "story": "#G27# As a DB/IR administrator, I want to manage report/dataset name changes so patrons are able to find historic reports that have a different name from current report.\n",
+  "extraction": {
+    "personas": [
+      "DB/IR administrator"
+    ],
+    "entities": [
+      "report/dataset",
+      "patrons",
+      "historic reports"
+    ],
+    "actions": [
+      "manage",
+      "name changes",
+      "find"
+    ],
+    "benefit": "patrons are able to find historic reports that have a different name from current report"
+  },
+  "categories": {
+    "primary_entities": [
+      "report/dataset"
+    ],
+    "secondary_entities": [
+      "patrons",
+      "historic reports"
+    ],
+    "primary_actions": [
+      "manage"
+    ],
+    "secondary_actions": [
+      "name changes",
+      "find"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DB/IR administrator",
+        "to": "manage",
+        "kind": "triggers"
+      },
+      {
+        "from": "manage",
+        "to": "report/dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "manage",
+        "to": "name changes",
+        "kind": "targets"
+      },
+      {
+        "from": "manage",
+        "to": "find",
+        "kind": "targets"
+      },
+      {
+        "from": "report/dataset",
+        "to": "patrons",
+        "kind": "targets"
+      },
+      {
+        "from": "report/dataset",
+        "to": "historic reports",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1378,
+    "output": 304,
+    "time (ns)": 8155054000
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "story": "#G27# As a DB/IR administrator, I want to unpublish a report/dataset if requested to do so by USDA agency.\n",
+  "extraction": {
+    "personas": [
+      "DB/IR administrator"
+    ],
+    "entities": [
+      "report/dataset",
+      "USDA agency"
+    ],
+    "actions": [
+      "unpublish"
+    ],
+    "benefit": "to comply with USDA agency's request"
+  },
+  "categories": {
+    "primary_entities": [
+      "report/dataset"
+    ],
+    "secondary_entities": [
+      "USDA agency"
+    ],
+    "primary_actions": [
+      "unpublish"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DB/IR administrator",
+        "to": "unpublish",
+        "kind": "triggers"
+      },
+      {
+        "from": "unpublish",
+        "to": "report/dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "DB/IR administrator",
+        "to": "unpublish",
+        "kind": "triggers"
+      },
+      {
+        "from": "unpublish",
+        "to": "USDA agency",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1311,
+    "output": 231,
+    "time (ns)": 6675305000
+  }
+}

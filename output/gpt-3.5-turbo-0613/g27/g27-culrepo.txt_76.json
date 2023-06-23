@@ -1,0 +1,95 @@
+{
+  "story": "#G27# As an Extension Educator, I want to have a place to store a variety of documents, presentations and data sets I've created, that doesn't require an extra step in making available on my own County/Region/Project site (i.e. a list or directory of materials there is automatically updated when placed in a central archive/repository).\n",
+  "extraction": {
+    "personas": [
+      "Extension Educator"
+    ],
+    "entities": [
+      "documents",
+      "presentations",
+      "data sets",
+      "County/Region/Project site",
+      "list or directory of materials",
+      "central archive/repository"
+    ],
+    "actions": [
+      "store",
+      "make available",
+      "update"
+    ],
+    "benefit": "have a place to store a variety of documents, presentations and data sets that doesn't require an extra step in making available on my own County/Region/Project site"
+  },
+  "categories": {
+    "primary_entities": [
+      "documents",
+      "presentations",
+      "data sets"
+    ],
+    "secondary_entities": [
+      "County/Region/Project site",
+      "list or directory of materials",
+      "central archive/repository"
+    ],
+    "primary_actions": [
+      "store"
+    ],
+    "secondary_actions": [
+      "make available",
+      "update"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Extension Educator",
+        "to": "store",
+        "kind": "triggers"
+      },
+      {
+        "from": "store",
+        "to": "documents",
+        "kind": "targets"
+      },
+      {
+        "from": "store",
+        "to": "presentations",
+        "kind": "targets"
+      },
+      {
+        "from": "store",
+        "to": "data sets",
+        "kind": "targets"
+      },
+      {
+        "from": "store",
+        "to": "County/Region/Project site",
+        "kind": "targets"
+      },
+      {
+        "from": "store",
+        "to": "list or directory of materials",
+        "kind": "targets"
+      },
+      {
+        "from": "store",
+        "to": "central archive/repository",
+        "kind": "targets"
+      },
+      {
+        "from": "make available",
+        "to": "County/Region/Project site",
+        "kind": "targets"
+      },
+      {
+        "from": "update",
+        "to": "County/Region/Project site",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1569,
+    "output": 445,
+    "time (ns)": 12107471000
+  }
+}

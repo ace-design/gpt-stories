@@ -1,0 +1,67 @@
+{
+  "story": "#G27# As a library staff member, I want to be able to add custom metadata fields for deposits I make on behalf of researchers to allow for better search capabilities.\n",
+  "extraction": {
+    "personas": [
+      "library staff member"
+    ],
+    "entities": [
+      "custom metadata fields",
+      "deposits",
+      "researchers"
+    ],
+    "actions": [
+      "add",
+      "allow",
+      "search"
+    ],
+    "benefit": "better search capabilities"
+  },
+  "categories": {
+    "primary_entities": [
+      "custom metadata fields",
+      "deposits",
+      "researchers"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "add",
+      "allow",
+      "search"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "library staff member",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "custom metadata fields",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "deposits",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "researchers",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "better search capabilities",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1347,
+    "output": 264,
+    "time (ns)": 7503837000
+  }
+}

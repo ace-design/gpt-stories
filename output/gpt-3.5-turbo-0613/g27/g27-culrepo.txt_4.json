@@ -1,0 +1,63 @@
+{
+  "story": "#G27# As a patron, I want to know which reports/datasets are coming out when, so that I can access latest report/dataset.\n",
+  "extraction": {
+    "personas": [
+      "patron"
+    ],
+    "entities": [
+      "reports",
+      "datasets"
+    ],
+    "actions": [
+      "know",
+      "access"
+    ],
+    "benefit": "I can access the latest report/dataset"
+  },
+  "categories": {
+    "primary_entities": [
+      "reports",
+      "datasets"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "patron",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "reports",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "reports",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "datasets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1310,
+    "output": 238,
+    "time (ns)": 7194790000
+  }
+}

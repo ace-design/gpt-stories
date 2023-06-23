@@ -1,0 +1,102 @@
+{
+  "story": "#G27# As an externaluser, I want to easily find and access research and educational materials from Cornell faculty related to a particular topic, which I can use to develop stronger research/evidence based programming, grant proposals, community policy, or business practices.\n",
+  "extraction": {
+    "personas": [
+      "externaluser"
+    ],
+    "entities": [
+      "research and educational materials",
+      "Cornell faculty",
+      "topic",
+      "research/evidence based programming",
+      "grant proposals",
+      "community policy",
+      "business practices"
+    ],
+    "actions": [
+      "find",
+      "access",
+      "develop"
+    ],
+    "benefit": "I can use to develop stronger research/evidence based programming, grant proposals, community policy, or business practices."
+  },
+  "categories": {
+    "primary_entities": [
+      "research and educational materials",
+      "Cornell faculty",
+      "topic"
+    ],
+    "secondary_entities": [
+      "research/evidence based programming",
+      "grant proposals",
+      "community policy",
+      "business practices"
+    ],
+    "primary_actions": [
+      "find",
+      "access"
+    ],
+    "secondary_actions": [
+      "develop"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "externaluser",
+        "to": "find",
+        "kind": "triggers"
+      },
+      {
+        "from": "externaluser",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "find",
+        "to": "research and educational materials",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "research and educational materials",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "Cornell faculty",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "topic",
+        "kind": "targets"
+      },
+      {
+        "from": "develop",
+        "to": "research/evidence based programming",
+        "kind": "targets"
+      },
+      {
+        "from": "develop",
+        "to": "grant proposals",
+        "kind": "targets"
+      },
+      {
+        "from": "develop",
+        "to": "community policy",
+        "kind": "targets"
+      },
+      {
+        "from": "develop",
+        "to": "business practices",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1488,
+    "output": 451,
+    "time (ns)": 12255927000
+  }
+}

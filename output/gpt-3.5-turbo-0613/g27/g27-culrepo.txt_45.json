@@ -1,0 +1,66 @@
+{
+  "story": "#G27# As a Cornell faculty member, I want to search for the dissertations in the repository for which I have been a thesis committee member, to quickly find work by a former student.\n",
+  "extraction": {
+    "personas": [
+      "Cornell faculty member"
+    ],
+    "entities": [
+      "dissertations",
+      "repository",
+      "thesis committee member",
+      "former student"
+    ],
+    "actions": [
+      "search"
+    ],
+    "benefit": "quickly find work by a former student"
+  },
+  "categories": {
+    "primary_entities": [
+      "dissertations",
+      "repository"
+    ],
+    "secondary_entities": [
+      "thesis committee member",
+      "former student"
+    ],
+    "primary_actions": [
+      "search"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Cornell faculty member",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "dissertations",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "thesis committee member",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "former student",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1367,
+    "output": 265,
+    "time (ns)": 7505814000
+  }
+}

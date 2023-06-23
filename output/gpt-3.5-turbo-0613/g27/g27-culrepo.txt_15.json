@@ -1,0 +1,71 @@
+{
+  "story": "#G27# As a Cornell faculty member, I want to search the repository and browse through its contents on my phone, so that I can check things on the go.\n",
+  "extraction": {
+    "personas": [
+      "Cornell faculty member"
+    ],
+    "entities": [
+      "repository",
+      "phone"
+    ],
+    "actions": [
+      "search",
+      "browse",
+      "check"
+    ],
+    "benefit": "I can check things on the go"
+  },
+  "categories": {
+    "primary_entities": [
+      "repository",
+      "phone"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "search",
+      "browse"
+    ],
+    "secondary_actions": [
+      "check"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Cornell faculty member",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "Cornell faculty member",
+        "to": "browse",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "browse",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "browse",
+        "to": "phone",
+        "kind": "targets"
+      },
+      {
+        "from": "check",
+        "to": "phone",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1331,
+    "output": 275,
+    "time (ns)": 7494717000
+  }
+}

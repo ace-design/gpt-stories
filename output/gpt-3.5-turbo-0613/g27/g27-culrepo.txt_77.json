@@ -1,0 +1,88 @@
+{
+  "story": "#G27# As a patron, I want to know other reports/datasets that are related (e.g. see also) to report/dataset being viewed for the purpose finding other related information.\n",
+  "extraction": {
+    "personas": [
+      "patron"
+    ],
+    "entities": [
+      "reports",
+      "datasets",
+      "report/dataset being viewed"
+    ],
+    "actions": [
+      "know",
+      "see also",
+      "finding"
+    ],
+    "benefit": "finding other related information"
+  },
+  "categories": {
+    "primary_entities": [
+      "reports",
+      "datasets",
+      "report/dataset being viewed"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "finding"
+    ],
+    "secondary_actions": [
+      "see also"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "patron",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "reports",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "report/dataset being viewed",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "finding",
+        "kind": "targets"
+      },
+      {
+        "from": "see also",
+        "to": "reports",
+        "kind": "targets"
+      },
+      {
+        "from": "see also",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "see also",
+        "to": "report/dataset being viewed",
+        "kind": "targets"
+      },
+      {
+        "from": "see also",
+        "to": "finding",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1360,
+    "output": 367,
+    "time (ns)": 10267090000
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "story": "#G27# As an asset manager, I want to be assured that the assets can be taken out of the repository, and that the assets taken out are the same as those that are put in.\n",
+  "extraction": {
+    "personas": [
+      "asset manager"
+    ],
+    "entities": [
+      "assets",
+      "repository"
+    ],
+    "actions": [
+      "assured",
+      "taken out",
+      "put in"
+    ],
+    "benefit": "be assured that the assets can be taken out of the repository, and that the assets taken out are the same as those that are put in"
+  },
+  "categories": {
+    "primary_entities": [
+      "assets",
+      "repository"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "assured",
+      "taken out",
+      "put in"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "asset manager",
+        "to": "assured",
+        "kind": "triggers"
+      },
+      {
+        "from": "assured",
+        "to": "assets",
+        "kind": "targets"
+      },
+      {
+        "from": "assured",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "taken out",
+        "to": "assets",
+        "kind": "targets"
+      },
+      {
+        "from": "put in",
+        "to": "assets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1398,
+    "output": 275,
+    "time (ns)": 7812846000
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "story": "#G27# As a library staff member, I want to create collections which highlight rare, archival, or endangered material, so that I can preserve and provide access to this material.\n",
+  "extraction": {
+    "personas": [
+      "library staff member"
+    ],
+    "entities": [
+      "collections",
+      "rare material",
+      "archival material",
+      "endangered material"
+    ],
+    "actions": [
+      "create",
+      "highlight",
+      "preserve",
+      "provide access"
+    ],
+    "benefit": "preserve and provide access to rare, archival, or endangered material"
+  },
+  "categories": {
+    "primary_entities": [
+      "collections"
+    ],
+    "secondary_entities": [
+      "rare material",
+      "archival material",
+      "endangered material"
+    ],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": [
+      "highlight",
+      "preserve",
+      "provide access"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "library staff member",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "collections",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "rare material",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "archival material",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "endangered material",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "preserve",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "provide access",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1392,
+    "output": 337,
+    "time (ns)": 9238471000
+  }
+}

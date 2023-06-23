@@ -1,0 +1,82 @@
+{
+  "story": "#G27# As a Cornell faculty member, I want to upload data to the repository and associate it with a publication, so that I receive attribution for my data as well as my publications.\n",
+  "extraction": {
+    "personas": [
+      "Cornell faculty member"
+    ],
+    "entities": [
+      "data",
+      "repository",
+      "publication"
+    ],
+    "actions": [
+      "upload",
+      "associate",
+      "receive attribution"
+    ],
+    "benefit": "receive attribution for my data as well as my publications"
+  },
+  "categories": {
+    "primary_entities": [
+      "data",
+      "repository",
+      "publication"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "upload",
+      "associate",
+      "receive attribution"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Cornell faculty member",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "publication",
+        "kind": "targets"
+      },
+      {
+        "from": "associate",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "associate",
+        "to": "publication",
+        "kind": "targets"
+      },
+      {
+        "from": "receive attribution",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "receive attribution",
+        "to": "publication",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1363,
+    "output": 335,
+    "time (ns)": 10170495000
+  }
+}

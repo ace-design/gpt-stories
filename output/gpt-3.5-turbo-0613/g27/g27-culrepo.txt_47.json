@@ -1,0 +1,67 @@
+{
+  "story": "#G27# As a researcher, I want to have information that will help me identify other faculty I might partner/collaborate with.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "information",
+      "faculty"
+    ],
+    "actions": [
+      "identify",
+      "partner",
+      "collaborate"
+    ],
+    "benefit": "help me identify other faculty I might partner/collaborate with"
+  },
+  "categories": {
+    "primary_entities": [
+      "information"
+    ],
+    "secondary_entities": [
+      "faculty"
+    ],
+    "primary_actions": [
+      "identify"
+    ],
+    "secondary_actions": [
+      "partner",
+      "collaborate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "identify",
+        "kind": "triggers"
+      },
+      {
+        "from": "identify",
+        "to": "information",
+        "kind": "targets"
+      },
+      {
+        "from": "identify",
+        "to": "faculty",
+        "kind": "targets"
+      },
+      {
+        "from": "partner",
+        "to": "faculty",
+        "kind": "targets"
+      },
+      {
+        "from": "collaborate",
+        "to": "faculty",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1326,
+    "output": 253,
+    "time (ns)": 7251676000
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "story": "#G27# As a patron, I want to select/deselect reports/datasets to be emailed, possibly many at one time, when new versions are available.\n",
+  "extraction": {
+    "personas": [
+      "patron"
+    ],
+    "entities": [
+      "reports",
+      "datasets"
+    ],
+    "actions": [
+      "select/deselect",
+      "email"
+    ],
+    "benefit": "be notified when new versions are available"
+  },
+  "categories": {
+    "primary_entities": [
+      "reports",
+      "datasets"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "select/deselect",
+      "email"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "patron",
+        "to": "select/deselect",
+        "kind": "triggers"
+      },
+      {
+        "from": "select/deselect",
+        "to": "reports",
+        "kind": "targets"
+      },
+      {
+        "from": "select/deselect",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "select/deselect",
+        "to": "email",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1320,
+    "output": 224,
+    "time (ns)": 6455724000
+  }
+}

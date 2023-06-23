@@ -1,0 +1,52 @@
+{
+  "story": "#G27# As a data curator, I want to upload a new version of an item that has changed, while still allowing old versions to be accessed.\n",
+  "extraction": {
+    "personas": [
+      "data curator"
+    ],
+    "entities": [
+      "item"
+    ],
+    "actions": [
+      "upload",
+      "access"
+    ],
+    "benefit": "allowing old versions to be accessed"
+  },
+  "categories": {
+    "primary_entities": [
+      "item"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "upload"
+    ],
+    "secondary_actions": [
+      "access"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data curator",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "item",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "item",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1300,
+    "output": 180,
+    "time (ns)": 5648849000
+  }
+}

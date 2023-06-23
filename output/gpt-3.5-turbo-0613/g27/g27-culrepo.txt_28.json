@@ -1,0 +1,57 @@
+{
+  "story": "#G27# As a Cornell faculty member, I want to upload a data file and put a CC-By or CC0 license on it, so that my licensing desires are clearly stated.\n",
+  "extraction": {
+    "personas": [
+      "Cornell faculty member"
+    ],
+    "entities": [
+      "data file"
+    ],
+    "actions": [
+      "upload",
+      "put a CC-By or CC0 license on"
+    ],
+    "benefit": "my licensing desires are clearly stated"
+  },
+  "categories": {
+    "primary_entities": [
+      "data file"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "upload"
+    ],
+    "secondary_actions": [
+      "put a CC-By or CC0 license on"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Cornell faculty member",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "data file",
+        "kind": "targets"
+      },
+      {
+        "from": "Cornell faculty member",
+        "to": "put a CC-By or CC0 license on",
+        "kind": "triggers"
+      },
+      {
+        "from": "put a CC-By or CC0 license on",
+        "to": "data file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1353,
+    "output": 252,
+    "time (ns)": 7198967000
+  }
+}

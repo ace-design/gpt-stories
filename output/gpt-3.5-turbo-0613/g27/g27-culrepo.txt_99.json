@@ -1,0 +1,63 @@
+{
+  "story": "#G27# As an asset manager, I want to be assured that threats to copies in one repository are not automatically incurred by the redundant copies.\n",
+  "extraction": {
+    "personas": [
+      "asset manager"
+    ],
+    "entities": [
+      "copies",
+      "repository"
+    ],
+    "actions": [
+      "assured",
+      "incurred"
+    ],
+    "benefit": "threats to copies in one repository are not automatically incurred by the redundant copies"
+  },
+  "categories": {
+    "primary_entities": [
+      "copies",
+      "repository"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "assured",
+      "incurred"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "asset manager",
+        "to": "assured",
+        "kind": "triggers"
+      },
+      {
+        "from": "assured",
+        "to": "copies",
+        "kind": "targets"
+      },
+      {
+        "from": "assured",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "incurred",
+        "to": "copies",
+        "kind": "targets"
+      },
+      {
+        "from": "incurred",
+        "to": "repository",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1327,
+    "output": 254,
+    "time (ns)": 7396966000
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "story": "#G27# As a faculty member, I want to access a collection within the repository, so that I can obtain research materials.\n",
+  "extraction": {
+    "personas": [
+      "faculty member"
+    ],
+    "entities": [
+      "collection",
+      "repository",
+      "research materials"
+    ],
+    "actions": [
+      "access",
+      "obtain"
+    ],
+    "benefit": "I can obtain research materials"
+  },
+  "categories": {
+    "primary_entities": [
+      "collection",
+      "repository",
+      "research materials"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "access",
+      "obtain"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "faculty member",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "collection",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "obtain",
+        "to": "research materials",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1307,
+    "output": 222,
+    "time (ns)": 6913091000
+  }
+}

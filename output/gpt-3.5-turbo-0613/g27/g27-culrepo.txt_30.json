@@ -1,0 +1,74 @@
+{
+  "story": "#G27# As a Cornell faculty member, I want to create a collection for my documents, or my organization's documents, and apply some distinctive branding to that collection, so that I can promote my work, or that of my organization.\n",
+  "extraction": {
+    "personas": [
+      "Cornell faculty member"
+    ],
+    "entities": [
+      "collection",
+      "documents",
+      "organization's documents"
+    ],
+    "actions": [
+      "create",
+      "apply",
+      "promote"
+    ],
+    "benefit": "I can promote my work, or that of my organization"
+  },
+  "categories": {
+    "primary_entities": [
+      "collection",
+      "documents"
+    ],
+    "secondary_entities": [
+      "organization's documents"
+    ],
+    "primary_actions": [
+      "create",
+      "apply"
+    ],
+    "secondary_actions": [
+      "promote"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Cornell faculty member",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "Cornell faculty member",
+        "to": "apply",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "collection",
+        "kind": "targets"
+      },
+      {
+        "from": "apply",
+        "to": "collection",
+        "kind": "targets"
+      },
+      {
+        "from": "apply",
+        "to": "documents",
+        "kind": "targets"
+      },
+      {
+        "from": "promote",
+        "to": "documents",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1398,
+    "output": 291,
+    "time (ns)": 8121312000
+  }
+}

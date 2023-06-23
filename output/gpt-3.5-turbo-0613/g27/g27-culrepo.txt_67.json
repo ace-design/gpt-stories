@@ -1,0 +1,94 @@
+{
+  "story": "#G27# As a repository support team member, I want to export a set of records and associated files, manipulate this data set, and reload into the system, because I am aware of a uniform error in a collection.\n",
+  "extraction": {
+    "personas": [
+      "repository support team member"
+    ],
+    "entities": [
+      "set of records",
+      "associated files",
+      "data set",
+      "system",
+      "uniform error",
+      "collection"
+    ],
+    "actions": [
+      "export",
+      "manipulate",
+      "reload"
+    ],
+    "benefit": "to fix a uniform error in a collection"
+  },
+  "categories": {
+    "primary_entities": [
+      "set of records",
+      "data set",
+      "system",
+      "uniform error",
+      "collection"
+    ],
+    "secondary_entities": [
+      "associated files"
+    ],
+    "primary_actions": [
+      "export",
+      "manipulate",
+      "reload"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository support team member",
+        "to": "export",
+        "kind": "triggers"
+      },
+      {
+        "from": "repository support team member",
+        "to": "manipulate",
+        "kind": "triggers"
+      },
+      {
+        "from": "repository support team member",
+        "to": "reload",
+        "kind": "triggers"
+      },
+      {
+        "from": "export",
+        "to": "set of records",
+        "kind": "targets"
+      },
+      {
+        "from": "export",
+        "to": "associated files",
+        "kind": "targets"
+      },
+      {
+        "from": "manipulate",
+        "to": "data set",
+        "kind": "targets"
+      },
+      {
+        "from": "reload",
+        "to": "system",
+        "kind": "targets"
+      },
+      {
+        "from": "reload",
+        "to": "uniform error",
+        "kind": "targets"
+      },
+      {
+        "from": "reload",
+        "to": "collection",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1424,
+    "output": 402,
+    "time (ns)": 10890303000
+  }
+}

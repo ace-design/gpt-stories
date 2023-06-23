@@ -1,0 +1,84 @@
+{
+  "story": "#G27# As a library staff member, I want to quickly correct errors in uploaded metadata, and even uploaded documents, while leaving a record of my revisions (and possibly the reasons behind them), so that I can present correct versions of content and to locate points of error.\n",
+  "extraction": {
+    "personas": [
+      "library staff member"
+    ],
+    "entities": [
+      "uploaded metadata",
+      "uploaded documents",
+      "record of revisions"
+    ],
+    "actions": [
+      "correct errors",
+      "present correct versions",
+      "locate points of error"
+    ],
+    "benefit": "quickly correct errors in uploaded metadata and documents, present correct versions of content, and locate points of error"
+  },
+  "categories": {
+    "primary_entities": [
+      "uploaded metadata",
+      "uploaded documents"
+    ],
+    "secondary_entities": [
+      "record of revisions"
+    ],
+    "primary_actions": [
+      "correct errors"
+    ],
+    "secondary_actions": [
+      "present correct versions",
+      "locate points of error"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "library staff member",
+        "to": "correct errors",
+        "kind": "triggers"
+      },
+      {
+        "from": "correct errors",
+        "to": "uploaded metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "correct errors",
+        "to": "uploaded documents",
+        "kind": "targets"
+      },
+      {
+        "from": "correct errors",
+        "to": "record of revisions",
+        "kind": "targets"
+      },
+      {
+        "from": "present correct versions",
+        "to": "uploaded metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "present correct versions",
+        "to": "uploaded documents",
+        "kind": "targets"
+      },
+      {
+        "from": "locate points of error",
+        "to": "uploaded metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "locate points of error",
+        "to": "uploaded documents",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1458,
+    "output": 380,
+    "time (ns)": 11702583000
+  }
+}

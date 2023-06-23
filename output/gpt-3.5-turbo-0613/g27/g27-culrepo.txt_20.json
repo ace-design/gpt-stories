@@ -1,0 +1,75 @@
+{
+  "story": "#G27# As an administrator, I want to see comprehensive tracking statistics that can be presented to faculty in a digestible way, so that I can increase buy-in for contributing their work.\n",
+  "extraction": {
+    "personas": [
+      "administrator",
+      "faculty"
+    ],
+    "entities": [
+      "comprehensive tracking statistics",
+      "faculty",
+      "work"
+    ],
+    "actions": [
+      "see",
+      "present",
+      "increase"
+    ],
+    "benefit": "increase buy-in for contributing their work"
+  },
+  "categories": {
+    "primary_entities": [
+      "comprehensive tracking statistics"
+    ],
+    "secondary_entities": [
+      "faculty",
+      "work"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": [
+      "present",
+      "increase"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "administrator",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "comprehensive tracking statistics",
+        "kind": "targets"
+      },
+      {
+        "from": "administrator",
+        "to": "present",
+        "kind": "triggers"
+      },
+      {
+        "from": "present",
+        "to": "faculty",
+        "kind": "targets"
+      },
+      {
+        "from": "administrator",
+        "to": "increase",
+        "kind": "triggers"
+      },
+      {
+        "from": "increase",
+        "to": "buy-in for contributing their work",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1360,
+    "output": 289,
+    "time (ns)": 8018669000
+  }
+}

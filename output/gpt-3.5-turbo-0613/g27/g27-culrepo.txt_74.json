@@ -1,0 +1,79 @@
+{
+  "story": "#G27# As an Extension Administrator or Staff Content Manager, I want to get periodic IR reminders, including when something needs attention (including next ingestion/approval steps), or something that might need to move from a current knowledge collection to Historical.\n",
+  "extraction": {
+    "personas": [
+      "Extension Administrator",
+      "Staff Content Manager"
+    ],
+    "entities": [
+      "IR reminders",
+      "something",
+      "next ingestion/approval steps",
+      "current knowledge collection",
+      "Historical"
+    ],
+    "actions": [
+      "get"
+    ],
+    "benefit": "to be notified when something needs attention or needs to be moved"
+  },
+  "categories": {
+    "primary_entities": [
+      "IR reminders",
+      "next ingestion/approval steps",
+      "current knowledge collection"
+    ],
+    "secondary_entities": [
+      "something",
+      "Historical"
+    ],
+    "primary_actions": [
+      "get"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Extension Administrator",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "Staff Content Manager",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "IR reminders",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "next ingestion/approval steps",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "current knowledge collection",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "something",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "Historical",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1429,
+    "output": 338,
+    "time (ns)": 9574253000
+  }
+}

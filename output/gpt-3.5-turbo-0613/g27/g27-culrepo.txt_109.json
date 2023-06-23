@@ -1,0 +1,67 @@
+{
+  "story": "#G27# As a library staff member, I want to create a collection, sometimes with custom metadata fields, so that I can house digital material for wider distribution.\n",
+  "extraction": {
+    "personas": [
+      "library staff member"
+    ],
+    "entities": [
+      "collection",
+      "custom metadata fields",
+      "digital material"
+    ],
+    "actions": [
+      "create",
+      "house"
+    ],
+    "benefit": "wider distribution"
+  },
+  "categories": {
+    "primary_entities": [
+      "collection"
+    ],
+    "secondary_entities": [
+      "custom metadata fields",
+      "digital material"
+    ],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": [
+      "house"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "library staff member",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "collection",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "custom metadata fields",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "digital material",
+        "kind": "targets"
+      },
+      {
+        "from": "house",
+        "to": "collection",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1326,
+    "output": 248,
+    "time (ns)": 8970300000
+  }
+}

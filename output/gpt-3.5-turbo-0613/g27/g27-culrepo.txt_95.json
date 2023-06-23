@@ -1,0 +1,60 @@
+{
+  "story": "#G27# As a library staff member, I want to create custom metadata fields for certain collections, and allow searching of those fields, so that I can best reflect and deliver diverse content.\n",
+  "extraction": {
+    "personas": [
+      "library staff member"
+    ],
+    "entities": [
+      "custom metadata fields",
+      "certain collections"
+    ],
+    "actions": [
+      "create",
+      "allow searching"
+    ],
+    "benefit": "best reflect and deliver diverse content"
+  },
+  "categories": {
+    "primary_entities": [
+      "custom metadata fields"
+    ],
+    "secondary_entities": [
+      "certain collections"
+    ],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": [
+      "allow searching"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "library staff member",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "custom metadata fields",
+        "kind": "targets"
+      },
+      {
+        "from": "library staff member",
+        "to": "allow searching",
+        "kind": "triggers"
+      },
+      {
+        "from": "allow searching",
+        "to": "certain collections",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1344,
+    "output": 230,
+    "time (ns)": 6677023000
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "story": "#G27# As an asset manager, I want to be assured that there is a formal plan for the disposition of assets if the IR should cease.\n",
+  "extraction": {
+    "personas": [
+      "asset manager"
+    ],
+    "entities": [
+      "formal plan",
+      "assets",
+      "IR"
+    ],
+    "actions": [
+      "assured",
+      "cease"
+    ],
+    "benefit": "be assured that there is a formal plan for the disposition of assets if the IR should cease"
+  },
+  "categories": {
+    "primary_entities": [
+      "formal plan",
+      "assets",
+      "IR"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "assured",
+      "cease"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "asset manager",
+        "to": "assured",
+        "kind": "triggers"
+      },
+      {
+        "from": "assured",
+        "to": "formal plan",
+        "kind": "targets"
+      },
+      {
+        "from": "IR",
+        "to": "cease",
+        "kind": "triggers"
+      },
+      {
+        "from": "cease",
+        "to": "formal plan",
+        "kind": "targets"
+      },
+      {
+        "from": "IR",
+        "to": "cease",
+        "kind": "triggers"
+      },
+      {
+        "from": "cease",
+        "to": "assets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1351,
+    "output": 299,
+    "time (ns)": 9948827000
+  }
+}

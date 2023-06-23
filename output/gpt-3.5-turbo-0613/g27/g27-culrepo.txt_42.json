@@ -1,0 +1,87 @@
+{
+  "story": "#G27# As a patron, I want to browse content by author or subject area to locate needed resources.\n",
+  "extraction": {
+    "personas": [
+      "patron"
+    ],
+    "entities": [
+      "content",
+      "author",
+      "subject area",
+      "resources"
+    ],
+    "actions": [
+      "browse",
+      "locate"
+    ],
+    "benefit": "to locate needed resources"
+  },
+  "categories": {
+    "primary_entities": [
+      "content",
+      "author",
+      "subject area",
+      "resources"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "browse",
+      "locate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "patron",
+        "to": "browse",
+        "kind": "triggers"
+      },
+      {
+        "from": "browse",
+        "to": "content",
+        "kind": "targets"
+      },
+      {
+        "from": "browse",
+        "to": "author",
+        "kind": "targets"
+      },
+      {
+        "from": "browse",
+        "to": "subject area",
+        "kind": "targets"
+      },
+      {
+        "from": "browse",
+        "to": "resources",
+        "kind": "targets"
+      },
+      {
+        "from": "locate",
+        "to": "content",
+        "kind": "targets"
+      },
+      {
+        "from": "locate",
+        "to": "author",
+        "kind": "targets"
+      },
+      {
+        "from": "locate",
+        "to": "subject area",
+        "kind": "targets"
+      },
+      {
+        "from": "locate",
+        "to": "resources",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1299,
+    "output": 350,
+    "time (ns)": 9882576000
+  }
+}

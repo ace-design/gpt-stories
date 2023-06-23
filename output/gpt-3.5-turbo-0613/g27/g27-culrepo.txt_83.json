@@ -1,0 +1,68 @@
+{
+  "story": "#G27# As a library staff member, I want to receive a quick response and a reasonable resolution to tech support issues, so that service can proceed with minimal interruption.\n",
+  "extraction": {
+    "personas": [
+      "library staff member"
+    ],
+    "entities": [
+      "tech support issues",
+      "service"
+    ],
+    "actions": [
+      "receive",
+      "resolve"
+    ],
+    "benefit": "service can proceed with minimal interruption"
+  },
+  "categories": {
+    "primary_entities": [
+      "tech support issues",
+      "service"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "receive",
+      "resolve"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "library staff member",
+        "to": "receive",
+        "kind": "triggers"
+      },
+      {
+        "from": "receive",
+        "to": "tech support issues",
+        "kind": "targets"
+      },
+      {
+        "from": "library staff member",
+        "to": "resolve",
+        "kind": "triggers"
+      },
+      {
+        "from": "resolve",
+        "to": "tech support issues",
+        "kind": "targets"
+      },
+      {
+        "from": "service",
+        "to": "resolve",
+        "kind": "triggers"
+      },
+      {
+        "from": "service",
+        "to": "receive",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1326,
+    "output": 276,
+    "time (ns)": 7631143000
+  }
+}

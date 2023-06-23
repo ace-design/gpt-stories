@@ -1,0 +1,58 @@
+{
+  "story": "#G27# As a Cornell faculty member, I want to associate a researcherID or ORCID with a submission, so that there is no ambiguity between my work and someone else with the same name.\n",
+  "extraction": {
+    "personas": [
+      "Cornell faculty member"
+    ],
+    "entities": [
+      "researcherID",
+      "ORCID",
+      "submission"
+    ],
+    "actions": [
+      "associate"
+    ],
+    "benefit": "avoid ambiguity between my work and someone else with the same name"
+  },
+  "categories": {
+    "primary_entities": [
+      "researcherID",
+      "ORCID",
+      "submission"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "associate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Cornell faculty member",
+        "to": "associate",
+        "kind": "triggers"
+      },
+      {
+        "from": "associate",
+        "to": "researcherID",
+        "kind": "targets"
+      },
+      {
+        "from": "associate",
+        "to": "ORCID",
+        "kind": "targets"
+      },
+      {
+        "from": "associate",
+        "to": "submission",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1361,
+    "output": 230,
+    "time (ns)": 6784299000
+  }
+}

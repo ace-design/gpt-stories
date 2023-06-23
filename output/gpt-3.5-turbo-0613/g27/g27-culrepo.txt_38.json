@@ -1,0 +1,59 @@
+{
+  "story": "#G27# As a researcher, I want to search within a repository or collection in an effective manner, including searching within subsets of a given collection, so that I can facilitate my use of the collection.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "repository",
+      "collection",
+      "subsets"
+    ],
+    "actions": [
+      "search"
+    ],
+    "benefit": "facilitate my use of the collection"
+  },
+  "categories": {
+    "primary_entities": [
+      "repository",
+      "collection"
+    ],
+    "secondary_entities": [
+      "subsets"
+    ],
+    "primary_actions": [
+      "search"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "collection",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "subsets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1345,
+    "output": 215,
+    "time (ns)": 6457667000
+  }
+}

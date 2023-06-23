@@ -1,0 +1,67 @@
+{
+  "story": "#G27# As a DB/IR administrator, I want to manage subject classifications for ease of patron browsing and searching.\n",
+  "extraction": {
+    "personas": [
+      "DB/IR administrator"
+    ],
+    "entities": [
+      "subject classifications",
+      "patron"
+    ],
+    "actions": [
+      "manage",
+      "browsing",
+      "searching"
+    ],
+    "benefit": "ease of patron browsing and searching"
+  },
+  "categories": {
+    "primary_entities": [
+      "subject classifications"
+    ],
+    "secondary_entities": [
+      "patron"
+    ],
+    "primary_actions": [
+      "manage"
+    ],
+    "secondary_actions": [
+      "browsing",
+      "searching"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DB/IR administrator",
+        "to": "manage",
+        "kind": "triggers"
+      },
+      {
+        "from": "manage",
+        "to": "subject classifications",
+        "kind": "targets"
+      },
+      {
+        "from": "manage",
+        "to": "patron",
+        "kind": "targets"
+      },
+      {
+        "from": "manage",
+        "to": "browsing",
+        "kind": "targets"
+      },
+      {
+        "from": "manage",
+        "to": "searching",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1310,
+    "output": 256,
+    "time (ns)": 7329170000
+  }
+}

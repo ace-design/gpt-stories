@@ -1,0 +1,69 @@
+{
+  "story": "#G27# As an administrator, I want to be able to use systems such as Symplectic Elements and Activity Insight to properly track faculty scholarly output in the repositories, so that I can facilitate personnel decisions.\n",
+  "extraction": {
+    "personas": [
+      "administrator"
+    ],
+    "entities": [
+      "systems",
+      "Symplectic Elements",
+      "Activity Insight",
+      "repositories"
+    ],
+    "actions": [
+      "track",
+      "facilitate"
+    ],
+    "benefit": "I can facilitate personnel decisions"
+  },
+  "categories": {
+    "primary_entities": [
+      "systems",
+      "repositories"
+    ],
+    "secondary_entities": [
+      "Symplectic Elements",
+      "Activity Insight"
+    ],
+    "primary_actions": [
+      "track"
+    ],
+    "secondary_actions": [
+      "facilitate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "administrator",
+        "to": "track",
+        "kind": "triggers"
+      },
+      {
+        "from": "track",
+        "to": "systems",
+        "kind": "targets"
+      },
+      {
+        "from": "track",
+        "to": "repositories",
+        "kind": "targets"
+      },
+      {
+        "from": "administrator",
+        "to": "facilitate",
+        "kind": "triggers"
+      },
+      {
+        "from": "facilitate",
+        "to": "personnel decisions",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1371,
+    "output": 262,
+    "time (ns)": 10585104000
+  }
+}

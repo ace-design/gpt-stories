@@ -1,0 +1,52 @@
+{
+  "story": "#G27# As a DB/IR administrator, I want to upload revised report/dataset due to error in report/document.\n",
+  "extraction": {
+    "personas": [
+      "DB/IR administrator"
+    ],
+    "entities": [
+      "revised report/dataset",
+      "report/document"
+    ],
+    "actions": [
+      "upload"
+    ],
+    "benefit": "due to error in report/document"
+  },
+  "categories": {
+    "primary_entities": [
+      "revised report/dataset"
+    ],
+    "secondary_entities": [
+      "report/document"
+    ],
+    "primary_actions": [
+      "upload"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DB/IR administrator",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "revised report/dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "report/document",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1300,
+    "output": 198,
+    "time (ns)": 5782052000
+  }
+}

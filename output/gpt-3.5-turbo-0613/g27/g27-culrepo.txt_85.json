@@ -1,0 +1,56 @@
+{
+  "story": "#G27# As a DB/IR administrator, I want to login to personal account with access to authorized functions.\n",
+  "extraction": {
+    "personas": [
+      "DB/IR administrator"
+    ],
+    "entities": [
+      "personal account"
+    ],
+    "actions": [
+      "login",
+      "access"
+    ],
+    "benefit": "I can access authorized functions"
+  },
+  "categories": {
+    "primary_entities": [
+      "personal account"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "login",
+      "access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DB/IR administrator",
+        "to": "login",
+        "kind": "triggers"
+      },
+      {
+        "from": "login",
+        "to": "personal account",
+        "kind": "targets"
+      },
+      {
+        "from": "DB/IR administrator",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "authorized functions",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1281,
+    "output": 216,
+    "time (ns)": 6485199000
+  }
+}

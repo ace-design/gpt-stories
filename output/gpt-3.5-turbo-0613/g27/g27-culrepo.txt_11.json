@@ -1,0 +1,63 @@
+{
+  "story": "#G27# As a faculty member, I want to easily collect my publications -- both those within the repository and without -- into a single online access point, so that I can raise the profile of my work.\n",
+  "extraction": {
+    "personas": [
+      "faculty member"
+    ],
+    "entities": [
+      "publications",
+      "repository"
+    ],
+    "actions": [
+      "collect",
+      "raise the profile"
+    ],
+    "benefit": "easily collect my publications -- both those within the repository and without -- into a single online access point, so that I can raise the profile of my work"
+  },
+  "categories": {
+    "primary_entities": [
+      "publications",
+      "repository"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "collect",
+      "raise the profile"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "faculty member",
+        "to": "collect",
+        "kind": "triggers"
+      },
+      {
+        "from": "collect",
+        "to": "publications",
+        "kind": "targets"
+      },
+      {
+        "from": "collect",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "faculty member",
+        "to": "raise the profile",
+        "kind": "triggers"
+      },
+      {
+        "from": "raise the profile",
+        "to": "publications",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1401,
+    "output": 275,
+    "time (ns)": 7583127000
+  }
+}

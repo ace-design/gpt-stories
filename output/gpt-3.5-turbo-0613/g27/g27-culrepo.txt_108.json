@@ -1,0 +1,88 @@
+{
+  "story": "#G27# As a library staff member, I want to preserve the scholarship of the law school by using sustainable links that will not succumb to link rot, so that I can create a permanent digital archive for the scholarship of my institution.\n",
+  "extraction": {
+    "personas": [
+      "library staff member"
+    ],
+    "entities": [
+      "scholarship of the law school",
+      "sustainable links",
+      "link rot",
+      "permanent digital archive",
+      "scholarship of my institution"
+    ],
+    "actions": [
+      "preserve",
+      "use",
+      "create"
+    ],
+    "benefit": "preserve the scholarship of the law school and create a permanent digital archive for the scholarship of my institution"
+  },
+  "categories": {
+    "primary_entities": [
+      "scholarship of the law school",
+      "sustainable links",
+      "permanent digital archive"
+    ],
+    "secondary_entities": [
+      "link rot",
+      "scholarship of my institution"
+    ],
+    "primary_actions": [
+      "preserve",
+      "create"
+    ],
+    "secondary_actions": [
+      "use"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "library staff member",
+        "to": "preserve",
+        "kind": "triggers"
+      },
+      {
+        "from": "library staff member",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "library staff member",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "preserve",
+        "to": "scholarship of the law school",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "sustainable links",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "link rot",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "permanent digital archive",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "scholarship of my institution",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1469,
+    "output": 402,
+    "time (ns)": 12850674000
+  }
+}

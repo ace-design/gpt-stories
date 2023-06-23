@@ -1,0 +1,56 @@
+{
+  "story": "#G27# As a crossdeptprojteammember, I want to have a better place to collect and share project materials, with a range of organization/tagging and access options, including private (internal group use only), University and public.\n",
+  "extraction": {
+    "personas": [
+      "crossdeptprojteammember"
+    ],
+    "entities": [
+      "project materials"
+    ],
+    "actions": [
+      "collect",
+      "share"
+    ],
+    "benefit": "have a better place to collect and share project materials with organization/tagging and access options"
+  },
+  "categories": {
+    "primary_entities": [
+      "project materials"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "collect",
+      "share"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "crossdeptprojteammember",
+        "to": "collect",
+        "kind": "triggers"
+      },
+      {
+        "from": "crossdeptprojteammember",
+        "to": "share",
+        "kind": "triggers"
+      },
+      {
+        "from": "collect",
+        "to": "project materials",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "project materials",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1387,
+    "output": 234,
+    "time (ns)": 6643108000
+  }
+}

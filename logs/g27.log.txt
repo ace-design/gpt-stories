@@ -1,0 +1,820 @@
+START: 21:32:27
+# Processing g27-culrepo.txt
+- Story #[1] -- started at 21:32:27
+    - #G27# As a faculty member, I want to access a collection within the repository, so that I can obtain research materials.
+
+        - calling model 21:32:27
+        - calling model 21:32:31
+        - calling model 21:32:35
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_1.json
+- Story #[2] -- started at 21:32:40
+    - #G27# As a faculty member, I want to direct students to an item within the repository, so that I can facilitate my teaching (i.e. desires ability to link to content).
+
+        - calling model 21:32:40
+        - calling model 21:32:44
+        - calling model 21:32:48
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_2.json
+- Story #[3] -- started at 21:32:52
+    - #G27# As a Cornell faculty member, I want to upload data to the repository and associate it with a publication, so that I receive attribution for my data as well as my publications.
+
+        - calling model 21:32:52
+        - calling model 21:32:56
+        - calling model 21:32:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_3.json
+- Story #[4] -- started at 21:33:08
+    - #G27# As a patron, I want to know which reports/datasets are coming out when, so that I can access latest report/dataset.
+
+        - calling model 21:33:08
+        - calling model 21:33:11
+        - calling model 21:33:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_4.json
+- Story #[5] -- started at 21:33:21
+    - #G27# As a patron, I want to select/deselect reports/datasets to be emailed, possibly many at one time, when new versions are available.
+
+        - calling model 21:33:21
+        - calling model 21:33:25
+        - calling model 21:33:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_5.json
+- Story #[6] -- started at 21:33:34
+    - #G27# As a DB/IR administrator, I want to mark report/dataset not to be emailed/viewable due to error being discovered.
+
+        - calling model 21:33:34
+        - calling model 21:33:37
+        - calling model 21:33:40
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_6.json
+- Story #[7] -- started at 21:33:44
+    - #G27# As a DB/IR administrator, I want to manage report/dataset name changes so patrons are able to find historic reports that have a different name from current report.
+
+        - calling model 21:33:44
+        - calling model 21:33:48
+        - calling model 21:33:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_7.json
+- Story #[8] -- started at 21:33:59
+    - #G27# As a Cornell faculty member, I want to see clearly what reuse rights I have to files discovered in the repository, so that I know how I can reuse them.
+
+        - calling model 21:33:59
+        - calling model 21:34:02
+        - calling model 21:34:06
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_8.json
+- Story #[9] -- started at 21:34:11
+    - #G27# As a library staff member, I want to apply or remove an access embargo to an item when asked to do this by an item author.
+
+        - calling model 21:34:11
+        - calling model 21:34:15
+        - calling model 21:34:19
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_9.json
+- Story #[10] -- started at 21:34:27
+    - #G27# As a researcher, I want to stay up to date on research related to a given topic at Cornell, including those in other departments/schools, so that my own research remains relevant and innovative.
+
+        - calling model 21:34:27
+        - calling model 21:34:31
+        - calling model 21:34:34
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_10.json
+- Story #[11] -- started at 21:34:39
+    - #G27# As a faculty member, I want to easily collect my publications -- both those within the repository and without -- into a single online access point, so that I can raise the profile of my work.
+
+        - calling model 21:34:39
+        - calling model 21:34:43
+        - calling model 21:34:46
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_11.json
+- Story #[12] -- started at 21:34:52
+    - #G27# As a crossdeptprojteammember, I want to have a better place to collect and share project materials, with a range of organization/tagging and access options, including private (internal group use only), University and public.
+
+        - calling model 21:34:52
+        - calling model 21:34:56
+        - calling model 21:34:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_12.json
+- Story #[13] -- started at 21:35:05
+    - #G27# As a Cornell faculty member, I want to upload data and provide a cut and paste formatted citation for people who use it, so that I receive proper attribution for my work.
+
+        - calling model 21:35:05
+        - calling model 21:35:08
+        - calling model 21:35:12
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_13.json
+- Story #[14] -- started at 21:35:17
+    - #G27# As a patron, I want to view/upload content in multiple formats, including old formats such as Lotus Works.
+
+        - calling model 21:35:17
+        - calling model 21:35:21
+        - calling model 21:35:25
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_14.json
+- Story #[15] -- started at 21:35:30
+    - #G27# As a Cornell faculty member, I want to search the repository and browse through its contents on my phone, so that I can check things on the go.
+
+        - calling model 21:35:30
+        - calling model 21:35:34
+        - calling model 21:35:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_15.json
+- Story #[16] -- started at 21:35:43
+    - #G27# As a Cornell faculty member, I want to login remotely to the repository using Shibboleth, so that I can get remote access to Cornell campus-only content.
+
+        - calling model 21:35:43
+        - calling model 21:35:48
+        - calling model 21:35:51
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_16.json
+- Story #[17] -- started at 21:35:57
+    - #G27# As a Cornell faculty member, I want to have some control over how items within my collection sort in collection contents lists, so that I can control how my work is presented.
+
+        - calling model 21:35:57
+        - calling model 21:36:01
+        - calling model 21:36:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_17.json
+- Story #[18] -- started at 21:36:11
+    - #G27# As an administrator, I want to be able to use systems such as Symplectic Elements and Activity Insight to properly track faculty scholarly output in the repositories, so that I can facilitate personnel decisions.
+
+        - calling model 21:36:11
+        - calling model 21:36:17
+        - calling model 21:36:21
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_18.json
+- Story #[19] -- started at 21:36:27
+    - #G27# As a library staff member, I want to access useful and comprehensive usage statistics and analytics, including altmetrics, at the repository, collection, author, and item level, so that I can assess the results of this service.
+
+        - calling model 21:36:27
+        - calling model 21:36:31
+        - calling model 21:36:35
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_19.json
+- Story #[20] -- started at 21:36:44
+    - #G27# As an administrator, I want to see comprehensive tracking statistics that can be presented to faculty in a digestible way, so that I can increase buy-in for contributing their work.
+
+        - calling model 21:36:44
+       - exception caught! Pausing for 60 seconds
+        - calling model 21:38:14
+        - calling model 21:38:17
+        - calling model 21:38:21
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_20.json
+- Story #[21] -- started at 21:38:28
+    - #G27# As a Cornell faculty member, I want to be notified if someone downloads any of my items or files, so that I can follow usage and see what others are most interested in reading.
+
+        - calling model 21:38:28
+        - calling model 21:38:32
+        - calling model 21:38:36
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_21.json
+- Story #[22] -- started at 21:38:42
+    - #G27# As a DB/IR administrator, I want to see list of subscribers for specified report in order research missing report complaints.
+
+        - calling model 21:38:42
+        - calling model 21:38:45
+        - calling model 21:38:49
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_22.json
+- Story #[23] -- started at 21:38:54
+    - #G27# As an administrator, I want to disseminate the aforementioned works in a digital space that is strongly branded, so that I can make sure my school is credited for the work.
+
+        - calling model 21:38:54
+        - calling model 21:38:58
+        - calling model 21:39:02
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_23.json
+- Story #[24] -- started at 21:39:07
+    - #G27# As a faculty member, I want to upload my scholarly work to the repository, so that I can have a persistent URL that can be used for my personal web page and CV.
+
+        - calling model 21:39:07
+        - calling model 21:39:11
+        - calling model 21:39:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_24.json
+- Story #[25] -- started at 21:39:22
+    - #G27# As a library staff member, I want to create collections which highlight rare, archival, or endangered material, so that I can preserve and provide access to this material.
+
+        - calling model 21:39:22
+        - calling model 21:39:26
+        - calling model 21:39:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_25.json
+- Story #[26] -- started at 21:39:37
+    - #G27# As an Extension Administrator, I want to have easy, well documented and supported workflows that can be easily passed on to others when she/others retire, so that continuity can be maintained.
+
+        - calling model 21:39:37
+        - calling model 21:39:40
+        - calling model 21:39:44
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_26.json
+- Story #[27] -- started at 21:39:52
+    - #G27# As a faculty member, I want to maintain versioning of Extension brochures, FAQs, etc., so that only the most current are used/adapted by other CCE Educators in their work.
+
+        - calling model 21:39:52
+        - calling model 21:39:56
+        - calling model 21:40:02
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_27.json
+- Story #[28] -- started at 21:40:09
+    - #G27# As a Cornell faculty member, I want to upload a data file and put a CC-By or CC0 license on it, so that my licensing desires are clearly stated.
+
+        - calling model 21:40:09
+        - calling model 21:40:13
+        - calling model 21:40:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_28.json
+- Story #[29] -- started at 21:40:22
+    - #G27# As a library staff member, I want to be able to tell the researchers I'm helping with DMPs that Cornell has a repository system I can use for archiving and sharing results of their research, so that I can easily meet the needs of funder DMP requirements.
+
+        - calling model 21:40:22
+        - calling model 21:40:27
+        - calling model 21:40:31
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_29.json
+- Story #[30] -- started at 21:40:43
+    - #G27# As a Cornell faculty member, I want to create a collection for my documents, or my organization's documents, and apply some distinctive branding to that collection, so that I can promote my work, or that of my organization.
+
+        - calling model 21:40:43
+        - calling model 21:40:47
+        - calling model 21:40:51
+       - exception caught! Pausing for 60 seconds
+        - calling model 21:42:21
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_30.json
+- Story #[31] -- started at 21:42:28
+    - #G27# As a Cornell faculty member, I want to easily find all the items in the repository that I have authored, by searching on my name (author name authority and/or identification issue), because I keeps my publications in the repository up-to-date and points people tithe repository.
+
+        - calling model 21:42:28
+        - calling model 21:42:31
+        - calling model 21:42:35
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_31.json
+- Story #[32] -- started at 21:42:41
+    - #G27# As a Cornell faculty member, I want to see items I have deposited in the repository appear high up in Google search results, because that's my ticket to stardom.
+
+        - calling model 21:42:41
+        - calling model 21:42:45
+        - calling model 21:42:48
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_32.json
+- Story #[33] -- started at 21:42:54
+    - #G27# As a repository support team member, I want to alias (or map) an item from one collection to another (so the item will appear to belong to both collections), because the collection owner has asked them to.
+
+        - calling model 21:42:54
+        - calling model 21:42:57
+        - calling model 21:43:01
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_33.json
+- Story #[34] -- started at 21:43:06
+    - #G27# As a researcher, I want to discover items in the repository through the library's discovery system and Google, so that I can facilitate my easy use of the content.
+
+        - calling model 21:43:06
+        - calling model 21:43:10
+        - calling model 21:43:13
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_34.json
+- Story #[35] -- started at 21:43:19
+    - #G27# As a researcher, I want to see descriptive metadata for the item whether I come to the item through the repository or directly to the PDF, so that I can correctly identify the source of the content.
+
+        - calling model 21:43:19
+        - calling model 21:43:22
+        - calling model 21:43:26
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_35.json
+- Story #[36] -- started at 21:43:34
+    - #G27# As a researcher, I want to contact the author of a work that interests me, so that I can learn more about my research.
+
+        - calling model 21:43:34
+        - calling model 21:43:37
+        - calling model 21:43:40
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_36.json
+- Story #[37] -- started at 21:43:44
+    - #G27# As a researcher, I want to receive updates when new works are published in a given collection or by a given author, so that I can discover more of their work.
+
+        - calling model 21:43:44
+        - calling model 21:43:48
+        - calling model 21:43:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_37.json
+- Story #[38] -- started at 21:43:57
+    - #G27# As a researcher, I want to search within a repository or collection in an effective manner, including searching within subsets of a given collection, so that I can facilitate my use of the collection.
+
+        - calling model 21:43:57
+        - calling model 21:44:01
+        - calling model 21:44:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_38.json
+- Story #[39] -- started at 21:44:10
+    - #G27# As an academicresearcher, I want to find the works of a particular author in one easily sortable spot, so that I can see the evolution of their scholarship over time.
+
+        - calling model 21:44:10
+        - calling model 21:44:14
+        - calling model 21:44:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_39.json
+- Story #[40] -- started at 21:44:21
+    - #G27# As an academicresearcher, I want to the thesis paper of an influential judge or legal thinker to gain insight into how their initial scholarship got started.
+
+        - calling model 21:44:21
+        - calling model 21:44:25
+        - calling model 21:44:29
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_40.json
+- Story #[41] -- started at 21:44:33
+    - #G27# As a patron, I want to search for report/dataset with keywords or a partial or complete title to locate needed report/dataset.
+
+        - calling model 21:44:33
+        - calling model 21:44:36
+        - calling model 21:44:40
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_41.json
+- Story #[42] -- started at 21:44:44
+    - #G27# As a patron, I want to browse content by author or subject area to locate needed resources.
+
+        - calling model 21:44:44
+        - calling model 21:44:48
+        - calling model 21:44:51
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_42.json
+- Story #[43] -- started at 21:45:00
+    - #G27# As a DB/IR administrator, I want to manage subject classifications for ease of patron browsing and searching.
+
+        - calling model 21:45:00
+        - calling model 21:45:04
+        - calling model 21:45:07
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_43.json
+- Story #[44] -- started at 21:45:13
+    - #G27# As a DB/IR administrator, I want to manage customizable relationship groups in support of patron see also option.
+
+        - calling model 21:45:13
+        - calling model 21:45:17
+       - exception caught! Pausing for 60 seconds
+        - calling model 21:46:47
+        - calling model 21:46:51
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_44.json
+- Story #[45] -- started at 21:46:56
+    - #G27# As a Cornell faculty member, I want to search for the dissertations in the repository for which I have been a thesis committee member, to quickly find work by a former student.
+
+        - calling model 21:46:56
+        - calling model 21:47:00
+        - calling model 21:47:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_45.json
+- Story #[46] -- started at 21:47:09
+    - #G27# As a library staff member, I want to make digital items held in trusted external system searchable within our system, so that I can provide seamless access to disparate collections.
+
+        - calling model 21:47:09
+        - calling model 21:47:13
+        - calling model 21:47:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_46.json
+- Story #[47] -- started at 21:47:23
+    - #G27# As a researcher, I want to have information that will help me identify other faculty I might partner/collaborate with.
+
+        - calling model 21:47:23
+        - calling model 21:47:27
+        - calling model 21:47:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_47.json
+- Story #[48] -- started at 21:47:36
+    - #G27# As an externaluser, I want to easily find and access research and educational materials from Cornell faculty related to a particular topic, which I can use to develop stronger research/evidence based programming, grant proposals, community policy, or business practices.
+
+        - calling model 21:47:36
+        - calling model 21:47:41
+        - calling model 21:47:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_48.json
+- Story #[49] -- started at 21:47:55
+    - #G27# As a student, I want to learn who at Cornell has or is engaged in research related to a particular topic, so that I can decide if I would like to pursue studies/research at Cornell.
+
+        - calling model 21:47:55
+        - calling model 21:47:59
+        - calling model 21:48:02
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_49.json
+- Story #[50] -- started at 21:48:09
+    - #G27# As a student, I want to learn who at Cornell has or is engaged in research related to a particular topic, so that I can find an appropriate advisor, choose which courses to enroll in, and identify work/internship opportunities.
+
+        - calling model 21:48:09
+        - calling model 21:48:13
+        - calling model 21:48:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_50.json
+- Story #[51] -- started at 21:48:24
+    - #G27# As a teachingfacultymember, I want to identify timely and relevant research suitable for use in my curriculum, and be notified of new research/content.
+
+        - calling model 21:48:24
+        - calling model 21:48:28
+        - calling model 21:48:31
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_51.json
+- Story #[52] -- started at 21:48:38
+    - #G27# As a patron, I want to view multiple versions of a report/dataset to get both timely and historical information.
+
+        - calling model 21:48:38
+        - calling model 21:48:42
+        - calling model 21:48:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_52.json
+- Story #[53] -- started at 21:48:50
+    - #G27# As a faculty member, I want to upload my scholarly work to the repository, so that I can reach a non-academic audience, expand my influence within my academic community, and use it for teaching.
+
+        - calling model 21:48:50
+        - calling model 21:48:54
+        - calling model 21:48:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_53.json
+- Story #[54] -- started at 21:49:01
+    - #G27# As a library staff member, I want to upload material to the repository on the author's behalf, so that I can fulfill a service obligation.
+
+        - calling model 21:49:01
+        - calling model 21:49:05
+        - calling model 21:49:08
+       - exception caught! Pausing for 60 seconds
+        - calling model 21:50:38
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_54.json
+- Story #[55] -- started at 21:50:44
+    - #G27# As a library staff member, I want to create metadata for items within the repository that includes document title, description, author, document type, status, file locations, subscribable flag, subject area, release frequency, and keywords for searching.
+
+        - calling model 21:50:44
+        - calling model 21:50:48
+        - calling model 21:50:51
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_55.json
+- Story #[56] -- started at 21:50:57
+    - #G27# As a library staff member, I want to upload large batches of items simultaneously, including descriptive metadata, so that I can offer service to authors efficiently.
+
+        - calling model 21:50:57
+        - calling model 21:51:00
+        - calling model 21:51:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_56.json
+- Story #[57] -- started at 21:51:10
+    - #G27# As a library staff member, I want to upload an item to the repository that will only become visible after a specific embargo period has expired, so that I can comply with author or publisher requirements.
+
+        - calling model 21:51:10
+        - calling model 21:51:14
+        - calling model 21:51:18
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_57.json
+- Story #[58] -- started at 21:51:24
+    - #G27# As a library staff member, I want to include supplementary files such as datasets, slideshows, etc. – with DOIs for each, as needed – when uploading a given work, so that I can provide a robust image of the work in question.
+
+        - calling model 21:51:24
+        - calling model 21:51:29
+        - calling model 21:51:32
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_58.json
+- Story #[59] -- started at 21:51:37
+    - #G27# As a library staff member, I want to deliver streaming media from within the repository, so that I can deliver such content in the manner expected and ensure continued access to said content.
+
+        - calling model 21:51:37
+        - calling model 21:51:41
+        - calling model 21:51:44
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_59.json
+- Story #[60] -- started at 21:51:48
+    - #G27# As an administrator, I want to have a platform that can support a variety of media file and text-based formats, so that the intellectual output of the school can be showcased and preserved in a more comprehensive way.
+
+        - calling model 21:51:48
+        - calling model 21:51:53
+        - calling model 21:51:56
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_60.json
+- Story #[61] -- started at 21:52:03
+    - #G27# As a library staff member, I want to be able to assign an item to more than one collection.
+
+        - calling model 21:52:03
+        - calling model 21:52:07
+        - calling model 21:52:10
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_61.json
+- Story #[62] -- started at 21:52:15
+    - #G27# As a library staff member, I want to be able to add custom metadata fields for deposits I make on behalf of researchers to allow for better search capabilities.
+
+        - calling model 21:52:15
+        - calling model 21:52:18
+        - calling model 21:52:22
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_62.json
+- Story #[63] -- started at 21:52:28
+    - #G27# As a DB/IR administrator, I want to upload revised report/dataset due to error in report/document.
+
+        - calling model 21:52:28
+        - calling model 21:52:32
+        - calling model 21:52:35
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_63.json
+- Story #[64] -- started at 21:52:40
+    - #G27# As a DB/IR administrator, I want to upload new version of report/dataset while retaining previous versions for patron use.
+
+        - calling model 21:52:40
+        - calling model 21:52:44
+        - calling model 21:52:48
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_64.json
+- Story #[65] -- started at 21:52:53
+    - #G27# As a DB/IR administrator, I want to have the system recognize/categorize document type (e.g. historical report still published, expired historical report, single topic dataset, broad topic dataset, report with subtopic, computer file), so that report/dataset is processed and displayed properly.
+
+        - calling model 21:52:53
+        - calling model 21:52:59
+        - calling model 21:53:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_65.json
+- Story #[66] -- started at 21:53:11
+    - #G27# As a Cornell faculty member, I want to easily assign a CC license to the files I are depositing, so that users know how the materials can be used.
+
+        - calling model 21:53:11
+        - calling model 21:53:15
+        - calling model 21:53:19
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_66.json
+- Story #[67] -- started at 21:53:24
+    - #G27# As a repository support team member, I want to export a set of records and associated files, manipulate this data set, and reload into the system, because I am aware of a uniform error in a collection.
+
+        - calling model 21:53:24
+        - calling model 21:53:28
+        - calling model 21:53:32
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_67.json
+- Story #[68] -- started at 21:53:41
+    - #G27# As a Cornell faculty member, I want to associate a researcherID or ORCID with a submission, so that there is no ambiguity between my work and someone else with the same name.
+
+        - calling model 21:53:41
+        - calling model 21:53:45
+        - calling model 21:53:49
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_68.json
+- Story #[69] -- started at 21:53:54
+    - #G27# As a student, I want to upload to the repository the data that is associated with my embargoed dissertation to meet requirements of a DMP I submitted with my NSF DDIG.
+
+        - calling model 21:53:54
+        - calling model 21:53:58
+        - calling model 21:54:02
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_69.json
+- Story #[70] -- started at 21:54:10
+    - #G27# As a library staff member, I want to have customizable metadata fields, so that each project is described in the most accurate way possible.
+
+        - calling model 21:54:10
+        - calling model 21:54:14
+        - calling model 21:54:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_70.json
+- Story #[71] -- started at 21:54:22
+    - #G27# As a faculty member, I want to associate files with my scholarly works such that someone accessing the latter also receives access to the former, so that I can deliver the fullest picture of my research.
+
+        - calling model 21:54:22
+        - calling model 21:54:26
+        - calling model 21:54:29
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_71.json
+- Story #[72] -- started at 21:54:35
+    - #G27# As a library staff member, I want to use content and metadata from the repository in other systems and/or web pages easily, so that I can deliver such content in the manner best fit to the audience or occasion.
+
+        - calling model 21:54:35
+        - calling model 21:54:39
+        - calling model 21:54:42
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_72.json
+- Story #[73] -- started at 21:54:49
+    - #G27# As an Extension Administrator, I want to make resources that were developed for specific projects and geographic areas available to other faculty and educators across NYS.
+
+        - calling model 21:54:49
+        - calling model 21:54:53
+        - calling model 21:54:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_73.json
+- Story #[74] -- started at 21:55:05
+    - #G27# As an Extension Administrator or Staff Content Manager, I want to get periodic IR reminders, including when something needs attention (including next ingestion/approval steps), or something that might need to move from a current knowledge collection to Historical.
+
+        - calling model 21:55:05
+        - calling model 21:55:09
+        - calling model 21:55:13
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_74.json
+- Story #[75] -- started at 21:55:20
+    - #G27# As a researcher, I want to promote/share my work through interactive maps, so that I can display the range and extent of my work graphically.
+
+        - calling model 21:55:20
+        - calling model 21:55:24
+        - calling model 21:55:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_75.json
+- Story #[76] -- started at 21:55:34
+    - #G27# As an Extension Educator, I want to have a place to store a variety of documents, presentations and data sets I've created, that doesn't require an extra step in making available on my own County/Region/Project site (i.e. a list or directory of materials there is automatically updated when placed in a central archive/repository).
+
+        - calling model 21:55:34
+        - calling model 21:55:39
+        - calling model 21:55:43
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_76.json
+- Story #[77] -- started at 21:55:52
+    - #G27# As a patron, I want to know other reports/datasets that are related (e.g. see also) to report/dataset being viewed for the purpose finding other related information.
+
+        - calling model 21:55:52
+        - calling model 21:55:56
+        - calling model 21:56:00
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_77.json
+- Story #[78] -- started at 21:56:09
+    - #G27# As a patron, I want to know previous name(s) and publication date range (first version-last version) of reports/datasets, so that I can know what historical versions are available and how current more recent version is.
+
+        - calling model 21:56:09
+        - calling model 21:56:12
+        - calling model 21:56:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_78.json
+- Story #[79] -- started at 21:56:20
+    - #G27# As a patron, I want to create a personal account to request email notification when new version of report/dataset is available.
+
+        - calling model 21:56:20
+        - calling model 21:56:24
+        - calling model 21:56:27
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_79.json
+- Story #[80] -- started at 21:56:33
+    - #G27# As a patron, I want to download report/dataset release calendar to load into own calendar.
+
+        - calling model 21:56:33
+        - calling model 21:56:37
+        - calling model 21:56:41
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_80.json
+- Story #[81] -- started at 21:56:45
+    - #G27# As a librarydiscoveryoperator, I want to harvest useful metadata from the repository via OAI, and continue to do so incrementally, so that I can make Cornell publications discoverable in my repository.
+
+        - calling model 21:56:45
+        - calling model 21:56:49
+        - calling model 21:56:53
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_81.json
+- Story #[82] -- started at 21:56:59
+    - #G27# As a library staff member, I want to quickly correct errors in uploaded metadata, and even uploaded documents, while leaving a record of my revisions (and possibly the reasons behind them), so that I can present correct versions of content and to locate points of error.
+
+        - calling model 21:56:59
+        - calling model 21:57:03
+        - calling model 21:57:08
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_82.json
+- Story #[83] -- started at 21:57:17
+    - #G27# As a library staff member, I want to receive a quick response and a reasonable resolution to tech support issues, so that service can proceed with minimal interruption.
+
+        - calling model 21:57:17
+        - calling model 21:57:20
+        - calling model 21:57:24
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_83.json
+- Story #[84] -- started at 21:57:30
+    - #G27# As a Cornell faculty member, I want to share on the repository files that are larger than 1GB in a way that still allows users to download them if I want to use them, so that I can meet funder requirements.
+
+        - calling model 21:57:30
+        - calling model 21:57:34
+        - calling model 21:57:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_84.json
+- Story #[85] -- started at 21:57:43
+    - #G27# As a DB/IR administrator, I want to login to personal account with access to authorized functions.
+
+        - calling model 21:57:43
+        - calling model 21:57:46
+        - calling model 21:57:50
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_85.json
+- Story #[86] -- started at 21:57:55
+    - #G27# As a DB/IR administrator, I want to have a personal account with the ability to change passwords to make them more secure or to retrieve forgotten ones.
+
+        - calling model 21:57:55
+        - calling model 21:57:59
+        - calling model 21:58:02
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_86.json
+- Story #[87] -- started at 21:58:08
+    - #G27# As a DB/IR administrator, I want to set up or delete accounts for other administrators with various levels of permission.
+
+        - calling model 21:58:08
+        - calling model 21:58:11
+        - calling model 21:58:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_87.json
+- Story #[88] -- started at 21:58:22
+    - #G27# As a DB/IR administrator, I want to see a list of all administrators for ease of administering accounts.
+
+        - calling model 21:58:22
+        - calling model 21:58:25
+        - calling model 21:58:29
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_88.json
+- Story #[89] -- started at 21:58:33
+    - #G27# As a DB/IR administrator, I want to have robust searching and tracking features for existing and newly created patron accounts.
+
+        - calling model 21:58:33
+        - calling model 21:58:37
+        - calling model 21:58:40
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_89.json
+- Story #[90] -- started at 21:58:46
+    - #G27# As a DB/IR administrator, I want to unpublish a report/dataset if requested to do so by USDA agency.
+
+        - calling model 21:58:46
+        - calling model 21:58:49
+        - calling model 21:58:53
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_90.json
+- Story #[91] -- started at 21:58:59
+    - #G27# As a DB/IR administrator, I want to add future release dates of reports/datasets to calendar for patron FYI.
+
+        - calling model 21:58:59
+       - exception caught! Pausing for 60 seconds
+        - calling model 22:00:29
+        - calling model 22:00:32
+        - calling model 22:00:36
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_91.json
+- Story #[92] -- started at 22:00:41
+    - #G27# As a faculty member, I want to recommend a digital collection be built in the repository, so that I can assist in my research.
+
+        - calling model 22:00:41
+        - calling model 22:00:45
+        - calling model 22:00:48
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_92.json
+- Story #[93] -- started at 22:00:52
+    - #G27# As a DB/IR administrator, I want to search for administrator accounts using full/partial email or name.
+
+        - calling model 22:00:52
+        - calling model 22:00:56
+        - calling model 22:00:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_93.json
+- Story #[94] -- started at 22:01:03
+    - #G27# As a DB/IR administrator, I want to administrate patron accounts for purpose of closing accounts, viewing subscriptions, changing subscriptions, resetting passwords, changing email address, etc.
+
+        - calling model 22:01:03
+        - calling model 22:01:07
+        - calling model 22:01:11
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_94.json
+- Story #[95] -- started at 22:01:21
+    - #G27# As a library staff member, I want to create custom metadata fields for certain collections, and allow searching of those fields, so that I can best reflect and deliver diverse content.
+
+        - calling model 22:01:21
+        - calling model 22:01:25
+        - calling model 22:01:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_95.json
+- Story #[96] -- started at 22:01:34
+    - #G27# As a repository support team member, I want to move a collection, so that I can fulfill the collection owner's request.
+
+        - calling model 22:01:34
+        - calling model 22:01:37
+        - calling model 22:01:41
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_96.json
+- Story #[97] -- started at 22:01:45
+    - #G27# As a repository support team member, I want to rename a collection, so that I can fulfill the collection owner's request.
+
+        - calling model 22:01:45
+        - calling model 22:01:49
+        - calling model 22:01:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_97.json
+- Story #[98] -- started at 22:01:57
+    - #G27# As an asset manager, I want to be assured that the digital copy I deposit is stored redundantly, so that when one copy suffers destruction or unwanted changes, I still have other good copies to restore from.
+
+        - calling model 22:01:57
+        - calling model 22:02:01
+        - calling model 22:02:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_98.json
+- Story #[99] -- started at 22:02:09
+    - #G27# As an asset manager, I want to be assured that threats to copies in one repository are not automatically incurred by the redundant copies.
+
+        - calling model 22:02:09
+        - calling model 22:02:13
+        - calling model 22:02:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_99.json
+- Story #[100] -- started at 22:02:23
+    - #G27# As an asset manager, I want to be assured that the redundant copies are continuously monitored for unwanted changes, and that if/when changes do occur, there is a mechanism by which I can determine the original object and restore it to all copies.
+
+        - calling model 22:02:23
+        - calling model 22:02:28
+        - calling model 22:02:31
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_100.json
+- Story #[101] -- started at 22:02:37
+    - #G27# As an asset manager, I want to be assured that the assets can be taken out of the repository, and that the assets taken out are the same as those that are put in.
+
+        - calling model 22:02:37
+        - calling model 22:02:41
+        - calling model 22:02:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_101.json
+- Story #[102] -- started at 22:02:51
+    - #G27# As an asset manager, I want to know what the intellectual value of the asset is to the institution at the time of deposit, so that I obtain guidance in the evaluation of it for current value for the institution.
+
+        - calling model 22:02:51
+        - calling model 22:02:55
+        - calling model 22:02:58
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_102.json
+- Story #[103] -- started at 22:03:07
+    - #G27# As an asset manager, I want to have a mechanism to obtain a listing or understanding of all the assets that have been deposited, and their current status.
+
+        - calling model 22:03:07
+        - calling model 22:03:12
+        - calling model 22:03:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_103.json
+- Story #[104] -- started at 22:03:22
+    - #G27# As an asset manager, I want to be assured that funding and staffing of the IR have a commitment to longevity of the repository through published plans and/or explicit contract clauses.
+
+        - calling model 22:03:22
+        - calling model 22:03:26
+        - calling model 22:03:31
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_104.json
+- Story #[105] -- started at 22:03:38
+    - #G27# As a stakeholder, I want to have files adequately described, so that I can successfully render them in my contemporary operating environment.
+
+        - calling model 22:03:38
+        - calling model 22:03:42
+        - calling model 22:03:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_105.json
+- Story #[106] -- started at 22:03:50
+    - #G27# As a library staff member, I want to preserve both the content and the metadata within the repository in a robust manner, so that I can provide stable, long-term access to this material.
+
+        - calling model 22:03:50
+        - calling model 22:03:54
+        - calling model 22:03:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_106.json
+- Story #[107] -- started at 22:04:05
+    - #G27# As a data curator, I want to upload a new version of an item that has changed, while still allowing old versions to be accessed.
+
+        - calling model 22:04:05
+        - calling model 22:04:09
+        - calling model 22:04:12
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_107.json
+- Story #[108] -- started at 22:04:17
+    - #G27# As a library staff member, I want to preserve the scholarship of the law school by using sustainable links that will not succumb to link rot, so that I can create a permanent digital archive for the scholarship of my institution.
+
+        - calling model 22:04:17
+       - exception caught! Pausing for 60 seconds
+        - calling model 00:25:31
+        - calling model 00:25:36
+        - calling model 00:25:41
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_108.json
+- Story #[109] -- started at 00:25:50
+    - #G27# As a library staff member, I want to create a collection, sometimes with custom metadata fields, so that I can house digital material for wider distribution.
+
+        - calling model 00:25:50
+        - calling model 00:25:54
+        - calling model 00:25:58
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_109.json
+- Story #[110] -- started at 00:26:05
+    - #G27# As a library staff member, I want to trace the list of revisors to determine who uploaded an item to the repository, so that I can confirm that proper procedures were followed.
+
+        - calling model 00:26:05
+        - calling model 00:26:09
+        - calling model 00:26:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_110.json
+- Story #[111] -- started at 00:26:23
+    - #G27# As an asset manager, I want to be assured that there is a formal plan for the disposition of assets if the IR should cease.
+
+        - calling model 00:26:23
+        - calling model 00:26:27
+        - calling model 00:26:31
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_111.json
+- Story #[112] -- started at 00:26:39
+    - #G27# As an asset manager, I want to have mechanism to pass ownership/management of the assets to a successor.
+
+        - calling model 00:26:39
+        - calling model 00:26:43
+        - calling model 00:26:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_112.json
+- Story #[113] -- started at 00:26:52
+    - #G27# As a patron, I want to email system provider to report issues and ask questions.
+
+        - calling model 00:26:52
+        - calling model 00:26:56
+        - calling model 00:27:00
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_113.json
+- Story #[114] -- started at 00:27:06
+    - #G27# As a data curator, I want to have a mechanism to allow for records scheduling for items that do not need to be stored indefinitely.
+
+        - calling model 00:27:06
+        - calling model 00:27:10
+        - calling model 00:27:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_114.json
+- Story #[115] -- started at 00:27:22
+    - #G27# As a data curator, I want to upload a new version of an item that has changed, while still allowing old versions to be accessed.
+
+        - calling model 00:27:22
+        - calling model 00:27:26
+        - calling model 00:27:29
+    - saving result into: ./output/gpt-3.5-turbo-0613/g27-culrepo.txt_115.json
+END: 00:27:34

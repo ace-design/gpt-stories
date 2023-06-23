@@ -1,0 +1,80 @@
+{
+  "story": "#G27# As an Extension Administrator, I want to have easy, well documented and supported workflows that can be easily passed on to others when she/others retire, so that continuity can be maintained.\n",
+  "extraction": {
+    "personas": [
+      "Extension Administrator"
+    ],
+    "entities": [
+      "workflows"
+    ],
+    "actions": [
+      "have",
+      "passed on",
+      "retire",
+      "maintain"
+    ],
+    "benefit": "continuity can be maintained"
+  },
+  "categories": {
+    "primary_entities": [
+      "workflows"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "passed on",
+      "retire",
+      "maintain"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Extension Administrator",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "workflows",
+        "kind": "targets"
+      },
+      {
+        "from": "Extension Administrator",
+        "to": "passed on",
+        "kind": "triggers"
+      },
+      {
+        "from": "passed on",
+        "to": "workflows",
+        "kind": "targets"
+      },
+      {
+        "from": "Extension Administrator",
+        "to": "retire",
+        "kind": "triggers"
+      },
+      {
+        "from": "retire",
+        "to": "workflows",
+        "kind": "targets"
+      },
+      {
+        "from": "Extension Administrator",
+        "to": "maintain",
+        "kind": "triggers"
+      },
+      {
+        "from": "maintain",
+        "to": "workflows",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1355,
+    "output": 340,
+    "time (ns)": 9349338000
+  }
+}

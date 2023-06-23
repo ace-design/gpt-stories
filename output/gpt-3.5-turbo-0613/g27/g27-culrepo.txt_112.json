@@ -1,0 +1,60 @@
+{
+  "story": "#G27# As an asset manager, I want to have mechanism to pass ownership/management of the assets to a successor.\n",
+  "extraction": {
+    "personas": [
+      "asset manager"
+    ],
+    "entities": [
+      "assets",
+      "successor"
+    ],
+    "actions": [
+      "pass ownership",
+      "pass management"
+    ],
+    "benefit": "have a mechanism to transfer ownership/management of assets to a successor"
+  },
+  "categories": {
+    "primary_entities": [
+      "assets"
+    ],
+    "secondary_entities": [
+      "successor"
+    ],
+    "primary_actions": [
+      "pass ownership"
+    ],
+    "secondary_actions": [
+      "pass management"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "asset manager",
+        "to": "pass ownership",
+        "kind": "triggers"
+      },
+      {
+        "from": "pass ownership",
+        "to": "assets",
+        "kind": "targets"
+      },
+      {
+        "from": "asset manager",
+        "to": "pass management",
+        "kind": "triggers"
+      },
+      {
+        "from": "pass management",
+        "to": "assets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1311,
+    "output": 228,
+    "time (ns)": 7838895000
+  }
+}

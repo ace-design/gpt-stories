@@ -1,0 +1,63 @@
+{
+  "story": "#G27# As a Cornell faculty member, I want to easily find all the items in the repository that I have authored, by searching on my name (author name authority and/or identification issue), because I keeps my publications in the repository up-to-date and points people tithe repository.\n",
+  "extraction": {
+    "personas": [
+      "Cornell faculty member"
+    ],
+    "entities": [
+      "repository",
+      "publications"
+    ],
+    "actions": [
+      "find",
+      "search"
+    ],
+    "benefit": "easily find all the items in the repository that I have authored"
+  },
+  "categories": {
+    "primary_entities": [
+      "repository",
+      "publications"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "find",
+      "search"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Cornell faculty member",
+        "to": "find",
+        "kind": "triggers"
+      },
+      {
+        "from": "find",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "find",
+        "to": "publications",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "publications",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1408,
+    "output": 251,
+    "time (ns)": 7058943000
+  }
+}

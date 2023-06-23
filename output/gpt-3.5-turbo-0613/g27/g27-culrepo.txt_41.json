@@ -1,0 +1,44 @@
+{
+  "story": "#G27# As a patron, I want to search for report/dataset with keywords or a partial or complete title to locate needed report/dataset.\n",
+  "extraction": {
+    "personas": [
+      "patron"
+    ],
+    "entities": [
+      "report/dataset"
+    ],
+    "actions": [
+      "search"
+    ],
+    "benefit": "locate needed report/dataset"
+  },
+  "categories": {
+    "primary_entities": [
+      "report/dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "search"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "patron",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "report/dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1292,
+    "output": 154,
+    "time (ns)": 5191770000
+  }
+}

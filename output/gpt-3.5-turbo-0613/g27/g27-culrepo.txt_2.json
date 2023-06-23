@@ -1,0 +1,50 @@
+{
+  "story": "#G27# As a faculty member, I want to direct students to an item within the repository, so that I can facilitate my teaching (i.e. desires ability to link to content).\n",
+  "extraction": {
+    "personas": [
+      "faculty member"
+    ],
+    "entities": [
+      "repository",
+      "item"
+    ],
+    "actions": [
+      "direct",
+      "facilitate"
+    ],
+    "benefit": "facilitate teaching"
+  },
+  "categories": {
+    "primary_entities": [
+      "repository"
+    ],
+    "secondary_entities": [
+      "item"
+    ],
+    "primary_actions": [
+      "direct"
+    ],
+    "secondary_actions": [
+      "facilitate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "faculty member",
+        "to": "direct",
+        "kind": "triggers"
+      },
+      {
+        "from": "direct",
+        "to": "repository",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1329,
+    "output": 161,
+    "time (ns)": 5347896000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G27# As a DB/IR administrator, I want to search for administrator accounts using full/partial email or name.\n",
+  "extraction": {
+    "personas": [
+      "DB/IR administrator"
+    ],
+    "entities": [
+      "administrator accounts"
+    ],
+    "actions": [
+      "search"
+    ],
+    "benefit": "I can search for administrator accounts using full/partial email or name"
+  },
+  "categories": {
+    "primary_entities": [
+      "administrator accounts"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "search"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DB/IR administrator",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "administrator accounts",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1294,
+    "output": 163,
+    "time (ns)": 5128088000
+  }
+}

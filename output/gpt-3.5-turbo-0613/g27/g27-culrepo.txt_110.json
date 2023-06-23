@@ -1,0 +1,79 @@
+{
+  "story": "#G27# As a library staff member, I want to trace the list of revisors to determine who uploaded an item to the repository, so that I can confirm that proper procedures were followed.\n",
+  "extraction": {
+    "personas": [
+      "library staff member"
+    ],
+    "entities": [
+      "list of revisors",
+      "item",
+      "repository",
+      "procedures"
+    ],
+    "actions": [
+      "trace",
+      "determine",
+      "confirm"
+    ],
+    "benefit": "confirm that proper procedures were followed"
+  },
+  "categories": {
+    "primary_entities": [
+      "list of revisors",
+      "item",
+      "repository",
+      "procedures"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "trace",
+      "determine",
+      "confirm"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "library staff member",
+        "to": "trace",
+        "kind": "triggers"
+      },
+      {
+        "from": "trace",
+        "to": "list of revisors",
+        "kind": "targets"
+      },
+      {
+        "from": "library staff member",
+        "to": "determine",
+        "kind": "triggers"
+      },
+      {
+        "from": "determine",
+        "to": "item",
+        "kind": "targets"
+      },
+      {
+        "from": "library staff member",
+        "to": "confirm",
+        "kind": "triggers"
+      },
+      {
+        "from": "confirm",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "confirm",
+        "to": "procedures",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1377,
+    "output": 328,
+    "time (ns)": 11550805000
+  }
+}

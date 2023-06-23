@@ -1,0 +1,58 @@
+{
+  "story": "#G27# As an asset manager, I want to be assured that the digital copy I deposit is stored redundantly, so that when one copy suffers destruction or unwanted changes, I still have other good copies to restore from.\n",
+  "extraction": {
+    "personas": [
+      "asset manager"
+    ],
+    "entities": [
+      "digital copy"
+    ],
+    "actions": [
+      "deposit",
+      "store",
+      "restore"
+    ],
+    "benefit": "be assured that the digital copy is stored redundantly"
+  },
+  "categories": {
+    "primary_entities": [
+      "digital copy"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "deposit",
+      "store",
+      "restore"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "asset manager",
+        "to": "deposit",
+        "kind": "triggers"
+      },
+      {
+        "from": "deposit",
+        "to": "digital copy",
+        "kind": "targets"
+      },
+      {
+        "from": "store",
+        "to": "digital copy",
+        "kind": "targets"
+      },
+      {
+        "from": "restore",
+        "to": "digital copy",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1362,
+    "output": 220,
+    "time (ns)": 6369795000
+  }
+}

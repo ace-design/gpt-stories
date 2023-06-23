@@ -1,0 +1,63 @@
+{
+  "story": "#G27# As a repository support team member, I want to alias (or map) an item from one collection to another (so the item will appear to belong to both collections), because the collection owner has asked them to.\n",
+  "extraction": {
+    "personas": [
+      "repository support team member"
+    ],
+    "entities": [
+      "item",
+      "collection"
+    ],
+    "actions": [
+      "alias",
+      "map"
+    ],
+    "benefit": "the item will appear to belong to both collections"
+  },
+  "categories": {
+    "primary_entities": [
+      "item",
+      "collection"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "alias",
+      "map"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository support team member",
+        "to": "alias",
+        "kind": "triggers"
+      },
+      {
+        "from": "alias",
+        "to": "item",
+        "kind": "targets"
+      },
+      {
+        "from": "alias",
+        "to": "collection",
+        "kind": "targets"
+      },
+      {
+        "from": "map",
+        "to": "item",
+        "kind": "targets"
+      },
+      {
+        "from": "map",
+        "to": "collection",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1364,
+    "output": 243,
+    "time (ns)": 6649469000
+  }
+}

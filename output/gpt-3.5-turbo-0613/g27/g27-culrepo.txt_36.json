@@ -1,0 +1,47 @@
+{
+  "story": "#G27# As a researcher, I want to contact the author of a work that interests me, so that I can learn more about my research.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "author",
+      "work"
+    ],
+    "actions": [
+      "contact"
+    ],
+    "benefit": "learn more about my research"
+  },
+  "categories": {
+    "primary_entities": [
+      "author"
+    ],
+    "secondary_entities": [
+      "work"
+    ],
+    "primary_actions": [
+      "contact"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "contact",
+        "kind": "triggers"
+      },
+      {
+        "from": "contact",
+        "to": "author",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1294,
+    "output": 153,
+    "time (ns)": 4704312000
+  }
+}

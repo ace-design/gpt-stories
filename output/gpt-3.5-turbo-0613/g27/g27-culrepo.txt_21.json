@@ -1,0 +1,67 @@
+{
+  "story": "#G27# As a Cornell faculty member, I want to be notified if someone downloads any of my items or files, so that I can follow usage and see what others are most interested in reading.\n",
+  "extraction": {
+    "personas": [
+      "Cornell faculty member"
+    ],
+    "entities": [
+      "items",
+      "files"
+    ],
+    "actions": [
+      "be notified",
+      "follow usage",
+      "see what others are most interested in reading"
+    ],
+    "benefit": "I can follow usage and see what others are most interested in reading"
+  },
+  "categories": {
+    "primary_entities": [
+      "items"
+    ],
+    "secondary_entities": [
+      "files"
+    ],
+    "primary_actions": [
+      "be notified"
+    ],
+    "secondary_actions": [
+      "follow usage",
+      "see what others are most interested in reading"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Cornell faculty member",
+        "to": "be notified",
+        "kind": "triggers"
+      },
+      {
+        "from": "be notified",
+        "to": "items",
+        "kind": "targets"
+      },
+      {
+        "from": "be notified",
+        "to": "files",
+        "kind": "targets"
+      },
+      {
+        "from": "follow usage",
+        "to": "items",
+        "kind": "targets"
+      },
+      {
+        "from": "see what others are most interested in reading",
+        "to": "items",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1387,
+    "output": 280,
+    "time (ns)": 7912606000
+  }
+}

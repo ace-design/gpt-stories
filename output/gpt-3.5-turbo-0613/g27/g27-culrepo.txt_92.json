@@ -1,0 +1,50 @@
+{
+  "story": "#G27# As a faculty member, I want to recommend a digital collection be built in the repository, so that I can assist in my research.\n",
+  "extraction": {
+    "personas": [
+      "faculty member"
+    ],
+    "entities": [
+      "digital collection",
+      "repository"
+    ],
+    "actions": [
+      "recommend",
+      "built"
+    ],
+    "benefit": "assist in my research"
+  },
+  "categories": {
+    "primary_entities": [
+      "digital collection"
+    ],
+    "secondary_entities": [
+      "repository"
+    ],
+    "primary_actions": [
+      "recommend"
+    ],
+    "secondary_actions": [
+      "built"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "faculty member",
+        "to": "recommend",
+        "kind": "triggers"
+      },
+      {
+        "from": "recommend",
+        "to": "digital collection",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1302,
+    "output": 160,
+    "time (ns)": 4990233000
+  }
+}

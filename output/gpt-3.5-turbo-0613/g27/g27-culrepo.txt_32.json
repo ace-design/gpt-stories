@@ -1,0 +1,61 @@
+{
+  "story": "#G27# As a Cornell faculty member, I want to see items I have deposited in the repository appear high up in Google search results, because that's my ticket to stardom.\n",
+  "extraction": {
+    "personas": [
+      "Cornell faculty member"
+    ],
+    "entities": [
+      "repository",
+      "Google search results"
+    ],
+    "actions": [
+      "see",
+      "deposited",
+      "appear"
+    ],
+    "benefit": "that's my ticket to stardom"
+  },
+  "categories": {
+    "primary_entities": [
+      "repository",
+      "Google search results"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see",
+      "appear"
+    ],
+    "secondary_actions": [
+      "deposited"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Cornell faculty member",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "Google search results",
+        "kind": "targets"
+      },
+      {
+        "from": "deposited",
+        "to": "Google search results",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1357,
+    "output": 236,
+    "time (ns)": 6991570000
+  }
+}

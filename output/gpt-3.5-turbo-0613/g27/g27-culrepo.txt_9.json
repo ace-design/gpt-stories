@@ -1,0 +1,79 @@
+{
+  "story": "#G27# As a library staff member, I want to apply or remove an access embargo to an item when asked to do this by an item author.\n",
+  "extraction": {
+    "personas": [
+      "library staff member",
+      "item author"
+    ],
+    "entities": [
+      "access embargo",
+      "item"
+    ],
+    "actions": [
+      "apply",
+      "remove"
+    ],
+    "benefit": "to fulfill the request of the item author"
+  },
+  "categories": {
+    "primary_entities": [
+      "access embargo",
+      "item"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "apply",
+      "remove"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "library staff member",
+        "to": "apply",
+        "kind": "triggers"
+      },
+      {
+        "from": "library staff member",
+        "to": "remove",
+        "kind": "triggers"
+      },
+      {
+        "from": "apply",
+        "to": "access embargo",
+        "kind": "targets"
+      },
+      {
+        "from": "remove",
+        "to": "access embargo",
+        "kind": "targets"
+      },
+      {
+        "from": "apply",
+        "to": "item",
+        "kind": "targets"
+      },
+      {
+        "from": "remove",
+        "to": "item",
+        "kind": "targets"
+      },
+      {
+        "from": "item author",
+        "to": "apply",
+        "kind": "triggers"
+      },
+      {
+        "from": "item author",
+        "to": "remove",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1326,
+    "output": 330,
+    "time (ns)": 9214250000
+  }
+}

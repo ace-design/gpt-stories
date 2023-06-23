@@ -1,0 +1,44 @@
+{
+  "story": "#G27# As a patron, I want to know previous name(s) and publication date range (first version-last version) of reports/datasets, so that I can know what historical versions are available and how current more recent version is.\n",
+  "extraction": {
+    "personas": [
+      "patron"
+    ],
+    "entities": [
+      "reports/datasets"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "I can know what historical versions are available and how current more recent version is."
+  },
+  "categories": {
+    "primary_entities": [
+      "reports/datasets"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "patron",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "reports/datasets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1368,
+    "output": 164,
+    "time (ns)": 5048657000
+  }
+}

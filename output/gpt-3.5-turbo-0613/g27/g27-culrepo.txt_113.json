@@ -1,0 +1,56 @@
+{
+  "story": "#G27# As a patron, I want to email system provider to report issues and ask questions.\n",
+  "extraction": {
+    "personas": [
+      "patron"
+    ],
+    "entities": [
+      "email system provider"
+    ],
+    "actions": [
+      "report issues",
+      "ask questions"
+    ],
+    "benefit": "I can communicate with the system provider to address any issues or questions"
+  },
+  "categories": {
+    "primary_entities": [
+      "email system provider"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "report issues",
+      "ask questions"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "patron",
+        "to": "report issues",
+        "kind": "triggers"
+      },
+      {
+        "from": "patron",
+        "to": "ask questions",
+        "kind": "triggers"
+      },
+      {
+        "from": "report issues",
+        "to": "email system provider",
+        "kind": "targets"
+      },
+      {
+        "from": "ask questions",
+        "to": "email system provider",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1293,
+    "output": 230,
+    "time (ns)": 7377108000
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "story": "#G27# As a Cornell faculty member, I want to have some control over how items within my collection sort in collection contents lists, so that I can control how my work is presented.\n",
+  "extraction": {
+    "personas": [
+      "Cornell faculty member"
+    ],
+    "entities": [
+      "items",
+      "collection contents lists",
+      "my work"
+    ],
+    "actions": [
+      "have control over",
+      "sort",
+      "control how my work is presented"
+    ],
+    "benefit": "I can control how my work is presented"
+  },
+  "categories": {
+    "primary_entities": [
+      "items",
+      "my work"
+    ],
+    "secondary_entities": [
+      "collection contents lists"
+    ],
+    "primary_actions": [
+      "have control over",
+      "sort"
+    ],
+    "secondary_actions": [
+      "control how my work is presented"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Cornell faculty member",
+        "to": "have control over",
+        "kind": "triggers"
+      },
+      {
+        "from": "have control over",
+        "to": "items",
+        "kind": "targets"
+      },
+      {
+        "from": "have control over",
+        "to": "collection contents lists",
+        "kind": "targets"
+      },
+      {
+        "from": "sort",
+        "to": "items",
+        "kind": "targets"
+      },
+      {
+        "from": "control how my work is presented",
+        "to": "my work",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1383,
+    "output": 286,
+    "time (ns)": 7803920000
+  }
+}

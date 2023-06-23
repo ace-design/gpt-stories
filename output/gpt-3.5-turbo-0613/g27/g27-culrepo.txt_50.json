@@ -1,0 +1,80 @@
+{
+  "story": "#G27# As a student, I want to learn who at Cornell has or is engaged in research related to a particular topic, so that I can find an appropriate advisor, choose which courses to enroll in, and identify work/internship opportunities.\n",
+  "extraction": {
+    "personas": [
+      "student"
+    ],
+    "entities": [
+      "Cornell"
+    ],
+    "actions": [
+      "learn",
+      "find",
+      "choose",
+      "identify"
+    ],
+    "benefit": "I can find an appropriate advisor, choose which courses to enroll in, and identify work/internship opportunities"
+  },
+  "categories": {
+    "primary_entities": [
+      "Cornell"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "learn",
+      "find",
+      "choose",
+      "identify"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "student",
+        "to": "learn",
+        "kind": "triggers"
+      },
+      {
+        "from": "student",
+        "to": "find",
+        "kind": "triggers"
+      },
+      {
+        "from": "student",
+        "to": "choose",
+        "kind": "triggers"
+      },
+      {
+        "from": "student",
+        "to": "identify",
+        "kind": "triggers"
+      },
+      {
+        "from": "learn",
+        "to": "Cornell",
+        "kind": "targets"
+      },
+      {
+        "from": "find",
+        "to": "Cornell",
+        "kind": "targets"
+      },
+      {
+        "from": "choose",
+        "to": "Cornell",
+        "kind": "targets"
+      },
+      {
+        "from": "identify",
+        "to": "Cornell",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1406,
+    "output": 339,
+    "time (ns)": 9344816000
+  }
+}

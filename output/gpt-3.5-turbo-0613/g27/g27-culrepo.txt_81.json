@@ -1,0 +1,63 @@
+{
+  "story": "#G27# As a librarydiscoveryoperator, I want to harvest useful metadata from the repository via OAI, and continue to do so incrementally, so that I can make Cornell publications discoverable in my repository.\n",
+  "extraction": {
+    "personas": [
+      "librarydiscoveryoperator"
+    ],
+    "entities": [
+      "repository",
+      "Cornell publications"
+    ],
+    "actions": [
+      "harvest",
+      "make discoverable"
+    ],
+    "benefit": "I can make Cornell publications discoverable in my repository"
+  },
+  "categories": {
+    "primary_entities": [
+      "repository",
+      "Cornell publications"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "harvest",
+      "make discoverable"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "librarydiscoveryoperator",
+        "to": "harvest",
+        "kind": "triggers"
+      },
+      {
+        "from": "harvest",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "harvest",
+        "to": "Cornell publications",
+        "kind": "targets"
+      },
+      {
+        "from": "make discoverable",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "make discoverable",
+        "to": "Cornell publications",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1375,
+    "output": 265,
+    "time (ns)": 7706968000
+  }
+}

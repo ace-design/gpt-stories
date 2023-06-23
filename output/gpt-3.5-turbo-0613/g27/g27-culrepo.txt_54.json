@@ -1,0 +1,59 @@
+{
+  "story": "#G27# As a library staff member, I want to upload material to the repository on the author's behalf, so that I can fulfill a service obligation.\n",
+  "extraction": {
+    "personas": [
+      "library staff member"
+    ],
+    "entities": [
+      "material",
+      "repository",
+      "author"
+    ],
+    "actions": [
+      "upload"
+    ],
+    "benefit": "fulfill a service obligation"
+  },
+  "categories": {
+    "primary_entities": [
+      "material",
+      "repository"
+    ],
+    "secondary_entities": [
+      "author"
+    ],
+    "primary_actions": [
+      "upload"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "library staff member",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "material",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "author",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1311,
+    "output": 211,
+    "time (ns)": 6344244000
+  }
+}

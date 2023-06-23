@@ -1,0 +1,62 @@
+{
+  "story": "#G27# As an asset manager, I want to be assured that the redundant copies are continuously monitored for unwanted changes, and that if/when changes do occur, there is a mechanism by which I can determine the original object and restore it to all copies.\n",
+  "extraction": {
+    "personas": [
+      "asset manager"
+    ],
+    "entities": [
+      "redundant copies",
+      "unwanted changes",
+      "original object"
+    ],
+    "actions": [
+      "continuously monitored",
+      "determine",
+      "restore"
+    ],
+    "benefit": "be assured that the redundant copies are continuously monitored for unwanted changes, and that if/when changes do occur, there is a mechanism by which I can determine the original object and restore it to all copies"
+  },
+  "categories": {
+    "primary_entities": [
+      "redundant copies",
+      "unwanted changes",
+      "original object"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "continuously monitored",
+      "determine",
+      "restore"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "asset manager",
+        "to": "continuously monitored",
+        "kind": "triggers"
+      },
+      {
+        "from": "continuously monitored",
+        "to": "redundant copies",
+        "kind": "targets"
+      },
+      {
+        "from": "determine",
+        "to": "original object",
+        "kind": "targets"
+      },
+      {
+        "from": "restore",
+        "to": "redundant copies",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1488,
+    "output": 291,
+    "time (ns)": 8209104000
+  }
+}

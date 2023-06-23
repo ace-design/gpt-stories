@@ -1,0 +1,73 @@
+{
+  "story": "#G27# As an asset manager, I want to have a mechanism to obtain a listing or understanding of all the assets that have been deposited, and their current status.\n",
+  "extraction": {
+    "personas": [
+      "asset manager"
+    ],
+    "entities": [
+      "assets"
+    ],
+    "actions": [
+      "obtain",
+      "listing",
+      "understanding",
+      "deposited",
+      "current status"
+    ],
+    "benefit": "have a mechanism to obtain a listing or understanding of all the assets that have been deposited, and their current status"
+  },
+  "categories": {
+    "primary_entities": [
+      "assets"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "obtain",
+      "listing",
+      "understanding"
+    ],
+    "secondary_actions": [
+      "deposited",
+      "current status"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "asset manager",
+        "to": "obtain",
+        "kind": "triggers"
+      },
+      {
+        "from": "obtain",
+        "to": "assets",
+        "kind": "targets"
+      },
+      {
+        "from": "listing",
+        "to": "assets",
+        "kind": "targets"
+      },
+      {
+        "from": "understanding",
+        "to": "assets",
+        "kind": "targets"
+      },
+      {
+        "from": "deposited",
+        "to": "assets",
+        "kind": "targets"
+      },
+      {
+        "from": "current status",
+        "to": "assets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1381,
+    "output": 304,
+    "time (ns)": 9431732000
+  }
+}

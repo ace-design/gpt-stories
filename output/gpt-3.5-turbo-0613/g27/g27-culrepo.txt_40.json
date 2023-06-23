@@ -1,0 +1,49 @@
+{
+  "story": "#G27# As an academicresearcher, I want to the thesis paper of an influential judge or legal thinker to gain insight into how their initial scholarship got started.\n",
+  "extraction": {
+    "personas": [
+      "academic researcher"
+    ],
+    "entities": [
+      "thesis paper",
+      "influential judge",
+      "legal thinker"
+    ],
+    "actions": [
+      "gain insight"
+    ],
+    "benefit": "to understand how their initial scholarship got started"
+  },
+  "categories": {
+    "primary_entities": [
+      "thesis paper"
+    ],
+    "secondary_entities": [
+      "influential judge",
+      "legal thinker"
+    ],
+    "primary_actions": [
+      "gain insight"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "academic researcher",
+        "to": "gain insight",
+        "kind": "triggers"
+      },
+      {
+        "from": "gain insight",
+        "to": "thesis paper",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1336,
+    "output": 177,
+    "time (ns)": 5427550000
+  }
+}

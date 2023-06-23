@@ -1,0 +1,52 @@
+{
+  "story": "#G27# As a patron, I want to view multiple versions of a report/dataset to get both timely and historical information.\n",
+  "extraction": {
+    "personas": [
+      "patron"
+    ],
+    "entities": [
+      "report",
+      "dataset"
+    ],
+    "actions": [
+      "view"
+    ],
+    "benefit": "to get both timely and historical information"
+  },
+  "categories": {
+    "primary_entities": [
+      "report"
+    ],
+    "secondary_entities": [
+      "dataset"
+    ],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "patron",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "report",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1286,
+    "output": 180,
+    "time (ns)": 5522304000
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "story": "#G27# As a stakeholder, I want to have files adequately described, so that I can successfully render them in my contemporary operating environment.\n",
+  "extraction": {
+    "personas": [
+      "stakeholder"
+    ],
+    "entities": [
+      "files"
+    ],
+    "actions": [
+      "adequately described",
+      "render"
+    ],
+    "benefit": "successfully render files in contemporary operating environment"
+  },
+  "categories": {
+    "primary_entities": [
+      "files"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "adequately described"
+    ],
+    "secondary_actions": [
+      "render"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "stakeholder",
+        "to": "adequately described",
+        "kind": "triggers"
+      },
+      {
+        "from": "adequately described",
+        "to": "files",
+        "kind": "targets"
+      },
+      {
+        "from": "stakeholder",
+        "to": "render",
+        "kind": "triggers"
+      },
+      {
+        "from": "render",
+        "to": "files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1305,
+    "output": 222,
+    "time (ns)": 6358854000
+  }
+}

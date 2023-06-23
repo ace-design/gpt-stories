@@ -1,0 +1,60 @@
+{
+  "story": "#G27# As a Cornell faculty member, I want to login remotely to the repository using Shibboleth, so that I can get remote access to Cornell campus-only content.\n",
+  "extraction": {
+    "personas": [
+      "Cornell faculty member"
+    ],
+    "entities": [
+      "repository",
+      "Shibboleth",
+      "Cornell campus-only content"
+    ],
+    "actions": [
+      "login remotely",
+      "get remote access"
+    ],
+    "benefit": "I can get remote access to Cornell campus-only content"
+  },
+  "categories": {
+    "primary_entities": [
+      "repository",
+      "Shibboleth",
+      "Cornell campus-only content"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "login remotely",
+      "get remote access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Cornell faculty member",
+        "to": "login remotely",
+        "kind": "triggers"
+      },
+      {
+        "from": "login remotely",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "login remotely",
+        "to": "Shibboleth",
+        "kind": "targets"
+      },
+      {
+        "from": "get remote access",
+        "to": "Cornell campus-only content",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1372,
+    "output": 257,
+    "time (ns)": 7294933000
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "story": "#G27# As a teachingfacultymember, I want to identify timely and relevant research suitable for use in my curriculum, and be notified of new research/content.\n",
+  "extraction": {
+    "personas": [
+      "teachingfacultymember"
+    ],
+    "entities": [
+      "research",
+      "curriculum"
+    ],
+    "actions": [
+      "identify",
+      "notify"
+    ],
+    "benefit": "be notified of new research/content"
+  },
+  "categories": {
+    "primary_entities": [
+      "research"
+    ],
+    "secondary_entities": [
+      "curriculum"
+    ],
+    "primary_actions": [
+      "identify",
+      "notify"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "teachingfacultymember",
+        "to": "identify",
+        "kind": "triggers"
+      },
+      {
+        "from": "identify",
+        "to": "research",
+        "kind": "targets"
+      },
+      {
+        "from": "teachingfacultymember",
+        "to": "notify",
+        "kind": "triggers"
+      },
+      {
+        "from": "notify",
+        "to": "research",
+        "kind": "targets"
+      },
+      {
+        "from": "teachingfacultymember",
+        "to": "notify",
+        "kind": "triggers"
+      },
+      {
+        "from": "notify",
+        "to": "content",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1328,
+    "output": 282,
+    "time (ns)": 8017636000
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "story": "#G27# As a researcher, I want to see descriptive metadata for the item whether I come to the item through the repository or directly to the PDF, so that I can correctly identify the source of the content.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "descriptive metadata",
+      "item",
+      "repository",
+      "PDF",
+      "content"
+    ],
+    "actions": [
+      "see",
+      "come to",
+      "identify"
+    ],
+    "benefit": "correctly identify the source of the content"
+  },
+  "categories": {
+    "primary_entities": [
+      "descriptive metadata",
+      "item",
+      "repository",
+      "PDF",
+      "content"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see",
+      "come to",
+      "identify"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "researcher",
+        "to": "come to",
+        "kind": "triggers"
+      },
+      {
+        "from": "researcher",
+        "to": "identify",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "descriptive metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "come to",
+        "to": "item",
+        "kind": "targets"
+      },
+      {
+        "from": "come to",
+        "to": "PDF",
+        "kind": "targets"
+      },
+      {
+        "from": "identify",
+        "to": "source of the content",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1394,
+    "output": 330,
+    "time (ns)": 9054856000
+  }
+}

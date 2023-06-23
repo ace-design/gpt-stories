@@ -1,0 +1,52 @@
+{
+  "story": "#G27# As a DB/IR administrator, I want to manage customizable relationship groups in support of patron see also option.\n",
+  "extraction": {
+    "personas": [
+      "DB/IR administrator"
+    ],
+    "entities": [
+      "customizable relationship groups",
+      "patron see also option"
+    ],
+    "actions": [
+      "manage"
+    ],
+    "benefit": "support of patron see also option"
+  },
+  "categories": {
+    "primary_entities": [
+      "customizable relationship groups"
+    ],
+    "secondary_entities": [
+      "patron see also option"
+    ],
+    "primary_actions": [
+      "manage"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DB/IR administrator",
+        "to": "manage",
+        "kind": "triggers"
+      },
+      {
+        "from": "manage",
+        "to": "customizable relationship groups",
+        "kind": "targets"
+      },
+      {
+        "from": "manage",
+        "to": "patron see also option",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1306,
+    "output": 204,
+    "time (ns)": 6057180000
+  }
+}

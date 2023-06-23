@@ -1,0 +1,71 @@
+{
+  "story": "#G27# As a researcher, I want to receive updates when new works are published in a given collection or by a given author, so that I can discover more of their work.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "updates",
+      "works",
+      "collection",
+      "author"
+    ],
+    "actions": [
+      "receive",
+      "published",
+      "discover"
+    ],
+    "benefit": "I can discover more of their work"
+  },
+  "categories": {
+    "primary_entities": [
+      "updates",
+      "works"
+    ],
+    "secondary_entities": [
+      "collection",
+      "author"
+    ],
+    "primary_actions": [
+      "receive",
+      "discover"
+    ],
+    "secondary_actions": [
+      "published"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "receive",
+        "kind": "triggers"
+      },
+      {
+        "from": "receive",
+        "to": "updates",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "works",
+        "kind": "targets"
+      },
+      {
+        "from": "discover",
+        "to": "collection",
+        "kind": "targets"
+      },
+      {
+        "from": "discover",
+        "to": "author",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1353,
+    "output": 253,
+    "time (ns)": 7039109000
+  }
+}

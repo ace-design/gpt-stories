@@ -1,0 +1,60 @@
+{
+  "story": "#G27# As a Cornell faculty member, I want to share on the repository files that are larger than 1GB in a way that still allows users to download them if I want to use them, so that I can meet funder requirements.\n",
+  "extraction": {
+    "personas": [
+      "Cornell faculty member"
+    ],
+    "entities": [
+      "repository",
+      "files"
+    ],
+    "actions": [
+      "share",
+      "download"
+    ],
+    "benefit": "meet funder requirements"
+  },
+  "categories": {
+    "primary_entities": [
+      "repository"
+    ],
+    "secondary_entities": [
+      "files"
+    ],
+    "primary_actions": [
+      "share"
+    ],
+    "secondary_actions": [
+      "download"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Cornell faculty member",
+        "to": "share",
+        "kind": "triggers"
+      },
+      {
+        "from": "share",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "files",
+        "kind": "targets"
+      },
+      {
+        "from": "download",
+        "to": "files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1363,
+    "output": 211,
+    "time (ns)": 6247563000
+  }
+}

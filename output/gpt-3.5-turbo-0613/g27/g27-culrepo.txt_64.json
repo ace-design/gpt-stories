@@ -1,0 +1,69 @@
+{
+  "story": "#G27# As a DB/IR administrator, I want to upload new version of report/dataset while retaining previous versions for patron use.\n",
+  "extraction": {
+    "personas": [
+      "DB/IR administrator"
+    ],
+    "entities": [
+      "report",
+      "dataset",
+      "previous versions",
+      "patron"
+    ],
+    "actions": [
+      "upload",
+      "retain"
+    ],
+    "benefit": "retain previous versions for patron use"
+  },
+  "categories": {
+    "primary_entities": [
+      "report",
+      "dataset"
+    ],
+    "secondary_entities": [
+      "previous versions",
+      "patron"
+    ],
+    "primary_actions": [
+      "upload"
+    ],
+    "secondary_actions": [
+      "retain"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DB/IR administrator",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "report",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "previous versions",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "patron",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1325,
+    "output": 256,
+    "time (ns)": 7385295000
+  }
+}

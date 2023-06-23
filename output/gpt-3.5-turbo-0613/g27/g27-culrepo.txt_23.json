@@ -1,0 +1,60 @@
+{
+  "story": "#G27# As an administrator, I want to disseminate the aforementioned works in a digital space that is strongly branded, so that I can make sure my school is credited for the work.\n",
+  "extraction": {
+    "personas": [
+      "administrator"
+    ],
+    "entities": [
+      "aforementioned works",
+      "digital space"
+    ],
+    "actions": [
+      "disseminate",
+      "branded"
+    ],
+    "benefit": "I can make sure my school is credited for the work."
+  },
+  "categories": {
+    "primary_entities": [
+      "aforementioned works"
+    ],
+    "secondary_entities": [
+      "digital space"
+    ],
+    "primary_actions": [
+      "disseminate"
+    ],
+    "secondary_actions": [
+      "branded"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "administrator",
+        "to": "disseminate",
+        "kind": "triggers"
+      },
+      {
+        "from": "disseminate",
+        "to": "aforementioned works",
+        "kind": "targets"
+      },
+      {
+        "from": "administrator",
+        "to": "disseminate",
+        "kind": "triggers"
+      },
+      {
+        "from": "disseminate",
+        "to": "digital space",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1358,
+    "output": 239,
+    "time (ns)": 6777213000
+  }
+}

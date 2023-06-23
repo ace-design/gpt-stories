@@ -1,0 +1,47 @@
+{
+  "story": "#G27# As a researcher, I want to stay up to date on research related to a given topic at Cornell, including those in other departments/schools, so that my own research remains relevant and innovative.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "research related to a given topic at Cornell",
+      "other departments/schools"
+    ],
+    "actions": [
+      "stay up to date"
+    ],
+    "benefit": "my own research remains relevant and innovative"
+  },
+  "categories": {
+    "primary_entities": [
+      "research related to a given topic at Cornell"
+    ],
+    "secondary_entities": [
+      "other departments/schools"
+    ],
+    "primary_actions": [
+      "stay up to date"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "stay up to date",
+        "kind": "triggers"
+      },
+      {
+        "from": "stay up to date",
+        "to": "research related to a given topic at Cornell",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1379,
+    "output": 196,
+    "time (ns)": 5820340000
+  }
+}

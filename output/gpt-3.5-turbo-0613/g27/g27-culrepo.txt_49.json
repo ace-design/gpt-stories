@@ -1,0 +1,69 @@
+{
+  "story": "#G27# As a student, I want to learn who at Cornell has or is engaged in research related to a particular topic, so that I can decide if I would like to pursue studies/research at Cornell.\n",
+  "extraction": {
+    "personas": [
+      "student"
+    ],
+    "entities": [
+      "Cornell"
+    ],
+    "actions": [
+      "learn",
+      "engaged in research",
+      "pursue studies/research"
+    ],
+    "benefit": "decide if I would like to pursue studies/research at Cornell"
+  },
+  "categories": {
+    "primary_entities": [
+      "Cornell"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "learn",
+      "pursue studies/research"
+    ],
+    "secondary_actions": [
+      "engaged in research"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "student",
+        "to": "learn",
+        "kind": "triggers"
+      },
+      {
+        "from": "learn",
+        "to": "Cornell",
+        "kind": "targets"
+      },
+      {
+        "from": "student",
+        "to": "engaged in research",
+        "kind": "triggers"
+      },
+      {
+        "from": "engaged in research",
+        "to": "Cornell",
+        "kind": "targets"
+      },
+      {
+        "from": "student",
+        "to": "pursue studies/research",
+        "kind": "triggers"
+      },
+      {
+        "from": "pursue studies/research",
+        "to": "Cornell",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1382,
+    "output": 304,
+    "time (ns)": 8422743000
+  }
+}

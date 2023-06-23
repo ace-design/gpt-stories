@@ -1,0 +1,50 @@
+{
+  "story": "#G27# As a repository support team member, I want to rename a collection, so that I can fulfill the collection owner's request.\n",
+  "extraction": {
+    "personas": [
+      "repository support team member",
+      "collection owner"
+    ],
+    "entities": [
+      "collection"
+    ],
+    "actions": [
+      "rename"
+    ],
+    "benefit": "fulfill the collection owner's request"
+  },
+  "categories": {
+    "primary_entities": [
+      "collection"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "rename"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository support team member",
+        "to": "rename",
+        "kind": "triggers"
+      },
+      {
+        "from": "rename",
+        "to": "collection",
+        "kind": "targets"
+      },
+      {
+        "from": "collection owner",
+        "to": "rename",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1296,
+    "output": 185,
+    "time (ns)": 5557627000
+  }
+}

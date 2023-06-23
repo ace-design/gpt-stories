@@ -1,0 +1,97 @@
+{
+  "story": "#G27# As a DB/IR administrator, I want to have the system recognize/categorize document type (e.g. historical report still published, expired historical report, single topic dataset, broad topic dataset, report with subtopic, computer file), so that report/dataset is processed and displayed properly.\n",
+  "extraction": {
+    "personas": [
+      "DB/IR administrator"
+    ],
+    "entities": [
+      "system",
+      "document type",
+      "historical report",
+      "expired historical report",
+      "single topic dataset",
+      "broad topic dataset",
+      "report with subtopic",
+      "computer file",
+      "report/dataset"
+    ],
+    "actions": [
+      "recognize",
+      "categorize",
+      "process",
+      "display"
+    ],
+    "benefit": "report/dataset is processed and displayed properly"
+  },
+  "categories": {
+    "primary_entities": [
+      "system",
+      "document type",
+      "report/dataset"
+    ],
+    "secondary_entities": [
+      "historical report",
+      "expired historical report",
+      "single topic dataset",
+      "broad topic dataset",
+      "report with subtopic",
+      "computer file"
+    ],
+    "primary_actions": [
+      "recognize",
+      "categorize",
+      "process",
+      "display"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DB/IR administrator",
+        "to": "recognize",
+        "kind": "triggers"
+      },
+      {
+        "from": "DB/IR administrator",
+        "to": "categorize",
+        "kind": "triggers"
+      },
+      {
+        "from": "DB/IR administrator",
+        "to": "process",
+        "kind": "triggers"
+      },
+      {
+        "from": "DB/IR administrator",
+        "to": "display",
+        "kind": "triggers"
+      },
+      {
+        "from": "recognize",
+        "to": "system",
+        "kind": "targets"
+      },
+      {
+        "from": "categorize",
+        "to": "document type",
+        "kind": "targets"
+      },
+      {
+        "from": "process",
+        "to": "report/dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "display",
+        "to": "report/dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1547,
+    "output": 431,
+    "time (ns)": 12014761000
+  }
+}

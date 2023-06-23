@@ -1,0 +1,68 @@
+{
+  "story": "#G27# As a library staff member, I want to make digital items held in trusted external system searchable within our system, so that I can provide seamless access to disparate collections.\n",
+  "extraction": {
+    "personas": [
+      "library staff member"
+    ],
+    "entities": [
+      "digital items",
+      "trusted external system",
+      "our system",
+      "disparate collections"
+    ],
+    "actions": [
+      "make searchable",
+      "provide access"
+    ],
+    "benefit": "seamless access to disparate collections"
+  },
+  "categories": {
+    "primary_entities": [
+      "digital items",
+      "our system",
+      "disparate collections"
+    ],
+    "secondary_entities": [
+      "trusted external system"
+    ],
+    "primary_actions": [
+      "make searchable",
+      "provide access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "library staff member",
+        "to": "make searchable",
+        "kind": "triggers"
+      },
+      {
+        "from": "make searchable",
+        "to": "digital items",
+        "kind": "targets"
+      },
+      {
+        "from": "make searchable",
+        "to": "trusted external system",
+        "kind": "targets"
+      },
+      {
+        "from": "make searchable",
+        "to": "our system",
+        "kind": "targets"
+      },
+      {
+        "from": "provide access",
+        "to": "disparate collections",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1369,
+    "output": 277,
+    "time (ns)": 7807715000
+  }
+}

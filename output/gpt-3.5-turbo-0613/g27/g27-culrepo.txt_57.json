@@ -1,0 +1,71 @@
+{
+  "story": "#G27# As a library staff member, I want to upload an item to the repository that will only become visible after a specific embargo period has expired, so that I can comply with author or publisher requirements.\n",
+  "extraction": {
+    "personas": [
+      "library staff member"
+    ],
+    "entities": [
+      "item",
+      "repository",
+      "embargo period",
+      "author or publisher requirements"
+    ],
+    "actions": [
+      "upload",
+      "become visible",
+      "comply"
+    ],
+    "benefit": "comply with author or publisher requirements"
+  },
+  "categories": {
+    "primary_entities": [
+      "item",
+      "repository",
+      "embargo period"
+    ],
+    "secondary_entities": [
+      "author or publisher requirements"
+    ],
+    "primary_actions": [
+      "upload"
+    ],
+    "secondary_actions": [
+      "become visible",
+      "comply"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "library staff member",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "item",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "embargo period",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "author or publisher requirements",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1394,
+    "output": 276,
+    "time (ns)": 7762085000
+  }
+}
