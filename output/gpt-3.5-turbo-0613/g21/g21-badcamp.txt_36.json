@@ -1,0 +1,47 @@
+{
+  "story": "#G21# As a anonymoususer, I want to read the blog, so that I can stay informed about all the latest happenings with BADCamp.\n",
+  "extraction": {
+    "personas": [
+      "anonymoususer"
+    ],
+    "entities": [
+      "blog",
+      "BADCamp"
+    ],
+    "actions": [
+      "read"
+    ],
+    "benefit": "I can stay informed about all the latest happenings with BADCamp"
+  },
+  "categories": {
+    "primary_entities": [
+      "blog"
+    ],
+    "secondary_entities": [
+      "BADCamp"
+    ],
+    "primary_actions": [
+      "read"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "anonymoususer",
+        "to": "read",
+        "kind": "triggers"
+      },
+      {
+        "from": "read",
+        "to": "blog",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1324,
+    "output": 166,
+    "time (ns)": 5358796000
+  }
+}

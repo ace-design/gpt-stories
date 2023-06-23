@@ -1,0 +1,47 @@
+{
+  "story": "#G21# As a anonymoususer, I want to view a list of user profiles, so that I know who is attending the conference.\n",
+  "extraction": {
+    "personas": [
+      "anonymoususer"
+    ],
+    "entities": [
+      "user profiles",
+      "conference"
+    ],
+    "actions": [
+      "view"
+    ],
+    "benefit": "I know who is attending the conference"
+  },
+  "categories": {
+    "primary_entities": [
+      "user profiles"
+    ],
+    "secondary_entities": [
+      "conference"
+    ],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "anonymoususer",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "user profiles",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1295,
+    "output": 158,
+    "time (ns)": 5204693000
+  }
+}

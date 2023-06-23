@@ -1,0 +1,53 @@
+{
+  "story": "#G21# As a attendee, I want to register for a summit, so that I can reserve my seat at the summit.\n",
+  "extraction": {
+    "personas": [
+      "attendee"
+    ],
+    "entities": [
+      "summit",
+      "seat"
+    ],
+    "actions": [
+      "register",
+      "reserve"
+    ],
+    "benefit": "I can reserve my seat at the summit"
+  },
+  "categories": {
+    "primary_entities": [
+      "summit",
+      "seat"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "register",
+      "reserve"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "attendee",
+        "to": "register",
+        "kind": "triggers"
+      },
+      {
+        "from": "register",
+        "to": "summit",
+        "kind": "targets"
+      },
+      {
+        "from": "register",
+        "to": "seat",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1301,
+    "output": 191,
+    "time (ns)": 5543964000
+  }
+}

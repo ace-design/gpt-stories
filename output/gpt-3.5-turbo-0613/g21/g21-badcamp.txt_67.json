@@ -1,0 +1,65 @@
+{
+  "story": "#G21# As a anonymoususer, I want to easily find a link in the menu that links to the registration form, so that I can easily register for the camp.\n",
+  "extraction": {
+    "personas": [
+      "anonymoususer"
+    ],
+    "entities": [
+      "link",
+      "menu",
+      "registration form",
+      "camp"
+    ],
+    "actions": [
+      "find"
+    ],
+    "benefit": "I can easily register for the camp"
+  },
+  "categories": {
+    "primary_entities": [
+      "link",
+      "menu",
+      "registration form",
+      "camp"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "find"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "anonymoususer",
+        "to": "find",
+        "kind": "triggers"
+      },
+      {
+        "from": "find",
+        "to": "link",
+        "kind": "targets"
+      },
+      {
+        "from": "find",
+        "to": "menu",
+        "kind": "targets"
+      },
+      {
+        "from": "find",
+        "to": "registration form",
+        "kind": "targets"
+      },
+      {
+        "from": "find",
+        "to": "camp",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1335,
+    "output": 246,
+    "time (ns)": 7238674000
+  }
+}

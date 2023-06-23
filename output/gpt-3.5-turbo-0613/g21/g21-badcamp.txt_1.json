@@ -1,0 +1,44 @@
+{
+  "story": "#G21# As a anonymoususer, I want to view a list of sponsors, so that I can thank all the awesome sponsors.\n",
+  "extraction": {
+    "personas": [
+      "anonymoususer"
+    ],
+    "entities": [
+      "list of sponsors"
+    ],
+    "actions": [
+      "view"
+    ],
+    "benefit": "I can thank all the awesome sponsors"
+  },
+  "categories": {
+    "primary_entities": [
+      "list of sponsors"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "anonymoususer",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "list of sponsors",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1287,
+    "output": 156,
+    "time (ns)": 4936657000
+  }
+}

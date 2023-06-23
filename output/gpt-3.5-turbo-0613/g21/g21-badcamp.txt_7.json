@@ -1,0 +1,76 @@
+{
+  "story": "#G21# As a trainingcoordinator, I want to have an admin view that helps track registration status for each attendee so that, so that we can see if attendend, refunded, no show.\n",
+  "extraction": {
+    "personas": [
+      "training coordinator"
+    ],
+    "entities": [
+      "admin view",
+      "registration status",
+      "attendee"
+    ],
+    "actions": [
+      "track",
+      "see"
+    ],
+    "benefit": "helps track registration status for each attendee"
+  },
+  "categories": {
+    "primary_entities": [
+      "admin view",
+      "registration status",
+      "attendee"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "track"
+    ],
+    "secondary_actions": [
+      "see"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "training coordinator",
+        "to": "track",
+        "kind": "triggers"
+      },
+      {
+        "from": "track",
+        "to": "admin view",
+        "kind": "targets"
+      },
+      {
+        "from": "track",
+        "to": "registration status",
+        "kind": "targets"
+      },
+      {
+        "from": "track",
+        "to": "attendee",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "admin view",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "registration status",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "attendee",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1359,
+    "output": 305,
+    "time (ns)": 8629403000
+  }
+}

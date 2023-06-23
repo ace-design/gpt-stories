@@ -8,7 +8,7 @@
 #G21# As a attendee, I want to be added to a training waitlist, so that so they can be considered for a class.
 #G21# As a trainee, I want to must accept the cancellation terms with a checkbox, so that they can be accountable..
 #G21# As a trainingcoordinator, I want to tie in a cancellation deadline to whatever registration / cancellation workflow exists, so that so we don't loose money or spots.
-#G21# As a trainee, I want to add to "my schedule" if there is a schedule feature on the site, so that they can schedule their event experience.
+#G21# As a trainee, I want to add to \"my schedule\" if there is a schedule feature on the site, so that they can schedule their event experience.
 #G21# As a trainee, I want to see which trainings I have signed up for, so that they can schedule their event experience.
 #G21# As a trainer, I want to have a view that is attached to their training node that shows all attendee information Trainers can see all class attendance at first because there are so little trainers and they are trusted with privacy, so that the training coordinator doesn't have to do all the work to get login info for environment setup.
 #G21# As a trainingcoordinator, I want to have an admin view where all trainee information is shown and can be filtered to show a single training session, so that I can see WTF is happening.

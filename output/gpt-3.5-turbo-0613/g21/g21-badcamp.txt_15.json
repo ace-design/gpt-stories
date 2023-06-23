@@ -1,0 +1,156 @@
+{
+  "story": "#G21# As a anonymoususer, I want to have a dedicated page for each class to learn more about the offering The following information must be shown: Logo, title, trainers, location, possibly a map view, datetime, skill level, registrations remaining, link to register for class. The URL path should be SEO friendly /training/training-title, so that I can choose the right class, AND the trainer can tweet and promote their class.\n",
+  "extraction": {
+    "personas": [
+      "anonymoususer",
+      "trainer"
+    ],
+    "entities": [
+      "class",
+      "Logo",
+      "title",
+      "trainers",
+      "location",
+      "map view",
+      "datetime",
+      "skill level",
+      "registrations remaining",
+      "link",
+      "register for class",
+      "URL path",
+      "SEO friendly"
+    ],
+    "actions": [
+      "have",
+      "dedicated page",
+      "learn more",
+      "shown",
+      "choose",
+      "tweet",
+      "promote"
+    ],
+    "benefit": "choose the right class and the trainer can tweet and promote their class"
+  },
+  "categories": {
+    "primary_entities": [
+      "class",
+      "Logo",
+      "title",
+      "trainers",
+      "location",
+      "datetime",
+      "skill level",
+      "registrations remaining",
+      "link",
+      "register for class",
+      "URL path",
+      "SEO friendly"
+    ],
+    "secondary_entities": [
+      "map view"
+    ],
+    "primary_actions": [
+      "have",
+      "learn more",
+      "shown",
+      "choose",
+      "tweet",
+      "promote"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "anonymoususer",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "class",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "Logo",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "title",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "trainers",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "location",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "map view",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "datetime",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "skill level",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "registrations remaining",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "link",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "register for class",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "URL path",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "SEO friendly",
+        "kind": "targets"
+      },
+      {
+        "from": "choose",
+        "to": "class",
+        "kind": "targets"
+      },
+      {
+        "from": "tweet",
+        "to": "class",
+        "kind": "targets"
+      },
+      {
+        "from": "promote",
+        "to": "class",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1683,
+    "output": 672,
+    "time (ns)": 16990824000
+  }
+}

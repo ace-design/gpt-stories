@@ -1,0 +1,52 @@
+{
+  "story": "#G21# As a anonymoususer, I want to find out where the coding lounge is and what time it is open, so that I can code with my friends.\n",
+  "extraction": {
+    "personas": [
+      "anonymoususer"
+    ],
+    "entities": [
+      "coding lounge"
+    ],
+    "actions": [
+      "find out",
+      "code"
+    ],
+    "benefit": "I can code with my friends"
+  },
+  "categories": {
+    "primary_entities": [
+      "coding lounge"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "find out"
+    ],
+    "secondary_actions": [
+      "code"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "anonymoususer",
+        "to": "find out",
+        "kind": "triggers"
+      },
+      {
+        "from": "find out",
+        "to": "coding lounge",
+        "kind": "targets"
+      },
+      {
+        "from": "find out",
+        "to": "code",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1313,
+    "output": 187,
+    "time (ns)": 5927576000
+  }
+}

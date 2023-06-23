@@ -1,0 +1,51 @@
+{
+  "story": "#G21# As a trainingcoordinator, I want to email all the trainers at once from the website for info and updates, so that It is easier to use.\n",
+  "extraction": {
+    "personas": [
+      "training coordinator"
+    ],
+    "entities": [
+      "trainers",
+      "website"
+    ],
+    "actions": [
+      "email"
+    ],
+    "benefit": "It is easier to use"
+  },
+  "categories": {
+    "primary_entities": [
+      "trainers",
+      "website"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "email"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "training coordinator",
+        "to": "email",
+        "kind": "triggers"
+      },
+      {
+        "from": "email",
+        "to": "trainers",
+        "kind": "targets"
+      },
+      {
+        "from": "email",
+        "to": "website",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1310,
+    "output": 182,
+    "time (ns)": 5689293000
+  }
+}

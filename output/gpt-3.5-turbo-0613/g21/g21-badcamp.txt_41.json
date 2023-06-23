@@ -1,0 +1,58 @@
+{
+  "story": "#G21# As a summit coordinator, I want to see a list of attendees signed up for my summit, so that I can communicate with my attendees by email prior to the event.\n",
+  "extraction": {
+    "personas": [
+      "summit coordinator"
+    ],
+    "entities": [
+      "list of attendees",
+      "my summit"
+    ],
+    "actions": [
+      "see",
+      "communicate"
+    ],
+    "benefit": "I can communicate with my attendees by email prior to the event"
+  },
+  "categories": {
+    "primary_entities": [
+      "list of attendees",
+      "my summit"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see",
+      "communicate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "summit coordinator",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "list of attendees",
+        "kind": "targets"
+      },
+      {
+        "from": "summit coordinator",
+        "to": "communicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "communicate",
+        "to": "my summit",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1353,
+    "output": 235,
+    "time (ns)": 6775182000
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "story": "#G21# As a authenticateduser, I want to submit a session at BADCAMP, so that I can get my session evaluated.\n",
+  "extraction": {
+    "personas": [
+      "authenticateduser"
+    ],
+    "entities": [
+      "session",
+      "BADCAMP"
+    ],
+    "actions": [
+      "submit",
+      "get",
+      "evaluate"
+    ],
+    "benefit": "I can get my session evaluated"
+  },
+  "categories": {
+    "primary_entities": [
+      "session"
+    ],
+    "secondary_entities": [
+      "BADCAMP"
+    ],
+    "primary_actions": [
+      "submit"
+    ],
+    "secondary_actions": [
+      "get",
+      "evaluate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "authenticateduser",
+        "to": "submit",
+        "kind": "triggers"
+      },
+      {
+        "from": "submit",
+        "to": "session",
+        "kind": "targets"
+      },
+      {
+        "from": "submit",
+        "to": "BADCAMP",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "session",
+        "kind": "targets"
+      },
+      {
+        "from": "evaluate",
+        "to": "session",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1312,
+    "output": 246,
+    "time (ns)": 6710421000
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "story": "#G21# As a anonymoususer, I want to see the final list of sessions approved, so that I can see what's going on at BADCamp .\n",
+  "extraction": {
+    "personas": [
+      "anonymoususer"
+    ],
+    "entities": [
+      "final list of sessions approved",
+      "BADCamp"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "I can see what's going on at BADCamp"
+  },
+  "categories": {
+    "primary_entities": [
+      "final list of sessions approved",
+      "BADCamp"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "anonymoususer",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "final list of sessions approved",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "BADCamp",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1334,
+    "output": 203,
+    "time (ns)": 6098863000
+  }
+}

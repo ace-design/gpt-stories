@@ -1,0 +1,77 @@
+{
+  "story": "#G21# As a administrator, I want to create and maintain venues, so that I can provide location details to help users find what they're looking for.\n",
+  "extraction": {
+    "personas": [
+      "administrator"
+    ],
+    "entities": [
+      "venues",
+      "location details",
+      "users"
+    ],
+    "actions": [
+      "create",
+      "maintain",
+      "provide"
+    ],
+    "benefit": "help users find what they're looking for"
+  },
+  "categories": {
+    "primary_entities": [
+      "venues",
+      "location details",
+      "users"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create",
+      "maintain",
+      "provide"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "administrator",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "administrator",
+        "to": "maintain",
+        "kind": "triggers"
+      },
+      {
+        "from": "administrator",
+        "to": "provide",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "venues",
+        "kind": "targets"
+      },
+      {
+        "from": "maintain",
+        "to": "venues",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "location details",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "users",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1338,
+    "output": 307,
+    "time (ns)": 8629738000
+  }
+}

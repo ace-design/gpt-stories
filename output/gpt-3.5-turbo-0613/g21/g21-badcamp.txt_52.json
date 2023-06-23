@@ -1,0 +1,58 @@
+{
+  "story": "#G21# As a sponsor, I want to post a job, so that I can hire top-tier Drupal talent.\n",
+  "extraction": {
+    "personas": [
+      "sponsor"
+    ],
+    "entities": [
+      "job",
+      "top-tier Drupal talent"
+    ],
+    "actions": [
+      "post",
+      "hire"
+    ],
+    "benefit": "I can hire top-tier Drupal talent"
+  },
+  "categories": {
+    "primary_entities": [
+      "job",
+      "top-tier Drupal talent"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "post",
+      "hire"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "sponsor",
+        "to": "post",
+        "kind": "triggers"
+      },
+      {
+        "from": "post",
+        "to": "job",
+        "kind": "targets"
+      },
+      {
+        "from": "sponsor",
+        "to": "hire",
+        "kind": "triggers"
+      },
+      {
+        "from": "hire",
+        "to": "top-tier Drupal talent",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1297,
+    "output": 220,
+    "time (ns)": 6285964000
+  }
+}

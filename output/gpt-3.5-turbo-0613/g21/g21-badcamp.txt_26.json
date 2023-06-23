@@ -1,0 +1,52 @@
+{
+  "story": "#G21# As a anonymoususer, I want to see a list of the sessions associated with sponsor attendees, so that I know where I can engage with this sponsor and where they are thought leaders.\n",
+  "extraction": {
+    "personas": [
+      "anonymoususer"
+    ],
+    "entities": [
+      "sessions",
+      "sponsor attendees"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "know where I can engage with this sponsor and where they are thought leaders"
+  },
+  "categories": {
+    "primary_entities": [
+      "sessions"
+    ],
+    "secondary_entities": [
+      "sponsor attendees"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "anonymoususer",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "sessions",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "sponsor attendees",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1345,
+    "output": 190,
+    "time (ns)": 5775523000
+  }
+}

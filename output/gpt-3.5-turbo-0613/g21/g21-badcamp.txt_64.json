@@ -1,0 +1,58 @@
+{
+  "story": "#G21# As a sponsor, I want to personalize my sponsorship page, so that I can promote my brand.\n",
+  "extraction": {
+    "personas": [
+      "sponsor"
+    ],
+    "entities": [
+      "sponsorship page",
+      "brand"
+    ],
+    "actions": [
+      "personalize",
+      "promote"
+    ],
+    "benefit": "I can promote my brand"
+  },
+  "categories": {
+    "primary_entities": [
+      "sponsorship page",
+      "brand"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "personalize",
+      "promote"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "sponsor",
+        "to": "personalize",
+        "kind": "triggers"
+      },
+      {
+        "from": "personalize",
+        "to": "sponsorship page",
+        "kind": "targets"
+      },
+      {
+        "from": "sponsor",
+        "to": "promote",
+        "kind": "triggers"
+      },
+      {
+        "from": "promote",
+        "to": "brand",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1293,
+    "output": 223,
+    "time (ns)": 6554876000
+  }
+}

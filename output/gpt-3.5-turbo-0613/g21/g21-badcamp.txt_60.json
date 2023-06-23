@@ -1,0 +1,51 @@
+{
+  "story": "#G21# As a anonymoususer, I want to receive a notification when I submit a session, so that know that my session went through ok.\n",
+  "extraction": {
+    "personas": [
+      "anonymoususer"
+    ],
+    "entities": [
+      "notification",
+      "session"
+    ],
+    "actions": [
+      "submit"
+    ],
+    "benefit": "know that my session went through ok"
+  },
+  "categories": {
+    "primary_entities": [
+      "notification",
+      "session"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "submit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "anonymoususer",
+        "to": "submit",
+        "kind": "triggers"
+      },
+      {
+        "from": "submit",
+        "to": "notification",
+        "kind": "targets"
+      },
+      {
+        "from": "submit",
+        "to": "session",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1299,
+    "output": 181,
+    "time (ns)": 5354201000
+  }
+}

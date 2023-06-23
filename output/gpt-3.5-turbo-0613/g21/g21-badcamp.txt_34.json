@@ -1,0 +1,47 @@
+{
+  "story": "#G21# As a administrator, I want to tag my blog posts for consumption by Drupal Planet, so that they will be listed on the Drupal Planet blog.\n",
+  "extraction": {
+    "personas": [
+      "administrator"
+    ],
+    "entities": [
+      "blog posts",
+      "Drupal Planet"
+    ],
+    "actions": [
+      "tag"
+    ],
+    "benefit": "they will be listed on the Drupal Planet blog"
+  },
+  "categories": {
+    "primary_entities": [
+      "blog posts"
+    ],
+    "secondary_entities": [
+      "Drupal Planet"
+    ],
+    "primary_actions": [
+      "tag"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "administrator",
+        "to": "tag",
+        "kind": "triggers"
+      },
+      {
+        "from": "tag",
+        "to": "blog posts",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1312,
+    "output": 160,
+    "time (ns)": 4873348000
+  }
+}

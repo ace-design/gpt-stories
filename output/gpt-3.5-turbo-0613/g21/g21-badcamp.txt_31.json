@@ -1,0 +1,51 @@
+{
+  "story": "#G21# As a sponsor, I want to link BADCamp attendees to my sponsorship page, so that I can show off our level of attendance.\n",
+  "extraction": {
+    "personas": [
+      "sponsor"
+    ],
+    "entities": [
+      "BADCamp attendees",
+      "sponsorship page"
+    ],
+    "actions": [
+      "link"
+    ],
+    "benefit": "I can show off our level of attendance"
+  },
+  "categories": {
+    "primary_entities": [
+      "BADCamp attendees",
+      "sponsorship page"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "link"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "sponsor",
+        "to": "link",
+        "kind": "triggers"
+      },
+      {
+        "from": "link",
+        "to": "BADCamp attendees",
+        "kind": "targets"
+      },
+      {
+        "from": "link",
+        "to": "sponsorship page",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1317,
+    "output": 195,
+    "time (ns)": 5731167000
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "story": "#G21# As a anonymoususer, I want to view venue details, so that I can get a sense of the location and see the events happening there.\n",
+  "extraction": {
+    "personas": [
+      "anonymoususer"
+    ],
+    "entities": [
+      "venue details",
+      "location",
+      "events"
+    ],
+    "actions": [
+      "view"
+    ],
+    "benefit": "I can get a sense of the location and see the events happening there."
+  },
+  "categories": {
+    "primary_entities": [
+      "venue details",
+      "location",
+      "events"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "anonymoususer",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "venue details",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "location",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "events",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1333,
+    "output": 222,
+    "time (ns)": 6572214000
+  }
+}

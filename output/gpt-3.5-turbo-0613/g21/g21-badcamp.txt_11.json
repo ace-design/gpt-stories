@@ -1,0 +1,47 @@
+{
+  "story": "#G21# As a trainee, I want to add to \\\"my schedule\\\" if there is a schedule feature on the site, so that they can schedule their event experience.\n",
+  "extraction": {
+    "personas": [
+      "trainee"
+    ],
+    "entities": [
+      "my schedule",
+      "schedule feature on the site"
+    ],
+    "actions": [
+      "add"
+    ],
+    "benefit": "they can schedule their event experience"
+  },
+  "categories": {
+    "primary_entities": [
+      "my schedule"
+    ],
+    "secondary_entities": [
+      "schedule feature on the site"
+    ],
+    "primary_actions": [
+      "add"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "trainee",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "my schedule",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1329,
+    "output": 165,
+    "time (ns)": 5349376000
+  }
+}

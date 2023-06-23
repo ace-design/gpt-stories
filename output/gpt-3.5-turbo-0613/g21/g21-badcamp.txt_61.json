@@ -1,0 +1,56 @@
+{
+  "story": "#G21# As a authenticateduser, I want to edit my session, so that if I make a mistake, I can correct it.\n",
+  "extraction": {
+    "personas": [
+      "authenticateduser"
+    ],
+    "entities": [
+      "session"
+    ],
+    "actions": [
+      "edit",
+      "correct"
+    ],
+    "benefit": "I can correct my mistakes"
+  },
+  "categories": {
+    "primary_entities": [
+      "session"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "edit",
+      "correct"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "authenticateduser",
+        "to": "edit",
+        "kind": "triggers"
+      },
+      {
+        "from": "edit",
+        "to": "session",
+        "kind": "targets"
+      },
+      {
+        "from": "authenticateduser",
+        "to": "correct",
+        "kind": "triggers"
+      },
+      {
+        "from": "correct",
+        "to": "session",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1289,
+    "output": 206,
+    "time (ns)": 7791790000
+  }
+}

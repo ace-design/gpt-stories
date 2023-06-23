@@ -1,0 +1,44 @@
+{
+  "story": "#G21# As a trainee, I want to must accept the cancellation terms with a checkbox, so that they can be accountable..\n",
+  "extraction": {
+    "personas": [
+      "trainee"
+    ],
+    "entities": [
+      "cancellation terms"
+    ],
+    "actions": [
+      "accept"
+    ],
+    "benefit": "they can be accountable"
+  },
+  "categories": {
+    "primary_entities": [
+      "cancellation terms"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "accept"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "trainee",
+        "to": "accept",
+        "kind": "triggers"
+      },
+      {
+        "from": "accept",
+        "to": "cancellation terms",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1281,
+    "output": 153,
+    "time (ns)": 4866469000
+  }
+}

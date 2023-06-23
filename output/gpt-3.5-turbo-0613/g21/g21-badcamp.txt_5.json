@@ -1,0 +1,47 @@
+{
+  "story": "#G21# As a trainer, I want to edit my training node myself, so that the training coordinators don't have to and links to slides.\n",
+  "extraction": {
+    "personas": [
+      "trainer"
+    ],
+    "entities": [
+      "training node",
+      "links to slides"
+    ],
+    "actions": [
+      "edit"
+    ],
+    "benefit": "training coordinators don't have to"
+  },
+  "categories": {
+    "primary_entities": [
+      "training node"
+    ],
+    "secondary_entities": [
+      "links to slides"
+    ],
+    "primary_actions": [
+      "edit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "trainer",
+        "to": "edit",
+        "kind": "triggers"
+      },
+      {
+        "from": "edit",
+        "to": "training node",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1308,
+    "output": 160,
+    "time (ns)": 5718882000
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "story": "#G21# As a trainingcoordinator, I want to have an admin view where all trainee information is shown and can be filtered to show a single training session, so that I can see WTF is happening.\n",
+  "extraction": {
+    "personas": [
+      "training coordinator"
+    ],
+    "entities": [
+      "admin view",
+      "trainee information",
+      "training session"
+    ],
+    "actions": [
+      "show",
+      "filter"
+    ],
+    "benefit": "I can see what is happening"
+  },
+  "categories": {
+    "primary_entities": [
+      "admin view",
+      "trainee information",
+      "training session"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "show",
+      "filter"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "training coordinator",
+        "to": "show",
+        "kind": "triggers"
+      },
+      {
+        "from": "training coordinator",
+        "to": "filter",
+        "kind": "triggers"
+      },
+      {
+        "from": "show",
+        "to": "admin view",
+        "kind": "targets"
+      },
+      {
+        "from": "filter",
+        "to": "trainee information",
+        "kind": "targets"
+      },
+      {
+        "from": "filter",
+        "to": "training session",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1366,
+    "output": 256,
+    "time (ns)": 7437454000
+  }
+}

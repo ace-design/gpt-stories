@@ -1,0 +1,54 @@
+{
+  "story": "#G21# As a administrator, I want to refund sponsorship money that was processed via stripe, so that people get their monies back.\n",
+  "extraction": {
+    "personas": [
+      "administrator"
+    ],
+    "entities": [
+      "sponsorship money",
+      "stripe",
+      "people"
+    ],
+    "actions": [
+      "refund"
+    ],
+    "benefit": "people get their monies back"
+  },
+  "categories": {
+    "primary_entities": [
+      "sponsorship money",
+      "people"
+    ],
+    "secondary_entities": [
+      "stripe"
+    ],
+    "primary_actions": [
+      "refund"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "administrator",
+        "to": "refund",
+        "kind": "triggers"
+      },
+      {
+        "from": "refund",
+        "to": "sponsorship money",
+        "kind": "targets"
+      },
+      {
+        "from": "refund",
+        "to": "people",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1303,
+    "output": 189,
+    "time (ns)": 5781434000
+  }
+}

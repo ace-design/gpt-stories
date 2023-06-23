@@ -1,0 +1,51 @@
+{
+  "story": "#G21# As a trainingcoordinator, I want to tie in a cancellation deadline to whatever registration / cancellation workflow exists, so that so we don't loose money or spots.\n",
+  "extraction": {
+    "personas": [
+      "training coordinator"
+    ],
+    "entities": [
+      "cancellation deadline",
+      "registration / cancellation workflow"
+    ],
+    "actions": [
+      "tie in"
+    ],
+    "benefit": "we don't lose money or spots"
+  },
+  "categories": {
+    "primary_entities": [
+      "cancellation deadline",
+      "registration / cancellation workflow"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "tie in"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "training coordinator",
+        "to": "tie in",
+        "kind": "triggers"
+      },
+      {
+        "from": "tie in",
+        "to": "cancellation deadline",
+        "kind": "targets"
+      },
+      {
+        "from": "tie in",
+        "to": "registration / cancellation workflow",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1335,
+    "output": 201,
+    "time (ns)": 5838989000
+  }
+}

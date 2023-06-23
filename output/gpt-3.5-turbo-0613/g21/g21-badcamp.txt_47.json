@@ -1,0 +1,51 @@
+{
+  "story": "#G21# As a anonymoususer, I want to see a list of all the summits, so that I can determine which summit I might be interested and able to attend.\n",
+  "extraction": {
+    "personas": [
+      "anonymoususer"
+    ],
+    "entities": [
+      "list",
+      "summits"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "determine which summit I might be interested and able to attend"
+  },
+  "categories": {
+    "primary_entities": [
+      "list",
+      "summits"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "anonymoususer",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "list",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "summits",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1330,
+    "output": 189,
+    "time (ns)": 5736767000
+  }
+}

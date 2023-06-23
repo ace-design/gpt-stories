@@ -1,0 +1,68 @@
+{
+  "story": "#G21# As a anonymoususer, I want to see how many seats are left for the summit, so that I can make sure to register in-time to reserve my spot.\n",
+  "extraction": {
+    "personas": [
+      "anonymoususer"
+    ],
+    "entities": [
+      "summit"
+    ],
+    "actions": [
+      "see",
+      "register",
+      "reserve"
+    ],
+    "benefit": "I can make sure to register in-time to reserve my spot"
+  },
+  "categories": {
+    "primary_entities": [
+      "summit"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see",
+      "register",
+      "reserve"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "anonymoususer",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "summit",
+        "kind": "targets"
+      },
+      {
+        "from": "anonymoususer",
+        "to": "register",
+        "kind": "triggers"
+      },
+      {
+        "from": "register",
+        "to": "summit",
+        "kind": "targets"
+      },
+      {
+        "from": "anonymoususer",
+        "to": "reserve",
+        "kind": "triggers"
+      },
+      {
+        "from": "reserve",
+        "to": "summit",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1339,
+    "output": 276,
+    "time (ns)": 7782040000
+  }
+}

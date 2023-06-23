@@ -1,0 +1,58 @@
+{
+  "story": "#G21# As a anonymoususer, I want to learn about sponsorship levels, so that I can determine the right level of sponsorship for my organization.\n",
+  "extraction": {
+    "personas": [
+      "anonymoususer"
+    ],
+    "entities": [
+      "sponsorship levels",
+      "my organization"
+    ],
+    "actions": [
+      "learn",
+      "determine"
+    ],
+    "benefit": "I can determine the right level of sponsorship for my organization"
+  },
+  "categories": {
+    "primary_entities": [
+      "sponsorship levels",
+      "my organization"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "learn",
+      "determine"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "anonymoususer",
+        "to": "learn",
+        "kind": "triggers"
+      },
+      {
+        "from": "learn",
+        "to": "sponsorship levels",
+        "kind": "targets"
+      },
+      {
+        "from": "anonymoususer",
+        "to": "determine",
+        "kind": "triggers"
+      },
+      {
+        "from": "determine",
+        "to": "my organization",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1328,
+    "output": 231,
+    "time (ns)": 6477735000
+  }
+}

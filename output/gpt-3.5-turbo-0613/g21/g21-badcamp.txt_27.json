@@ -1,0 +1,71 @@
+{
+  "story": "#G21# As a authenticateduser, I want to See a payment page to pay for my individual sponsorships as the third step of the registration process so that pay for my sponsorship.\n",
+  "extraction": {
+    "personas": [
+      "authenticated user"
+    ],
+    "entities": [
+      "payment page",
+      "individual sponsorships",
+      "registration process"
+    ],
+    "actions": [
+      "See",
+      "pay"
+    ],
+    "benefit": "pay for my sponsorship"
+  },
+  "categories": {
+    "primary_entities": [
+      "payment page",
+      "individual sponsorships"
+    ],
+    "secondary_entities": [
+      "registration process"
+    ],
+    "primary_actions": [
+      "See",
+      "pay"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "authenticated user",
+        "to": "See",
+        "kind": "triggers"
+      },
+      {
+        "from": "See",
+        "to": "payment page",
+        "kind": "targets"
+      },
+      {
+        "from": "authenticated user",
+        "to": "pay",
+        "kind": "triggers"
+      },
+      {
+        "from": "pay",
+        "to": "individual sponsorships",
+        "kind": "targets"
+      },
+      {
+        "from": "See",
+        "to": "individual sponsorships",
+        "kind": "targets"
+      },
+      {
+        "from": "See",
+        "to": "registration process",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1343,
+    "output": 280,
+    "time (ns)": 9227734000
+  }
+}

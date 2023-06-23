@@ -1,0 +1,89 @@
+{
+  "story": "#G21# As a anonymoususer, I want to have the training options clearly marked for the following information: day and time of training, title, short summary, trainers, level, number of registrations, remaining registrations, location of training, link to full details of the training, register now link, so that I can shop for training all with one page AND find their class on on one page.\n",
+  "extraction": {
+    "personas": [
+      "anonymoususer"
+    ],
+    "entities": [
+      "training options",
+      "day and time of training",
+      "title",
+      "short summary",
+      "trainers",
+      "level",
+      "number of registrations",
+      "remaining registrations",
+      "location of training",
+      "link to full details of the training",
+      "register now link"
+    ],
+    "actions": [
+      "clearly marked",
+      "shop for training",
+      "find their class"
+    ],
+    "benefit": "I can shop for training all with one page AND find their class on one page"
+  },
+  "categories": {
+    "primary_entities": [
+      "training options"
+    ],
+    "secondary_entities": [
+      "day and time of training",
+      "title",
+      "short summary",
+      "trainers",
+      "level",
+      "number of registrations",
+      "remaining registrations",
+      "location of training",
+      "link to full details of the training",
+      "register now link"
+    ],
+    "primary_actions": [
+      "clearly marked",
+      "shop for training",
+      "find their class"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "anonymoususer",
+        "to": "clearly marked",
+        "kind": "triggers"
+      },
+      {
+        "from": "anonymoususer",
+        "to": "shop for training",
+        "kind": "triggers"
+      },
+      {
+        "from": "anonymoususer",
+        "to": "find their class",
+        "kind": "triggers"
+      },
+      {
+        "from": "clearly marked",
+        "to": "training options",
+        "kind": "targets"
+      },
+      {
+        "from": "shop for training",
+        "to": "training options",
+        "kind": "targets"
+      },
+      {
+        "from": "find their class",
+        "to": "training options",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1643,
+    "output": 401,
+    "time (ns)": 10774963000
+  }
+}

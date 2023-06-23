@@ -1,0 +1,58 @@
+{
+  "story": "#G21# As a attendee, I want to be added to a training waitlist, so that so they can be considered for a class.\n",
+  "extraction": {
+    "personas": [
+      "attendee"
+    ],
+    "entities": [
+      "training waitlist",
+      "class"
+    ],
+    "actions": [
+      "be added",
+      "considered"
+    ],
+    "benefit": "they can be considered for a class"
+  },
+  "categories": {
+    "primary_entities": [
+      "training waitlist",
+      "class"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "be added",
+      "considered"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "attendee",
+        "to": "be added",
+        "kind": "triggers"
+      },
+      {
+        "from": "be added",
+        "to": "training waitlist",
+        "kind": "targets"
+      },
+      {
+        "from": "be added",
+        "to": "class",
+        "kind": "targets"
+      },
+      {
+        "from": "considered",
+        "to": "class",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1317,
+    "output": 226,
+    "time (ns)": 6792193000
+  }
+}

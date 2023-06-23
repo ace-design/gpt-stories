@@ -1,0 +1,58 @@
+{
+  "story": "#G21# As a anonymoususer, I want to See a list of attendees associated with this company, so that I know who from this sponsor organization is attending.\n",
+  "extraction": {
+    "personas": [
+      "anonymoususer"
+    ],
+    "entities": [
+      "list of attendees",
+      "company",
+      "sponsor organization"
+    ],
+    "actions": [
+      "See"
+    ],
+    "benefit": "know who from this sponsor organization is attending"
+  },
+  "categories": {
+    "primary_entities": [
+      "list of attendees",
+      "company",
+      "sponsor organization"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "See"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "anonymoususer",
+        "to": "See",
+        "kind": "triggers"
+      },
+      {
+        "from": "See",
+        "to": "list of attendees",
+        "kind": "targets"
+      },
+      {
+        "from": "See",
+        "to": "company",
+        "kind": "targets"
+      },
+      {
+        "from": "See",
+        "to": "sponsor organization",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1328,
+    "output": 222,
+    "time (ns)": 6410980000
+  }
+}

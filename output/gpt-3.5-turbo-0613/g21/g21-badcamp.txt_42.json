@@ -1,0 +1,60 @@
+{
+  "story": "#G21# As a summit coordinator, I want to list basic information about my summit, so that I can inform potential attendees on why they should attend my summit.\n",
+  "extraction": {
+    "personas": [
+      "summit coordinator"
+    ],
+    "entities": [
+      "basic information",
+      "potential attendees"
+    ],
+    "actions": [
+      "list",
+      "inform"
+    ],
+    "benefit": "I can inform potential attendees on why they should attend my summit"
+  },
+  "categories": {
+    "primary_entities": [
+      "basic information"
+    ],
+    "secondary_entities": [
+      "potential attendees"
+    ],
+    "primary_actions": [
+      "list"
+    ],
+    "secondary_actions": [
+      "inform"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "summit coordinator",
+        "to": "list",
+        "kind": "triggers"
+      },
+      {
+        "from": "list",
+        "to": "basic information",
+        "kind": "targets"
+      },
+      {
+        "from": "summit coordinator",
+        "to": "inform",
+        "kind": "triggers"
+      },
+      {
+        "from": "inform",
+        "to": "potential attendees",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1332,
+    "output": 226,
+    "time (ns)": 6483934000
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "story": "#G21# As a anonymoususer, I want to register to speak at BADCamp, so that I submit a session.\n",
+  "extraction": {
+    "personas": [
+      "anonymoususer"
+    ],
+    "entities": [
+      "BADCamp",
+      "session"
+    ],
+    "actions": [
+      "register",
+      "speak",
+      "submit"
+    ],
+    "benefit": "I can submit a session"
+  },
+  "categories": {
+    "primary_entities": [
+      "BADCamp",
+      "session"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "register",
+      "submit"
+    ],
+    "secondary_actions": [
+      "speak"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "anonymoususer",
+        "to": "register",
+        "kind": "triggers"
+      },
+      {
+        "from": "register",
+        "to": "BADCamp",
+        "kind": "targets"
+      },
+      {
+        "from": "register",
+        "to": "session",
+        "kind": "targets"
+      },
+      {
+        "from": "anonymoususer",
+        "to": "speak",
+        "kind": "triggers"
+      },
+      {
+        "from": "speak",
+        "to": "BADCamp",
+        "kind": "targets"
+      },
+      {
+        "from": "speak",
+        "to": "session",
+        "kind": "targets"
+      },
+      {
+        "from": "anonymoususer",
+        "to": "submit",
+        "kind": "triggers"
+      },
+      {
+        "from": "submit",
+        "to": "BADCamp",
+        "kind": "targets"
+      },
+      {
+        "from": "submit",
+        "to": "session",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1308,
+    "output": 359,
+    "time (ns)": 9883528000
+  }
+}

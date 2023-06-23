@@ -1,0 +1,44 @@
+{
+  "story": "#G21# As a attendee, I want to get detailed directions to the summit venue, so that I can get to the summit easily on the day of the event.\n",
+  "extraction": {
+    "personas": [
+      "attendee"
+    ],
+    "entities": [
+      "summit venue"
+    ],
+    "actions": [
+      "get detailed directions"
+    ],
+    "benefit": "I can get to the summit easily on the day of the event"
+  },
+  "categories": {
+    "primary_entities": [
+      "summit venue"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "get detailed directions"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "attendee",
+        "to": "get detailed directions",
+        "kind": "triggers"
+      },
+      {
+        "from": "get detailed directions",
+        "to": "summit venue",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1326,
+    "output": 170,
+    "time (ns)": 5176991000
+  }
+}

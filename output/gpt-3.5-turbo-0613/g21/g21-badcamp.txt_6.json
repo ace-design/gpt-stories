@@ -1,0 +1,58 @@
+{
+  "story": "#G21# As a trainee, I want to limit to one registration per day per authenticated user, so that we don't have duplicate spaces.\n",
+  "extraction": {
+    "personas": [
+      "trainee"
+    ],
+    "entities": [
+      "registration",
+      "authenticated user",
+      "spaces"
+    ],
+    "actions": [
+      "limit"
+    ],
+    "benefit": "we don't have duplicate spaces"
+  },
+  "categories": {
+    "primary_entities": [
+      "registration",
+      "authenticated user",
+      "spaces"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "limit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "trainee",
+        "to": "limit",
+        "kind": "triggers"
+      },
+      {
+        "from": "limit",
+        "to": "registration",
+        "kind": "targets"
+      },
+      {
+        "from": "limit",
+        "to": "authenticated user",
+        "kind": "targets"
+      },
+      {
+        "from": "limit",
+        "to": "spaces",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1309,
+    "output": 214,
+    "time (ns)": 6377779000
+  }
+}

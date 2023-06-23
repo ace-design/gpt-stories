@@ -1,0 +1,44 @@
+{
+  "story": "#G21# As a administrator, I want to bulk approve sessions as accepted, so that I can save time.\n",
+  "extraction": {
+    "personas": [
+      "administrator"
+    ],
+    "entities": [
+      "sessions"
+    ],
+    "actions": [
+      "bulk approve"
+    ],
+    "benefit": "save time"
+  },
+  "categories": {
+    "primary_entities": [
+      "sessions"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "bulk approve"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "administrator",
+        "to": "bulk approve",
+        "kind": "triggers"
+      },
+      {
+        "from": "bulk approve",
+        "to": "sessions",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1260,
+    "output": 147,
+    "time (ns)": 5266327000
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "story": "#G21# As a authenticateduser, I want to view the job board, so that I can look for an interesting Drupal gig!.\n",
+  "extraction": {
+    "personas": [
+      "authenticateduser"
+    ],
+    "entities": [
+      "job board",
+      "Drupal gig"
+    ],
+    "actions": [
+      "view",
+      "look for"
+    ],
+    "benefit": "I can look for an interesting Drupal gig"
+  },
+  "categories": {
+    "primary_entities": [
+      "job board"
+    ],
+    "secondary_entities": [
+      "Drupal gig"
+    ],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": [
+      "look for"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "authenticateduser",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "job board",
+        "kind": "targets"
+      },
+      {
+        "from": "authenticateduser",
+        "to": "look for",
+        "kind": "triggers"
+      },
+      {
+        "from": "look for",
+        "to": "Drupal gig",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1310,
+    "output": 223,
+    "time (ns)": 6158531000
+  }
+}

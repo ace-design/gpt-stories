@@ -1,0 +1,91 @@
+{
+  "story": "#G21# As a anonymoususer, I want to see specific details on summits, so that I can learn more about the summit I'm interested in to see if it matches my interests, register for the event, and get day-of knowledge to help me get to the location.\n",
+  "extraction": {
+    "personas": [
+      "anonymoususer"
+    ],
+    "entities": [
+      "specific details",
+      "summits",
+      "event",
+      "location"
+    ],
+    "actions": [
+      "see",
+      "learn",
+      "register",
+      "get"
+    ],
+    "benefit": "I can learn more about the summit, register for the event, and get day-of knowledge to help me get to the location."
+  },
+  "categories": {
+    "primary_entities": [
+      "specific details",
+      "summits",
+      "event",
+      "location"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see",
+      "learn",
+      "register",
+      "get"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "anonymoususer",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "anonymoususer",
+        "to": "learn",
+        "kind": "triggers"
+      },
+      {
+        "from": "anonymoususer",
+        "to": "register",
+        "kind": "triggers"
+      },
+      {
+        "from": "anonymoususer",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "specific details",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "summits",
+        "kind": "targets"
+      },
+      {
+        "from": "learn",
+        "to": "summits",
+        "kind": "targets"
+      },
+      {
+        "from": "register",
+        "to": "event",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "location",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1469,
+    "output": 392,
+    "time (ns)": 10499417000
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "story": "#G21# As a summit coordinator, I want to list an agenda for my summit, so that I can entice attendees and give positive feedback to presenters to encourage participation.\n",
+  "extraction": {
+    "personas": [
+      "summit coordinator"
+    ],
+    "entities": [
+      "agenda",
+      "attendees",
+      "presenters"
+    ],
+    "actions": [
+      "list",
+      "entice",
+      "give positive feedback",
+      "encourage participation"
+    ],
+    "benefit": "I can entice attendees and give positive feedback to presenters to encourage participation"
+  },
+  "categories": {
+    "primary_entities": [
+      "agenda",
+      "attendees",
+      "presenters"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "list",
+      "entice"
+    ],
+    "secondary_actions": [
+      "give positive feedback",
+      "encourage participation"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "summit coordinator",
+        "to": "list",
+        "kind": "triggers"
+      },
+      {
+        "from": "list",
+        "to": "agenda",
+        "kind": "targets"
+      },
+      {
+        "from": "summit coordinator",
+        "to": "entice",
+        "kind": "triggers"
+      },
+      {
+        "from": "entice",
+        "to": "attendees",
+        "kind": "targets"
+      },
+      {
+        "from": "entice",
+        "to": "presenters",
+        "kind": "targets"
+      },
+      {
+        "from": "give positive feedback",
+        "to": "presenters",
+        "kind": "targets"
+      },
+      {
+        "from": "encourage participation",
+        "to": "presenters",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1390,
+    "output": 342,
+    "time (ns)": 10147817000
+  }
+}

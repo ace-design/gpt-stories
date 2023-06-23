@@ -1,0 +1,63 @@
+{
+  "story": "#G21# As a authenticateduser, I want to Enter payment information and have my card charged for an individual sponsorship, so that I can pay for an individual sponsorship.\n",
+  "extraction": {
+    "personas": [
+      "authenticateduser"
+    ],
+    "entities": [
+      "payment information",
+      "card"
+    ],
+    "actions": [
+      "Enter",
+      "charged"
+    ],
+    "benefit": "I can pay for an individual sponsorship"
+  },
+  "categories": {
+    "primary_entities": [
+      "payment information",
+      "card"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Enter",
+      "charged"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "authenticateduser",
+        "to": "Enter",
+        "kind": "triggers"
+      },
+      {
+        "from": "Enter",
+        "to": "payment information",
+        "kind": "targets"
+      },
+      {
+        "from": "Enter",
+        "to": "card",
+        "kind": "targets"
+      },
+      {
+        "from": "charged",
+        "to": "payment information",
+        "kind": "targets"
+      },
+      {
+        "from": "charged",
+        "to": "card",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1323,
+    "output": 241,
+    "time (ns)": 6643499000
+  }
+}

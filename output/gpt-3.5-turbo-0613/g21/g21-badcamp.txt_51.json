@@ -1,0 +1,75 @@
+{
+  "story": "#G21# As a anonymoususer, I want to learn about posting jobs as a sponsor and contact the sponsorship person, so that I have the opportunty to post my job listing on the BADCamp site.\n",
+  "extraction": {
+    "personas": [
+      "anonymoususer",
+      "sponsor"
+    ],
+    "entities": [
+      "posting jobs",
+      "sponsorship person",
+      "job listing",
+      "BADCamp site"
+    ],
+    "actions": [
+      "learn",
+      "contact"
+    ],
+    "benefit": "have the opportunity to post my job listing on the BADCamp site"
+  },
+  "categories": {
+    "primary_entities": [
+      "posting jobs",
+      "BADCamp site"
+    ],
+    "secondary_entities": [
+      "sponsorship person",
+      "job listing"
+    ],
+    "primary_actions": [
+      "learn"
+    ],
+    "secondary_actions": [
+      "contact"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "anonymoususer",
+        "to": "learn",
+        "kind": "triggers"
+      },
+      {
+        "from": "learn",
+        "to": "posting jobs",
+        "kind": "targets"
+      },
+      {
+        "from": "learn",
+        "to": "BADCamp site",
+        "kind": "targets"
+      },
+      {
+        "from": "anonymoususer",
+        "to": "contact",
+        "kind": "triggers"
+      },
+      {
+        "from": "contact",
+        "to": "sponsorship person",
+        "kind": "targets"
+      },
+      {
+        "from": "contact",
+        "to": "job listing",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1403,
+    "output": 305,
+    "time (ns)": 8301258000
+  }
+}

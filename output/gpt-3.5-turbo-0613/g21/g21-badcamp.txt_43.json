@@ -1,0 +1,51 @@
+{
+  "story": "#G21# As a summit coordinator, I want to list sponsors for my summit, so that I can make sure sponsors feel rewarded and will be interested in sponsoring in future years.\n",
+  "extraction": {
+    "personas": [
+      "summit coordinator"
+    ],
+    "entities": [
+      "sponsors",
+      "summit"
+    ],
+    "actions": [
+      "list"
+    ],
+    "benefit": "sponsors feel rewarded and will be interested in sponsoring in future years"
+  },
+  "categories": {
+    "primary_entities": [
+      "sponsors",
+      "summit"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "list"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "summit coordinator",
+        "to": "list",
+        "kind": "triggers"
+      },
+      {
+        "from": "list",
+        "to": "sponsors",
+        "kind": "targets"
+      },
+      {
+        "from": "list",
+        "to": "summit",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1337,
+    "output": 195,
+    "time (ns)": 5672782000
+  }
+}

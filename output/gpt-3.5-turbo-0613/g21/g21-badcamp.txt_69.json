@@ -1,0 +1,44 @@
+{
+  "story": "#G21# As a anonymoususer, I want to find session information, so that I can go to a session.\n",
+  "extraction": {
+    "personas": [
+      "anonymoususer"
+    ],
+    "entities": [
+      "session information"
+    ],
+    "actions": [
+      "find"
+    ],
+    "benefit": "I can go to a session"
+  },
+  "categories": {
+    "primary_entities": [
+      "session information"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "find"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "anonymoususer",
+        "to": "find",
+        "kind": "triggers"
+      },
+      {
+        "from": "find",
+        "to": "session information",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1273,
+    "output": 152,
+    "time (ns)": 4518543000
+  }
+}

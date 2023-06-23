@@ -1,0 +1,494 @@
+START: 15:07:43
+# Processing g21-badcamp.txt
+- Story #[1] -- started at 15:07:43
+    - #G21# As a anonymoususer, I want to view a list of sponsors, so that I can thank all the awesome sponsors.
+
+        - calling model 15:07:43
+        - calling model 15:07:47
+        - calling model 15:07:50
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_1.json
+- Story #[2] -- started at 15:07:54
+    - #G21# As a anonymoususer, I want to view a list of user profiles, so that I know who is attending the conference.
+
+        - calling model 15:07:54
+        - calling model 15:07:58
+        - calling model 15:08:01
+       - exception caught! Pausing for 60 seconds
+        - calling model 15:09:31
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_2.json
+- Story #[3] -- started at 15:09:35
+    - #G21# As a trainingcoordinator, I want to email all the trainers at once from the website for info and updates, so that It is easier to use.
+
+        - calling model 15:09:35
+       - exception caught! Pausing for 60 seconds
+        - calling model 15:11:05
+        - calling model 15:11:09
+        - calling model 15:11:12
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_3.json
+- Story #[4] -- started at 15:11:17
+    - #G21# As a attendee, I want to have a very clear map where the buildings and rooms are, so that I can make it to class on time.
+
+        - calling model 15:11:17
+        - calling model 15:11:21
+        - calling model 15:11:25
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_4.json
+- Story #[5] -- started at 15:11:31
+    - #G21# As a trainer, I want to edit my training node myself, so that the training coordinators don't have to and links to slides.
+
+        - calling model 15:11:31
+        - calling model 15:11:35
+        - calling model 15:11:38
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_5.json
+- Story #[6] -- started at 15:11:42
+    - #G21# As a trainee, I want to limit to one registration per day per authenticated user, so that we don't have duplicate spaces.
+
+        - calling model 15:11:42
+        - calling model 15:11:46
+        - calling model 15:11:50
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_6.json
+- Story #[7] -- started at 15:11:55
+    - #G21# As a trainingcoordinator, I want to have an admin view that helps track registration status for each attendee so that, so that we can see if attendend, refunded, no show.
+
+        - calling model 15:11:55
+        - calling model 15:11:59
+        - calling model 15:12:02
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_7.json
+- Story #[8] -- started at 15:12:09
+    - #G21# As a attendee, I want to be added to a training waitlist, so that so they can be considered for a class.
+
+        - calling model 15:12:09
+        - calling model 15:12:13
+        - calling model 15:12:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_8.json
+- Story #[9] -- started at 15:12:22
+    - #G21# As a trainee, I want to must accept the cancellation terms with a checkbox, so that they can be accountable..
+
+        - calling model 15:12:22
+        - calling model 15:12:26
+        - calling model 15:12:29
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_9.json
+- Story #[10] -- started at 15:12:33
+    - #G21# As a trainingcoordinator, I want to tie in a cancellation deadline to whatever registration / cancellation workflow exists, so that so we don't loose money or spots.
+
+        - calling model 15:12:33
+        - calling model 15:12:37
+        - calling model 15:12:40
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_10.json
+- Story #[11] -- started at 15:12:45
+    - #G21# As a trainee, I want to add to \"my schedule\" if there is a schedule feature on the site, so that they can schedule their event experience.
+
+        - calling model 15:12:45
+        - calling model 15:12:49
+        - calling model 15:12:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_11.json
+- Story #[12] -- started at 15:12:56
+    - #G21# As a trainee, I want to see which trainings I have signed up for, so that they can schedule their event experience.
+
+        - calling model 15:12:56
+        - calling model 15:13:00
+        - calling model 15:13:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_12.json
+- Story #[13] -- started at 15:13:08
+    - #G21# As a trainer, I want to have a view that is attached to their training node that shows all attendee information Trainers can see all class attendance at first because there are so little trainers and they are trusted with privacy, so that the training coordinator doesn't have to do all the work to get login info for environment setup.
+
+        - calling model 15:13:08
+        - calling model 15:13:13
+        - calling model 15:13:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_13.json
+- Story #[14] -- started at 15:13:31
+    - #G21# As a trainingcoordinator, I want to have an admin view where all trainee information is shown and can be filtered to show a single training session, so that I can see WTF is happening.
+
+        - calling model 15:13:31
+        - calling model 15:13:35
+        - calling model 15:13:38
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_14.json
+- Story #[15] -- started at 15:13:44
+    - #G21# As a anonymoususer, I want to have a dedicated page for each class to learn more about the offering The following information must be shown: Logo, title, trainers, location, possibly a map view, datetime, skill level, registrations remaining, link to register for class. The URL path should be SEO friendly /training/training-title, so that I can choose the right class, AND the trainer can tweet and promote their class.
+
+        - calling model 15:13:44
+        - calling model 15:13:50
+        - calling model 15:13:55
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_15.json
+- Story #[16] -- started at 15:14:07
+    - #G21# As a anonymoususer, I want to have the training options clearly marked for the following information: day and time of training, title, short summary, trainers, level, number of registrations, remaining registrations, location of training, link to full details of the training, register now link, so that I can shop for training all with one page AND find their class on on one page.
+
+        - calling model 15:14:07
+        - calling model 15:14:13
+        - calling model 15:14:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_16.json
+- Story #[17] -- started at 15:14:24
+    - #G21# As a anonymoususer, I want to have a training landing page with an intro section and a list of all training offerings and promote call for trainings, so that I can shop for training all with one page and we can have a call for trainings for selection.
+
+        - calling model 15:14:24
+        - calling model 15:14:29
+        - calling model 15:14:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_17.json
+- Story #[18] -- started at 15:14:40
+    - #G21# As a anonymoususer, I want to have a link on the home page to a list of training options, so that I can take training.
+
+        - calling model 15:14:40
+        - calling model 15:14:44
+        - calling model 15:14:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_18.json
+- Story #[19] -- started at 15:14:53
+    - #G21# As a anonymoususer, I want to find out where the coding lounge is and what time it is open, so that I can code with my friends.
+
+        - calling model 15:14:53
+        - calling model 15:14:57
+        - calling model 15:15:00
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_19.json
+- Story #[20] -- started at 15:15:05
+    - #G21# As a administrator, I want to refund sponsorship money that was processed via stripe, so that people get their monies back.
+
+        - calling model 15:15:05
+        - calling model 15:15:09
+        - calling model 15:15:12
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_20.json
+- Story #[21] -- started at 15:15:17
+    - #G21# As a authenticateduser, I want to find a link on the sponsorships page to become a $350 level sponsor, so that I can pay for and become a sponsor role.
+
+        - calling model 15:15:17
+        - calling model 15:15:21
+        - calling model 15:15:25
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_21.json
+- Story #[22] -- started at 15:15:31
+    - #G21# As a anonymoususer, I want to See a list of attendees associated with this company, so that I know who from this sponsor organization is attending.
+
+        - calling model 15:15:31
+        - calling model 15:15:34
+        - calling model 15:15:38
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_22.json
+- Story #[23] -- started at 15:15:43
+    - #G21# As a authenticateduser, I want to identify myself as and pay for a $350 company sponsorship, so that I can easily become a sponsor at this level without having to interface with badcamp personnel to get a sponsorship.
+
+        - calling model 15:15:43
+        - calling model 15:15:47
+        - calling model 15:15:51
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_23.json
+- Story #[24] -- started at 15:15:56
+    - #G21# As a administrator, I want to create and maintain venues, so that I can provide location details to help users find what they're looking for.
+
+        - calling model 15:15:56
+        - calling model 15:16:00
+        - calling model 15:16:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_24.json
+- Story #[25] -- started at 15:16:11
+    - #G21# As a anonymoususer, I want to view venue details, so that I can get a sense of the location and see the events happening there.
+
+        - calling model 15:16:11
+        - calling model 15:16:14
+        - calling model 15:16:18
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_25.json
+- Story #[26] -- started at 15:16:23
+    - #G21# As a anonymoususer, I want to see a list of the sessions associated with sponsor attendees, so that I know where I can engage with this sponsor and where they are thought leaders.
+
+        - calling model 15:16:23
+        - calling model 15:16:27
+        - calling model 15:16:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_26.json
+- Story #[27] -- started at 15:16:35
+    - #G21# As a authenticateduser, I want to See a payment page to pay for my individual sponsorships as the third step of the registration process so that pay for my sponsorship.
+
+        - calling model 15:16:35
+        - calling model 15:16:40
+        - calling model 15:16:44
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_27.json
+- Story #[28] -- started at 15:16:50
+    - #G21# As a administrator, I want to assign sponsors to events, trainings and summits so that They will be featured on the sponsor detail page.
+
+        - calling model 15:16:50
+        - calling model 15:16:55
+        - calling model 15:16:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_28.json
+- Story #[29] -- started at 15:17:05
+    - #G21# As a anonymoususer, I want to see all events, trainings and summits that a sponsor is sponsoring so that I know where I can engage with this sponsor and where they are thought leaders.
+
+        - calling model 15:17:05
+        - calling model 15:17:10
+        - calling model 15:17:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_29.json
+- Story #[30] -- started at 15:17:20
+    - #G21# As a authenticateduser, I want to Enter payment information and have my card charged for an individual sponsorship, so that I can pay for an individual sponsorship.
+
+        - calling model 15:17:20
+        - calling model 15:17:23
+        - calling model 15:17:27
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_30.json
+- Story #[31] -- started at 15:17:32
+    - #G21# As a sponsor, I want to link BADCamp attendees to my sponsorship page, so that I can show off our level of attendance.
+
+        - calling model 15:17:32
+        - calling model 15:17:36
+        - calling model 15:17:39
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_31.json
+- Story #[32] -- started at 15:17:44
+    - #G21# As a authenticateduser, I want to update my user profile, so that I can connect with other Drupalists at BADCamp.
+
+        - calling model 15:17:44
+        - calling model 15:17:48
+        - calling model 15:17:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_32.json
+- Story #[33] -- started at 15:17:58
+    - #G21# As a anonymoususer, I want to sign up for the BADCamp newsletter, so that I can stay up to date with the latest communications about BADCamp.
+
+        - calling model 15:17:58
+        - calling model 15:18:02
+        - calling model 15:18:06
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_33.json
+- Story #[34] -- started at 15:18:10
+    - #G21# As a administrator, I want to tag my blog posts for consumption by Drupal Planet, so that they will be listed on the Drupal Planet blog.
+
+        - calling model 15:18:10
+        - calling model 15:18:13
+        - calling model 15:18:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_34.json
+- Story #[35] -- started at 15:18:21
+    - #G21# As a administrator, I want to create blog posts, so that I can share the latest information about BADCamp with the public.
+
+        - calling model 15:18:21
+        - calling model 15:18:25
+        - calling model 15:18:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_35.json
+- Story #[36] -- started at 15:18:33
+    - #G21# As a anonymoususer, I want to read the blog, so that I can stay informed about all the latest happenings with BADCamp.
+
+        - calling model 15:18:33
+        - calling model 15:18:37
+        - calling model 15:18:41
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_36.json
+- Story #[37] -- started at 15:18:45
+    - #G21# As a sponsor, I want to sponsor a summit that matches my brand, so that I can get exposure to potential customers and otherwise tout my Drupal credentials.
+
+        - calling model 15:18:45
+        - calling model 15:18:49
+        - calling model 15:18:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_37.json
+- Story #[38] -- started at 15:19:00
+    - #G21# As a attendee, I want to register for a summit, so that I can reserve my seat at the summit.
+
+        - calling model 15:19:00
+        - calling model 15:19:04
+        - calling model 15:19:07
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_38.json
+- Story #[39] -- started at 15:19:12
+    - #G21# As a attendee, I want to get detailed directions to the summit venue, so that I can get to the summit easily on the day of the event.
+
+        - calling model 15:19:12
+        - calling model 15:19:15
+        - calling model 15:19:19
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_39.json
+- Story #[40] -- started at 15:19:23
+    - #G21# As a attendee, I want to see what summits I'm signed up for, so that I can confirm my attendence and prevent myself from accidentally double-booking with a training or another summit.
+
+        - calling model 15:19:23
+        - calling model 15:19:27
+        - calling model 15:19:31
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_40.json
+- Story #[41] -- started at 15:19:38
+    - #G21# As a summit coordinator, I want to see a list of attendees signed up for my summit, so that I can communicate with my attendees by email prior to the event.
+
+        - calling model 15:19:38
+       - exception caught! Pausing for 60 seconds
+        - calling model 15:21:08
+        - calling model 15:21:12
+        - calling model 15:21:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_41.json
+- Story #[42] -- started at 15:21:21
+    - #G21# As a summit coordinator, I want to list basic information about my summit, so that I can inform potential attendees on why they should attend my summit.
+
+        - calling model 15:21:21
+        - calling model 15:21:25
+       - exception caught! Pausing for 60 seconds
+        - calling model 15:22:55
+        - calling model 15:22:58
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_42.json
+- Story #[43] -- started at 15:23:04
+    - #G21# As a summit coordinator, I want to list sponsors for my summit, so that I can make sure sponsors feel rewarded and will be interested in sponsoring in future years.
+
+        - calling model 15:23:04
+        - calling model 15:23:07
+        - calling model 15:23:10
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_43.json
+- Story #[44] -- started at 15:23:15
+    - #G21# As a summit coordinator, I want to list an agenda for my summit, so that I can entice attendees and give positive feedback to presenters to encourage participation.
+
+        - calling model 15:23:15
+        - calling model 15:23:19
+        - calling model 15:23:23
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_44.json
+- Story #[45] -- started at 15:23:31
+    - #G21# As a anonymoususer, I want to see how many seats are left for the summit, so that I can make sure to register in-time to reserve my spot.
+
+        - calling model 15:23:31
+        - calling model 15:23:35
+        - calling model 15:23:39
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_45.json
+- Story #[46] -- started at 15:23:45
+    - #G21# As a anonymoususer, I want to see specific details on summits, so that I can learn more about the summit I'm interested in to see if it matches my interests, register for the event, and get day-of knowledge to help me get to the location.
+
+        - calling model 15:23:45
+        - calling model 15:23:50
+        - calling model 15:23:54
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_46.json
+- Story #[47] -- started at 15:24:02
+    - #G21# As a anonymoususer, I want to see a list of all the summits, so that I can determine which summit I might be interested and able to attend.
+
+        - calling model 15:24:02
+        - calling model 15:24:05
+        - calling model 15:24:09
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_47.json
+- Story #[48] -- started at 15:24:14
+    - #G21# As a anonymoususer, I want to learn about sponsorship levels, so that I can determine the right level of sponsorship for my organization.
+
+        - calling model 15:24:14
+        - calling model 15:24:17
+        - calling model 15:24:21
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_48.json
+- Story #[49] -- started at 15:24:26
+    - #G21# As a authenticateduser, I want to use a WYSIWYG editor for all long-form content, so that I don't have to know HTML to update my content.
+
+        - calling model 15:24:26
+        - calling model 15:24:30
+        - calling model 15:24:34
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_49.json
+- Story #[50] -- started at 15:24:39
+    - #G21# As a sponsor, I want to Link to my sponsorship profile from my job listings, so that recruits can learn more about my organization.
+
+        - calling model 15:24:39
+        - calling model 15:24:43
+        - calling model 15:24:46
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_50.json
+- Story #[51] -- started at 15:24:53
+    - #G21# As a anonymoususer, I want to learn about posting jobs as a sponsor and contact the sponsorship person, so that I have the opportunty to post my job listing on the BADCamp site.
+
+        - calling model 15:24:53
+        - calling model 15:24:57
+        - calling model 15:25:01
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_51.json
+- Story #[52] -- started at 15:25:07
+    - #G21# As a sponsor, I want to post a job, so that I can hire top-tier Drupal talent.
+
+        - calling model 15:25:07
+        - calling model 15:25:11
+        - calling model 15:25:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_52.json
+- Story #[53] -- started at 15:25:19
+    - #G21# As a authenticateduser, I want to view the job board, so that I can look for an interesting Drupal gig!.
+
+        - calling model 15:25:19
+        - calling model 15:25:23
+        - calling model 15:25:26
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_53.json
+- Story #[54] -- started at 15:25:31
+    - #G21# As a administrator, I want to assign a room to a time slot and a location, so that I can populate the schedule .
+
+        - calling model 15:25:31
+        - calling model 15:25:35
+        - calling model 15:25:39
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_54.json
+- Story #[55] -- started at 15:25:45
+    - #G21# As a anonymoususer, I want to see the schedule, so that I can plan my day and figure out where to go!.
+
+        - calling model 15:25:45
+        - calling model 15:25:48
+        - calling model 15:25:51
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_55.json
+- Story #[56] -- started at 15:25:55
+    - #G21# As a anonymoususer, I want to see the final list of sessions approved, so that I can see what's going on at BADCamp .
+
+        - calling model 15:25:55
+        - calling model 15:25:59
+        - calling model 15:26:02
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_56.json
+- Story #[57] -- started at 15:26:07
+    - #G21# As a administrator, I want to bulk approve sessions as accepted, so that I can save time.
+
+        - calling model 15:26:07
+        - calling model 15:26:11
+        - calling model 15:26:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_57.json
+- Story #[58] -- started at 15:26:19
+    - #G21# As a administrator, I want to mark a session as accepted, so that I can populate the schedule .
+
+        - calling model 15:26:19
+        - calling model 15:26:22
+        - calling model 15:26:26
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_58.json
+- Story #[59] -- started at 15:26:31
+    - #G21# As a anonymoususer, I want to receive a notification when sessions have been evaluated, so that I know whether I've been accepted or rejected.
+
+        - calling model 15:26:31
+        - calling model 15:26:34
+        - calling model 15:26:38
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_59.json
+- Story #[60] -- started at 15:26:42
+    - #G21# As a anonymoususer, I want to receive a notification when I submit a session, so that know that my session went through ok.
+
+        - calling model 15:26:42
+        - calling model 15:26:45
+        - calling model 15:26:48
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_60.json
+- Story #[61] -- started at 15:26:53
+    - #G21# As a authenticateduser, I want to edit my session, so that if I make a mistake, I can correct it.
+
+        - calling model 15:26:53
+        - calling model 15:26:57
+        - calling model 15:27:01
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_61.json
+- Story #[62] -- started at 15:27:07
+    - #G21# As a anonymoususer, I want to register to speak at BADCamp, so that I submit a session.
+
+        - calling model 15:27:07
+        - calling model 15:27:11
+        - calling model 15:27:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_62.json
+- Story #[63] -- started at 15:27:23
+    - #G21# As a authenticateduser, I want to submit a session at BADCAMP, so that I can get my session evaluated.
+
+        - calling model 15:27:23
+        - calling model 15:27:26
+        - calling model 15:27:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_63.json
+- Story #[64] -- started at 15:27:35
+    - #G21# As a sponsor, I want to personalize my sponsorship page, so that I can promote my brand.
+
+        - calling model 15:27:35
+        - calling model 15:27:39
+        - calling model 15:27:43
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_64.json
+- Story #[65] -- started at 15:27:48
+    - #G21# As a anonymoususer, I want to see a list of all the summits that include when they are, so that I can determine which summit I want to attend.
+
+        - calling model 15:27:48
+        - calling model 15:27:51
+        - calling model 15:27:55
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_65.json
+- Story #[66] -- started at 15:28:00
+    - #G21# As a authenticateduser, I want to Be offered several choices of idividual sponsorship on the second page of registration, so that I can be awesome and financially support the camp.
+
+        - calling model 15:28:00
+        - calling model 15:28:03
+        - calling model 15:28:07
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_66.json
+- Story #[67] -- started at 15:28:13
+    - #G21# As a anonymoususer, I want to easily find a link in the menu that links to the registration form, so that I can easily register for the camp.
+
+        - calling model 15:28:13
+        - calling model 15:28:17
+        - calling model 15:28:20
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_67.json
+- Story #[68] -- started at 15:28:26
+    - #G21# As a anonymoususer, I want to fill out a user registration form, so that I can register for the camp and get an account on the website.
+
+        - calling model 15:28:26
+        - calling model 15:28:30
+        - calling model 15:28:34
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_68.json
+- Story #[69] -- started at 15:28:40
+    - #G21# As a anonymoususer, I want to find session information, so that I can go to a session.
+
+        - calling model 15:28:40
+        - calling model 15:28:44
+        - calling model 15:28:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g21-badcamp.txt_69.json
+END: 15:28:51

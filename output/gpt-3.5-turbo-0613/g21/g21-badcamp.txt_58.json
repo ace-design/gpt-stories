@@ -1,0 +1,56 @@
+{
+  "story": "#G21# As a administrator, I want to mark a session as accepted, so that I can populate the schedule .\n",
+  "extraction": {
+    "personas": [
+      "administrator"
+    ],
+    "entities": [
+      "session"
+    ],
+    "actions": [
+      "mark",
+      "populate"
+    ],
+    "benefit": "I can populate the schedule"
+  },
+  "categories": {
+    "primary_entities": [
+      "session"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "mark",
+      "populate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "administrator",
+        "to": "mark",
+        "kind": "triggers"
+      },
+      {
+        "from": "mark",
+        "to": "session",
+        "kind": "targets"
+      },
+      {
+        "from": "administrator",
+        "to": "populate",
+        "kind": "triggers"
+      },
+      {
+        "from": "populate",
+        "to": "session",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1275,
+    "output": 203,
+    "time (ns)": 5973392000
+  }
+}

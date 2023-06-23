@@ -1,0 +1,149 @@
+{
+  "story": "#G21# As a trainer, I want to have a view that is attached to their training node that shows all attendee information Trainers can see all class attendance at first because there are so little trainers and they are trusted with privacy, so that the training coordinator doesn't have to do all the work to get login info for environment setup.\n",
+  "extraction": {
+    "personas": [
+      "trainer",
+      "training coordinator"
+    ],
+    "entities": [
+      "view",
+      "training node",
+      "attendee information",
+      "class attendance",
+      "trainers",
+      "privacy",
+      "login info",
+      "environment setup"
+    ],
+    "actions": [
+      "have",
+      "show",
+      "see",
+      "do",
+      "get"
+    ],
+    "benefit": "the training coordinator doesn't have to do all the work to get login info for environment setup"
+  },
+  "categories": {
+    "primary_entities": [
+      "view",
+      "training node",
+      "attendee information",
+      "class attendance"
+    ],
+    "secondary_entities": [
+      "trainers",
+      "privacy",
+      "login info",
+      "environment setup"
+    ],
+    "primary_actions": [
+      "have",
+      "show"
+    ],
+    "secondary_actions": [
+      "see",
+      "do",
+      "get"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "trainer",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "trainer",
+        "to": "show",
+        "kind": "triggers"
+      },
+      {
+        "from": "trainer",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "trainer",
+        "to": "do",
+        "kind": "triggers"
+      },
+      {
+        "from": "trainer",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "training coordinator",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "training coordinator",
+        "to": "show",
+        "kind": "triggers"
+      },
+      {
+        "from": "training coordinator",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "training coordinator",
+        "to": "do",
+        "kind": "triggers"
+      },
+      {
+        "from": "training coordinator",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "view",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "training node",
+        "kind": "targets"
+      },
+      {
+        "from": "show",
+        "to": "attendee information",
+        "kind": "targets"
+      },
+      {
+        "from": "show",
+        "to": "class attendance",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "trainers",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "privacy",
+        "kind": "targets"
+      },
+      {
+        "from": "do",
+        "to": "login info",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "environment setup",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1549,
+    "output": 662,
+    "time (ns)": 17129527000
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "story": "#G21# As a anonymoususer, I want to receive a notification when sessions have been evaluated, so that I know whether I've been accepted or rejected.\n",
+  "extraction": {
+    "personas": [
+      "anonymoususer"
+    ],
+    "entities": [
+      "sessions"
+    ],
+    "actions": [
+      "receive",
+      "evaluated"
+    ],
+    "benefit": "I know whether I've been accepted or rejected"
+  },
+  "categories": {
+    "primary_entities": [
+      "sessions"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "receive"
+    ],
+    "secondary_actions": [
+      "evaluated"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "anonymoususer",
+        "to": "receive",
+        "kind": "triggers"
+      },
+      {
+        "from": "receive",
+        "to": "sessions",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1310,
+    "output": 159,
+    "time (ns)": 4843307000
+  }
+}

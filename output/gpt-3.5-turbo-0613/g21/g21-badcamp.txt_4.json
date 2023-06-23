@@ -1,0 +1,65 @@
+{
+  "story": "#G21# As a attendee, I want to have a very clear map where the buildings and rooms are, so that I can make it to class on time.\n",
+  "extraction": {
+    "personas": [
+      "attendee"
+    ],
+    "entities": [
+      "map",
+      "buildings",
+      "rooms"
+    ],
+    "actions": [
+      "have",
+      "make it to class on time"
+    ],
+    "benefit": "I can make it to class on time"
+  },
+  "categories": {
+    "primary_entities": [
+      "map",
+      "buildings",
+      "rooms"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "make it to class on time"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "attendee",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "map",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "buildings",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "rooms",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "make it to class on time",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1346,
+    "output": 263,
+    "time (ns)": 7644531000
+  }
+}

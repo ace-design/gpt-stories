@@ -1,0 +1,67 @@
+{
+  "story": "#G21# As a authenticateduser, I want to update my user profile, so that I can connect with other Drupalists at BADCamp.\n",
+  "extraction": {
+    "personas": [
+      "authenticateduser"
+    ],
+    "entities": [
+      "user profile",
+      "Drupalists",
+      "BADCamp"
+    ],
+    "actions": [
+      "update",
+      "connect"
+    ],
+    "benefit": "I can connect with other Drupalists at BADCamp"
+  },
+  "categories": {
+    "primary_entities": [
+      "user profile"
+    ],
+    "secondary_entities": [
+      "Drupalists",
+      "BADCamp"
+    ],
+    "primary_actions": [
+      "update"
+    ],
+    "secondary_actions": [
+      "connect"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "authenticateduser",
+        "to": "update",
+        "kind": "triggers"
+      },
+      {
+        "from": "update",
+        "to": "user profile",
+        "kind": "targets"
+      },
+      {
+        "from": "authenticateduser",
+        "to": "connect",
+        "kind": "triggers"
+      },
+      {
+        "from": "connect",
+        "to": "Drupalists",
+        "kind": "targets"
+      },
+      {
+        "from": "connect",
+        "to": "BADCamp",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1334,
+    "output": 259,
+    "time (ns)": 7673676000
+  }
+}

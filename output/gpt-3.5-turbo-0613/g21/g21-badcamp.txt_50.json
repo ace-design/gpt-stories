@@ -1,0 +1,69 @@
+{
+  "story": "#G21# As a sponsor, I want to Link to my sponsorship profile from my job listings, so that recruits can learn more about my organization.\n",
+  "extraction": {
+    "personas": [
+      "sponsor",
+      "recruits"
+    ],
+    "entities": [
+      "sponsorship profile",
+      "job listings",
+      "organization"
+    ],
+    "actions": [
+      "Link"
+    ],
+    "benefit": "recruits can learn more about my organization"
+  },
+  "categories": {
+    "primary_entities": [
+      "sponsorship profile",
+      "job listings",
+      "organization"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Link"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "sponsor",
+        "to": "Link",
+        "kind": "triggers"
+      },
+      {
+        "from": "Link",
+        "to": "sponsorship profile",
+        "kind": "targets"
+      },
+      {
+        "from": "Link",
+        "to": "job listings",
+        "kind": "targets"
+      },
+      {
+        "from": "Link",
+        "to": "organization",
+        "kind": "targets"
+      },
+      {
+        "from": "recruits",
+        "to": "Link",
+        "kind": "triggers"
+      },
+      {
+        "from": "Link",
+        "to": "organization",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1325,
+    "output": 276,
+    "time (ns)": 7917027000
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "story": "#G21# As a administrator, I want to assign sponsors to events, trainings and summits so that They will be featured on the sponsor detail page.\n",
+  "extraction": {
+    "personas": [
+      "administrator"
+    ],
+    "entities": [
+      "sponsors",
+      "events",
+      "trainings",
+      "summits",
+      "sponsor detail page"
+    ],
+    "actions": [
+      "assign"
+    ],
+    "benefit": "They will be featured on the sponsor detail page."
+  },
+  "categories": {
+    "primary_entities": [
+      "sponsors",
+      "events",
+      "trainings",
+      "summits",
+      "sponsor detail page"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "assign"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "administrator",
+        "to": "assign",
+        "kind": "triggers"
+      },
+      {
+        "from": "assign",
+        "to": "sponsors",
+        "kind": "targets"
+      },
+      {
+        "from": "assign",
+        "to": "events",
+        "kind": "targets"
+      },
+      {
+        "from": "assign",
+        "to": "trainings",
+        "kind": "targets"
+      },
+      {
+        "from": "assign",
+        "to": "summits",
+        "kind": "targets"
+      },
+      {
+        "from": "assign",
+        "to": "sponsor detail page",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1351,
+    "output": 289,
+    "time (ns)": 9088832000
+  }
+}

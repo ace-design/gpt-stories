@@ -1,0 +1,67 @@
+{
+  "story": "#G21# As a administrator, I want to assign a room to a time slot and a location, so that I can populate the schedule .\n",
+  "extraction": {
+    "personas": [
+      "administrator"
+    ],
+    "entities": [
+      "room",
+      "time slot",
+      "location",
+      "schedule"
+    ],
+    "actions": [
+      "assign",
+      "populate"
+    ],
+    "benefit": "I can populate the schedule"
+  },
+  "categories": {
+    "primary_entities": [
+      "room",
+      "time slot",
+      "location",
+      "schedule"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "assign",
+      "populate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "administrator",
+        "to": "assign",
+        "kind": "triggers"
+      },
+      {
+        "from": "assign",
+        "to": "room",
+        "kind": "targets"
+      },
+      {
+        "from": "assign",
+        "to": "time slot",
+        "kind": "targets"
+      },
+      {
+        "from": "assign",
+        "to": "location",
+        "kind": "targets"
+      },
+      {
+        "from": "populate",
+        "to": "schedule",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1320,
+    "output": 248,
+    "time (ns)": 7166928000
+  }
+}

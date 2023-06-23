@@ -1,0 +1,66 @@
+{
+  "story": "#G21# As a anonymoususer, I want to see all events, trainings and summits that a sponsor is sponsoring so that I know where I can engage with this sponsor and where they are thought leaders.\n",
+  "extraction": {
+    "personas": [
+      "anonymoususer"
+    ],
+    "entities": [
+      "events",
+      "trainings",
+      "summits",
+      "sponsor"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "know where I can engage with this sponsor and where they are thought leaders"
+  },
+  "categories": {
+    "primary_entities": [
+      "events",
+      "trainings",
+      "summits"
+    ],
+    "secondary_entities": [
+      "sponsor"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "anonymoususer",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "events",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "trainings",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "summits",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "sponsor",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1375,
+    "output": 255,
+    "time (ns)": 8360084000
+  }
+}

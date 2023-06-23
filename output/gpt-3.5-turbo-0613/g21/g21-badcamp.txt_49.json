@@ -1,0 +1,61 @@
+{
+  "story": "#G21# As a authenticateduser, I want to use a WYSIWYG editor for all long-form content, so that I don't have to know HTML to update my content.\n",
+  "extraction": {
+    "personas": [
+      "authenticateduser"
+    ],
+    "entities": [
+      "WYSIWYG editor",
+      "long-form content",
+      "HTML"
+    ],
+    "actions": [
+      "use",
+      "update"
+    ],
+    "benefit": "I don't have to know HTML to update my content"
+  },
+  "categories": {
+    "primary_entities": [
+      "WYSIWYG editor",
+      "long-form content"
+    ],
+    "secondary_entities": [
+      "HTML"
+    ],
+    "primary_actions": [
+      "use",
+      "update"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "authenticateduser",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "WYSIWYG editor",
+        "kind": "targets"
+      },
+      {
+        "from": "authenticateduser",
+        "to": "update",
+        "kind": "triggers"
+      },
+      {
+        "from": "update",
+        "to": "long-form content",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1366,
+    "output": 241,
+    "time (ns)": 6693404000
+  }
+}

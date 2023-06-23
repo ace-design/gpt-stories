@@ -1,0 +1,60 @@
+{
+  "story": "#G21# As a administrator, I want to create blog posts, so that I can share the latest information about BADCamp with the public.\n",
+  "extraction": {
+    "personas": [
+      "administrator"
+    ],
+    "entities": [
+      "blog posts",
+      "BADCamp"
+    ],
+    "actions": [
+      "create",
+      "share"
+    ],
+    "benefit": "I can share the latest information about BADCamp with the public."
+  },
+  "categories": {
+    "primary_entities": [
+      "blog posts"
+    ],
+    "secondary_entities": [
+      "BADCamp"
+    ],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": [
+      "share"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "administrator",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "blog posts",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "share",
+        "kind": "triggers"
+      },
+      {
+        "from": "share",
+        "to": "BADCamp",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1326,
+    "output": 224,
+    "time (ns)": 6605878000
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "story": "#G21# As a authenticateduser, I want to Be offered several choices of idividual sponsorship on the second page of registration, so that I can be awesome and financially support the camp.\n",
+  "extraction": {
+    "personas": [
+      "authenticated user"
+    ],
+    "entities": [
+      "individual sponsorship",
+      "second page of registration",
+      "camp"
+    ],
+    "actions": [
+      "be offered",
+      "financially support"
+    ],
+    "benefit": "be awesome and financially support the camp"
+  },
+  "categories": {
+    "primary_entities": [
+      "individual sponsorship",
+      "second page of registration",
+      "camp"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "be offered",
+      "financially support"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "authenticated user",
+        "to": "be offered",
+        "kind": "triggers"
+      },
+      {
+        "from": "be offered",
+        "to": "individual sponsorship",
+        "kind": "targets"
+      },
+      {
+        "from": "be offered",
+        "to": "second page of registration",
+        "kind": "targets"
+      },
+      {
+        "from": "financially support",
+        "to": "camp",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1362,
+    "output": 241,
+    "time (ns)": 7385609000
+  }
+}

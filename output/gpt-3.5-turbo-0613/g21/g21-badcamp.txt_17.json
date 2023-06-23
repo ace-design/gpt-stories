@@ -1,0 +1,78 @@
+{
+  "story": "#G21# As a anonymoususer, I want to have a training landing page with an intro section and a list of all training offerings and promote call for trainings, so that I can shop for training all with one page and we can have a call for trainings for selection.\n",
+  "extraction": {
+    "personas": [
+      "anonymoususer"
+    ],
+    "entities": [
+      "training landing page",
+      "intro section",
+      "list of all training offerings",
+      "call for trainings"
+    ],
+    "actions": [
+      "have",
+      "promote",
+      "shop",
+      "have a call for trainings"
+    ],
+    "benefit": "I can shop for training all with one page and we can have a call for trainings for selection."
+  },
+  "categories": {
+    "primary_entities": [
+      "training landing page",
+      "list of all training offerings"
+    ],
+    "secondary_entities": [
+      "intro section",
+      "call for trainings"
+    ],
+    "primary_actions": [
+      "have",
+      "shop"
+    ],
+    "secondary_actions": [
+      "promote",
+      "have a call for trainings"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "anonymoususer",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "training landing page",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "list of all training offerings",
+        "kind": "targets"
+      },
+      {
+        "from": "promote",
+        "to": "call for trainings",
+        "kind": "targets"
+      },
+      {
+        "from": "shop",
+        "to": "training landing page",
+        "kind": "targets"
+      },
+      {
+        "from": "have a call for trainings",
+        "to": "call for trainings",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1498,
+    "output": 349,
+    "time (ns)": 9831624000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G21# As a anonymoususer, I want to sign up for the BADCamp newsletter, so that I can stay up to date with the latest communications about BADCamp.\n",
+  "extraction": {
+    "personas": [
+      "anonymoususer"
+    ],
+    "entities": [
+      "BADCamp newsletter"
+    ],
+    "actions": [
+      "sign up"
+    ],
+    "benefit": "I can stay up to date with the latest communications about BADCamp"
+  },
+  "categories": {
+    "primary_entities": [
+      "BADCamp newsletter"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "sign up"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "anonymoususer",
+        "to": "sign up",
+        "kind": "triggers"
+      },
+      {
+        "from": "sign up",
+        "to": "BADCamp newsletter",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1337,
+    "output": 170,
+    "time (ns)": 5901649000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G21# As a anonymoususer, I want to see the schedule, so that I can plan my day and figure out where to go!.\n",
+  "extraction": {
+    "personas": [
+      "anonymoususer"
+    ],
+    "entities": [
+      "schedule"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "I can plan my day and figure out where to go"
+  },
+  "categories": {
+    "primary_entities": [
+      "schedule"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "anonymoususer",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "schedule",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1298,
+    "output": 154,
+    "time (ns)": 4742196000
+  }
+}

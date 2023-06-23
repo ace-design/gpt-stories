@@ -1,0 +1,59 @@
+{
+  "story": "#G21# As a authenticateduser, I want to identify myself as and pay for a $350 company sponsorship, so that I can easily become a sponsor at this level without having to interface with badcamp personnel to get a sponsorship.\n",
+  "extraction": {
+    "personas": [
+      "authenticateduser"
+    ],
+    "entities": [
+      "company sponsorship",
+      "badcamp personnel"
+    ],
+    "actions": [
+      "identify myself",
+      "pay"
+    ],
+    "benefit": "I can easily become a sponsor at this level without having to interface with badcamp personnel to get a sponsorship."
+  },
+  "categories": {
+    "primary_entities": [
+      "company sponsorship"
+    ],
+    "secondary_entities": [
+      "badcamp personnel"
+    ],
+    "primary_actions": [
+      "identify myself",
+      "pay"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "authenticateduser",
+        "to": "identify myself",
+        "kind": "triggers"
+      },
+      {
+        "from": "authenticateduser",
+        "to": "pay",
+        "kind": "triggers"
+      },
+      {
+        "from": "identify myself",
+        "to": "company sponsorship",
+        "kind": "targets"
+      },
+      {
+        "from": "pay",
+        "to": "company sponsorship",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1400,
+    "output": 239,
+    "time (ns)": 6856883000
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "story": "#G21# As a authenticateduser, I want to find a link on the sponsorships page to become a $350 level sponsor, so that I can pay for and become a sponsor role.\n",
+  "extraction": {
+    "personas": [
+      "authenticated user"
+    ],
+    "entities": [
+      "sponsorships page",
+      "$350 level sponsor",
+      "sponsor role"
+    ],
+    "actions": [
+      "find",
+      "become"
+    ],
+    "benefit": "I can pay for and become a sponsor role"
+  },
+  "categories": {
+    "primary_entities": [
+      "sponsorships page",
+      "$350 level sponsor",
+      "sponsor role"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "find",
+      "become"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "authenticated user",
+        "to": "find",
+        "kind": "triggers"
+      },
+      {
+        "from": "find",
+        "to": "sponsorships page",
+        "kind": "targets"
+      },
+      {
+        "from": "authenticated user",
+        "to": "become",
+        "kind": "triggers"
+      },
+      {
+        "from": "become",
+        "to": "$350 level sponsor",
+        "kind": "targets"
+      },
+      {
+        "from": "become",
+        "to": "sponsor role",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1366,
+    "output": 267,
+    "time (ns)": 7609386000
+  }
+}

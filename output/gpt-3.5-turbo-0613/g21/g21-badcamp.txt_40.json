@@ -1,0 +1,86 @@
+{
+  "story": "#G21# As a attendee, I want to see what summits I'm signed up for, so that I can confirm my attendence and prevent myself from accidentally double-booking with a training or another summit.\n",
+  "extraction": {
+    "personas": [
+      "attendee"
+    ],
+    "entities": [
+      "summits",
+      "training"
+    ],
+    "actions": [
+      "see",
+      "signed up for",
+      "confirm",
+      "prevent",
+      "double-booking"
+    ],
+    "benefit": "confirm my attendance and prevent myself from accidentally double-booking with a training or another summit"
+  },
+  "categories": {
+    "primary_entities": [
+      "summits"
+    ],
+    "secondary_entities": [
+      "training"
+    ],
+    "primary_actions": [
+      "see",
+      "confirm",
+      "prevent"
+    ],
+    "secondary_actions": [
+      "signed up for",
+      "double-booking"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "attendee",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "summits",
+        "kind": "targets"
+      },
+      {
+        "from": "attendee",
+        "to": "confirm",
+        "kind": "triggers"
+      },
+      {
+        "from": "confirm",
+        "to": "summits",
+        "kind": "targets"
+      },
+      {
+        "from": "attendee",
+        "to": "prevent",
+        "kind": "triggers"
+      },
+      {
+        "from": "prevent",
+        "to": "double-booking",
+        "kind": "targets"
+      },
+      {
+        "from": "attendee",
+        "to": "prevent",
+        "kind": "triggers"
+      },
+      {
+        "from": "prevent",
+        "to": "training",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1406,
+    "output": 358,
+    "time (ns)": 9594372000
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "story": "#G21# As a trainee, I want to see which trainings I have signed up for, so that they can schedule their event experience.\n",
+  "extraction": {
+    "personas": [
+      "trainee"
+    ],
+    "entities": [
+      "trainings"
+    ],
+    "actions": [
+      "see",
+      "signed up for"
+    ],
+    "benefit": "schedule their event experience"
+  },
+  "categories": {
+    "primary_entities": [
+      "trainings"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": [
+      "signed up for",
+      "schedule their event experience"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "trainee",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "trainings",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1306,
+    "output": 165,
+    "time (ns)": 5349631000
+  }
+}

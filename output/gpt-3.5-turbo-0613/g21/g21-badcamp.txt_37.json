@@ -1,0 +1,81 @@
+{
+  "story": "#G21# As a sponsor, I want to sponsor a summit that matches my brand, so that I can get exposure to potential customers and otherwise tout my Drupal credentials.\n",
+  "extraction": {
+    "personas": [
+      "sponsor"
+    ],
+    "entities": [
+      "summit",
+      "brand",
+      "potential customers",
+      "Drupal credentials"
+    ],
+    "actions": [
+      "sponsor",
+      "match",
+      "get exposure",
+      "tout"
+    ],
+    "benefit": "get exposure to potential customers and tout my Drupal credentials"
+  },
+  "categories": {
+    "primary_entities": [
+      "summit",
+      "brand",
+      "potential customers",
+      "Drupal credentials"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "sponsor",
+      "match",
+      "get exposure",
+      "tout"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "sponsor",
+        "to": "sponsor",
+        "kind": "triggers"
+      },
+      {
+        "from": "sponsor",
+        "to": "summit",
+        "kind": "targets"
+      },
+      {
+        "from": "sponsor",
+        "to": "brand",
+        "kind": "targets"
+      },
+      {
+        "from": "sponsor",
+        "to": "potential customers",
+        "kind": "targets"
+      },
+      {
+        "from": "sponsor",
+        "to": "Drupal credentials",
+        "kind": "targets"
+      },
+      {
+        "from": "sponsor",
+        "to": "get exposure",
+        "kind": "triggers"
+      },
+      {
+        "from": "sponsor",
+        "to": "tout",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1372,
+    "output": 326,
+    "time (ns)": 9344214000
+  }
+}

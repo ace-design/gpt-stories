@@ -1,0 +1,63 @@
+{
+  "story": "#G21# As a anonymoususer, I want to have a link on the home page to a list of training options, so that I can take training.\n",
+  "extraction": {
+    "personas": [
+      "anonymoususer"
+    ],
+    "entities": [
+      "home page",
+      "list of training options"
+    ],
+    "actions": [
+      "have a link",
+      "take training"
+    ],
+    "benefit": "I can take training"
+  },
+  "categories": {
+    "primary_entities": [
+      "home page",
+      "list of training options"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have a link",
+      "take training"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "anonymoususer",
+        "to": "have a link",
+        "kind": "triggers"
+      },
+      {
+        "from": "have a link",
+        "to": "home page",
+        "kind": "targets"
+      },
+      {
+        "from": "have a link",
+        "to": "list of training options",
+        "kind": "targets"
+      },
+      {
+        "from": "anonymoususer",
+        "to": "take training",
+        "kind": "triggers"
+      },
+      {
+        "from": "take training",
+        "to": "list of training options",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1329,
+    "output": 265,
+    "time (ns)": 7359202000
+  }
+}
