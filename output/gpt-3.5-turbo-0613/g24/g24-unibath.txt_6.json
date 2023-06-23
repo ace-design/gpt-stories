@@ -1,0 +1,65 @@
+{
+  "story": "#G24# As a depositor, I want to place data under an embargo, so that my right of first use is protected, and I can fulfil my confidentiality responsibilities.\n",
+  "extraction": {
+    "personas": [
+      "depositor"
+    ],
+    "entities": [
+      "data",
+      "embargo",
+      "right of first use",
+      "confidentiality responsibilities"
+    ],
+    "actions": [
+      "place"
+    ],
+    "benefit": "my right of first use is protected, and I can fulfil my confidentiality responsibilities"
+  },
+  "categories": {
+    "primary_entities": [
+      "data",
+      "embargo",
+      "right of first use",
+      "confidentiality responsibilities"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "place"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "depositor",
+        "to": "place",
+        "kind": "triggers"
+      },
+      {
+        "from": "place",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "place",
+        "to": "embargo",
+        "kind": "targets"
+      },
+      {
+        "from": "place",
+        "to": "right of first use",
+        "kind": "targets"
+      },
+      {
+        "from": "place",
+        "to": "confidentiality responsibilities",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1369,
+    "output": 272,
+    "time (ns)": 10371958000
+  }
+}

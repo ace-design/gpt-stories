@@ -1,0 +1,71 @@
+{
+  "story": "#G24# As a depositor, I want to deposit and maintain datasets through a simple web interface, so that I don't need to install and learn new software to deposit.\n",
+  "extraction": {
+    "personas": [
+      "depositor"
+    ],
+    "entities": [
+      "datasets",
+      "web interface",
+      "software"
+    ],
+    "actions": [
+      "deposit",
+      "maintain"
+    ],
+    "benefit": "I don't need to install and learn new software to deposit"
+  },
+  "categories": {
+    "primary_entities": [
+      "datasets",
+      "web interface"
+    ],
+    "secondary_entities": [
+      "software"
+    ],
+    "primary_actions": [
+      "deposit",
+      "maintain"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "depositor",
+        "to": "deposit",
+        "kind": "triggers"
+      },
+      {
+        "from": "deposit",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "depositor",
+        "to": "maintain",
+        "kind": "triggers"
+      },
+      {
+        "from": "maintain",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "depositor",
+        "to": "web interface",
+        "kind": "targets"
+      },
+      {
+        "from": "depositor",
+        "to": "software",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1350,
+    "output": 283,
+    "time (ns)": 10440284000
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "story": "#G24# As a fundingbody, I want to harvest metadata on outputs from research I fund, so that I can analyse effectiveness of funding strategy and I can encourage cross fertilisation of research outputs.\n",
+  "extraction": {
+    "personas": [
+      "fundingbody"
+    ],
+    "entities": [
+      "metadata",
+      "research",
+      "funding strategy",
+      "cross fertilisation"
+    ],
+    "actions": [
+      "harvest",
+      "analyse",
+      "encourage"
+    ],
+    "benefit": "I can analyse effectiveness of funding strategy and encourage cross fertilisation of research outputs"
+  },
+  "categories": {
+    "primary_entities": [
+      "metadata",
+      "research"
+    ],
+    "secondary_entities": [
+      "funding strategy",
+      "cross fertilisation"
+    ],
+    "primary_actions": [
+      "harvest"
+    ],
+    "secondary_actions": [
+      "analyse",
+      "encourage"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "fundingbody",
+        "to": "harvest",
+        "kind": "triggers"
+      },
+      {
+        "from": "harvest",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "fundingbody",
+        "to": "analyse",
+        "kind": "triggers"
+      },
+      {
+        "from": "analyse",
+        "to": "funding strategy",
+        "kind": "targets"
+      },
+      {
+        "from": "fundingbody",
+        "to": "encourage",
+        "kind": "triggers"
+      },
+      {
+        "from": "encourage",
+        "to": "cross fertilisation",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1401,
+    "output": 318,
+    "time (ns)": 11404526000
+  }
+}

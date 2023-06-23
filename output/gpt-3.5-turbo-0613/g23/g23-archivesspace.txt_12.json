@@ -1,0 +1,52 @@
+{
+  "story": "#G23# As an Archivist, I want to import Resources from MARCXML records.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "Resources",
+      "MARCXML records"
+    ],
+    "actions": [
+      "import"
+    ],
+    "benefit": "I can import Resources from MARCXML records"
+  },
+  "categories": {
+    "primary_entities": [
+      "Resources"
+    ],
+    "secondary_entities": [
+      "MARCXML records"
+    ],
+    "primary_actions": [
+      "import"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "import",
+        "kind": "triggers"
+      },
+      {
+        "from": "import",
+        "to": "Resources",
+        "kind": "targets"
+      },
+      {
+        "from": "import",
+        "to": "MARCXML records",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1278,
+    "output": 191,
+    "time (ns)": 7293836000
+  }
+}

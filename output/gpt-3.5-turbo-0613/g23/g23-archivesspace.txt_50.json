@@ -1,0 +1,69 @@
+{
+  "story": "#G23# As an Archivist, I want to specify the Source for a Name Form of an Agent and add new Sources and edit existing Sources.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "Name Form",
+      "Agent",
+      "Sources"
+    ],
+    "actions": [
+      "specify",
+      "add",
+      "edit"
+    ],
+    "benefit": "I can specify the Source for a Name Form of an Agent and manage Sources"
+  },
+  "categories": {
+    "primary_entities": [
+      "Name Form",
+      "Agent"
+    ],
+    "secondary_entities": [
+      "Sources"
+    ],
+    "primary_actions": [
+      "specify"
+    ],
+    "secondary_actions": [
+      "add",
+      "edit"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "specify",
+        "kind": "triggers"
+      },
+      {
+        "from": "specify",
+        "to": "Name Form",
+        "kind": "targets"
+      },
+      {
+        "from": "specify",
+        "to": "Agent",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "Sources",
+        "kind": "targets"
+      },
+      {
+        "from": "edit",
+        "to": "Sources",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1345,
+    "output": 263,
+    "time (ns)": 7605311000
+  }
+}

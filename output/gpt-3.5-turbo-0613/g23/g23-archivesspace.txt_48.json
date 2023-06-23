@@ -1,0 +1,51 @@
+{
+  "story": "#G23# As a ReadOnly user , I want to view archival descriptions in my repository.\n",
+  "extraction": {
+    "personas": [
+      "ReadOnly user"
+    ],
+    "entities": [
+      "archival descriptions",
+      "repository"
+    ],
+    "actions": [
+      "view"
+    ],
+    "benefit": "I can view archival descriptions in my repository"
+  },
+  "categories": {
+    "primary_entities": [
+      "archival descriptions",
+      "repository"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "ReadOnly user",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "archival descriptions",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "repository",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1271,
+    "output": 188,
+    "time (ns)": 6473782000
+  }
+}

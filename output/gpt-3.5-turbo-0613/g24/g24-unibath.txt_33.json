@@ -1,0 +1,47 @@
+{
+  "story": "#G24# AS an externalcoordinator, I want to access data from Bath collaborators off campus, so that I can collaborate effectively.\n",
+  "extraction": {
+    "personas": [
+      "externalcoordinator"
+    ],
+    "entities": [
+      "data",
+      "Bath collaborators"
+    ],
+    "actions": [
+      "access"
+    ],
+    "benefit": "collaborate effectively"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [
+      "Bath collaborators"
+    ],
+    "primary_actions": [
+      "access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "externalcoordinator",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1291,
+    "output": 158,
+    "time (ns)": 7211294000
+  }
+}

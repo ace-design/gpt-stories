@@ -1,0 +1,71 @@
+{
+  "story": "#G23# As an Archivist, I want to assign a Level of description to a Resource or Resource Component and optionally specify another value if the Level is not in a predefined list.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "Level of description",
+      "Resource",
+      "Resource Component"
+    ],
+    "actions": [
+      "assign",
+      "specify"
+    ],
+    "benefit": "I can assign a Level of description to a Resource or Resource Component and optionally specify another value if the Level is not in a predefined list."
+  },
+  "categories": {
+    "primary_entities": [
+      "Level of description",
+      "Resource",
+      "Resource Component"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "assign"
+    ],
+    "secondary_actions": [
+      "specify"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "assign",
+        "kind": "triggers"
+      },
+      {
+        "from": "assign",
+        "to": "Level of description",
+        "kind": "targets"
+      },
+      {
+        "from": "assign",
+        "to": "Resource",
+        "kind": "targets"
+      },
+      {
+        "from": "assign",
+        "to": "Resource Component",
+        "kind": "targets"
+      },
+      {
+        "from": "assign",
+        "to": "specify",
+        "kind": "triggers"
+      },
+      {
+        "from": "specify",
+        "to": "Level of description",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1390,
+    "output": 303,
+    "time (ns)": 10562831000
+  }
+}

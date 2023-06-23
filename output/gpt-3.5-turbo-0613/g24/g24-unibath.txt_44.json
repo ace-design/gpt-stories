@@ -1,0 +1,81 @@
+{
+  "story": "#G24# As a Research Information manager, I want to segment the view and download statistics by country and sector so that impact of datasets outside academia can be demonstrated.\n",
+  "extraction": {
+    "personas": [
+      "Research Information manager"
+    ],
+    "entities": [
+      "view and download statistics",
+      "country",
+      "sector",
+      "datasets",
+      "academia"
+    ],
+    "actions": [
+      "segment",
+      "demonstrate"
+    ],
+    "benefit": "impact of datasets outside academia can be demonstrated"
+  },
+  "categories": {
+    "primary_entities": [
+      "view and download statistics",
+      "country",
+      "sector"
+    ],
+    "secondary_entities": [
+      "datasets",
+      "academia"
+    ],
+    "primary_actions": [
+      "segment"
+    ],
+    "secondary_actions": [
+      "demonstrate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Research Information manager",
+        "to": "segment",
+        "kind": "triggers"
+      },
+      {
+        "from": "segment",
+        "to": "view and download statistics",
+        "kind": "targets"
+      },
+      {
+        "from": "segment",
+        "to": "country",
+        "kind": "targets"
+      },
+      {
+        "from": "segment",
+        "to": "sector",
+        "kind": "targets"
+      },
+      {
+        "from": "segment",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "segment",
+        "to": "academia",
+        "kind": "targets"
+      },
+      {
+        "from": "segment",
+        "to": "impact of datasets outside academia can be demonstrated",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1363,
+    "output": 329,
+    "time (ns)": 11987842000
+  }
+}

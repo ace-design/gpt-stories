@@ -1,0 +1,56 @@
+{
+  "story": "#G23# As an Archivist, I want to create and edit a Resource record.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "Resource record"
+    ],
+    "actions": [
+      "create",
+      "edit"
+    ],
+    "benefit": "To manage and update information about resources"
+  },
+  "categories": {
+    "primary_entities": [
+      "Resource record"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create",
+      "edit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "Archivist",
+        "to": "edit",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "Resource record",
+        "kind": "targets"
+      },
+      {
+        "from": "edit",
+        "to": "Resource record",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1266,
+    "output": 212,
+    "time (ns)": 6956459000
+  }
+}

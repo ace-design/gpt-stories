@@ -1,0 +1,44 @@
+{
+  "story": "#G23# As a user, I want backend changes for bulk updating one enum value to another.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "backend changes"
+    ],
+    "actions": [
+      "bulk updating"
+    ],
+    "benefit": "I can update one enum value to another"
+  },
+  "categories": {
+    "primary_entities": [
+      "backend changes"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "bulk updating"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "bulk updating",
+        "kind": "triggers"
+      },
+      {
+        "from": "bulk updating",
+        "to": "backend changes",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1266,
+    "output": 156,
+    "time (ns)": 5868780000
+  }
+}

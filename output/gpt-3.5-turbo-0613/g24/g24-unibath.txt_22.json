@@ -1,0 +1,73 @@
+{
+  "story": "#G24# As a depositor, I want to allow others to deposit on my behalf, so that I can delegate research data management tasks appropriately.\n",
+  "extraction": {
+    "personas": [
+      "depositor"
+    ],
+    "entities": [
+      "others",
+      "research data management tasks"
+    ],
+    "actions": [
+      "allow",
+      "deposit",
+      "delegate"
+    ],
+    "benefit": "I can delegate research data management tasks appropriately"
+  },
+  "categories": {
+    "primary_entities": [
+      "depositor"
+    ],
+    "secondary_entities": [
+      "others",
+      "research data management tasks"
+    ],
+    "primary_actions": [
+      "allow",
+      "deposit"
+    ],
+    "secondary_actions": [
+      "delegate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "depositor",
+        "to": "allow",
+        "kind": "triggers"
+      },
+      {
+        "from": "depositor",
+        "to": "deposit",
+        "kind": "triggers"
+      },
+      {
+        "from": "allow",
+        "to": "others",
+        "kind": "targets"
+      },
+      {
+        "from": "deposit",
+        "to": "others",
+        "kind": "targets"
+      },
+      {
+        "from": "deposit",
+        "to": "research data management tasks",
+        "kind": "targets"
+      },
+      {
+        "from": "delegate",
+        "to": "research data management tasks",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1329,
+    "output": 285,
+    "time (ns)": 11498289000
+  }
+}

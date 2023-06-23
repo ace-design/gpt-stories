@@ -1,0 +1,58 @@
+{
+  "story": "#G23# As an System Administrator, I want to declare that a user is has the Repository Manager role for a given Repository.\n",
+  "extraction": {
+    "personas": [
+      "System Administrator"
+    ],
+    "entities": [
+      "user",
+      "Repository Manager",
+      "Repository"
+    ],
+    "actions": [
+      "declare"
+    ],
+    "benefit": "The user is assigned the Repository Manager role for a given Repository."
+  },
+  "categories": {
+    "primary_entities": [
+      "user",
+      "Repository Manager",
+      "Repository"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "declare"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "System Administrator",
+        "to": "declare",
+        "kind": "triggers"
+      },
+      {
+        "from": "declare",
+        "to": "user",
+        "kind": "targets"
+      },
+      {
+        "from": "declare",
+        "to": "Repository Manager",
+        "kind": "targets"
+      },
+      {
+        "from": "declare",
+        "to": "Repository",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1311,
+    "output": 220,
+    "time (ns)": 7030482000
+  }
+}

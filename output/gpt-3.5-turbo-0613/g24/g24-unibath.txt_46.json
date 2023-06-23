@@ -1,0 +1,58 @@
+{
+  "story": "#G24# As an UnivITservice, I want to store archived data on existing storage systems, so that university data storage is consistent and maintainable and future availability of data can be guaranteed.\n",
+  "extraction": {
+    "personas": [
+      "UnivITservice"
+    ],
+    "entities": [
+      "archived data",
+      "existing storage systems",
+      "university data storage"
+    ],
+    "actions": [
+      "store"
+    ],
+    "benefit": "consistent and maintainable university data storage and guaranteed future availability of data"
+  },
+  "categories": {
+    "primary_entities": [
+      "archived data",
+      "existing storage systems",
+      "university data storage"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "store"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "UnivITservice",
+        "to": "store",
+        "kind": "triggers"
+      },
+      {
+        "from": "store",
+        "to": "archived data",
+        "kind": "targets"
+      },
+      {
+        "from": "store",
+        "to": "existing storage systems",
+        "kind": "targets"
+      },
+      {
+        "from": "store",
+        "to": "university data storage",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1372,
+    "output": 243,
+    "time (ns)": 9159943000
+  }
+}

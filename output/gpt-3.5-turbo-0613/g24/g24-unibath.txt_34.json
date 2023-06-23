@@ -1,0 +1,79 @@
+{
+  "story": "#G24# As a research facility manager, I want to deposit data from my facility directly into the archive on behalf of researchers, so that I am no longer required to maintain my own archive of facility data and researchers can access their own data as needed. \n",
+  "extraction": {
+    "personas": [
+      "research facility manager"
+    ],
+    "entities": [
+      "data",
+      "archive",
+      "facility data",
+      "researchers"
+    ],
+    "actions": [
+      "deposit",
+      "maintain",
+      "access"
+    ],
+    "benefit": "I am no longer required to maintain my own archive of facility data and researchers can access their own data as needed."
+  },
+  "categories": {
+    "primary_entities": [
+      "data",
+      "archive",
+      "facility data",
+      "researchers"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "deposit",
+      "maintain",
+      "access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "research facility manager",
+        "to": "deposit",
+        "kind": "triggers"
+      },
+      {
+        "from": "deposit",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "deposit",
+        "to": "archive",
+        "kind": "targets"
+      },
+      {
+        "from": "deposit",
+        "to": "facility data",
+        "kind": "targets"
+      },
+      {
+        "from": "deposit",
+        "to": "researchers",
+        "kind": "targets"
+      },
+      {
+        "from": "maintain",
+        "to": "archive",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "researchers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1444,
+    "output": 332,
+    "time (ns)": 12231726000
+  }
+}

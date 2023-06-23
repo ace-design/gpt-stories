@@ -1,0 +1,69 @@
+{
+  "story": "#G24# As a depositor, I want to have guarantees about data integrity, so that I can use my data in the future and I can fulfil funder requirements for archival.\n",
+  "extraction": {
+    "personas": [
+      "depositor"
+    ],
+    "entities": [
+      "data integrity"
+    ],
+    "actions": [
+      "have guarantees",
+      "use",
+      "fulfil"
+    ],
+    "benefit": "I can use my data in the future and I can fulfil funder requirements for archival."
+  },
+  "categories": {
+    "primary_entities": [
+      "data integrity"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have guarantees"
+    ],
+    "secondary_actions": [
+      "use",
+      "fulfil"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "depositor",
+        "to": "have guarantees",
+        "kind": "triggers"
+      },
+      {
+        "from": "have guarantees",
+        "to": "data integrity",
+        "kind": "targets"
+      },
+      {
+        "from": "depositor",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "data integrity",
+        "kind": "targets"
+      },
+      {
+        "from": "depositor",
+        "to": "fulfil",
+        "kind": "triggers"
+      },
+      {
+        "from": "fulfil",
+        "to": "data integrity",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1358,
+    "output": 288,
+    "time (ns)": 9485611000
+  }
+}

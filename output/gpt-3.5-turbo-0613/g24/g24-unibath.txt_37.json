@@ -1,0 +1,44 @@
+{
+  "story": "#G24# As a Bath Data Archive administrator, I want to approve scheduled disposal of data, so that data which is still required is not destroyed.\n",
+  "extraction": {
+    "personas": [
+      "Bath Data Archive administrator"
+    ],
+    "entities": [
+      "scheduled disposal of data"
+    ],
+    "actions": [
+      "approve"
+    ],
+    "benefit": "data which is still required is not destroyed"
+  },
+  "categories": {
+    "primary_entities": [
+      "scheduled disposal of data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "approve"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Bath Data Archive administrator",
+        "to": "approve",
+        "kind": "triggers"
+      },
+      {
+        "from": "approve",
+        "to": "scheduled disposal of data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1307,
+    "output": 166,
+    "time (ns)": 6480881000
+  }
+}

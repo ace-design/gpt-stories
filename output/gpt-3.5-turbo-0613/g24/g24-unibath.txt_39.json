@@ -1,0 +1,49 @@
+{
+  "story": "#G24# As a Bath Data Archive administrator, I want to import Bath data from an external data centre wholesale, so that Bath data holdings in external archives are not lost if they close down.\n",
+  "extraction": {
+    "personas": [
+      "Bath Data Archive administrator"
+    ],
+    "entities": [
+      "Bath data",
+      "external data centre",
+      "external archives"
+    ],
+    "actions": [
+      "import"
+    ],
+    "benefit": "Bath data holdings in external archives are not lost if they close down"
+  },
+  "categories": {
+    "primary_entities": [
+      "Bath data"
+    ],
+    "secondary_entities": [
+      "external data centre",
+      "external archives"
+    ],
+    "primary_actions": [
+      "import"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Bath Data Archive administrator",
+        "to": "import",
+        "kind": "triggers"
+      },
+      {
+        "from": "import",
+        "to": "Bath data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1369,
+    "output": 186,
+    "time (ns)": 8117271000
+  }
+}

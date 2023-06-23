@@ -1,0 +1,44 @@
+{
+  "story": "#G23# As a user, I want to add additional properties for repositories.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "repositories"
+    ],
+    "actions": [
+      "add"
+    ],
+    "benefit": "I can have additional properties for repositories"
+  },
+  "categories": {
+    "primary_entities": [
+      "repositories"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "add"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "repositories",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1246,
+    "output": 148,
+    "time (ns)": 5659559000
+  }
+}

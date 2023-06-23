@@ -1,0 +1,52 @@
+{
+  "story": "#G23# As an Archivist, I want to add Notes to other record types.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "Notes",
+      "record types"
+    ],
+    "actions": [
+      "add"
+    ],
+    "benefit": "I can add Notes to other record types"
+  },
+  "categories": {
+    "primary_entities": [
+      "Notes"
+    ],
+    "secondary_entities": [
+      "record types"
+    ],
+    "primary_actions": [
+      "add"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "Notes",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "record types",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1267,
+    "output": 184,
+    "time (ns)": 6466579000
+  }
+}

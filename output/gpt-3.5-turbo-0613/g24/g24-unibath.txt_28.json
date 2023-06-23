@@ -1,0 +1,47 @@
+{
+  "story": "#G24# As a data reuser, I want to get a persistent URL for a dataset, so that I can get back to the data in future.\n",
+  "extraction": {
+    "personas": [
+      "data reuser"
+    ],
+    "entities": [
+      "persistent URL",
+      "dataset"
+    ],
+    "actions": [
+      "get"
+    ],
+    "benefit": "I can get back to the data in future"
+  },
+  "categories": {
+    "primary_entities": [
+      "persistent URL"
+    ],
+    "secondary_entities": [
+      "dataset"
+    ],
+    "primary_actions": [
+      "get"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data reuser",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "persistent URL",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1313,
+    "output": 162,
+    "time (ns)": 9656801000
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "story": "#G23# As an Archivist, I want to create and edit Agent records.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "Agent records"
+    ],
+    "actions": [
+      "create",
+      "edit"
+    ],
+    "benefit": "To manage and update Agent records efficiently."
+  },
+  "categories": {
+    "primary_entities": [
+      "Agent records"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create",
+      "edit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "Archivist",
+        "to": "edit",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "Agent records",
+        "kind": "targets"
+      },
+      {
+        "from": "edit",
+        "to": "Agent records",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1265,
+    "output": 212,
+    "time (ns)": 6235182000
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "story": "#G24# As a depositor, I want to specify a disposal policy for my data, so that I do not accidentally breach laws or collaboration agreements.\n",
+  "extraction": {
+    "personas": [
+      "depositor"
+    ],
+    "entities": [
+      "disposal policy",
+      "data",
+      "laws",
+      "collaboration agreements"
+    ],
+    "actions": [
+      "specify",
+      "breach"
+    ],
+    "benefit": "I do not accidentally breach laws or collaboration agreements"
+  },
+  "categories": {
+    "primary_entities": [
+      "disposal policy",
+      "data"
+    ],
+    "secondary_entities": [
+      "laws",
+      "collaboration agreements"
+    ],
+    "primary_actions": [
+      "specify"
+    ],
+    "secondary_actions": [
+      "breach"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "depositor",
+        "to": "specify",
+        "kind": "triggers"
+      },
+      {
+        "from": "specify",
+        "to": "disposal policy",
+        "kind": "targets"
+      },
+      {
+        "from": "specify",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "specify",
+        "to": "laws",
+        "kind": "targets"
+      },
+      {
+        "from": "specify",
+        "to": "collaboration agreements",
+        "kind": "targets"
+      },
+      {
+        "from": "breach",
+        "to": "laws",
+        "kind": "targets"
+      },
+      {
+        "from": "breach",
+        "to": "collaboration agreements",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1351,
+    "output": 328,
+    "time (ns)": 12014652000
+  }
+}

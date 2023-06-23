@@ -1,0 +1,75 @@
+{
+  "story": "#G24# As a depositor, I want to manage and share 'live' research data, so that whole project workflow is linked together.\n",
+  "extraction": {
+    "personas": [
+      "depositor"
+    ],
+    "entities": [
+      "'live' research data",
+      "whole project workflow"
+    ],
+    "actions": [
+      "manage",
+      "share",
+      "link together"
+    ],
+    "benefit": "whole project workflow is linked together"
+  },
+  "categories": {
+    "primary_entities": [
+      "'live' research data",
+      "whole project workflow"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "manage",
+      "share",
+      "link together"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "depositor",
+        "to": "manage",
+        "kind": "triggers"
+      },
+      {
+        "from": "depositor",
+        "to": "share",
+        "kind": "triggers"
+      },
+      {
+        "from": "depositor",
+        "to": "link together",
+        "kind": "triggers"
+      },
+      {
+        "from": "manage",
+        "to": "'live' research data",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "'live' research data",
+        "kind": "targets"
+      },
+      {
+        "from": "link together",
+        "to": "'live' research data",
+        "kind": "targets"
+      },
+      {
+        "from": "link together",
+        "to": "whole project workflow",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1333,
+    "output": 324,
+    "time (ns)": 12040731000
+  }
+}

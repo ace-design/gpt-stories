@@ -1,0 +1,58 @@
+{
+  "story": "#G23# As a developer, I want to use a configuration that is not prepackaged within a built version of application.\n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "configuration",
+      "built version",
+      "application"
+    ],
+    "actions": [
+      "use"
+    ],
+    "benefit": "to have a configuration that is not prepackaged within a built version of the application"
+  },
+  "categories": {
+    "primary_entities": [
+      "configuration",
+      "built version",
+      "application"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "use"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "configuration",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "built version",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "application",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1317,
+    "output": 223,
+    "time (ns)": 8605049000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G23# As an Archivist, I want to import EAD data.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "EAD data"
+    ],
+    "actions": [
+      "import"
+    ],
+    "benefit": "To import EAD data"
+  },
+  "categories": {
+    "primary_entities": [
+      "EAD data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "import"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "import",
+        "kind": "triggers"
+      },
+      {
+        "from": "import",
+        "to": "EAD data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1250,
+    "output": 154,
+    "time (ns)": 5894560000
+  }
+}

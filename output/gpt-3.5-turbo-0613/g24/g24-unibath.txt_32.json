@@ -1,0 +1,61 @@
+{
+  "story": "#G24# As an externalcoordinator, I want to have guarantees that my IP rights will not be breached, so that the risk of collaborating with Bath is acceptable to me.\n",
+  "extraction": {
+    "personas": [
+      "externalcoordinator"
+    ],
+    "entities": [
+      "IP rights",
+      "Bath"
+    ],
+    "actions": [
+      "have guarantees",
+      "be breached",
+      "collaborating"
+    ],
+    "benefit": "the risk of collaborating with Bath is acceptable to me"
+  },
+  "categories": {
+    "primary_entities": [
+      "IP rights",
+      "Bath"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have guarantees",
+      "collaborating"
+    ],
+    "secondary_actions": [
+      "be breached"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "externalcoordinator",
+        "to": "have guarantees",
+        "kind": "triggers"
+      },
+      {
+        "from": "have guarantees",
+        "to": "IP rights",
+        "kind": "targets"
+      },
+      {
+        "from": "have guarantees",
+        "to": "Bath",
+        "kind": "targets"
+      },
+      {
+        "from": "collaborating",
+        "to": "Bath",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1359,
+    "output": 242,
+    "time (ns)": 9432530000
+  }
+}

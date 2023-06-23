@@ -1,0 +1,59 @@
+{
+  "story": "#G24# As an UnivITservice, I want to integrate the archive with existing university systems such as LDAP, so that the cost of administering the system can be kept low.\n",
+  "extraction": {
+    "personas": [
+      "UnivITservice"
+    ],
+    "entities": [
+      "archive",
+      "university systems",
+      "LDAP"
+    ],
+    "actions": [
+      "integrate"
+    ],
+    "benefit": "the cost of administering the system can be kept low"
+  },
+  "categories": {
+    "primary_entities": [
+      "archive"
+    ],
+    "secondary_entities": [
+      "university systems",
+      "LDAP"
+    ],
+    "primary_actions": [
+      "integrate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "UnivITservice",
+        "to": "integrate",
+        "kind": "triggers"
+      },
+      {
+        "from": "integrate",
+        "to": "archive",
+        "kind": "targets"
+      },
+      {
+        "from": "integrate",
+        "to": "university systems",
+        "kind": "targets"
+      },
+      {
+        "from": "integrate",
+        "to": "LDAP",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1344,
+    "output": 230,
+    "time (ns)": 8952253000
+  }
+}

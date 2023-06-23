@@ -1,0 +1,59 @@
+{
+  "story": "#G24# As an academicpublisher, I want to make persistent web links between my articles and underlying datasets, so that my journals can be seen to be filled with robust, high quality research. \n",
+  "extraction": {
+    "personas": [
+      "academic publisher"
+    ],
+    "entities": [
+      "articles",
+      "underlying datasets",
+      "journals"
+    ],
+    "actions": [
+      "make persistent web links"
+    ],
+    "benefit": "my journals can be seen to be filled with robust, high quality research"
+  },
+  "categories": {
+    "primary_entities": [
+      "articles",
+      "journals"
+    ],
+    "secondary_entities": [
+      "underlying datasets"
+    ],
+    "primary_actions": [
+      "make persistent web links"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "academic publisher",
+        "to": "make persistent web links",
+        "kind": "triggers"
+      },
+      {
+        "from": "make persistent web links",
+        "to": "articles",
+        "kind": "targets"
+      },
+      {
+        "from": "make persistent web links",
+        "to": "underlying datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "make persistent web links",
+        "to": "journals",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1369,
+    "output": 245,
+    "time (ns)": 9500229000
+  }
+}

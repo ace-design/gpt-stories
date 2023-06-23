@@ -1,0 +1,96 @@
+{
+  "story": "#G24# As a developer, I want to deposit and maintain datasets via an API such as SWORD2, so that my service can interact with the archive. \n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "datasets",
+      "API",
+      "SWORD2",
+      "service",
+      "archive"
+    ],
+    "actions": [
+      "deposit",
+      "maintain",
+      "interact"
+    ],
+    "benefit": "my service can interact with the archive"
+  },
+  "categories": {
+    "primary_entities": [
+      "datasets",
+      "API",
+      "SWORD2",
+      "service",
+      "archive"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "deposit",
+      "maintain",
+      "interact"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "deposit",
+        "kind": "triggers"
+      },
+      {
+        "from": "developer",
+        "to": "maintain",
+        "kind": "triggers"
+      },
+      {
+        "from": "developer",
+        "to": "interact",
+        "kind": "triggers"
+      },
+      {
+        "from": "deposit",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "maintain",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "interact",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "interact",
+        "to": "API",
+        "kind": "targets"
+      },
+      {
+        "from": "interact",
+        "to": "SWORD2",
+        "kind": "targets"
+      },
+      {
+        "from": "interact",
+        "to": "service",
+        "kind": "targets"
+      },
+      {
+        "from": "interact",
+        "to": "archive",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1366,
+    "output": 404,
+    "time (ns)": 15034649000
+  }
+}

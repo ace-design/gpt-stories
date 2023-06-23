@@ -1,0 +1,44 @@
+{
+  "story": "#G24# As a data reuser, I want to see different versions of a dataset at a glance, so that I can be sure I'm using the right version of the dataset.\n",
+  "extraction": {
+    "personas": [
+      "data reuser"
+    ],
+    "entities": [
+      "dataset"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "I can be sure I'm using the right version of the dataset"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data reuser",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1328,
+    "output": 158,
+    "time (ns)": 7709417000
+  }
+}

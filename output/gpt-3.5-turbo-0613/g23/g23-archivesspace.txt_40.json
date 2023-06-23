@@ -1,0 +1,47 @@
+{
+  "story": "#G23# As an Archivist, I don't want to inadvertently overwrite someone else's changes to a record that I'm editing.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "record"
+    ],
+    "actions": [
+      "editing",
+      "overwrite"
+    ],
+    "benefit": "avoid inadvertently overwriting someone else's changes"
+  },
+  "categories": {
+    "primary_entities": [
+      "record"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "editing"
+    ],
+    "secondary_actions": [
+      "overwrite"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "editing",
+        "kind": "triggers"
+      },
+      {
+        "from": "editing",
+        "to": "record",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1290,
+    "output": 156,
+    "time (ns)": 6093540000
+  }
+}

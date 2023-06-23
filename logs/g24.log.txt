@@ -1,0 +1,380 @@
+START: 10:54:27
+# Processing g24-unibath.txt
+- Story #[1] -- started at 10:54:27
+    - #G24# As a depositor, I want to deposit and maintain datasets through a simple web interface, so that I don't need to install and learn new software to deposit.
+
+        - calling model 10:54:27
+        - calling model 10:54:31
+        - calling model 10:54:35
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_1.json
+- Story #[2] -- started at 10:54:44
+    - #G24# As a depositor, I want to have a user interface that is familiar to me, so that I feel like all the University systems are joined up.
+
+        - calling model 10:54:44
+        - calling model 10:54:47
+        - calling model 10:54:51
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_2.json
+- Story #[3] -- started at 10:54:57
+    - #G24# As a depositor, I want to deposit and maintain datasets through Pure, so that I have a single onestop shop for managing my research outputs.
+
+        - calling model 10:54:57
+        - calling model 10:55:01
+        - calling model 10:55:08
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_3.json
+- Story #[4] -- started at 10:55:15
+    - #G24# As a depositor, I want to deposit and maintain datasets through Virtual Research Environments and other workflow tools, so that I can continue to work with tools with which I'm familiar.
+
+        - calling model 10:55:15
+        - calling model 10:55:20
+        - calling model 10:55:24
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_4.json
+- Story #[5] -- started at 10:55:32
+    - #G24# As a depositor, I want to deposit the files that I have, so that I don't have to spend a lot of time finding the right version and converting to the right format.
+
+        - calling model 10:55:32
+        - calling model 10:55:37
+        - calling model 10:55:40
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_5.json
+- Story #[6] -- started at 10:55:45
+    - #G24# As a depositor, I want to place data under an embargo, so that my right of first use is protected, and I can fulfil my confidentiality responsibilities.
+
+        - calling model 10:55:45
+        - calling model 10:55:50
+        - calling model 10:55:54
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_6.json
+- Story #[7] -- started at 10:56:02
+    - #G24# As a depositor, I want to apply licenses to datasets, so that my IP rights are protected appropriately.
+
+        - calling model 10:56:02
+        - calling model 10:56:06
+        - calling model 10:56:09
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_7.json
+- Story #[8] -- started at 10:56:16
+    - #G24# As a depositor, I want to allow my collaborators privileged access to datasets, so that we continue to have a productive relationship.
+
+        - calling model 10:56:16
+        - calling model 10:56:20
+        - calling model 10:56:24
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_8.json
+- Story #[9] -- started at 10:56:29
+    - #G24# As a depositor, I want to deposit arbitrarily large files, so that I am not limited in what files I can and cannot deposit.
+
+        - calling model 10:56:29
+        - calling model 10:56:33
+        - calling model 10:56:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_9.json
+- Story #[10] -- started at 10:56:43
+    - #G24# As a depositor, I want to link datasets to publications in Opus, so that both my data and publications are more easily discovered.
+
+        - calling model 10:56:43
+        - calling model 10:56:47
+        - calling model 10:56:51
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_10.json
+- Story #[11] -- started at 10:56:56
+    - #G24# As a depositor, I want to mint DOIs for my data, so that it can be discovered and cited more easily and citations can be tracked so that I can receive credit.
+
+        - calling model 10:56:56
+        - calling model 10:57:01
+        - calling model 10:57:05
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_11.json
+- Story #[12] -- started at 10:57:14
+    - #G24# As a depositor, I want to have metadata automatically filled from other University systems and remembered from previous deposits, so that I don't have to waste time reentering the same information.
+
+        - calling model 10:57:14
+        - calling model 10:57:19
+        - calling model 10:57:22
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_12.json
+- Story #[13] -- started at 10:57:33
+    - #G24# As a depositor, I want to link to data stored in external repositories, so that I can store my data in an appropriate repository but still register it with the University and I don't have to deposit my data in multiple places.
+
+        - calling model 10:57:33
+        - calling model 10:57:38
+        - calling model 10:57:42
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_13.json
+- Story #[14] -- started at 10:57:52
+    - #G24# As a depositor, I want to specify a disposal policy for my data, so that I do not accidentally breach laws or collaboration agreements.
+
+        - calling model 10:57:52
+        - calling model 10:57:56
+        - calling model 10:58:00
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_14.json
+- Story #[15] -- started at 10:58:10
+    - #G24# As a depositor, I want to track downloads of my data, so that I can demonstrate the impact of my work.
+
+        - calling model 10:58:10
+        - calling model 10:58:14
+        - calling model 10:58:18
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_15.json
+- Story #[16] -- started at 10:58:22
+    - #G24# As a depositor, I want to track citations of my data, so that I can demonstrate the impact of my work
+
+        - calling model 10:58:22
+        - calling model 10:58:26
+        - calling model 10:58:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_16.json
+- Story #[17] -- started at 10:58:35
+    - #G24# As a depositor, I want to have guarantees about data integrity, so that I can use my data in the future and I can fulfil funder requirements for archival.
+
+        - calling model 10:58:35
+        - calling model 10:58:39
+        - calling model 10:58:43
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_17.json
+- Story #[18] -- started at 10:58:50
+    - #G24# As a depositor, I want to attach subject specific discoverability metadata to records, so that researchers in my discipline can find my data more easily.
+
+        - calling model 10:58:50
+        - calling model 10:58:54
+        - calling model 10:58:58
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_18.json
+- Story #[19] -- started at 10:59:05
+    - #G24# As a depositor, I want to link datasets with the project DMP, so that compliance with DMP can be demonstrated and whole project workflow is linked together.
+
+        - calling model 10:59:05
+        - calling model 10:59:09
+        - calling model 10:59:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_19.json
+- Story #[20] -- started at 10:59:21
+    - #G24# As a depositor, I want to manage and share 'live' research data, so that whole project workflow is linked together.
+
+        - calling model 10:59:21
+        - calling model 10:59:25
+        - calling model 10:59:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_20.json
+- Story #[21] -- started at 10:59:39
+    - #G24# As a depositor, I want to manage multiple versions of the same dataset, so that changes to the dataset are transparent and do not compromise research integrity.
+
+        - calling model 10:59:39
+        - calling model 10:59:43
+        - calling model 10:59:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_21.json
+- Story #[22] -- started at 10:59:54
+    - #G24# As a depositor, I want to allow others to deposit on my behalf, so that I can delegate research data management tasks appropriately.
+
+        - calling model 10:59:54
+        - calling model 10:59:59
+        - calling model 11:00:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_22.json
+- Story #[23] -- started at 11:00:12
+    - #G24# As a data reuser, I want to search the archive through the web, so that I can easily find data relevant to my needs.
+
+        - calling model 11:00:12
+        - calling model 11:00:16
+        - calling model 11:00:20
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_23.json
+- Story #[24] -- started at 11:00:24
+    - #G24# As a data reuser, I want to access the system in my native language, so that I am not put off reusing University of Bath data by language barriers.
+
+        - calling model 11:00:24
+        - calling model 11:00:29
+        - calling model 11:00:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_24.json
+- Story #[25] -- started at 11:00:37
+    - #G24# As a data reuser, I want to examine and identify deposited files, so that I can make a preliminary assessment of usefulness without downloading the whole dataset.
+
+        - calling model 11:00:37
+        - calling model 11:00:42
+       - exception caught! Pausing for 60 seconds
+        - calling model 11:02:12
+        - calling model 11:02:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_25.json
+- Story #[26] -- started at 11:02:23
+    - #G24# As a data reuser, I want to view an example citation for a dataset, so that I can reference it correctly.
+
+        - calling model 11:02:23
+        - calling model 11:02:27
+        - calling model 11:02:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_26.json
+- Story #[27] -- started at 11:02:38
+    - #G24# As a data reuser, I want to view a DOI for a dataset, so that I can get back to the data in future and I can import the dataset into my referencemanagement software automatically.
+
+        - calling model 11:02:38
+        - calling model 11:02:43
+        - calling model 11:02:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_27.json
+- Story #[28] -- started at 11:02:56
+    - #G24# As a data reuser, I want to get a persistent URL for a dataset, so that I can get back to the data in future.
+
+        - calling model 11:02:56
+        - calling model 11:03:02
+        - calling model 11:03:06
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_28.json
+- Story #[29] -- started at 11:03:12
+    - #G24# As a data reuser, I want to search the archive through Primo , so that I can search books, articles and data all in one place.
+
+        - calling model 11:03:12
+        - calling model 11:03:16
+        - calling model 11:03:20
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_29.json
+- Story #[30] -- started at 11:03:28
+    - #G24# As a data reuser, I want to see different versions of a dataset at a glance, so that I can be sure I'm using the right version of the dataset.
+
+        - calling model 11:03:28
+        - calling model 11:03:33
+        - calling model 11:03:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_30.json
+- Story #[31] -- started at 11:03:42
+    - #G24# As an externalcollaborator, I want to gain privileged access to data for projects in which I am involved, so that I can collaborate effectively.
+
+        - calling model 11:03:42
+        - calling model 11:03:46
+        - calling model 11:03:50
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_31.json
+- Story #[32] -- started at 11:03:58
+    - #G24# As an externalcoordinator, I want to have guarantees that my IP rights will not be breached, so that the risk of collaborating with Bath is acceptable to me.
+
+        - calling model 11:03:58
+        - calling model 11:04:02
+        - calling model 11:04:07
+       - exception caught! Pausing for 60 seconds
+        - calling model 11:05:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_32.json
+- Story #[33] -- started at 11:05:43
+    - #G24# AS an externalcoordinator, I want to access data from Bath collaborators off campus, so that I can collaborate effectively.
+
+        - calling model 11:05:43
+        - calling model 11:05:47
+        - calling model 11:05:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_33.json
+- Story #[34] -- started at 11:05:57
+    - #G24# As a research facility manager, I want to deposit data from my facility directly into the archive on behalf of researchers, so that I am no longer required to maintain my own archive of facility data and researchers can access their own data as needed. 
+
+        - calling model 11:05:57
+        - calling model 11:06:02
+        - calling model 11:06:06
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_34.json
+- Story #[35] -- started at 11:06:15
+    - #G24# As a Bath Data Archive administrator, I want to make some checks on deposited datasets before they are made public, so that consistent quality of metadata is maintained, compliance with policies can be checked and details of licensing can be checked.
+
+        - calling model 11:06:15
+        - calling model 11:06:24
+        - calling model 11:06:29
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_35.json
+- Story #[36] -- started at 11:06:38
+    - #G24# As a Bath Data Archive administrator, I want to require a minimum set of metadata, so that consistent quality of metadata is maintained.
+
+        - calling model 11:06:38
+        - calling model 11:06:43
+        - calling model 11:06:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_36.json
+- Story #[37] -- started at 11:06:53
+    - #G24# As a Bath Data Archive administrator, I want to approve scheduled disposal of data, so that data which is still required is not destroyed.
+
+        - calling model 11:06:53
+        - calling model 11:06:57
+        - calling model 11:07:01
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_37.json
+- Story #[38] -- started at 11:07:05
+    - #G24# As a Bath Data Archive administrator, I want to query the entire archive , so that I can report on particular aspects of the archive holdings.
+
+        - calling model 11:07:05
+        - calling model 11:07:10
+        - calling model 11:07:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_38.json
+- Story #[39] -- started at 11:07:19
+    - #G24# As a Bath Data Archive administrator, I want to import Bath data from an external data centre wholesale, so that Bath data holdings in external archives are not lost if they close down.
+
+        - calling model 11:07:19
+        - calling model 11:07:23
+        - calling model 11:07:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_39.json
+- Story #[40] -- started at 11:07:33
+    - #G24# As a Bath Data Archive administrator, I want to encourage and promote the use of open standards for deposit, so that data is as reusable as possible.
+
+        - calling model 11:07:33
+        - calling model 11:07:37
+        - calling model 11:07:43
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_40.json
+- Story #[41] -- started at 11:07:53
+    - #G24# As a Research Information manager, I want to integrate the archive with CRIS, so that I can analyse impact of research data publication I can link funding to all of the outputs it produces.
+
+        - calling model 11:07:53
+        - calling model 11:07:58
+        - calling model 11:08:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_41.json
+- Story #[42] -- started at 11:08:11
+    - #G24# As a Research Information manager, I want to include records for externally held data complete, so that the university's record of data holdings is complete.
+
+        - calling model 11:08:11
+        - calling model 11:08:15
+        - calling model 11:08:19
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_42.json
+- Story #[43] -- started at 11:08:26
+    - #G24# As a Research Information manager, I want to track citation counts for published datasets, so that impact of datasets within academia can be demonstrated.
+
+        - calling model 11:08:26
+        - calling model 11:08:30
+        - calling model 11:08:34
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_43.json
+- Story #[44] -- started at 11:08:38
+    - #G24# As a Research Information manager, I want to segment the view and download statistics by country and sector so that impact of datasets outside academia can be demonstrated.
+
+        - calling model 11:08:38
+        - calling model 11:08:43
+        - calling model 11:08:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_44.json
+- Story #[45] -- started at 11:08:57
+    - #G24# As a Research Information manager, I want to have datasets linked to metadata about projects, so that I can report on projects depositing datasets in relation to funder requirements.
+
+        - calling model 11:08:57
+        - calling model 11:09:02
+        - calling model 11:09:07
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_45.json
+- Story #[46] -- started at 11:09:17
+    - #G24# As an UnivITservice, I want to store archived data on existing storage systems, so that university data storage is consistent and maintainable and future availability of data can be guaranteed.
+
+        - calling model 11:09:17
+        - calling model 11:09:21
+        - calling model 11:09:25
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_46.json
+- Story #[47] -- started at 11:09:32
+    - #G24# As an UnivITservice, I want to integrate the archive with existing university systems such as LDAP, so that the cost of administering the system can be kept low.
+
+        - calling model 11:09:32
+        - calling model 11:09:36
+        - calling model 11:09:40
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_47.json
+- Story #[48] -- started at 11:09:47
+    - #G24# As an UnivITservice, I want to store archived data directly on the HCP object store, so that  features can be made.
+
+        - calling model 11:09:47
+        - calling model 11:09:51
+        - calling model 11:09:55
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_48.json
+- Story #[49] -- started at 11:10:01
+    - #G24# As an UnivITservice, I want to be able to export all data to a different system, so that I am not tied into one system which may not be the most appropriate at some point in the future.
+
+        - calling model 11:10:01
+        - calling model 11:10:06
+        - calling model 11:10:11
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_49.json
+- Story #[50] -- started at 11:10:16
+    - #G24# As a developer, I want to deposit and maintain datasets via an API such as SWORD2, so that my service can interact with the archive. 
+
+        - calling model 11:10:16
+        - calling model 11:10:21
+        - calling model 11:10:25
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_50.json
+- Story #[51] -- started at 11:10:37
+    - #G24# As an academicpublisher, I want to make persistent web links between my articles and underlying datasets, so that my journals can be seen to be filled with robust, high quality research. 
+
+        - calling model 11:10:37
+        - calling model 11:10:42
+        - calling model 11:10:46
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_51.json
+- Story #[52] -- started at 11:10:53
+    - #G24# As a fundingbody, I want to be reassured that researchers I fund have robust archival plans for their data, so that I can be sure that funding them is a worthwhile investment.
+
+        - calling model 11:10:53
+        - calling model 11:10:57
+        - calling model 11:11:02
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_52.json
+- Story #[53] -- started at 11:11:10
+    - #G24# As a fundingbody, I want to harvest metadata on outputs from research I fund, so that I can analyse effectiveness of funding strategy and I can encourage cross fertilisation of research outputs.
+
+        - calling model 11:11:10
+        - calling model 11:11:15
+        - calling model 11:11:20
+       - exception caught! Pausing for 60 seconds
+        - calling model 11:12:50
+    - saving result into: ./output/gpt-3.5-turbo-0613/g24-unibath.txt_53.json
+END: 11:12:58

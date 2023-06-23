@@ -1,0 +1,47 @@
+{
+  "story": "#G23# As a researcher, I want to be able to view a finding aid for a particular collection/Resource.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "finding aid",
+      "collection/Resource"
+    ],
+    "actions": [
+      "view"
+    ],
+    "benefit": "be able to view a finding aid for a particular collection/Resource"
+  },
+  "categories": {
+    "primary_entities": [
+      "finding aid"
+    ],
+    "secondary_entities": [
+      "collection/Resource"
+    ],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "finding aid",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1301,
+    "output": 168,
+    "time (ns)": 6899132000
+  }
+}

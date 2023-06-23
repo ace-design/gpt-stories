@@ -1,0 +1,58 @@
+{
+  "story": "#G24# As a depositor, I want to apply licenses to datasets, so that my IP rights are protected appropriately.\n",
+  "extraction": {
+    "personas": [
+      "depositor"
+    ],
+    "entities": [
+      "licenses",
+      "datasets",
+      "IP rights"
+    ],
+    "actions": [
+      "apply"
+    ],
+    "benefit": "my IP rights are protected appropriately"
+  },
+  "categories": {
+    "primary_entities": [
+      "licenses",
+      "datasets",
+      "IP rights"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "apply"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "depositor",
+        "to": "apply",
+        "kind": "triggers"
+      },
+      {
+        "from": "apply",
+        "to": "licenses",
+        "kind": "targets"
+      },
+      {
+        "from": "apply",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "apply",
+        "to": "IP rights",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1294,
+    "output": 214,
+    "time (ns)": 8253247000
+  }
+}

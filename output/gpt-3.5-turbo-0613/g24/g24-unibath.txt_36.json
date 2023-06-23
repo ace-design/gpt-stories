@@ -1,0 +1,55 @@
+{
+  "story": "#G24# As a Bath Data Archive administrator, I want to require a minimum set of metadata, so that consistent quality of metadata is maintained.\n",
+  "extraction": {
+    "personas": [
+      "Bath Data Archive administrator"
+    ],
+    "entities": [
+      "minimum set of metadata",
+      "consistent quality of metadata"
+    ],
+    "actions": [
+      "require",
+      "maintain"
+    ],
+    "benefit": "consistent quality of metadata is maintained"
+  },
+  "categories": {
+    "primary_entities": [
+      "minimum set of metadata"
+    ],
+    "secondary_entities": [
+      "consistent quality of metadata"
+    ],
+    "primary_actions": [
+      "require"
+    ],
+    "secondary_actions": [
+      "maintain"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Bath Data Archive administrator",
+        "to": "require",
+        "kind": "triggers"
+      },
+      {
+        "from": "require",
+        "to": "minimum set of metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "consistent quality of metadata",
+        "to": "maintain",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1327,
+    "output": 212,
+    "time (ns)": 8422854000
+  }
+}

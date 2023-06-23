@@ -1,0 +1,73 @@
+{
+  "story": "#G24# As a data reuser, I want to search the archive through Primo , so that I can search books, articles and data all in one place.\n",
+  "extraction": {
+    "personas": [
+      "data reuser"
+    ],
+    "entities": [
+      "archive",
+      "Primo",
+      "books",
+      "articles",
+      "data"
+    ],
+    "actions": [
+      "search"
+    ],
+    "benefit": "I can search books, articles and data all in one place"
+  },
+  "categories": {
+    "primary_entities": [
+      "archive",
+      "Primo"
+    ],
+    "secondary_entities": [
+      "books",
+      "articles",
+      "data"
+    ],
+    "primary_actions": [
+      "search"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data reuser",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "archive",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "Primo",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "books",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "articles",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1352,
+    "output": 283,
+    "time (ns)": 10582533000
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "story": "#G24# As a depositor, I want to allow my collaborators privileged access to datasets, so that we continue to have a productive relationship.\n",
+  "extraction": {
+    "personas": [
+      "depositor"
+    ],
+    "entities": [
+      "collaborators",
+      "datasets"
+    ],
+    "actions": [
+      "allow"
+    ],
+    "benefit": "we continue to have a productive relationship"
+  },
+  "categories": {
+    "primary_entities": [
+      "collaborators",
+      "datasets"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "allow"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "depositor",
+        "to": "allow",
+        "kind": "triggers"
+      },
+      {
+        "from": "allow",
+        "to": "collaborators",
+        "kind": "targets"
+      },
+      {
+        "from": "allow",
+        "to": "datasets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1302,
+    "output": 187,
+    "time (ns)": 7393330000
+  }
+}

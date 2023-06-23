@@ -1,0 +1,76 @@
+{
+  "story": "#G23# As an Archivist, I want to see Dates and Extents displayed in both the read and edit views for Accessions and/or Resources before the list of Subjects.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "Dates",
+      "Extents",
+      "Accessions",
+      "Resources",
+      "Subjects"
+    ],
+    "actions": [
+      "see",
+      "displayed"
+    ],
+    "benefit": "I can see Dates and Extents displayed in both the read and edit views for Accessions and/or Resources before the list of Subjects"
+  },
+  "categories": {
+    "primary_entities": [
+      "Dates",
+      "Extents",
+      "Accessions",
+      "Resources"
+    ],
+    "secondary_entities": [
+      "Subjects"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": [
+      "displayed"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "Dates",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "Extents",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "Accessions",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "Resources",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "Subjects",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1397,
+    "output": 305,
+    "time (ns)": 10938728000
+  }
+}

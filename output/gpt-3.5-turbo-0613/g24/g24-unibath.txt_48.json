@@ -1,0 +1,56 @@
+{
+  "story": "#G24# As an UnivITservice, I want to store archived data directly on the HCP object store, so that  features can be made.\n",
+  "extraction": {
+    "personas": [
+      "UnivITservice"
+    ],
+    "entities": [
+      "HCP object store"
+    ],
+    "actions": [
+      "store",
+      "archive"
+    ],
+    "benefit": "features can be made"
+  },
+  "categories": {
+    "primary_entities": [
+      "HCP object store"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "store",
+      "archive"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "UnivITservice",
+        "to": "store",
+        "kind": "triggers"
+      },
+      {
+        "from": "store",
+        "to": "HCP object store",
+        "kind": "targets"
+      },
+      {
+        "from": "UnivITservice",
+        "to": "archive",
+        "kind": "triggers"
+      },
+      {
+        "from": "archive",
+        "to": "HCP object store",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1309,
+    "output": 223,
+    "time (ns)": 8554467000
+  }
+}

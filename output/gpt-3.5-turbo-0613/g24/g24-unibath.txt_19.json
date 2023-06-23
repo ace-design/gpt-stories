@@ -1,0 +1,65 @@
+{
+  "story": "#G24# As a depositor, I want to link datasets with the project DMP, so that compliance with DMP can be demonstrated and whole project workflow is linked together.\n",
+  "extraction": {
+    "personas": [
+      "depositor"
+    ],
+    "entities": [
+      "datasets",
+      "project DMP",
+      "compliance with DMP",
+      "project workflow"
+    ],
+    "actions": [
+      "link"
+    ],
+    "benefit": "compliance with DMP can be demonstrated and whole project workflow is linked together"
+  },
+  "categories": {
+    "primary_entities": [
+      "datasets",
+      "project DMP",
+      "compliance with DMP",
+      "project workflow"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "link"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "depositor",
+        "to": "link",
+        "kind": "triggers"
+      },
+      {
+        "from": "link",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "link",
+        "to": "project DMP",
+        "kind": "targets"
+      },
+      {
+        "from": "link",
+        "to": "compliance with DMP",
+        "kind": "targets"
+      },
+      {
+        "from": "link",
+        "to": "project workflow",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1372,
+    "output": 272,
+    "time (ns)": 10180931000
+  }
+}

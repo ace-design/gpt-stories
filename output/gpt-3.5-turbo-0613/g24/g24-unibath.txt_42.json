@@ -1,0 +1,44 @@
+{
+  "story": "#G24# As a Research Information manager, I want to include records for externally held data complete, so that the university's record of data holdings is complete.\n",
+  "extraction": {
+    "personas": [
+      "Research Information manager"
+    ],
+    "entities": [
+      "externally held data"
+    ],
+    "actions": [
+      "include"
+    ],
+    "benefit": "the university's record of data holdings is complete"
+  },
+  "categories": {
+    "primary_entities": [
+      "externally held data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "include"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Research Information manager",
+        "to": "include",
+        "kind": "triggers"
+      },
+      {
+        "from": "include",
+        "to": "externally held data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1311,
+    "output": 163,
+    "time (ns)": 8704199000
+  }
+}

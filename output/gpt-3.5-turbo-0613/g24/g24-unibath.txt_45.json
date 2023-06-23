@@ -1,0 +1,86 @@
+{
+  "story": "#G24# As a Research Information manager, I want to have datasets linked to metadata about projects, so that I can report on projects depositing datasets in relation to funder requirements.\n",
+  "extraction": {
+    "personas": [
+      "Research Information manager"
+    ],
+    "entities": [
+      "datasets",
+      "metadata",
+      "projects",
+      "funder requirements"
+    ],
+    "actions": [
+      "have",
+      "linked",
+      "report",
+      "depositing"
+    ],
+    "benefit": "I can report on projects depositing datasets in relation to funder requirements"
+  },
+  "categories": {
+    "primary_entities": [
+      "datasets",
+      "metadata",
+      "projects",
+      "funder requirements"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "linked",
+      "report",
+      "depositing"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Research Information manager",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "projects",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "funder requirements",
+        "kind": "targets"
+      },
+      {
+        "from": "linked",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "report",
+        "to": "projects",
+        "kind": "targets"
+      },
+      {
+        "from": "depositing",
+        "to": "datasets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1390,
+    "output": 354,
+    "time (ns)": 14117843000
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "story": "#G24# As a depositor, I want to have metadata automatically filled from other University systems and remembered from previous deposits, so that I don't have to waste time reentering the same information.\n",
+  "extraction": {
+    "personas": [
+      "depositor"
+    ],
+    "entities": [
+      "metadata",
+      "University systems"
+    ],
+    "actions": [
+      "filled",
+      "remembered",
+      "reentering"
+    ],
+    "benefit": "I don't have to waste time reentering the same information"
+  },
+  "categories": {
+    "primary_entities": [
+      "metadata"
+    ],
+    "secondary_entities": [
+      "University systems"
+    ],
+    "primary_actions": [
+      "filled",
+      "remembered"
+    ],
+    "secondary_actions": [
+      "reentering"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "depositor",
+        "to": "filled",
+        "kind": "triggers"
+      },
+      {
+        "from": "filled",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "depositor",
+        "to": "remembered",
+        "kind": "triggers"
+      },
+      {
+        "from": "remembered",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "depositor",
+        "to": "reentering",
+        "kind": "triggers"
+      },
+      {
+        "from": "reentering",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "depositor",
+        "to": "reentering",
+        "kind": "triggers"
+      },
+      {
+        "from": "reentering",
+        "to": "University systems",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1371,
+    "output": 347,
+    "time (ns)": 12258007000
+  }
+}

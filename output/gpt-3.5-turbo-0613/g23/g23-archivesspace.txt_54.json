@@ -1,0 +1,35 @@
+{
+  "story": "#G23# As a User, I want to authenticate locally.\n",
+  "extraction": {
+    "personas": [
+      "User"
+    ],
+    "entities": [],
+    "actions": [
+      "authenticate locally"
+    ],
+    "benefit": ""
+  },
+  "categories": {
+    "primary_entities": [],
+    "secondary_entities": [],
+    "primary_actions": [
+      "authenticate locally"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "User",
+        "to": "authenticate locally",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1220,
+    "output": 114,
+    "time (ns)": 5822126000
+  }
+}

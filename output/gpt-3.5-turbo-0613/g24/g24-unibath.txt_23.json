@@ -1,0 +1,44 @@
+{
+  "story": "#G24# As a data reuser, I want to search the archive through the web, so that I can easily find data relevant to my needs.\n",
+  "extraction": {
+    "personas": [
+      "data reuser"
+    ],
+    "entities": [
+      "archive"
+    ],
+    "actions": [
+      "search"
+    ],
+    "benefit": "I can easily find data relevant to my needs"
+  },
+  "categories": {
+    "primary_entities": [
+      "archive"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "search"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data reuser",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "archive",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1299,
+    "output": 154,
+    "time (ns)": 6474670000
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "story": "#G24# As a depositor, I want to link datasets to publications in Opus, so that both my data and publications are more easily discovered.\n",
+  "extraction": {
+    "personas": [
+      "depositor"
+    ],
+    "entities": [
+      "datasets",
+      "publications",
+      "Opus"
+    ],
+    "actions": [
+      "link"
+    ],
+    "benefit": "both my data and publications are more easily discovered"
+  },
+  "categories": {
+    "primary_entities": [
+      "datasets",
+      "publications",
+      "Opus"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "link"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "depositor",
+        "to": "link",
+        "kind": "triggers"
+      },
+      {
+        "from": "link",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "link",
+        "to": "publications",
+        "kind": "targets"
+      },
+      {
+        "from": "link",
+        "to": "Opus",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1321,
+    "output": 220,
+    "time (ns)": 7500634000
+  }
+}

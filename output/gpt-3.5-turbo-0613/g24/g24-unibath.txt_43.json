@@ -1,0 +1,47 @@
+{
+  "story": "#G24# As a Research Information manager, I want to track citation counts for published datasets, so that impact of datasets within academia can be demonstrated.\n",
+  "extraction": {
+    "personas": [
+      "Research Information manager"
+    ],
+    "entities": [
+      "published datasets",
+      "academia"
+    ],
+    "actions": [
+      "track citation counts"
+    ],
+    "benefit": "impact of datasets within academia can be demonstrated"
+  },
+  "categories": {
+    "primary_entities": [
+      "published datasets"
+    ],
+    "secondary_entities": [
+      "academia"
+    ],
+    "primary_actions": [
+      "track citation counts"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Research Information manager",
+        "to": "track citation counts",
+        "kind": "triggers"
+      },
+      {
+        "from": "track citation counts",
+        "to": "published datasets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1314,
+    "output": 171,
+    "time (ns)": 6736424000
+  }
+}

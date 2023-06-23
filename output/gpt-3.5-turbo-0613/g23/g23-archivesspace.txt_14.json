@@ -1,0 +1,52 @@
+{
+  "story": "#G23# As an Authenticated User, I want to get access to links to contextual help.\n",
+  "extraction": {
+    "personas": [
+      "Authenticated User"
+    ],
+    "entities": [
+      "links",
+      "contextual help"
+    ],
+    "actions": [
+      "get access to"
+    ],
+    "benefit": "I can access contextual help"
+  },
+  "categories": {
+    "primary_entities": [
+      "links"
+    ],
+    "secondary_entities": [
+      "contextual help"
+    ],
+    "primary_actions": [
+      "get access to"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Authenticated User",
+        "to": "get access to",
+        "kind": "triggers"
+      },
+      {
+        "from": "get access to",
+        "to": "links",
+        "kind": "targets"
+      },
+      {
+        "from": "get access to",
+        "to": "contextual help",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1276,
+    "output": 194,
+    "time (ns)": 11624811000
+  }
+}

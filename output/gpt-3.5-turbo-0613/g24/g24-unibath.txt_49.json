@@ -1,0 +1,47 @@
+{
+  "story": "#G24# As an UnivITservice, I want to be able to export all data to a different system, so that I am not tied into one system which may not be the most appropriate at some point in the future.\n",
+  "extraction": {
+    "personas": [
+      "UnivITservice"
+    ],
+    "entities": [
+      "data",
+      "different system"
+    ],
+    "actions": [
+      "export"
+    ],
+    "benefit": "I am not tied into one system which may not be the most appropriate at some point in the future."
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [
+      "different system"
+    ],
+    "primary_actions": [
+      "export"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "UnivITservice",
+        "to": "export",
+        "kind": "triggers"
+      },
+      {
+        "from": "export",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1381,
+    "output": 174,
+    "time (ns)": 8923142000
+  }
+}

@@ -17,6 +17,7 @@ MODEL = 'gpt-3.5-turbo-0613'              # required to use JSON schemas
 
 ## dataset location
 DATASET = './dataset/current'
+START_AT = 44
 
        ###############################
 ######## Do not edit after this line ########
@@ -37,10 +38,14 @@ def process_dataset(directory, model):
       process_backlog(f'{directory}/{file}', model)
 
 def process_backlog(a_backlog, model):
+   global START_AT
    output_file = f'./output/{model}/{os.path.basename(a_backlog)}'
    counter = 0
    for user_story in open(a_backlog, 'r'):
       counter += 1
+      if counter < START_AT:
+         print(f'Skipping Story #[{counter}]')
+         continue
       print(f'- Story #[{counter}] -- started at {__stamp()}')
       print(f'    - {user_story}')
       data = process_story(user_story, model)

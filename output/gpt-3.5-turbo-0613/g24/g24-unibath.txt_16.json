@@ -1,0 +1,47 @@
+{
+  "story": "#G24# As a depositor, I want to track citations of my data, so that I can demonstrate the impact of my work\n",
+  "extraction": {
+    "personas": [
+      "depositor"
+    ],
+    "entities": [
+      "citations",
+      "data"
+    ],
+    "actions": [
+      "track"
+    ],
+    "benefit": "I can demonstrate the impact of my work"
+  },
+  "categories": {
+    "primary_entities": [
+      "citations"
+    ],
+    "secondary_entities": [
+      "data"
+    ],
+    "primary_actions": [
+      "track"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "depositor",
+        "to": "track",
+        "kind": "triggers"
+      },
+      {
+        "from": "track",
+        "to": "citations",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1297,
+    "output": 159,
+    "time (ns)": 6342732000
+  }
+}

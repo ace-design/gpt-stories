@@ -1,0 +1,44 @@
+{
+  "story": "#G23# As User, I want to be able to log in.\n",
+  "extraction": {
+    "personas": [
+      "User"
+    ],
+    "entities": [
+      "log in"
+    ],
+    "actions": [
+      "be able to"
+    ],
+    "benefit": ""
+  },
+  "categories": {
+    "primary_entities": [
+      "log in"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "be able to"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "User",
+        "to": "be able to",
+        "kind": "triggers"
+      },
+      {
+        "from": "be able to",
+        "to": "log in",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1238,
+    "output": 151,
+    "time (ns)": 5037159000
+  }
+}

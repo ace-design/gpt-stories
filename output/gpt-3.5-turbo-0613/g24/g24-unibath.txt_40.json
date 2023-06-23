@@ -1,0 +1,85 @@
+{
+  "story": "#G24# As a Bath Data Archive administrator, I want to encourage and promote the use of open standards for deposit, so that data is as reusable as possible.\n",
+  "extraction": {
+    "personas": [
+      "Bath Data Archive administrator"
+    ],
+    "entities": [
+      "open standards",
+      "deposit",
+      "data"
+    ],
+    "actions": [
+      "encourage",
+      "promote",
+      "use",
+      "reusable"
+    ],
+    "benefit": "data is as reusable as possible"
+  },
+  "categories": {
+    "primary_entities": [
+      "open standards",
+      "deposit",
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "encourage",
+      "promote",
+      "use"
+    ],
+    "secondary_actions": [
+      "reusable"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Bath Data Archive administrator",
+        "to": "encourage",
+        "kind": "triggers"
+      },
+      {
+        "from": "Bath Data Archive administrator",
+        "to": "promote",
+        "kind": "triggers"
+      },
+      {
+        "from": "Bath Data Archive administrator",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "encourage",
+        "to": "open standards",
+        "kind": "targets"
+      },
+      {
+        "from": "promote",
+        "to": "open standards",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "open standards",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "deposit",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1358,
+    "output": 359,
+    "time (ns)": 14262124000
+  }
+}

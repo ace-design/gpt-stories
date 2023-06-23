@@ -1,0 +1,86 @@
+{
+  "story": "#G24# As a Bath Data Archive administrator, I want to make some checks on deposited datasets before they are made public, so that consistent quality of metadata is maintained, compliance with policies can be checked and details of licensing can be checked.\n",
+  "extraction": {
+    "personas": [
+      "Bath Data Archive administrator"
+    ],
+    "entities": [
+      "deposited datasets",
+      "metadata",
+      "policies",
+      "licensing"
+    ],
+    "actions": [
+      "make checks",
+      "maintain consistent quality",
+      "check compliance",
+      "check details"
+    ],
+    "benefit": "consistent quality of metadata is maintained, compliance with policies can be checked, and details of licensing can be checked"
+  },
+  "categories": {
+    "primary_entities": [
+      "deposited datasets",
+      "metadata",
+      "policies",
+      "licensing"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "make checks",
+      "maintain consistent quality",
+      "check compliance",
+      "check details"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Bath Data Archive administrator",
+        "to": "make checks",
+        "kind": "triggers"
+      },
+      {
+        "from": "Bath Data Archive administrator",
+        "to": "maintain consistent quality",
+        "kind": "triggers"
+      },
+      {
+        "from": "Bath Data Archive administrator",
+        "to": "check compliance",
+        "kind": "triggers"
+      },
+      {
+        "from": "Bath Data Archive administrator",
+        "to": "check details",
+        "kind": "triggers"
+      },
+      {
+        "from": "make checks",
+        "to": "deposited datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "make checks",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "make checks",
+        "to": "policies",
+        "kind": "targets"
+      },
+      {
+        "from": "make checks",
+        "to": "licensing",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1465,
+    "output": 408,
+    "time (ns)": 17593271000
+  }
+}

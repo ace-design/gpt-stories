@@ -1,0 +1,58 @@
+{
+  "story": "#G24# As an externalcollaborator, I want to gain privileged access to data for projects in which I am involved, so that I can collaborate effectively.\n",
+  "extraction": {
+    "personas": [
+      "externalcollaborator"
+    ],
+    "entities": [
+      "data",
+      "projects"
+    ],
+    "actions": [
+      "gain privileged access",
+      "collaborate"
+    ],
+    "benefit": "collaborate effectively"
+  },
+  "categories": {
+    "primary_entities": [
+      "data",
+      "projects"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "gain privileged access",
+      "collaborate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "externalcollaborator",
+        "to": "gain privileged access",
+        "kind": "triggers"
+      },
+      {
+        "from": "externalcollaborator",
+        "to": "collaborate",
+        "kind": "triggers"
+      },
+      {
+        "from": "gain privileged access",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "collaborate",
+        "to": "projects",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1327,
+    "output": 233,
+    "time (ns)": 10000364000
+  }
+}

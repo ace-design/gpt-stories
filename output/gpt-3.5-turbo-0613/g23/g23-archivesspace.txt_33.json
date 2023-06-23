@@ -1,0 +1,54 @@
+{
+  "story": "#G23# As an Archivist, I want to rearrange the Resource and/or Digital Object hierarchy using keyboard-based navigation.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "Resource",
+      "Digital Object"
+    ],
+    "actions": [
+      "rearrange"
+    ],
+    "benefit": "I can use keyboard-based navigation"
+  },
+  "categories": {
+    "primary_entities": [
+      "Resource"
+    ],
+    "secondary_entities": [
+      "Digital Object"
+    ],
+    "primary_actions": [
+      "rearrange"
+    ],
+    "secondary_actions": [
+      "keyboard-based navigation"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "rearrange",
+        "kind": "triggers"
+      },
+      {
+        "from": "rearrange",
+        "to": "Resource",
+        "kind": "targets"
+      },
+      {
+        "from": "rearrange",
+        "to": "Digital Object",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1293,
+    "output": 196,
+    "time (ns)": 6873762000
+  }
+}

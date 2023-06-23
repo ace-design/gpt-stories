@@ -1,0 +1,44 @@
+{
+  "story": "#G23# As an Archivist, I want to manage Digital Objects.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "Digital Objects"
+    ],
+    "actions": [
+      "manage"
+    ],
+    "benefit": ""
+  },
+  "categories": {
+    "primary_entities": [
+      "Digital Objects"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "manage"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "manage",
+        "kind": "triggers"
+      },
+      {
+        "from": "manage",
+        "to": "Digital Objects",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1234,
+    "output": 145,
+    "time (ns)": 5659530000
+  }
+}

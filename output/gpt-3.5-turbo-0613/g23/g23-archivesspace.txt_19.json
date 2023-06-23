@@ -1,0 +1,52 @@
+{
+  "story": "#G23# As an Archivist, I want to export agent records as EAC-CPF.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "agent records",
+      "EAC-CPF"
+    ],
+    "actions": [
+      "export"
+    ],
+    "benefit": "I can export agent records as EAC-CPF"
+  },
+  "categories": {
+    "primary_entities": [
+      "agent records"
+    ],
+    "secondary_entities": [
+      "EAC-CPF"
+    ],
+    "primary_actions": [
+      "export"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "export",
+        "kind": "triggers"
+      },
+      {
+        "from": "export",
+        "to": "agent records",
+        "kind": "targets"
+      },
+      {
+        "from": "export",
+        "to": "EAC-CPF",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1286,
+    "output": 195,
+    "time (ns)": 7598485000
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "story": "#G23# As a user, I want backend changes for managing enum lists.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "backend changes",
+      "enum lists"
+    ],
+    "actions": [
+      "managing"
+    ],
+    "benefit": "I can manage enum lists in the backend"
+  },
+  "categories": {
+    "primary_entities": [
+      "backend changes"
+    ],
+    "secondary_entities": [
+      "enum lists"
+    ],
+    "primary_actions": [
+      "managing"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "managing",
+        "kind": "triggers"
+      },
+      {
+        "from": "managing",
+        "to": "backend changes",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1265,
+    "output": 163,
+    "time (ns)": 6697462000
+  }
+}

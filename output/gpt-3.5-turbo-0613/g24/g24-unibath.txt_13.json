@@ -1,0 +1,82 @@
+{
+  "story": "#G24# As a depositor, I want to link to data stored in external repositories, so that I can store my data in an appropriate repository but still register it with the University and I don't have to deposit my data in multiple places.\n",
+  "extraction": {
+    "personas": [
+      "depositor"
+    ],
+    "entities": [
+      "data stored in external repositories",
+      "University"
+    ],
+    "actions": [
+      "link",
+      "store",
+      "register",
+      "deposit"
+    ],
+    "benefit": "I can store my data in an appropriate repository but still register it with the University and I don't have to deposit my data in multiple places."
+  },
+  "categories": {
+    "primary_entities": [
+      "data stored in external repositories",
+      "University"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "link",
+      "store",
+      "register",
+      "deposit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "depositor",
+        "to": "link",
+        "kind": "triggers"
+      },
+      {
+        "from": "link",
+        "to": "data stored in external repositories",
+        "kind": "targets"
+      },
+      {
+        "from": "depositor",
+        "to": "store",
+        "kind": "triggers"
+      },
+      {
+        "from": "store",
+        "to": "data stored in external repositories",
+        "kind": "targets"
+      },
+      {
+        "from": "depositor",
+        "to": "register",
+        "kind": "triggers"
+      },
+      {
+        "from": "register",
+        "to": "University",
+        "kind": "targets"
+      },
+      {
+        "from": "depositor",
+        "to": "deposit",
+        "kind": "triggers"
+      },
+      {
+        "from": "deposit",
+        "to": "data stored in external repositories",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1442,
+    "output": 371,
+    "time (ns)": 13291128000
+  }
+}

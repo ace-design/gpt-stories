@@ -1,0 +1,65 @@
+{
+  "story": "#G24# As a depositor, I want to deposit and maintain datasets through Pure, so that I have a single onestop shop for managing my research outputs.\n",
+  "extraction": {
+    "personas": [
+      "depositor"
+    ],
+    "entities": [
+      "datasets",
+      "Pure",
+      "research outputs"
+    ],
+    "actions": [
+      "deposit",
+      "maintain"
+    ],
+    "benefit": "have a single onestop shop for managing my research outputs"
+  },
+  "categories": {
+    "primary_entities": [
+      "datasets",
+      "Pure",
+      "research outputs"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "deposit",
+      "maintain"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "depositor",
+        "to": "deposit",
+        "kind": "triggers"
+      },
+      {
+        "from": "depositor",
+        "to": "maintain",
+        "kind": "triggers"
+      },
+      {
+        "from": "deposit",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "deposit",
+        "to": "Pure",
+        "kind": "targets"
+      },
+      {
+        "from": "maintain",
+        "to": "research outputs",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1345,
+    "output": 257,
+    "time (ns)": 12316338000
+  }
+}

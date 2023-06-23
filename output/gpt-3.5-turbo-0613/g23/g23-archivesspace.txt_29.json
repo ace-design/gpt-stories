@@ -1,0 +1,47 @@
+{
+  "story": "#G23# As an Archivist, I want to import EAD files that were exported by the Archivists' Toolkit.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "EAD files",
+      "Archivists' Toolkit"
+    ],
+    "actions": [
+      "import"
+    ],
+    "benefit": "I can import EAD files that were exported by the Archivists' Toolkit"
+  },
+  "categories": {
+    "primary_entities": [
+      "EAD files"
+    ],
+    "secondary_entities": [
+      "Archivists' Toolkit"
+    ],
+    "primary_actions": [
+      "import"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "import",
+        "kind": "triggers"
+      },
+      {
+        "from": "import",
+        "to": "EAD files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1322,
+    "output": 178,
+    "time (ns)": 6901156000
+  }
+}

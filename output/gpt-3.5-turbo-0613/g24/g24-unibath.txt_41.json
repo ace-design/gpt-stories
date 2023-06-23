@@ -1,0 +1,76 @@
+{
+  "story": "#G24# As a Research Information manager, I want to integrate the archive with CRIS, so that I can analyse impact of research data publication I can link funding to all of the outputs it produces.\n",
+  "extraction": {
+    "personas": [
+      "Research Information manager"
+    ],
+    "entities": [
+      "archive",
+      "CRIS",
+      "research data publication",
+      "funding",
+      "outputs"
+    ],
+    "actions": [
+      "integrate",
+      "analyse",
+      "link"
+    ],
+    "benefit": "I can analyse impact of research data publication and link funding to all of the outputs it produces."
+  },
+  "categories": {
+    "primary_entities": [
+      "archive",
+      "CRIS",
+      "research data publication",
+      "funding",
+      "outputs"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "integrate",
+      "analyse",
+      "link"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Research Information manager",
+        "to": "integrate",
+        "kind": "triggers"
+      },
+      {
+        "from": "integrate",
+        "to": "archive",
+        "kind": "targets"
+      },
+      {
+        "from": "integrate",
+        "to": "CRIS",
+        "kind": "targets"
+      },
+      {
+        "from": "analyse",
+        "to": "research data publication",
+        "kind": "targets"
+      },
+      {
+        "from": "link",
+        "to": "funding",
+        "kind": "targets"
+      },
+      {
+        "from": "link",
+        "to": "outputs",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1421,
+    "output": 319,
+    "time (ns)": 12107823000
+  }
+}

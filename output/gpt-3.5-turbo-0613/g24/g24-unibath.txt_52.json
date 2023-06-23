@@ -1,0 +1,72 @@
+{
+  "story": "#G24# As a fundingbody, I want to be reassured that researchers I fund have robust archival plans for their data, so that I can be sure that funding them is a worthwhile investment.\n",
+  "extraction": {
+    "personas": [
+      "fundingbody"
+    ],
+    "entities": [
+      "researchers",
+      "data"
+    ],
+    "actions": [
+      "reassured",
+      "fund",
+      "have robust archival plans"
+    ],
+    "benefit": "be sure that funding them is a worthwhile investment"
+  },
+  "categories": {
+    "primary_entities": [
+      "researchers"
+    ],
+    "secondary_entities": [
+      "data"
+    ],
+    "primary_actions": [
+      "fund"
+    ],
+    "secondary_actions": [
+      "reassured",
+      "have robust archival plans"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "fundingbody",
+        "to": "reassured",
+        "kind": "triggers"
+      },
+      {
+        "from": "reassured",
+        "to": "researchers",
+        "kind": "targets"
+      },
+      {
+        "from": "fundingbody",
+        "to": "fund",
+        "kind": "triggers"
+      },
+      {
+        "from": "fund",
+        "to": "researchers",
+        "kind": "targets"
+      },
+      {
+        "from": "researchers",
+        "to": "have robust archival plans",
+        "kind": "triggers"
+      },
+      {
+        "from": "have robust archival plans",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1368,
+    "output": 299,
+    "time (ns)": 11493577000
+  }
+}

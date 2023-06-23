@@ -1,0 +1,44 @@
+{
+  "story": "#G24# As a depositor, I want to deposit the files that I have, so that I don't have to spend a lot of time finding the right version and converting to the right format.\n",
+  "extraction": {
+    "personas": [
+      "depositor"
+    ],
+    "entities": [
+      "files"
+    ],
+    "actions": [
+      "deposit"
+    ],
+    "benefit": "I don't have to spend a lot of time finding the right version and converting to the right format."
+  },
+  "categories": {
+    "primary_entities": [
+      "files"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "deposit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "depositor",
+        "to": "deposit",
+        "kind": "triggers"
+      },
+      {
+        "from": "deposit",
+        "to": "files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1351,
+    "output": 163,
+    "time (ns)": 6978636000
+  }
+}

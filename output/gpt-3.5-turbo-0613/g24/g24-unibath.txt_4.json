@@ -1,0 +1,74 @@
+{
+  "story": "#G24# As a depositor, I want to deposit and maintain datasets through Virtual Research Environments and other workflow tools, so that I can continue to work with tools with which I'm familiar.\n",
+  "extraction": {
+    "personas": [
+      "depositor"
+    ],
+    "entities": [
+      "datasets",
+      "Virtual Research Environments",
+      "workflow tools"
+    ],
+    "actions": [
+      "deposit",
+      "maintain",
+      "work"
+    ],
+    "benefit": "continue to work with tools with which I'm familiar"
+  },
+  "categories": {
+    "primary_entities": [
+      "datasets"
+    ],
+    "secondary_entities": [
+      "Virtual Research Environments",
+      "workflow tools"
+    ],
+    "primary_actions": [
+      "deposit"
+    ],
+    "secondary_actions": [
+      "maintain",
+      "work"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "depositor",
+        "to": "deposit",
+        "kind": "triggers"
+      },
+      {
+        "from": "deposit",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "depositor",
+        "to": "maintain",
+        "kind": "triggers"
+      },
+      {
+        "from": "maintain",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "depositor",
+        "to": "work",
+        "kind": "triggers"
+      },
+      {
+        "from": "work",
+        "to": "datasets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1374,
+    "output": 291,
+    "time (ns)": 11195901000
+  }
+}

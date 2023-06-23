@@ -1,0 +1,47 @@
+{
+  "story": "#G24# As a data reuser, I want to access the system in my native language, so that I am not put off reusing University of Bath data by language barriers.\n",
+  "extraction": {
+    "personas": [
+      "data reuser"
+    ],
+    "entities": [
+      "system",
+      "University of Bath data"
+    ],
+    "actions": [
+      "access"
+    ],
+    "benefit": "I am not put off reusing University of Bath data by language barriers"
+  },
+  "categories": {
+    "primary_entities": [
+      "system"
+    ],
+    "secondary_entities": [
+      "University of Bath data"
+    ],
+    "primary_actions": [
+      "access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data reuser",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "system",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1344,
+    "output": 170,
+    "time (ns)": 6708362000
+  }
+}

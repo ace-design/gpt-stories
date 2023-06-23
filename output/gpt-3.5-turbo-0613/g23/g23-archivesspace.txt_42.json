@@ -1,0 +1,58 @@
+{
+  "story": "#G23# As an Archivist, I want to upload an EAD for import from within the frontend application.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "EAD",
+      "frontend application"
+    ],
+    "actions": [
+      "upload",
+      "import"
+    ],
+    "benefit": "I can upload an EAD for import from within the frontend application"
+  },
+  "categories": {
+    "primary_entities": [
+      "EAD",
+      "frontend application"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "upload",
+      "import"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "EAD",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "frontend application",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "import",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1305,
+    "output": 225,
+    "time (ns)": 9869484000
+  }
+}

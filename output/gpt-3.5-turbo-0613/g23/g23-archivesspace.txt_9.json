@@ -1,0 +1,52 @@
+{
+  "story": "#G23# As an Archivist, I want to associate a standard identifier string with a Subject heading.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "standard identifier string",
+      "Subject heading"
+    ],
+    "actions": [
+      "associate"
+    ],
+    "benefit": "I can easily identify and retrieve information related to a specific subject."
+  },
+  "categories": {
+    "primary_entities": [
+      "standard identifier string"
+    ],
+    "secondary_entities": [
+      "Subject heading"
+    ],
+    "primary_actions": [
+      "associate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "associate",
+        "kind": "triggers"
+      },
+      {
+        "from": "associate",
+        "to": "standard identifier string",
+        "kind": "targets"
+      },
+      {
+        "from": "associate",
+        "to": "Subject heading",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1292,
+    "output": 194,
+    "time (ns)": 7011691000
+  }
+}

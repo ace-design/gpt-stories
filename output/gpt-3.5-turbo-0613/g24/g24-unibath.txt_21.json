@@ -1,0 +1,65 @@
+{
+  "story": "#G24# As a depositor, I want to manage multiple versions of the same dataset, so that changes to the dataset are transparent and do not compromise research integrity.\n",
+  "extraction": {
+    "personas": [
+      "depositor"
+    ],
+    "entities": [
+      "multiple versions",
+      "dataset",
+      "changes",
+      "research integrity"
+    ],
+    "actions": [
+      "manage"
+    ],
+    "benefit": "changes to the dataset are transparent and do not compromise research integrity"
+  },
+  "categories": {
+    "primary_entities": [
+      "multiple versions",
+      "dataset",
+      "changes",
+      "research integrity"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "manage"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "depositor",
+        "to": "manage",
+        "kind": "triggers"
+      },
+      {
+        "from": "manage",
+        "to": "multiple versions",
+        "kind": "targets"
+      },
+      {
+        "from": "manage",
+        "to": "dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "manage",
+        "to": "changes",
+        "kind": "targets"
+      },
+      {
+        "from": "manage",
+        "to": "research integrity",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1345,
+    "output": 254,
+    "time (ns)": 9566241000
+  }
+}

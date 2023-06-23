@@ -1,0 +1,52 @@
+{
+  "story": "#G23# As an Archivist, I want to import EAD files that were exported by Archon.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "EAD files",
+      "Archon"
+    ],
+    "actions": [
+      "import"
+    ],
+    "benefit": "I can import EAD files that were exported by Archon"
+  },
+  "categories": {
+    "primary_entities": [
+      "EAD files"
+    ],
+    "secondary_entities": [
+      "Archon"
+    ],
+    "primary_actions": [
+      "import"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "import",
+        "kind": "triggers"
+      },
+      {
+        "from": "import",
+        "to": "EAD files",
+        "kind": "targets"
+      },
+      {
+        "from": "import",
+        "to": "Archon",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1293,
+    "output": 194,
+    "time (ns)": 7256732000
+  }
+}

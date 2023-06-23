@@ -1,0 +1,51 @@
+{
+  "story": "#G23# As an Archivist, I want to assign a component unique identifier to a Resource Component.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "component",
+      "Resource Component"
+    ],
+    "actions": [
+      "assign"
+    ],
+    "benefit": "to have a unique identifier for the Resource Component"
+  },
+  "categories": {
+    "primary_entities": [
+      "component",
+      "Resource Component"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "assign"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "assign",
+        "kind": "triggers"
+      },
+      {
+        "from": "assign",
+        "to": "component",
+        "kind": "targets"
+      },
+      {
+        "from": "assign",
+        "to": "Resource Component",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1279,
+    "output": 186,
+    "time (ns)": 7123056000
+  }
+}

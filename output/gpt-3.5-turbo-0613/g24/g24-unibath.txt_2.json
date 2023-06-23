@@ -1,0 +1,51 @@
+{
+  "story": "#G24# As a depositor, I want to have a user interface that is familiar to me, so that I feel like all the University systems are joined up.\n",
+  "extraction": {
+    "personas": [
+      "depositor"
+    ],
+    "entities": [
+      "user interface",
+      "University systems"
+    ],
+    "actions": [
+      "have"
+    ],
+    "benefit": "I feel like all the University systems are joined up"
+  },
+  "categories": {
+    "primary_entities": [
+      "user interface",
+      "University systems"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "depositor",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "user interface",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "University systems",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1323,
+    "output": 190,
+    "time (ns)": 7056435000
+  }
+}

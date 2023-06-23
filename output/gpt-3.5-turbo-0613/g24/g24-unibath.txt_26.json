@@ -1,0 +1,63 @@
+{
+  "story": "#G24# As a data reuser, I want to view an example citation for a dataset, so that I can reference it correctly.\n",
+  "extraction": {
+    "personas": [
+      "data reuser"
+    ],
+    "entities": [
+      "example citation",
+      "dataset"
+    ],
+    "actions": [
+      "view",
+      "reference"
+    ],
+    "benefit": "I can reference the dataset correctly"
+  },
+  "categories": {
+    "primary_entities": [
+      "example citation",
+      "dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view",
+      "reference"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data reuser",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "example citation",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "reference",
+        "to": "example citation",
+        "kind": "targets"
+      },
+      {
+        "from": "reference",
+        "to": "dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1305,
+    "output": 242,
+    "time (ns)": 9310612000
+  }
+}

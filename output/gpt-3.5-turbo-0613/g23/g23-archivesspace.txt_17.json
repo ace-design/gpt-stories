@@ -1,0 +1,58 @@
+{
+  "story": "#G23# As a user, I want backend changes to support loading enum value lists from the database.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "backend",
+      "enum value lists",
+      "database"
+    ],
+    "actions": [
+      "support loading"
+    ],
+    "benefit": "to support loading enum value lists from the database"
+  },
+  "categories": {
+    "primary_entities": [
+      "backend",
+      "enum value lists",
+      "database"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "support loading"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "support loading",
+        "kind": "triggers"
+      },
+      {
+        "from": "support loading",
+        "to": "backend",
+        "kind": "targets"
+      },
+      {
+        "from": "support loading",
+        "to": "enum value lists",
+        "kind": "targets"
+      },
+      {
+        "from": "support loading",
+        "to": "database",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1292,
+    "output": 224,
+    "time (ns)": 7771432000
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "story": "#G23# As an Archivist, I want to add administrative data about the archival description and finding aid-related data to a top-level Resource.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "administrative data",
+      "archival description",
+      "finding aid-related data",
+      "top-level Resource"
+    ],
+    "actions": [
+      "add"
+    ],
+    "benefit": "to enhance the archival description and finding aid-related data of a top-level Resource"
+  },
+  "categories": {
+    "primary_entities": [
+      "administrative data",
+      "archival description",
+      "finding aid-related data",
+      "top-level Resource"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "add"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "administrative data",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "archival description",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "finding aid-related data",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "top-level Resource",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1357,
+    "output": 278,
+    "time (ns)": 9676196000
+  }
+}

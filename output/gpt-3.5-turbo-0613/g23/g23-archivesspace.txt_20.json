@@ -1,0 +1,52 @@
+{
+  "story": "#G23# As an Archivist, I want to import only Agent and Subject information from MARCXML records.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "Agent",
+      "Subject"
+    ],
+    "actions": [
+      "import"
+    ],
+    "benefit": "Import only Agent and Subject information from MARCXML records"
+  },
+  "categories": {
+    "primary_entities": [
+      "Agent"
+    ],
+    "secondary_entities": [
+      "Subject"
+    ],
+    "primary_actions": [
+      "import"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "import",
+        "kind": "triggers"
+      },
+      {
+        "from": "import",
+        "to": "Agent",
+        "kind": "targets"
+      },
+      {
+        "from": "import",
+        "to": "Subject",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1285,
+    "output": 184,
+    "time (ns)": 6817631000
+  }
+}

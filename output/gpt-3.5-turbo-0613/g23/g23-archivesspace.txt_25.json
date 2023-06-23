@@ -1,0 +1,44 @@
+{
+  "story": "#G23# As an Administrator, I want to create a new User account for someone else.\n",
+  "extraction": {
+    "personas": [
+      "Administrator"
+    ],
+    "entities": [
+      "User account"
+    ],
+    "actions": [
+      "create"
+    ],
+    "benefit": "for someone else"
+  },
+  "categories": {
+    "primary_entities": [
+      "User account"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Administrator",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "User account",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1250,
+    "output": 147,
+    "time (ns)": 5668487000
+  }
+}

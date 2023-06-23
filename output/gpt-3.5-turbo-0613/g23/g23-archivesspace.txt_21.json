@@ -1,0 +1,51 @@
+{
+  "story": "#G23# As an Application Administrator, I want to assign Users to an Advanced Data Entry and ensure that the appropriate permissions are enforced.\n",
+  "extraction": {
+    "personas": [
+      "Application Administrator"
+    ],
+    "entities": [
+      "Users",
+      "Advanced Data Entry"
+    ],
+    "actions": [
+      "assign"
+    ],
+    "benefit": "ensure that the appropriate permissions are enforced"
+  },
+  "categories": {
+    "primary_entities": [
+      "Users",
+      "Advanced Data Entry"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "assign"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Application Administrator",
+        "to": "assign",
+        "kind": "triggers"
+      },
+      {
+        "from": "assign",
+        "to": "Users",
+        "kind": "targets"
+      },
+      {
+        "from": "assign",
+        "to": "Advanced Data Entry",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1296,
+    "output": 187,
+    "time (ns)": 8662725000
+  }
+}

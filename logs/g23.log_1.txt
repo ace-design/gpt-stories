@@ -1,0 +1,148 @@
+START: 13:40:39
+# Processing g23-archivesspace.txt
+Skipping Story #[1]
+Skipping Story #[2]
+Skipping Story #[3]
+Skipping Story #[4]
+Skipping Story #[5]
+Skipping Story #[6]
+Skipping Story #[7]
+Skipping Story #[8]
+Skipping Story #[9]
+Skipping Story #[10]
+Skipping Story #[11]
+Skipping Story #[12]
+Skipping Story #[13]
+Skipping Story #[14]
+Skipping Story #[15]
+Skipping Story #[16]
+Skipping Story #[17]
+Skipping Story #[18]
+Skipping Story #[19]
+Skipping Story #[20]
+Skipping Story #[21]
+Skipping Story #[22]
+Skipping Story #[23]
+Skipping Story #[24]
+Skipping Story #[25]
+Skipping Story #[26]
+Skipping Story #[27]
+Skipping Story #[28]
+Skipping Story #[29]
+Skipping Story #[30]
+Skipping Story #[31]
+Skipping Story #[32]
+Skipping Story #[33]
+Skipping Story #[34]
+Skipping Story #[35]
+Skipping Story #[36]
+Skipping Story #[37]
+Skipping Story #[38]
+Skipping Story #[39]
+Skipping Story #[40]
+Skipping Story #[41]
+Skipping Story #[42]
+Skipping Story #[43]
+- Story #[44] -- started at 13:40:39
+    - #G23# As a Repository Manager , I want to create, update and delete archival descriptions in my repository.
+
+        - calling model 13:40:39
+        - calling model 13:40:43
+        - calling model 13:40:46
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_44.json
+- Story #[45] -- started at 13:40:56
+    - #G23# As a Developer , I want to develop a custom importer.
+
+        - calling model 13:40:56
+        - calling model 13:41:03
+        - calling model 13:41:06
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_45.json
+- Story #[46] -- started at 13:41:10
+    - #G23# As a Basic Data Entry user , I want to create and update basic archival description information.
+
+        - calling model 13:41:10
+        - calling model 13:41:14
+        - calling model 13:41:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_46.json
+- Story #[47] -- started at 13:41:23
+    - #G23# As a Repository Manager , I want to create, update and delete any records in my repository.
+
+        - calling model 13:41:23
+        - calling model 13:41:27
+        - calling model 13:41:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_47.json
+- Story #[48] -- started at 13:41:39
+    - #G23# As a ReadOnly user , I want to view archival descriptions in my repository.
+
+        - calling model 13:41:39
+        - calling model 13:41:43
+        - calling model 13:41:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_48.json
+- Story #[49] -- started at 13:41:52
+    - #G23# As an System Administrator, I want to declare that a user is has the Repository Manager role for a given Repository.
+
+        - calling model 13:41:52
+        - calling model 13:41:56
+        - calling model 13:41:59
+       - exception caught! Pausing for 60 seconds
+        - calling model 13:43:29
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_49.json
+- Story #[50] -- started at 13:43:35
+    - #G23# As an Archivist, I want to specify the Source for a Name Form of an Agent and add new Sources and edit existing Sources.
+
+        - calling model 13:43:35
+        - calling model 13:43:39
+        - calling model 13:43:43
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_50.json
+- Story #[51] -- started at 13:43:48
+    - #G23# As an Archivist, I want to create and edit Agent records.
+
+        - calling model 13:43:48
+        - calling model 13:43:52
+        - calling model 13:43:55
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_51.json
+- Story #[52] -- started at 13:44:01
+    - #G23# As an Archivist, I want to create and edit a Resource record.
+
+        - calling model 13:44:01
+        - calling model 13:44:04
+        - calling model 13:44:08
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_52.json
+- Story #[53] -- started at 13:44:14
+    - #G23# As an Archivist, I want to associate a Subject record with a Resource description.
+
+        - calling model 13:44:14
+        - calling model 13:44:17
+        - calling model 13:44:21
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_53.json
+- Story #[54] -- started at 13:44:26
+    - #G23# As a User, I want to authenticate locally.
+
+        - calling model 13:44:26
+        - calling model 13:44:31
+        - calling model 13:44:35
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_54.json
+- Story #[55] -- started at 13:44:38
+    - #G23# As User, I want to be able to log in.
+
+        - calling model 13:44:38
+        - calling model 13:44:42
+       - exception caught! Pausing for 60 seconds
+        - calling model 13:46:12
+        - calling model 13:46:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_55.json
+- Story #[56] -- started at 13:46:19
+    - #G23# As an Archivist, I want to associate an Instance with a Container.
+
+        - calling model 13:46:19
+        - calling model 13:46:23
+        - calling model 13:46:26
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_56.json
+- Story #[57] -- started at 13:46:31
+    - #G23# As an Archivist, I want to assign Location information to a Container.
+
+        - calling model 13:46:31
+        - calling model 13:46:34
+        - calling model 13:46:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_57.json
+END: 13:46:43

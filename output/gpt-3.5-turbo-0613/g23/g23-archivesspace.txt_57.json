@@ -1,0 +1,51 @@
+{
+  "story": "#G23# As an Archivist, I want to assign Location information to a Container.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "Location",
+      "Container"
+    ],
+    "actions": [
+      "assign"
+    ],
+    "benefit": "Assigning Location information to a Container"
+  },
+  "categories": {
+    "primary_entities": [
+      "Location",
+      "Container"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "assign"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "assign",
+        "kind": "triggers"
+      },
+      {
+        "from": "assign",
+        "to": "Location",
+        "kind": "targets"
+      },
+      {
+        "from": "assign",
+        "to": "Container",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1263,
+    "output": 181,
+    "time (ns)": 6261829000
+  }
+}

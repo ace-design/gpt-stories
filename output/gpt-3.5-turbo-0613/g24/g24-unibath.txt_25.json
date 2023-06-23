@@ -1,0 +1,67 @@
+{
+  "story": "#G24# As a data reuser, I want to examine and identify deposited files, so that I can make a preliminary assessment of usefulness without downloading the whole dataset.\n",
+  "extraction": {
+    "personas": [
+      "data reuser"
+    ],
+    "entities": [
+      "deposited files",
+      "whole dataset"
+    ],
+    "actions": [
+      "examine",
+      "identify",
+      "make a preliminary assessment"
+    ],
+    "benefit": "I can make a preliminary assessment of usefulness without downloading the whole dataset"
+  },
+  "categories": {
+    "primary_entities": [
+      "deposited files"
+    ],
+    "secondary_entities": [
+      "whole dataset"
+    ],
+    "primary_actions": [
+      "examine",
+      "identify"
+    ],
+    "secondary_actions": [
+      "make a preliminary assessment"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data reuser",
+        "to": "examine",
+        "kind": "triggers"
+      },
+      {
+        "from": "data reuser",
+        "to": "identify",
+        "kind": "triggers"
+      },
+      {
+        "from": "examine",
+        "to": "deposited files",
+        "kind": "targets"
+      },
+      {
+        "from": "identify",
+        "to": "deposited files",
+        "kind": "targets"
+      },
+      {
+        "from": "make a preliminary assessment",
+        "to": "whole dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1364,
+    "output": 280,
+    "time (ns)": 9494008000
+  }
+}

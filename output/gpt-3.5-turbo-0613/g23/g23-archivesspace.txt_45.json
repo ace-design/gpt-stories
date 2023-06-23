@@ -1,0 +1,44 @@
+{
+  "story": "#G23# As a Developer , I want to develop a custom importer.\n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "custom importer"
+    ],
+    "actions": [
+      "develop"
+    ],
+    "benefit": "I can import custom data into the system"
+  },
+  "categories": {
+    "primary_entities": [
+      "custom importer"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "develop"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "develop",
+        "kind": "triggers"
+      },
+      {
+        "from": "develop",
+        "to": "custom importer",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1248,
+    "output": 152,
+    "time (ns)": 8441909000
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "story": "#G23# As an Archivist, I want to associate an Instance with a Container.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "Instance",
+      "Container"
+    ],
+    "actions": [
+      "associate"
+    ],
+    "benefit": "I can associate an Instance with a Container"
+  },
+  "categories": {
+    "primary_entities": [
+      "Instance"
+    ],
+    "secondary_entities": [
+      "Container"
+    ],
+    "primary_actions": [
+      "associate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "associate",
+        "kind": "triggers"
+      },
+      {
+        "from": "associate",
+        "to": "Instance",
+        "kind": "targets"
+      },
+      {
+        "from": "associate",
+        "to": "Container",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1264,
+    "output": 181,
+    "time (ns)": 5307664000
+  }
+}

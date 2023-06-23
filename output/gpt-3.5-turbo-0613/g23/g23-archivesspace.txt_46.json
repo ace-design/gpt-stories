@@ -1,0 +1,56 @@
+{
+  "story": "#G23# As a Basic Data Entry user , I want to create and update basic archival description information.\n",
+  "extraction": {
+    "personas": [
+      "Basic Data Entry user"
+    ],
+    "entities": [
+      "basic archival description information"
+    ],
+    "actions": [
+      "create",
+      "update"
+    ],
+    "benefit": "I can create and update basic archival description information"
+  },
+  "categories": {
+    "primary_entities": [
+      "basic archival description information"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create",
+      "update"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Basic Data Entry user",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "Basic Data Entry user",
+        "to": "update",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "basic archival description information",
+        "kind": "targets"
+      },
+      {
+        "from": "update",
+        "to": "basic archival description information",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1289,
+    "output": 228,
+    "time (ns)": 6538192000
+  }
+}

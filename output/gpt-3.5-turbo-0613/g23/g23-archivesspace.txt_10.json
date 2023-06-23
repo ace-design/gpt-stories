@@ -1,0 +1,57 @@
+{
+  "story": "#G23# As an Archivist, I want to be able to understand that an error occurred during import and why it might have occurred.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "error"
+    ],
+    "actions": [
+      "understand",
+      "import"
+    ],
+    "benefit": "be able to understand that an error occurred during import and why it might have occurred"
+  },
+  "categories": {
+    "primary_entities": [
+      "error"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "understand"
+    ],
+    "secondary_actions": [
+      "import"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "understand",
+        "kind": "triggers"
+      },
+      {
+        "from": "understand",
+        "to": "error",
+        "kind": "targets"
+      },
+      {
+        "from": "Archivist",
+        "to": "import",
+        "kind": "triggers"
+      },
+      {
+        "from": "import",
+        "to": "error",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1312,
+    "output": 220,
+    "time (ns)": 7790816000
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "story": "#G23# As a Repository Manager , I want to create, update and delete any records in my repository.\n",
+  "extraction": {
+    "personas": [
+      "Repository Manager"
+    ],
+    "entities": [
+      "records",
+      "repository"
+    ],
+    "actions": [
+      "create",
+      "update",
+      "delete"
+    ],
+    "benefit": "manage records in the repository"
+  },
+  "categories": {
+    "primary_entities": [
+      "records",
+      "repository"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create",
+      "update",
+      "delete"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Repository Manager",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "Repository Manager",
+        "to": "update",
+        "kind": "triggers"
+      },
+      {
+        "from": "Repository Manager",
+        "to": "delete",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "records",
+        "kind": "targets"
+      },
+      {
+        "from": "update",
+        "to": "records",
+        "kind": "targets"
+      },
+      {
+        "from": "delete",
+        "to": "records",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "update",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "delete",
+        "to": "repository",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1289,
+    "output": 345,
+    "time (ns)": 10481702000
+  }
+}

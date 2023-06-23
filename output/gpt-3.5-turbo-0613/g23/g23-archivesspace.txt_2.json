@@ -1,0 +1,44 @@
+{
+  "story": "#G23# As an Application Administrator, I want to be able to reset a User's password for them.\n",
+  "extraction": {
+    "personas": [
+      "Application Administrator"
+    ],
+    "entities": [
+      "User"
+    ],
+    "actions": [
+      "reset"
+    ],
+    "benefit": "be able to reset a User's password for them"
+  },
+  "categories": {
+    "primary_entities": [
+      "User"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "reset"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Application Administrator",
+        "to": "reset",
+        "kind": "triggers"
+      },
+      {
+        "from": "reset",
+        "to": "User",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1272,
+    "output": 153,
+    "time (ns)": 5554683000
+  }
+}

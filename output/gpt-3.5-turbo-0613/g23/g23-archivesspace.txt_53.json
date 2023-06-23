@@ -1,0 +1,52 @@
+{
+  "story": "#G23# As an Archivist, I want to associate a Subject record with a Resource description.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "Subject record",
+      "Resource description"
+    ],
+    "actions": [
+      "associate"
+    ],
+    "benefit": "I can associate a Subject record with a Resource description"
+  },
+  "categories": {
+    "primary_entities": [
+      "Subject record"
+    ],
+    "secondary_entities": [
+      "Resource description"
+    ],
+    "primary_actions": [
+      "associate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "associate",
+        "kind": "triggers"
+      },
+      {
+        "from": "associate",
+        "to": "Subject record",
+        "kind": "targets"
+      },
+      {
+        "from": "associate",
+        "to": "Resource description",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1280,
+    "output": 189,
+    "time (ns)": 6876677000
+  }
+}

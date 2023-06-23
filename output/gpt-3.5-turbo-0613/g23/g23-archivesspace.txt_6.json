@@ -1,0 +1,44 @@
+{
+  "story": "#G23# As a User , I want to authenticate using LDAP.\n",
+  "extraction": {
+    "personas": [
+      "User"
+    ],
+    "entities": [
+      "LDAP"
+    ],
+    "actions": [
+      "authenticate"
+    ],
+    "benefit": "I can authenticate using LDAP"
+  },
+  "categories": {
+    "primary_entities": [
+      "LDAP"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "authenticate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "User",
+        "to": "authenticate",
+        "kind": "triggers"
+      },
+      {
+        "from": "authenticate",
+        "to": "LDAP",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1236,
+    "output": 146,
+    "time (ns)": 5698849000
+  }
+}

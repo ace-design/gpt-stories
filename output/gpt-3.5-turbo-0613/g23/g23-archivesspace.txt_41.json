@@ -1,0 +1,56 @@
+{
+  "story": "#G23# As an Archivist, I want to create and edit Rights Management statements.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "Rights Management statements"
+    ],
+    "actions": [
+      "create",
+      "edit"
+    ],
+    "benefit": "I can manage and update the Rights Management statements"
+  },
+  "categories": {
+    "primary_entities": [
+      "Rights Management statements"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create",
+      "edit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "Archivist",
+        "to": "edit",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "Rights Management statements",
+        "kind": "targets"
+      },
+      {
+        "from": "edit",
+        "to": "Rights Management statements",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1273,
+    "output": 218,
+    "time (ns)": 7891399000
+  }
+}

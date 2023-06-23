@@ -1,0 +1,51 @@
+{
+  "story": "#G23# As a migration specialist, I want to store the AT or Archon source record ids in each ASpace record\n",
+  "extraction": {
+    "personas": [
+      "migration specialist"
+    ],
+    "entities": [
+      "AT or Archon source record ids",
+      "ASpace record"
+    ],
+    "actions": [
+      "store"
+    ],
+    "benefit": "to have the AT or Archon source record ids in each ASpace record"
+  },
+  "categories": {
+    "primary_entities": [
+      "AT or Archon source record ids",
+      "ASpace record"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "store"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "migration specialist",
+        "to": "store",
+        "kind": "triggers"
+      },
+      {
+        "from": "store",
+        "to": "AT or Archon source record ids",
+        "kind": "targets"
+      },
+      {
+        "from": "store",
+        "to": "ASpace record",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1327,
+    "output": 213,
+    "time (ns)": 8184569000
+  }
+}

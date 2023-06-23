@@ -1,0 +1,56 @@
+{
+  "story": "#G23# As a systems administrator, I want to be able to control the location of the demo database and I want it to be backed up.\n",
+  "extraction": {
+    "personas": [
+      "systems administrator"
+    ],
+    "entities": [
+      "demo database"
+    ],
+    "actions": [
+      "control",
+      "back up"
+    ],
+    "benefit": "be able to control the location of the demo database and have it backed up"
+  },
+  "categories": {
+    "primary_entities": [
+      "demo database"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "control",
+      "back up"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "systems administrator",
+        "to": "control",
+        "kind": "triggers"
+      },
+      {
+        "from": "control",
+        "to": "demo database",
+        "kind": "targets"
+      },
+      {
+        "from": "systems administrator",
+        "to": "back up",
+        "kind": "triggers"
+      },
+      {
+        "from": "back up",
+        "to": "demo database",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1321,
+    "output": 224,
+    "time (ns)": 7681074000
+  }
+}

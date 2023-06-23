@@ -1,0 +1,59 @@
+{
+  "story": "#G23# As an Archivist, I want to rearrange the resource description hierarchy by dragging an archival object to a different position in the hierarchy.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "resource description hierarchy",
+      "archival object"
+    ],
+    "actions": [
+      "rearrange",
+      "dragging"
+    ],
+    "benefit": "I can change the position of an archival object in the hierarchy"
+  },
+  "categories": {
+    "primary_entities": [
+      "resource description hierarchy",
+      "archival object"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "rearrange"
+    ],
+    "secondary_actions": [
+      "dragging"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "rearrange",
+        "kind": "triggers"
+      },
+      {
+        "from": "rearrange",
+        "to": "resource description hierarchy",
+        "kind": "targets"
+      },
+      {
+        "from": "rearrange",
+        "to": "archival object",
+        "kind": "targets"
+      },
+      {
+        "from": "dragging",
+        "to": "archival object",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1337,
+    "output": 243,
+    "time (ns)": 9176027000
+  }
+}

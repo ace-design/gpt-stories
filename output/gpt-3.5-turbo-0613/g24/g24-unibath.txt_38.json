@@ -1,0 +1,47 @@
+{
+  "story": "#G24# As a Bath Data Archive administrator, I want to query the entire archive , so that I can report on particular aspects of the archive holdings.\n",
+  "extraction": {
+    "personas": [
+      "Bath Data Archive administrator"
+    ],
+    "entities": [
+      "archive"
+    ],
+    "actions": [
+      "query",
+      "report"
+    ],
+    "benefit": "I can report on particular aspects of the archive holdings"
+  },
+  "categories": {
+    "primary_entities": [
+      "archive"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "query"
+    ],
+    "secondary_actions": [
+      "report"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Bath Data Archive administrator",
+        "to": "query",
+        "kind": "triggers"
+      },
+      {
+        "from": "query",
+        "to": "archive",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1312,
+    "output": 164,
+    "time (ns)": 7092877000
+  }
+}

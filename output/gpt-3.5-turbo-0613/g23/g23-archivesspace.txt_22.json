@@ -1,0 +1,52 @@
+{
+  "story": "#G23# As an Application Administrator , I want to be able to configure the help center URL and topic mappings.\n",
+  "extraction": {
+    "personas": [
+      "Application Administrator"
+    ],
+    "entities": [
+      "help center URL",
+      "topic mappings"
+    ],
+    "actions": [
+      "configure"
+    ],
+    "benefit": "be able to configure the help center URL and topic mappings"
+  },
+  "categories": {
+    "primary_entities": [
+      "help center URL"
+    ],
+    "secondary_entities": [
+      "topic mappings"
+    ],
+    "primary_actions": [
+      "configure"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Application Administrator",
+        "to": "configure",
+        "kind": "triggers"
+      },
+      {
+        "from": "configure",
+        "to": "help center URL",
+        "kind": "targets"
+      },
+      {
+        "from": "configure",
+        "to": "topic mappings",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1294,
+    "output": 193,
+    "time (ns)": 7243938000
+  }
+}

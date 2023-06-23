@@ -1,0 +1,86 @@
+{
+  "story": "#G24# As a depositor, I want to mint DOIs for my data, so that it can be discovered and cited more easily and citations can be tracked so that I can receive credit.\n",
+  "extraction": {
+    "personas": [
+      "depositor"
+    ],
+    "entities": [
+      "DOIs",
+      "data",
+      "citations"
+    ],
+    "actions": [
+      "mint",
+      "discover",
+      "cite",
+      "track",
+      "receive"
+    ],
+    "benefit": "data can be discovered and cited more easily and citations can be tracked so that I can receive credit"
+  },
+  "categories": {
+    "primary_entities": [
+      "DOIs",
+      "data",
+      "citations"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "mint",
+      "discover",
+      "cite",
+      "track",
+      "receive"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "depositor",
+        "to": "mint",
+        "kind": "triggers"
+      },
+      {
+        "from": "mint",
+        "to": "DOIs",
+        "kind": "targets"
+      },
+      {
+        "from": "DOIs",
+        "to": "discover",
+        "kind": "triggers"
+      },
+      {
+        "from": "discover",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "DOIs",
+        "to": "cite",
+        "kind": "triggers"
+      },
+      {
+        "from": "cite",
+        "to": "citations",
+        "kind": "targets"
+      },
+      {
+        "from": "citations",
+        "to": "track",
+        "kind": "triggers"
+      },
+      {
+        "from": "track",
+        "to": "receive",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1404,
+    "output": 360,
+    "time (ns)": 11862182000
+  }
+}

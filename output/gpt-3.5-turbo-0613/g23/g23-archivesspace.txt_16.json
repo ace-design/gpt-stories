@@ -1,0 +1,47 @@
+{
+  "story": "#G23# As an Archivist, I want to import Agent information from EAC-CPF records.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "Agent",
+      "EAC-CPF records"
+    ],
+    "actions": [
+      "import"
+    ],
+    "benefit": "I can import Agent information from EAC-CPF records"
+  },
+  "categories": {
+    "primary_entities": [
+      "Agent"
+    ],
+    "secondary_entities": [
+      "EAC-CPF records"
+    ],
+    "primary_actions": [
+      "import"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "import",
+        "kind": "triggers"
+      },
+      {
+        "from": "import",
+        "to": "Agent",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1291,
+    "output": 167,
+    "time (ns)": 5931878000
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "story": "#G23# As an Archivist, I want to associate an Instance with a Resource and/or Resource Component.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "Instance",
+      "Resource",
+      "Resource Component"
+    ],
+    "actions": [
+      "associate"
+    ],
+    "benefit": "I can associate an Instance with a Resource and/or Resource Component"
+  },
+  "categories": {
+    "primary_entities": [
+      "Instance",
+      "Resource"
+    ],
+    "secondary_entities": [
+      "Resource Component"
+    ],
+    "primary_actions": [
+      "associate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "associate",
+        "kind": "triggers"
+      },
+      {
+        "from": "associate",
+        "to": "Instance",
+        "kind": "targets"
+      },
+      {
+        "from": "associate",
+        "to": "Resource",
+        "kind": "targets"
+      },
+      {
+        "from": "associate",
+        "to": "Resource Component",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1296,
+    "output": 219,
+    "time (ns)": 7645757000
+  }
+}

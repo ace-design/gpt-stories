@@ -1,0 +1,52 @@
+{
+  "story": "#G23# As an Archivist, I want to export a description as EAD.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "description",
+      "EAD"
+    ],
+    "actions": [
+      "export"
+    ],
+    "benefit": "I can export a description as EAD"
+  },
+  "categories": {
+    "primary_entities": [
+      "description"
+    ],
+    "secondary_entities": [
+      "EAD"
+    ],
+    "primary_actions": [
+      "export"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "export",
+        "kind": "triggers"
+      },
+      {
+        "from": "export",
+        "to": "description",
+        "kind": "targets"
+      },
+      {
+        "from": "export",
+        "to": "EAD",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1267,
+    "output": 184,
+    "time (ns)": 6778100000
+  }
+}

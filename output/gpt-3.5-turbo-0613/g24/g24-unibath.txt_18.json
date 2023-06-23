@@ -1,0 +1,63 @@
+{
+  "story": "#G24# As a depositor, I want to attach subject specific discoverability metadata to records, so that researchers in my discipline can find my data more easily.\n",
+  "extraction": {
+    "personas": [
+      "depositor",
+      "researchers"
+    ],
+    "entities": [
+      "records",
+      "discoverability metadata",
+      "data"
+    ],
+    "actions": [
+      "attach",
+      "find"
+    ],
+    "benefit": "researchers in my discipline can find my data more easily"
+  },
+  "categories": {
+    "primary_entities": [
+      "records",
+      "data"
+    ],
+    "secondary_entities": [
+      "discoverability metadata"
+    ],
+    "primary_actions": [
+      "attach"
+    ],
+    "secondary_actions": [
+      "find"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "depositor",
+        "to": "attach",
+        "kind": "triggers"
+      },
+      {
+        "from": "attach",
+        "to": "records",
+        "kind": "targets"
+      },
+      {
+        "from": "researchers",
+        "to": "find",
+        "kind": "triggers"
+      },
+      {
+        "from": "find",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1345,
+    "output": 230,
+    "time (ns)": 8582836000
+  }
+}

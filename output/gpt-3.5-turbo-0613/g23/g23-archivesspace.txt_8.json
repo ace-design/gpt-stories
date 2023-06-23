@@ -1,0 +1,45 @@
+{
+  "story": "#G23# to support data migration integrity testing.\n",
+  "extraction": {
+    "personas": [],
+    "entities": [
+      "data migration"
+    ],
+    "actions": [
+      "support",
+      "testing"
+    ],
+    "benefit": "to ensure integrity"
+  },
+  "categories": {
+    "primary_entities": [
+      "data migration"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "support"
+    ],
+    "secondary_actions": [
+      "testing"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "UI designer",
+        "to": "begin",
+        "kind": "triggers"
+      },
+      {
+        "from": "begin",
+        "to": "user testing",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1226,
+    "output": 151,
+    "time (ns)": 5720598000
+  }
+}

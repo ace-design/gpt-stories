@@ -1,0 +1,56 @@
+{
+  "story": "#G23# As an archivist, I want to create and edit a Collection Management subrecord.\n",
+  "extraction": {
+    "personas": [
+      "archivist"
+    ],
+    "entities": [
+      "Collection Management subrecord"
+    ],
+    "actions": [
+      "create",
+      "edit"
+    ],
+    "benefit": "I can manage and update collection information efficiently."
+  },
+  "categories": {
+    "primary_entities": [
+      "Collection Management subrecord"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create",
+      "edit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "archivist",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "archivist",
+        "to": "edit",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "Collection Management subrecord",
+        "kind": "targets"
+      },
+      {
+        "from": "edit",
+        "to": "Collection Management subrecord",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1282,
+    "output": 221,
+    "time (ns)": 7667207000
+  }
+}

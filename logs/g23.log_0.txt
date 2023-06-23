@@ -1,0 +1,737 @@
+START: 11:35:57
+# Processing g23-archivesspace.txt
+- Story #[1] -- started at 11:35:57
+    - #G23# As a researcher, I want to be able to view a finding aid for a particular collection/Resource.
+
+        - calling model 11:35:57
+        - calling model 11:36:01
+        - calling model 11:36:05
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_1.json
+- Story #[2] -- started at 11:36:10
+    - #G23# As an Application Administrator, I want to be able to reset a User's password for them.
+
+        - calling model 11:36:10
+        - calling model 11:36:14
+        - calling model 11:36:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_2.json
+- Story #[3] -- started at 11:36:21
+    - #G23# As a user, I want backend changes for managing enum lists.
+
+        - calling model 11:36:21
+        - calling model 11:36:25
+        - calling model 11:36:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_3.json
+- Story #[4] -- started at 11:36:34
+    - #G23# As an Archivist, I want to import EAD files that were exported by Archon.
+
+        - calling model 11:36:34
+        - calling model 11:36:38
+        - calling model 11:36:42
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_4.json
+- Story #[5] -- started at 11:36:47
+    - #G23# As an Archivist, I want to assign a component unique identifier to a Resource Component.
+
+        - calling model 11:36:47
+        - calling model 11:36:51
+        - calling model 11:36:55
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_5.json
+- Story #[6] -- started at 11:37:00
+    - #G23# As a User , I want to authenticate using LDAP.
+
+        - calling model 11:37:00
+        - calling model 11:37:04
+        - calling model 11:37:08
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_6.json
+- Story #[7] -- started at 11:37:12
+    - #G23# As a migration specialist, I want to store the AT or Archon source record ids in each ASpace record
+
+        - calling model 11:37:12
+        - calling model 11:37:17
+        - calling model 11:37:21
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_7.json
+- Story #[8] -- started at 11:37:26
+    - #G23# to support data migration integrity testing.
+
+        - calling model 11:37:26
+        - calling model 11:37:30
+        - calling model 11:37:34
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_8.json
+- Story #[9] -- started at 11:37:38
+    - #G23# As an Archivist, I want to associate a standard identifier string with a Subject heading.
+
+        - calling model 11:37:38
+        - calling model 11:37:42
+        - calling model 11:37:46
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_9.json
+- Story #[10] -- started at 11:37:51
+    - #G23# As an Archivist, I want to be able to understand that an error occurred during import and why it might have occurred.
+
+        - calling model 11:37:51
+        - calling model 11:37:55
+        - calling model 11:37:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_10.json
+- Story #[11] -- started at 11:38:05
+    - #G23# As an Archivist, I want to import Accessions data in CSV.
+
+        - calling model 11:38:05
+        - calling model 11:38:09
+        - calling model 11:38:13
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_11.json
+- Story #[12] -- started at 11:38:18
+    - #G23# As an Archivist, I want to import Resources from MARCXML records.
+
+        - calling model 11:38:18
+        - calling model 11:38:22
+        - calling model 11:38:26
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_12.json
+- Story #[13] -- started at 11:38:32
+    - #G23# As a user, I want frontend changes for managing enum lists.
+
+        - calling model 11:38:32
+        - calling model 11:38:36
+        - calling model 11:38:39
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_13.json
+- Story #[14] -- started at 11:38:44
+    - #G23# As an Authenticated User, I want to get access to links to contextual help.
+
+        - calling model 11:38:44
+        - calling model 11:38:52
+        - calling model 11:38:56
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_14.json
+- Story #[15] -- started at 11:39:02
+    - #G23# As an Archivist, I want to see Dates and Extents displayed in both the read and edit views for Accessions and/or Resources before the list of Subjects.
+
+        - calling model 11:39:02
+        - calling model 11:39:07
+        - calling model 11:39:11
+       - exception caught! Pausing for 60 seconds
+        - calling model 11:40:41
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_15.json
+- Story #[16] -- started at 11:40:49
+    - #G23# As an Archivist, I want to import Agent information from EAC-CPF records.
+
+        - calling model 11:40:49
+        - calling model 11:40:53
+        - calling model 11:40:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_16.json
+- Story #[17] -- started at 11:41:01
+    - #G23# As a user, I want backend changes to support loading enum value lists from the database.
+
+        - calling model 11:41:01
+        - calling model 11:41:05
+        - calling model 11:41:09
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_17.json
+- Story #[18] -- started at 11:41:15
+    - #G23# As a user, I want backend changes for bulk updating one enum value to another.
+
+        - calling model 11:41:15
+        - calling model 11:41:18
+        - calling model 11:41:22
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_18.json
+- Story #[19] -- started at 11:41:27
+    - #G23# As an Archivist, I want to export agent records as EAC-CPF.
+
+        - calling model 11:41:27
+        - calling model 11:41:30
+        - calling model 11:41:35
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_19.json
+- Story #[20] -- started at 11:41:40
+    - #G23# As an Archivist, I want to import only Agent and Subject information from MARCXML records.
+
+        - calling model 11:41:40
+        - calling model 11:41:44
+        - calling model 11:41:48
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_20.json
+- Story #[21] -- started at 11:41:53
+    - #G23# As an Application Administrator, I want to assign Users to an Advanced Data Entry and ensure that the appropriate permissions are enforced.
+
+        - calling model 11:41:53
+        - calling model 11:41:57
+        - calling model 11:42:01
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_21.json
+- Story #[22] -- started at 11:42:08
+    - #G23# As an Application Administrator , I want to be able to configure the help center URL and topic mappings.
+
+        - calling model 11:42:08
+        - calling model 11:42:12
+        - calling model 11:42:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_22.json
+- Story #[23] -- started at 11:42:21
+    - #G23# As a user, I want to add additional properties for repositories.
+
+        - calling model 11:42:21
+        - calling model 11:42:25
+        - calling model 11:42:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_23.json
+- Story #[24] -- started at 11:42:33
+    - #G23# As an Archivist, I want to add Notes to other record types.
+
+        - calling model 11:42:33
+        - calling model 11:42:36
+        - calling model 11:42:40
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_24.json
+- Story #[25] -- started at 11:42:45
+    - #G23# As an Administrator, I want to create a new User account for someone else.
+
+        - calling model 11:42:45
+        - calling model 11:42:49
+        - calling model 11:42:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_25.json
+- Story #[26] -- started at 11:42:57
+    - #G23# As an Archivist, I want to add administrative data about the archival description and finding aid-related data to a top-level Resource.
+
+        - calling model 11:42:57
+        - calling model 11:43:01
+        - calling model 11:43:05
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_26.json
+- Story #[27] -- started at 11:43:12
+    - #G23# As an Archivist, I want to assign a Level of description to a Resource or Resource Component and optionally specify another value if the Level is not in a predefined list.
+
+        - calling model 11:43:12
+        - calling model 11:43:17
+        - calling model 11:43:21
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_27.json
+- Story #[28] -- started at 11:43:29
+    - #G23# As a developer, I want to use a configuration that is not prepackaged within a built version of application.
+
+        - calling model 11:43:29
+        - calling model 11:43:34
+        - calling model 11:43:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_28.json
+- Story #[29] -- started at 11:43:44
+    - #G23# As an Archivist, I want to import EAD files that were exported by the Archivists' Toolkit.
+
+        - calling model 11:43:44
+        - calling model 11:43:48
+        - calling model 11:43:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_29.json
+- Story #[30] -- started at 11:43:57
+    - #G23# As a systems administrator, I want to be able to control the location of the demo database and I want it to be backed up.
+
+        - calling model 11:43:57
+        - calling model 11:44:01
+        - calling model 11:44:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_30.json
+- Story #[31] -- started at 11:44:10
+    - #G23# As an archivist, I want to search within a repository for resource and accession and digital object records.
+
+        - calling model 11:44:10
+        - calling model 11:44:15
+        - calling model 11:44:18
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_31.json
+- Story #[32] -- started at 11:44:25
+    - #G23# As an archivist, I want to create and edit a Collection Management subrecord.
+
+        - calling model 11:44:25
+        - calling model 11:44:29
+        - calling model 11:44:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_32.json
+- Story #[33] -- started at 11:44:39
+    - #G23# As an Archivist, I want to rearrange the Resource and/or Digital Object hierarchy using keyboard-based navigation.
+
+        - calling model 11:44:39
+        - calling model 11:44:43
+        - calling model 11:44:46
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_33.json
+- Story #[34] -- started at 11:44:52
+    - #G23# As an Archivist, I want to rearrange the resource description hierarchy by dragging an archival object to a different position in the hierarchy.
+
+        - calling model 11:44:52
+        - calling model 11:44:56
+        - calling model 11:45:00
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_34.json
+- Story #[35] -- started at 11:45:07
+    - #G23# As an Archivist, I would like to indicate an Agent is either the creator or source or subject of an Accession or Resource or Resource Component.
+
+        - calling model 11:45:07
+        - calling model 11:45:11
+        - calling model 11:45:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_35.json
+- Story #[36] -- started at 11:45:23
+    - #G23# As an Archivist, I want to export a description as EAD.
+
+        - calling model 11:45:23
+        - calling model 11:45:27
+        - calling model 11:45:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_36.json
+- Story #[37] -- started at 11:45:35
+    - #G23# As an Archivist, I want to create and edit Event records.
+
+        - calling model 11:45:35
+       - exception caught! Pausing for 60 seconds
+        - calling model 11:47:05
+        - calling model 11:47:09
+        - calling model 11:47:13
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_37.json
+- Story #[38] -- started at 11:47:19
+    - #G23# As an Archivist, I want to manage Digital Objects.
+
+        - calling model 11:47:19
+        - calling model 11:47:23
+        - calling model 11:47:27
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_38.json
+- Story #[39] -- started at 11:47:31
+    - #G23# As an Archivist, I want to associate an Instance with a Resource and/or Resource Component.
+
+        - calling model 11:47:31
+        - calling model 11:47:35
+        - calling model 11:47:39
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_39.json
+- Story #[40] -- started at 11:47:45
+    - #G23# As an Archivist, I don't want to inadvertently overwrite someone else's changes to a record that I'm editing.
+
+        - calling model 11:47:45
+        - calling model 11:47:52
+        - calling model 11:47:56
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_40.json
+- Story #[41] -- started at 11:48:00
+    - #G23# As an Archivist, I want to create and edit Rights Management statements.
+
+        - calling model 11:48:00
+        - calling model 11:48:04
+        - calling model 11:48:08
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_41.json
+- Story #[42] -- started at 11:48:14
+    - #G23# As an Archivist, I want to upload an EAD for import from within the frontend application.
+
+        - calling model 11:48:14
+        - calling model 11:48:19
+        - calling model 11:48:23
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_42.json
+- Story #[43] -- started at 11:48:30
+    - #G23# As an Archivist, I want to import EAD data.
+
+        - calling model 11:48:30
+        - calling model 11:48:34
+        - calling model 11:48:37
+       - exception caught! Pausing for 60 seconds
+        - calling model 12:05:45
+       - exception caught! Pausing for 60 seconds
+        - calling model 12:07:15
+       - exception caught! Pausing for 60 seconds
+        - calling model 12:24:09
+    - saving result into: ./output/gpt-3.5-turbo-0613/g23-archivesspace.txt_43.json
+- Story #[44] -- started at 12:24:13
+    - #G23# As a Repository Manager , I want to create, update and delete archival descriptions in my repository.
+
+        - calling model 12:24:13
+        - calling model 12:24:17
+        - calling model 12:24:21
+       - exception caught! Pausing for 60 seconds
+        - calling model 12:43:31
+       - exception caught! Pausing for 60 seconds
+        - calling model 12:45:01
+       - exception caught! Pausing for 60 seconds
+        - calling model 12:46:31
+       - exception caught! Pausing for 60 seconds
+        - calling model 12:48:01
+       - exception caught! Pausing for 60 seconds
+        - calling model 12:49:31
+Traceback (most recent call last):
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 255, in __call_GPT
+    response = __call_with_timeout(model, conversation, schema)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/timeout_decorator/timeout_decorator.py", line 82, in new_function
+    return function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 281, in __call_with_timeout
+    response = openai.ChatCompletion.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+                           ^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_requestor.py", line 288, in request
+    result = self.request_raw(
+             ^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_requestor.py", line 596, in request_raw
+    result = _thread_context.session.request(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connection.py", line 454, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/timeout_decorator/timeout_decorator.py", line 69, in handler
+    _raise_exception(timeout_exception, exception_message)
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/timeout_decorator/timeout_decorator.py", line 45, in _raise_exception
+    raise exception()
+timeout_decorator.timeout_decorator.TimeoutError: 'Timed Out'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 255, in __call_GPT
+    response = __call_with_timeout(model, conversation, schema)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/timeout_decorator/timeout_decorator.py", line 82, in new_function
+    return function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 281, in __call_with_timeout
+    response = openai.ChatCompletion.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+                           ^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_requestor.py", line 288, in request
+    result = self.request_raw(
+             ^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_requestor.py", line 596, in request_raw
+    result = _thread_context.session.request(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1092, in _validate_conn
+    conn.connect()
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connection.py", line 635, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connection.py", line 776, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/util/ssl_.py", line 466, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/util/ssl_.py", line 510, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 517, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 1075, in _create
+    self.do_handshake()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 1346, in do_handshake
+    self._sslobj.do_handshake()
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/timeout_decorator/timeout_decorator.py", line 69, in handler
+    _raise_exception(timeout_exception, exception_message)
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/timeout_decorator/timeout_decorator.py", line 45, in _raise_exception
+    raise exception()
+timeout_decorator.timeout_decorator.TimeoutError: 'Timed Out'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 255, in __call_GPT
+    response = __call_with_timeout(model, conversation, schema)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/timeout_decorator/timeout_decorator.py", line 82, in new_function
+    return function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 281, in __call_with_timeout
+    response = openai.ChatCompletion.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+                           ^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_requestor.py", line 288, in request
+    result = self.request_raw(
+             ^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_requestor.py", line 596, in request_raw
+    result = _thread_context.session.request(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1092, in _validate_conn
+    conn.connect()
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connection.py", line 604, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connection.py", line 200, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/timeout_decorator/timeout_decorator.py", line 69, in handler
+    _raise_exception(timeout_exception, exception_message)
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/timeout_decorator/timeout_decorator.py", line 45, in _raise_exception
+    raise exception()
+timeout_decorator.timeout_decorator.TimeoutError: 'Timed Out'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 255, in __call_GPT
+    response = __call_with_timeout(model, conversation, schema)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/timeout_decorator/timeout_decorator.py", line 82, in new_function
+    return function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 281, in __call_with_timeout
+    response = openai.ChatCompletion.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+                           ^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_requestor.py", line 288, in request
+    result = self.request_raw(
+             ^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_requestor.py", line 596, in request_raw
+    result = _thread_context.session.request(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1092, in _validate_conn
+    conn.connect()
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connection.py", line 635, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connection.py", line 776, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/util/ssl_.py", line 466, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/util/ssl_.py", line 510, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 517, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 1075, in _create
+    self.do_handshake()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 1346, in do_handshake
+    self._sslobj.do_handshake()
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/timeout_decorator/timeout_decorator.py", line 69, in handler
+    _raise_exception(timeout_exception, exception_message)
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/timeout_decorator/timeout_decorator.py", line 45, in _raise_exception
+    raise exception()
+timeout_decorator.timeout_decorator.TimeoutError: 'Timed Out'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 255, in __call_GPT
+    response = __call_with_timeout(model, conversation, schema)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/timeout_decorator/timeout_decorator.py", line 82, in new_function
+    return function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 281, in __call_with_timeout
+    response = openai.ChatCompletion.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+                           ^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_requestor.py", line 288, in request
+    result = self.request_raw(
+             ^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_requestor.py", line 596, in request_raw
+    result = _thread_context.session.request(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connection.py", line 454, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/timeout_decorator/timeout_decorator.py", line 69, in handler
+    _raise_exception(timeout_exception, exception_message)
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/timeout_decorator/timeout_decorator.py", line 45, in _raise_exception
+    raise exception()
+timeout_decorator.timeout_decorator.TimeoutError: 'Timed Out'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 255, in __call_GPT
+    response = __call_with_timeout(model, conversation, schema)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/timeout_decorator/timeout_decorator.py", line 82, in new_function
+    return function(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 281, in __call_with_timeout
+    response = openai.ChatCompletion.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+                           ^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_requestor.py", line 288, in request
+    result = self.request_raw(
+             ^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/openai/api_requestor.py", line 596, in request_raw
+    result = _thread_context.session.request(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/urllib3/connection.py", line 454, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 1378, in getresponse
+    response.begin()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 318, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/http/client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 706, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 1278, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.4/Frameworks/Python.framework/Versions/3.11/lib/python3.11/ssl.py", line 1134, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/timeout_decorator/timeout_decorator.py", line 69, in handler
+    _raise_exception(timeout_exception, exception_message)
+  File "/Users/mosser/.local/share/virtualenvs/gpt-stories-iHWjazbU-python/lib/python3.11/site-packages/timeout_decorator/timeout_decorator.py", line 45, in _raise_exception
+    raise exception()
+timeout_decorator.timeout_decorator.TimeoutError: 'Timed Out'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 316, in <module>
+    main(DATASET, MODEL)
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 31, in main
+    process_dataset(dataset, model)
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 37, in process_dataset
+    process_backlog(f'{directory}/{file}', model)
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 46, in process_backlog
+    data = process_story(user_story, model)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 72, in process_story
+    relations = __call_GPT(model, conversation, record_links)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 260, in __call_GPT
+    return __call_GPT(model, conversation, schema)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 260, in __call_GPT
+    return __call_GPT(model, conversation, schema)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 260, in __call_GPT
+    return __call_GPT(model, conversation, schema)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  [Previous line repeated 2 more times]
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 257, in __call_GPT
+    __increment_failure() # Using Circuit-breaker like
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mosser/work/research/gpt-stories/extractor.py", line 305, in __increment_failure
+    raise Exception("Circuit Breaker failed to recover")
+Exception: Circuit Breaker failed to recover

@@ -1,0 +1,65 @@
+{
+  "story": "#G23# As an Archivist, I would like to indicate an Agent is either the creator or source or subject of an Accession or Resource or Resource Component.\n",
+  "extraction": {
+    "personas": [
+      "Archivist"
+    ],
+    "entities": [
+      "Agent",
+      "Accession",
+      "Resource",
+      "Resource Component"
+    ],
+    "actions": [
+      "indicate"
+    ],
+    "benefit": "to specify the relationship between an Agent and an Accession or Resource or Resource Component"
+  },
+  "categories": {
+    "primary_entities": [
+      "Agent",
+      "Accession",
+      "Resource",
+      "Resource Component"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "indicate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Archivist",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "Agent",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "Accession",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "Resource",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "Resource Component",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1353,
+    "output": 265,
+    "time (ns)": 9699848000
+  }
+}

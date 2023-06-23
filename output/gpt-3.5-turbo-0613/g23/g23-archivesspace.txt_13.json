@@ -1,0 +1,47 @@
+{
+  "story": "#G23# As a user, I want frontend changes for managing enum lists.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "frontend changes",
+      "enum lists"
+    ],
+    "actions": [
+      "managing"
+    ],
+    "benefit": "I can manage enum lists more effectively"
+  },
+  "categories": {
+    "primary_entities": [
+      "frontend changes"
+    ],
+    "secondary_entities": [
+      "enum lists"
+    ],
+    "primary_actions": [
+      "managing"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "managing",
+        "kind": "triggers"
+      },
+      {
+        "from": "managing",
+        "to": "frontend changes",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1263,
+    "output": 162,
+    "time (ns)": 6790457000
+  }
+}
