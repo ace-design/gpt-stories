@@ -5,6 +5,7 @@ import openai
 import os
 import time
 import json
+import timeout_decorator
 
 ####
 ## Configuration
@@ -251,14 +252,9 @@ def __call_GPT(model, conversation, schema):
   start = time.time_ns()
   
   try:
-      response = openai.ChatCompletion.create(
-         model       = model,
-         functions   = [schema],
-         messages    = conversation,
-         temperature = 0.0 # Temperature set to 0 to be deterministic (kinda)
-      )
+      response = __call_with_timeout(model, conversation, schema)
   except:
-      __increment_failure()
+      __increment_failure() # Using Circuit-breaker like
       print(f'       - exception caught! Pausing for 60 seconds')
       time.sleep(60)
       return __call_GPT(model, conversation, schema)
@@ -277,6 +273,19 @@ def __call_GPT(model, conversation, schema):
    }
   time.sleep(2)
   return result
+
+
+# We timeout on our side if the answer takes more than 30 seconds
+@timeout_decorator.timeout(seconds=30) 
+def __call_with_timeout(model, conversation, schema):
+   response = openai.ChatCompletion.create(
+      model       = model,
+      functions   = [schema],
+      messages    = conversation,
+      temperature = 0.0 # Temperature set to 0 to be deterministic (kinda)
+   )
+   return response
+  
 
 def __store_result(result, file):
    with open(file, 'w') as of:
