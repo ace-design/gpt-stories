@@ -290,11 +290,13 @@ __cb_counter = 0
 __cb_threshold = 5
 
 def __increment_failure():
+   global __cb_counter
    __cb_counter += 1
    if __cb_counter > __cb_threshold:
       raise Exception("Circuit Breaker failed to recover")
 
 def __reset_failure():
+   global __cb_counter
    __cb_counter = 0
 
 ####
