@@ -1,0 +1,44 @@
+{
+  "story": "#G25# As a repository manager, I want to indicate the copyright status of an object. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "object"
+    ],
+    "actions": [
+      "indicate"
+    ],
+    "benefit": "to indicate the copyright status"
+  },
+  "categories": {
+    "primary_entities": [
+      "object"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "indicate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "object",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1259,
+    "output": 152,
+    "time (ns)": 6277795000
+  }
+}

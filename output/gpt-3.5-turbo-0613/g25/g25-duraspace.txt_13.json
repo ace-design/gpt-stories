@@ -1,0 +1,47 @@
+{
+  "story": "#G25# As a repository manager, I want to indicate other descriptions of the collection that are outside the DAMS and of probable importance to users. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "collection",
+      "DAMS"
+    ],
+    "actions": [
+      "indicate"
+    ],
+    "benefit": "provide additional descriptions of the collection to users"
+  },
+  "categories": {
+    "primary_entities": [
+      "collection"
+    ],
+    "secondary_entities": [
+      "DAMS"
+    ],
+    "primary_actions": [
+      "indicate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "collection",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1309,
+    "output": 162,
+    "time (ns)": 6585870000
+  }
+}

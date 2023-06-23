@@ -1,0 +1,52 @@
+{
+  "story": "#G25# As a DAMS manager, I want to know all the statutes pertinent to an object or object component. \n",
+  "extraction": {
+    "personas": [
+      "DAMS manager"
+    ],
+    "entities": [
+      "object",
+      "object component"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "I can know all the statutes pertinent to an object or object component"
+  },
+  "categories": {
+    "primary_entities": [
+      "object"
+    ],
+    "secondary_entities": [
+      "object component"
+    ],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "object component",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1300,
+    "output": 191,
+    "time (ns)": 10405801000
+  }
+}

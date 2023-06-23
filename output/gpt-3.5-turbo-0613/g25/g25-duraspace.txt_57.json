@@ -1,0 +1,59 @@
+{
+  "story": "#G25# As a repository manager, I want to provide a title, in all useful forms, for my repository's collections, objects, and object components. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "repository's collections",
+      "objects",
+      "object components"
+    ],
+    "actions": [
+      "provide"
+    ],
+    "benefit": "I can have a title for my repository's collections, objects, and object components in all useful forms"
+  },
+  "categories": {
+    "primary_entities": [
+      "repository's collections"
+    ],
+    "secondary_entities": [
+      "objects",
+      "object components"
+    ],
+    "primary_actions": [
+      "provide"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "provide",
+        "kind": "triggers"
+      },
+      {
+        "from": "provide",
+        "to": "repository's collections",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "objects",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "object components",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1351,
+    "output": 233,
+    "time (ns)": 9187982000
+  }
+}

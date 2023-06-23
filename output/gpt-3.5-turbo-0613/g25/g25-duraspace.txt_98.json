@@ -1,0 +1,51 @@
+{
+  "story": "#G25# As a DAMS manager, I want to know the agent(s) responsible for carrying out an event. \n",
+  "extraction": {
+    "personas": [
+      "DAMS manager"
+    ],
+    "entities": [
+      "agent(s)",
+      "event"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "I can know the agent(s) responsible for carrying out an event"
+  },
+  "categories": {
+    "primary_entities": [
+      "agent(s)",
+      "event"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "agent(s)",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "event",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1301,
+    "output": 192,
+    "time (ns)": 8367152000
+  }
+}

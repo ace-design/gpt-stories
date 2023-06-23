@@ -1,0 +1,109 @@
+{
+  "story": "#G25# As a DAMS manager, I want to know when application of a library policy to an object or object component is scheduled to expire. \n",
+  "extraction": {
+    "personas": [
+      "DAMS manager"
+    ],
+    "entities": [
+      "application",
+      "library policy",
+      "object",
+      "object component"
+    ],
+    "actions": [
+      "know",
+      "schedule",
+      "expire"
+    ],
+    "benefit": "I can know when application of a library policy to an object or object component is scheduled to expire"
+  },
+  "categories": {
+    "primary_entities": [
+      "application",
+      "library policy",
+      "object",
+      "object component"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "schedule",
+      "expire"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "application",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "library policy",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "object component",
+        "kind": "targets"
+      },
+      {
+        "from": "schedule",
+        "to": "application",
+        "kind": "targets"
+      },
+      {
+        "from": "schedule",
+        "to": "library policy",
+        "kind": "targets"
+      },
+      {
+        "from": "schedule",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "schedule",
+        "to": "object component",
+        "kind": "targets"
+      },
+      {
+        "from": "expire",
+        "to": "application",
+        "kind": "targets"
+      },
+      {
+        "from": "expire",
+        "to": "library policy",
+        "kind": "targets"
+      },
+      {
+        "from": "expire",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "expire",
+        "to": "object component",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1370,
+    "output": 479,
+    "time (ns)": 17334358000
+  }
+}

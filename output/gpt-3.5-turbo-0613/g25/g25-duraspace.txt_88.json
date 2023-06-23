@@ -1,0 +1,92 @@
+{
+  "story": "#G25# As a DAMS manager, I want to know when the pertinence of a statute to a object or object component is scheduled to expire. \n",
+  "extraction": {
+    "personas": [
+      "DAMS manager"
+    ],
+    "entities": [
+      "statute",
+      "object",
+      "object component"
+    ],
+    "actions": [
+      "know",
+      "schedule",
+      "expire"
+    ],
+    "benefit": "I can know when the pertinence of a statute to a object or object component is scheduled to expire"
+  },
+  "categories": {
+    "primary_entities": [
+      "statute",
+      "object",
+      "object component"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "schedule",
+      "expire"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "statute",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "object component",
+        "kind": "targets"
+      },
+      {
+        "from": "schedule",
+        "to": "statute",
+        "kind": "targets"
+      },
+      {
+        "from": "schedule",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "schedule",
+        "to": "object component",
+        "kind": "targets"
+      },
+      {
+        "from": "expire",
+        "to": "statute",
+        "kind": "targets"
+      },
+      {
+        "from": "expire",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "expire",
+        "to": "object component",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1371,
+    "output": 400,
+    "time (ns)": 15229633000
+  }
+}

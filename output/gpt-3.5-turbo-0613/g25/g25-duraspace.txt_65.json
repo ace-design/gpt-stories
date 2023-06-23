@@ -1,0 +1,65 @@
+{
+  "story": "#G25# As a repository manager, I want to know of all modifications made to notes for my repository's collections, objects, or object components. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "notes",
+      "repository's collections",
+      "objects",
+      "object components"
+    ],
+    "actions": [
+      "know of all modifications made to"
+    ],
+    "benefit": "keep track of changes made to notes for my repository's collections, objects, or object components"
+  },
+  "categories": {
+    "primary_entities": [
+      "notes",
+      "repository's collections",
+      "objects",
+      "object components"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know of all modifications made to"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "know of all modifications made to",
+        "kind": "triggers"
+      },
+      {
+        "from": "know of all modifications made to",
+        "to": "notes",
+        "kind": "targets"
+      },
+      {
+        "from": "know of all modifications made to",
+        "to": "repository's collections",
+        "kind": "targets"
+      },
+      {
+        "from": "know of all modifications made to",
+        "to": "objects",
+        "kind": "targets"
+      },
+      {
+        "from": "know of all modifications made to",
+        "to": "object components",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1366,
+    "output": 298,
+    "time (ns)": 11809538000
+  }
+}

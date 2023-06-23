@@ -1,0 +1,97 @@
+{
+  "story": "#G25# As a user, I want to know if an object or object component is under copyright and, where possible, who the rights holder is. \n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "object",
+      "object component",
+      "copyright"
+    ],
+    "actions": [
+      "know",
+      "is under",
+      "is",
+      "where possible",
+      "rights holder"
+    ],
+    "benefit": "I can determine if an object or object component is under copyright and identify the rights holder"
+  },
+  "categories": {
+    "primary_entities": [
+      "object",
+      "object component",
+      "copyright"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "is under",
+      "is",
+      "rights holder"
+    ],
+    "secondary_actions": [
+      "where possible"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "object component",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "copyright",
+        "kind": "targets"
+      },
+      {
+        "from": "is under",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "is under",
+        "to": "object component",
+        "kind": "targets"
+      },
+      {
+        "from": "is",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "is",
+        "to": "object component",
+        "kind": "targets"
+      },
+      {
+        "from": "rights holder",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "rights holder",
+        "to": "object component",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1378,
+    "output": 409,
+    "time (ns)": 14574676000
+  }
+}

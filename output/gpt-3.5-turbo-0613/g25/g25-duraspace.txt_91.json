@@ -1,0 +1,72 @@
+{
+  "story": "#G25# As a DAMS manager, I want to know if an object or object component is subject to a library policy that restricts access in any way. \n",
+  "extraction": {
+    "personas": [
+      "DAMS manager"
+    ],
+    "entities": [
+      "object",
+      "object component",
+      "library policy"
+    ],
+    "actions": [
+      "know",
+      "restrict access"
+    ],
+    "benefit": "I can determine if an object or object component is subject to a library policy that restricts access"
+  },
+  "categories": {
+    "primary_entities": [
+      "object",
+      "object component"
+    ],
+    "secondary_entities": [
+      "library policy"
+    ],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "restrict access"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "object component",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "library policy",
+        "kind": "targets"
+      },
+      {
+        "from": "restrict access",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "restrict access",
+        "to": "object component",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1361,
+    "output": 291,
+    "time (ns)": 11289085000
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "story": "#G25# As a user, I want to scope by searches by name to a specific role such as illustrator, photographer, etc. \n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "searches",
+      "role"
+    ],
+    "actions": [
+      "scope"
+    ],
+    "benefit": "I can filter searches by name to a specific role"
+  },
+  "categories": {
+    "primary_entities": [
+      "searches"
+    ],
+    "secondary_entities": [
+      "role"
+    ],
+    "primary_actions": [
+      "scope"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "scope",
+        "kind": "triggers"
+      },
+      {
+        "from": "scope",
+        "to": "searches",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1299,
+    "output": 159,
+    "time (ns)": 8883646000
+  }
+}

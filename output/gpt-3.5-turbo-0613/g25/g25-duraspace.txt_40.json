@@ -1,0 +1,44 @@
+{
+  "story": "#G25# As a repository manager, I want to indicate any name that is pertinent to the component. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "component"
+    ],
+    "actions": [
+      "indicate"
+    ],
+    "benefit": "to have a pertinent name for the component"
+  },
+  "categories": {
+    "primary_entities": [
+      "component"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "indicate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "component",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1271,
+    "output": 155,
+    "time (ns)": 6259698000
+  }
+}

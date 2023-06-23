@@ -1,0 +1,55 @@
+{
+  "story": "#G25# As a DAMS manager, I want to know, via preservation managers, of any object for which integrity or authenticity is in question or that has been updated to a more current file format. \n",
+  "extraction": {
+    "personas": [
+      "DAMS manager",
+      "preservation managers"
+    ],
+    "entities": [
+      "object"
+    ],
+    "actions": [
+      "know",
+      "question",
+      "updated"
+    ],
+    "benefit": "be aware of any object for which integrity or authenticity is in question or that has been updated to a more current file format"
+  },
+  "categories": {
+    "primary_entities": [
+      "object"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "question",
+      "updated"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "preservation managers",
+        "to": "know",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1388,
+    "output": 213,
+    "time (ns)": 8238524000
+  }
+}

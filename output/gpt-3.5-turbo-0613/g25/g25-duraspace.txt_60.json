@@ -1,0 +1,58 @@
+{
+  "story": "#G25# As a user, I want to search collections, objects, and object components by title. \n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "collections",
+      "objects",
+      "object components"
+    ],
+    "actions": [
+      "search"
+    ],
+    "benefit": "I can find collections, objects, and object components by title"
+  },
+  "categories": {
+    "primary_entities": [
+      "collections",
+      "objects",
+      "object components"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "search"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "collections",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "objects",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "object components",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1295,
+    "output": 218,
+    "time (ns)": 9739484000
+  }
+}

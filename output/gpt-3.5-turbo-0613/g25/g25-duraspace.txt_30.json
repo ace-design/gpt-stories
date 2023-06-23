@@ -1,20 +1,22 @@
 {
-  "story": "#G25# As a repository manager, I want to know all the collections and objects in the DAMS for which I have custodial responsibility. \n",
+  "story": "#G25# As a user, I want to know what repository an object belongs to. \n",
   "extraction": {
     "personas": [
-      "repository manager"
+      "user"
     ],
     "entities": [
-      "DAMS"
+      "repository",
+      "object"
     ],
     "actions": [
       "know"
     ],
-    "benefit": "I can have custodial responsibility for all the collections and objects in the DAMS"
+    "benefit": "I can determine the repository of an object"
   },
   "categories": {
     "primary_entities": [
-      "DAMS"
+      "repository",
+      "object"
     ],
     "secondary_entities": [],
     "primary_actions": [
@@ -25,20 +27,25 @@
   "relations": {
     "relations": [
       {
-        "from": "repository manager",
+        "from": "user",
         "to": "know",
         "kind": "triggers"
       },
       {
         "from": "know",
-        "to": "DAMS",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "object",
         "kind": "targets"
       }
     ]
   },
   "cost": {
-    "input": 1311,
-    "output": 162,
-    "time (ns)": 4130080000
+    "input": 1266,
+    "output": 180,
+    "time (ns)": 31024954000
   }
 }

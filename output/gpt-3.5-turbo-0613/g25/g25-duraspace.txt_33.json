@@ -1,0 +1,51 @@
+{
+  "story": "#G25# As a user, I want to have access to the content files for an object. \n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "content files",
+      "object"
+    ],
+    "actions": [
+      "have access to"
+    ],
+    "benefit": "I can access the content files for an object"
+  },
+  "categories": {
+    "primary_entities": [
+      "content files",
+      "object"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have access to"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "have access to",
+        "kind": "triggers"
+      },
+      {
+        "from": "have access to",
+        "to": "content files",
+        "kind": "targets"
+      },
+      {
+        "from": "have access to",
+        "to": "object",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1283,
+    "output": 194,
+    "time (ns)": 28590644000
+  }
+}

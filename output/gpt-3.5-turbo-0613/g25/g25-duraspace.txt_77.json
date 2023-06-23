@@ -1,0 +1,58 @@
+{
+  "story": "#G25# As a user, I want to see the geographical context of a collection, object, or object component, where pertinent. \n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "collection",
+      "object",
+      "object component"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "to understand the geographical context"
+  },
+  "categories": {
+    "primary_entities": [
+      "collection",
+      "object",
+      "object component"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "collection",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "object component",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1299,
+    "output": 211,
+    "time (ns)": 9326119000
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "story": "#G25# As a repository manager, I want to indicate for an object or object component the place of publication, the publisher, edition, etc., when pertinent. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "object",
+      "object component"
+    ],
+    "actions": [
+      "indicate"
+    ],
+    "benefit": "provide information about the place of publication, publisher, edition, etc."
+  },
+  "categories": {
+    "primary_entities": [
+      "object"
+    ],
+    "secondary_entities": [
+      "object component"
+    ],
+    "primary_actions": [
+      "indicate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "object component",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1330,
+    "output": 194,
+    "time (ns)": 7677956000
+  }
+}

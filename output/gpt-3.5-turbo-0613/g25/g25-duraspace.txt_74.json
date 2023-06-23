@@ -1,0 +1,65 @@
+{
+  "story": "#G25# As a repository manager, I want to indicate all subjects that are pertinent to a collection, object, or object component. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "subjects",
+      "collection",
+      "object",
+      "object component"
+    ],
+    "actions": [
+      "indicate"
+    ],
+    "benefit": "to indicate all subjects that are pertinent to a collection, object, or object component"
+  },
+  "categories": {
+    "primary_entities": [
+      "subjects",
+      "collection",
+      "object",
+      "object component"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "indicate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "subjects",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "collection",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "object component",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1335,
+    "output": 262,
+    "time (ns)": 9723271000
+  }
+}

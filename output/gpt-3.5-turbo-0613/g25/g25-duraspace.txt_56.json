@@ -1,0 +1,72 @@
+{
+  "story": "#G25# As a user, I want access to content files that comprise an object, so that I can decide whether a file is too large to download.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "content files",
+      "object",
+      "file"
+    ],
+    "actions": [
+      "access",
+      "decide",
+      "download"
+    ],
+    "benefit": "I can decide whether a file is too large to download"
+  },
+  "categories": {
+    "primary_entities": [
+      "content files",
+      "object",
+      "file"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "access",
+      "decide",
+      "download"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "content files",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "file",
+        "kind": "targets"
+      },
+      {
+        "from": "decide",
+        "to": "file",
+        "kind": "targets"
+      },
+      {
+        "from": "download",
+        "to": "file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1344,
+    "output": 282,
+    "time (ns)": 10776777000
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "story": "#G25# As a repository manager, I want to describe various facets of a collection, object, or object component that are not addressable via title, date, name, and subject entities. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "collection",
+      "object",
+      "object component"
+    ],
+    "actions": [
+      "describe"
+    ],
+    "benefit": "address facets that are not addressable via title, date, name, and subject entities"
+  },
+  "categories": {
+    "primary_entities": [
+      "collection",
+      "object",
+      "object component"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "describe"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "describe",
+        "kind": "triggers"
+      },
+      {
+        "from": "describe",
+        "to": "collection",
+        "kind": "targets"
+      },
+      {
+        "from": "describe",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "describe",
+        "to": "object component",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1361,
+    "output": 225,
+    "time (ns)": 8221918000
+  }
+}

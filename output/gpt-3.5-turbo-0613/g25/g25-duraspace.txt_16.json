@@ -1,0 +1,47 @@
+{
+  "story": "#G25# As a user, I want to be able to limit my search to specified collection(s). \n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "search",
+      "collection(s)"
+    ],
+    "actions": [
+      "limit"
+    ],
+    "benefit": "I want to be able to limit my search to specified collection(s)"
+  },
+  "categories": {
+    "primary_entities": [
+      "search"
+    ],
+    "secondary_entities": [
+      "collection(s)"
+    ],
+    "primary_actions": [
+      "limit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "limit",
+        "kind": "triggers"
+      },
+      {
+        "from": "limit",
+        "to": "search",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1292,
+    "output": 163,
+    "time (ns)": 29276160000
+  }
+}

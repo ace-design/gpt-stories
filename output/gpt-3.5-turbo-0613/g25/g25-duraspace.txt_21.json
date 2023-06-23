@@ -1,0 +1,51 @@
+{
+  "story": "#G25# As a repository manager, I want to indicate subjects that are related to an object. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "subjects",
+      "object"
+    ],
+    "actions": [
+      "indicate"
+    ],
+    "benefit": "to indicate subjects that are related to an object"
+  },
+  "categories": {
+    "primary_entities": [
+      "subjects",
+      "object"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "indicate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "subjects",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "object",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1279,
+    "output": 188,
+    "time (ns)": 7526954000
+  }
+}

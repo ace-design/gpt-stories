@@ -1,0 +1,59 @@
+{
+  "story": "#G25# As a DAMS manager, I want to present collections, objects, and object components by title. \n",
+  "extraction": {
+    "personas": [
+      "DAMS manager"
+    ],
+    "entities": [
+      "collections",
+      "objects",
+      "object components"
+    ],
+    "actions": [
+      "present"
+    ],
+    "benefit": "I can present collections, objects, and object components by title"
+  },
+  "categories": {
+    "primary_entities": [
+      "collections"
+    ],
+    "secondary_entities": [
+      "objects",
+      "object components"
+    ],
+    "primary_actions": [
+      "present"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "present",
+        "kind": "triggers"
+      },
+      {
+        "from": "present",
+        "to": "collections",
+        "kind": "targets"
+      },
+      {
+        "from": "present",
+        "to": "objects",
+        "kind": "targets"
+      },
+      {
+        "from": "present",
+        "to": "object components",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1304,
+    "output": 221,
+    "time (ns)": 9995751000
+  }
+}

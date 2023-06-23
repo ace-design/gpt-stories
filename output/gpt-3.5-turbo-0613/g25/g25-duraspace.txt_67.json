@@ -1,0 +1,58 @@
+{
+  "story": "#G25# As a repository manager, I want to indicate the language(s) for present in a collection, object, or object component. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "collection",
+      "object",
+      "object component"
+    ],
+    "actions": [
+      "indicate"
+    ],
+    "benefit": "I can specify the language(s) for a collection, object, or object component."
+  },
+  "categories": {
+    "primary_entities": [
+      "collection",
+      "object",
+      "object component"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "indicate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "collection",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "object component",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1331,
+    "output": 230,
+    "time (ns)": 8831176000
+  }
+}

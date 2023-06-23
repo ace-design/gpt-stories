@@ -1,0 +1,51 @@
+{
+  "story": "#G25# As a repository manager, I want to indicate any subject that is pertinent to the component. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "subject",
+      "component"
+    ],
+    "actions": [
+      "indicate"
+    ],
+    "benefit": "to indicate any subject that is pertinent to the component"
+  },
+  "categories": {
+    "primary_entities": [
+      "subject",
+      "component"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "indicate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "subject",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "component",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1284,
+    "output": 189,
+    "time (ns)": 7655155000
+  }
+}

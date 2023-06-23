@@ -1,0 +1,715 @@
+START: 10:15:28
+# Processing g25-duraspace.txt
+- Story #[1] -- started at 10:15:28
+    - #G25# As a repository manager, I want to know all the collections and objects in the DAMS for which I have custodial responsibility. 
+
+        - calling model 10:15:28
+        - calling model 10:15:35
+        - calling model 10:15:38
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_1.json
+- Story #[2] -- started at 10:15:43
+    - #G25# As a repository manager, I want to be able to update repository information in one place and be assured updates will be propagated to all relevant places. 
+
+        - calling model 10:15:43
+        - calling model 10:15:59
+       - exception caught! Pausing for 60 seconds
+        - calling model 10:17:29
+        - calling model 10:17:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_2.json
+- Story #[3] -- started at 10:17:38
+    - #G25# As a repository manager, I want to constrain curatorial access to my units assets to staff members of my unit and to DAMS managers having universal access. 
+
+        - calling model 10:17:38
+        - calling model 10:17:43
+        - calling model 10:17:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_3.json
+- Story #[4] -- started at 10:17:58
+    - #G25# As a user, I want to list all the collections and objects in the DAMS that belong to a library unit. 
+
+        - calling model 10:17:58
+        - calling model 10:18:02
+        - calling model 10:18:05
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_4.json
+- Story #[5] -- started at 10:18:15
+    - #G25# As a user, I want to be able to contact repositories. 
+
+        - calling model 10:18:15
+        - calling model 10:18:18
+        - calling model 10:18:22
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_5.json
+- Story #[6] -- started at 10:18:28
+    - #G25# As the DAMS manager, I want to be able to list for browsing all formal collections represented in the DAMS along with the appropriate relationships. 
+
+        - calling model 10:18:28
+        - calling model 10:18:32
+        - calling model 10:18:36
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_6.json
+- Story #[7] -- started at 10:18:43
+    - #G25# As a repository manager, I want to know all the collections for which I have curatorial responsibility.
+
+        - calling model 10:18:43
+        - calling model 10:18:47
+        - calling model 10:18:51
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_7.json
+- Story #[8] -- started at 10:18:55
+    - #G25# As a repository manager, I want to compose collections, limiting the collection to the items sharing the same provenance, limiting the collection to represent a part of a collection have a singular provenance, or assembly a collection from other collections and objects.
+
+        - calling model 10:18:55
+        - calling model 10:19:00
+        - calling model 10:19:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_8.json
+- Story #[9] -- started at 10:19:18
+    - #G25# As a repository manager, I want to say one collection is related to another collection.  
+
+        - calling model 10:19:18
+        - calling model 10:19:22
+        - calling model 10:19:26
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_9.json
+- Story #[10] -- started at 10:19:31
+    - #G25# As a repository manager, I want to describe a collection, including its title, it's inclusive / bulk dates, its language(s), and many other aspects.
+
+        - calling model 10:19:31
+        - calling model 10:19:35
+        - calling model 10:19:38
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_10.json
+- Story #[11] -- started at 10:19:43
+    - #G25# As a repository manager, I want to indicate names related to the collection either as creator, source, or subject. 
+
+        - calling model 10:19:43
+        - calling model 10:19:48
+        - calling model 10:19:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_11.json
+- Story #[12] -- started at 10:19:57
+    - #G25# As a repository manager, I want to indicate subjects related to the collection. 
+
+        - calling model 10:19:57
+        - calling model 10:20:01
+        - calling model 10:20:05
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_12.json
+- Story #[13] -- started at 10:20:10
+    - #G25# As a repository manager, I want to indicate other descriptions of the collection that are outside the DAMS and of probable importance to users. 
+
+        - calling model 10:20:10
+        - calling model 10:20:15
+        - calling model 10:20:18
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_13.json
+- Story #[14] -- started at 10:20:23
+    - #G25# As a repository manager, I want to know all events occurring to a collection. 
+
+        - calling model 10:20:23
+        - calling model 10:20:27
+        - calling model 10:20:31
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_14.json
+- Story #[15] -- started at 10:20:36
+    - #G25# As a user, I want to be able to browse by collections in the DAMS. 
+
+        - calling model 10:20:36
+       - exception caught! Pausing for 60 seconds
+        - calling model 10:22:06
+        - calling model 10:22:10
+        - calling model 10:22:13
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_15.json
+- Story #[16] -- started at 10:22:18
+    - #G25# As a user, I want to be able to limit my search to specified collection(s). 
+
+        - calling model 10:22:18
+        - calling model 10:22:22
+        - calling model 10:22:40
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_16.json
+- Story #[17] -- started at 10:22:53
+    - #G25# As a repository manager, I want know all the components belonging to an object. 
+
+        - calling model 10:22:53
+        - calling model 10:23:05
+        - calling model 10:23:10
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_17.json
+- Story #[18] -- started at 10:23:15
+    - #G25# As repository manager, I want to know all the files belonging to an object. 
+
+        - calling model 10:23:15
+        - calling model 10:23:20
+        - calling model 10:23:24
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_18.json
+- Story #[19] -- started at 10:23:29
+    - #G25# As a repository manager, I want to describe an object, including its title, date(s), language(s), and other aspects. 
+
+        - calling model 10:23:29
+        - calling model 10:23:33
+        - calling model 10:23:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_19.json
+- Story #[20] -- started at 10:23:42
+    - #G25# As a repository manager, I want to indicate names related to an object. 
+
+        - calling model 10:23:42
+        - calling model 10:23:46
+        - calling model 10:23:50
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_20.json
+- Story #[21] -- started at 10:23:54
+    - #G25# As a repository manager, I want to indicate subjects that are related to an object. 
+
+        - calling model 10:23:54
+        - calling model 10:23:58
+        - calling model 10:24:02
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_21.json
+- Story #[22] -- started at 10:24:08
+    - #G25# As a repository manager, I want to indicate the copyright status of an object. 
+
+        - calling model 10:24:08
+        - calling model 10:24:12
+        - calling model 10:24:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_22.json
+- Story #[23] -- started at 10:24:20
+    - #G25# As a repository manager, I want to indicate any statutes pertinent to an object. 
+
+        - calling model 10:24:20
+        - calling model 10:24:24
+        - calling model 10:24:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_23.json
+- Story #[24] -- started at 10:24:32
+    - #G25# As a repository manager, I want to indicate any license pertinent to an object. 
+
+        - calling model 10:24:32
+        - calling model 10:24:36
+        - calling model 10:24:40
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_24.json
+- Story #[25] -- started at 10:24:48
+    - #G25# As a repository manager, I want to indicate any other rights pertinent to an object. 
+
+        - calling model 10:24:48
+        - calling model 10:24:51
+        - calling model 10:24:56
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_25.json
+- Story #[26] -- started at 10:25:01
+    - #G25# As a repository manager, I want to indicate any external versions or descriptions of an object that may be of probable importance to an user. 
+
+        - calling model 10:25:01
+        - calling model 10:25:18
+        - calling model 10:25:22
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_26.json
+- Story #[27] -- started at 10:25:27
+    - #G25# As a repository manager, I want to know all events done to an object over the object's life cycle. 
+
+        - calling model 10:25:27
+        - calling model 10:25:31
+        - calling model 10:25:36
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_27.json
+- Story #[28] -- started at 10:25:42
+    - #G25# As a DAMS manager, I want to know what repository an object belongs to. 
+
+        - calling model 10:25:42
+        - calling model 10:25:52
+        - calling model 10:25:56
+       - exception caught! Pausing for 60 seconds
+        - calling model 10:27:26
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_28.json
+- Story #[29] -- started at 10:27:33
+    - #G25# As a DAMS manager I want to know what collection(s) an object belongs to. 
+
+        - calling model 10:27:33
+        - calling model 10:27:38
+        - calling model 10:27:41
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_29.json
+- Story #[30] -- started at 10:27:52
+    - #G25# As a user, I want to know what repository an object belongs to. 
+
+        - calling model 10:27:52
+        - calling model 10:28:12
+        - calling model 10:28:24
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_30.json
+- Story #[31] -- started at 10:28:29
+    - #G25# As a user, I want to know what collection(s) an object belongs to. 
+
+        - calling model 10:28:29
+        - calling model 10:28:34
+        - calling model 10:28:38
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_31.json
+- Story #[32] -- started at 10:28:54
+    - #G25# As a user, I want to see all the component parts of an object. 
+
+        - calling model 10:28:54
+        - calling model 10:28:58
+        - calling model 10:29:10
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_32.json
+- Story #[33] -- started at 10:29:15
+    - #G25# As a user, I want to have access to the content files for an object. 
+
+        - calling model 10:29:15
+        - calling model 10:29:40
+        - calling model 10:29:44
+       - exception caught! Pausing for 60 seconds
+        - calling model 10:31:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_33.json
+- Story #[34] -- started at 10:31:20
+    - #G25# As a user, I want to know the rights status of an object. 
+
+        - calling model 10:31:20
+        - calling model 10:31:26
+        - calling model 10:31:29
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_34.json
+- Story #[35] -- started at 10:31:34
+    - #G25# As a user, I want to know about other versions of the object or its metadata that might be of use to me. 
+
+        - calling model 10:31:34
+        - calling model 10:31:38
+        - calling model 10:31:42
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_35.json
+- Story #[36] -- started at 10:31:47
+    - #G25# As a repository manager, I want to represent the physical and/or logical structure of an object. 
+
+        - calling model 10:31:47
+        - calling model 10:31:50
+        - calling model 10:31:54
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_36.json
+- Story #[37] -- started at 10:31:59
+    - #G25# As a repository manager, I want to list all the components, in their appropriate order, for an object. 
+
+        - calling model 10:31:59
+        - calling model 10:32:03
+        - calling model 10:32:07
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_37.json
+- Story #[38] -- started at 10:32:12
+    - #G25# As a repository manager, I want to link, when appropriate, a component to another component or to a file. 
+
+        - calling model 10:32:12
+        - calling model 10:32:16
+        - calling model 10:32:20
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_38.json
+- Story #[39] -- started at 10:32:27
+    - #G25# As a repository manager, I want to describe each component as necessary, including title, date(s), language(s), and other facets. 
+
+        - calling model 10:32:27
+        - calling model 10:32:31
+        - calling model 10:32:34
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_39.json
+- Story #[40] -- started at 10:32:39
+    - #G25# As a repository manager, I want to indicate any name that is pertinent to the component. 
+
+        - calling model 10:32:39
+        - calling model 10:32:43
+        - calling model 10:32:46
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_40.json
+- Story #[41] -- started at 10:32:51
+    - #G25# As a repository manager, I want to indicate any subject that is pertinent to the component. 
+
+        - calling model 10:32:51
+        - calling model 10:32:56
+        - calling model 10:32:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_41.json
+- Story #[42] -- started at 10:33:05
+    - #G25# As a repository manager, I want to indicate if the component has a copyright status different than that of of the object as a whole. 
+
+        - calling model 10:33:05
+        - calling model 10:33:09
+        - calling model 10:33:13
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_42.json
+- Story #[43] -- started at 10:33:19
+    - #G25# As a repository manager, I want to indicate if a statute pertains to the component, apart from the object as a whole. 
+
+        - calling model 10:33:19
+        - calling model 10:33:23
+        - calling model 10:33:27
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_43.json
+- Story #[44] -- started at 10:33:34
+    - #G25# As a repository manager, I want to indicate if a license pertains to the component, apart from the object as a whole. 
+
+        - calling model 10:33:34
+        - calling model 10:33:38
+        - calling model 10:33:42
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_44.json
+- Story #[45] -- started at 10:33:48
+    - #G25# As a repository manager, I want to indicate if other rights pertain to the component, apart from the object as a whole. 
+
+        - calling model 10:33:48
+        - calling model 10:33:53
+        - calling model 10:33:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_45.json
+- Story #[46] -- started at 10:34:04
+    - #G25# As a repository manager, I want to know all events occurring to a component over its life cycle. 
+
+        - calling model 10:34:04
+        - calling model 10:34:11
+        - calling model 10:34:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_46.json
+- Story #[47] -- started at 10:34:19
+    - #G25# As a DAMS manager, I want to present in their assigned order all components comprising an object. 
+
+        - calling model 10:34:19
+        - calling model 10:34:23
+        - calling model 10:34:27
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_47.json
+- Story #[48] -- started at 10:34:33
+    - #G25# As a user, I want to be able to see and navigate the component hierarchy of an object. 
+
+        - calling model 10:34:33
+        - calling model 10:34:39
+        - calling model 10:34:42
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_48.json
+- Story #[49] -- started at 10:34:50
+    - #G25# As a repository manager, I want to know all the content files in the DAMS for my repository's objects. 
+
+        - calling model 10:34:50
+        - calling model 10:34:54
+        - calling model 10:34:58
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_49.json
+- Story #[50] -- started at 10:35:04
+    - #G25# As a repository manager, I want to associate a content file with either an object or an object component. 
+
+        - calling model 10:35:04
+        - calling model 10:35:08
+        - calling model 10:35:12
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_50.json
+- Story #[51] -- started at 10:35:18
+    - #G25# As a repository manager, I want to know any event that occurred to a content file for any of my repository's objects. 
+
+        - calling model 10:35:18
+        - calling model 10:35:25
+        - calling model 10:35:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_51.json
+- Story #[52] -- started at 10:35:35
+    - #G25# As a DAMS manager, I want to indicate to preservation managers aspects of a master file useful for monitoring its integrity, and impending obsolescence, including file size, creation date, file format and format version. 
+
+        - calling model 10:35:35
+        - calling model 10:35:39
+        - calling model 10:35:43
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_52.json
+- Story #[53] -- started at 10:35:51
+    - #G25# As a DAMS manager, I want to indicate to preservation managers the checksum and checksum method for each master file for a given object. 
+
+        - calling model 10:35:51
+        - calling model 10:35:55
+        - calling model 10:35:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_53.json
+- Story #[54] -- started at 10:36:06
+    - #G25# As a DAMS manager, I want to indicate the source-capture information for a file where it is useful to do so. 
+
+        - calling model 10:36:06
+        - calling model 10:36:10
+        - calling model 10:36:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_54.json
+- Story #[55] -- started at 10:36:19
+    - #G25# As a DAMS manager, I want to know, via preservation managers, of any object for which integrity or authenticity is in question or that has been updated to a more current file format. 
+
+        - calling model 10:36:19
+        - calling model 10:36:24
+        - calling model 10:36:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_55.json
+- Story #[56] -- started at 10:36:33
+    - #G25# As a user, I want access to content files that comprise an object, so that I can decide whether a file is too large to download.
+
+        - calling model 10:36:33
+        - calling model 10:36:37
+        - calling model 10:36:42
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_56.json
+- Story #[57] -- started at 10:36:50
+    - #G25# As a repository manager, I want to provide a title, in all useful forms, for my repository's collections, objects, and object components. 
+
+        - calling model 10:36:50
+        - calling model 10:36:55
+        - calling model 10:36:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_57.json
+- Story #[58] -- started at 10:37:05
+    - #G25# As a repository manager, I want to know any changes occurring to titles for repository's collections, objects, and object components. 
+
+        - calling model 10:37:05
+        - calling model 10:37:10
+        - calling model 10:37:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_58.json
+- Story #[59] -- started at 10:37:21
+    - #G25# As a DAMS manager, I want to present collections, objects, and object components by title. 
+
+        - calling model 10:37:21
+        - calling model 10:37:25
+        - calling model 10:37:29
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_59.json
+- Story #[60] -- started at 10:37:37
+    - #G25# As a user, I want to search collections, objects, and object components by title. 
+
+        - calling model 10:37:37
+        - calling model 10:37:41
+        - calling model 10:37:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_60.json
+- Story #[61] -- started at 10:37:53
+    - #G25# As a repository manager, I want to indicate for an object or object component the place of publication, the publisher, edition, etc., when pertinent. 
+
+        - calling model 10:37:53
+        - calling model 10:37:57
+        - calling model 10:38:01
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_61.json
+- Story #[62] -- started at 10:38:07
+    - #G25# As a repository manager, I want to know of any changes made to the origin Info for an object, including its component parts. 
+
+        - calling model 10:38:07
+        - calling model 10:38:11
+        - calling model 10:38:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_62.json
+- Story #[63] -- started at 10:38:22
+    - #G25# As a user, I want to know for an object or its component parts the place of publication, the publisher, etc.
+
+        - calling model 10:38:22
+        - calling model 10:38:26
+        - calling model 10:38:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_63.json
+- Story #[64] -- started at 10:38:35
+    - #G25# As a repository manager, I want to describe various facets of a collection, object, or object component that are not addressable via title, date, name, and subject entities. 
+
+        - calling model 10:38:35
+        - calling model 10:38:40
+        - calling model 10:38:43
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_64.json
+- Story #[65] -- started at 10:38:50
+    - #G25# As a repository manager, I want to know of all modifications made to notes for my repository's collections, objects, or object components. 
+
+        - calling model 10:38:50
+        - calling model 10:38:54
+        - calling model 10:38:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_65.json
+- Story #[66] -- started at 10:39:07
+    - #G25# As a user, I want to know about various facets of a collection, object, or object component, such as scope and content, various identifiers, conditions governing use/access, etc.  
+
+        - calling model 10:39:07
+        - calling model 10:39:12
+        - calling model 10:39:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_66.json
+- Story #[67] -- started at 10:39:23
+    - #G25# As a repository manager, I want to indicate the language(s) for present in a collection, object, or object component. 
+
+        - calling model 10:39:23
+        - calling model 10:39:28
+        - calling model 10:39:32
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_67.json
+- Story #[68] -- started at 10:39:38
+    - #G25# As a repository manager, I want to know of any changes made to language(s) indicated for a collection, object, or object component. 
+
+        - calling model 10:39:38
+        - calling model 10:39:43
+        - calling model 10:39:48
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_68.json
+- Story #[69] -- started at 10:39:55
+    - #G25# As a user, I want to scope my searches for collections, objects, or object components to a specific language. 
+
+        - calling model 10:39:55
+        - calling model 10:39:59
+        - calling model 10:40:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_69.json
+- Story #[70] -- started at 10:40:12
+    - #G25# As a repository manager, I want to register a name record for each unique identity associated with my repository's collections and objects. 
+
+        - calling model 10:40:12
+        - calling model 10:40:16
+        - calling model 10:40:20
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_70.json
+- Story #[71] -- started at 10:40:28
+    - #G25# As a user, I want to search by for collections and objects by name. 
+
+        - calling model 10:40:28
+        - calling model 10:40:31
+        - calling model 10:40:35
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_71.json
+- Story #[72] -- started at 10:40:41
+    - #G25# As a repository manager, I want to indicate that a name pertinent to a collection, object, or object component has a specific role, such as illustrator, photographer, etc. 
+
+        - calling model 10:40:41
+        - calling model 10:40:45
+        - calling model 10:40:50
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_72.json
+- Story #[73] -- started at 10:40:57
+    - #G25# As a user, I want to scope by searches by name to a specific role such as illustrator, photographer, etc. 
+
+        - calling model 10:40:57
+        - calling model 10:41:01
+        - calling model 10:41:07
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_73.json
+- Story #[74] -- started at 10:41:12
+    - #G25# As a repository manager, I want to indicate all subjects that are pertinent to a collection, object, or object component. 
+
+        - calling model 10:41:12
+        - calling model 10:41:16
+        - calling model 10:41:20
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_74.json
+- Story #[75] -- started at 10:41:28
+    - #G25# As a user, I want to search for collections, objects, and object components by pertinent such headings, including title, topic, genre/form, geographical name, function, occupation, name, cartographics, etc. 
+
+        - calling model 10:41:28
+        - calling model 10:41:33
+        - calling model 10:41:36
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_75.json
+- Story #[76] -- started at 10:41:43
+    - #G25# As a repository manager, I want to indicate the geo-coordinates for any resource that believe useful to an end user. 
+
+        - calling model 10:41:43
+        - calling model 10:41:47
+        - calling model 10:41:51
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_76.json
+- Story #[77] -- started at 10:41:58
+    - #G25# As a user, I want to see the geographical context of a collection, object, or object component, where pertinent. 
+
+        - calling model 10:41:58
+        - calling model 10:42:03
+        - calling model 10:42:07
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_77.json
+- Story #[78] -- started at 10:42:14
+    - #G25# As a repository manager, I want to indicate all other pertinent versions or descriptions of a resource that are external to the DAMS. 
+
+        - calling model 10:42:14
+        - calling model 10:42:18
+        - calling model 10:42:22
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_78.json
+- Story #[79] -- started at 10:42:28
+    - #G25# As a user, I want to know of all other pertinent versions or descriptions of the resource. 
+
+        - calling model 10:42:28
+        - calling model 10:42:32
+        - calling model 10:42:36
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_79.json
+- Story #[80] -- started at 10:42:41
+    - #G25# As a repository manager, I want to know if the checksum for any of my repository's content files that have changed.
+
+        - calling model 10:42:41
+        - calling model 10:42:45
+        - calling model 10:42:49
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_80.json
+- Story #[81] -- started at 10:42:57
+    - #G25# As a DAMS manager, I want to know, via the preservation manager, of all files for which the checksum has changed since last registered.
+
+        - calling model 10:42:57
+       - exception caught! Pausing for 60 seconds
+        - calling model 10:44:27
+        - calling model 10:44:31
+        - calling model 10:44:38
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_81.json
+- Story #[82] -- started at 10:44:44
+    - #G25# As a repository manager, I want to know, where pertinent, the hardware and software used to generate a content file. 
+
+        - calling model 10:44:44
+        - calling model 10:44:48
+        - calling model 10:44:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_82.json
+- Story #[83] -- started at 10:44:57
+    - #G25# As a DAMS manager, I want to know what objects or object components are still under copyright and cannot be displayed without either a license or incurring risk. 
+
+        - calling model 10:44:57
+        - calling model 10:45:01
+        - calling model 10:45:06
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_83.json
+- Story #[84] -- started at 10:45:14
+    - #G25# As a DAMS manager, I want to know when copyright for an object or object component is likely to expire per jurisdictional copyright statute. 
+
+        - calling model 10:45:14
+        - calling model 10:45:19
+        - calling model 10:45:23
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_84.json
+- Story #[85] -- started at 10:45:33
+    - #G25# As a DAMS manager, I want to know when the copyright status for an object or object component is modified, either manually or automatically. 
+
+        - calling model 10:45:33
+        - calling model 10:45:38
+        - calling model 10:45:41
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_85.json
+- Story #[86] -- started at 10:45:49
+    - #G25# As a user, I want to know if an object or object component is under copyright and, where possible, who the rights holder is. 
+
+        - calling model 10:45:49
+        - calling model 10:45:53
+        - calling model 10:45:58
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_86.json
+- Story #[87] -- started at 10:46:09
+    - #G25# As a DAMS manager, I want to know all the statutes pertinent to an object or object component. 
+
+        - calling model 10:46:09
+        - calling model 10:46:13
+        - calling model 10:46:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_87.json
+- Story #[88] -- started at 10:46:26
+    - #G25# As a DAMS manager, I want to know when the pertinence of a statute to a object or object component is scheduled to expire. 
+
+        - calling model 10:46:26
+        - calling model 10:46:30
+        - calling model 10:46:35
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_88.json
+- Story #[89] -- started at 10:46:47
+    - #G25# As a DAMS manager, I want to know when the application of a statute to an object or object component has been modified, either manually or automatically. 
+
+        - calling model 10:46:47
+        - calling model 10:46:52
+        - calling model 10:46:56
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_89.json
+- Story #[90] -- started at 10:47:05
+    - #G25# As a DAMS manager, I want to know if copyrighted content has an applicable license. 
+
+        - calling model 10:47:05
+        - calling model 10:47:10
+        - calling model 10:47:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_90.json
+- Story #[91] -- started at 10:47:19
+    - #G25# As a DAMS manager, I want to know if an object or object component is subject to a library policy that restricts access in any way. 
+
+        - calling model 10:47:19
+        - calling model 10:47:24
+        - calling model 10:47:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_91.json
+- Story #[92] -- started at 10:47:37
+    - #G25# As a DAMS manager, I want to know when application of a library policy to an object or object component is scheduled to expire. 
+
+        - calling model 10:47:37
+        - calling model 10:47:41
+        - calling model 10:47:46
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_92.json
+- Story #[93] -- started at 10:48:00
+    - #G25# As a DAMS manager, I want to know if application of a library policy to an object or object component has been modified, either manually or automatically.
+
+        - calling model 10:48:00
+        - calling model 10:48:06
+        - calling model 10:48:10
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_93.json
+- Story #[94] -- started at 10:48:17
+    - #G25# As a DAMS manager, I want to know all the uses for an object or object component that are permitted or restricted per the rights status of the object or object component.
+
+        - calling model 10:48:17
+        - calling model 10:48:23
+        - calling model 10:48:27
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_94.json
+- Story #[95] -- started at 10:48:32
+    - #G25# As a DAMS manager, I want know the dates for when a permission or restriction is active. 
+
+        - calling model 10:48:32
+        - calling model 10:48:37
+        - calling model 10:48:40
+       - exception caught! Pausing for 60 seconds
+        - calling model 10:50:10
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_95.json
+- Story #[96] -- started at 10:50:16
+    - #G25# As a DAMS manager, I want to know when permitted and restricted acts and/or their active dates are modified. 
+
+        - calling model 10:50:16
+        - calling model 10:50:20
+        - calling model 10:50:24
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_96.json
+- Story #[97] -- started at 10:50:30
+    - #G25# As a DAMS manager, I want to track all events scheduled for recording in the DAMS. 
+
+        - calling model 10:50:30
+        - calling model 10:50:34
+        - calling model 10:50:38
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_97.json
+- Story #[98] -- started at 10:50:43
+    - #G25# As a DAMS manager, I want to know the agent(s) responsible for carrying out an event. 
+
+        - calling model 10:50:43
+        - calling model 10:50:47
+        - calling model 10:50:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_98.json
+- Story #[99] -- started at 10:50:58
+    - #G25# As a DAMS manager, I want to know when the event occurred. 
+
+        - calling model 10:50:58
+        - calling model 10:51:02
+        - calling model 10:51:05
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_99.json
+- Story #[100] -- started at 10:51:10
+    - #G25# As a DAMS manager, I want to know the outcome of the event, e.g., object NN was deleted. 
+
+        - calling model 10:51:10
+        - calling model 10:51:14
+        - calling model 10:51:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g25-duraspace.txt_100.json
+END: 10:51:23

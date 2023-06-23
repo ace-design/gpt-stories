@@ -1,0 +1,52 @@
+{
+  "story": "#G25# As a repository manager, I want to link, when appropriate, a component to another component or to a file. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "component",
+      "file"
+    ],
+    "actions": [
+      "link"
+    ],
+    "benefit": "to connect components or files when necessary"
+  },
+  "categories": {
+    "primary_entities": [
+      "component"
+    ],
+    "secondary_entities": [
+      "file"
+    ],
+    "primary_actions": [
+      "link"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "link",
+        "kind": "triggers"
+      },
+      {
+        "from": "link",
+        "to": "component",
+        "kind": "targets"
+      },
+      {
+        "from": "link",
+        "to": "file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1289,
+    "output": 180,
+    "time (ns)": 8810893000
+  }
+}

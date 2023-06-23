@@ -1,0 +1,58 @@
+{
+  "story": "#G25# As a repository manager, I want to know of any changes made to the origin Info for an object, including its component parts. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "origin Info",
+      "object",
+      "component parts"
+    ],
+    "actions": [
+      "know of any changes made"
+    ],
+    "benefit": "I can track changes made to the origin Info for an object, including its component parts"
+  },
+  "categories": {
+    "primary_entities": [
+      "origin Info",
+      "object",
+      "component parts"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know of any changes made"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "know of any changes made",
+        "kind": "triggers"
+      },
+      {
+        "from": "know of any changes made",
+        "to": "origin Info",
+        "kind": "targets"
+      },
+      {
+        "from": "know of any changes made",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "know of any changes made",
+        "to": "component parts",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1346,
+    "output": 252,
+    "time (ns)": 9566589000
+  }
+}

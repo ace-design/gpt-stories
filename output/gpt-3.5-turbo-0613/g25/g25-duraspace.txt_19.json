@@ -1,0 +1,44 @@
+{
+  "story": "#G25# As a repository manager, I want to describe an object, including its title, date(s), language(s), and other aspects. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "object"
+    ],
+    "actions": [
+      "describe"
+    ],
+    "benefit": "I can include its title, date(s), language(s), and other aspects"
+  },
+  "categories": {
+    "primary_entities": [
+      "object"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "describe"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "describe",
+        "kind": "triggers"
+      },
+      {
+        "from": "describe",
+        "to": "object",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1306,
+    "output": 158,
+    "time (ns)": 6608880000
+  }
+}

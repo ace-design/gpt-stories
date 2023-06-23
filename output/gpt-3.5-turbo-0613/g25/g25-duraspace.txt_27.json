@@ -1,0 +1,49 @@
+{
+  "story": "#G25# As a repository manager, I want to know all events done to an object over the object's life cycle. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "object"
+    ],
+    "actions": [
+      "know",
+      "done",
+      "life cycle"
+    ],
+    "benefit": "I can track all events done to an object over its life cycle"
+  },
+  "categories": {
+    "primary_entities": [
+      "object"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "done",
+      "life cycle"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "object",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1309,
+    "output": 169,
+    "time (ns)": 8784980000
+  }
+}

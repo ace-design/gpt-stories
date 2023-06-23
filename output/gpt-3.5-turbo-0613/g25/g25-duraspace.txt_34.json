@@ -1,0 +1,44 @@
+{
+  "story": "#G25# As a user, I want to know the rights status of an object. \n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "object"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "I can know the rights status of an object"
+  },
+  "categories": {
+    "primary_entities": [
+      "object"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "object",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1259,
+    "output": 150,
+    "time (ns)": 7999978000
+  }
+}

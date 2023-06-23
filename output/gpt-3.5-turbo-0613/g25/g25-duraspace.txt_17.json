@@ -1,0 +1,51 @@
+{
+  "story": "#G25# As a repository manager, I want know all the components belonging to an object. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "components",
+      "object"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "I can know all the components belonging to an object"
+  },
+  "categories": {
+    "primary_entities": [
+      "components",
+      "object"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "components",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "object",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1275,
+    "output": 184,
+    "time (ns)": 16488020000
+  }
+}

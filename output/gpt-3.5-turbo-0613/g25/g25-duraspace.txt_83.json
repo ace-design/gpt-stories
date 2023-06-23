@@ -1,0 +1,74 @@
+{
+  "story": "#G25# As a DAMS manager, I want to know what objects or object components are still under copyright and cannot be displayed without either a license or incurring risk. \n",
+  "extraction": {
+    "personas": [
+      "DAMS manager"
+    ],
+    "entities": [
+      "objects",
+      "object components"
+    ],
+    "actions": [
+      "know",
+      "display",
+      "license",
+      "incur risk"
+    ],
+    "benefit": "I can determine which objects or object components are still under copyright and cannot be displayed without either a license or incurring risk."
+  },
+  "categories": {
+    "primary_entities": [
+      "objects"
+    ],
+    "secondary_entities": [
+      "object components"
+    ],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "display",
+      "license",
+      "incur risk"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "objects",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "object components",
+        "kind": "targets"
+      },
+      {
+        "from": "display",
+        "to": "objects",
+        "kind": "targets"
+      },
+      {
+        "from": "license",
+        "to": "objects",
+        "kind": "targets"
+      },
+      {
+        "from": "incur risk",
+        "to": "objects",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1388,
+    "output": 300,
+    "time (ns)": 11076003000
+  }
+}

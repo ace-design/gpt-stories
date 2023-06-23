@@ -1,0 +1,51 @@
+{
+  "story": "#G25# As a repository manager, I want to indicate any license pertinent to an object. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "license",
+      "object"
+    ],
+    "actions": [
+      "indicate"
+    ],
+    "benefit": "to provide information about the license of an object"
+  },
+  "categories": {
+    "primary_entities": [
+      "license",
+      "object"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "indicate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "license",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "object",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1276,
+    "output": 188,
+    "time (ns)": 9411436000
+  }
+}

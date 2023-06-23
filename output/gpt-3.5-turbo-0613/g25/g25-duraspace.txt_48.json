@@ -1,0 +1,63 @@
+{
+  "story": "#G25# As a user, I want to be able to see and navigate the component hierarchy of an object. \n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "component hierarchy",
+      "object"
+    ],
+    "actions": [
+      "see",
+      "navigate"
+    ],
+    "benefit": "be able to see and navigate the component hierarchy of an object"
+  },
+  "categories": {
+    "primary_entities": [
+      "component hierarchy",
+      "object"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see",
+      "navigate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "user",
+        "to": "navigate",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "component hierarchy",
+        "kind": "targets"
+      },
+      {
+        "from": "navigate",
+        "to": "component hierarchy",
+        "kind": "targets"
+      },
+      {
+        "from": "navigate",
+        "to": "object",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1301,
+    "output": 245,
+    "time (ns)": 10997195000
+  }
+}

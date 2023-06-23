@@ -1,0 +1,87 @@
+{
+  "story": "#G25# As a DAMS manager, I want to know when the application of a statute to an object or object component has been modified, either manually or automatically. \n",
+  "extraction": {
+    "personas": [
+      "DAMS manager"
+    ],
+    "entities": [
+      "application",
+      "statute",
+      "object",
+      "object component"
+    ],
+    "actions": [
+      "know",
+      "modified"
+    ],
+    "benefit": "to know when the application of a statute to an object or object component has been modified, either manually or automatically"
+  },
+  "categories": {
+    "primary_entities": [
+      "application",
+      "statute",
+      "object",
+      "object component"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "modified"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "application",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "statute",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "object component",
+        "kind": "targets"
+      },
+      {
+        "from": "modified",
+        "to": "application",
+        "kind": "targets"
+      },
+      {
+        "from": "modified",
+        "to": "statute",
+        "kind": "targets"
+      },
+      {
+        "from": "modified",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "modified",
+        "to": "object component",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1379,
+    "output": 374,
+    "time (ns)": 12471546000
+  }
+}

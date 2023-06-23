@@ -1,0 +1,69 @@
+{
+  "story": "#G25# As a DAMS manager, I want to indicate to preservation managers aspects of a master file useful for monitoring its integrity, and impending obsolescence, including file size, creation date, file format and format version. \n",
+  "extraction": {
+    "personas": [
+      "DAMS manager",
+      "preservation managers"
+    ],
+    "entities": [
+      "master file"
+    ],
+    "actions": [
+      "indicate",
+      "monitor",
+      "preserve"
+    ],
+    "benefit": "monitoring integrity and impending obsolescence"
+  },
+  "categories": {
+    "primary_entities": [
+      "master file"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "indicate",
+      "monitor",
+      "preserve"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "DAMS manager",
+        "to": "monitor",
+        "kind": "triggers"
+      },
+      {
+        "from": "DAMS manager",
+        "to": "preserve",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "master file",
+        "kind": "targets"
+      },
+      {
+        "from": "monitor",
+        "to": "master file",
+        "kind": "targets"
+      },
+      {
+        "from": "preserve",
+        "to": "master file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1379,
+    "output": 285,
+    "time (ns)": 10008108000
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "story": "#G25# As a DAMS manager, I want know the dates for when a permission or restriction is active. \n",
+  "extraction": {
+    "personas": [
+      "DAMS manager"
+    ],
+    "entities": [
+      "permission",
+      "restriction"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "I can know the dates for when a permission or restriction is active"
+  },
+  "categories": {
+    "primary_entities": [
+      "permission"
+    ],
+    "secondary_entities": [
+      "restriction"
+    ],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "permission",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "restriction",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1294,
+    "output": 188,
+    "time (ns)": 7319245000
+  }
+}

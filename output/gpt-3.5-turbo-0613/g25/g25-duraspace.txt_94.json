@@ -1,0 +1,57 @@
+{
+  "story": "#G25# As a DAMS manager, I want to know all the uses for an object or object component that are permitted or restricted per the rights status of the object or object component.\n",
+  "extraction": {
+    "personas": [
+      "DAMS manager"
+    ],
+    "entities": [
+      "object",
+      "object component"
+    ],
+    "actions": [
+      "know",
+      "permitted",
+      "restricted"
+    ],
+    "benefit": "I can know all the uses for an object or object component that are permitted or restricted per the rights status"
+  },
+  "categories": {
+    "primary_entities": [
+      "object"
+    ],
+    "secondary_entities": [
+      "object component"
+    ],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "permitted",
+      "restricted"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "object component",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1374,
+    "output": 212,
+    "time (ns)": 9522311000
+  }
+}

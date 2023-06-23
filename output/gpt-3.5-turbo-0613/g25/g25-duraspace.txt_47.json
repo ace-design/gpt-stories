@@ -1,0 +1,51 @@
+{
+  "story": "#G25# As a DAMS manager, I want to present in their assigned order all components comprising an object. \n",
+  "extraction": {
+    "personas": [
+      "DAMS manager"
+    ],
+    "entities": [
+      "components",
+      "object"
+    ],
+    "actions": [
+      "present"
+    ],
+    "benefit": "present in their assigned order"
+  },
+  "categories": {
+    "primary_entities": [
+      "components",
+      "object"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "present"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "present",
+        "kind": "triggers"
+      },
+      {
+        "from": "present",
+        "to": "components",
+        "kind": "targets"
+      },
+      {
+        "from": "present",
+        "to": "object",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1279,
+    "output": 181,
+    "time (ns)": 7394013000
+  }
+}

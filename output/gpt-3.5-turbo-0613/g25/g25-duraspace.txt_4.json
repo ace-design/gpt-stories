@@ -1,0 +1,51 @@
+{
+  "story": "#G25# As a user, I want to list all the collections and objects in the DAMS that belong to a library unit. \n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "DAMS",
+      "library unit"
+    ],
+    "actions": [
+      "list"
+    ],
+    "benefit": "I can easily access and manage collections and objects in the DAMS that belong to a library unit."
+  },
+  "categories": {
+    "primary_entities": [
+      "DAMS",
+      "library unit"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "list"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "list",
+        "kind": "triggers"
+      },
+      {
+        "from": "list",
+        "to": "DAMS",
+        "kind": "targets"
+      },
+      {
+        "from": "list",
+        "to": "library unit",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1323,
+    "output": 197,
+    "time (ns)": 11028307000
+  }
+}

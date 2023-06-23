@@ -1,0 +1,51 @@
+{
+  "story": "#G25# As a user, I want to know what collection(s) an object belongs to. \n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "object",
+      "collection"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "I can determine the collection(s) an object belongs to"
+  },
+  "categories": {
+    "primary_entities": [
+      "object",
+      "collection"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "collection",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1278,
+    "output": 183,
+    "time (ns)": 18616885000
+  }
+}

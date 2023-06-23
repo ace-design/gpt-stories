@@ -1,0 +1,66 @@
+{
+  "story": "#G25# As a DAMS manager, I want to indicate to preservation managers the checksum and checksum method for each master file for a given object. \n",
+  "extraction": {
+    "personas": [
+      "DAMS manager",
+      "preservation managers"
+    ],
+    "entities": [
+      "checksum",
+      "checksum method",
+      "master file",
+      "object"
+    ],
+    "actions": [
+      "indicate"
+    ],
+    "benefit": "preservation managers can know the checksum and checksum method for each master file"
+  },
+  "categories": {
+    "primary_entities": [
+      "checksum",
+      "checksum method",
+      "master file",
+      "object"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "indicate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "checksum",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "checksum method",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "master file",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "object",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1355,
+    "output": 270,
+    "time (ns)": 9441547000
+  }
+}

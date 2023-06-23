@@ -1,0 +1,67 @@
+{
+  "story": "#G25# As a DAMS manager, I want to know when the copyright status for an object or object component is modified, either manually or automatically. \n",
+  "extraction": {
+    "personas": [
+      "DAMS manager"
+    ],
+    "entities": [
+      "copyright status",
+      "object",
+      "object component"
+    ],
+    "actions": [
+      "know",
+      "modified"
+    ],
+    "benefit": "I can track changes in the copyright status of objects and object components"
+  },
+  "categories": {
+    "primary_entities": [
+      "copyright status"
+    ],
+    "secondary_entities": [
+      "object",
+      "object component"
+    ],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "modified"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "copyright status",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "object component",
+        "kind": "targets"
+      },
+      {
+        "from": "modified",
+        "to": "copyright status",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1340,
+    "output": 256,
+    "time (ns)": 9674133000
+  }
+}

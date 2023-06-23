@@ -1,0 +1,44 @@
+{
+  "story": "#G25# As a repository manager, I want to say one collection is related to another collection.  \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "collection"
+    ],
+    "actions": [
+      "say"
+    ],
+    "benefit": "to indicate the relationship between collections"
+  },
+  "categories": {
+    "primary_entities": [
+      "collection"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "say"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "say",
+        "kind": "triggers"
+      },
+      {
+        "from": "say",
+        "to": "collection",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1261,
+    "output": 149,
+    "time (ns)": 6478944000
+  }
+}

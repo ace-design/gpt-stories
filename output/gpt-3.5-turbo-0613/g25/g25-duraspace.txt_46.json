@@ -1,0 +1,47 @@
+{
+  "story": "#G25# As a repository manager, I want to know all events occurring to a component over its life cycle. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "component"
+    ],
+    "actions": [
+      "know",
+      "occurring"
+    ],
+    "benefit": "I want to know all events occurring to a component over its life cycle."
+  },
+  "categories": {
+    "primary_entities": [
+      "component"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "occurring"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "component",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1298,
+    "output": 164,
+    "time (ns)": 9354776000
+  }
+}

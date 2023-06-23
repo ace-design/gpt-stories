@@ -1,0 +1,44 @@
+{
+  "story": "#G25# As a repository manager, I want to know all events occurring to a collection. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "collection"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "I want to know all events occurring to a collection"
+  },
+  "categories": {
+    "primary_entities": [
+      "collection"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "collection",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1266,
+    "output": 153,
+    "time (ns)": 6457464000
+  }
+}

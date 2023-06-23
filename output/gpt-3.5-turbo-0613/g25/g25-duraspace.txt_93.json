@@ -1,0 +1,62 @@
+{
+  "story": "#G25# As a DAMS manager, I want to know if application of a library policy to an object or object component has been modified, either manually or automatically.\n",
+  "extraction": {
+    "personas": [
+      "DAMS manager"
+    ],
+    "entities": [
+      "library policy",
+      "object",
+      "object component"
+    ],
+    "actions": [
+      "know",
+      "modified"
+    ],
+    "benefit": "to determine if the application of a library policy has been changed"
+  },
+  "categories": {
+    "primary_entities": [
+      "library policy"
+    ],
+    "secondary_entities": [
+      "object",
+      "object component"
+    ],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "modified"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "library policy",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "object component",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1344,
+    "output": 229,
+    "time (ns)": 10810659000
+  }
+}

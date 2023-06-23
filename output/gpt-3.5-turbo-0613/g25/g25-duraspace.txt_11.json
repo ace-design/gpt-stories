@@ -1,0 +1,51 @@
+{
+  "story": "#G25# As a repository manager, I want to indicate names related to the collection either as creator, source, or subject. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "names",
+      "collection"
+    ],
+    "actions": [
+      "indicate"
+    ],
+    "benefit": "related to the collection either as creator, source, or subject"
+  },
+  "categories": {
+    "primary_entities": [
+      "names",
+      "collection"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "indicate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "names",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "collection",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1303,
+    "output": 191,
+    "time (ns)": 8323848000
+  }
+}

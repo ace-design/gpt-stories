@@ -1,0 +1,59 @@
+{
+  "story": "#G25# As a repository manager, I want to indicate if a statute pertains to the component, apart from the object as a whole. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "statute",
+      "component",
+      "object"
+    ],
+    "actions": [
+      "indicate"
+    ],
+    "benefit": "to indicate if a statute pertains to the component, apart from the object as a whole"
+  },
+  "categories": {
+    "primary_entities": [
+      "statute",
+      "component"
+    ],
+    "secondary_entities": [
+      "object"
+    ],
+    "primary_actions": [
+      "indicate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "statute",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "component",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "object",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1335,
+    "output": 231,
+    "time (ns)": 8630759000
+  }
+}

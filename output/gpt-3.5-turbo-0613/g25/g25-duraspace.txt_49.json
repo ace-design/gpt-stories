@@ -1,0 +1,51 @@
+{
+  "story": "#G25# As a repository manager, I want to know all the content files in the DAMS for my repository's objects. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "DAMS",
+      "repository's objects"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "I can know all the content files in the DAMS for my repository's objects"
+  },
+  "categories": {
+    "primary_entities": [
+      "DAMS",
+      "repository's objects"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "DAMS",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "repository's objects",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1317,
+    "output": 199,
+    "time (ns)": 8005398000
+  }
+}

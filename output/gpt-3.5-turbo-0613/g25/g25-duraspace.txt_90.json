@@ -1,0 +1,52 @@
+{
+  "story": "#G25# As a DAMS manager, I want to know if copyrighted content has an applicable license. \n",
+  "extraction": {
+    "personas": [
+      "DAMS manager"
+    ],
+    "entities": [
+      "copyrighted content",
+      "applicable license"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "I can determine if copyrighted content has an applicable license"
+  },
+  "categories": {
+    "primary_entities": [
+      "copyrighted content"
+    ],
+    "secondary_entities": [
+      "applicable license"
+    ],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "copyrighted content",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "applicable license",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1294,
+    "output": 197,
+    "time (ns)": 7865359000
+  }
+}

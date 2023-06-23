@@ -1,0 +1,51 @@
+{
+  "story": "#G25# As a user, I want to see all the component parts of an object. \n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "component parts",
+      "object"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "I can understand the structure of the object"
+  },
+  "categories": {
+    "primary_entities": [
+      "component parts",
+      "object"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "component parts",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "object",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1272,
+    "output": 183,
+    "time (ns)": 15203673000
+  }
+}

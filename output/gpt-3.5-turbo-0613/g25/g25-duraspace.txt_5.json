@@ -1,0 +1,44 @@
+{
+  "story": "#G25# As a user, I want to be able to contact repositories. \n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "repositories"
+    ],
+    "actions": [
+      "contact"
+    ],
+    "benefit": "I want to be able to contact repositories"
+  },
+  "categories": {
+    "primary_entities": [
+      "repositories"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "contact"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "contact",
+        "kind": "triggers"
+      },
+      {
+        "from": "contact",
+        "to": "repositories",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1251,
+    "output": 149,
+    "time (ns)": 7141234000
+  }
+}

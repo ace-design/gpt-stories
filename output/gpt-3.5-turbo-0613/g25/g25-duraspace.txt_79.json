@@ -1,0 +1,44 @@
+{
+  "story": "#G25# As a user, I want to know of all other pertinent versions or descriptions of the resource. \n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "resource"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "to know of all other pertinent versions or descriptions of the resource"
+  },
+  "categories": {
+    "primary_entities": [
+      "resource"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "resource",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1277,
+    "output": 153,
+    "time (ns)": 6562556000
+  }
+}

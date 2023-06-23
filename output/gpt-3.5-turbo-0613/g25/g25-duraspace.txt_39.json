@@ -1,0 +1,44 @@
+{
+  "story": "#G25# As a repository manager, I want to describe each component as necessary, including title, date(s), language(s), and other facets. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "component"
+    ],
+    "actions": [
+      "describe"
+    ],
+    "benefit": "I can include necessary information about each component"
+  },
+  "categories": {
+    "primary_entities": [
+      "component"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "describe"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "describe",
+        "kind": "triggers"
+      },
+      {
+        "from": "describe",
+        "to": "component",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1295,
+    "output": 151,
+    "time (ns)": 6017013000
+  }
+}

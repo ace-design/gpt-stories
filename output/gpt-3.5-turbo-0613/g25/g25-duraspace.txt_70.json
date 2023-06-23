@@ -1,0 +1,66 @@
+{
+  "story": "#G25# As a repository manager, I want to register a name record for each unique identity associated with my repository's collections and objects. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "name record",
+      "unique identity",
+      "repository's collections",
+      "objects"
+    ],
+    "actions": [
+      "register"
+    ],
+    "benefit": "to keep track of the identities associated with my repository's collections and objects"
+  },
+  "categories": {
+    "primary_entities": [
+      "name record",
+      "unique identity"
+    ],
+    "secondary_entities": [
+      "repository's collections",
+      "objects"
+    ],
+    "primary_actions": [
+      "register"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "register",
+        "kind": "triggers"
+      },
+      {
+        "from": "register",
+        "to": "name record",
+        "kind": "targets"
+      },
+      {
+        "from": "register",
+        "to": "unique identity",
+        "kind": "targets"
+      },
+      {
+        "from": "register",
+        "to": "repository's collections",
+        "kind": "targets"
+      },
+      {
+        "from": "register",
+        "to": "objects",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1339,
+    "output": 261,
+    "time (ns)": 9872374000
+  }
+}

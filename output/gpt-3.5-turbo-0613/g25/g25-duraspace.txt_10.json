@@ -1,0 +1,44 @@
+{
+  "story": "#G25# As a repository manager, I want to describe a collection, including its title, it's inclusive / bulk dates, its language(s), and many other aspects.\n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "collection"
+    ],
+    "actions": [
+      "describe"
+    ],
+    "benefit": "I can include all necessary information about the collection"
+  },
+  "categories": {
+    "primary_entities": [
+      "collection"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "describe"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "describe",
+        "kind": "triggers"
+      },
+      {
+        "from": "describe",
+        "to": "collection",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1309,
+    "output": 152,
+    "time (ns)": 6261185000
+  }
+}

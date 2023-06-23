@@ -1,0 +1,64 @@
+{
+  "story": "#G25# As a repository manager, I want to know if the checksum for any of my repository's content files that have changed.\n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "repository's content files"
+    ],
+    "actions": [
+      "know",
+      "checksum",
+      "changed"
+    ],
+    "benefit": "I can track changes in my repository's content files"
+  },
+  "categories": {
+    "primary_entities": [
+      "repository's content files"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "checksum"
+    ],
+    "secondary_actions": [
+      "changed"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "repository's content files",
+        "kind": "targets"
+      },
+      {
+        "from": "repository manager",
+        "to": "checksum",
+        "kind": "triggers"
+      },
+      {
+        "from": "checksum",
+        "to": "repository's content files",
+        "kind": "targets"
+      },
+      {
+        "from": "repository manager",
+        "to": "changed",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1312,
+    "output": 255,
+    "time (ns)": 10412834000
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "story": "#G25# As a repository manager, I want to indicate the geo-coordinates for any resource that believe useful to an end user. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "geo-coordinates",
+      "resource",
+      "end user"
+    ],
+    "actions": [
+      "indicate",
+      "believe useful to"
+    ],
+    "benefit": "provide accurate location information to end users"
+  },
+  "categories": {
+    "primary_entities": [
+      "geo-coordinates",
+      "resource",
+      "end user"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "indicate"
+    ],
+    "secondary_actions": [
+      "believe useful to"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "geo-coordinates",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "resource",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "end user",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1330,
+    "output": 238,
+    "time (ns)": 9577746000
+  }
+}

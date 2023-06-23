@@ -1,0 +1,44 @@
+{
+  "story": "#G25# As a repository manager, I want to indicate any external versions or descriptions of an object that may be of probable importance to an user. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "object"
+    ],
+    "actions": [
+      "indicate"
+    ],
+    "benefit": "provide information to the user"
+  },
+  "categories": {
+    "primary_entities": [
+      "object"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "indicate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "object",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1292,
+    "output": 152,
+    "time (ns)": 19985201000
+  }
+}

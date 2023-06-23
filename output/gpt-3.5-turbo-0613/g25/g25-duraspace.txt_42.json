@@ -1,0 +1,51 @@
+{
+  "story": "#G25# As a repository manager, I want to indicate if the component has a copyright status different than that of of the object as a whole. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "component",
+      "object"
+    ],
+    "actions": [
+      "indicate"
+    ],
+    "benefit": "to indicate if the component has a copyright status different than that of the object as a whole"
+  },
+  "categories": {
+    "primary_entities": [
+      "component",
+      "object"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "indicate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "component",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "object",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1327,
+    "output": 197,
+    "time (ns)": 7883991000
+  }
+}

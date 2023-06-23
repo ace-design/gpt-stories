@@ -1,0 +1,52 @@
+{
+  "story": "#G25# As a user, I want to know about other versions of the object or its metadata that might be of use to me. \n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "object",
+      "metadata"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "to know about other versions of the object or its metadata that might be of use to me"
+  },
+  "categories": {
+    "primary_entities": [
+      "object"
+    ],
+    "secondary_entities": [
+      "metadata"
+    ],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "metadata",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1315,
+    "output": 189,
+    "time (ns)": 6814219000
+  }
+}

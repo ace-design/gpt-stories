@@ -1,0 +1,44 @@
+{
+  "story": "#G25# As a repository manager, I want to know, where pertinent, the hardware and software used to generate a content file. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "content file"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "I can know the hardware and software used to generate a content file"
+  },
+  "categories": {
+    "primary_entities": [
+      "content file"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "content file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1299,
+    "output": 159,
+    "time (ns)": 6555054000
+  }
+}

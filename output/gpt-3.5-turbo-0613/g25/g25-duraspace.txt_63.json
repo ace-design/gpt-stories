@@ -1,0 +1,52 @@
+{
+  "story": "#G25# As a user, I want to know for an object or its component parts the place of publication, the publisher, etc.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "object",
+      "component parts"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "to know the place of publication, the publisher, etc."
+  },
+  "categories": {
+    "primary_entities": [
+      "object"
+    ],
+    "secondary_entities": [
+      "component parts"
+    ],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "component parts",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1303,
+    "output": 185,
+    "time (ns)": 7112280000
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "story": "#G25# As a repository manager, I want to know any event that occurred to a content file for any of my repository's objects. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "content file",
+      "repository's objects"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "I can track any event that occurred to a content file for any of my repository's objects"
+  },
+  "categories": {
+    "primary_entities": [
+      "content file"
+    ],
+    "secondary_entities": [
+      "repository's objects"
+    ],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "content file",
+        "kind": "targets"
+      },
+      {
+        "from": "repository manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "repository's objects",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1326,
+    "output": 227,
+    "time (ns)": 10130718000
+  }
+}

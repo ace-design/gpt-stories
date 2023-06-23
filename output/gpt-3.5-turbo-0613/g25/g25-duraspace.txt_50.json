@@ -1,0 +1,58 @@
+{
+  "story": "#G25# As a repository manager, I want to associate a content file with either an object or an object component. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "content file",
+      "object",
+      "object component"
+    ],
+    "actions": [
+      "associate"
+    ],
+    "benefit": "I can associate a content file with either an object or an object component"
+  },
+  "categories": {
+    "primary_entities": [
+      "content file",
+      "object",
+      "object component"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "associate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "associate",
+        "kind": "triggers"
+      },
+      {
+        "from": "associate",
+        "to": "content file",
+        "kind": "targets"
+      },
+      {
+        "from": "associate",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "associate",
+        "to": "object component",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1313,
+    "output": 225,
+    "time (ns)": 8736358000
+  }
+}

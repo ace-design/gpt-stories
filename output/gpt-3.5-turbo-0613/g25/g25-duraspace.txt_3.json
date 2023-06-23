@@ -1,0 +1,65 @@
+{
+  "story": "#G25# As a repository manager, I want to constrain curatorial access to my units assets to staff members of my unit and to DAMS managers having universal access. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "curatorial access",
+      "units assets",
+      "staff members",
+      "DAMS managers"
+    ],
+    "actions": [
+      "constrain"
+    ],
+    "benefit": "restrict access to staff members and DAMS managers"
+  },
+  "categories": {
+    "primary_entities": [
+      "curatorial access",
+      "units assets",
+      "staff members",
+      "DAMS managers"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "constrain"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "constrain",
+        "kind": "triggers"
+      },
+      {
+        "from": "constrain",
+        "to": "curatorial access",
+        "kind": "targets"
+      },
+      {
+        "from": "constrain",
+        "to": "units assets",
+        "kind": "targets"
+      },
+      {
+        "from": "constrain",
+        "to": "staff members",
+        "kind": "targets"
+      },
+      {
+        "from": "constrain",
+        "to": "DAMS managers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1357,
+    "output": 270,
+    "time (ns)": 13474356000
+  }
+}

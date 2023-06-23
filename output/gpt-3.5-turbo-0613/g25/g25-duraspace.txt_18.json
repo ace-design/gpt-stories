@@ -1,0 +1,51 @@
+{
+  "story": "#G25# As repository manager, I want to know all the files belonging to an object. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "files",
+      "object"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "I can know all the files belonging to an object"
+  },
+  "categories": {
+    "primary_entities": [
+      "files",
+      "object"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "files",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "object",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1275,
+    "output": 184,
+    "time (ns)": 7990043000
+  }
+}

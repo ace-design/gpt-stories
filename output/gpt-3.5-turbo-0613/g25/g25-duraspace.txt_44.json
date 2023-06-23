@@ -1,0 +1,59 @@
+{
+  "story": "#G25# As a repository manager, I want to indicate if a license pertains to the component, apart from the object as a whole. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "license",
+      "component",
+      "object"
+    ],
+    "actions": [
+      "indicate"
+    ],
+    "benefit": "to determine if a license pertains to the component, apart from the object as a whole"
+  },
+  "categories": {
+    "primary_entities": [
+      "license",
+      "component"
+    ],
+    "secondary_entities": [
+      "object"
+    ],
+    "primary_actions": [
+      "indicate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "license",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "component",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "object",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1332,
+    "output": 228,
+    "time (ns)": 8652268000
+  }
+}

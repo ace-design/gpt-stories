@@ -1,0 +1,84 @@
+{
+  "story": "#G25# As a DAMS manager, I want to know when copyright for an object or object component is likely to expire per jurisdictional copyright statute. \n",
+  "extraction": {
+    "personas": [
+      "DAMS manager"
+    ],
+    "entities": [
+      "copyright",
+      "object",
+      "object component",
+      "jurisdictional copyright statute"
+    ],
+    "actions": [
+      "know",
+      "expire"
+    ],
+    "benefit": "I can determine when copyright for an object or object component is likely to expire per jurisdictional copyright statute"
+  },
+  "categories": {
+    "primary_entities": [
+      "copyright"
+    ],
+    "secondary_entities": [
+      "object",
+      "object component",
+      "jurisdictional copyright statute"
+    ],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "expire"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "copyright",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "object component",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "jurisdictional copyright statute",
+        "kind": "targets"
+      },
+      {
+        "from": "expire",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "expire",
+        "to": "object component",
+        "kind": "targets"
+      },
+      {
+        "from": "expire",
+        "to": "jurisdictional copyright statute",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1372,
+    "output": 357,
+    "time (ns)": 13145478000
+  }
+}

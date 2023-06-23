@@ -1,0 +1,72 @@
+{
+  "story": "#G25# As a user, I want to scope my searches for collections, objects, or object components to a specific language. \n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "searches",
+      "collections",
+      "objects",
+      "object components",
+      "language"
+    ],
+    "actions": [
+      "scope"
+    ],
+    "benefit": "I can narrow down my searches to a specific language"
+  },
+  "categories": {
+    "primary_entities": [
+      "searches",
+      "collections",
+      "objects",
+      "object components",
+      "language"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "scope"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "scope",
+        "kind": "triggers"
+      },
+      {
+        "from": "scope",
+        "to": "searches",
+        "kind": "targets"
+      },
+      {
+        "from": "scope",
+        "to": "collections",
+        "kind": "targets"
+      },
+      {
+        "from": "scope",
+        "to": "objects",
+        "kind": "targets"
+      },
+      {
+        "from": "scope",
+        "to": "object components",
+        "kind": "targets"
+      },
+      {
+        "from": "scope",
+        "to": "language",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1327,
+    "output": 281,
+    "time (ns)": 10556381000
+  }
+}

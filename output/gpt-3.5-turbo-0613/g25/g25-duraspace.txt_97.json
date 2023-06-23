@@ -1,0 +1,54 @@
+{
+  "story": "#G25# As a DAMS manager, I want to track all events scheduled for recording in the DAMS. \n",
+  "extraction": {
+    "personas": [
+      "DAMS manager"
+    ],
+    "entities": [
+      "events",
+      "DAMS"
+    ],
+    "actions": [
+      "track",
+      "scheduled for recording"
+    ],
+    "benefit": "I can track all events scheduled for recording in the DAMS"
+  },
+  "categories": {
+    "primary_entities": [
+      "events",
+      "DAMS"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "track"
+    ],
+    "secondary_actions": [
+      "scheduled for recording"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "track",
+        "kind": "triggers"
+      },
+      {
+        "from": "track",
+        "to": "events",
+        "kind": "targets"
+      },
+      {
+        "from": "track",
+        "to": "DAMS",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1309,
+    "output": 200,
+    "time (ns)": 7556790000
+  }
+}

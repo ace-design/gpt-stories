@@ -1,0 +1,51 @@
+{
+  "story": "#G25# As a DAMS manager I want to know what collection(s) an object belongs to. \n",
+  "extraction": {
+    "personas": [
+      "DAMS manager"
+    ],
+    "entities": [
+      "object",
+      "collection"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "I can determine the collection(s) an object belongs to"
+  },
+  "categories": {
+    "primary_entities": [
+      "object",
+      "collection"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "collection",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1285,
+    "output": 187,
+    "time (ns)": 12759949000
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "story": "#G25# As a repository manager, I want to list all the components, in their appropriate order, for an object. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "components",
+      "object"
+    ],
+    "actions": [
+      "list"
+    ],
+    "benefit": "to list all the components, in their appropriate order, for an object"
+  },
+  "categories": {
+    "primary_entities": [
+      "components",
+      "object"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "list"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "list",
+        "kind": "triggers"
+      },
+      {
+        "from": "list",
+        "to": "components",
+        "kind": "targets"
+      },
+      {
+        "from": "list",
+        "to": "object",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1301,
+    "output": 188,
+    "time (ns)": 7644751000
+  }
+}

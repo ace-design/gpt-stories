@@ -1,0 +1,44 @@
+{
+  "story": "#G25# As a repository manager, I want to represent the physical and/or logical structure of an object. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "object"
+    ],
+    "actions": [
+      "represent"
+    ],
+    "benefit": "to show the physical and/or logical structure"
+  },
+  "categories": {
+    "primary_entities": [
+      "object"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "represent"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "represent",
+        "kind": "triggers"
+      },
+      {
+        "from": "represent",
+        "to": "object",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1271,
+    "output": 151,
+    "time (ns)": 5916134000
+  }
+}

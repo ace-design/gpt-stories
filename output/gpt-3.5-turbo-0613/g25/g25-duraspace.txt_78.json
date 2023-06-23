@@ -1,0 +1,51 @@
+{
+  "story": "#G25# As a repository manager, I want to indicate all other pertinent versions or descriptions of a resource that are external to the DAMS. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "resource",
+      "DAMS"
+    ],
+    "actions": [
+      "indicate"
+    ],
+    "benefit": "to provide all other pertinent versions or descriptions of a resource that are external to the DAMS"
+  },
+  "categories": {
+    "primary_entities": [
+      "resource",
+      "DAMS"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "indicate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "resource",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "DAMS",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1327,
+    "output": 200,
+    "time (ns)": 8199458000
+  }
+}

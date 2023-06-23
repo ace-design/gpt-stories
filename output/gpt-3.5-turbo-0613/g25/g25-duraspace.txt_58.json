@@ -1,0 +1,58 @@
+{
+  "story": "#G25# As a repository manager, I want to know any changes occurring to titles for repository's collections, objects, and object components. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "repository's collections",
+      "objects",
+      "object components"
+    ],
+    "actions": [
+      "know any changes occurring to titles"
+    ],
+    "benefit": "to stay updated on changes to titles for repository's collections, objects, and object components"
+  },
+  "categories": {
+    "primary_entities": [
+      "repository's collections",
+      "objects",
+      "object components"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know any changes occurring to titles"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "know any changes occurring to titles",
+        "kind": "triggers"
+      },
+      {
+        "from": "know any changes occurring to titles",
+        "to": "repository's collections",
+        "kind": "targets"
+      },
+      {
+        "from": "know any changes occurring to titles",
+        "to": "objects",
+        "kind": "targets"
+      },
+      {
+        "from": "know any changes occurring to titles",
+        "to": "object components",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1349,
+    "output": 261,
+    "time (ns)": 9999965000
+  }
+}

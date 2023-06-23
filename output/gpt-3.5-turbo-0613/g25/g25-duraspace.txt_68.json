@@ -1,0 +1,61 @@
+{
+  "story": "#G25# As a repository manager, I want to know of any changes made to language(s) indicated for a collection, object, or object component. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "language(s)",
+      "collection",
+      "object",
+      "object component"
+    ],
+    "actions": [
+      "know of any changes made"
+    ],
+    "benefit": "to be aware of any changes made to the indicated language(s) for a collection, object, or object component"
+  },
+  "categories": {
+    "primary_entities": [
+      "language(s)",
+      "collection",
+      "object",
+      "object component"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know of any changes made"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "know of any changes made",
+        "kind": "triggers"
+      },
+      {
+        "from": "know of any changes made",
+        "to": "language(s)"
+      },
+      {
+        "from": "know of any changes made",
+        "to": "collection"
+      },
+      {
+        "from": "know of any changes made",
+        "to": "object"
+      },
+      {
+        "from": "know of any changes made",
+        "to": "object component"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1371,
+    "output": 264,
+    "time (ns)": 11004599000
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "story": "#G25# As a DAMS manager, I want to indicate the source-capture information for a file where it is useful to do so. \n",
+  "extraction": {
+    "personas": [
+      "DAMS manager"
+    ],
+    "entities": [
+      "file"
+    ],
+    "actions": [
+      "indicate",
+      "capture"
+    ],
+    "benefit": "it is useful to do so"
+  },
+  "categories": {
+    "primary_entities": [
+      "file"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "indicate"
+    ],
+    "secondary_actions": [
+      "capture"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "file",
+        "kind": "targets"
+      },
+      {
+        "from": "capture",
+        "to": "file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1300,
+    "output": 185,
+    "time (ns)": 6876482000
+  }
+}

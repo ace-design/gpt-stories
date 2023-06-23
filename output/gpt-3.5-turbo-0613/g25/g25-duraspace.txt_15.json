@@ -1,0 +1,47 @@
+{
+  "story": "#G25# As a user, I want to be able to browse by collections in the DAMS. \n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "collections",
+      "DAMS"
+    ],
+    "actions": [
+      "browse"
+    ],
+    "benefit": "I want to be able to browse by collections in the DAMS"
+  },
+  "categories": {
+    "primary_entities": [
+      "collections"
+    ],
+    "secondary_entities": [
+      "DAMS"
+    ],
+    "primary_actions": [
+      "browse"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "browse",
+        "kind": "triggers"
+      },
+      {
+        "from": "browse",
+        "to": "collections",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1287,
+    "output": 161,
+    "time (ns)": 5945326000
+  }
+}

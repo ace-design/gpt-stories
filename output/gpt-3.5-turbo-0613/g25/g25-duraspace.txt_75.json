@@ -1,0 +1,58 @@
+{
+  "story": "#G25# As a user, I want to search for collections, objects, and object components by pertinent such headings, including title, topic, genre/form, geographical name, function, occupation, name, cartographics, etc. \n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "collections",
+      "objects",
+      "object components"
+    ],
+    "actions": [
+      "search"
+    ],
+    "benefit": "find information by pertinent headings"
+  },
+  "categories": {
+    "primary_entities": [
+      "collections",
+      "objects",
+      "object components"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "search"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "collections",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "objects",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "object components",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1356,
+    "output": 211,
+    "time (ns)": 9280501000
+  }
+}

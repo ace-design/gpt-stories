@@ -1,0 +1,59 @@
+{
+  "story": "#G25# As the DAMS manager, I want to be able to list for browsing all formal collections represented in the DAMS along with the appropriate relationships. \n",
+  "extraction": {
+    "personas": [
+      "DAMS manager"
+    ],
+    "entities": [
+      "formal collections",
+      "DAMS"
+    ],
+    "actions": [
+      "list for browsing"
+    ],
+    "benefit": "be able to see the appropriate relationships"
+  },
+  "categories": {
+    "primary_entities": [
+      "formal collections"
+    ],
+    "secondary_entities": [
+      "DAMS"
+    ],
+    "primary_actions": [
+      "list for browsing"
+    ],
+    "secondary_actions": [
+      "be able to see the appropriate relationships"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "list for browsing",
+        "kind": "triggers"
+      },
+      {
+        "from": "list for browsing",
+        "to": "formal collections",
+        "kind": "targets"
+      },
+      {
+        "from": "list for browsing",
+        "to": "DAMS",
+        "kind": "targets"
+      },
+      {
+        "from": "list for browsing",
+        "to": "appropriate relationships",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1331,
+    "output": 237,
+    "time (ns)": 8980817000
+  }
+}

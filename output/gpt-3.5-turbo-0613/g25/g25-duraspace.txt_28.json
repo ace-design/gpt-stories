@@ -1,0 +1,51 @@
+{
+  "story": "#G25# As a DAMS manager, I want to know what repository an object belongs to. \n",
+  "extraction": {
+    "personas": [
+      "DAMS manager"
+    ],
+    "entities": [
+      "repository",
+      "object"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "I can determine the repository of an object"
+  },
+  "categories": {
+    "primary_entities": [
+      "repository",
+      "object"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "object",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1276,
+    "output": 184,
+    "time (ns)": 15799017000
+  }
+}

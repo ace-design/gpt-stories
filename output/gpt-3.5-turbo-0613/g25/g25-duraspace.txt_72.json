@@ -1,0 +1,65 @@
+{
+  "story": "#G25# As a repository manager, I want to indicate that a name pertinent to a collection, object, or object component has a specific role, such as illustrator, photographer, etc. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "name",
+      "collection",
+      "object",
+      "object component"
+    ],
+    "actions": [
+      "indicate"
+    ],
+    "benefit": "to specify the role of a name in a collection, object, or object component"
+  },
+  "categories": {
+    "primary_entities": [
+      "name",
+      "collection",
+      "object",
+      "object component"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "indicate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "name",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "collection",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "object component",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1368,
+    "output": 262,
+    "time (ns)": 10188187000
+  }
+}

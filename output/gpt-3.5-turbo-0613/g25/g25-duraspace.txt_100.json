@@ -1,0 +1,55 @@
+{
+  "story": "#G25# As a DAMS manager, I want to know the outcome of the event, e.g., object NN was deleted. \n",
+  "extraction": {
+    "personas": [
+      "DAMS manager"
+    ],
+    "entities": [
+      "event",
+      "object NN"
+    ],
+    "actions": [
+      "know",
+      "deleted"
+    ],
+    "benefit": "I want to know the outcome of the event"
+  },
+  "categories": {
+    "primary_entities": [
+      "event"
+    ],
+    "secondary_entities": [
+      "object NN"
+    ],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "deleted"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "event",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "object NN",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1308,
+    "output": 192,
+    "time (ns)": 7400166000
+  }
+}

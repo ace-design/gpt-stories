@@ -1,0 +1,58 @@
+{
+  "story": "#G25# As a user, I want to know about various facets of a collection, object, or object component, such as scope and content, various identifiers, conditions governing use/access, etc.  \n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "collection",
+      "object",
+      "object component"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "to know about various facets of a collection, object, or object component"
+  },
+  "categories": {
+    "primary_entities": [
+      "collection",
+      "object",
+      "object component"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "collection",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "object component",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1356,
+    "output": 220,
+    "time (ns)": 9861459000
+  }
+}

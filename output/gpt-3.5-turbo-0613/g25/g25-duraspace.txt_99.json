@@ -1,0 +1,44 @@
+{
+  "story": "#G25# As a DAMS manager, I want to know when the event occurred. \n",
+  "extraction": {
+    "personas": [
+      "DAMS manager"
+    ],
+    "entities": [
+      "event"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "I can know when the event occurred"
+  },
+  "categories": {
+    "primary_entities": [
+      "event"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "event",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1259,
+    "output": 152,
+    "time (ns)": 5941971000
+  }
+}

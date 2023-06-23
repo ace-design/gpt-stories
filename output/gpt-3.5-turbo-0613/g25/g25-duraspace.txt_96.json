@@ -1,0 +1,51 @@
+{
+  "story": "#G25# As a DAMS manager, I want to know when permitted and restricted acts and/or their active dates are modified. \n",
+  "extraction": {
+    "personas": [
+      "DAMS manager"
+    ],
+    "entities": [
+      "permitted and restricted acts",
+      "active dates"
+    ],
+    "actions": [
+      "modified"
+    ],
+    "benefit": "I want to know when permitted and restricted acts and/or their active dates are modified"
+  },
+  "categories": {
+    "primary_entities": [
+      "permitted and restricted acts",
+      "active dates"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "modified"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "modified",
+        "kind": "triggers"
+      },
+      {
+        "from": "modified",
+        "to": "permitted and restricted acts",
+        "kind": "targets"
+      },
+      {
+        "from": "modified",
+        "to": "active dates",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1325,
+    "output": 207,
+    "time (ns)": 8034417000
+  }
+}

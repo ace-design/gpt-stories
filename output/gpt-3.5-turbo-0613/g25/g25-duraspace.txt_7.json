@@ -1,0 +1,44 @@
+{
+  "story": "#G25# As a repository manager, I want to know all the collections for which I have curatorial responsibility.\n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "collections"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "I have curatorial responsibility"
+  },
+  "categories": {
+    "primary_entities": [
+      "collections"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "collections",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1265,
+    "output": 148,
+    "time (ns)": 6436716000
+  }
+}

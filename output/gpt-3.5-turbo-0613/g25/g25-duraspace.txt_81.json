@@ -1,0 +1,58 @@
+{
+  "story": "#G25# As a DAMS manager, I want to know, via the preservation manager, of all files for which the checksum has changed since last registered.\n",
+  "extraction": {
+    "personas": [
+      "DAMS manager",
+      "preservation manager"
+    ],
+    "entities": [
+      "files"
+    ],
+    "actions": [
+      "know",
+      "register"
+    ],
+    "benefit": "to be informed of all files for which the checksum has changed since last registered"
+  },
+  "categories": {
+    "primary_entities": [
+      "files"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "register"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DAMS manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "files",
+        "kind": "targets"
+      },
+      {
+        "from": "preservation manager",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1331,
+    "output": 223,
+    "time (ns)": 11208899000
+  }
+}

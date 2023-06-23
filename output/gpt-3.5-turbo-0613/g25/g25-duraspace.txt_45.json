@@ -1,0 +1,52 @@
+{
+  "story": "#G25# As a repository manager, I want to indicate if other rights pertain to the component, apart from the object as a whole. \n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "component",
+      "object"
+    ],
+    "actions": [
+      "indicate"
+    ],
+    "benefit": "to indicate if other rights pertain to the component, apart from the object as a whole"
+  },
+  "categories": {
+    "primary_entities": [
+      "component"
+    ],
+    "secondary_entities": [
+      "object"
+    ],
+    "primary_actions": [
+      "indicate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "component",
+        "kind": "targets"
+      },
+      {
+        "from": "indicate",
+        "to": "object",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1323,
+    "output": 196,
+    "time (ns)": 9633599000
+  }
+}
