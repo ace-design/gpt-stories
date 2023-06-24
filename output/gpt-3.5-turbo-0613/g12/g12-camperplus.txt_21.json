@@ -1,0 +1,44 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to see medical forms, so that we can be prepared for an allergy attack\n",
+  "extraction": {
+    "personas": [
+      "camp administrator"
+    ],
+    "entities": [
+      "medical forms"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "we can be prepared for an allergy attack"
+  },
+  "categories": {
+    "primary_entities": [
+      "medical forms"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "medical forms",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1292,
+    "output": 154,
+    "time (ns)": 4860831000
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "story": "#G12# As a parent, I want to be able to share any photos the camp has taken of my child.\n",
+  "extraction": {
+    "personas": [
+      "parent"
+    ],
+    "entities": [
+      "photos",
+      "camp",
+      "child"
+    ],
+    "actions": [
+      "share"
+    ],
+    "benefit": "I want to be able to share any photos the camp has taken of my child."
+  },
+  "categories": {
+    "primary_entities": [
+      "photos",
+      "camp",
+      "child"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "share"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "parent",
+        "to": "share",
+        "kind": "triggers"
+      },
+      {
+        "from": "share",
+        "to": "photos",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "camp",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "child",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1308,
+    "output": 219,
+    "time (ns)": 6585899000
+  }
+}

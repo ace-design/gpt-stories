@@ -1,0 +1,66 @@
+{
+  "story": "#G12# As a camp administrator, I want to provide bi-weekly feedback to camper's parents, so that they can be aware of their child's behavior and performance at camp.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator",
+      "camper's parents"
+    ],
+    "entities": [
+      "bi-weekly feedback",
+      "camper's behavior",
+      "camper's performance"
+    ],
+    "actions": [
+      "provide",
+      "be aware"
+    ],
+    "benefit": "parents can be aware of their child's behavior and performance at camp"
+  },
+  "categories": {
+    "primary_entities": [
+      "bi-weekly feedback",
+      "camper's behavior",
+      "camper's performance"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "provide",
+      "be aware"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "provide",
+        "kind": "triggers"
+      },
+      {
+        "from": "provide",
+        "to": "bi-weekly feedback",
+        "kind": "targets"
+      },
+      {
+        "from": "camp administrator",
+        "to": "be aware",
+        "kind": "triggers"
+      },
+      {
+        "from": "be aware",
+        "to": "camper's behavior",
+        "kind": "targets"
+      },
+      {
+        "from": "be aware",
+        "to": "camper's performance",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1392,
+    "output": 289,
+    "time (ns)": 8530503000
+  }
+}

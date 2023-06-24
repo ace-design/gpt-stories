@@ -1,0 +1,57 @@
+{
+  "story": "#G12# As a camp worker, I\\'m able to report necessary repairs to the manager that the camp is needed of.\n",
+  "extraction": {
+    "personas": [
+      "camp worker",
+      "manager"
+    ],
+    "entities": [
+      "necessary repairs",
+      "camp"
+    ],
+    "actions": [
+      "report"
+    ],
+    "benefit": "the camp can be repaired"
+  },
+  "categories": {
+    "primary_entities": [
+      "necessary repairs",
+      "camp"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "report"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp worker",
+        "to": "report",
+        "kind": "triggers"
+      },
+      {
+        "from": "report",
+        "to": "necessary repairs",
+        "kind": "targets"
+      },
+      {
+        "from": "camp worker",
+        "to": "report",
+        "kind": "triggers"
+      },
+      {
+        "from": "report",
+        "to": "manager",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1292,
+    "output": 212,
+    "time (ns)": 9397233000
+  }
+}

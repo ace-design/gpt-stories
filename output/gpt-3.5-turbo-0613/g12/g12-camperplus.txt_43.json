@@ -1,0 +1,44 @@
+{
+  "story": "#G12# As a parent, I want to be able to see if I made all the necessary payments.\n",
+  "extraction": {
+    "personas": [
+      "parent"
+    ],
+    "entities": [
+      "necessary payments"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "I can see if I made all the necessary payments"
+  },
+  "categories": {
+    "primary_entities": [
+      "necessary payments"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "parent",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "necessary payments",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1273,
+    "output": 154,
+    "time (ns)": 5150303000
+  }
+}

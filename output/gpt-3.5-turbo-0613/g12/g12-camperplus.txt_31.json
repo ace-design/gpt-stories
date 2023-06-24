@@ -1,0 +1,58 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to delete campers from the database, so that I can keep my pages free of clutter.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator"
+    ],
+    "entities": [
+      "campers",
+      "database",
+      "pages"
+    ],
+    "actions": [
+      "delete"
+    ],
+    "benefit": "I can keep my pages free of clutter"
+  },
+  "categories": {
+    "primary_entities": [
+      "campers",
+      "database",
+      "pages"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "delete"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "delete",
+        "kind": "triggers"
+      },
+      {
+        "from": "delete",
+        "to": "campers",
+        "kind": "targets"
+      },
+      {
+        "from": "delete",
+        "to": "database",
+        "kind": "targets"
+      },
+      {
+        "from": "delete",
+        "to": "pages",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1319,
+    "output": 216,
+    "time (ns)": 8008752000
+  }
+}

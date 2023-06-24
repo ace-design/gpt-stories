@@ -1,0 +1,58 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to create groups and add campers to the groups, so that I can easily organize the campers.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator"
+    ],
+    "entities": [
+      "groups",
+      "campers"
+    ],
+    "actions": [
+      "create",
+      "add"
+    ],
+    "benefit": "I can easily organize the campers"
+  },
+  "categories": {
+    "primary_entities": [
+      "groups",
+      "campers"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create",
+      "add"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "groups",
+        "kind": "targets"
+      },
+      {
+        "from": "camp administrator",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "campers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1323,
+    "output": 217,
+    "time (ns)": 6345742000
+  }
+}

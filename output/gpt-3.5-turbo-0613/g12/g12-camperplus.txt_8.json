@@ -1,0 +1,44 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to suspend a camper who had behavioral problems.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator"
+    ],
+    "entities": [
+      "camper"
+    ],
+    "actions": [
+      "suspend"
+    ],
+    "benefit": "be able to handle campers with behavioral problems"
+  },
+  "categories": {
+    "primary_entities": [
+      "camper"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "suspend"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "suspend",
+        "kind": "triggers"
+      },
+      {
+        "from": "suspend",
+        "to": "camper",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1273,
+    "output": 155,
+    "time (ns)": 5338054000
+  }
+}

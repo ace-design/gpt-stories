@@ -1,0 +1,51 @@
+{
+  "story": "#G12# As a parent, I want to be able to submit various type of forms to the camp management.\n",
+  "extraction": {
+    "personas": [
+      "parent"
+    ],
+    "entities": [
+      "forms",
+      "camp management"
+    ],
+    "actions": [
+      "submit"
+    ],
+    "benefit": "be able to submit various types of forms to the camp management"
+  },
+  "categories": {
+    "primary_entities": [
+      "forms",
+      "camp management"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "submit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "parent",
+        "to": "submit",
+        "kind": "triggers"
+      },
+      {
+        "from": "submit",
+        "to": "forms",
+        "kind": "targets"
+      },
+      {
+        "from": "submit",
+        "to": "camp management",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1289,
+    "output": 187,
+    "time (ns)": 14302206000
+  }
+}

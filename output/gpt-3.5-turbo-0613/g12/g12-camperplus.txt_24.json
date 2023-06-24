@@ -1,0 +1,75 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to add parents, so that they can enroll their kids at camp.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator"
+    ],
+    "entities": [
+      "parents",
+      "kids",
+      "camp"
+    ],
+    "actions": [
+      "add",
+      "enroll"
+    ],
+    "benefit": "parents can enroll their kids at camp"
+  },
+  "categories": {
+    "primary_entities": [
+      "parents",
+      "kids",
+      "camp"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "add",
+      "enroll"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "parents",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "kids",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "camp",
+        "kind": "targets"
+      },
+      {
+        "from": "enroll",
+        "to": "parents",
+        "kind": "targets"
+      },
+      {
+        "from": "enroll",
+        "to": "kids",
+        "kind": "targets"
+      },
+      {
+        "from": "enroll",
+        "to": "camp",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1311,
+    "output": 298,
+    "time (ns)": 8997957000
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to notify parents all at once, so that they can be notified of any upcoming events.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator",
+      "parents"
+    ],
+    "entities": [
+      "notify"
+    ],
+    "actions": [
+      "be able to notify",
+      "notify"
+    ],
+    "benefit": "parents can be notified of any upcoming events"
+  },
+  "categories": {
+    "primary_entities": [
+      "notify"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "be able to notify"
+    ],
+    "secondary_actions": [
+      "notify"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "be able to notify",
+        "kind": "triggers"
+      },
+      {
+        "from": "be able to notify",
+        "to": "notify",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1317,
+    "output": 171,
+    "time (ns)": 6042002000
+  }
+}

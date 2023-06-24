@@ -1,0 +1,47 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to keep camper records from previous years, so that the amount of work I need to do is lowered. \n",
+  "extraction": {
+    "personas": [
+      "camp administrator"
+    ],
+    "entities": [
+      "camper records",
+      "previous years"
+    ],
+    "actions": [
+      "keep"
+    ],
+    "benefit": "the amount of work I need to do is lowered"
+  },
+  "categories": {
+    "primary_entities": [
+      "camper records"
+    ],
+    "secondary_entities": [
+      "previous years"
+    ],
+    "primary_actions": [
+      "keep"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "keep",
+        "kind": "triggers"
+      },
+      {
+        "from": "keep",
+        "to": "camper records",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1328,
+    "output": 166,
+    "time (ns)": 5148725000
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to set a reminders related to specific tasks that has to be done.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator"
+    ],
+    "entities": [
+      "reminders",
+      "specific tasks"
+    ],
+    "actions": [
+      "set"
+    ],
+    "benefit": "be able to set reminders related to specific tasks that has to be done"
+  },
+  "categories": {
+    "primary_entities": [
+      "reminders"
+    ],
+    "secondary_entities": [
+      "specific tasks"
+    ],
+    "primary_actions": [
+      "set"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "set",
+        "kind": "triggers"
+      },
+      {
+        "from": "set",
+        "to": "reminders",
+        "kind": "targets"
+      },
+      {
+        "from": "set",
+        "to": "specific tasks",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1309,
+    "output": 193,
+    "time (ns)": 7355710000
+  }
+}

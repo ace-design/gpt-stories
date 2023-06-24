@@ -1,0 +1,60 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to assign different positions to the staff members, so that it is possible to organize activities in terms of responsibilities.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator"
+    ],
+    "entities": [
+      "staff members",
+      "positions",
+      "activities"
+    ],
+    "actions": [
+      "assign",
+      "organize"
+    ],
+    "benefit": "be able to organize activities in terms of responsibilities"
+  },
+  "categories": {
+    "primary_entities": [
+      "staff members",
+      "positions",
+      "activities"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "assign",
+      "organize"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "assign",
+        "kind": "triggers"
+      },
+      {
+        "from": "assign",
+        "to": "staff members",
+        "kind": "targets"
+      },
+      {
+        "from": "assign",
+        "to": "positions",
+        "kind": "targets"
+      },
+      {
+        "from": "organize",
+        "to": "activities",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1342,
+    "output": 226,
+    "time (ns)": 10473733000
+  }
+}

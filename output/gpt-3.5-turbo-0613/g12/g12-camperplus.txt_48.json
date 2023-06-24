@@ -1,0 +1,65 @@
+{
+  "story": "#G12# As a parent, I want to be able to see a schedule of the activities my children are involved in at camp, so that I can be more informed as to what they are doing at camp.\n",
+  "extraction": {
+    "personas": [
+      "parent"
+    ],
+    "entities": [
+      "schedule",
+      "activities",
+      "children",
+      "camp"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "be more informed as to what they are doing at camp"
+  },
+  "categories": {
+    "primary_entities": [
+      "schedule",
+      "activities",
+      "children",
+      "camp"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "parent",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "schedule",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "activities",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "children",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "camp",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1362,
+    "output": 245,
+    "time (ns)": 7870574000
+  }
+}

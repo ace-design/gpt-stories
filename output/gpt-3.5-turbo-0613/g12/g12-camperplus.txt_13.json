@@ -1,0 +1,57 @@
+{
+  "story": "#G12# As a camp administrator, I want to keep track of the usage of internal camp facilities, so that I don't create conflicting schedules for the different camp groups.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator"
+    ],
+    "entities": [
+      "internal camp facilities",
+      "conflicting schedules",
+      "camp groups"
+    ],
+    "actions": [
+      "keep track of",
+      "usage"
+    ],
+    "benefit": "avoid creating conflicting schedules for the different camp groups"
+  },
+  "categories": {
+    "primary_entities": [
+      "internal camp facilities",
+      "camp groups"
+    ],
+    "secondary_entities": [
+      "conflicting schedules"
+    ],
+    "primary_actions": [
+      "keep track of"
+    ],
+    "secondary_actions": [
+      "usage"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "keep track of",
+        "kind": "triggers"
+      },
+      {
+        "from": "keep track of",
+        "to": "internal camp facilities",
+        "kind": "targets"
+      },
+      {
+        "from": "keep track of",
+        "to": "camp groups",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1354,
+    "output": 216,
+    "time (ns)": 6424995000
+  }
+}

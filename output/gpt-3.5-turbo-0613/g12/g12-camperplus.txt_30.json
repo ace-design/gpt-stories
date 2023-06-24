@@ -1,0 +1,44 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to modify the information of enrolled campers, so that I can keep the campers information up to date.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator"
+    ],
+    "entities": [
+      "enrolled campers"
+    ],
+    "actions": [
+      "modify"
+    ],
+    "benefit": "keep the campers information up to date"
+  },
+  "categories": {
+    "primary_entities": [
+      "enrolled campers"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "modify"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "modify",
+        "kind": "triggers"
+      },
+      {
+        "from": "modify",
+        "to": "enrolled campers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1316,
+    "output": 160,
+    "time (ns)": 8746824000
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "story": "#G12# As a camp worker, I want to be able to see which campers I am in charge of and where, so that I can make sure I am doing my job properly.\n",
+  "extraction": {
+    "personas": [
+      "camp worker"
+    ],
+    "entities": [
+      "campers"
+    ],
+    "actions": [
+      "see",
+      "in charge of",
+      "make sure",
+      "doing my job properly"
+    ],
+    "benefit": "I can make sure I am doing my job properly"
+  },
+  "categories": {
+    "primary_entities": [
+      "campers"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see",
+      "in charge of",
+      "make sure",
+      "doing my job properly"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp worker",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "campers",
+        "kind": "targets"
+      },
+      {
+        "from": "camp worker",
+        "to": "in charge of",
+        "kind": "triggers"
+      },
+      {
+        "from": "in charge of",
+        "to": "campers",
+        "kind": "targets"
+      },
+      {
+        "from": "camp worker",
+        "to": "make sure",
+        "kind": "triggers"
+      },
+      {
+        "from": "make sure",
+        "to": "campers",
+        "kind": "targets"
+      },
+      {
+        "from": "camp worker",
+        "to": "doing my job properly",
+        "kind": "triggers"
+      },
+      {
+        "from": "doing my job properly",
+        "to": "campers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1371,
+    "output": 357,
+    "time (ns)": 9959634000
+  }
+}

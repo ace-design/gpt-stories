@@ -1,0 +1,56 @@
+{
+  "story": "#G12# As a parent, I want to be able to sign and submit consent forms online, so that I don\\'t have to deal with my child losing a consent form.\n",
+  "extraction": {
+    "personas": [
+      "parent"
+    ],
+    "entities": [
+      "consent forms"
+    ],
+    "actions": [
+      "sign",
+      "submit"
+    ],
+    "benefit": "I don't have to deal with my child losing a consent form."
+  },
+  "categories": {
+    "primary_entities": [
+      "consent forms"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "sign",
+      "submit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "parent",
+        "to": "sign",
+        "kind": "triggers"
+      },
+      {
+        "from": "parent",
+        "to": "submit",
+        "kind": "triggers"
+      },
+      {
+        "from": "sign",
+        "to": "consent forms",
+        "kind": "targets"
+      },
+      {
+        "from": "submit",
+        "to": "consent forms",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1338,
+    "output": 219,
+    "time (ns)": 11393807000
+  }
+}

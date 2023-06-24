@@ -1,0 +1,77 @@
+{
+  "story": "#G12# As a camp administrator, I want to create an avenue so parents can submit feedback and general concerns, so that I can keep improving the services I provide.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator",
+      "parents"
+    ],
+    "entities": [
+      "avenue",
+      "feedback",
+      "general concerns",
+      "services"
+    ],
+    "actions": [
+      "create",
+      "submit",
+      "keep improving"
+    ],
+    "benefit": "I can keep improving the services I provide"
+  },
+  "categories": {
+    "primary_entities": [
+      "avenue",
+      "services"
+    ],
+    "secondary_entities": [
+      "feedback",
+      "general concerns"
+    ],
+    "primary_actions": [
+      "create",
+      "keep improving"
+    ],
+    "secondary_actions": [
+      "submit"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "avenue",
+        "kind": "targets"
+      },
+      {
+        "from": "parents",
+        "to": "submit",
+        "kind": "triggers"
+      },
+      {
+        "from": "submit",
+        "to": "feedback",
+        "kind": "targets"
+      },
+      {
+        "from": "submit",
+        "to": "general concerns",
+        "kind": "targets"
+      },
+      {
+        "from": "keep improving",
+        "to": "services",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1361,
+    "output": 292,
+    "time (ns)": 8254423000
+  }
+}

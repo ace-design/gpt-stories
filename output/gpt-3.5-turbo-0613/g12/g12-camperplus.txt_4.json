@@ -1,0 +1,64 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to upload consent forms, so that campers or their parents can easily access the forms.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator",
+      "campers",
+      "parents"
+    ],
+    "entities": [
+      "consent forms"
+    ],
+    "actions": [
+      "upload",
+      "access"
+    ],
+    "benefit": "campers or their parents can easily access the forms"
+  },
+  "categories": {
+    "primary_entities": [
+      "consent forms"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "upload"
+    ],
+    "secondary_actions": [
+      "access"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "consent forms",
+        "kind": "targets"
+      },
+      {
+        "from": "campers",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "parents",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "consent forms",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1326,
+    "output": 251,
+    "time (ns)": 7194302000
+  }
+}

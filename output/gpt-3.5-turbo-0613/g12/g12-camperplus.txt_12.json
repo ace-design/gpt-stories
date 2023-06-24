@@ -1,0 +1,62 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to create, modify rules that campers and camp workers has to follow.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator"
+    ],
+    "entities": [
+      "rules",
+      "campers",
+      "camp workers"
+    ],
+    "actions": [
+      "create",
+      "modify"
+    ],
+    "benefit": "be able to create and modify rules that campers and camp workers have to follow"
+  },
+  "categories": {
+    "primary_entities": [
+      "rules"
+    ],
+    "secondary_entities": [
+      "campers",
+      "camp workers"
+    ],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": [
+      "modify"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "rules",
+        "kind": "targets"
+      },
+      {
+        "from": "camp administrator",
+        "to": "modify",
+        "kind": "triggers"
+      },
+      {
+        "from": "modify",
+        "to": "rules",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1332,
+    "output": 231,
+    "time (ns)": 7413439000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to delete tasks/activities I scheduled, so that I can keep the schedule clean of unneeded activities.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator"
+    ],
+    "entities": [
+      "tasks/activities"
+    ],
+    "actions": [
+      "delete"
+    ],
+    "benefit": "keep the schedule clean of unneeded activities"
+  },
+  "categories": {
+    "primary_entities": [
+      "tasks/activities"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "delete"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "delete",
+        "kind": "triggers"
+      },
+      {
+        "from": "delete",
+        "to": "tasks/activities",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1310,
+    "output": 157,
+    "time (ns)": 5871002000
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to schedule activities for campers, so that camp workers can easily keep track of who is where at all times.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator",
+      "camp workers"
+    ],
+    "entities": [
+      "activities",
+      "campers"
+    ],
+    "actions": [
+      "schedule",
+      "keep track"
+    ],
+    "benefit": "camp workers can easily keep track of who is where at all times"
+  },
+  "categories": {
+    "primary_entities": [
+      "activities"
+    ],
+    "secondary_entities": [
+      "campers"
+    ],
+    "primary_actions": [
+      "schedule"
+    ],
+    "secondary_actions": [
+      "keep track"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "schedule",
+        "kind": "triggers"
+      },
+      {
+        "from": "schedule",
+        "to": "activities",
+        "kind": "targets"
+      },
+      {
+        "from": "camp workers",
+        "to": "keep track",
+        "kind": "triggers"
+      },
+      {
+        "from": "keep track",
+        "to": "campers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1349,
+    "output": 229,
+    "time (ns)": 6786570000
+  }
+}

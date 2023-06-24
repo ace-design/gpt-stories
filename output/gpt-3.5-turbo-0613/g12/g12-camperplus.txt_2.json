@@ -1,0 +1,51 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to remove campers if they don't attend the camp anymore, so that I can keep the records organized.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator"
+    ],
+    "entities": [
+      "campers",
+      "records"
+    ],
+    "actions": [
+      "remove"
+    ],
+    "benefit": "keep the records organized"
+  },
+  "categories": {
+    "primary_entities": [
+      "campers",
+      "records"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "remove"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "remove",
+        "kind": "triggers"
+      },
+      {
+        "from": "remove",
+        "to": "campers",
+        "kind": "targets"
+      },
+      {
+        "from": "remove",
+        "to": "records",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1311,
+    "output": 181,
+    "time (ns)": 5940593000
+  }
+}

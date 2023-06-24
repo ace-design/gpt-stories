@@ -17,7 +17,7 @@ MODEL = 'gpt-3.5-turbo-0613'              # required to use JSON schemas
 
 ## dataset location
 DATASET = './dataset/current'
-START_AT = 1
+START_AT = 39
 
        ###############################
 ######## Do not edit after this line ########
@@ -49,6 +49,8 @@ def process_backlog(a_backlog, model):
       print(f'- Story #[{counter}] -- started at {__stamp()}')
       print(f'    - {user_story}')
       data = process_story(user_story, model)
+      if (data == None):
+         continue
       print(f'    - saving result into: {output_file}_{counter}.json')
       __store_result(data, f'{output_file}_{counter}.json')
 
@@ -64,17 +66,26 @@ def process_story(user_story, model):
    conversation = prompt_setup()
    # 1. Extracting concepts
    prompt_for_concept_extraction(conversation, user_story)
-   extracted = __call_GPT(model, conversation, record_extracted_concepts)
+   try:
+      extracted = __call_GPT(model, conversation, record_extracted_concepts)
+   except RuntimeError:
+      return
    result['extraction'] = extracted['response']
    cost = update_cost(cost, extracted)
    # 2. Categorizing concepts
    prompt_for_concept_categorization(conversation, result['extraction'])
-   categorized = __call_GPT(model, conversation, record_categories)
+   try:
+      categorized = __call_GPT(model, conversation, record_categories)
+   except RuntimeError:
+      return
    result['categories'] = categorized['response']
    cost = update_cost(cost, categorized)
    # 3. Extracting relations
    prompt_for_relations_extraction(conversation, result['categories'])
-   relations = __call_GPT(model, conversation, record_links)
+   try:
+      relations = __call_GPT(model, conversation, record_links)
+   except RuntimeError:
+      return
    result['relations'] = relations['response']
    cost = update_cost(cost, relations)
    # 4. Returning result
@@ -269,7 +280,12 @@ def __call_GPT(model, conversation, schema):
   payload = response["choices"][0]["message"]
   contents = None
   if payload.get("function_call"):
-     contents = json.loads(payload["function_call"]["arguments"])
+     try:
+      contents = json.loads(payload["function_call"]["arguments"])
+     except json.decoder.JSONDecodeError:
+        print('    - /!\ Invalid JSON Detected')
+        print(payload["function_call"]["arguments"])
+        raise RuntimeError("Invalid JSON")
   result =  {
       'response':      contents,
       'input_tokens':  response['usage']['prompt_tokens'],

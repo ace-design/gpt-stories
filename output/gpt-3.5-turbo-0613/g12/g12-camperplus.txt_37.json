@@ -1,0 +1,47 @@
+{
+  "story": "#G12# As a parent, I want to be able to track my child's activity and schedule at camp, so that I can have peace of mind.\n",
+  "extraction": {
+    "personas": [
+      "parent"
+    ],
+    "entities": [
+      "child's activity",
+      "schedule at camp"
+    ],
+    "actions": [
+      "track"
+    ],
+    "benefit": "I can have peace of mind"
+  },
+  "categories": {
+    "primary_entities": [
+      "child's activity"
+    ],
+    "secondary_entities": [
+      "schedule at camp"
+    ],
+    "primary_actions": [
+      "track"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "parent",
+        "to": "track",
+        "kind": "triggers"
+      },
+      {
+        "from": "track",
+        "to": "child's activity",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1312,
+    "output": 162,
+    "time (ns)": 5294547000
+  }
+}

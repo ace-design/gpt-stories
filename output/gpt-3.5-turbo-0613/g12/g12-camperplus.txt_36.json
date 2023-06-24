@@ -1,0 +1,57 @@
+{
+  "story": "#G12# As a parent, I want to be able to see which consent forms I have submitted, so that I can know what I still need to do.\n",
+  "extraction": {
+    "personas": [
+      "parent"
+    ],
+    "entities": [
+      "consent forms"
+    ],
+    "actions": [
+      "see",
+      "submit"
+    ],
+    "benefit": "I can know what I still need to do"
+  },
+  "categories": {
+    "primary_entities": [
+      "consent forms"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": [
+      "submit"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "parent",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "consent forms",
+        "kind": "targets"
+      },
+      {
+        "from": "parent",
+        "to": "submit",
+        "kind": "triggers"
+      },
+      {
+        "from": "submit",
+        "to": "consent forms",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1314,
+    "output": 214,
+    "time (ns)": 7153047000
+  }
+}

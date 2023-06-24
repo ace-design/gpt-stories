@@ -1,0 +1,45 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to warn a camp worker who I think did his/her job inappropriate.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator",
+      "camp worker"
+    ],
+    "entities": [
+      "camp worker"
+    ],
+    "actions": [
+      "warn"
+    ],
+    "benefit": "be able to address inappropriate job performance"
+  },
+  "categories": {
+    "primary_entities": [
+      "camp worker"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "warn"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "warn",
+        "kind": "triggers"
+      },
+      {
+        "from": "warn",
+        "to": "camp worker",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1292,
+    "output": 157,
+    "time (ns)": 7505677000
+  }
+}

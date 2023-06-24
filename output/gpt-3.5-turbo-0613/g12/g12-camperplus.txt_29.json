@@ -1,0 +1,51 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to modify tasks/events I scheduled in case there is a change, so that I can always keep the schedule up to date.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator"
+    ],
+    "entities": [
+      "tasks/events",
+      "schedule"
+    ],
+    "actions": [
+      "modify"
+    ],
+    "benefit": "keep the schedule up to date"
+  },
+  "categories": {
+    "primary_entities": [
+      "tasks/events",
+      "schedule"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "modify"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "modify",
+        "kind": "triggers"
+      },
+      {
+        "from": "modify",
+        "to": "tasks/events",
+        "kind": "targets"
+      },
+      {
+        "from": "modify",
+        "to": "schedule",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1324,
+    "output": 183,
+    "time (ns)": 5752387000
+  }
+}

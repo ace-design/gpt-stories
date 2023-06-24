@@ -1,0 +1,170 @@
+START: 11:35:17
+# Processing g12-camperplus.txt
+Skipping Story #[1]
+Skipping Story #[2]
+Skipping Story #[3]
+Skipping Story #[4]
+Skipping Story #[5]
+Skipping Story #[6]
+Skipping Story #[7]
+Skipping Story #[8]
+Skipping Story #[9]
+Skipping Story #[10]
+Skipping Story #[11]
+Skipping Story #[12]
+Skipping Story #[13]
+Skipping Story #[14]
+Skipping Story #[15]
+Skipping Story #[16]
+Skipping Story #[17]
+Skipping Story #[18]
+Skipping Story #[19]
+Skipping Story #[20]
+Skipping Story #[21]
+Skipping Story #[22]
+Skipping Story #[23]
+Skipping Story #[24]
+Skipping Story #[25]
+Skipping Story #[26]
+Skipping Story #[27]
+Skipping Story #[28]
+Skipping Story #[29]
+Skipping Story #[30]
+Skipping Story #[31]
+Skipping Story #[32]
+Skipping Story #[33]
+Skipping Story #[34]
+Skipping Story #[35]
+Skipping Story #[36]
+Skipping Story #[37]
+Skipping Story #[38]
+- Story #[39] -- started at 11:35:17
+    - #G12# As a parent, I want to be able to create an account, so that I can sign up my kids for camp online.
+
+        - calling model 11:35:17
+        - calling model 11:35:20
+        - calling model 11:35:24
+    - saving result into: ./output/gpt-3.5-turbo-0613/g12-camperplus.txt_39.json
+- Story #[40] -- started at 11:35:30
+    - #G12# As a parent, I want to see which counselors are assigned to my kids, so that I can have peace of mind.
+
+        - calling model 11:35:30
+        - calling model 11:35:34
+    - /!\ Invalid JSON Detected
+{
+  "primary_entities": ["counselors", "my kids"],
+  "secondary_entities": [],
+  "primary_actions": ["see", "assigned"],
+  "secondary_actions": [],
+}
+- Story #[41] -- started at 11:35:35
+    - #G12# As a parent, I want to be able to message my child\'s counselors, so that I can voice my concerns or check on my child\'s progress.
+
+        - calling model 11:35:35
+        - calling model 11:35:39
+        - calling model 11:35:43
+    - saving result into: ./output/gpt-3.5-turbo-0613/g12-camperplus.txt_41.json
+- Story #[42] -- started at 11:35:49
+    - #G12# As a parent, I want to be able to sign and submit consent forms online, so that I don\'t have to deal with my child losing a consent form.
+
+        - calling model 11:35:49
+        - calling model 11:35:55
+        - calling model 11:36:01
+    - saving result into: ./output/gpt-3.5-turbo-0613/g12-camperplus.txt_42.json
+- Story #[43] -- started at 11:36:07
+    - #G12# As a parent, I want to be able to see if I made all the necessary payments.
+
+        - calling model 11:36:07
+        - calling model 11:36:10
+        - calling model 11:36:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g12-camperplus.txt_43.json
+- Story #[44] -- started at 11:36:18
+    - #G12# As a parent, I want to be able to share any photos the camp has taken of my child.
+
+        - calling model 11:36:18
+        - calling model 11:36:22
+        - calling model 11:36:25
+    - saving result into: ./output/gpt-3.5-turbo-0613/g12-camperplus.txt_44.json
+- Story #[45] -- started at 11:36:30
+    - #G12# As a parent, I want to be able to connect with the staff in case of an emergency.
+
+        - calling model 11:36:30
+        - calling model 11:36:34
+        - calling model 11:36:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g12-camperplus.txt_45.json
+- Story #[46] -- started at 11:36:41
+    - #G12# As a parent, I want to be able to enroll my children, so that they can be admitted to camp.
+
+        - calling model 11:36:41
+        - calling model 11:36:45
+        - calling model 11:36:49
+    - saving result into: ./output/gpt-3.5-turbo-0613/g12-camperplus.txt_46.json
+- Story #[47] -- started at 11:36:55
+    - #G12# As a parent, I want to be able to see and edit my enrolled children to the camp year, so that I can know who I already enrolled to camp, who is still pending admission etc.
+
+        - calling model 11:36:55
+        - calling model 11:36:59
+    - /!\ Invalid JSON Detected
+{
+  "primary_entities": ["enrolled children", "camp year"],
+  "secondary_entities": [],
+  "primary_actions": ["see", "edit"],
+  "secondary_actions": [],
+}
+- Story #[48] -- started at 11:37:00
+    - #G12# As a parent, I want to be able to see a schedule of the activities my children are involved in at camp, so that I can be more informed as to what they are doing at camp.
+
+        - calling model 11:37:00
+        - calling model 11:37:05
+        - calling model 11:37:08
+    - saving result into: ./output/gpt-3.5-turbo-0613/g12-camperplus.txt_48.json
+- Story #[49] -- started at 11:37:14
+    - #G12# As a camp worker, I want to be able to see which campers I am in charge of and where, so that I can make sure I am doing my job properly.
+
+        - calling model 11:37:14
+        - calling model 11:37:18
+        - calling model 11:37:22
+    - saving result into: ./output/gpt-3.5-turbo-0613/g12-camperplus.txt_49.json
+- Story #[50] -- started at 11:37:30
+    - #G12# As a camp worker, I would be able to submit a completion report for the tasks which was assigned to me.
+
+        - calling model 11:37:30
+        - calling model 11:37:34
+        - calling model 11:37:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g12-camperplus.txt_50.json
+- Story #[51] -- started at 11:37:41
+    - #G12# As a camp worker, I\'m able to report a camper to the manager with an inappropriate behavior.
+
+        - calling model 11:37:41
+        - calling model 11:37:45
+        - calling model 11:37:48
+    - saving result into: ./output/gpt-3.5-turbo-0613/g12-camperplus.txt_51.json
+- Story #[52] -- started at 11:37:54
+    - #G12# As a camp worker, I\'m able to report a list of supplies to the manager that the camp is short of.
+
+        - calling model 11:37:54
+        - calling model 11:37:58
+        - calling model 11:38:01
+    - saving result into: ./output/gpt-3.5-turbo-0613/g12-camperplus.txt_52.json
+- Story #[53] -- started at 11:38:06
+    - #G12# As a camp worker, I\'m able to report necessary repairs to the manager that the camp is needed of.
+
+        - calling model 11:38:06
+        - calling model 11:38:09
+        - calling model 11:38:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g12-camperplus.txt_53.json
+- Story #[54] -- started at 11:38:21
+    - #G12# As a camp worker, I want to be able to see which campers I am in charge of and where, so that I can make sure I am doing my job properly.
+
+        - calling model 11:38:21
+        - calling model 11:38:25
+        - calling model 11:38:29
+    - saving result into: ./output/gpt-3.5-turbo-0613/g12-camperplus.txt_54.json
+- Story #[55] -- started at 11:38:37
+    - #G12# As a camp counselor, I want to be able to take attendance of my assigned kids, so that I can make ensure everybody is accounted for.
+
+        - calling model 11:38:37
+        - calling model 11:38:41
+        - calling model 11:38:44
+    - saving result into: ./output/gpt-3.5-turbo-0613/g12-camperplus.txt_55.json
+END: 11:38:48

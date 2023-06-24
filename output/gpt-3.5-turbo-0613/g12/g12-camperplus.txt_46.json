@@ -1,0 +1,68 @@
+{
+  "story": "#G12# As a parent, I want to be able to enroll my children, so that they can be admitted to camp.\n",
+  "extraction": {
+    "personas": [
+      "parent"
+    ],
+    "entities": [
+      "children",
+      "camp"
+    ],
+    "actions": [
+      "enroll",
+      "admitted"
+    ],
+    "benefit": "My children can be admitted to camp"
+  },
+  "categories": {
+    "primary_entities": [
+      "children",
+      "camp"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "enroll",
+      "admitted"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "parent",
+        "to": "enroll",
+        "kind": "triggers"
+      },
+      {
+        "from": "enroll",
+        "to": "children",
+        "kind": "targets"
+      },
+      {
+        "from": "enroll",
+        "to": "camp",
+        "kind": "targets"
+      },
+      {
+        "from": "enroll",
+        "to": "admitted",
+        "kind": "triggers"
+      },
+      {
+        "from": "admitted",
+        "to": "children",
+        "kind": "targets"
+      },
+      {
+        "from": "admitted",
+        "to": "camp",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1300,
+    "output": 272,
+    "time (ns)": 7953351000
+  }
+}

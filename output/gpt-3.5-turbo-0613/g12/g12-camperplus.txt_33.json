@@ -1,0 +1,58 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to delete parents from the database, so that I can keep my pages free of unneeded clutter.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator"
+    ],
+    "entities": [
+      "parents",
+      "database",
+      "pages"
+    ],
+    "actions": [
+      "delete"
+    ],
+    "benefit": "keep my pages free of unneeded clutter"
+  },
+  "categories": {
+    "primary_entities": [
+      "parents",
+      "database",
+      "pages"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "delete"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "delete",
+        "kind": "triggers"
+      },
+      {
+        "from": "delete",
+        "to": "parents",
+        "kind": "targets"
+      },
+      {
+        "from": "delete",
+        "to": "database",
+        "kind": "targets"
+      },
+      {
+        "from": "delete",
+        "to": "pages",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1319,
+    "output": 213,
+    "time (ns)": 7194951000
+  }
+}

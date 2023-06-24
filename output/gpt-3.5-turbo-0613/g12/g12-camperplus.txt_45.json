@@ -1,0 +1,44 @@
+{
+  "story": "#G12# As a parent, I want to be able to connect with the staff in case of an emergency.\n",
+  "extraction": {
+    "personas": [
+      "parent"
+    ],
+    "entities": [
+      "staff"
+    ],
+    "actions": [
+      "connect"
+    ],
+    "benefit": "be able to connect with the staff in case of an emergency"
+  },
+  "categories": {
+    "primary_entities": [
+      "staff"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "connect"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "parent",
+        "to": "connect",
+        "kind": "triggers"
+      },
+      {
+        "from": "connect",
+        "to": "staff",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1277,
+    "output": 153,
+    "time (ns)": 4913825000
+  }
+}

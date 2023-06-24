@@ -1,0 +1,51 @@
+{
+  "story": "#G12# As a camp administrator, I want to be quickly log attendance everyday, so that I can track which kids are coming in.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator"
+    ],
+    "entities": [
+      "attendance",
+      "kids"
+    ],
+    "actions": [
+      "log"
+    ],
+    "benefit": "I can track which kids are coming in"
+  },
+  "categories": {
+    "primary_entities": [
+      "attendance",
+      "kids"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "log"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "log",
+        "kind": "triggers"
+      },
+      {
+        "from": "log",
+        "to": "attendance",
+        "kind": "targets"
+      },
+      {
+        "from": "log",
+        "to": "kids",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1295,
+    "output": 182,
+    "time (ns)": 5671008000
+  }
+}

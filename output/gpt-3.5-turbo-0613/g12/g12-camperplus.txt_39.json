@@ -1,0 +1,65 @@
+{
+  "story": "#G12# As a parent, I want to be able to create an account, so that I can sign up my kids for camp online.\n",
+  "extraction": {
+    "personas": [
+      "parent"
+    ],
+    "entities": [
+      "account",
+      "kids",
+      "camp"
+    ],
+    "actions": [
+      "create",
+      "sign up"
+    ],
+    "benefit": "I can sign up my kids for camp online"
+  },
+  "categories": {
+    "primary_entities": [
+      "account",
+      "kids",
+      "camp"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create",
+      "sign up"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "parent",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "parent",
+        "to": "sign up",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "account",
+        "kind": "targets"
+      },
+      {
+        "from": "sign up",
+        "to": "kids",
+        "kind": "targets"
+      },
+      {
+        "from": "sign up",
+        "to": "camp",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1319,
+    "output": 249,
+    "time (ns)": 7240665000
+  }
+}

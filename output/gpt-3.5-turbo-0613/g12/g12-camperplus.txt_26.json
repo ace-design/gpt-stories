@@ -1,0 +1,66 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to see all my camp groups and the events scheduled for each camp group, so that I can notify counselor of what their group will be doing for the day.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator",
+      "counselor"
+    ],
+    "entities": [
+      "camp groups",
+      "events"
+    ],
+    "actions": [
+      "see",
+      "notify"
+    ],
+    "benefit": "I can notify counselors of what their group will be doing for the day"
+  },
+  "categories": {
+    "primary_entities": [
+      "camp groups"
+    ],
+    "secondary_entities": [
+      "events"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": [
+      "notify"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "camp groups",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "events",
+        "kind": "targets"
+      },
+      {
+        "from": "camp administrator",
+        "to": "notify",
+        "kind": "triggers"
+      },
+      {
+        "from": "notify",
+        "to": "counselor",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1377,
+    "output": 254,
+    "time (ns)": 7975489000
+  }
+}

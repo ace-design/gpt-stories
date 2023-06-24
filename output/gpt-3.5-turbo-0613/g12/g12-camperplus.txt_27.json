@@ -1,0 +1,60 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to schedule tasks/activities for a specific camp group, so that I can track each groups daily/weekly and monthly activities.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator"
+    ],
+    "entities": [
+      "tasks/activities",
+      "specific camp group"
+    ],
+    "actions": [
+      "schedule",
+      "track"
+    ],
+    "benefit": "I can track each group's daily/weekly and monthly activities"
+  },
+  "categories": {
+    "primary_entities": [
+      "tasks/activities"
+    ],
+    "secondary_entities": [
+      "specific camp group"
+    ],
+    "primary_actions": [
+      "schedule"
+    ],
+    "secondary_actions": [
+      "track"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "schedule",
+        "kind": "triggers"
+      },
+      {
+        "from": "schedule",
+        "to": "tasks/activities",
+        "kind": "targets"
+      },
+      {
+        "from": "camp administrator",
+        "to": "track",
+        "kind": "triggers"
+      },
+      {
+        "from": "track",
+        "to": "specific camp group",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1351,
+    "output": 229,
+    "time (ns)": 8217740000
+  }
+}

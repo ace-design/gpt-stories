@@ -1,0 +1,51 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to see only events for a specific group/groups on the event calendar, so that I can easily read the data on the calendar without too much clutter.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator"
+    ],
+    "entities": [
+      "events",
+      "event calendar"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "easily read the data on the calendar without too much clutter"
+  },
+  "categories": {
+    "primary_entities": [
+      "events",
+      "event calendar"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "events",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "event calendar",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1351,
+    "output": 189,
+    "time (ns)": 5895780000
+  }
+}

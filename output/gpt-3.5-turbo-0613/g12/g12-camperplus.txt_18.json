@@ -1,0 +1,44 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to make nametags faster, so that I don't have to spend two hours making 200+ nametags\n",
+  "extraction": {
+    "personas": [
+      "camp administrator"
+    ],
+    "entities": [
+      "nametags"
+    ],
+    "actions": [
+      "make"
+    ],
+    "benefit": "I don't have to spend two hours making 200+ nametags"
+  },
+  "categories": {
+    "primary_entities": [
+      "nametags"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "make"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "make",
+        "kind": "triggers"
+      },
+      {
+        "from": "make",
+        "to": "nametags",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1336,
+    "output": 164,
+    "time (ns)": 5252006000
+  }
+}

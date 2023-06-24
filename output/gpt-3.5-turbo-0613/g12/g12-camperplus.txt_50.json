@@ -1,0 +1,47 @@
+{
+  "story": "#G12# As a camp worker, I would be able to submit a completion report for the tasks which was assigned to me.\n",
+  "extraction": {
+    "personas": [
+      "camp worker"
+    ],
+    "entities": [
+      "completion report",
+      "tasks"
+    ],
+    "actions": [
+      "submit"
+    ],
+    "benefit": "I would be able to submit a completion report for the tasks which was assigned to me."
+  },
+  "categories": {
+    "primary_entities": [
+      "completion report"
+    ],
+    "secondary_entities": [
+      "tasks"
+    ],
+    "primary_actions": [
+      "submit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp worker",
+        "to": "submit",
+        "kind": "triggers"
+      },
+      {
+        "from": "submit",
+        "to": "completion report",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1311,
+    "output": 168,
+    "time (ns)": 5316413000
+  }
+}

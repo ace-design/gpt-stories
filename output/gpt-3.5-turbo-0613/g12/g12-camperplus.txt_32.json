@@ -1,0 +1,44 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to modify the information of added parents, so that I can keep parent's information up to date.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator"
+    ],
+    "entities": [
+      "added parents"
+    ],
+    "actions": [
+      "modify"
+    ],
+    "benefit": "keep parent's information up to date"
+  },
+  "categories": {
+    "primary_entities": [
+      "added parents"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "modify"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "modify",
+        "kind": "triggers"
+      },
+      {
+        "from": "modify",
+        "to": "added parents",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1302,
+    "output": 153,
+    "time (ns)": 5660248000
+  }
+}

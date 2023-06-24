@@ -1,0 +1,59 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to create a registration form for both staff and kids, so that I can keep organized.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator"
+    ],
+    "entities": [
+      "registration form",
+      "staff",
+      "kids"
+    ],
+    "actions": [
+      "create"
+    ],
+    "benefit": "keep organized"
+  },
+  "categories": {
+    "primary_entities": [
+      "registration form"
+    ],
+    "secondary_entities": [
+      "staff",
+      "kids"
+    ],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "registration form",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "staff",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "kids",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1303,
+    "output": 209,
+    "time (ns)": 7812883000
+  }
+}

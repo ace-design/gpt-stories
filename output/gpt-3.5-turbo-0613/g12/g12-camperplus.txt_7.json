@@ -1,0 +1,47 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to automatically create nametags for campers, so that I can lower the amount of work I need to do.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator"
+    ],
+    "entities": [
+      "nametags",
+      "campers"
+    ],
+    "actions": [
+      "automatically create"
+    ],
+    "benefit": "lower the amount of work I need to do"
+  },
+  "categories": {
+    "primary_entities": [
+      "nametags"
+    ],
+    "secondary_entities": [
+      "campers"
+    ],
+    "primary_actions": [
+      "automatically create"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "automatically create",
+        "kind": "triggers"
+      },
+      {
+        "from": "automatically create",
+        "to": "nametags",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1338,
+    "output": 173,
+    "time (ns)": 5869121000
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "story": "#G12# As a camp administrator, I want to store campers' emergency information in a database, so that I can easily notify the necessary parties in case of an emergency.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator"
+    ],
+    "entities": [
+      "campers' emergency information",
+      "database"
+    ],
+    "actions": [
+      "store",
+      "notify"
+    ],
+    "benefit": "I can easily notify the necessary parties in case of an emergency"
+  },
+  "categories": {
+    "primary_entities": [
+      "campers' emergency information"
+    ],
+    "secondary_entities": [
+      "database"
+    ],
+    "primary_actions": [
+      "store"
+    ],
+    "secondary_actions": [
+      "notify"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "store",
+        "kind": "triggers"
+      },
+      {
+        "from": "store",
+        "to": "campers' emergency information",
+        "kind": "targets"
+      },
+      {
+        "from": "camp administrator",
+        "to": "notify",
+        "kind": "triggers"
+      },
+      {
+        "from": "notify",
+        "to": "necessary parties",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1345,
+    "output": 230,
+    "time (ns)": 6667927000
+  }
+}

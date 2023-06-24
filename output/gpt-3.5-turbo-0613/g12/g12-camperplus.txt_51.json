@@ -1,0 +1,51 @@
+{
+  "story": "#G12# As a camp worker, I\\'m able to report a camper to the manager with an inappropriate behavior.\n",
+  "extraction": {
+    "personas": [
+      "camp worker"
+    ],
+    "entities": [
+      "camper",
+      "manager"
+    ],
+    "actions": [
+      "report"
+    ],
+    "benefit": "able to report a camper to the manager with an inappropriate behavior"
+  },
+  "categories": {
+    "primary_entities": [
+      "camper",
+      "manager"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "report"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp worker",
+        "to": "report",
+        "kind": "triggers"
+      },
+      {
+        "from": "report",
+        "to": "camper",
+        "kind": "targets"
+      },
+      {
+        "from": "report",
+        "to": "manager",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1294,
+    "output": 189,
+    "time (ns)": 6465168000
+  }
+}

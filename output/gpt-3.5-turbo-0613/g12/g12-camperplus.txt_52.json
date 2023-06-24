@@ -1,0 +1,50 @@
+{
+  "story": "#G12# As a camp worker, I\\'m able to report a list of supplies to the manager that the camp is short of.\n",
+  "extraction": {
+    "personas": [
+      "camp worker",
+      "manager"
+    ],
+    "entities": [
+      "list of supplies"
+    ],
+    "actions": [
+      "report"
+    ],
+    "benefit": "the camp is aware of the supplies that are short"
+  },
+  "categories": {
+    "primary_entities": [
+      "list of supplies"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "report"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp worker",
+        "to": "report",
+        "kind": "triggers"
+      },
+      {
+        "from": "report",
+        "to": "list of supplies",
+        "kind": "targets"
+      },
+      {
+        "from": "manager",
+        "to": "report",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1302,
+    "output": 188,
+    "time (ns)": 6011280000
+  }
+}

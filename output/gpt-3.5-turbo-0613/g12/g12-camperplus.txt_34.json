@@ -1,0 +1,44 @@
+{
+  "story": "#G12# As a camp administrator, I want to be able to modify a group's information, so that I can keep the groups up to date.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator"
+    ],
+    "entities": [
+      "group"
+    ],
+    "actions": [
+      "modify"
+    ],
+    "benefit": "keep the groups up to date"
+  },
+  "categories": {
+    "primary_entities": [
+      "group"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "modify"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "modify",
+        "kind": "triggers"
+      },
+      {
+        "from": "modify",
+        "to": "group",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1291,
+    "output": 149,
+    "time (ns)": 4811833000
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "story": "#G12# As a parent, I want to be able to message my child\\'s counselors, so that I can voice my concerns or check on my child\\'s progress.\n",
+  "extraction": {
+    "personas": [
+      "parent"
+    ],
+    "entities": [
+      "child's counselors"
+    ],
+    "actions": [
+      "message",
+      "voice",
+      "check"
+    ],
+    "benefit": "I can voice my concerns or check on my child's progress"
+  },
+  "categories": {
+    "primary_entities": [
+      "child's counselors"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "message",
+      "voice",
+      "check"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "parent",
+        "to": "message",
+        "kind": "triggers"
+      },
+      {
+        "from": "parent",
+        "to": "voice",
+        "kind": "triggers"
+      },
+      {
+        "from": "parent",
+        "to": "check",
+        "kind": "triggers"
+      },
+      {
+        "from": "message",
+        "to": "child's counselors",
+        "kind": "targets"
+      },
+      {
+        "from": "voice",
+        "to": "child's counselors",
+        "kind": "targets"
+      },
+      {
+        "from": "check",
+        "to": "child's counselors",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1340,
+    "output": 277,
+    "time (ns)": 8074923000
+  }
+}

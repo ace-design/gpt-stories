@@ -1,0 +1,68 @@
+{
+  "story": "#G12# As a camp administrator, I want to store camper's immediate parent/guardian's information, so that I can easily call to notify them in case a grossly unacceptable behavior.\n",
+  "extraction": {
+    "personas": [
+      "camp administrator"
+    ],
+    "entities": [
+      "camper's immediate parent/guardian's information"
+    ],
+    "actions": [
+      "store",
+      "call",
+      "notify"
+    ],
+    "benefit": "I can easily call to notify them in case of grossly unacceptable behavior"
+  },
+  "categories": {
+    "primary_entities": [
+      "camper's immediate parent/guardian's information"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "store",
+      "call",
+      "notify"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp administrator",
+        "to": "store",
+        "kind": "triggers"
+      },
+      {
+        "from": "store",
+        "to": "camper's immediate parent/guardian's information",
+        "kind": "targets"
+      },
+      {
+        "from": "camp administrator",
+        "to": "call",
+        "kind": "triggers"
+      },
+      {
+        "from": "call",
+        "to": "camper's immediate parent/guardian's information",
+        "kind": "targets"
+      },
+      {
+        "from": "camp administrator",
+        "to": "notify",
+        "kind": "triggers"
+      },
+      {
+        "from": "notify",
+        "to": "camper's immediate parent/guardian's information",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1376,
+    "output": 318,
+    "time (ns)": 9264528000
+  }
+}

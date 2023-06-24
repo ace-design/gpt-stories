@@ -1,0 +1,47 @@
+{
+  "story": "#G12# As a camp counselor, I want to be able to take attendance of my assigned kids, so that I can make ensure everybody is accounted for.\n",
+  "extraction": {
+    "personas": [
+      "camp counselor"
+    ],
+    "entities": [
+      "attendance",
+      "assigned kids"
+    ],
+    "actions": [
+      "take"
+    ],
+    "benefit": "ensure everybody is accounted for"
+  },
+  "categories": {
+    "primary_entities": [
+      "attendance"
+    ],
+    "secondary_entities": [
+      "assigned kids"
+    ],
+    "primary_actions": [
+      "take"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "camp counselor",
+        "to": "take",
+        "kind": "triggers"
+      },
+      {
+        "from": "take",
+        "to": "attendance",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1303,
+    "output": 155,
+    "time (ns)": 4862601000
+  }
+}
