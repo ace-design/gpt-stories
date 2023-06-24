@@ -1,0 +1,47 @@
+{
+  "story": "#G03# As an Enforcement Staff member, I want to Issue a Notice of Violation, so that I can provide formal communication to the responsible party.\n",
+  "extraction": {
+    "personas": [
+      "Enforcement Staff member"
+    ],
+    "entities": [
+      "Notice of Violation",
+      "responsible party"
+    ],
+    "actions": [
+      "Issue"
+    ],
+    "benefit": "I can provide formal communication to the responsible party"
+  },
+  "categories": {
+    "primary_entities": [
+      "Notice of Violation"
+    ],
+    "secondary_entities": [
+      "responsible party"
+    ],
+    "primary_actions": [
+      "Issue"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Enforcement Staff member",
+        "to": "Issue",
+        "kind": "triggers"
+      },
+      {
+        "from": "Issue",
+        "to": "Notice of Violation",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1324,
+    "output": 174,
+    "time (ns)": 3918724000
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "story": "#G03# As a Staff member, I need to be notified when Geospatial attributes change, so that I can ensure that I am reviewing the permit/application to the most current data and appropriate standards.\n",
+  "extraction": {
+    "personas": [
+      "Staff member"
+    ],
+    "entities": [
+      "Geospatial attributes",
+      "permit/application"
+    ],
+    "actions": [
+      "be notified",
+      "review"
+    ],
+    "benefit": "ensure that I am reviewing the permit/application to the most current data and appropriate standards"
+  },
+  "categories": {
+    "primary_entities": [
+      "Geospatial attributes",
+      "permit/application"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "be notified",
+      "review"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Staff member",
+        "to": "be notified",
+        "kind": "triggers"
+      },
+      {
+        "from": "be notified",
+        "to": "Geospatial attributes",
+        "kind": "targets"
+      },
+      {
+        "from": "Staff member",
+        "to": "review",
+        "kind": "triggers"
+      },
+      {
+        "from": "review",
+        "to": "permit/application",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1374,
+    "output": 239,
+    "time (ns)": 4630237000
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "story": "#G03# As a Staff member, I want to Record an Internal Note, so that I can share information with other Staff collaborating on the record.\n",
+  "extraction": {
+    "personas": [
+      "Staff member"
+    ],
+    "entities": [
+      "Internal Note",
+      "Staff"
+    ],
+    "actions": [
+      "Record",
+      "Share"
+    ],
+    "benefit": "I can share information with other Staff collaborating on the record."
+  },
+  "categories": {
+    "primary_entities": [
+      "Internal Note",
+      "Staff"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Record",
+      "Share"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Staff member",
+        "to": "Record",
+        "kind": "triggers"
+      },
+      {
+        "from": "Record",
+        "to": "Internal Note",
+        "kind": "targets"
+      },
+      {
+        "from": "Record",
+        "to": "Staff",
+        "kind": "targets"
+      },
+      {
+        "from": "Record",
+        "to": "Share",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1321,
+    "output": 219,
+    "time (ns)": 4737096000
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "story": "#G03# As a Planning Staff member, I want to Evaluate Consistency with the Comprehensive Plan, so that I can complete my required review of a plan set and/or application.\n",
+  "extraction": {
+    "personas": [
+      "Planning Staff member"
+    ],
+    "entities": [
+      "Consistency",
+      "Comprehensive Plan",
+      "plan set",
+      "application"
+    ],
+    "actions": [
+      "Evaluate"
+    ],
+    "benefit": "complete required review of a plan set and/or application"
+  },
+  "categories": {
+    "primary_entities": [
+      "Consistency",
+      "Comprehensive Plan"
+    ],
+    "secondary_entities": [
+      "plan set",
+      "application"
+    ],
+    "primary_actions": [
+      "Evaluate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Planning Staff member",
+        "to": "Evaluate",
+        "kind": "triggers"
+      },
+      {
+        "from": "Evaluate",
+        "to": "Consistency",
+        "kind": "targets"
+      },
+      {
+        "from": "Evaluate",
+        "to": "Comprehensive Plan",
+        "kind": "targets"
+      },
+      {
+        "from": "Evaluate",
+        "to": "plan set",
+        "kind": "targets"
+      },
+      {
+        "from": "Evaluate",
+        "to": "application",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1354,
+    "output": 259,
+    "time (ns)": 5725875000
+  }
+}

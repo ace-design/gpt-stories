@@ -1,0 +1,51 @@
+{
+  "story": "#G03# As a Plan Review Staff member, I want to Assign Plans for Review, so that I can ensure plans have been assigned to the appropriate Plan Reviewer.\n",
+  "extraction": {
+    "personas": [
+      "Plan Review Staff member"
+    ],
+    "entities": [
+      "Plans",
+      "Plan Reviewer"
+    ],
+    "actions": [
+      "Assign"
+    ],
+    "benefit": "Ensure plans have been assigned to the appropriate Plan Reviewer"
+  },
+  "categories": {
+    "primary_entities": [
+      "Plans",
+      "Plan Reviewer"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Assign"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Plan Review Staff member",
+        "to": "Assign",
+        "kind": "triggers"
+      },
+      {
+        "from": "Assign",
+        "to": "Plans",
+        "kind": "targets"
+      },
+      {
+        "from": "Assign",
+        "to": "Plan Reviewer",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1329,
+    "output": 195,
+    "time (ns)": 4141732000
+  }
+}

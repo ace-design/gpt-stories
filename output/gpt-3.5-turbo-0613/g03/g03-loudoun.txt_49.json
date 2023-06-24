@@ -1,0 +1,51 @@
+{
+  "story": "#G03# As an Inspection Staff Supervisor, I want to Assign Inspections, so that I can make sure the appropriate Inspector receives the work.\n",
+  "extraction": {
+    "personas": [
+      "Inspection Staff Supervisor"
+    ],
+    "entities": [
+      "Inspections",
+      "Inspector"
+    ],
+    "actions": [
+      "Assign"
+    ],
+    "benefit": "I can make sure the appropriate Inspector receives the work"
+  },
+  "categories": {
+    "primary_entities": [
+      "Inspections",
+      "Inspector"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Assign"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Inspection Staff Supervisor",
+        "to": "Assign",
+        "kind": "triggers"
+      },
+      {
+        "from": "Assign",
+        "to": "Inspections",
+        "kind": "targets"
+      },
+      {
+        "from": "Assign",
+        "to": "Inspector",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1309,
+    "output": 191,
+    "time (ns)": 4550869000
+  }
+}

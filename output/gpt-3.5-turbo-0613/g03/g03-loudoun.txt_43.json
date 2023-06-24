@@ -1,0 +1,57 @@
+{
+  "story": "#G03# As a Development Staff member, I want to Issue a Development-related Permit, so that I can grant the request to the Applicant to begin work\n",
+  "extraction": {
+    "personas": [
+      "Development Staff member",
+      "Applicant"
+    ],
+    "entities": [
+      "Development-related Permit"
+    ],
+    "actions": [
+      "Issue",
+      "grant"
+    ],
+    "benefit": "grant the request to the Applicant to begin work"
+  },
+  "categories": {
+    "primary_entities": [
+      "Development-related Permit"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Issue",
+      "grant"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Development Staff member",
+        "to": "Issue",
+        "kind": "triggers"
+      },
+      {
+        "from": "Issue",
+        "to": "Development-related Permit",
+        "kind": "targets"
+      },
+      {
+        "from": "Development Staff member",
+        "to": "grant",
+        "kind": "triggers"
+      },
+      {
+        "from": "grant",
+        "to": "Applicant",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1325,
+    "output": 224,
+    "time (ns)": 4492251000
+  }
+}

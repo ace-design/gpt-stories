@@ -1,0 +1,58 @@
+{
+  "story": "#G03# As an Inspection Supervisor, I want to Manage Inspector Workload, so that I can meet service level and quality requirements.\n",
+  "extraction": {
+    "personas": [
+      "Inspection Supervisor"
+    ],
+    "entities": [
+      "Inspector Workload",
+      "service level",
+      "quality requirements"
+    ],
+    "actions": [
+      "Manage"
+    ],
+    "benefit": "I can meet service level and quality requirements"
+  },
+  "categories": {
+    "primary_entities": [
+      "Inspector Workload",
+      "service level",
+      "quality requirements"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Manage"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Inspection Supervisor",
+        "to": "Manage",
+        "kind": "triggers"
+      },
+      {
+        "from": "Manage",
+        "to": "Inspector Workload",
+        "kind": "targets"
+      },
+      {
+        "from": "Manage",
+        "to": "service level",
+        "kind": "targets"
+      },
+      {
+        "from": "Manage",
+        "to": "quality requirements",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1315,
+    "output": 227,
+    "time (ns)": 5699414000
+  }
+}

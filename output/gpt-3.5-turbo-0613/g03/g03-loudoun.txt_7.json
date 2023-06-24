@@ -1,0 +1,61 @@
+{
+  "story": "#G03# As an Applicant, I want to Pay Fee, so that I can satisfy outstanding charge associated with the service requested or received from the County.\n",
+  "extraction": {
+    "personas": [
+      "Applicant"
+    ],
+    "entities": [
+      "Fee",
+      "outstanding charge",
+      "service",
+      "County"
+    ],
+    "actions": [
+      "Pay"
+    ],
+    "benefit": "I can satisfy outstanding charge associated with the service requested or received from the County"
+  },
+  "categories": {
+    "primary_entities": [
+      "Fee",
+      "service",
+      "County"
+    ],
+    "secondary_entities": [
+      "outstanding charge"
+    ],
+    "primary_actions": [
+      "Pay"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Applicant",
+        "to": "Pay",
+        "kind": "triggers"
+      },
+      {
+        "from": "Pay",
+        "to": "Fee",
+        "kind": "targets"
+      },
+      {
+        "from": "Pay",
+        "to": "service",
+        "kind": "targets"
+      },
+      {
+        "from": "Pay",
+        "to": "County",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1341,
+    "output": 229,
+    "time (ns)": 5459331000
+  }
+}

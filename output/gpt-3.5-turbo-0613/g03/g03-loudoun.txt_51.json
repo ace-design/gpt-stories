@@ -1,0 +1,52 @@
+{
+  "story": "#G03# As an Inspector, I want to Conduct Inspections, so that I can validate Customer compliance with code and regulations and provide results of the inspection to the Customer.\n",
+  "extraction": {
+    "personas": [
+      "Inspector"
+    ],
+    "entities": [
+      "Inspections",
+      "Customer"
+    ],
+    "actions": [
+      "Conduct"
+    ],
+    "benefit": "validate Customer compliance with code and regulations and provide results of the inspection to the Customer"
+  },
+  "categories": {
+    "primary_entities": [
+      "Inspections"
+    ],
+    "secondary_entities": [
+      "Customer"
+    ],
+    "primary_actions": [
+      "Conduct"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Inspector",
+        "to": "Conduct",
+        "kind": "triggers"
+      },
+      {
+        "from": "Conduct",
+        "to": "Inspections",
+        "kind": "targets"
+      },
+      {
+        "from": "Conduct",
+        "to": "Customer",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1335,
+    "output": 195,
+    "time (ns)": 5084857000
+  }
+}

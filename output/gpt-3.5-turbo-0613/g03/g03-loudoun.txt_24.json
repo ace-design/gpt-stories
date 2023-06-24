@@ -1,0 +1,68 @@
+{
+  "story": "#G03# As a Staff member, I want to Perform a Staff Review, so that I can validate compliance of an application with the Zoning Ordinance and impact approval/denial of the application accordingly.\n",
+  "extraction": {
+    "personas": [
+      "Staff member"
+    ],
+    "entities": [
+      "Staff Review",
+      "application",
+      "Zoning Ordinance"
+    ],
+    "actions": [
+      "Perform",
+      "validate",
+      "impact approval/denial"
+    ],
+    "benefit": "validate compliance of an application with the Zoning Ordinance and impact approval/denial of the application accordingly"
+  },
+  "categories": {
+    "primary_entities": [
+      "Staff Review",
+      "application",
+      "Zoning Ordinance"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Perform"
+    ],
+    "secondary_actions": [
+      "validate",
+      "impact approval/denial"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Staff member",
+        "to": "Perform",
+        "kind": "triggers"
+      },
+      {
+        "from": "Perform",
+        "to": "Staff Review",
+        "kind": "targets"
+      },
+      {
+        "from": "Perform",
+        "to": "application",
+        "kind": "targets"
+      },
+      {
+        "from": "Perform",
+        "to": "Zoning Ordinance",
+        "kind": "targets"
+      },
+      {
+        "from": "Perform",
+        "to": "impact approval/denial",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1412,
+    "output": 286,
+    "time (ns)": 5453182000
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "story": "#G03# As an Applicant, I want to Modify my Application, so that I can successfully change information on an application.\n",
+  "extraction": {
+    "personas": [
+      "Applicant"
+    ],
+    "entities": [
+      "Application"
+    ],
+    "actions": [
+      "Modify",
+      "change information"
+    ],
+    "benefit": "successfully change information on an application"
+  },
+  "categories": {
+    "primary_entities": [
+      "Application"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Modify"
+    ],
+    "secondary_actions": [
+      "change information"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Applicant",
+        "to": "Modify",
+        "kind": "triggers"
+      },
+      {
+        "from": "Modify",
+        "to": "Application",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1283,
+    "output": 156,
+    "time (ns)": 4079395000
+  }
+}

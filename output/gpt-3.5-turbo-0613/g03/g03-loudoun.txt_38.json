@@ -1,0 +1,69 @@
+{
+  "story": "#G03# As a Plan Review Staff member, I want to successfully Conduct a Plan Review Meeting with the Applicant and record the outcome, so that I can listen to it again.\n",
+  "extraction": {
+    "personas": [
+      "Plan Review Staff member"
+    ],
+    "entities": [
+      "Plan Review Meeting",
+      "Applicant",
+      "outcome"
+    ],
+    "actions": [
+      "Conduct",
+      "record",
+      "listen"
+    ],
+    "benefit": "I can listen to it again"
+  },
+  "categories": {
+    "primary_entities": [
+      "Plan Review Meeting"
+    ],
+    "secondary_entities": [
+      "Applicant",
+      "outcome"
+    ],
+    "primary_actions": [
+      "Conduct"
+    ],
+    "secondary_actions": [
+      "record",
+      "listen"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Plan Review Staff member",
+        "to": "Conduct",
+        "kind": "triggers"
+      },
+      {
+        "from": "Conduct",
+        "to": "Plan Review Meeting",
+        "kind": "targets"
+      },
+      {
+        "from": "Conduct",
+        "to": "Applicant",
+        "kind": "targets"
+      },
+      {
+        "from": "record",
+        "to": "outcome",
+        "kind": "targets"
+      },
+      {
+        "from": "listen",
+        "to": "outcome",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1355,
+    "output": 264,
+    "time (ns)": 5816713000
+  }
+}

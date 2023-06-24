@@ -1,0 +1,89 @@
+{
+  "story": "#G03# As a Staff member, I want to create each condo unit, so that I can associate it to the child parcel and address after the condominiums are recorded in the system.\n",
+  "extraction": {
+    "personas": [
+      "Staff member"
+    ],
+    "entities": [
+      "condo unit",
+      "child parcel",
+      "address",
+      "condominiums"
+    ],
+    "actions": [
+      "create",
+      "associate",
+      "record"
+    ],
+    "benefit": "I can associate it to the child parcel and address after the condominiums are recorded in the system."
+  },
+  "categories": {
+    "primary_entities": [
+      "condo unit",
+      "child parcel",
+      "address",
+      "condominiums"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create",
+      "associate",
+      "record"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Staff member",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "condo unit",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "child parcel",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "address",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "condominiums",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "associate",
+        "kind": "triggers"
+      },
+      {
+        "from": "associate",
+        "to": "child parcel",
+        "kind": "targets"
+      },
+      {
+        "from": "associate",
+        "to": "address",
+        "kind": "targets"
+      },
+      {
+        "from": "record",
+        "to": "condominiums",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1403,
+    "output": 390,
+    "time (ns)": 7507105000
+  }
+}

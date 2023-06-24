@@ -1,0 +1,69 @@
+{
+  "story": "#G03# As a Staff member, I want to Develop a Staff Report, so that I can publish and distribute the report according to business rules.\n",
+  "extraction": {
+    "personas": [
+      "Staff member"
+    ],
+    "entities": [
+      "Staff Report"
+    ],
+    "actions": [
+      "Develop",
+      "publish",
+      "distribute"
+    ],
+    "benefit": "I can publish and distribute the report according to business rules."
+  },
+  "categories": {
+    "primary_entities": [
+      "Staff Report"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Develop"
+    ],
+    "secondary_actions": [
+      "publish",
+      "distribute"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Staff member",
+        "to": "Develop",
+        "kind": "triggers"
+      },
+      {
+        "from": "Develop",
+        "to": "Staff Report",
+        "kind": "targets"
+      },
+      {
+        "from": "Staff member",
+        "to": "publish",
+        "kind": "triggers"
+      },
+      {
+        "from": "publish",
+        "to": "Staff Report",
+        "kind": "targets"
+      },
+      {
+        "from": "Staff member",
+        "to": "distribute",
+        "kind": "triggers"
+      },
+      {
+        "from": "distribute",
+        "to": "Staff Report",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1322,
+    "output": 278,
+    "time (ns)": 5754698000
+  }
+}

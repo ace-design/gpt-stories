@@ -1,0 +1,425 @@
+START: 16:02:18
+# Processing g03-loudoun.txt
+- Story #[1] -- started at 16:02:18
+    - #G03# As a Public User, I want to Search for Information, so that I can obtain publicly available information concerning properties, County services, processes and other general information.
+
+        - calling model 16:02:18
+        - calling model 16:02:22
+        - calling model 16:02:26
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_1.json
+- Story #[2] -- started at 16:02:30
+    - #G03# As a ProspectiveApplicant, I want to research requirements and to select a service, so that I can find the relevant service and/or application type to initiate via the online portal.
+
+        - calling model 16:02:30
+        - calling model 16:02:34
+        - calling model 16:02:38
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_2.json
+- Story #[3] -- started at 16:02:44
+    - #G03# As an Applicant, I want to Request PreApplication Assistance, so that I can receive a response to a request for a meeting or information that is a result of the preapplication assistance.
+
+        - calling model 16:02:44
+        - calling model 16:02:48
+        - calling model 16:02:51
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_3.json
+- Story #[4] -- started at 16:02:56
+    - #G03# As a Customer, I want to Create a Customer Portal User Account, so that I can log on to the Customer Portal and perform transactions that first require user authentication.
+
+        - calling model 16:02:56
+        - calling model 16:02:59
+        - calling model 16:03:02
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_4.json
+- Story #[5] -- started at 16:03:08
+    - #G03# As an Applicant, I want to Submit Application, so that I can provide my information, plans and/or documents to initiate a transaction with the County.
+
+        - calling model 16:03:08
+        - calling model 16:03:11
+        - calling model 16:03:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_5.json
+- Story #[6] -- started at 16:03:18
+    - #G03# As an Applicant, I want to Submit Supporting Documentation, so that I can satisfy documentation requirements for my application.
+
+        - calling model 16:03:18
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:04:48
+        - calling model 16:04:52
+        - calling model 16:04:56
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_6.json
+- Story #[7] -- started at 16:05:00
+    - #G03# As an Applicant, I want to Pay Fee, so that I can satisfy outstanding charge associated with the service requested or received from the County.
+
+        - calling model 16:05:00
+        - calling model 16:05:03
+        - calling model 16:05:07
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_7.json
+- Story #[8] -- started at 16:05:11
+    - #G03# As an Applicant, I want to Check the Status of a transaction, so that I can understand where the provisioning of my service is in the process, such as information related to service levels, fees, plan review, permit, or inspection results.
+
+        - calling model 16:05:11
+        - calling model 16:05:15
+        - calling model 16:05:18
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_8.json
+- Story #[9] -- started at 16:05:25
+    - #G03# As an Applicant, I want to Modify my Application, so that I can successfully change information on an application.
+
+        - calling model 16:05:25
+        - calling model 16:05:28
+        - calling model 16:05:31
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_9.json
+- Story #[10] -- started at 16:05:35
+    - #G03# As a Staff member, I want to Perform a Completeness Review, so that I can validate when an application is complete and eligible for further technical review.
+
+        - calling model 16:05:35
+        - calling model 16:05:38
+        - calling model 16:05:41
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_10.json
+- Story #[11] -- started at 16:05:45
+    - #G03# As a Staff member, I want to Record an Internal Note, so that I can share information with other Staff collaborating on the record.
+
+        - calling model 16:05:45
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:07:15
+        - calling model 16:07:19
+        - calling model 16:07:22
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:08:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_11.json
+- Story #[12] -- started at 16:08:56
+    - #G03# As a Staff member, I want to Assign an Application for Detailed Review, so that I can review the for compliance and subsequently approved or denied.
+
+        - calling model 16:08:56
+        - calling model 16:09:00
+        - calling model 16:09:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_12.json
+- Story #[13] -- started at 16:09:09
+    - #G03# As a Staff member, I want to Apply a Hold, so that I can prevent progression through the workflow or other actions in the system until the issue is resolved.
+
+        - calling model 16:09:09
+        - calling model 16:09:13
+        - calling model 16:09:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_13.json
+- Story #[14] -- started at 16:09:23
+    - #G03# As a Staff member, I want to Remove a Hold, so that I can allow progression through the workflow or other actions in the system now that the issue has been resolved.
+
+        - calling model 16:09:23
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:10:53
+        - calling model 16:10:57
+        - calling model 16:11:00
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_14.json
+- Story #[15] -- started at 16:11:06
+    - #G03# As a Staff member, I want to Send a Formal Response to Applicant, so that I can satisfy communication and records responsibilities.
+
+        - calling model 16:11:06
+        - calling model 16:11:10
+        - calling model 16:11:13
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_15.json
+- Story #[16] -- started at 16:11:16
+    - #G03# As a Staff member, I want to Track  the Draft Proffers, so that I can preserve the history of draft proffer statements submitted by the Applicant.
+
+        - calling model 16:11:16
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:12:46
+        - calling model 16:12:50
+        - calling model 16:12:53
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_16.json
+- Story #[17] -- started at 16:12:56
+    - #G03# As a Staff member, I want to Manage Approved Proffers, so that I can ensure compliance with and satisfaction of the proffer in the future.
+
+        - calling model 16:12:56
+        - calling model 16:12:59
+        - calling model 16:13:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_17.json
+- Story #[18] -- started at 16:13:06
+    - #G03# As a Staff member, I want to Manage Ordinances, so that I can maintain accurate ordinance information in the System.
+
+        - calling model 16:13:06
+        - calling model 16:13:09
+        - calling model 16:13:13
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_18.json
+- Story #[19] -- started at 16:13:17
+    - #G03# As a Staff member, I want to Schedule a Meeting, so that I can bring the required parties together at a specific date/time to address an issue.
+
+        - calling model 16:13:17
+        - calling model 16:13:20
+        - calling model 16:13:24
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_19.json
+- Story #[20] -- started at 16:13:28
+    - #G03# As a staff member, I want to denote an application with a Final Action status. So that I can finish it.
+
+        - calling model 16:13:28
+        - calling model 16:13:31
+        - calling model 16:13:34
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:15:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_20.json
+- Story #[21] -- started at 16:15:08
+    - #G03# As a Planning Staff member, I want to Conduct and Track Plan Amendments and Planning Studies, so that I can record work in process, outcome, and location-based information related to the Plan(s).
+
+        - calling model 16:15:08
+        - calling model 16:15:12
+        - calling model 16:15:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_21.json
+- Story #[22] -- started at 16:15:20
+    - #G03# As a Planning Staff member, I want to Generate Planning-related Reports, so that I can access, analyze and/or export the needed information in the format I requested.
+
+        - calling model 16:15:20
+        - calling model 16:15:23
+        - calling model 16:15:27
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_22.json
+- Story #[23] -- started at 16:15:30
+    - #G03# As a Planning Staff member, I want to Evaluate Consistency with the Comprehensive Plan, so that I can complete my required review of a plan set and/or application.
+
+        - calling model 16:15:30
+        - calling model 16:15:33
+        - calling model 16:15:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_23.json
+- Story #[24] -- started at 16:15:42
+    - #G03# As a Staff member, I want to Perform a Staff Review, so that I can validate compliance of an application with the Zoning Ordinance and impact approval/denial of the application accordingly.
+
+        - calling model 16:15:42
+        - calling model 16:15:45
+        - calling model 16:15:49
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_24.json
+- Story #[25] -- started at 16:15:53
+    - #G03# As a Zoning Staff member, I want to Process the Requests for Zoning Information, so that I can capture my response to the request in the system and also send a communication from the system to the Applicant.
+
+        - calling model 16:15:53
+        - calling model 16:15:57
+        - calling model 16:16:00
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_25.json
+- Story #[26] -- started at 16:16:05
+    - #G03# As a Zoning Staff member, I want to Issue the Zoning-Related Permits, so that I can satisfy an Applicant's request for service that has proven to be eligible and in compliance with the Zoning Ordinance.
+
+        - calling model 16:16:05
+        - calling model 16:16:09
+        - calling model 16:16:12
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_26.json
+- Story #[27] -- started at 16:16:16
+    - #G03# As a Staff member, I want to Develop a Staff Report, so that I can publish and distribute the report according to business rules.
+
+        - calling model 16:16:16
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:17:46
+        - calling model 16:17:49
+        - calling model 16:17:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_27.json
+- Story #[28] -- started at 16:17:58
+    - #G03# As a Staff member, I want to Manage Hearing Calendars, so that I can track hearing-related activities and due dates.
+
+        - calling model 16:17:58
+        - calling model 16:18:01
+        - calling model 16:18:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_28.json
+- Story #[29] -- started at 16:18:08
+    - #G03# As a Staff member, I want to Assign a Hearing Date, so that I can present the application to the appropriate governing body within the timelines dictated by the relevant County rules and procedures.
+
+        - calling model 16:18:08
+        - calling model 16:18:12
+        - calling model 16:18:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_29.json
+- Story #[30] -- started at 16:18:22
+    - #G03# As a Staff member, I want to Manage Affidavits, so that I can ensure compliance with the requirements prior to the hearing.
+
+        - calling model 16:18:22
+        - calling model 16:18:25
+        - calling model 16:18:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_30.json
+- Story #[31] -- started at 16:18:31
+    - #G03# As an Applicant, I want to Satisfy Hearing Requirements, so that I can ensure all pre-hearing requirements are satisfied in time for the hearing.
+
+        - calling model 16:18:31
+        - calling model 16:18:35
+        - calling model 16:18:38
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_31.json
+- Story #[32] -- started at 16:18:41
+    - #G03# As a Staff member, I want to Prepare for and Support Hearing Execution, so that I can ensure all pre-hearing requirements are satisfied and staff and Applicant are ready for the hearing.
+
+        - calling model 16:18:41
+        - calling model 16:18:45
+        - calling model 16:18:48
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_32.json
+- Story #[33] -- started at 16:18:53
+    - #G03# As a Staff member, I want to Capture a Hearing Decision, so that I can enforce the system.
+
+        - calling model 16:18:53
+        - calling model 16:18:57
+        - calling model 16:19:00
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_33.json
+- Story #[34] -- started at 16:19:04
+    - #G03# As a Staff member, I want to Process the Appeals, so that I can track the outcome and record the impact on the relevant records.
+
+        - calling model 16:19:04
+        - calling model 16:19:09
+        - calling model 16:19:12
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_34.json
+- Story #[35] -- started at 16:19:16
+    - #G03# As a Plan Review Staff member, I want to Assign Plans for Review, so that I can ensure plans have been assigned to the appropriate Plan Reviewer.
+
+        - calling model 16:19:16
+        - calling model 16:19:20
+        - calling model 16:19:22
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_35.json
+- Story #[36] -- started at 16:19:26
+    - #G03# As a Plan Review Staff Supervisor, I want to Manage Plan Reviewer Workload, so that I can monitor and effectively adjust workload as necessary and ensure service levels are met
+
+        - calling model 16:19:26
+        - calling model 16:19:30
+        - calling model 16:19:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_36.json
+- Story #[37] -- started at 16:19:40
+    - #G03# As an Applicant, I want to Request a Plan Review Meeting, so that I can meet with the Plan Review Staff regarding the plan review.
+
+        - calling model 16:19:40
+        - calling model 16:19:43
+        - calling model 16:19:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_37.json
+- Story #[38] -- started at 16:19:51
+    - #G03# As a Plan Review Staff member, I want to successfully Conduct a Plan Review Meeting with the Applicant and record the outcome, so that I can listen to it again.
+
+        - calling model 16:19:51
+        - calling model 16:19:55
+        - calling model 16:19:58
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_38.json
+- Story #[39] -- started at 16:20:03
+    - #G03# As a Plan Review Staff member, I want to Review Plans, so that I can review them for compliance and either approve, or fail or deny the plans and record any conditions, clearances, or corrections needed from the Applicant.
+
+        - calling model 16:20:03
+        - calling model 16:20:07
+        - calling model 16:20:10
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_39.json
+- Story #[40] -- started at 16:20:14
+    - #G03# As an Applicant, I want to Resubmit Plans, so that I can review revised plans. 
+
+        - calling model 16:20:14
+        - calling model 16:20:17
+        - calling model 16:20:20
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_40.json
+- Story #[41] -- started at 16:20:23
+    - #G03# As a Plan Review Staff Member, I want to Review the Code Modifications submitted by the Applicant, so that I can review the request and if approved, associate it with the appropriate project.
+
+        - calling model 16:20:23
+        - calling model 16:20:27
+        - calling model 16:20:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_41.json
+- Story #[42] -- started at 16:20:34
+    - #G03# As a Plan Review Staff member, I want to Track the Completion of Required Plan Reviews, so that I can ensure all plan review tasks are completed, results have been sent to the Applicant and any downstream steps are initiated such has a final review or payment for permit issuance.
+
+        - calling model 16:20:34
+        - calling model 16:20:39
+        - calling model 16:20:42
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_42.json
+- Story #[43] -- started at 16:20:49
+    - #G03# As a Development Staff member, I want to Issue a Development-related Permit, so that I can grant the request to the Applicant to begin work
+
+        - calling model 16:20:49
+        - calling model 16:20:52
+        - calling model 16:20:55
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_43.json
+- Story #[44] -- started at 16:21:00
+    - #G03# As a Staff member, I want to Manage Bonds, so that I can track and manage bonds throughout the lifecycle of the project until release.
+
+        - calling model 16:21:00
+        - calling model 16:21:03
+        - calling model 16:21:06
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_44.json
+- Story #[45] -- started at 16:21:10
+    - #G03# As an Applicant, I want to Complete Building Development Project, so that I can receive any posted bond and/or obtain occupancy.
+
+        - calling model 16:21:10
+        - calling model 16:21:14
+        - calling model 16:21:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_45.json
+- Story #[46] -- started at 16:21:21
+    - #G03# As an Applicant, I want to Complete Building Development Project, so that I can receive any posted bond and/or obtain occupancy.
+
+        - calling model 16:21:21
+        - calling model 16:21:25
+        - calling model 16:21:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_46.json
+- Story #[47] -- started at 16:21:32
+    - #G03# As a Customer, I want to Request Inspection, so that a County inspector is assigned to perform an inspection of my project.
+
+        - calling model 16:21:32
+        - calling model 16:21:36
+        - calling model 16:21:39
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_47.json
+- Story #[48] -- started at 16:21:44
+    - #G03# As an Inspection Staff member, I want to Create an Inspection, so that I can schedule and assign the inspection.
+
+        - calling model 16:21:44
+        - calling model 16:21:48
+        - calling model 16:21:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_48.json
+- Story #[49] -- started at 16:21:57
+    - #G03# As an Inspection Staff Supervisor, I want to Assign Inspections, so that I can make sure the appropriate Inspector receives the work.
+
+        - calling model 16:21:57
+        - calling model 16:22:00
+        - calling model 16:22:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_49.json
+- Story #[50] -- started at 16:22:07
+    - #G03# As an Inspection Supervisor, I want to Manage Inspector Workload, so that I can meet service level and quality requirements.
+
+        - calling model 16:22:07
+        - calling model 16:22:11
+        - calling model 16:22:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_50.json
+- Story #[51] -- started at 16:22:19
+    - #G03# As an Inspector, I want to Conduct Inspections, so that I can validate Customer compliance with code and regulations and provide results of the inspection to the Customer.
+
+        - calling model 16:22:19
+        - calling model 16:22:23
+        - calling model 16:22:26
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_51.json
+- Story #[52] -- started at 16:22:30
+    - #G03# As an Enforcement Staff member, I want to Issue a Notice of Violation, so that I can provide formal communication to the responsible party.
+
+        - calling model 16:22:30
+        - calling model 16:22:34
+        - calling model 16:22:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_52.json
+- Story #[53] -- started at 16:22:40
+    - #G03# As a l Staff member, I want to search for Property information, so that I can obtain all associated current and historic owners, permits, and applications.
+
+        - calling model 16:22:40
+        - calling model 16:22:44
+        - calling model 16:22:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_53.json
+- Story #[54] -- started at 16:22:52
+    - #G03# As a Staff member, I need to be notified when Geospatial attributes change, so that I can ensure that I am reviewing the permit/application to the most current data and appropriate standards.
+
+        - calling model 16:22:52
+        - calling model 16:22:55
+        - calling model 16:22:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_54.json
+- Story #[55] -- started at 16:23:03
+    - #G03# As a County Staff Member, I want to create a custom query/report outside of the common querying/reporting functionality, so that I can fulfill a request.
+
+        - calling model 16:23:03
+        - calling model 16:23:06
+        - calling model 16:23:09
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_55.json
+- Story #[56] -- started at 16:23:14
+    - #G03# As a Staff member, I want to create each condo unit, so that I can associate it to the child parcel and address after the condominiums are recorded in the system.
+
+        - calling model 16:23:14
+        - calling model 16:23:18
+        - calling model 16:23:22
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_56.json
+- Story #[57] -- started at 16:23:28
+    - #G03# As a Technical Staff member, I want to update the GIS Property Management, so that I can successfully update the transactional Parcel Pin to reference the GIS layer where the Split or Merged Parcel Pin exists.
+
+        - calling model 16:23:28
+        - calling model 16:23:32
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:25:02
+        - calling model 16:25:06
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_57.json
+- Story #[58] -- started at 16:25:10
+    - #G03# As a Staff member, I want to Send or Post Citations and Fines, so that I can successfully send the Notice Of Violation document to the property owner and log information about the action.
+
+        - calling model 16:25:10
+        - calling model 16:25:14
+        - calling model 16:25:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g03-loudoun.txt_58.json
+END: 16:25:23

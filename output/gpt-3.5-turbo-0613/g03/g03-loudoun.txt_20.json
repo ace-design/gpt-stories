@@ -1,0 +1,56 @@
+{
+  "story": "#G03# As a staff member, I want to denote an application with a Final Action status. So that I can finish it.\n",
+  "extraction": {
+    "personas": [
+      "staff member"
+    ],
+    "entities": [
+      "application"
+    ],
+    "actions": [
+      "denote",
+      "finish"
+    ],
+    "benefit": "I can finish the application"
+  },
+  "categories": {
+    "primary_entities": [
+      "application"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "denote",
+      "finish"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "staff member",
+        "to": "denote",
+        "kind": "triggers"
+      },
+      {
+        "from": "denote",
+        "to": "application",
+        "kind": "targets"
+      },
+      {
+        "from": "staff member",
+        "to": "finish",
+        "kind": "triggers"
+      },
+      {
+        "from": "finish",
+        "to": "application",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1289,
+    "output": 210,
+    "time (ns)": 4609551000
+  }
+}

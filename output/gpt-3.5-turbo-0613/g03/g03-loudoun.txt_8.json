@@ -1,0 +1,87 @@
+{
+  "story": "#G03# As an Applicant, I want to Check the Status of a transaction, so that I can understand where the provisioning of my service is in the process, such as information related to service levels, fees, plan review, permit, or inspection results.\n",
+  "extraction": {
+    "personas": [
+      "Applicant"
+    ],
+    "entities": [
+      "transaction",
+      "provisioning",
+      "service levels",
+      "fees",
+      "plan review",
+      "permit",
+      "inspection results"
+    ],
+    "actions": [
+      "Check"
+    ],
+    "benefit": "I can understand where the provisioning of my service is in the process, such as information related to service levels, fees, plan review, permit, or inspection results."
+  },
+  "categories": {
+    "primary_entities": [
+      "transaction",
+      "provisioning"
+    ],
+    "secondary_entities": [
+      "service levels",
+      "fees",
+      "plan review",
+      "permit",
+      "inspection results"
+    ],
+    "primary_actions": [
+      "Check"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Applicant",
+        "to": "Check",
+        "kind": "triggers"
+      },
+      {
+        "from": "Check",
+        "to": "transaction",
+        "kind": "targets"
+      },
+      {
+        "from": "Check",
+        "to": "provisioning",
+        "kind": "targets"
+      },
+      {
+        "from": "Check",
+        "to": "service levels",
+        "kind": "targets"
+      },
+      {
+        "from": "Check",
+        "to": "fees",
+        "kind": "targets"
+      },
+      {
+        "from": "Check",
+        "to": "plan review",
+        "kind": "targets"
+      },
+      {
+        "from": "Check",
+        "to": "permit",
+        "kind": "targets"
+      },
+      {
+        "from": "Check",
+        "to": "inspection results",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1479,
+    "output": 378,
+    "time (ns)": 7547574000
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "story": "#G03# As a Staff member, I want to Remove a Hold, so that I can allow progression through the workflow or other actions in the system now that the issue has been resolved.\n",
+  "extraction": {
+    "personas": [
+      "Staff member"
+    ],
+    "entities": [
+      "Hold",
+      "workflow",
+      "system",
+      "issue"
+    ],
+    "actions": [
+      "Remove",
+      "allow progression"
+    ],
+    "benefit": "I can allow progression through the workflow or other actions in the system now that the issue has been resolved."
+  },
+  "categories": {
+    "primary_entities": [
+      "Hold",
+      "workflow",
+      "system",
+      "issue"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Remove",
+      "allow progression"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Staff member",
+        "to": "Remove",
+        "kind": "triggers"
+      },
+      {
+        "from": "Remove",
+        "to": "Hold",
+        "kind": "targets"
+      },
+      {
+        "from": "Remove",
+        "to": "workflow",
+        "kind": "targets"
+      },
+      {
+        "from": "Remove",
+        "to": "system",
+        "kind": "targets"
+      },
+      {
+        "from": "Remove",
+        "to": "issue",
+        "kind": "targets"
+      },
+      {
+        "from": "allow progression",
+        "to": "workflow",
+        "kind": "targets"
+      },
+      {
+        "from": "allow progression",
+        "to": "system",
+        "kind": "targets"
+      },
+      {
+        "from": "allow progression",
+        "to": "issue",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1381,
+    "output": 342,
+    "time (ns)": 7681997000
+  }
+}

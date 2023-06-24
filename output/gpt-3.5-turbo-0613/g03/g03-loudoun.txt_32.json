@@ -1,0 +1,74 @@
+{
+  "story": "#G03# As a Staff member, I want to Prepare for and Support Hearing Execution, so that I can ensure all pre-hearing requirements are satisfied and staff and Applicant are ready for the hearing.\n",
+  "extraction": {
+    "personas": [
+      "Staff member"
+    ],
+    "entities": [
+      "Hearing Execution",
+      "pre-hearing requirements",
+      "staff",
+      "Applicant"
+    ],
+    "actions": [
+      "Prepare for",
+      "Support"
+    ],
+    "benefit": "ensure all pre-hearing requirements are satisfied and staff and Applicant are ready for the hearing"
+  },
+  "categories": {
+    "primary_entities": [
+      "Hearing Execution",
+      "pre-hearing requirements"
+    ],
+    "secondary_entities": [
+      "staff",
+      "Applicant"
+    ],
+    "primary_actions": [
+      "Prepare for"
+    ],
+    "secondary_actions": [
+      "Support"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Staff member",
+        "to": "Prepare for",
+        "kind": "triggers"
+      },
+      {
+        "from": "Prepare for",
+        "to": "Hearing Execution",
+        "kind": "targets"
+      },
+      {
+        "from": "Prepare for",
+        "to": "pre-hearing requirements",
+        "kind": "targets"
+      },
+      {
+        "from": "Support",
+        "to": "Hearing Execution",
+        "kind": "targets"
+      },
+      {
+        "from": "Support",
+        "to": "staff",
+        "kind": "targets"
+      },
+      {
+        "from": "Support",
+        "to": "Applicant",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1394,
+    "output": 307,
+    "time (ns)": 5900293000
+  }
+}

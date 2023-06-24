@@ -1,0 +1,67 @@
+{
+  "story": "#G03# As a County Staff Member, I want to create a custom query/report outside of the common querying/reporting functionality, so that I can fulfill a request.\n",
+  "extraction": {
+    "personas": [
+      "County Staff Member"
+    ],
+    "entities": [
+      "custom query/report",
+      "common querying/reporting functionality",
+      "request"
+    ],
+    "actions": [
+      "create",
+      "fulfill"
+    ],
+    "benefit": "I can fulfill a request"
+  },
+  "categories": {
+    "primary_entities": [
+      "custom query/report"
+    ],
+    "secondary_entities": [
+      "common querying/reporting functionality",
+      "request"
+    ],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": [
+      "fulfill"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "County Staff Member",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "custom query/report",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "common querying/reporting functionality",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "request",
+        "kind": "targets"
+      },
+      {
+        "from": "fulfill",
+        "to": "request",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1345,
+    "output": 262,
+    "time (ns)": 5556440000
+  }
+}

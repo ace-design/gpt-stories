@@ -1,0 +1,71 @@
+{
+  "story": "#G03# As an Applicant, I want to Request a Plan Review Meeting, so that I can meet with the Plan Review Staff regarding the plan review.\n",
+  "extraction": {
+    "personas": [
+      "Applicant"
+    ],
+    "entities": [
+      "Plan Review Meeting",
+      "Plan Review Staff",
+      "plan review"
+    ],
+    "actions": [
+      "Request",
+      "meet"
+    ],
+    "benefit": "I can meet with the Plan Review Staff regarding the plan review"
+  },
+  "categories": {
+    "primary_entities": [
+      "Plan Review Meeting",
+      "Plan Review Staff"
+    ],
+    "secondary_entities": [
+      "plan review"
+    ],
+    "primary_actions": [
+      "Request",
+      "meet"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Applicant",
+        "to": "Request",
+        "kind": "triggers"
+      },
+      {
+        "from": "Request",
+        "to": "Plan Review Meeting",
+        "kind": "targets"
+      },
+      {
+        "from": "Request",
+        "to": "Plan Review Staff",
+        "kind": "targets"
+      },
+      {
+        "from": "Request",
+        "to": "plan review",
+        "kind": "targets"
+      },
+      {
+        "from": "meet",
+        "to": "Plan Review Staff",
+        "kind": "targets"
+      },
+      {
+        "from": "meet",
+        "to": "plan review",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1344,
+    "output": 290,
+    "time (ns)": 5193766000
+  }
+}

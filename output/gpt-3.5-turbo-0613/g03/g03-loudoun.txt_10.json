@@ -1,0 +1,47 @@
+{
+  "story": "#G03# As a Staff member, I want to Perform a Completeness Review, so that I can validate when an application is complete and eligible for further technical review.\n",
+  "extraction": {
+    "personas": [
+      "Staff member"
+    ],
+    "entities": [
+      "Completeness Review",
+      "application"
+    ],
+    "actions": [
+      "Perform"
+    ],
+    "benefit": "I can validate when an application is complete and eligible for further technical review."
+  },
+  "categories": {
+    "primary_entities": [
+      "Completeness Review"
+    ],
+    "secondary_entities": [
+      "application"
+    ],
+    "primary_actions": [
+      "Perform"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Staff member",
+        "to": "Perform",
+        "kind": "triggers"
+      },
+      {
+        "from": "Perform",
+        "to": "Completeness Review",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1332,
+    "output": 168,
+    "time (ns)": 4330532000
+  }
+}

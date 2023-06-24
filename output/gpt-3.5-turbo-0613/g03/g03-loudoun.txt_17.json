@@ -1,0 +1,44 @@
+{
+  "story": "#G03# As a Staff member, I want to Manage Approved Proffers, so that I can ensure compliance with and satisfaction of the proffer in the future.\n",
+  "extraction": {
+    "personas": [
+      "Staff member"
+    ],
+    "entities": [
+      "Approved Proffers"
+    ],
+    "actions": [
+      "Manage"
+    ],
+    "benefit": "ensure compliance with and satisfaction of the proffer in the future"
+  },
+  "categories": {
+    "primary_entities": [
+      "Approved Proffers"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Manage"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Staff member",
+        "to": "Manage",
+        "kind": "triggers"
+      },
+      {
+        "from": "Manage",
+        "to": "Approved Proffers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1321,
+    "output": 164,
+    "time (ns)": 3953947000
+  }
+}

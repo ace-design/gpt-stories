@@ -1,0 +1,59 @@
+{
+  "story": "#G03# As an Applicant, I want to Complete Building Development Project, so that I can receive any posted bond and/or obtain occupancy.\n",
+  "extraction": {
+    "personas": [
+      "Applicant"
+    ],
+    "entities": [
+      "Building Development Project",
+      "bond",
+      "occupancy"
+    ],
+    "actions": [
+      "Complete"
+    ],
+    "benefit": "receive any posted bond and/or obtain occupancy"
+  },
+  "categories": {
+    "primary_entities": [
+      "Building Development Project"
+    ],
+    "secondary_entities": [
+      "bond",
+      "occupancy"
+    ],
+    "primary_actions": [
+      "Complete"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Applicant",
+        "to": "Complete",
+        "kind": "triggers"
+      },
+      {
+        "from": "Complete",
+        "to": "Building Development Project",
+        "kind": "targets"
+      },
+      {
+        "from": "Complete",
+        "to": "bond",
+        "kind": "targets"
+      },
+      {
+        "from": "Complete",
+        "to": "occupancy",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1312,
+    "output": 221,
+    "time (ns)": 5037575000
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "story": "#G03# As a Planning Staff member, I want to Conduct and Track Plan Amendments and Planning Studies, so that I can record work in process, outcome, and location-based information related to the Plan(s).\n",
+  "extraction": {
+    "personas": [
+      "Planning Staff member"
+    ],
+    "entities": [
+      "Plan Amendments",
+      "Planning Studies"
+    ],
+    "actions": [
+      "Conduct",
+      "Track"
+    ],
+    "benefit": "record work in process, outcome, and location-based information related to the Plan(s)"
+  },
+  "categories": {
+    "primary_entities": [
+      "Plan Amendments"
+    ],
+    "secondary_entities": [
+      "Planning Studies"
+    ],
+    "primary_actions": [
+      "Conduct"
+    ],
+    "secondary_actions": [
+      "Track"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Planning Staff member",
+        "to": "Conduct",
+        "kind": "triggers"
+      },
+      {
+        "from": "Conduct",
+        "to": "Plan Amendments",
+        "kind": "targets"
+      },
+      {
+        "from": "Planning Staff member",
+        "to": "Track",
+        "kind": "triggers"
+      },
+      {
+        "from": "Track",
+        "to": "Planning Studies",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1372,
+    "output": 234,
+    "time (ns)": 5442237000
+  }
+}

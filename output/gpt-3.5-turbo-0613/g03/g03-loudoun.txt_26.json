@@ -1,0 +1,49 @@
+{
+  "story": "#G03# As a Zoning Staff member, I want to Issue the Zoning-Related Permits, so that I can satisfy an Applicant's request for service that has proven to be eligible and in compliance with the Zoning Ordinance.\n",
+  "extraction": {
+    "personas": [
+      "Zoning Staff member"
+    ],
+    "entities": [
+      "Zoning-Related Permits",
+      "Applicant's request for service",
+      "Zoning Ordinance"
+    ],
+    "actions": [
+      "Issue"
+    ],
+    "benefit": "I can satisfy an Applicant's request for service that has proven to be eligible and in compliance with the Zoning Ordinance."
+  },
+  "categories": {
+    "primary_entities": [
+      "Zoning-Related Permits"
+    ],
+    "secondary_entities": [
+      "Applicant's request for service",
+      "Zoning Ordinance"
+    ],
+    "primary_actions": [
+      "Issue"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zoning Staff member",
+        "to": "Issue",
+        "kind": "triggers"
+      },
+      {
+        "from": "Issue",
+        "to": "Zoning-Related Permits",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1443,
+    "output": 213,
+    "time (ns)": 4455893000
+  }
+}

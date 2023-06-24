@@ -1,0 +1,47 @@
+{
+  "story": "#G03# As a Staff member, I want to Manage Affidavits, so that I can ensure compliance with the requirements prior to the hearing.\n",
+  "extraction": {
+    "personas": [
+      "Staff member"
+    ],
+    "entities": [
+      "Affidavits",
+      "requirements"
+    ],
+    "actions": [
+      "Manage"
+    ],
+    "benefit": "ensure compliance with the requirements prior to the hearing"
+  },
+  "categories": {
+    "primary_entities": [
+      "Affidavits"
+    ],
+    "secondary_entities": [
+      "requirements"
+    ],
+    "primary_actions": [
+      "Manage"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Staff member",
+        "to": "Manage",
+        "kind": "triggers"
+      },
+      {
+        "from": "Manage",
+        "to": "Affidavits",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1314,
+    "output": 166,
+    "time (ns)": 3609358000
+  }
+}

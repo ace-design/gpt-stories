@@ -1,0 +1,50 @@
+{
+  "story": "#G03# As a Staff member, I want to Track  the Draft Proffers, so that I can preserve the history of draft proffer statements submitted by the Applicant.\n",
+  "extraction": {
+    "personas": [
+      "Staff member"
+    ],
+    "entities": [
+      "Draft Proffers",
+      "Applicant"
+    ],
+    "actions": [
+      "Track",
+      "preserve"
+    ],
+    "benefit": "I can preserve the history of draft proffer statements submitted by the Applicant"
+  },
+  "categories": {
+    "primary_entities": [
+      "Draft Proffers"
+    ],
+    "secondary_entities": [
+      "Applicant"
+    ],
+    "primary_actions": [
+      "Track"
+    ],
+    "secondary_actions": [
+      "preserve"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Staff member",
+        "to": "Track",
+        "kind": "triggers"
+      },
+      {
+        "from": "Track",
+        "to": "Draft Proffers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1349,
+    "output": 178,
+    "time (ns)": 4227819000
+  }
+}

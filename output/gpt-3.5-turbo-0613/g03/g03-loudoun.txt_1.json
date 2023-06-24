@@ -1,0 +1,53 @@
+{
+  "story": "#G03# As a Public User, I want to Search for Information, so that I can obtain publicly available information concerning properties, County services, processes and other general information.\n",
+  "extraction": {
+    "personas": [
+      "Public User"
+    ],
+    "entities": [
+      "Information",
+      "properties",
+      "County services",
+      "processes",
+      "general information"
+    ],
+    "actions": [
+      "Search"
+    ],
+    "benefit": "I can obtain publicly available information concerning properties, County services, processes and other general information"
+  },
+  "categories": {
+    "primary_entities": [
+      "Information"
+    ],
+    "secondary_entities": [
+      "properties",
+      "County services",
+      "processes",
+      "general information"
+    ],
+    "primary_actions": [
+      "Search"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Public User",
+        "to": "Search",
+        "kind": "triggers"
+      },
+      {
+        "from": "Search",
+        "to": "Information",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1369,
+    "output": 189,
+    "time (ns)": 5428622000
+  }
+}

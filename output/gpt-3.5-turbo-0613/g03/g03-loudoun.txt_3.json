@@ -1,0 +1,67 @@
+{
+  "story": "#G03# As an Applicant, I want to Request PreApplication Assistance, so that I can receive a response to a request for a meeting or information that is a result of the preapplication assistance.\n",
+  "extraction": {
+    "personas": [
+      "Applicant"
+    ],
+    "entities": [
+      "PreApplication Assistance",
+      "meeting",
+      "information"
+    ],
+    "actions": [
+      "Request",
+      "receive"
+    ],
+    "benefit": "receive a response to a request for a meeting or information that is a result of the preapplication assistance"
+  },
+  "categories": {
+    "primary_entities": [
+      "PreApplication Assistance"
+    ],
+    "secondary_entities": [
+      "meeting",
+      "information"
+    ],
+    "primary_actions": [
+      "Request"
+    ],
+    "secondary_actions": [
+      "receive"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Applicant",
+        "to": "Request",
+        "kind": "triggers"
+      },
+      {
+        "from": "Request",
+        "to": "PreApplication Assistance",
+        "kind": "targets"
+      },
+      {
+        "from": "Request",
+        "to": "meeting",
+        "kind": "targets"
+      },
+      {
+        "from": "Request",
+        "to": "information",
+        "kind": "targets"
+      },
+      {
+        "from": "Request",
+        "to": "receive",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1376,
+    "output": 261,
+    "time (ns)": 6022981000
+  }
+}

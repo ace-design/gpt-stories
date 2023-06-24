@@ -1,0 +1,47 @@
+{
+  "story": "#G03# As a Staff member, I want to Schedule a Meeting, so that I can bring the required parties together at a specific date/time to address an issue.\n",
+  "extraction": {
+    "personas": [
+      "Staff member"
+    ],
+    "entities": [
+      "Meeting",
+      "required parties"
+    ],
+    "actions": [
+      "Schedule"
+    ],
+    "benefit": "bring the required parties together at a specific date/time to address an issue"
+  },
+  "categories": {
+    "primary_entities": [
+      "Meeting"
+    ],
+    "secondary_entities": [
+      "required parties"
+    ],
+    "primary_actions": [
+      "Schedule"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Staff member",
+        "to": "Schedule",
+        "kind": "triggers"
+      },
+      {
+        "from": "Schedule",
+        "to": "Meeting",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1327,
+    "output": 164,
+    "time (ns)": 5213496000
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "story": "#G03# As a Plan Review Staff Supervisor, I want to Manage Plan Reviewer Workload, so that I can monitor and effectively adjust workload as necessary and ensure service levels are met\n",
+  "extraction": {
+    "personas": [
+      "Plan Review Staff Supervisor"
+    ],
+    "entities": [
+      "Plan Reviewer Workload",
+      "workload",
+      "service levels"
+    ],
+    "actions": [
+      "Manage",
+      "monitor",
+      "adjust"
+    ],
+    "benefit": "I can effectively adjust workload as necessary and ensure service levels are met"
+  },
+  "categories": {
+    "primary_entities": [
+      "Plan Reviewer Workload",
+      "workload",
+      "service levels"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Manage",
+      "monitor",
+      "adjust"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Plan Review Staff Supervisor",
+        "to": "Manage",
+        "kind": "triggers"
+      },
+      {
+        "from": "Manage",
+        "to": "Plan Reviewer Workload",
+        "kind": "targets"
+      },
+      {
+        "from": "Manage",
+        "to": "workload",
+        "kind": "targets"
+      },
+      {
+        "from": "Manage",
+        "to": "service levels",
+        "kind": "targets"
+      },
+      {
+        "from": "monitor",
+        "to": "Plan Reviewer Workload",
+        "kind": "targets"
+      },
+      {
+        "from": "monitor",
+        "to": "workload",
+        "kind": "targets"
+      },
+      {
+        "from": "monitor",
+        "to": "service levels",
+        "kind": "targets"
+      },
+      {
+        "from": "adjust",
+        "to": "Plan Reviewer Workload",
+        "kind": "targets"
+      },
+      {
+        "from": "adjust",
+        "to": "workload",
+        "kind": "targets"
+      },
+      {
+        "from": "adjust",
+        "to": "service levels",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1384,
+    "output": 414,
+    "time (ns)": 7745562000
+  }
+}

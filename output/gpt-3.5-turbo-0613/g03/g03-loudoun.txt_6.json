@@ -1,0 +1,58 @@
+{
+  "story": "#G03# As an Applicant, I want to Submit Supporting Documentation, so that I can satisfy documentation requirements for my application.\n",
+  "extraction": {
+    "personas": [
+      "Applicant"
+    ],
+    "entities": [
+      "Supporting Documentation",
+      "documentation requirements",
+      "application"
+    ],
+    "actions": [
+      "Submit"
+    ],
+    "benefit": "I can satisfy documentation requirements for my application"
+  },
+  "categories": {
+    "primary_entities": [
+      "Supporting Documentation",
+      "documentation requirements",
+      "application"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Submit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Applicant",
+        "to": "Submit",
+        "kind": "triggers"
+      },
+      {
+        "from": "Submit",
+        "to": "Supporting Documentation",
+        "kind": "targets"
+      },
+      {
+        "from": "Submit",
+        "to": "documentation requirements",
+        "kind": "targets"
+      },
+      {
+        "from": "Submit",
+        "to": "application",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1304,
+    "output": 222,
+    "time (ns)": 5453839000
+  }
+}

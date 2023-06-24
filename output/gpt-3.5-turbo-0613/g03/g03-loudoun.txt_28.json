@@ -1,0 +1,62 @@
+{
+  "story": "#G03# As a Staff member, I want to Manage Hearing Calendars, so that I can track hearing-related activities and due dates.\n",
+  "extraction": {
+    "personas": [
+      "Staff member"
+    ],
+    "entities": [
+      "Hearing Calendars",
+      "hearing-related activities",
+      "due dates"
+    ],
+    "actions": [
+      "Manage",
+      "track"
+    ],
+    "benefit": "I can track hearing-related activities and due dates"
+  },
+  "categories": {
+    "primary_entities": [
+      "Hearing Calendars"
+    ],
+    "secondary_entities": [
+      "hearing-related activities",
+      "due dates"
+    ],
+    "primary_actions": [
+      "Manage"
+    ],
+    "secondary_actions": [
+      "track"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Staff member",
+        "to": "Manage",
+        "kind": "triggers"
+      },
+      {
+        "from": "Manage",
+        "to": "Hearing Calendars",
+        "kind": "targets"
+      },
+      {
+        "from": "Manage",
+        "to": "hearing-related activities",
+        "kind": "targets"
+      },
+      {
+        "from": "Manage",
+        "to": "due dates",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1333,
+    "output": 239,
+    "time (ns)": 4718208000
+  }
+}

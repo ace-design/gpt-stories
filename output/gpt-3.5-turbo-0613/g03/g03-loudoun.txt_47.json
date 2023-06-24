@@ -1,0 +1,79 @@
+{
+  "story": "#G03# As a Customer, I want to Request Inspection, so that a County inspector is assigned to perform an inspection of my project.\n",
+  "extraction": {
+    "personas": [
+      "Customer"
+    ],
+    "entities": [
+      "Request Inspection",
+      "County inspector",
+      "inspection",
+      "project"
+    ],
+    "actions": [
+      "assigned",
+      "perform"
+    ],
+    "benefit": "a County inspector is assigned to perform an inspection of my project"
+  },
+  "categories": {
+    "primary_entities": [
+      "Request Inspection"
+    ],
+    "secondary_entities": [
+      "County inspector",
+      "inspection",
+      "project"
+    ],
+    "primary_actions": [
+      "assigned"
+    ],
+    "secondary_actions": [
+      "perform"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Customer",
+        "to": "assigned",
+        "kind": "triggers"
+      },
+      {
+        "from": "assigned",
+        "to": "Request Inspection",
+        "kind": "targets"
+      },
+      {
+        "from": "assigned",
+        "to": "County inspector",
+        "kind": "targets"
+      },
+      {
+        "from": "assigned",
+        "to": "inspection",
+        "kind": "targets"
+      },
+      {
+        "from": "assigned",
+        "to": "project",
+        "kind": "targets"
+      },
+      {
+        "from": "perform",
+        "to": "inspection",
+        "kind": "targets"
+      },
+      {
+        "from": "perform",
+        "to": "project",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1331,
+    "output": 306,
+    "time (ns)": 5920222000
+  }
+}

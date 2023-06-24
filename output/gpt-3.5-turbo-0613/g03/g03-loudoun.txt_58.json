@@ -1,0 +1,75 @@
+{
+  "story": "#G03# As a Staff member, I want to Send or Post Citations and Fines, so that I can successfully send the Notice Of Violation document to the property owner and log information about the action.\n",
+  "extraction": {
+    "personas": [
+      "Staff member"
+    ],
+    "entities": [
+      "Citations and Fines",
+      "Notice Of Violation document",
+      "property owner"
+    ],
+    "actions": [
+      "Send",
+      "Post"
+    ],
+    "benefit": "successfully send the Notice Of Violation document to the property owner and log information about the action"
+  },
+  "categories": {
+    "primary_entities": [
+      "Citations and Fines",
+      "Notice Of Violation document",
+      "property owner"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Send",
+      "Post"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Staff member",
+        "to": "Send",
+        "kind": "triggers"
+      },
+      {
+        "from": "Send",
+        "to": "Citations and Fines",
+        "kind": "targets"
+      },
+      {
+        "from": "Send",
+        "to": "Notice Of Violation document",
+        "kind": "targets"
+      },
+      {
+        "from": "Send",
+        "to": "property owner",
+        "kind": "targets"
+      },
+      {
+        "from": "Post",
+        "to": "Citations and Fines",
+        "kind": "targets"
+      },
+      {
+        "from": "Post",
+        "to": "Notice Of Violation document",
+        "kind": "targets"
+      },
+      {
+        "from": "Post",
+        "to": "property owner",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1405,
+    "output": 340,
+    "time (ns)": 6225567000
+  }
+}

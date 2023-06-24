@@ -1,0 +1,74 @@
+{
+  "story": "#G03# As a Customer, I want to Create a Customer Portal User Account, so that I can log on to the Customer Portal and perform transactions that first require user authentication.\n",
+  "extraction": {
+    "personas": [
+      "Customer"
+    ],
+    "entities": [
+      "Customer Portal User Account",
+      "Customer Portal",
+      "transactions"
+    ],
+    "actions": [
+      "Create",
+      "log on",
+      "perform"
+    ],
+    "benefit": "perform transactions that first require user authentication"
+  },
+  "categories": {
+    "primary_entities": [
+      "Customer Portal User Account",
+      "Customer Portal"
+    ],
+    "secondary_entities": [
+      "transactions"
+    ],
+    "primary_actions": [
+      "Create",
+      "log on"
+    ],
+    "secondary_actions": [
+      "perform"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Customer",
+        "to": "Create",
+        "kind": "triggers"
+      },
+      {
+        "from": "Create",
+        "to": "Customer Portal User Account",
+        "kind": "targets"
+      },
+      {
+        "from": "Customer",
+        "to": "log on",
+        "kind": "triggers"
+      },
+      {
+        "from": "log on",
+        "to": "Customer Portal",
+        "kind": "targets"
+      },
+      {
+        "from": "log on",
+        "to": "perform",
+        "kind": "triggers"
+      },
+      {
+        "from": "perform",
+        "to": "transactions",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1354,
+    "output": 289,
+    "time (ns)": 6161787000
+  }
+}

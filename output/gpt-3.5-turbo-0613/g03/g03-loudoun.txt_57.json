@@ -1,0 +1,66 @@
+{
+  "story": "#G03# As a Technical Staff member, I want to update the GIS Property Management, so that I can successfully update the transactional Parcel Pin to reference the GIS layer where the Split or Merged Parcel Pin exists.\n",
+  "extraction": {
+    "personas": [
+      "Technical Staff member"
+    ],
+    "entities": [
+      "GIS Property Management",
+      "transactional Parcel Pin",
+      "GIS layer",
+      "Split or Merged Parcel Pin"
+    ],
+    "actions": [
+      "update"
+    ],
+    "benefit": "successfully update the transactional Parcel Pin to reference the GIS layer where the Split or Merged Parcel Pin exists"
+  },
+  "categories": {
+    "primary_entities": [
+      "GIS Property Management",
+      "transactional Parcel Pin",
+      "GIS layer"
+    ],
+    "secondary_entities": [
+      "Split or Merged Parcel Pin"
+    ],
+    "primary_actions": [
+      "update"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Technical Staff member",
+        "to": "update",
+        "kind": "triggers"
+      },
+      {
+        "from": "update",
+        "to": "GIS Property Management",
+        "kind": "targets"
+      },
+      {
+        "from": "update",
+        "to": "transactional Parcel Pin",
+        "kind": "targets"
+      },
+      {
+        "from": "update",
+        "to": "GIS layer",
+        "kind": "targets"
+      },
+      {
+        "from": "update",
+        "to": "Split or Merged Parcel Pin",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1421,
+    "output": 291,
+    "time (ns)": 6471943000
+  }
+}

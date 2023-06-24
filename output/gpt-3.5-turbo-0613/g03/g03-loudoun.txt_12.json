@@ -1,0 +1,81 @@
+{
+  "story": "#G03# As a Staff member, I want to Assign an Application for Detailed Review, so that I can review the for compliance and subsequently approved or denied.\n",
+  "extraction": {
+    "personas": [
+      "Staff member"
+    ],
+    "entities": [
+      "Application"
+    ],
+    "actions": [
+      "Assign",
+      "Review",
+      "Approve",
+      "Deny"
+    ],
+    "benefit": "Review the application for compliance and subsequently approve or deny it"
+  },
+  "categories": {
+    "primary_entities": [
+      "Application"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Assign",
+      "Review"
+    ],
+    "secondary_actions": [
+      "Approve",
+      "Deny"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Staff member",
+        "to": "Assign",
+        "kind": "triggers"
+      },
+      {
+        "from": "Assign",
+        "to": "Application",
+        "kind": "targets"
+      },
+      {
+        "from": "Staff member",
+        "to": "Review",
+        "kind": "triggers"
+      },
+      {
+        "from": "Review",
+        "to": "Application",
+        "kind": "targets"
+      },
+      {
+        "from": "Staff member",
+        "to": "Approve",
+        "kind": "triggers"
+      },
+      {
+        "from": "Approve",
+        "to": "Application",
+        "kind": "targets"
+      },
+      {
+        "from": "Staff member",
+        "to": "Deny",
+        "kind": "triggers"
+      },
+      {
+        "from": "Deny",
+        "to": "Application",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1335,
+    "output": 335,
+    "time (ns)": 7506499000
+  }
+}

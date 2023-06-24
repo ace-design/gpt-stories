@@ -1,0 +1,51 @@
+{
+  "story": "#G03# As an Applicant, I want to Submit Application, so that I can provide my information, plans and/or documents to initiate a transaction with the County.\n",
+  "extraction": {
+    "personas": [
+      "Applicant"
+    ],
+    "entities": [
+      "Application",
+      "County"
+    ],
+    "actions": [
+      "Submit"
+    ],
+    "benefit": "I can provide my information, plans and/or documents to initiate a transaction with the County."
+  },
+  "categories": {
+    "primary_entities": [
+      "Application",
+      "County"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Submit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Applicant",
+        "to": "Submit",
+        "kind": "triggers"
+      },
+      {
+        "from": "Submit",
+        "to": "Application",
+        "kind": "targets"
+      },
+      {
+        "from": "Submit",
+        "to": "County",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1330,
+    "output": 191,
+    "time (ns)": 4222770000
+  }
+}

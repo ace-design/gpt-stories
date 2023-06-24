@@ -1,0 +1,68 @@
+{
+  "story": "#G03# As an Inspection Staff member, I want to Create an Inspection, so that I can schedule and assign the inspection.\n",
+  "extraction": {
+    "personas": [
+      "Inspection Staff member"
+    ],
+    "entities": [
+      "Inspection"
+    ],
+    "actions": [
+      "Create",
+      "schedule",
+      "assign"
+    ],
+    "benefit": "I can schedule and assign the inspection"
+  },
+  "categories": {
+    "primary_entities": [
+      "Inspection"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Create",
+      "schedule",
+      "assign"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Inspection Staff member",
+        "to": "Create",
+        "kind": "triggers"
+      },
+      {
+        "from": "Create",
+        "to": "Inspection",
+        "kind": "targets"
+      },
+      {
+        "from": "Inspection Staff member",
+        "to": "schedule",
+        "kind": "triggers"
+      },
+      {
+        "from": "schedule",
+        "to": "Inspection",
+        "kind": "targets"
+      },
+      {
+        "from": "Inspection Staff member",
+        "to": "assign",
+        "kind": "triggers"
+      },
+      {
+        "from": "assign",
+        "to": "Inspection",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1303,
+    "output": 279,
+    "time (ns)": 6529128000
+  }
+}

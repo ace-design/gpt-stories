@@ -1,0 +1,73 @@
+{
+  "story": "#G03# As a l Staff member, I want to search for Property information, so that I can obtain all associated current and historic owners, permits, and applications.\n",
+  "extraction": {
+    "personas": [
+      "Staff member"
+    ],
+    "entities": [
+      "Property information",
+      "current owners",
+      "historic owners",
+      "permits",
+      "applications"
+    ],
+    "actions": [
+      "search"
+    ],
+    "benefit": "I can obtain all associated current and historic owners, permits, and applications"
+  },
+  "categories": {
+    "primary_entities": [
+      "Property information"
+    ],
+    "secondary_entities": [
+      "current owners",
+      "historic owners",
+      "permits",
+      "applications"
+    ],
+    "primary_actions": [
+      "search"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Staff member",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "Property information",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "current owners",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "historic owners",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "permits",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "applications",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1363,
+    "output": 292,
+    "time (ns)": 5937994000
+  }
+}

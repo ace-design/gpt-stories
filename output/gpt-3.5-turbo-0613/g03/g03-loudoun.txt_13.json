@@ -1,0 +1,86 @@
+{
+  "story": "#G03# As a Staff member, I want to Apply a Hold, so that I can prevent progression through the workflow or other actions in the system until the issue is resolved.\n",
+  "extraction": {
+    "personas": [
+      "Staff member"
+    ],
+    "entities": [
+      "Hold",
+      "workflow",
+      "system",
+      "issue"
+    ],
+    "actions": [
+      "Apply",
+      "prevent",
+      "progression",
+      "resolve"
+    ],
+    "benefit": "prevent progression through the workflow or other actions in the system until the issue is resolved"
+  },
+  "categories": {
+    "primary_entities": [
+      "Hold",
+      "workflow",
+      "system",
+      "issue"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Apply",
+      "prevent",
+      "progression",
+      "resolve"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Staff member",
+        "to": "Apply",
+        "kind": "triggers"
+      },
+      {
+        "from": "Apply",
+        "to": "Hold",
+        "kind": "targets"
+      },
+      {
+        "from": "Apply",
+        "to": "prevent",
+        "kind": "targets"
+      },
+      {
+        "from": "Apply",
+        "to": "progression",
+        "kind": "targets"
+      },
+      {
+        "from": "Apply",
+        "to": "resolve",
+        "kind": "targets"
+      },
+      {
+        "from": "Hold",
+        "to": "workflow",
+        "kind": "targets"
+      },
+      {
+        "from": "Hold",
+        "to": "system",
+        "kind": "targets"
+      },
+      {
+        "from": "Hold",
+        "to": "issue",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1383,
+    "output": 348,
+    "time (ns)": 7209897000
+  }
+}

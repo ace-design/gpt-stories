@@ -1,0 +1,54 @@
+{
+  "story": "#G03# As a Planning Staff member, I want to Generate Planning-related Reports, so that I can access, analyze and/or export the needed information in the format I requested.\n",
+  "extraction": {
+    "personas": [
+      "Planning Staff member"
+    ],
+    "entities": [
+      "Planning-related Reports",
+      "information"
+    ],
+    "actions": [
+      "Generate",
+      "access",
+      "analyze",
+      "export"
+    ],
+    "benefit": "access, analyze and/or export the needed information in the format I requested"
+  },
+  "categories": {
+    "primary_entities": [
+      "Planning-related Reports"
+    ],
+    "secondary_entities": [
+      "information"
+    ],
+    "primary_actions": [
+      "Generate"
+    ],
+    "secondary_actions": [
+      "access",
+      "analyze",
+      "export"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Planning Staff member",
+        "to": "Generate",
+        "kind": "triggers"
+      },
+      {
+        "from": "Generate",
+        "to": "Planning-related Reports",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1363,
+    "output": 187,
+    "time (ns)": 3996597000
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "story": "#G03# As a Staff member, I want to Manage Ordinances, so that I can maintain accurate ordinance information in the System.\n",
+  "extraction": {
+    "personas": [
+      "Staff member"
+    ],
+    "entities": [
+      "Ordinances",
+      "System"
+    ],
+    "actions": [
+      "Manage"
+    ],
+    "benefit": "I can maintain accurate ordinance information in the System."
+  },
+  "categories": {
+    "primary_entities": [
+      "Ordinances",
+      "System"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Manage"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Staff member",
+        "to": "Manage",
+        "kind": "triggers"
+      },
+      {
+        "from": "Manage",
+        "to": "Ordinances",
+        "kind": "targets"
+      },
+      {
+        "from": "Manage",
+        "to": "System",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1305,
+    "output": 189,
+    "time (ns)": 4299073000
+  }
+}

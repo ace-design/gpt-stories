@@ -1,0 +1,47 @@
+{
+  "story": "#G03# As a Staff member, I want to Send a Formal Response to Applicant, so that I can satisfy communication and records responsibilities.\n",
+  "extraction": {
+    "personas": [
+      "Staff member"
+    ],
+    "entities": [
+      "Formal Response",
+      "Applicant"
+    ],
+    "actions": [
+      "Send"
+    ],
+    "benefit": "I can satisfy communication and records responsibilities"
+  },
+  "categories": {
+    "primary_entities": [
+      "Formal Response"
+    ],
+    "secondary_entities": [
+      "Applicant"
+    ],
+    "primary_actions": [
+      "Send"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Staff member",
+        "to": "Send",
+        "kind": "triggers"
+      },
+      {
+        "from": "Send",
+        "to": "Formal Response",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1301,
+    "output": 163,
+    "time (ns)": 3614166000
+  }
+}

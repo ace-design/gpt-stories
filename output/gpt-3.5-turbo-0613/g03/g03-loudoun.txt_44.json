@@ -1,0 +1,63 @@
+{
+  "story": "#G03# As a Staff member, I want to Manage Bonds, so that I can track and manage bonds throughout the lifecycle of the project until release.\n",
+  "extraction": {
+    "personas": [
+      "Staff member"
+    ],
+    "entities": [
+      "Bonds",
+      "lifecycle of the project",
+      "release"
+    ],
+    "actions": [
+      "Manage",
+      "track",
+      "manage"
+    ],
+    "benefit": "I can track and manage bonds throughout the lifecycle of the project until release."
+  },
+  "categories": {
+    "primary_entities": [
+      "Bonds",
+      "lifecycle of the project",
+      "release"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Manage"
+    ],
+    "secondary_actions": [
+      "track",
+      "manage"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Staff member",
+        "to": "Manage",
+        "kind": "triggers"
+      },
+      {
+        "from": "Manage",
+        "to": "Bonds",
+        "kind": "targets"
+      },
+      {
+        "from": "Manage",
+        "to": "lifecycle of the project",
+        "kind": "targets"
+      },
+      {
+        "from": "Manage",
+        "to": "release",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1358,
+    "output": 245,
+    "time (ns)": 4786201000
+  }
+}

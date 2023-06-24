@@ -1,0 +1,86 @@
+{
+  "story": "#G03# As a ProspectiveApplicant, I want to research requirements and to select a service, so that I can find the relevant service and/or application type to initiate via the online portal.\n",
+  "extraction": {
+    "personas": [
+      "ProspectiveApplicant"
+    ],
+    "entities": [
+      "requirements",
+      "service",
+      "application type",
+      "online portal"
+    ],
+    "actions": [
+      "research",
+      "select",
+      "find",
+      "initiate"
+    ],
+    "benefit": "I can find the relevant service and/or application type to initiate via the online portal."
+  },
+  "categories": {
+    "primary_entities": [
+      "requirements",
+      "service",
+      "application type",
+      "online portal"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "research",
+      "select",
+      "find",
+      "initiate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "ProspectiveApplicant",
+        "to": "research",
+        "kind": "triggers"
+      },
+      {
+        "from": "ProspectiveApplicant",
+        "to": "select",
+        "kind": "triggers"
+      },
+      {
+        "from": "ProspectiveApplicant",
+        "to": "find",
+        "kind": "triggers"
+      },
+      {
+        "from": "ProspectiveApplicant",
+        "to": "initiate",
+        "kind": "triggers"
+      },
+      {
+        "from": "research",
+        "to": "requirements",
+        "kind": "targets"
+      },
+      {
+        "from": "select",
+        "to": "service",
+        "kind": "targets"
+      },
+      {
+        "from": "select",
+        "to": "application type",
+        "kind": "targets"
+      },
+      {
+        "from": "initiate",
+        "to": "online portal",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1407,
+    "output": 371,
+    "time (ns)": 8071491000
+  }
+}

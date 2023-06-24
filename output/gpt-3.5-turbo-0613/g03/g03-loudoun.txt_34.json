@@ -1,0 +1,57 @@
+{
+  "story": "#G03# As a Staff member, I want to Process the Appeals, so that I can track the outcome and record the impact on the relevant records.\n",
+  "extraction": {
+    "personas": [
+      "Staff member"
+    ],
+    "entities": [
+      "Appeals",
+      "relevant records"
+    ],
+    "actions": [
+      "Process",
+      "track",
+      "record"
+    ],
+    "benefit": "I can track the outcome and record the impact on the relevant records"
+  },
+  "categories": {
+    "primary_entities": [
+      "Appeals"
+    ],
+    "secondary_entities": [
+      "relevant records"
+    ],
+    "primary_actions": [
+      "Process"
+    ],
+    "secondary_actions": [
+      "track",
+      "record"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Staff member",
+        "to": "Process",
+        "kind": "triggers"
+      },
+      {
+        "from": "Process",
+        "to": "Appeals",
+        "kind": "targets"
+      },
+      {
+        "from": "Process",
+        "to": "relevant records",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1335,
+    "output": 203,
+    "time (ns)": 6320780000
+  }
+}

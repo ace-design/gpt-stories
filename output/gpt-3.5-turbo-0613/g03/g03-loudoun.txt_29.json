@@ -1,0 +1,79 @@
+{
+  "story": "#G03# As a Staff member, I want to Assign a Hearing Date, so that I can present the application to the appropriate governing body within the timelines dictated by the relevant County rules and procedures.\n",
+  "extraction": {
+    "personas": [
+      "Staff member"
+    ],
+    "entities": [
+      "Hearing Date",
+      "application",
+      "appropriate governing body",
+      "timelines",
+      "relevant County rules and procedures"
+    ],
+    "actions": [
+      "Assign",
+      "present"
+    ],
+    "benefit": "I can present the application to the appropriate governing body within the timelines dictated by the relevant County rules and procedures."
+  },
+  "categories": {
+    "primary_entities": [
+      "Hearing Date",
+      "application",
+      "appropriate governing body",
+      "timelines",
+      "relevant County rules and procedures"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Assign",
+      "present"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Staff member",
+        "to": "Assign",
+        "kind": "triggers"
+      },
+      {
+        "from": "Assign",
+        "to": "Hearing Date",
+        "kind": "targets"
+      },
+      {
+        "from": "Staff member",
+        "to": "present",
+        "kind": "triggers"
+      },
+      {
+        "from": "present",
+        "to": "application",
+        "kind": "targets"
+      },
+      {
+        "from": "present",
+        "to": "appropriate governing body",
+        "kind": "targets"
+      },
+      {
+        "from": "present",
+        "to": "timelines",
+        "kind": "targets"
+      },
+      {
+        "from": "present",
+        "to": "relevant County rules and procedures",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1422,
+    "output": 348,
+    "time (ns)": 7319897000
+  }
+}

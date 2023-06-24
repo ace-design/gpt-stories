@@ -1,0 +1,58 @@
+{
+  "story": "#G03# As a Staff member, I want to Capture a Hearing Decision, so that I can enforce the system.\n",
+  "extraction": {
+    "personas": [
+      "Staff member"
+    ],
+    "entities": [
+      "Hearing Decision",
+      "system"
+    ],
+    "actions": [
+      "Capture",
+      "enforce"
+    ],
+    "benefit": "I can enforce the system"
+  },
+  "categories": {
+    "primary_entities": [
+      "Hearing Decision",
+      "system"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Capture",
+      "enforce"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Staff member",
+        "to": "Capture",
+        "kind": "triggers"
+      },
+      {
+        "from": "Capture",
+        "to": "Hearing Decision",
+        "kind": "targets"
+      },
+      {
+        "from": "Staff member",
+        "to": "enforce",
+        "kind": "triggers"
+      },
+      {
+        "from": "enforce",
+        "to": "system",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1295,
+    "output": 222,
+    "time (ns)": 4607686000
+  }
+}

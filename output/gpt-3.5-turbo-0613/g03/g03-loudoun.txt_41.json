@@ -1,0 +1,67 @@
+{
+  "story": "#G03# As a Plan Review Staff Member, I want to Review the Code Modifications submitted by the Applicant, so that I can review the request and if approved, associate it with the appropriate project.\n",
+  "extraction": {
+    "personas": [
+      "Plan Review Staff Member"
+    ],
+    "entities": [
+      "Code Modifications",
+      "Applicant",
+      "request",
+      "project"
+    ],
+    "actions": [
+      "Review",
+      "associate"
+    ],
+    "benefit": "review the request and if approved, associate it with the appropriate project"
+  },
+  "categories": {
+    "primary_entities": [
+      "Code Modifications",
+      "Applicant",
+      "request",
+      "project"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Review",
+      "associate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Plan Review Staff Member",
+        "to": "Review",
+        "kind": "triggers"
+      },
+      {
+        "from": "Review",
+        "to": "Code Modifications",
+        "kind": "targets"
+      },
+      {
+        "from": "Review",
+        "to": "Applicant",
+        "kind": "targets"
+      },
+      {
+        "from": "Review",
+        "to": "request",
+        "kind": "targets"
+      },
+      {
+        "from": "associate",
+        "to": "project",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1378,
+    "output": 265,
+    "time (ns)": 5264205000
+  }
+}

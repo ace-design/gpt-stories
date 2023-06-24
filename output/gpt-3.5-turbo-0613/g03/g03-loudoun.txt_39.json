@@ -1,0 +1,52 @@
+{
+  "story": "#G03# As a Plan Review Staff member, I want to Review Plans, so that I can review them for compliance and either approve, or fail or deny the plans and record any conditions, clearances, or corrections needed from the Applicant.\n",
+  "extraction": {
+    "personas": [
+      "Plan Review Staff member"
+    ],
+    "entities": [
+      "Plans",
+      "Applicant"
+    ],
+    "actions": [
+      "Review"
+    ],
+    "benefit": "Review plans for compliance and record any conditions, clearances, or corrections needed from the Applicant"
+  },
+  "categories": {
+    "primary_entities": [
+      "Plans"
+    ],
+    "secondary_entities": [
+      "Applicant"
+    ],
+    "primary_actions": [
+      "Review"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Plan Review Staff member",
+        "to": "Review",
+        "kind": "triggers"
+      },
+      {
+        "from": "Review",
+        "to": "Plans",
+        "kind": "targets"
+      },
+      {
+        "from": "Review",
+        "to": "Applicant",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1384,
+    "output": 198,
+    "time (ns)": 4333756000
+  }
+}

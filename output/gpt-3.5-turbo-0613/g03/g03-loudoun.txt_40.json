@@ -1,0 +1,47 @@
+{
+  "story": "#G03# As an Applicant, I want to Resubmit Plans, so that I can review revised plans. \n",
+  "extraction": {
+    "personas": [
+      "Applicant"
+    ],
+    "entities": [
+      "Plans"
+    ],
+    "actions": [
+      "Resubmit",
+      "review"
+    ],
+    "benefit": "I can review revised plans"
+  },
+  "categories": {
+    "primary_entities": [
+      "Plans"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Resubmit"
+    ],
+    "secondary_actions": [
+      "review"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Applicant",
+        "to": "Resubmit",
+        "kind": "triggers"
+      },
+      {
+        "from": "Resubmit",
+        "to": "Plans",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1281,
+    "output": 161,
+    "time (ns)": 3539192000
+  }
+}

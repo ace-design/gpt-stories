@@ -1,0 +1,109 @@
+{
+  "story": "#G03# As a Plan Review Staff member, I want to Track the Completion of Required Plan Reviews, so that I can ensure all plan review tasks are completed, results have been sent to the Applicant and any downstream steps are initiated such has a final review or payment for permit issuance.\n",
+  "extraction": {
+    "personas": [
+      "Plan Review Staff member"
+    ],
+    "entities": [
+      "Required Plan Reviews",
+      "Applicant",
+      "downstream steps",
+      "final review",
+      "payment",
+      "permit issuance"
+    ],
+    "actions": [
+      "Track",
+      "ensure",
+      "completed",
+      "sent",
+      "initiated"
+    ],
+    "benefit": "ensure all plan review tasks are completed, results have been sent to the Applicant and any downstream steps are initiated such has a final review or payment for permit issuance"
+  },
+  "categories": {
+    "primary_entities": [
+      "Required Plan Reviews"
+    ],
+    "secondary_entities": [
+      "Applicant",
+      "downstream steps",
+      "final review",
+      "payment",
+      "permit issuance"
+    ],
+    "primary_actions": [
+      "Track"
+    ],
+    "secondary_actions": [
+      "ensure",
+      "completed",
+      "sent",
+      "initiated"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Plan Review Staff member",
+        "to": "Track",
+        "kind": "triggers"
+      },
+      {
+        "from": "Track",
+        "to": "Required Plan Reviews",
+        "kind": "targets"
+      },
+      {
+        "from": "Track",
+        "to": "ensure",
+        "kind": "targets"
+      },
+      {
+        "from": "Track",
+        "to": "completed",
+        "kind": "targets"
+      },
+      {
+        "from": "Track",
+        "to": "sent",
+        "kind": "targets"
+      },
+      {
+        "from": "Track",
+        "to": "initiated",
+        "kind": "targets"
+      },
+      {
+        "from": "Track",
+        "to": "Applicant",
+        "kind": "targets"
+      },
+      {
+        "from": "Track",
+        "to": "downstream steps",
+        "kind": "targets"
+      },
+      {
+        "from": "Track",
+        "to": "final review",
+        "kind": "targets"
+      },
+      {
+        "from": "Track",
+        "to": "payment",
+        "kind": "targets"
+      },
+      {
+        "from": "Track",
+        "to": "permit issuance",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1525,
+    "output": 479,
+    "time (ns)": 8635889000
+  }
+}

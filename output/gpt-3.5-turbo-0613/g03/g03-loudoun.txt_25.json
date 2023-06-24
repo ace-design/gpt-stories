@@ -1,0 +1,77 @@
+{
+  "story": "#G03# As a Zoning Staff member, I want to Process the Requests for Zoning Information, so that I can capture my response to the request in the system and also send a communication from the system to the Applicant.\n",
+  "extraction": {
+    "personas": [
+      "Zoning Staff member"
+    ],
+    "entities": [
+      "Requests for Zoning Information",
+      "system",
+      "Applicant"
+    ],
+    "actions": [
+      "Process",
+      "capture",
+      "send"
+    ],
+    "benefit": "I can capture my response to the request in the system and also send a communication from the system to the Applicant."
+  },
+  "categories": {
+    "primary_entities": [
+      "Requests for Zoning Information",
+      "system",
+      "Applicant"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Process",
+      "capture",
+      "send"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Zoning Staff member",
+        "to": "Process",
+        "kind": "triggers"
+      },
+      {
+        "from": "Process",
+        "to": "Requests for Zoning Information",
+        "kind": "targets"
+      },
+      {
+        "from": "Process",
+        "to": "system",
+        "kind": "targets"
+      },
+      {
+        "from": "Process",
+        "to": "Applicant",
+        "kind": "targets"
+      },
+      {
+        "from": "capture",
+        "to": "Requests for Zoning Information",
+        "kind": "targets"
+      },
+      {
+        "from": "send",
+        "to": "system",
+        "kind": "targets"
+      },
+      {
+        "from": "send",
+        "to": "Applicant",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1425,
+    "output": 338,
+    "time (ns)": 6287961000
+  }
+}

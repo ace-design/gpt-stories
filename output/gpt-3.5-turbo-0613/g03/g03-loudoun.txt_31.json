@@ -1,0 +1,47 @@
+{
+  "story": "#G03# As an Applicant, I want to Satisfy Hearing Requirements, so that I can ensure all pre-hearing requirements are satisfied in time for the hearing.\n",
+  "extraction": {
+    "personas": [
+      "Applicant"
+    ],
+    "entities": [
+      "Hearing Requirements",
+      "pre-hearing requirements"
+    ],
+    "actions": [
+      "Satisfy"
+    ],
+    "benefit": "ensure all pre-hearing requirements are satisfied in time for the hearing"
+  },
+  "categories": {
+    "primary_entities": [
+      "Hearing Requirements"
+    ],
+    "secondary_entities": [
+      "pre-hearing requirements"
+    ],
+    "primary_actions": [
+      "Satisfy"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Applicant",
+        "to": "Satisfy",
+        "kind": "triggers"
+      },
+      {
+        "from": "Satisfy",
+        "to": "Hearing Requirements",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1343,
+    "output": 181,
+    "time (ns)": 4123419000
+  }
+}
