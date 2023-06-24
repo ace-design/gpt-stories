@@ -1,0 +1,56 @@
+{
+  "story": "#G02# As a Developer, I want to add the updates on a FABS submission to be modified when the publishStatus changes, so that I know when the status of the submission has changed.\n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "FABS submission"
+    ],
+    "actions": [
+      "add",
+      "modify"
+    ],
+    "benefit": "I know when the status of the submission has changed"
+  },
+  "categories": {
+    "primary_entities": [
+      "FABS submission"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "add",
+      "modify"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "Developer",
+        "to": "modify",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "FABS submission",
+        "kind": "targets"
+      },
+      {
+        "from": "modify",
+        "to": "FABS submission",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1339,
+    "output": 216,
+    "time (ns)": 4918353000
+  }
+}

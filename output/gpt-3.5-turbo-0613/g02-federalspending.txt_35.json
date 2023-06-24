@@ -1,0 +1,81 @@
+{
+  "story": "#G02# As a Developer , I want to ensure that attempts to correct or delete non-existent records don't create new published data.\n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "non-existent records"
+    ],
+    "actions": [
+      "ensure",
+      "correct",
+      "delete",
+      "create"
+    ],
+    "benefit": "attempts to correct or delete non-existent records don't create new published data"
+  },
+  "categories": {
+    "primary_entities": [
+      "non-existent records"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "ensure",
+      "correct",
+      "delete"
+    ],
+    "secondary_actions": [
+      "create"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "ensure",
+        "kind": "triggers"
+      },
+      {
+        "from": "ensure",
+        "to": "non-existent records",
+        "kind": "targets"
+      },
+      {
+        "from": "Developer",
+        "to": "correct",
+        "kind": "triggers"
+      },
+      {
+        "from": "correct",
+        "to": "non-existent records",
+        "kind": "targets"
+      },
+      {
+        "from": "Developer",
+        "to": "delete",
+        "kind": "triggers"
+      },
+      {
+        "from": "delete",
+        "to": "non-existent records",
+        "kind": "targets"
+      },
+      {
+        "from": "Developer",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "non-existent records",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1326,
+    "output": 338,
+    "time (ns)": 6628391000
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "story": "#G02# As a Broker user, I want to submit records for individual recipients without receiving a DUNS error.\n",
+  "extraction": {
+    "personas": [
+      "Broker user"
+    ],
+    "entities": [
+      "records",
+      "individual recipients"
+    ],
+    "actions": [
+      "submit"
+    ],
+    "benefit": "without receiving a DUNS error"
+  },
+  "categories": {
+    "primary_entities": [
+      "records"
+    ],
+    "secondary_entities": [
+      "individual recipients"
+    ],
+    "primary_actions": [
+      "submit"
+    ],
+    "secondary_actions": [
+      "without receiving a DUNS error"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Broker user",
+        "to": "submit",
+        "kind": "triggers"
+      },
+      {
+        "from": "submit",
+        "to": "records",
+        "kind": "targets"
+      },
+      {
+        "from": "submit",
+        "to": "individual recipients",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1284,
+    "output": 189,
+    "time (ns)": 4048587000
+  }
+}

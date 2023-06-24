@@ -1,0 +1,65 @@
+{
+  "story": "#G02# As a FABS user, I want to submit a citywide as a PPoPZIP and pass validations.\n",
+  "extraction": {
+    "personas": [
+      "FABS user"
+    ],
+    "entities": [
+      "citywide",
+      "PPoPZIP"
+    ],
+    "actions": [
+      "submit",
+      "pass validations"
+    ],
+    "benefit": "I can submit a citywide as a PPoPZIP and pass validations"
+  },
+  "categories": {
+    "primary_entities": [
+      "citywide"
+    ],
+    "secondary_entities": [
+      "PPoPZIP"
+    ],
+    "primary_actions": [
+      "submit"
+    ],
+    "secondary_actions": [
+      "pass validations"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "FABS user",
+        "to": "submit",
+        "kind": "triggers"
+      },
+      {
+        "from": "submit",
+        "to": "citywide",
+        "kind": "targets"
+      },
+      {
+        "from": "submit",
+        "to": "PPoPZIP",
+        "kind": "targets"
+      },
+      {
+        "from": "pass validations",
+        "to": "citywide",
+        "kind": "targets"
+      },
+      {
+        "from": "pass validations",
+        "to": "PPoPZIP",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1326,
+    "output": 265,
+    "time (ns)": 7237797000
+  }
+}

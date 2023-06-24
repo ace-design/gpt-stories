@@ -1,0 +1,47 @@
+{
+  "story": "#G02# As an agency user, I want the maximum length allowed for LegalEntityAddressLine3 to match Schema v1.1.\n",
+  "extraction": {
+    "personas": [
+      "agency user"
+    ],
+    "entities": [
+      "LegalEntityAddressLine3",
+      "Schema v1.1"
+    ],
+    "actions": [
+      "match"
+    ],
+    "benefit": "the maximum length allowed for LegalEntityAddressLine3 to match Schema v1.1"
+  },
+  "categories": {
+    "primary_entities": [
+      "LegalEntityAddressLine3"
+    ],
+    "secondary_entities": [
+      "Schema v1.1"
+    ],
+    "primary_actions": [
+      "match"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "agency user",
+        "to": "match",
+        "kind": "triggers"
+      },
+      {
+        "from": "match",
+        "to": "LegalEntityAddressLine3",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1336,
+    "output": 185,
+    "time (ns)": 4123154000
+  }
+}

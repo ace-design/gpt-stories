@@ -1,0 +1,55 @@
+{
+  "story": "#G02# As a FABS user, I want to link the SAMPLE FILE on the \"What you want  to submit\" dialog to point to the correct file, so that I have an accurate reference for my agency submissions.\n",
+  "extraction": {
+    "personas": [
+      "FABS user"
+    ],
+    "entities": [
+      "SAMPLE FILE",
+      "What you want to submit"
+    ],
+    "actions": [
+      "link",
+      "point"
+    ],
+    "benefit": "have an accurate reference for my agency submissions"
+  },
+  "categories": {
+    "primary_entities": [
+      "SAMPLE FILE"
+    ],
+    "secondary_entities": [
+      "What you want to submit"
+    ],
+    "primary_actions": [
+      "link"
+    ],
+    "secondary_actions": [
+      "point"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "FABS user",
+        "to": "link",
+        "kind": "triggers"
+      },
+      {
+        "from": "link",
+        "to": "SAMPLE FILE",
+        "kind": "targets"
+      },
+      {
+        "from": "link",
+        "to": "What you want to submit",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1372,
+    "output": 203,
+    "time (ns)": 4170593000
+  }
+}

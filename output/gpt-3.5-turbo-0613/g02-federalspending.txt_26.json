@@ -1,0 +1,44 @@
+{
+  "story": "#G02# As an Owner, I want to design a schedule from the UI SME, so that I know the potential timeline of the UI improvements wanted.\n",
+  "extraction": {
+    "personas": [
+      "Owner"
+    ],
+    "entities": [
+      "UI SME"
+    ],
+    "actions": [
+      "design"
+    ],
+    "benefit": "I know the potential timeline of the UI improvements wanted"
+  },
+  "categories": {
+    "primary_entities": [
+      "UI SME"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "design"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Owner",
+        "to": "design",
+        "kind": "triggers"
+      },
+      {
+        "from": "design",
+        "to": "UI SME",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1300,
+    "output": 154,
+    "time (ns)": 3892846000
+  }
+}

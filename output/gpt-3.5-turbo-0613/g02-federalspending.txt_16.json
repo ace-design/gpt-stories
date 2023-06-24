@@ -1,0 +1,52 @@
+{
+  "story": "#G02# As a Developer, I want to update the Broker validation rule table to account for the rule updates in DB-2213.\n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "Broker validation rule table",
+      "DB-2213"
+    ],
+    "actions": [
+      "update"
+    ],
+    "benefit": "to account for the rule updates"
+  },
+  "categories": {
+    "primary_entities": [
+      "Broker validation rule table"
+    ],
+    "secondary_entities": [
+      "DB-2213"
+    ],
+    "primary_actions": [
+      "update"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "update",
+        "kind": "triggers"
+      },
+      {
+        "from": "update",
+        "to": "Broker validation rule table",
+        "kind": "targets"
+      },
+      {
+        "from": "update",
+        "to": "DB-2213",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1306,
+    "output": 195,
+    "time (ns)": 5610495000
+  }
+}

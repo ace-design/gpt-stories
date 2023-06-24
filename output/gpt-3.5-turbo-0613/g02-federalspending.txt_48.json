@@ -1,0 +1,47 @@
+{
+  "story": "#G02# As a data user, I want to see the office names derived from office codes, so that I can have appropriate context for understanding them.\n",
+  "extraction": {
+    "personas": [
+      "data user"
+    ],
+    "entities": [
+      "office names",
+      "office codes"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "have appropriate context for understanding them"
+  },
+  "categories": {
+    "primary_entities": [
+      "office names"
+    ],
+    "secondary_entities": [
+      "office codes"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data user",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "office names",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1305,
+    "output": 159,
+    "time (ns)": 3721294000
+  }
+}

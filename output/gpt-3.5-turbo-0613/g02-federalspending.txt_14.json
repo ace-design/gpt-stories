@@ -1,0 +1,44 @@
+{
+  "story": "#G02# As a Website user, I want to access published FABS files, so that I can see the new files as they come in.\n",
+  "extraction": {
+    "personas": [
+      "Website user"
+    ],
+    "entities": [
+      "published FABS files"
+    ],
+    "actions": [
+      "access"
+    ],
+    "benefit": "I can see the new files as they come in"
+  },
+  "categories": {
+    "primary_entities": [
+      "published FABS files"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Website user",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "published FABS files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1305,
+    "output": 162,
+    "time (ns)": 3290508000
+  }
+}

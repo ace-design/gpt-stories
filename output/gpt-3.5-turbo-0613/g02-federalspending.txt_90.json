@@ -1,0 +1,60 @@
+{
+  "story": "#G02# As a Developer , I want to determine the best way to load historical FPDS data, so that I can load all FPDS data since 2007.\n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "historical FPDS data",
+      "FPDS data"
+    ],
+    "actions": [
+      "determine",
+      "load"
+    ],
+    "benefit": "load all FPDS data since 2007"
+  },
+  "categories": {
+    "primary_entities": [
+      "historical FPDS data"
+    ],
+    "secondary_entities": [
+      "FPDS data"
+    ],
+    "primary_actions": [
+      "determine"
+    ],
+    "secondary_actions": [
+      "load"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "determine",
+        "kind": "triggers"
+      },
+      {
+        "from": "determine",
+        "to": "historical FPDS data",
+        "kind": "targets"
+      },
+      {
+        "from": "Developer",
+        "to": "load",
+        "kind": "triggers"
+      },
+      {
+        "from": "load",
+        "to": "FPDS data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1343,
+    "output": 233,
+    "time (ns)": 4671992000
+  }
+}

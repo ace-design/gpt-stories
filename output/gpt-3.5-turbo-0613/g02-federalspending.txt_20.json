@@ -1,0 +1,44 @@
+{
+  "story": "#G02# As an Agency user, I want to be able to include a large number of flexfields without performance impact.\n",
+  "extraction": {
+    "personas": [
+      "Agency user"
+    ],
+    "entities": [
+      "flexfields"
+    ],
+    "actions": [
+      "include"
+    ],
+    "benefit": "be able to include a large number of flexfields without performance impact"
+  },
+  "categories": {
+    "primary_entities": [
+      "flexfields"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "include"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Agency user",
+        "to": "include",
+        "kind": "triggers"
+      },
+      {
+        "from": "include",
+        "to": "flexfields",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1290,
+    "output": 159,
+    "time (ns)": 5023850000
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "story": "#G02# As an agency user, I want to use the schema v1.1 headers in my FABS file.\n",
+  "extraction": {
+    "personas": [
+      "agency user"
+    ],
+    "entities": [
+      "schema v1.1 headers",
+      "FABS file"
+    ],
+    "actions": [
+      "use"
+    ],
+    "benefit": "to ensure compatibility and compliance with the latest schema version"
+  },
+  "categories": {
+    "primary_entities": [
+      "schema v1.1 headers"
+    ],
+    "secondary_entities": [
+      "FABS file"
+    ],
+    "primary_actions": [
+      "use"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "agency user",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "schema v1.1 headers",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "FABS file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1310,
+    "output": 204,
+    "time (ns)": 6071542000
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "story": "#G02# As a Broker user, I want to Upload and Validate the error message to have accurate text.\n",
+  "extraction": {
+    "personas": [
+      "Broker user"
+    ],
+    "entities": [
+      "Upload",
+      "Validate",
+      "error message"
+    ],
+    "actions": [
+      "have accurate text"
+    ],
+    "benefit": "to have accurate text"
+  },
+  "categories": {
+    "primary_entities": [
+      "Upload",
+      "Validate"
+    ],
+    "secondary_entities": [
+      "error message"
+    ],
+    "primary_actions": [
+      "have accurate text"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Broker user",
+        "to": "Upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "Broker user",
+        "to": "Validate",
+        "kind": "triggers"
+      },
+      {
+        "from": "Upload",
+        "to": "error message",
+        "kind": "targets"
+      },
+      {
+        "from": "Validate",
+        "to": "error message",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1286,
+    "output": 218,
+    "time (ns)": 4046443000
+  }
+}

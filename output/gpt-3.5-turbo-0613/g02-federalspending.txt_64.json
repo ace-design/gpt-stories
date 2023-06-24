@@ -1,0 +1,80 @@
+{
+  "story": "#G02# As a user, I want to generate and validate D Files from FABS and FPDS data.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "D Files",
+      "FABS data",
+      "FPDS data"
+    ],
+    "actions": [
+      "generate",
+      "validate"
+    ],
+    "benefit": "I can generate and validate D Files from FABS and FPDS data"
+  },
+  "categories": {
+    "primary_entities": [
+      "D Files",
+      "FABS data",
+      "FPDS data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "generate",
+      "validate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "generate",
+        "kind": "triggers"
+      },
+      {
+        "from": "user",
+        "to": "validate",
+        "kind": "triggers"
+      },
+      {
+        "from": "generate",
+        "to": "D Files",
+        "kind": "targets"
+      },
+      {
+        "from": "generate",
+        "to": "FABS data",
+        "kind": "targets"
+      },
+      {
+        "from": "generate",
+        "to": "FPDS data",
+        "kind": "targets"
+      },
+      {
+        "from": "validate",
+        "to": "D Files",
+        "kind": "targets"
+      },
+      {
+        "from": "validate",
+        "to": "FABS data",
+        "kind": "targets"
+      },
+      {
+        "from": "validate",
+        "to": "FPDS data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1323,
+    "output": 344,
+    "time (ns)": 6669404000
+  }
+}

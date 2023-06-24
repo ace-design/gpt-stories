@@ -1,0 +1,59 @@
+{
+  "story": "#G02# As a Developer , I want the historical FPDS data loader to include both extracted historical data and FPDS feed data.\n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "historical FPDS data loader",
+      "extracted historical data",
+      "FPDS feed data"
+    ],
+    "actions": [
+      "include"
+    ],
+    "benefit": "to have both extracted historical data and FPDS feed data in the historical FPDS data loader"
+  },
+  "categories": {
+    "primary_entities": [
+      "historical FPDS data loader"
+    ],
+    "secondary_entities": [
+      "extracted historical data",
+      "FPDS feed data"
+    ],
+    "primary_actions": [
+      "include"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "include",
+        "kind": "triggers"
+      },
+      {
+        "from": "include",
+        "to": "historical FPDS data loader",
+        "kind": "targets"
+      },
+      {
+        "from": "include",
+        "to": "extracted historical data",
+        "kind": "targets"
+      },
+      {
+        "from": "include",
+        "to": "FPDS feed data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1351,
+    "output": 253,
+    "time (ns)": 5350540000
+  }
+}

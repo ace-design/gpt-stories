@@ -1,0 +1,71 @@
+{
+  "story": "#G02# As a Developer, I want to prevent users from double publishing FABS submissions after refreshing, so that there are no duplicates.\n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "users",
+      "FABS submissions"
+    ],
+    "actions": [
+      "prevent",
+      "double publishing",
+      "refreshing"
+    ],
+    "benefit": "there are no duplicates"
+  },
+  "categories": {
+    "primary_entities": [
+      "users",
+      "FABS submissions"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "prevent",
+      "double publishing"
+    ],
+    "secondary_actions": [
+      "refreshing"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "prevent",
+        "kind": "triggers"
+      },
+      {
+        "from": "prevent",
+        "to": "users",
+        "kind": "targets"
+      },
+      {
+        "from": "prevent",
+        "to": "FABS submissions",
+        "kind": "targets"
+      },
+      {
+        "from": "prevent",
+        "to": "double publishing",
+        "kind": "targets"
+      },
+      {
+        "from": "prevent",
+        "to": "refreshing",
+        "kind": "targets"
+      },
+      {
+        "from": "prevent",
+        "to": "duplicates",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1313,
+    "output": 275,
+    "time (ns)": 6132495000
+  }
+}

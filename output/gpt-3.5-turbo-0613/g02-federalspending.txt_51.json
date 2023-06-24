@@ -1,0 +1,54 @@
+{
+  "story": "#G02# As a Developer, I want the data loaded from historical FABS to include the FREC derivations, so that I can have consistent FREC data for USASpending.gov.\n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "historical FABS",
+      "FREC"
+    ],
+    "actions": [
+      "data loaded",
+      "include"
+    ],
+    "benefit": "have consistent FREC data for USASpending.gov"
+  },
+  "categories": {
+    "primary_entities": [
+      "historical FABS",
+      "FREC"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "data loaded"
+    ],
+    "secondary_actions": [
+      "include"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "data loaded",
+        "kind": "triggers"
+      },
+      {
+        "from": "data loaded",
+        "to": "historical FABS",
+        "kind": "targets"
+      },
+      {
+        "from": "data loaded",
+        "to": "FREC",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1352,
+    "output": 204,
+    "time (ns)": 4406056000
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "story": "#G02# As a user, I want to access the raw agency published files from FABS via USAspending.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "raw agency published files",
+      "FABS",
+      "USAspending"
+    ],
+    "actions": [
+      "access"
+    ],
+    "benefit": "I can access the raw agency published files from FABS via USAspending"
+  },
+  "categories": {
+    "primary_entities": [
+      "raw agency published files"
+    ],
+    "secondary_entities": [
+      "FABS",
+      "USAspending"
+    ],
+    "primary_actions": [
+      "access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "raw agency published files",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "FABS",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "USAspending",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1321,
+    "output": 235,
+    "time (ns)": 5148801000
+  }
+}

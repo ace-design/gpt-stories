@@ -1,0 +1,44 @@
+{
+  "story": "#G02# As a Developer , I want my domain models to be indexed properly, so that I can get validation results back in a reasonable amount of time.\n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "domain models"
+    ],
+    "actions": [
+      "indexed"
+    ],
+    "benefit": "I can get validation results back in a reasonable amount of time"
+  },
+  "categories": {
+    "primary_entities": [
+      "domain models"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "indexed"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "indexed",
+        "kind": "triggers"
+      },
+      {
+        "from": "indexed",
+        "to": "domain models",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1307,
+    "output": 156,
+    "time (ns)": 3410117000
+  }
+}

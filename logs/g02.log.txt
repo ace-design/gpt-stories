@@ -1,0 +1,707 @@
+START: 16:33:13
+# Processing g02-federalspending.txt
+- Story #[1] -- started at 16:33:13
+    - #G02# As a Data user, I want to have the 12-19-2017 deletions processed.
+
+        - calling model 16:33:13
+        - calling model 16:33:16
+        - calling model 16:33:23
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_1.json
+- Story #[2] -- started at 16:33:27
+    - #G02# As a UI designer, I want to redesign the Resources page, so that it matches the new Broker design styles.
+
+        - calling model 16:33:27
+        - calling model 16:33:30
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:35:00
+        - calling model 16:35:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_2.json
+- Story #[3] -- started at 16:35:07
+    - #G02# As a UI designer, I want to report to the Agencies about user testing, so that they are aware of their contributions to making Broker a better UX.
+
+        - calling model 16:35:07
+        - calling model 16:35:10
+        - calling model 16:35:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_3.json
+- Story #[4] -- started at 16:35:18
+    - #G02# As a UI designer, I want to move on to round 2 of DABS or FABS landing page edits, so that I can get approvals from leadership.
+
+        - calling model 16:35:18
+        - calling model 16:35:22
+        - calling model 16:35:25
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_4.json
+- Story #[5] -- started at 16:35:31
+    - #G02# As a UI designer, I want to move on to round 2 of Homepage edits, so that I can get approvals from leadership.
+
+        - calling model 16:35:31
+        - calling model 16:35:35
+        - calling model 16:35:39
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_5.json
+- Story #[6] -- started at 16:35:45
+    - #G02# As a UI designer, I want to move on to round 3 of the Help page edits, so that I can get approvals from leadership.
+
+        - calling model 16:35:45
+        - calling model 16:35:48
+        - calling model 16:35:51
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_6.json
+- Story #[7] -- started at 16:35:56
+    - #G02# As a Developer , I want to be able to log better, so that I can troubleshoot issues with particular submissions and functions.
+
+        - calling model 16:35:56
+        - calling model 16:36:01
+        - calling model 16:36:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_7.json
+- Story #[8] -- started at 16:36:08
+    - #G02# As a Developer, I want to add the updates on a FABS submission to be modified when the publishStatus changes, so that I know when the status of the submission has changed.
+
+        - calling model 16:36:08
+        - calling model 16:36:11
+        - calling model 16:36:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_8.json
+- Story #[9] -- started at 16:36:19
+    - #G02# As a DevOps engineer, I want New Relic to provide useful data across all applications.
+
+        - calling model 16:36:19
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:37:49
+        - calling model 16:37:53
+        - calling model 16:37:56
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_9.json
+- Story #[10] -- started at 16:38:00
+    - #G02# As a UI designer,  I want to move on to round 2 of the Help page edits, so that I can get approvals from leadership.
+
+        - calling model 16:38:00
+        - calling model 16:38:03
+        - calling model 16:38:07
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_10.json
+- Story #[11] -- started at 16:38:11
+    - #G02# As a UI designer, I want to move on to round 2 of Homepage edits, so that I can get approvals from leadership.
+
+        - calling model 16:38:11
+        - calling model 16:38:15
+        - calling model 16:38:18
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_11.json
+- Story #[12] -- started at 16:38:24
+    - #G02# As a Broker user, I want to Upload and Validate the error message to have accurate text.
+
+        - calling model 16:38:24
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:39:54
+        - calling model 16:39:57
+        - calling model 16:40:00
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_12.json
+- Story #[13] -- started at 16:40:04
+    - #G02# As a Broker user, I want the D1 file generation to be synced with the FPDS data load, so that I don't have to regenerate a file if no data has been updated.
+
+        - calling model 16:40:04
+        - calling model 16:40:07
+        - calling model 16:40:10
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_13.json
+- Story #[14] -- started at 16:40:15
+    - #G02# As a Website user, I want to access published FABS files, so that I can see the new files as they come in.
+
+        - calling model 16:40:15
+        - calling model 16:40:18
+        - calling model 16:40:21
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_14.json
+- Story #[15] -- started at 16:40:24
+    - #G02# As an owner, I want to be sure that USAspending only send grant records to my system.
+
+        - calling model 16:40:24
+        - calling model 16:40:27
+        - calling model 16:40:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_15.json
+- Story #[16] -- started at 16:40:34
+    - #G02# As a Developer, I want to update the Broker validation rule table to account for the rule updates in DB-2213.
+
+        - calling model 16:40:34
+        - calling model 16:40:37
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:42:07
+        - calling model 16:42:12
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_16.json
+- Story #[17] -- started at 16:42:16
+    - #G02# As a Developer, I want to add the GTAS window data to the database, so that I can ensure the site is locked down during the GTAS submission period.
+
+        - calling model 16:42:16
+        - calling model 16:42:19
+        - calling model 16:42:22
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_17.json
+- Story #[18] -- started at 16:42:26
+    - #G02# As a Developer, I want D Files generation requests to be managed and cached, so that duplicate requests do not cause performance issues.
+
+        - calling model 16:42:26
+        - calling model 16:42:29
+        - calling model 16:42:32
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_18.json
+- Story #[19] -- started at 16:42:37
+    - #G02# As a user, I want to access the raw agency published files from FABS via USAspending.
+
+        - calling model 16:42:37
+        - calling model 16:42:40
+        - calling model 16:42:43
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_19.json
+- Story #[20] -- started at 16:42:47
+    - #G02# As an Agency user, I want to be able to include a large number of flexfields without performance impact.
+
+        - calling model 16:42:47
+        - calling model 16:42:51
+        - calling model 16:42:55
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_20.json
+- Story #[21] -- started at 16:42:58
+    - #G02# As a Broker user, I want  to help create content mockups, so that I can submit my data efficiently.
+
+        - calling model 16:42:58
+        - calling model 16:43:01
+        - calling model 16:43:05
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_21.json
+- Story #[22] -- started at 16:43:09
+    - #G02# As a UI designer, I want to track the issues that come up in Tech Thursday, so that I know what to test and what want s to be fixed.
+
+        - calling model 16:43:09
+        - calling model 16:43:12
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:44:42
+        - calling model 16:44:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_22.json
+- Story #[23] -- started at 16:44:50
+    - #G02# As an Owner, I want to create a user testing summary from the UI SME, so that I can know what UI improvements we will follow through on.
+
+        - calling model 16:44:50
+        - calling model 16:44:54
+        - calling model 16:44:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_23.json
+- Story #[24] -- started at 16:45:02
+    - #G02# As a UI designer, I want to begin user testing, so that I can validate stakeholder UI improvement requests.
+
+        - calling model 16:45:02
+        - calling model 16:45:05
+        - calling model 16:45:11
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_24.json
+- Story #[25] -- started at 16:45:15
+    - #G02# As a UI designer, I want to schedule user testing, so that I can give the testers advanced notice to ensure buy-in.
+
+        - calling model 16:45:15
+        - calling model 16:45:18
+        - calling model 16:45:21
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_25.json
+- Story #[26] -- started at 16:45:25
+    - #G02# As an Owner, I want to design a schedule from the UI SME, so that I know the potential timeline of the UI improvements wanted.
+
+        - calling model 16:45:25
+        - calling model 16:45:28
+        - calling model 16:45:31
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_26.json
+- Story #[27] -- started at 16:45:35
+    - #G02# As an Owner, I want to design an audit from the UI SME, so that I know the potential scope of the UI improvements want ed.
+
+        - calling model 16:45:35
+        - calling model 16:45:38
+        - calling model 16:45:41
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_27.json
+- Story #[28] -- started at 16:45:46
+    - #G02# As a Developer, I want to prevent users from double publishing FABS submissions after refreshing, so that there are no duplicates.
+
+        - calling model 16:45:46
+        - calling model 16:45:50
+        - calling model 16:45:53
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_28.json
+- Story #[29] -- started at 16:45:58
+    - #G02# As an data user, I want to receive updates to FABS records.
+
+        - calling model 16:45:58
+        - calling model 16:46:01
+        - calling model 16:46:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_29.json
+- Story #[30] -- started at 16:46:07
+    - #G02# As an Agency user, I want to be able to include a large number of flexfields without performance impact.
+
+        - calling model 16:46:07
+        - calling model 16:46:11
+        - calling model 16:46:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_30.json
+- Story #[31] -- started at 16:46:17
+    - #G02# As a Developer , I want to update the FABS sample file to remove FundingAgencyCode after FABS is updated to no longer require the header.
+
+        - calling model 16:46:17
+        - calling model 16:46:21
+        - calling model 16:46:24
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_31.json
+- Story #[32] -- started at 16:46:27
+    - #G02# As an agency user, I want to ensure that deleted FSRS records are not included in submissions.
+
+        - calling model 16:46:27
+        - calling model 16:46:31
+        - calling model 16:46:34
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_32.json
+- Story #[33] -- started at 16:46:38
+    - #G02# As a website user, I want to see updated financial assistance data daily.
+
+        - calling model 16:46:38
+        - calling model 16:46:41
+        - calling model 16:46:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_33.json
+- Story #[34] -- started at 16:46:48
+    - #G02# As a user, I want the publish button in FABS to deactivate after I click it while the derivations are happening, so that I cannot click it multiple times for the same submission.
+
+        - calling model 16:46:48
+        - calling model 16:46:51
+        - calling model 16:46:55
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_34.json
+- Story #[35] -- started at 16:47:00
+    - #G02# As a Developer , I want to ensure that attempts to correct or delete non-existent records don't create new published data.
+
+        - calling model 16:47:00
+        - calling model 16:47:03
+        - calling model 16:47:06
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:48:36
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_35.json
+- Story #[36] -- started at 16:48:43
+    - #G02# As an Owner, I want to reset the environment to only take Staging MAX permissions, so that I can ensure that the FABS testers no longer have access.
+
+        - calling model 16:48:43
+        - calling model 16:48:46
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:50:16
+        - calling model 16:50:19
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_36.json
+- Story #[37] -- started at 16:50:23
+    - #G02# As a user, I want the flexfields in my submission file to appear in the warning and error files when the only error is a missing required element.
+
+        - calling model 16:50:23
+        - calling model 16:50:27
+        - calling model 16:50:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_37.json
+- Story #[38] -- started at 16:50:35
+    - #G02# As a user, I want to have accurate and complete data related to PPoPCode and PPoPCongressionalDistrict.
+
+        - calling model 16:50:35
+        - calling model 16:50:39
+        - calling model 16:50:42
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_38.json
+- Story #[39] -- started at 16:50:46
+    - #G02# As an agency user, I want the FABS validation rules to accept zero and blank for loan records.
+
+        - calling model 16:50:46
+        - calling model 16:50:49
+        - calling model 16:50:53
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_39.json
+- Story #[40] -- started at 16:50:57
+    - #G02# As an Agency user, I want FABS deployed into production, so I can submit my Financial Assistance data.
+
+        - calling model 16:50:57
+        - calling model 16:51:00
+        - calling model 16:51:03
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:52:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_40.json
+- Story #[41] -- started at 16:52:37
+    - #G02# As a Developer , I want to clarify to users what exactly is triggering the CFDA error code in each case.
+
+        - calling model 16:52:37
+        - calling model 16:52:41
+        - calling model 16:52:43
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_41.json
+- Story #[42] -- started at 16:52:47
+    - #G02# As an agency user, I want to be confident that the data coming from SAM is complete.
+
+        - calling model 16:52:47
+        - calling model 16:52:50
+        - calling model 16:52:53
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_42.json
+- Story #[43] -- started at 16:52:57
+    - #G02# As a Developer , I want my domain models to be indexed properly, so that I can get validation results back in a reasonable amount of time.
+
+        - calling model 16:52:57
+        - calling model 16:53:00
+        - calling model 16:53:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_43.json
+- Story #[44] -- started at 16:53:06
+    - #G02# As an agency user, I want the FABS validation rules to accept zero and blank for non-loan records.
+
+        - calling model 16:53:06
+        - calling model 16:53:11
+        - calling model 16:53:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_44.json
+- Story #[45] -- started at 16:53:18
+    - #G02# As a broker team member, I want to make some updates to the SQL codes for clarity.
+
+        - calling model 16:53:18
+        - calling model 16:53:21
+        - calling model 16:53:24
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_45.json
+- Story #[46] -- started at 16:53:27
+    - #G02# As an agency user, I want to have all derived data elements derived properly.
+
+        - calling model 16:53:27
+        - calling model 16:53:31
+       - exception caught! Pausing for 60 seconds
+        - calling model 16:55:01
+        - calling model 16:55:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_46.json
+- Story #[47] -- started at 16:55:07
+    - #G02# As a broker team member, I want to add the 00***** and 00FORGN PPoPCode cases to the derivation logic.
+
+        - calling model 16:55:07
+        - calling model 16:55:10
+        - calling model 16:55:13
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_47.json
+- Story #[48] -- started at 16:55:18
+    - #G02# As a data user, I want to see the office names derived from office codes, so that I can have appropriate context for understanding them.
+
+        - calling model 16:55:18
+        - calling model 16:55:21
+        - calling model 16:55:24
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_48.json
+- Story #[49] -- started at 16:55:27
+    - #G02# As a broker user, I want the historical FABS loader to derive fields, so that my agency codes are correct in the PublishedAwardFinancialAssistance table.
+
+        - calling model 16:55:27
+        - calling model 16:55:31
+        - calling model 16:55:34
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_49.json
+- Story #[50] -- started at 16:55:38
+    - #G02# As a broker team member, I want to ensure the Broker resources, validations, and P&P pages are updated appropriately for the launch of FABS and DAIMS v1.1.
+
+        - calling model 16:55:38
+        - calling model 16:55:42
+        - calling model 16:55:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_50.json
+- Story #[51] -- started at 16:55:51
+    - #G02# As a Developer, I want the data loaded from historical FABS to include the FREC derivations, so that I can have consistent FREC data for USASpending.gov.
+
+        - calling model 16:55:51
+        - calling model 16:55:54
+        - calling model 16:55:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_51.json
+- Story #[52] -- started at 16:56:01
+    - #G02# As a user, I don't want to see NASA grants displayed as contracts.
+
+        - calling model 16:56:01
+        - calling model 16:56:04
+        - calling model 16:56:07
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_52.json
+- Story #[53] -- started at 16:56:11
+    - #G02# As a user, I want the DUNS validations to accept records whose ActionTypes are B, C, or D and the DUNS is registered in SAM, even though it may have expired. 
+
+        - calling model 16:56:11
+        - calling model 16:56:15
+        - calling model 16:56:18
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_53.json
+- Story #[54] -- started at 16:56:22
+    - #G02# As a user, I want the DUNS validations to accept records whose ActionDates are before the current registration date in SAM, but after the initial registration date.
+
+        - calling model 16:56:22
+        - calling model 16:56:26
+        - calling model 16:56:29
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_54.json
+- Story #[55] -- started at 16:56:34
+    - #G02# As a broker team member, I want to derive FundingAgencyCode, so that the data quality and completeness improves.
+
+        - calling model 16:56:34
+        - calling model 16:56:38
+        - calling model 16:56:41
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_55.json
+- Story #[56] -- started at 16:56:45
+    - #G02# As an agency user, I want the maximum length allowed for LegalEntityAddressLine3 to match Schema v1.1.
+
+        - calling model 16:56:45
+        - calling model 16:56:48
+        - calling model 16:56:51
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_56.json
+- Story #[57] -- started at 16:56:55
+    - #G02# As an agency user, I want to use the schema v1.1 headers in my FABS file.
+
+        - calling model 16:56:55
+        - calling model 16:57:00
+        - calling model 16:57:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_57.json
+- Story #[58] -- started at 16:57:07
+    - #G02# As a agency user, I want to map the FederalActionObligation properly to the Atom Feed.
+
+        - calling model 16:57:07
+        - calling model 16:57:10
+        - calling model 16:57:13
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_58.json
+- Story #[59] -- started at 16:57:17
+    - #G02# As a Broker user, I want to have PPoPZIP+4 work the same as the Legal Entity ZIP validations.
+
+        - calling model 16:57:17
+        - calling model 16:57:20
+        - calling model 16:57:23
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_59.json
+- Story #[60] -- started at 16:57:27
+    - #G02# As a FABS user, I want to link the SAMPLE FILE on the "What you want  to submit" dialog to point to the correct file, so that I have an accurate reference for my agency submissions.
+
+        - calling model 16:57:27
+        - calling model 16:57:31
+        - calling model 16:57:34
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_60.json
+- Story #[61] -- started at 16:57:38
+    - #G02# As an Agency user, I want FPDS data to be up-to-date daily.
+
+        - calling model 16:57:38
+        - calling model 16:57:41
+        - calling model 16:57:44
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_61.json
+- Story #[62] -- started at 16:57:48
+    - #G02# As a user, I want to access the raw agency published files from FABS via USAspending.
+
+        - calling model 16:57:48
+        - calling model 16:57:51
+        - calling model 16:57:54
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_62.json
+- Story #[63] -- started at 16:57:59
+    - #G02# As a Developer , I want to determine how agencies will generate and validate D Files from FABS and FPDS data.
+
+        - calling model 16:57:59
+        - calling model 16:58:02
+        - calling model 16:58:06
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_63.json
+- Story #[64] -- started at 16:58:13
+    - #G02# As a user, I want to generate and validate D Files from FABS and FPDS data.
+
+        - calling model 16:58:13
+        - calling model 16:58:16
+        - calling model 16:58:19
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_64.json
+- Story #[65] -- started at 16:58:25
+    - #G02# As an Agency user, I want the header information box to show updated date AND time, so that I know when it was updated.
+
+        - calling model 16:58:25
+        - calling model 16:58:28
+        - calling model 16:58:31
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_65.json
+- Story #[66] -- started at 16:58:35
+    - #G02# As an Agency user, I want to receive a more helpful file-level error when I upload a file with the wrong extension.
+
+        - calling model 16:58:35
+        - calling model 16:58:38
+        - calling model 16:58:43
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_66.json
+- Story #[67] -- started at 16:58:47
+    - #G02# As a tester, I want to have access to test features in environments other than Staging, so that I can test any nonProd feature in any environment.
+
+        - calling model 16:58:47
+        - calling model 16:58:51
+        - calling model 16:58:54
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_67.json
+- Story #[68] -- started at 16:58:58
+    - #G02# As a FABS user, I want to submission errors to accurately represent FABS errors, so that I know why my submission didn't work.
+
+        - calling model 16:58:58
+        - calling model 16:59:02
+        - calling model 16:59:05
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_68.json
+- Story #[69] -- started at 16:59:09
+    - #G02# As a FABS user, I want the frontend URLs to more accurately reflect the page I'm accessing, so that I'm not confused.
+
+        - calling model 16:59:09
+        - calling model 16:59:12
+        - calling model 16:59:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_69.json
+- Story #[70] -- started at 16:59:19
+    - #G02# As an Agency user, I want all historical Financial Assistance data loaded for FABS go-live.
+
+        - calling model 16:59:19
+        - calling model 16:59:22
+        - calling model 16:59:26
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_70.json
+- Story #[71] -- started at 16:59:30
+    - #G02# As a Developer , I want the historical FPDS data loader to include both extracted historical data and FPDS feed data.
+
+        - calling model 16:59:30
+        - calling model 16:59:34
+        - calling model 16:59:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_71.json
+- Story #[72] -- started at 16:59:41
+    - #G02# As an Agency user, I want historical FPDS data loaded.
+
+        - calling model 16:59:41
+        - calling model 16:59:44
+        - calling model 16:59:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_72.json
+- Story #[73] -- started at 16:59:50
+    - #G02# As an Agency user, I want to accurately see who created a submission, so that I'm not confused about who last updated a submission.
+
+        - calling model 16:59:50
+        - calling model 16:59:54
+        - calling model 16:59:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_73.json
+- Story #[74] -- started at 17:00:02
+    - #G02# As an agency user, I want to get File F in the correct format.
+
+        - calling model 17:00:02
+        - calling model 17:00:07
+        - calling model 17:00:10
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_74.json
+- Story #[75] -- started at 17:00:13
+    - #G02# As an Agency user, I want to better understand my file-level errors.
+
+        - calling model 17:00:13
+        - calling model 17:00:19
+        - calling model 17:00:22
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_75.json
+- Story #[76] -- started at 17:00:26
+    - #G02# As a Developer , I want to provide FABS groups that function under the FREC paradigm.
+
+        - calling model 17:00:26
+        - calling model 17:00:29
+        - calling model 17:00:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_76.json
+- Story #[77] -- started at 17:00:37
+    - #G02# As a tester, I want to ensure that FABS is deriving fields properly through a robust test file plus a follow up check.
+
+        - calling model 17:00:37
+        - calling model 17:00:40
+        - calling model 17:00:43
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_77.json
+- Story #[78] -- started at 17:00:49
+    - #G02# As an owner, I only want zero-padded fields, so that I can justify padding.
+
+        - calling model 17:00:49
+        - calling model 17:00:52
+        - calling model 17:00:55
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_78.json
+- Story #[79] -- started at 17:00:58
+    - #G02# As a Broker user, I want to submit records for individual recipients without receiving a DUNS error.
+
+        - calling model 17:00:58
+        - calling model 17:01:01
+        - calling model 17:01:05
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_79.json
+- Story #[80] -- started at 17:01:08
+    - #G02# As a user, I want more information about how many rows will be published prior to deciding whether to publish.
+
+        - calling model 17:01:08
+        - calling model 17:01:12
+        - calling model 17:01:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_80.json
+- Story #[81] -- started at 17:01:18
+    - #G02# As a Developer, I want to prevent duplicate transactions from being published and deal with the time gap between validation and the publishing decision.
+
+        - calling model 17:01:18
+        - calling model 17:01:22
+        - calling model 17:01:26
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_81.json
+- Story #[82] -- started at 17:01:32
+    - #G02# As a FABS user, I want to submit a citywide as a PPoPZIP and pass validations.
+
+        - calling model 17:01:32
+        - calling model 17:01:37
+        - calling model 17:01:40
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_82.json
+- Story #[83] -- started at 17:01:45
+    - #G02# As a Broker user, I want to have updated error codes that accurately reflect the logic and provide enough information, so that I can fix my submission.
+
+        - calling model 17:01:45
+        - calling model 17:01:49
+        - calling model 17:01:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_83.json
+- Story #[84] -- started at 17:01:57
+    - #G02# As an agency user, I want to leave off the last 4 digits of the ZIP without an error, so that I can complete my submissions.
+
+        - calling model 17:01:57
+        - calling model 17:02:00
+        - calling model 17:02:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_84.json
+- Story #[85] -- started at 17:02:08
+    - #G02# As a FABS user, I want to make sure the historical data includes all necessary columns, so that the information in the database is correct.
+
+        - calling model 17:02:08
+        - calling model 17:02:11
+        - calling model 17:02:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_85.json
+- Story #[86] -- started at 17:02:18
+    - #G02# As a data user, I want to access two additional fields from the FPDS data pull.
+
+        - calling model 17:02:18
+        - calling model 17:02:21
+        - calling model 17:02:25
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_86.json
+- Story #[87] -- started at 17:02:28
+    - #G02# As a FABS user, I want additional helpful info in the submission dashboard, so that I can better manage submissions and IG requests.
+
+        - calling model 17:02:28
+        - calling model 17:02:31
+        - calling model 17:02:34
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_87.json
+- Story #[88] -- started at 17:02:39
+    - #G02# As a FABS user, I want to download the uploaded FABS file, so that I can get the uploaded file.
+
+        - calling model 17:02:39
+        - calling model 17:02:42
+        - calling model 17:02:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_88.json
+- Story #[89] -- started at 17:02:49
+    - #G02# As a Developer I want to quickly access Broker application data, so that I can investigate issues.
+
+        - calling model 17:02:49
+        - calling model 17:02:52
+        - calling model 17:02:55
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_89.json
+- Story #[90] -- started at 17:03:00
+    - #G02# As a Developer , I want to determine the best way to load historical FPDS data, so that I can load all FPDS data since 2007.
+
+        - calling model 17:03:00
+        - calling model 17:03:03
+        - calling model 17:03:06
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_90.json
+- Story #[91] -- started at 17:03:10
+    - #G02# As a FABS user, I want the language on FABS pages to be appropriate for me, so that I am not confused.
+
+        - calling model 17:03:10
+        - calling model 17:03:14
+        - calling model 17:03:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_91.json
+- Story #[92] -- started at 17:03:21
+    - #G02# As a FABS user, I do not want  DABS banner messages and vice versa, so that I have the appropriate information for my application.
+
+        - calling model 17:03:21
+        - calling model 17:03:24
+        - calling model 17:03:27
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_92.json
+- Story #[93] -- started at 17:03:30
+    - #G02# As a FABS user, I want to have read-only access to DABS, so that I can view DABS pages without wanting two sets of permissions.
+
+        - calling model 17:03:30
+        - calling model 17:03:34
+        - calling model 17:03:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_93.json
+- Story #[94] -- started at 17:03:41
+    - #G02# As a FABS user, I want to have my validations run in a reasonable amount of time.
+
+        - calling model 17:03:41
+        - calling model 17:03:44
+        - calling model 17:03:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_94.json
+- Story #[95] -- started at 17:03:52
+    - #G02# As a FABS user, I want to see correct status labels on the Submission Dashboard, so that I can quickly see my submission history.
+
+        - calling model 17:03:52
+        - calling model 17:03:55
+        - calling model 17:03:58
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_95.json
+- Story #[96] -- started at 17:04:02
+    - #G02# As an agency user, I want to know when the submission periods start and end, so that I know when the submission starts and ends.
+
+        - calling model 17:04:02
+        - calling model 17:04:06
+        - calling model 17:04:09
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_96.json
+- Story #[97] -- started at 17:04:13
+    - #G02# As an agency user, I want a landing page to navigate to either FABS or DABS pages, so that I can access both sides of the site.
+
+        - calling model 17:04:13
+        - calling model 17:04:17
+        - calling model 17:04:20
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_97.json
+- Story #[98] -- started at 17:04:25
+    - #G02# As an agency user, I want to submit my data elements surrounded by quotation marks, so that Excel won't strip off leading and trailing zeroes.
+
+        - calling model 17:04:25
+        - calling model 17:04:28
+        - calling model 17:04:31
+    - saving result into: ./output/gpt-3.5-turbo-0613/g02-federalspending.txt_98.json
+END: 17:04:35

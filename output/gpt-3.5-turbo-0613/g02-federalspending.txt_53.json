@@ -1,0 +1,51 @@
+{
+  "story": "#G02# As a user, I want the DUNS validations to accept records whose ActionTypes are B, C, or D and the DUNS is registered in SAM, even though it may have expired. \n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "DUNS validations",
+      "SAM"
+    ],
+    "actions": [
+      "accept"
+    ],
+    "benefit": "accept records whose ActionTypes are B, C, or D and the DUNS is registered in SAM, even though it may have expired"
+  },
+  "categories": {
+    "primary_entities": [
+      "DUNS validations",
+      "SAM"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "accept"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "accept",
+        "kind": "triggers"
+      },
+      {
+        "from": "accept",
+        "to": "DUNS validations",
+        "kind": "targets"
+      },
+      {
+        "from": "accept",
+        "to": "SAM",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1377,
+    "output": 204,
+    "time (ns)": 5283294000
+  }
+}

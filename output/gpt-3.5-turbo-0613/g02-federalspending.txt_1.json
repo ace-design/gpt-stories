@@ -1,0 +1,44 @@
+{
+  "story": "#G02# As a Data user, I want to have the 12-19-2017 deletions processed.\n",
+  "extraction": {
+    "personas": [
+      "Data user"
+    ],
+    "entities": [
+      "12-19-2017 deletions"
+    ],
+    "actions": [
+      "have processed"
+    ],
+    "benefit": ""
+  },
+  "categories": {
+    "primary_entities": [
+      "12-19-2017 deletions"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have processed"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data user",
+        "to": "have processed",
+        "kind": "triggers"
+      },
+      {
+        "from": "have processed",
+        "to": "12-19-2017 deletions",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1282,
+    "output": 167,
+    "time (ns)": 8099501000
+  }
+}

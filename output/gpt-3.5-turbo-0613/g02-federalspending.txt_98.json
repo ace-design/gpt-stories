@@ -1,0 +1,47 @@
+{
+  "story": "#G02# As an agency user, I want to submit my data elements surrounded by quotation marks, so that Excel won't strip off leading and trailing zeroes.\n",
+  "extraction": {
+    "personas": [
+      "agency user"
+    ],
+    "entities": [
+      "data elements",
+      "Excel"
+    ],
+    "actions": [
+      "submit"
+    ],
+    "benefit": "Excel won't strip off leading and trailing zeroes"
+  },
+  "categories": {
+    "primary_entities": [
+      "data elements"
+    ],
+    "secondary_entities": [
+      "Excel"
+    ],
+    "primary_actions": [
+      "submit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "agency user",
+        "to": "submit",
+        "kind": "triggers"
+      },
+      {
+        "from": "submit",
+        "to": "data elements",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1311,
+    "output": 160,
+    "time (ns)": 3908688000
+  }
+}

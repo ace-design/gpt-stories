@@ -1,0 +1,68 @@
+{
+  "story": "#G02# As a tester, I want to have access to test features in environments other than Staging, so that I can test any nonProd feature in any environment.\n",
+  "extraction": {
+    "personas": [
+      "tester"
+    ],
+    "entities": [
+      "test features",
+      "environments",
+      "Staging",
+      "nonProd feature"
+    ],
+    "actions": [
+      "have access",
+      "test"
+    ],
+    "benefit": "I can test any nonProd feature in any environment"
+  },
+  "categories": {
+    "primary_entities": [
+      "test features",
+      "environments"
+    ],
+    "secondary_entities": [
+      "Staging",
+      "nonProd feature"
+    ],
+    "primary_actions": [
+      "have access",
+      "test"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "tester",
+        "to": "have access",
+        "kind": "triggers"
+      },
+      {
+        "from": "have access",
+        "to": "test features",
+        "kind": "targets"
+      },
+      {
+        "from": "have access",
+        "to": "environments",
+        "kind": "targets"
+      },
+      {
+        "from": "test",
+        "to": "nonProd feature",
+        "kind": "targets"
+      },
+      {
+        "from": "test",
+        "to": "environments",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1359,
+    "output": 265,
+    "time (ns)": 5063435000
+  }
+}

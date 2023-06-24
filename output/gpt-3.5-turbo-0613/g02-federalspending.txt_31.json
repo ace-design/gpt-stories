@@ -1,0 +1,47 @@
+{
+  "story": "#G02# As a Developer , I want to update the FABS sample file to remove FundingAgencyCode after FABS is updated to no longer require the header.\n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "FABS sample file",
+      "FundingAgencyCode"
+    ],
+    "actions": [
+      "update"
+    ],
+    "benefit": "remove FundingAgencyCode after FABS is updated to no longer require the header"
+  },
+  "categories": {
+    "primary_entities": [
+      "FABS sample file"
+    ],
+    "secondary_entities": [
+      "FundingAgencyCode"
+    ],
+    "primary_actions": [
+      "update"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "update",
+        "kind": "triggers"
+      },
+      {
+        "from": "update",
+        "to": "FABS sample file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1339,
+    "output": 176,
+    "time (ns)": 3802325000
+  }
+}

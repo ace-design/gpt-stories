@@ -1,0 +1,57 @@
+{
+  "story": "#G02# As a Developer I want to quickly access Broker application data, so that I can investigate issues.\n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "Broker application data"
+    ],
+    "actions": [
+      "quickly access",
+      "investigate"
+    ],
+    "benefit": "I can investigate issues"
+  },
+  "categories": {
+    "primary_entities": [
+      "Broker application data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "quickly access"
+    ],
+    "secondary_actions": [
+      "investigate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "quickly access",
+        "kind": "triggers"
+      },
+      {
+        "from": "quickly access",
+        "to": "Broker application data",
+        "kind": "targets"
+      },
+      {
+        "from": "Developer",
+        "to": "investigate",
+        "kind": "triggers"
+      },
+      {
+        "from": "investigate",
+        "to": "Broker application data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1280,
+    "output": 221,
+    "time (ns)": 4991959000
+  }
+}

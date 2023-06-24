@@ -1,0 +1,58 @@
+{
+  "story": "#G02# As a Developer, I want to add the GTAS window data to the database, so that I can ensure the site is locked down during the GTAS submission period.\n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "GTAS window data",
+      "database",
+      "site"
+    ],
+    "actions": [
+      "add"
+    ],
+    "benefit": "I can ensure the site is locked down during the GTAS submission period."
+  },
+  "categories": {
+    "primary_entities": [
+      "GTAS window data",
+      "database",
+      "site"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "add"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "GTAS window data",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "database",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "site",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1352,
+    "output": 226,
+    "time (ns)": 4354185000
+  }
+}

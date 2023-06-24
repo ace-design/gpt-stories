@@ -1,0 +1,67 @@
+{
+  "story": "#G02# As a UI designer, I want to move on to round 3 of the Help page edits, so that I can get approvals from leadership.\n",
+  "extraction": {
+    "personas": [
+      "UI designer"
+    ],
+    "entities": [
+      "round 3",
+      "Help page edits",
+      "approvals",
+      "leadership"
+    ],
+    "actions": [
+      "move on",
+      "get"
+    ],
+    "benefit": "I can get approvals from leadership"
+  },
+  "categories": {
+    "primary_entities": [
+      "round 3",
+      "Help page edits",
+      "approvals",
+      "leadership"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "move on",
+      "get"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "UI designer",
+        "to": "move on",
+        "kind": "triggers"
+      },
+      {
+        "from": "move on",
+        "to": "round 3",
+        "kind": "targets"
+      },
+      {
+        "from": "move on",
+        "to": "Help page edits",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "approvals",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "leadership",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1351,
+    "output": 271,
+    "time (ns)": 5457202000
+  }
+}

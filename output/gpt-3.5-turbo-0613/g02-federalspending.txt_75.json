@@ -1,0 +1,44 @@
+{
+  "story": "#G02# As an Agency user, I want to better understand my file-level errors.\n",
+  "extraction": {
+    "personas": [
+      "Agency user"
+    ],
+    "entities": [
+      "file-level errors"
+    ],
+    "actions": [
+      "understand"
+    ],
+    "benefit": "better understand my file-level errors"
+  },
+  "categories": {
+    "primary_entities": [
+      "file-level errors"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "understand"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Agency user",
+        "to": "understand",
+        "kind": "triggers"
+      },
+      {
+        "from": "understand",
+        "to": "file-level errors",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1261,
+    "output": 159,
+    "time (ns)": 6412243000
+  }
+}

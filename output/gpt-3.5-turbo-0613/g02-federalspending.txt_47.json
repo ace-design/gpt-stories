@@ -1,0 +1,52 @@
+{
+  "story": "#G02# As a broker team member, I want to add the 00***** and 00FORGN PPoPCode cases to the derivation logic.\n",
+  "extraction": {
+    "personas": [
+      "broker team member"
+    ],
+    "entities": [
+      "00*****",
+      "00FORGN PPoPCode"
+    ],
+    "actions": [
+      "add"
+    ],
+    "benefit": "to the derivation logic"
+  },
+  "categories": {
+    "primary_entities": [
+      "00*****"
+    ],
+    "secondary_entities": [
+      "00FORGN PPoPCode"
+    ],
+    "primary_actions": [
+      "add"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "broker team member",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "00*****",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "00FORGN PPoPCode",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1321,
+    "output": 200,
+    "time (ns)": 4442076000
+  }
+}

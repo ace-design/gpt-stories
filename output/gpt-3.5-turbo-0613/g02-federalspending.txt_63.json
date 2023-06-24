@@ -1,0 +1,99 @@
+{
+  "story": "#G02# As a Developer , I want to determine how agencies will generate and validate D Files from FABS and FPDS data.\n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "agencies",
+      "D Files",
+      "FABS",
+      "FPDS data"
+    ],
+    "actions": [
+      "determine",
+      "generate",
+      "validate"
+    ],
+    "benefit": "to determine how agencies will generate and validate D Files from FABS and FPDS data"
+  },
+  "categories": {
+    "primary_entities": [
+      "agencies",
+      "D Files",
+      "FABS",
+      "FPDS data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "determine",
+      "generate",
+      "validate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "determine",
+        "kind": "triggers"
+      },
+      {
+        "from": "Developer",
+        "to": "generate",
+        "kind": "triggers"
+      },
+      {
+        "from": "Developer",
+        "to": "validate",
+        "kind": "triggers"
+      },
+      {
+        "from": "determine",
+        "to": "agencies",
+        "kind": "targets"
+      },
+      {
+        "from": "generate",
+        "to": "D Files",
+        "kind": "targets"
+      },
+      {
+        "from": "generate",
+        "to": "FABS",
+        "kind": "targets"
+      },
+      {
+        "from": "generate",
+        "to": "FPDS data",
+        "kind": "targets"
+      },
+      {
+        "from": "validate",
+        "to": "agencies",
+        "kind": "targets"
+      },
+      {
+        "from": "validate",
+        "to": "D Files",
+        "kind": "targets"
+      },
+      {
+        "from": "validate",
+        "to": "FABS",
+        "kind": "targets"
+      },
+      {
+        "from": "validate",
+        "to": "FPDS data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1362,
+    "output": 439,
+    "time (ns)": 7716271000
+  }
+}

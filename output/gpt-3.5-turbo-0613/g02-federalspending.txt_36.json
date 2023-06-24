@@ -1,0 +1,62 @@
+{
+  "story": "#G02# As an Owner, I want to reset the environment to only take Staging MAX permissions, so that I can ensure that the FABS testers no longer have access.\n",
+  "extraction": {
+    "personas": [
+      "Owner"
+    ],
+    "entities": [
+      "environment",
+      "Staging MAX permissions",
+      "FABS testers"
+    ],
+    "actions": [
+      "reset",
+      "take"
+    ],
+    "benefit": "I can ensure that the FABS testers no longer have access"
+  },
+  "categories": {
+    "primary_entities": [
+      "environment"
+    ],
+    "secondary_entities": [
+      "Staging MAX permissions",
+      "FABS testers"
+    ],
+    "primary_actions": [
+      "reset"
+    ],
+    "secondary_actions": [
+      "take"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Owner",
+        "to": "reset",
+        "kind": "triggers"
+      },
+      {
+        "from": "reset",
+        "to": "environment",
+        "kind": "targets"
+      },
+      {
+        "from": "reset",
+        "to": "Staging MAX permissions",
+        "kind": "targets"
+      },
+      {
+        "from": "reset",
+        "to": "FABS testers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1355,
+    "output": 234,
+    "time (ns)": 4485032000
+  }
+}

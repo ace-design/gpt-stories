@@ -1,0 +1,76 @@
+{
+  "story": "#G02# As a broker team member, I want to ensure the Broker resources, validations, and P&P pages are updated appropriately for the launch of FABS and DAIMS v1.1.\n",
+  "extraction": {
+    "personas": [
+      "broker team member"
+    ],
+    "entities": [
+      "Broker resources",
+      "validations",
+      "P&P pages",
+      "FABS",
+      "DAIMS v1.1"
+    ],
+    "actions": [
+      "ensure",
+      "updated"
+    ],
+    "benefit": "for the launch of FABS and DAIMS v1.1"
+  },
+  "categories": {
+    "primary_entities": [
+      "Broker resources"
+    ],
+    "secondary_entities": [
+      "validations",
+      "P&P pages",
+      "FABS",
+      "DAIMS v1.1"
+    ],
+    "primary_actions": [
+      "ensure"
+    ],
+    "secondary_actions": [
+      "updated"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "broker team member",
+        "to": "ensure",
+        "kind": "triggers"
+      },
+      {
+        "from": "ensure",
+        "to": "Broker resources",
+        "kind": "targets"
+      },
+      {
+        "from": "ensure",
+        "to": "validations",
+        "kind": "targets"
+      },
+      {
+        "from": "ensure",
+        "to": "P&P pages",
+        "kind": "targets"
+      },
+      {
+        "from": "ensure",
+        "to": "FABS",
+        "kind": "targets"
+      },
+      {
+        "from": "ensure",
+        "to": "DAIMS v1.1",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1411,
+    "output": 317,
+    "time (ns)": 6263379000
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "story": "#G02# As a tester, I want to ensure that FABS is deriving fields properly through a robust test file plus a follow up check.\n",
+  "extraction": {
+    "personas": [
+      "tester"
+    ],
+    "entities": [
+      "FABS",
+      "test file"
+    ],
+    "actions": [
+      "ensure",
+      "deriving",
+      "follow up check"
+    ],
+    "benefit": "FABS is deriving fields properly"
+  },
+  "categories": {
+    "primary_entities": [
+      "FABS"
+    ],
+    "secondary_entities": [
+      "test file"
+    ],
+    "primary_actions": [
+      "ensure",
+      "deriving"
+    ],
+    "secondary_actions": [
+      "follow up check"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "tester",
+        "to": "ensure",
+        "kind": "triggers"
+      },
+      {
+        "from": "ensure",
+        "to": "FABS",
+        "kind": "targets"
+      },
+      {
+        "from": "tester",
+        "to": "deriving",
+        "kind": "triggers"
+      },
+      {
+        "from": "deriving",
+        "to": "FABS",
+        "kind": "targets"
+      },
+      {
+        "from": "tester",
+        "to": "follow up check",
+        "kind": "triggers"
+      },
+      {
+        "from": "follow up check",
+        "to": "test file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1322,
+    "output": 284,
+    "time (ns)": 5624433000
+  }
+}

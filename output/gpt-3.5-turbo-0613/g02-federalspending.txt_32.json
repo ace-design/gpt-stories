@@ -1,0 +1,60 @@
+{
+  "story": "#G02# As an agency user, I want to ensure that deleted FSRS records are not included in submissions.\n",
+  "extraction": {
+    "personas": [
+      "agency user"
+    ],
+    "entities": [
+      "FSRS records"
+    ],
+    "actions": [
+      "ensure",
+      "deleted",
+      "included",
+      "submissions"
+    ],
+    "benefit": "deleted FSRS records are not included in submissions"
+  },
+  "categories": {
+    "primary_entities": [
+      "FSRS records"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "ensure",
+      "deleted",
+      "included",
+      "submissions"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "agency user",
+        "to": "ensure",
+        "kind": "triggers"
+      },
+      {
+        "from": "ensure",
+        "to": "FSRS records",
+        "kind": "targets"
+      },
+      {
+        "from": "deleted",
+        "to": "FSRS records",
+        "kind": "targets"
+      },
+      {
+        "from": "included",
+        "to": "submissions",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1309,
+    "output": 231,
+    "time (ns)": 4969076000
+  }
+}

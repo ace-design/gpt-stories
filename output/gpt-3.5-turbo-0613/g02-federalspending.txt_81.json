@@ -1,0 +1,69 @@
+{
+  "story": "#G02# As a Developer, I want to prevent duplicate transactions from being published and deal with the time gap between validation and the publishing decision.\n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "duplicate transactions"
+    ],
+    "actions": [
+      "prevent",
+      "publish",
+      "deal with"
+    ],
+    "benefit": "prevent duplicate transactions from being published and deal with the time gap between validation and the publishing decision"
+  },
+  "categories": {
+    "primary_entities": [
+      "duplicate transactions"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "prevent",
+      "publish"
+    ],
+    "secondary_actions": [
+      "deal with"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "prevent",
+        "kind": "triggers"
+      },
+      {
+        "from": "Developer",
+        "to": "publish",
+        "kind": "triggers"
+      },
+      {
+        "from": "Developer",
+        "to": "deal with",
+        "kind": "triggers"
+      },
+      {
+        "from": "prevent",
+        "to": "duplicate transactions",
+        "kind": "targets"
+      },
+      {
+        "from": "publish",
+        "to": "duplicate transactions",
+        "kind": "targets"
+      },
+      {
+        "from": "deal with",
+        "to": "time gap between validation and the publishing decision",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1329,
+    "output": 287,
+    "time (ns)": 8022706000
+  }
+}

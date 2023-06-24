@@ -1,0 +1,52 @@
+{
+  "story": "#G02# As a Broker user, I want to have PPoPZIP+4 work the same as the Legal Entity ZIP validations.\n",
+  "extraction": {
+    "personas": [
+      "Broker user"
+    ],
+    "entities": [
+      "PPoPZIP+4",
+      "Legal Entity ZIP validations"
+    ],
+    "actions": [
+      "work the same as"
+    ],
+    "benefit": "have PPoPZIP+4 work the same as the Legal Entity ZIP validations"
+  },
+  "categories": {
+    "primary_entities": [
+      "PPoPZIP+4"
+    ],
+    "secondary_entities": [
+      "Legal Entity ZIP validations"
+    ],
+    "primary_actions": [
+      "work the same as"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Broker user",
+        "to": "work the same as",
+        "kind": "triggers"
+      },
+      {
+        "from": "work the same as",
+        "to": "PPoPZIP+4",
+        "kind": "targets"
+      },
+      {
+        "from": "work the same as",
+        "to": "Legal Entity ZIP validations",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1343,
+    "output": 228,
+    "time (ns)": 4671022000
+  }
+}

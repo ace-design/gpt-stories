@@ -1,0 +1,56 @@
+{
+  "story": "#G02# As an agency user, I want to leave off the last 4 digits of the ZIP without an error, so that I can complete my submissions.\n",
+  "extraction": {
+    "personas": [
+      "agency user"
+    ],
+    "entities": [
+      "ZIP"
+    ],
+    "actions": [
+      "leave off",
+      "complete"
+    ],
+    "benefit": "I can complete my submissions"
+  },
+  "categories": {
+    "primary_entities": [
+      "ZIP"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "leave off",
+      "complete"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "agency user",
+        "to": "leave off",
+        "kind": "triggers"
+      },
+      {
+        "from": "leave off",
+        "to": "ZIP",
+        "kind": "targets"
+      },
+      {
+        "from": "agency user",
+        "to": "complete",
+        "kind": "triggers"
+      },
+      {
+        "from": "complete",
+        "to": "submissions",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1307,
+    "output": 211,
+    "time (ns)": 5002100000
+  }
+}

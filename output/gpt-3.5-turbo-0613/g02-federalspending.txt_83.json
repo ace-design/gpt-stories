@@ -1,0 +1,72 @@
+{
+  "story": "#G02# As a Broker user, I want to have updated error codes that accurately reflect the logic and provide enough information, so that I can fix my submission.\n",
+  "extraction": {
+    "personas": [
+      "Broker user"
+    ],
+    "entities": [
+      "error codes",
+      "submission"
+    ],
+    "actions": [
+      "have",
+      "reflect",
+      "provide",
+      "fix"
+    ],
+    "benefit": "I can fix my submission"
+  },
+  "categories": {
+    "primary_entities": [
+      "error codes",
+      "submission"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "reflect",
+      "provide",
+      "fix"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Broker user",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "error codes",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "submission",
+        "kind": "targets"
+      },
+      {
+        "from": "reflect",
+        "to": "error codes",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "error codes",
+        "kind": "targets"
+      },
+      {
+        "from": "fix",
+        "to": "submission",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1334,
+    "output": 277,
+    "time (ns)": 5672410000
+  }
+}

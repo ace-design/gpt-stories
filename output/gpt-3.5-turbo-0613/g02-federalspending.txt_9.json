@@ -1,0 +1,52 @@
+{
+  "story": "#G02# As a DevOps engineer, I want New Relic to provide useful data across all applications.\n",
+  "extraction": {
+    "personas": [
+      "DevOps engineer"
+    ],
+    "entities": [
+      "New Relic",
+      "all applications"
+    ],
+    "actions": [
+      "provide"
+    ],
+    "benefit": "useful data"
+  },
+  "categories": {
+    "primary_entities": [
+      "New Relic"
+    ],
+    "secondary_entities": [
+      "all applications"
+    ],
+    "primary_actions": [
+      "provide"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DevOps engineer",
+        "to": "provide",
+        "kind": "triggers"
+      },
+      {
+        "from": "provide",
+        "to": "New Relic",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "all applications",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1277,
+    "output": 187,
+    "time (ns)": 4857944000
+  }
+}

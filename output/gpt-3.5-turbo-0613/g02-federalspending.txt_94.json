@@ -1,0 +1,56 @@
+{
+  "story": "#G02# As a FABS user, I want to have my validations run in a reasonable amount of time.\n",
+  "extraction": {
+    "personas": [
+      "FABS user"
+    ],
+    "entities": [
+      "validations"
+    ],
+    "actions": [
+      "have",
+      "run"
+    ],
+    "benefit": "in a reasonable amount of time"
+  },
+  "categories": {
+    "primary_entities": [
+      "validations"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "run"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "FABS user",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "validations",
+        "kind": "targets"
+      },
+      {
+        "from": "FABS user",
+        "to": "run",
+        "kind": "triggers"
+      },
+      {
+        "from": "run",
+        "to": "validations",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1281,
+    "output": 214,
+    "time (ns)": 4856563000
+  }
+}

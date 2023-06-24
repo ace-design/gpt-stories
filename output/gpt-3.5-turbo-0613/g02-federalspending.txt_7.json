@@ -1,0 +1,44 @@
+{
+  "story": "#G02# As a Developer , I want to be able to log better, so that I can troubleshoot issues with particular submissions and functions.\n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "log"
+    ],
+    "actions": [
+      "troubleshoot"
+    ],
+    "benefit": "I can troubleshoot issues with particular submissions and functions"
+  },
+  "categories": {
+    "primary_entities": [
+      "log"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "troubleshoot"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "troubleshoot",
+        "kind": "triggers"
+      },
+      {
+        "from": "troubleshoot",
+        "to": "log",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1297,
+    "output": 159,
+    "time (ns)": 5928300000
+  }
+}

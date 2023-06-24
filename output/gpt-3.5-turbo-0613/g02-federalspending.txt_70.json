@@ -1,0 +1,52 @@
+{
+  "story": "#G02# As an Agency user, I want all historical Financial Assistance data loaded for FABS go-live.\n",
+  "extraction": {
+    "personas": [
+      "Agency user"
+    ],
+    "entities": [
+      "historical Financial Assistance data",
+      "FABS"
+    ],
+    "actions": [
+      "loaded"
+    ],
+    "benefit": "all historical Financial Assistance data is available for FABS go-live"
+  },
+  "categories": {
+    "primary_entities": [
+      "historical Financial Assistance data"
+    ],
+    "secondary_entities": [
+      "FABS"
+    ],
+    "primary_actions": [
+      "loaded"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Agency user",
+        "to": "loaded",
+        "kind": "triggers"
+      },
+      {
+        "from": "loaded",
+        "to": "historical Financial Assistance data",
+        "kind": "targets"
+      },
+      {
+        "from": "loaded",
+        "to": "FABS",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1299,
+    "output": 200,
+    "time (ns)": 4701960000
+  }
+}

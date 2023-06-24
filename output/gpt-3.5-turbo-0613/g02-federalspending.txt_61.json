@@ -1,0 +1,44 @@
+{
+  "story": "#G02# As an Agency user, I want FPDS data to be up-to-date daily.\n",
+  "extraction": {
+    "personas": [
+      "Agency user"
+    ],
+    "entities": [
+      "FPDS data"
+    ],
+    "actions": [
+      "up-to-date"
+    ],
+    "benefit": "I want FPDS data to be up-to-date daily"
+  },
+  "categories": {
+    "primary_entities": [
+      "FPDS data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "up-to-date"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Agency user",
+        "to": "up-to-date",
+        "kind": "triggers"
+      },
+      {
+        "from": "up-to-date",
+        "to": "FPDS data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1280,
+    "output": 168,
+    "time (ns)": 4064456000
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "story": "#G02# As a FABS user, I want to make sure the historical data includes all necessary columns, so that the information in the database is correct.\n",
+  "extraction": {
+    "personas": [
+      "FABS user"
+    ],
+    "entities": [
+      "historical data",
+      "database"
+    ],
+    "actions": [
+      "make sure"
+    ],
+    "benefit": "the information in the database is correct"
+  },
+  "categories": {
+    "primary_entities": [
+      "historical data",
+      "database"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "make sure"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "FABS user",
+        "to": "make sure",
+        "kind": "triggers"
+      },
+      {
+        "from": "make sure",
+        "to": "historical data",
+        "kind": "targets"
+      },
+      {
+        "from": "make sure",
+        "to": "database",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1316,
+    "output": 194,
+    "time (ns)": 4222934000
+  }
+}

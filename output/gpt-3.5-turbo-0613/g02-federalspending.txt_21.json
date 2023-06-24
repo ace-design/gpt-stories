@@ -1,0 +1,58 @@
+{
+  "story": "#G02# As a Broker user, I want  to help create content mockups, so that I can submit my data efficiently.\n",
+  "extraction": {
+    "personas": [
+      "Broker user"
+    ],
+    "entities": [
+      "content mockups",
+      "data"
+    ],
+    "actions": [
+      "help create",
+      "submit"
+    ],
+    "benefit": "I can submit my data efficiently"
+  },
+  "categories": {
+    "primary_entities": [
+      "content mockups",
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "help create",
+      "submit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Broker user",
+        "to": "help create",
+        "kind": "triggers"
+      },
+      {
+        "from": "help create",
+        "to": "content mockups",
+        "kind": "targets"
+      },
+      {
+        "from": "Broker user",
+        "to": "submit",
+        "kind": "triggers"
+      },
+      {
+        "from": "submit",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1306,
+    "output": 223,
+    "time (ns)": 4655105000
+  }
+}

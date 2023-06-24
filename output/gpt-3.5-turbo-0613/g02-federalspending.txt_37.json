@@ -1,0 +1,65 @@
+{
+  "story": "#G02# As a user, I want the flexfields in my submission file to appear in the warning and error files when the only error is a missing required element.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "flexfields",
+      "submission file",
+      "warning and error files",
+      "missing required element"
+    ],
+    "actions": [
+      "appear"
+    ],
+    "benefit": "to have the flexfields in the warning and error files when the only error is a missing required element"
+  },
+  "categories": {
+    "primary_entities": [
+      "flexfields",
+      "submission file",
+      "warning and error files",
+      "missing required element"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "appear"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "appear",
+        "kind": "triggers"
+      },
+      {
+        "from": "appear",
+        "to": "flexfields",
+        "kind": "targets"
+      },
+      {
+        "from": "appear",
+        "to": "submission file",
+        "kind": "targets"
+      },
+      {
+        "from": "appear",
+        "to": "warning and error files",
+        "kind": "targets"
+      },
+      {
+        "from": "appear",
+        "to": "missing required element",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1374,
+    "output": 275,
+    "time (ns)": 6175527000
+  }
+}

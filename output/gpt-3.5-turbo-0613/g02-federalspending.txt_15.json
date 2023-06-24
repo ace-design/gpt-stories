@@ -1,0 +1,54 @@
+{
+  "story": "#G02# As an owner, I want to be sure that USAspending only send grant records to my system.\n",
+  "extraction": {
+    "personas": [
+      "owner"
+    ],
+    "entities": [
+      "USAspending",
+      "grant records",
+      "my system"
+    ],
+    "actions": [
+      "be sure"
+    ],
+    "benefit": "USAspending only send grant records to my system"
+  },
+  "categories": {
+    "primary_entities": [
+      "USAspending",
+      "my system"
+    ],
+    "secondary_entities": [
+      "grant records"
+    ],
+    "primary_actions": [
+      "be sure"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "owner",
+        "to": "be sure",
+        "kind": "triggers"
+      },
+      {
+        "from": "be sure",
+        "to": "USAspending",
+        "kind": "targets"
+      },
+      {
+        "from": "be sure",
+        "to": "my system",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1308,
+    "output": 203,
+    "time (ns)": 4269008000
+  }
+}

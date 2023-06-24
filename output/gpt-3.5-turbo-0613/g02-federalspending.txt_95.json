@@ -1,0 +1,58 @@
+{
+  "story": "#G02# As a FABS user, I want to see correct status labels on the Submission Dashboard, so that I can quickly see my submission history.\n",
+  "extraction": {
+    "personas": [
+      "FABS user"
+    ],
+    "entities": [
+      "Submission Dashboard",
+      "status labels",
+      "submission history"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "I can quickly see my submission history"
+  },
+  "categories": {
+    "primary_entities": [
+      "Submission Dashboard",
+      "status labels",
+      "submission history"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "FABS user",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "Submission Dashboard",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "status labels",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "submission history",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1322,
+    "output": 223,
+    "time (ns)": 4639711000
+  }
+}

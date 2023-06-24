@@ -1,0 +1,44 @@
+{
+  "story": "#G02# As a broker team member, I want to derive FundingAgencyCode, so that the data quality and completeness improves.\n",
+  "extraction": {
+    "personas": [
+      "broker team member"
+    ],
+    "entities": [
+      "FundingAgencyCode"
+    ],
+    "actions": [
+      "derive"
+    ],
+    "benefit": "data quality and completeness improves"
+  },
+  "categories": {
+    "primary_entities": [
+      "FundingAgencyCode"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "derive"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "broker team member",
+        "to": "derive",
+        "kind": "triggers"
+      },
+      {
+        "from": "derive",
+        "to": "FundingAgencyCode",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1285,
+    "output": 159,
+    "time (ns)": 4151258000
+  }
+}

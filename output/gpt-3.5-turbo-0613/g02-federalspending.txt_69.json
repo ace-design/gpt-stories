@@ -1,0 +1,47 @@
+{
+  "story": "#G02# As a FABS user, I want the frontend URLs to more accurately reflect the page I'm accessing, so that I'm not confused.\n",
+  "extraction": {
+    "personas": [
+      "FABS user"
+    ],
+    "entities": [
+      "frontend URLs",
+      "page"
+    ],
+    "actions": [
+      "accessing"
+    ],
+    "benefit": "I'm not confused"
+  },
+  "categories": {
+    "primary_entities": [
+      "frontend URLs"
+    ],
+    "secondary_entities": [
+      "page"
+    ],
+    "primary_actions": [
+      "accessing"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "FABS user",
+        "to": "accessing",
+        "kind": "triggers"
+      },
+      {
+        "from": "accessing",
+        "to": "frontend URLs",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1303,
+    "output": 161,
+    "time (ns)": 3748778000
+  }
+}

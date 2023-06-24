@@ -1,0 +1,51 @@
+{
+  "story": "#G02# As a user, I want to have accurate and complete data related to PPoPCode and PPoPCongressionalDistrict.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "PPoPCode",
+      "PPoPCongressionalDistrict"
+    ],
+    "actions": [
+      "have"
+    ],
+    "benefit": "have accurate and complete data related to PPoPCode and PPoPCongressionalDistrict"
+  },
+  "categories": {
+    "primary_entities": [
+      "PPoPCode",
+      "PPoPCongressionalDistrict"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "PPoPCode",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "PPoPCongressionalDistrict",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1348,
+    "output": 218,
+    "time (ns)": 4636160000
+  }
+}

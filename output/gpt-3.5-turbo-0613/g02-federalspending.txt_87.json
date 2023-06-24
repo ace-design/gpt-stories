@@ -1,0 +1,58 @@
+{
+  "story": "#G02# As a FABS user, I want additional helpful info in the submission dashboard, so that I can better manage submissions and IG requests.\n",
+  "extraction": {
+    "personas": [
+      "FABS user"
+    ],
+    "entities": [
+      "submission dashboard",
+      "submissions",
+      "IG requests"
+    ],
+    "actions": [
+      "manage"
+    ],
+    "benefit": "better manage submissions and IG requests"
+  },
+  "categories": {
+    "primary_entities": [
+      "submission dashboard",
+      "submissions",
+      "IG requests"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "manage"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "FABS user",
+        "to": "manage",
+        "kind": "triggers"
+      },
+      {
+        "from": "manage",
+        "to": "submission dashboard",
+        "kind": "targets"
+      },
+      {
+        "from": "manage",
+        "to": "submissions",
+        "kind": "targets"
+      },
+      {
+        "from": "manage",
+        "to": "IG requests",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1317,
+    "output": 222,
+    "time (ns)": 4650396000
+  }
+}

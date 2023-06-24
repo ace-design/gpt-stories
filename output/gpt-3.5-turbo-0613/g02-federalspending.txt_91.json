@@ -1,0 +1,47 @@
+{
+  "story": "#G02# As a FABS user, I want the language on FABS pages to be appropriate for me, so that I am not confused.\n",
+  "extraction": {
+    "personas": [
+      "FABS user"
+    ],
+    "entities": [
+      "FABS pages"
+    ],
+    "actions": [
+      "want",
+      "be"
+    ],
+    "benefit": "I am not confused"
+  },
+  "categories": {
+    "primary_entities": [
+      "FABS pages"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "want"
+    ],
+    "secondary_actions": [
+      "be"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "FABS user",
+        "to": "want",
+        "kind": "triggers"
+      },
+      {
+        "from": "want",
+        "to": "FABS pages",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1299,
+    "output": 160,
+    "time (ns)": 4247884000
+  }
+}

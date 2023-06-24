@@ -1,0 +1,61 @@
+{
+  "story": "#G02# As a user, I want the publish button in FABS to deactivate after I click it while the derivations are happening, so that I cannot click it multiple times for the same submission.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "publish button",
+      "FABS"
+    ],
+    "actions": [
+      "deactivate",
+      "click",
+      "derivations are happening"
+    ],
+    "benefit": "I cannot click it multiple times for the same submission"
+  },
+  "categories": {
+    "primary_entities": [
+      "publish button",
+      "FABS"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "deactivate",
+      "click"
+    ],
+    "secondary_actions": [
+      "derivations are happening"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "deactivate",
+        "kind": "triggers"
+      },
+      {
+        "from": "user",
+        "to": "click",
+        "kind": "triggers"
+      },
+      {
+        "from": "click",
+        "to": "publish button",
+        "kind": "targets"
+      },
+      {
+        "from": "derivations are happening",
+        "to": "publish button",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1370,
+    "output": 237,
+    "time (ns)": 6172404000
+  }
+}

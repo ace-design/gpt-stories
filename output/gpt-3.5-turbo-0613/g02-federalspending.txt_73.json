@@ -1,0 +1,68 @@
+{
+  "story": "#G02# As an Agency user, I want to accurately see who created a submission, so that I'm not confused about who last updated a submission.\n",
+  "extraction": {
+    "personas": [
+      "Agency user"
+    ],
+    "entities": [
+      "submission"
+    ],
+    "actions": [
+      "see",
+      "created",
+      "last updated"
+    ],
+    "benefit": "not confused about who last updated a submission"
+  },
+  "categories": {
+    "primary_entities": [
+      "submission"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see",
+      "created",
+      "last updated"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Agency user",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "submission",
+        "kind": "targets"
+      },
+      {
+        "from": "Agency user",
+        "to": "created",
+        "kind": "triggers"
+      },
+      {
+        "from": "created",
+        "to": "submission",
+        "kind": "targets"
+      },
+      {
+        "from": "Agency user",
+        "to": "last updated",
+        "kind": "triggers"
+      },
+      {
+        "from": "last updated",
+        "to": "submission",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1316,
+    "output": 271,
+    "time (ns)": 5865411000
+  }
+}

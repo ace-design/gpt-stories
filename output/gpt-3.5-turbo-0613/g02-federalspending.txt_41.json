@@ -1,0 +1,51 @@
+{
+  "story": "#G02# As a Developer , I want to clarify to users what exactly is triggering the CFDA error code in each case.\n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "users",
+      "CFDA error code"
+    ],
+    "actions": [
+      "clarify"
+    ],
+    "benefit": "users understand what triggers the CFDA error code in each case"
+  },
+  "categories": {
+    "primary_entities": [
+      "users",
+      "CFDA error code"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "clarify"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "clarify",
+        "kind": "triggers"
+      },
+      {
+        "from": "clarify",
+        "to": "users",
+        "kind": "targets"
+      },
+      {
+        "from": "clarify",
+        "to": "CFDA error code",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1307,
+    "output": 198,
+    "time (ns)": 4001933000
+  }
+}

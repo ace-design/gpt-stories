@@ -1,0 +1,56 @@
+{
+  "story": "#G02# As a Developer, I want D Files generation requests to be managed and cached, so that duplicate requests do not cause performance issues.\n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "D Files generation requests"
+    ],
+    "actions": [
+      "managed",
+      "cached"
+    ],
+    "benefit": "duplicate requests do not cause performance issues"
+  },
+  "categories": {
+    "primary_entities": [
+      "D Files generation requests"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "managed",
+      "cached"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "managed",
+        "kind": "triggers"
+      },
+      {
+        "from": "Developer",
+        "to": "cached",
+        "kind": "triggers"
+      },
+      {
+        "from": "managed",
+        "to": "D Files generation requests",
+        "kind": "targets"
+      },
+      {
+        "from": "cached",
+        "to": "D Files generation requests",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1303,
+    "output": 217,
+    "time (ns)": 4408565000
+  }
+}

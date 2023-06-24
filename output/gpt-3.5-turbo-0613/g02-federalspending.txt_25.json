@@ -1,0 +1,52 @@
+{
+  "story": "#G02# As a UI designer, I want to schedule user testing, so that I can give the testers advanced notice to ensure buy-in.\n",
+  "extraction": {
+    "personas": [
+      "UI designer"
+    ],
+    "entities": [
+      "user testing",
+      "testers"
+    ],
+    "actions": [
+      "schedule",
+      "give advanced notice",
+      "ensure buy-in"
+    ],
+    "benefit": "I can give the testers advanced notice to ensure buy-in"
+  },
+  "categories": {
+    "primary_entities": [
+      "user testing"
+    ],
+    "secondary_entities": [
+      "stakeholder UI improvement requests"
+    ],
+    "primary_actions": [
+      "schedule"
+    ],
+    "secondary_actions": [
+      "give advanced notice",
+      "ensure buy-in"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "UI designer",
+        "to": "schedule",
+        "kind": "triggers"
+      },
+      {
+        "from": "schedule",
+        "to": "user testing",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1341,
+    "output": 187,
+    "time (ns)": 4565810000
+  }
+}

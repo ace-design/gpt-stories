@@ -1,0 +1,60 @@
+{
+  "story": "#G02# As a Broker user, I want the D1 file generation to be synced with the FPDS data load, so that I don't have to regenerate a file if no data has been updated.\n",
+  "extraction": {
+    "personas": [
+      "Broker user"
+    ],
+    "entities": [
+      "D1 file generation",
+      "FPDS data load"
+    ],
+    "actions": [
+      "synced",
+      "regenerate"
+    ],
+    "benefit": "I don't have to regenerate a file if no data has been updated."
+  },
+  "categories": {
+    "primary_entities": [
+      "D1 file generation"
+    ],
+    "secondary_entities": [
+      "FPDS data load"
+    ],
+    "primary_actions": [
+      "synced"
+    ],
+    "secondary_actions": [
+      "regenerate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Broker user",
+        "to": "synced",
+        "kind": "triggers"
+      },
+      {
+        "from": "synced",
+        "to": "D1 file generation",
+        "kind": "targets"
+      },
+      {
+        "from": "regenerate",
+        "to": "D1 file generation",
+        "kind": "targets"
+      },
+      {
+        "from": "FPDS data load",
+        "to": "synced",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1381,
+    "output": 247,
+    "time (ns)": 4945351000
+  }
+}

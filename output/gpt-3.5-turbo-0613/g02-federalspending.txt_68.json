@@ -1,0 +1,60 @@
+{
+  "story": "#G02# As a FABS user, I want to submission errors to accurately represent FABS errors, so that I know why my submission didn't work.\n",
+  "extraction": {
+    "personas": [
+      "FABS user"
+    ],
+    "entities": [
+      "submission errors",
+      "FABS errors"
+    ],
+    "actions": [
+      "represent",
+      "know"
+    ],
+    "benefit": "I know why my submission didn't work"
+  },
+  "categories": {
+    "primary_entities": [
+      "submission errors"
+    ],
+    "secondary_entities": [
+      "FABS errors"
+    ],
+    "primary_actions": [
+      "represent"
+    ],
+    "secondary_actions": [
+      "know"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "FABS user",
+        "to": "represent",
+        "kind": "triggers"
+      },
+      {
+        "from": "represent",
+        "to": "submission errors",
+        "kind": "targets"
+      },
+      {
+        "from": "FABS user",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "FABS errors",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1324,
+    "output": 225,
+    "time (ns)": 4737127000
+  }
+}

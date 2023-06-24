@@ -1,0 +1,44 @@
+{
+  "story": "#G02# As an agency user, I want to have all derived data elements derived properly.\n",
+  "extraction": {
+    "personas": [
+      "agency user"
+    ],
+    "entities": [
+      "derived data elements"
+    ],
+    "actions": [
+      "have"
+    ],
+    "benefit": "all derived data elements derived properly"
+  },
+  "categories": {
+    "primary_entities": [
+      "derived data elements"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "agency user",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "derived data elements",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1261,
+    "output": 155,
+    "time (ns)": 3801667000
+  }
+}

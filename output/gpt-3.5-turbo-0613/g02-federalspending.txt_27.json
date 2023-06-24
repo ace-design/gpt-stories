@@ -1,0 +1,49 @@
+{
+  "story": "#G02# As an Owner, I want to design an audit from the UI SME, so that I know the potential scope of the UI improvements want ed.\n",
+  "extraction": {
+    "personas": [
+      "Owner"
+    ],
+    "entities": [
+      "audit",
+      "UI SME",
+      "UI improvements"
+    ],
+    "actions": [
+      "design"
+    ],
+    "benefit": "know the potential scope of the UI improvements"
+  },
+  "categories": {
+    "primary_entities": [
+      "audit"
+    ],
+    "secondary_entities": [
+      "UI SME",
+      "UI improvements"
+    ],
+    "primary_actions": [
+      "design"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Owner",
+        "to": "design",
+        "kind": "triggers"
+      },
+      {
+        "from": "design",
+        "to": "audit",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1319,
+    "output": 164,
+    "time (ns)": 4566626000
+  }
+}

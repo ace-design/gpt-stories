@@ -1,0 +1,47 @@
+{
+  "story": "#G02# As a user, I don't want to see NASA grants displayed as contracts.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "NASA grants",
+      "contracts"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "I don't want to see NASA grants displayed as contracts"
+  },
+  "categories": {
+    "primary_entities": [
+      "NASA grants"
+    ],
+    "secondary_entities": [
+      "contracts"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "NASA grants",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1274,
+    "output": 160,
+    "time (ns)": 4053779000
+  }
+}

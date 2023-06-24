@@ -1,0 +1,44 @@
+{
+  "story": "#G02# As an agency user, I want to be confident that the data coming from SAM is complete.\n",
+  "extraction": {
+    "personas": [
+      "agency user"
+    ],
+    "entities": [
+      "SAM"
+    ],
+    "actions": [
+      "be confident"
+    ],
+    "benefit": "data coming from SAM is complete"
+  },
+  "categories": {
+    "primary_entities": [
+      "SAM"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "be confident"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "agency user",
+        "to": "be confident",
+        "kind": "triggers"
+      },
+      {
+        "from": "be confident",
+        "to": "SAM",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1267,
+    "output": 153,
+    "time (ns)": 3315004000
+  }
+}

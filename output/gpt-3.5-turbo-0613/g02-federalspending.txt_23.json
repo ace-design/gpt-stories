@@ -1,0 +1,74 @@
+{
+  "story": "#G02# As an Owner, I want to create a user testing summary from the UI SME, so that I can know what UI improvements we will follow through on.\n",
+  "extraction": {
+    "personas": [
+      "Owner"
+    ],
+    "entities": [
+      "user testing summary",
+      "UI SME",
+      "UI improvements"
+    ],
+    "actions": [
+      "create",
+      "know",
+      "follow through on"
+    ],
+    "benefit": "I can know what UI improvements we will follow through on"
+  },
+  "categories": {
+    "primary_entities": [
+      "user testing summary"
+    ],
+    "secondary_entities": [
+      "UI SME",
+      "UI improvements"
+    ],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": [
+      "know",
+      "follow through on"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Owner",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "user testing summary",
+        "kind": "targets"
+      },
+      {
+        "from": "Owner",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "UI improvements",
+        "kind": "targets"
+      },
+      {
+        "from": "Owner",
+        "to": "follow through on",
+        "kind": "triggers"
+      },
+      {
+        "from": "follow through on",
+        "to": "UI improvements",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1359,
+    "output": 296,
+    "time (ns)": 5763185000
+  }
+}

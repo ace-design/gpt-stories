@@ -1,0 +1,67 @@
+{
+  "story": "#G02# As an agency user, I want a landing page to navigate to either FABS or DABS pages, so that I can access both sides of the site.\n",
+  "extraction": {
+    "personas": [
+      "agency user"
+    ],
+    "entities": [
+      "landing page",
+      "FABS",
+      "DABS pages"
+    ],
+    "actions": [
+      "navigate",
+      "access"
+    ],
+    "benefit": "I can access both sides of the site"
+  },
+  "categories": {
+    "primary_entities": [
+      "landing page"
+    ],
+    "secondary_entities": [
+      "FABS",
+      "DABS pages"
+    ],
+    "primary_actions": [
+      "navigate"
+    ],
+    "secondary_actions": [
+      "access"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "agency user",
+        "to": "navigate",
+        "kind": "triggers"
+      },
+      {
+        "from": "navigate",
+        "to": "landing page",
+        "kind": "targets"
+      },
+      {
+        "from": "agency user",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "FABS",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "DABS pages",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1343,
+    "output": 256,
+    "time (ns)": 5226543000
+  }
+}

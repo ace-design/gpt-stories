@@ -1,0 +1,44 @@
+{
+  "story": "#G02# As a data user, I want to access two additional fields from the FPDS data pull.\n",
+  "extraction": {
+    "personas": [
+      "data user"
+    ],
+    "entities": [
+      "FPDS data pull"
+    ],
+    "actions": [
+      "access"
+    ],
+    "benefit": "I can access two additional fields from the FPDS data pull"
+  },
+  "categories": {
+    "primary_entities": [
+      "FPDS data pull"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data user",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "FPDS data pull",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1285,
+    "output": 164,
+    "time (ns)": 3720986000
+  }
+}

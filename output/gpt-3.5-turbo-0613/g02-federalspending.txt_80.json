@@ -1,0 +1,44 @@
+{
+  "story": "#G02# As a user, I want more information about how many rows will be published prior to deciding whether to publish.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "rows"
+    ],
+    "actions": [
+      "publish"
+    ],
+    "benefit": "I want more information about how many rows will be published prior to deciding whether to publish."
+  },
+  "categories": {
+    "primary_entities": [
+      "rows"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "publish"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "publish",
+        "kind": "triggers"
+      },
+      {
+        "from": "publish",
+        "to": "rows",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1295,
+    "output": 158,
+    "time (ns)": 3509989000
+  }
+}

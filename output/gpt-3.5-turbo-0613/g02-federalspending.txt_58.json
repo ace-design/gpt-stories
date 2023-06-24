@@ -1,0 +1,52 @@
+{
+  "story": "#G02# As a agency user, I want to map the FederalActionObligation properly to the Atom Feed.\n",
+  "extraction": {
+    "personas": [
+      "agency user"
+    ],
+    "entities": [
+      "FederalActionObligation",
+      "Atom Feed"
+    ],
+    "actions": [
+      "map"
+    ],
+    "benefit": "properly"
+  },
+  "categories": {
+    "primary_entities": [
+      "FederalActionObligation"
+    ],
+    "secondary_entities": [
+      "Atom Feed"
+    ],
+    "primary_actions": [
+      "map"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "agency user",
+        "to": "map",
+        "kind": "triggers"
+      },
+      {
+        "from": "map",
+        "to": "FederalActionObligation",
+        "kind": "targets"
+      },
+      {
+        "from": "map",
+        "to": "Atom Feed",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1285,
+    "output": 190,
+    "time (ns)": 3909834000
+  }
+}

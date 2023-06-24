@@ -1,0 +1,72 @@
+{
+  "story": "#G02# As a user, I want the DUNS validations to accept records whose ActionDates are before the current registration date in SAM, but after the initial registration date.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "DUNS validations",
+      "ActionDates",
+      "current registration date",
+      "SAM",
+      "initial registration date"
+    ],
+    "actions": [
+      "accept"
+    ],
+    "benefit": "validate records with appropriate ActionDates"
+  },
+  "categories": {
+    "primary_entities": [
+      "DUNS validations",
+      "ActionDates",
+      "current registration date",
+      "SAM",
+      "initial registration date"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "accept"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "accept",
+        "kind": "triggers"
+      },
+      {
+        "from": "accept",
+        "to": "DUNS validations",
+        "kind": "targets"
+      },
+      {
+        "from": "accept",
+        "to": "ActionDates",
+        "kind": "targets"
+      },
+      {
+        "from": "accept",
+        "to": "current registration date",
+        "kind": "targets"
+      },
+      {
+        "from": "accept",
+        "to": "SAM",
+        "kind": "targets"
+      },
+      {
+        "from": "accept",
+        "to": "initial registration date",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1358,
+    "output": 292,
+    "time (ns)": 6111245000
+  }
+}

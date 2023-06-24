@@ -1,0 +1,68 @@
+{
+  "story": "#G02# As a UI designer, I want to track the issues that come up in Tech Thursday, so that I know what to test and what want s to be fixed.\n",
+  "extraction": {
+    "personas": [
+      "UI designer"
+    ],
+    "entities": [
+      "Tech Thursday"
+    ],
+    "actions": [
+      "track",
+      "test",
+      "fix"
+    ],
+    "benefit": "know what to test and what wants to be fixed"
+  },
+  "categories": {
+    "primary_entities": [
+      "Tech Thursday"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "track",
+      "test",
+      "fix"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "UI designer",
+        "to": "track",
+        "kind": "triggers"
+      },
+      {
+        "from": "track",
+        "to": "Tech Thursday",
+        "kind": "targets"
+      },
+      {
+        "from": "UI designer",
+        "to": "test",
+        "kind": "triggers"
+      },
+      {
+        "from": "test",
+        "to": "Tech Thursday",
+        "kind": "targets"
+      },
+      {
+        "from": "UI designer",
+        "to": "fix",
+        "kind": "triggers"
+      },
+      {
+        "from": "fix",
+        "to": "Tech Thursday",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1335,
+    "output": 274,
+    "time (ns)": 5353162000
+  }
+}

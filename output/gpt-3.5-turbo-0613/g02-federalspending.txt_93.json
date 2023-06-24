@@ -1,0 +1,47 @@
+{
+  "story": "#G02# As a FABS user, I want to have read-only access to DABS, so that I can view DABS pages without wanting two sets of permissions.\n",
+  "extraction": {
+    "personas": [
+      "FABS user"
+    ],
+    "entities": [
+      "DABS"
+    ],
+    "actions": [
+      "have read-only access",
+      "view"
+    ],
+    "benefit": "I can view DABS pages without wanting two sets of permissions."
+  },
+  "categories": {
+    "primary_entities": [
+      "DABS"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have read-only access"
+    ],
+    "secondary_actions": [
+      "view"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "FABS user",
+        "to": "have read-only access",
+        "kind": "triggers"
+      },
+      {
+        "from": "have read-only access",
+        "to": "DABS",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1338,
+    "output": 177,
+    "time (ns)": 4303184000
+  }
+}

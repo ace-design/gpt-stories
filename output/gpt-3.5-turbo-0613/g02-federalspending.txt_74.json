@@ -1,0 +1,44 @@
+{
+  "story": "#G02# As an agency user, I want to get File F in the correct format.\n",
+  "extraction": {
+    "personas": [
+      "agency user"
+    ],
+    "entities": [
+      "File F"
+    ],
+    "actions": [
+      "get"
+    ],
+    "benefit": "in the correct format"
+  },
+  "categories": {
+    "primary_entities": [
+      "File F"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "get"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "agency user",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "File F",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1254,
+    "output": 150,
+    "time (ns)": 5110292000
+  }
+}

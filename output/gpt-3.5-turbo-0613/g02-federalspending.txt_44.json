@@ -1,0 +1,52 @@
+{
+  "story": "#G02# As an agency user, I want the FABS validation rules to accept zero and blank for non-loan records.\n",
+  "extraction": {
+    "personas": [
+      "agency user"
+    ],
+    "entities": [
+      "FABS validation rules",
+      "non-loan records"
+    ],
+    "actions": [
+      "accept"
+    ],
+    "benefit": "to accept zero and blank for non-loan records"
+  },
+  "categories": {
+    "primary_entities": [
+      "FABS validation rules"
+    ],
+    "secondary_entities": [
+      "non-loan records"
+    ],
+    "primary_actions": [
+      "accept"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "agency user",
+        "to": "accept",
+        "kind": "triggers"
+      },
+      {
+        "from": "accept",
+        "to": "FABS validation rules",
+        "kind": "targets"
+      },
+      {
+        "from": "accept",
+        "to": "non-loan records",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1310,
+    "output": 201,
+    "time (ns)": 5455615000
+  }
+}

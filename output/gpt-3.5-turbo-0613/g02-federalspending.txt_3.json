@@ -1,0 +1,60 @@
+{
+  "story": "#G02# As a UI designer, I want to report to the Agencies about user testing, so that they are aware of their contributions to making Broker a better UX.\n",
+  "extraction": {
+    "personas": [
+      "UI designer",
+      "Agencies"
+    ],
+    "entities": [
+      "user testing",
+      "Broker"
+    ],
+    "actions": [
+      "report",
+      "aware"
+    ],
+    "benefit": "they are aware of their contributions to making Broker a better UX"
+  },
+  "categories": {
+    "primary_entities": [
+      "user testing",
+      "Broker"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "report"
+    ],
+    "secondary_actions": [
+      "aware"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "UI designer",
+        "to": "report",
+        "kind": "triggers"
+      },
+      {
+        "from": "report",
+        "to": "user testing",
+        "kind": "targets"
+      },
+      {
+        "from": "Agencies",
+        "to": "aware",
+        "kind": "triggers"
+      },
+      {
+        "from": "report",
+        "to": "Broker",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1339,
+    "output": 225,
+    "time (ns)": 4949876000
+  }
+}

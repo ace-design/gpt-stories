@@ -1,0 +1,80 @@
+{
+  "story": "#G02# As a UI designer, I want to move on to round 2 of Homepage edits, so that I can get approvals from leadership.\n",
+  "extraction": {
+    "personas": [
+      "UI designer"
+    ],
+    "entities": [
+      "round 2 of Homepage edits",
+      "approvals",
+      "leadership"
+    ],
+    "actions": [
+      "move on",
+      "get"
+    ],
+    "benefit": "I can get approvals from leadership"
+  },
+  "categories": {
+    "primary_entities": [
+      "round 2 of Homepage edits",
+      "approvals",
+      "leadership"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "move on",
+      "get"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "UI designer",
+        "to": "move on",
+        "kind": "triggers"
+      },
+      {
+        "from": "move on",
+        "to": "round 2 of Homepage edits",
+        "kind": "targets"
+      },
+      {
+        "from": "move on",
+        "to": "approvals",
+        "kind": "targets"
+      },
+      {
+        "from": "move on",
+        "to": "leadership",
+        "kind": "targets"
+      },
+      {
+        "from": "UI designer",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "round 2 of Homepage edits",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "approvals",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "leadership",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1339,
+    "output": 353,
+    "time (ns)": 6172236000
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "story": "#G02# As a UI designer, I want to begin user testing, so that I can validate stakeholder UI improvement requests.\n",
+  "extraction": {
+    "personas": [
+      "UI designer"
+    ],
+    "entities": [
+      "user testing",
+      "stakeholder UI improvement requests"
+    ],
+    "actions": [
+      "begin",
+      "validate"
+    ],
+    "benefit": "I can validate stakeholder UI improvement requests"
+  },
+  "categories": {
+    "primary_entities": [
+      "user testing"
+    ],
+    "secondary_entities": [
+      "stakeholder UI improvement requests"
+    ],
+    "primary_actions": [
+      "begin"
+    ],
+    "secondary_actions": [
+      "validate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "UI designer",
+        "to": "begin",
+        "kind": "triggers"
+      },
+      {
+        "from": "begin",
+        "to": "user testing",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1313,
+    "output": 174,
+    "time (ns)": 6371082000
+  }
+}

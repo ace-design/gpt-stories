@@ -1,0 +1,44 @@
+{
+  "story": "#G02# As an Agency user, I want the header information box to show updated date AND time, so that I know when it was updated.\n",
+  "extraction": {
+    "personas": [
+      "Agency user"
+    ],
+    "entities": [
+      "header information box"
+    ],
+    "actions": [
+      "show"
+    ],
+    "benefit": "I know when it was updated"
+  },
+  "categories": {
+    "primary_entities": [
+      "header information box"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "show"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Agency user",
+        "to": "show",
+        "kind": "triggers"
+      },
+      {
+        "from": "show",
+        "to": "header information box",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1294,
+    "output": 155,
+    "time (ns)": 3381468000
+  }
+}

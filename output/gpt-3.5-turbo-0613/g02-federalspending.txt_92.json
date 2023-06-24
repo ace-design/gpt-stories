@@ -1,0 +1,44 @@
+{
+  "story": "#G02# As a FABS user, I do not want  DABS banner messages and vice versa, so that I have the appropriate information for my application.\n",
+  "extraction": {
+    "personas": [
+      "FABS user"
+    ],
+    "entities": [
+      "DABS banner messages"
+    ],
+    "actions": [
+      "do not want"
+    ],
+    "benefit": "I have the appropriate information for my application"
+  },
+  "categories": {
+    "primary_entities": [
+      "DABS banner messages"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "do not want"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "FABS user",
+        "to": "do not want",
+        "kind": "triggers"
+      },
+      {
+        "from": "do not want",
+        "to": "DABS banner messages",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1318,
+    "output": 170,
+    "time (ns)": 3756289000
+  }
+}

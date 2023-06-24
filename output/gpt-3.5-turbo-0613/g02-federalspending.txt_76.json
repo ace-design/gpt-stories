@@ -1,0 +1,52 @@
+{
+  "story": "#G02# As a Developer , I want to provide FABS groups that function under the FREC paradigm.\n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "FABS groups",
+      "FREC paradigm"
+    ],
+    "actions": [
+      "provide"
+    ],
+    "benefit": "function under the FREC paradigm"
+  },
+  "categories": {
+    "primary_entities": [
+      "FABS groups"
+    ],
+    "secondary_entities": [
+      "FREC paradigm"
+    ],
+    "primary_actions": [
+      "provide"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "provide",
+        "kind": "triggers"
+      },
+      {
+        "from": "provide",
+        "to": "FABS groups",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "FREC paradigm",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1282,
+    "output": 189,
+    "time (ns)": 5191124000
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "story": "#G02# As a broker user, I want the historical FABS loader to derive fields, so that my agency codes are correct in the PublishedAwardFinancialAssistance table.\n",
+  "extraction": {
+    "personas": [
+      "broker user"
+    ],
+    "entities": [
+      "historical FABS loader",
+      "PublishedAwardFinancialAssistance table"
+    ],
+    "actions": [
+      "derive"
+    ],
+    "benefit": "my agency codes are correct"
+  },
+  "categories": {
+    "primary_entities": [
+      "historical FABS loader",
+      "PublishedAwardFinancialAssistance table"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "derive"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "broker user",
+        "to": "derive",
+        "kind": "triggers"
+      },
+      {
+        "from": "derive",
+        "to": "historical FABS loader",
+        "kind": "targets"
+      },
+      {
+        "from": "derive",
+        "to": "PublishedAwardFinancialAssistance table",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1337,
+    "output": 206,
+    "time (ns)": 5032462000
+  }
+}

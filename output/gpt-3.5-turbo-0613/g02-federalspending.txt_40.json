@@ -1,0 +1,60 @@
+{
+  "story": "#G02# As an Agency user, I want FABS deployed into production, so I can submit my Financial Assistance data.\n",
+  "extraction": {
+    "personas": [
+      "Agency user"
+    ],
+    "entities": [
+      "FABS",
+      "production",
+      "Financial Assistance data"
+    ],
+    "actions": [
+      "deployed",
+      "submit"
+    ],
+    "benefit": "I can submit my Financial Assistance data"
+  },
+  "categories": {
+    "primary_entities": [
+      "FABS",
+      "production",
+      "Financial Assistance data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "deployed",
+      "submit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Agency user",
+        "to": "deployed",
+        "kind": "triggers"
+      },
+      {
+        "from": "deployed",
+        "to": "FABS",
+        "kind": "targets"
+      },
+      {
+        "from": "Agency user",
+        "to": "submit",
+        "kind": "triggers"
+      },
+      {
+        "from": "submit",
+        "to": "Financial Assistance data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1314,
+    "output": 233,
+    "time (ns)": 4808430000
+  }
+}

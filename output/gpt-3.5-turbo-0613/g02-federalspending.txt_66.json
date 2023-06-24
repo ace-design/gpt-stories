@@ -1,0 +1,56 @@
+{
+  "story": "#G02# As an Agency user, I want to receive a more helpful file-level error when I upload a file with the wrong extension.\n",
+  "extraction": {
+    "personas": [
+      "Agency user"
+    ],
+    "entities": [
+      "file"
+    ],
+    "actions": [
+      "receive",
+      "upload"
+    ],
+    "benefit": "receive a more helpful file-level error when I upload a file with the wrong extension"
+  },
+  "categories": {
+    "primary_entities": [
+      "file"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "receive",
+      "upload"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Agency user",
+        "to": "receive",
+        "kind": "triggers"
+      },
+      {
+        "from": "receive",
+        "to": "file",
+        "kind": "targets"
+      },
+      {
+        "from": "Agency user",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1311,
+    "output": 217,
+    "time (ns)": 6692241000
+  }
+}

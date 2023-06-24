@@ -1,0 +1,44 @@
+{
+  "story": "#G02# As a website user, I want to see updated financial assistance data daily.\n",
+  "extraction": {
+    "personas": [
+      "website user"
+    ],
+    "entities": [
+      "financial assistance data"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "I can stay informed about the latest financial assistance data"
+  },
+  "categories": {
+    "primary_entities": [
+      "financial assistance data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "website user",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "financial assistance data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1266,
+    "output": 159,
+    "time (ns)": 3716688000
+  }
+}

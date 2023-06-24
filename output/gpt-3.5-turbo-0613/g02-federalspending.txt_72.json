@@ -1,0 +1,44 @@
+{
+  "story": "#G02# As an Agency user, I want historical FPDS data loaded.\n",
+  "extraction": {
+    "personas": [
+      "Agency user"
+    ],
+    "entities": [
+      "historical FPDS data"
+    ],
+    "actions": [
+      "loaded"
+    ],
+    "benefit": ""
+  },
+  "categories": {
+    "primary_entities": [
+      "historical FPDS data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "loaded"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Agency user",
+        "to": "loaded",
+        "kind": "triggers"
+      },
+      {
+        "from": "loaded",
+        "to": "historical FPDS data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1246,
+    "output": 154,
+    "time (ns)": 3305290000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G02# As a broker team member, I want to make some updates to the SQL codes for clarity.\n",
+  "extraction": {
+    "personas": [
+      "broker team member"
+    ],
+    "entities": [
+      "SQL codes"
+    ],
+    "actions": [
+      "make updates"
+    ],
+    "benefit": "for clarity"
+  },
+  "categories": {
+    "primary_entities": [
+      "SQL codes"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "make updates"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "broker team member",
+        "to": "make updates",
+        "kind": "triggers"
+      },
+      {
+        "from": "make updates",
+        "to": "SQL codes",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1264,
+    "output": 154,
+    "time (ns)": 3617609000
+  }
+}

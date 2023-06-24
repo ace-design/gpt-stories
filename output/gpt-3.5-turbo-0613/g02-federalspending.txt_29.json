@@ -1,0 +1,44 @@
+{
+  "story": "#G02# As an data user, I want to receive updates to FABS records.\n",
+  "extraction": {
+    "personas": [
+      "data user"
+    ],
+    "entities": [
+      "FABS records"
+    ],
+    "actions": [
+      "receive updates"
+    ],
+    "benefit": "stay informed about FABS records"
+  },
+  "categories": {
+    "primary_entities": [
+      "FABS records"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "receive updates"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data user",
+        "to": "receive updates",
+        "kind": "triggers"
+      },
+      {
+        "from": "receive updates",
+        "to": "FABS records",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1261,
+    "output": 159,
+    "time (ns)": 3608250000
+  }
+}

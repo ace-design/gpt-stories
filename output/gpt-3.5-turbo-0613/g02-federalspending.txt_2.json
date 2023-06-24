@@ -1,0 +1,50 @@
+{
+  "story": "#G02# As a UI designer, I want to redesign the Resources page, so that it matches the new Broker design styles.\n",
+  "extraction": {
+    "personas": [
+      "UI designer"
+    ],
+    "entities": [
+      "Resources page",
+      "Broker design styles"
+    ],
+    "actions": [
+      "redesign",
+      "matches"
+    ],
+    "benefit": "It matches the new Broker design styles"
+  },
+  "categories": {
+    "primary_entities": [
+      "Resources page"
+    ],
+    "secondary_entities": [
+      "Broker design styles"
+    ],
+    "primary_actions": [
+      "redesign"
+    ],
+    "secondary_actions": [
+      "matches"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "UI designer",
+        "to": "redesign",
+        "kind": "triggers"
+      },
+      {
+        "from": "redesign",
+        "to": "Resources page",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1305,
+    "output": 171,
+    "time (ns)": 4223689000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G02# As an agency user, I want to know when the submission periods start and end, so that I know when the submission starts and ends.\n",
+  "extraction": {
+    "personas": [
+      "agency user"
+    ],
+    "entities": [
+      "submission periods"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "I know when the submission starts and ends"
+  },
+  "categories": {
+    "primary_entities": [
+      "submission periods"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "agency user",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "submission periods",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1298,
+    "output": 154,
+    "time (ns)": 5149983000
+  }
+}

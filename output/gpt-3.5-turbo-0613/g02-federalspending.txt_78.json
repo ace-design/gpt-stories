@@ -1,0 +1,43 @@
+{
+  "story": "#G02# As an owner, I only want zero-padded fields, so that I can justify padding.\n",
+  "extraction": {
+    "personas": [
+      "owner"
+    ],
+    "entities": [],
+    "actions": [
+      "want",
+      "justify padding"
+    ],
+    "benefit": "I can justify padding"
+  },
+  "categories": {
+    "primary_entities": [],
+    "secondary_entities": [],
+    "primary_actions": [
+      "want"
+    ],
+    "secondary_actions": [
+      "justify padding"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "owner",
+        "to": "want",
+        "kind": "triggers"
+      },
+      {
+        "from": "want",
+        "to": "justify padding",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1262,
+    "output": 149,
+    "time (ns)": 3666064000
+  }
+}
