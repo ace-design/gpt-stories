@@ -1,0 +1,56 @@
+{
+  "story": "#G10# As a site member, I want to search for profiles based on a few fields, so that I can find others I might want to connect with.\n",
+  "extraction": {
+    "personas": [
+      "site member"
+    ],
+    "entities": [
+      "profiles"
+    ],
+    "actions": [
+      "search",
+      "connect"
+    ],
+    "benefit": "find others I might want to connect with"
+  },
+  "categories": {
+    "primary_entities": [
+      "profiles"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "search",
+      "connect"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site member",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "profiles",
+        "kind": "targets"
+      },
+      {
+        "from": "site member",
+        "to": "connect",
+        "kind": "triggers"
+      },
+      {
+        "from": "connect",
+        "to": "profiles",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1310,
+    "output": 209,
+    "time (ns)": 6516141000
+  }
+}

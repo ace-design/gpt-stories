@@ -1,0 +1,49 @@
+{
+  "story": "#G10# As a site visitor, I want to subscribe to an RSS feed of upcoming courses and events, so that I am up to day without having to visit the site.\n",
+  "extraction": {
+    "personas": [
+      "site visitor"
+    ],
+    "entities": [
+      "RSS feed",
+      "upcoming courses",
+      "events"
+    ],
+    "actions": [
+      "subscribe"
+    ],
+    "benefit": "I am up to date without having to visit the site"
+  },
+  "categories": {
+    "primary_entities": [
+      "RSS feed"
+    ],
+    "secondary_entities": [
+      "upcoming courses",
+      "events"
+    ],
+    "primary_actions": [
+      "subscribe"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "subscribe",
+        "kind": "triggers"
+      },
+      {
+        "from": "subscribe",
+        "to": "RSS feed",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1342,
+    "output": 172,
+    "time (ns)": 5328832000
+  }
+}

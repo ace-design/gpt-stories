@@ -1,0 +1,56 @@
+{
+  "story": "#G10# As a site editor, I want to set the following dates on a news item: Start Publishing Date, Old News Date, Stop Publishing Date, so that articles are published on and through appropriate dates.\n",
+  "extraction": {
+    "personas": [
+      "site editor"
+    ],
+    "entities": [
+      "news item"
+    ],
+    "actions": [
+      "set",
+      "publishing"
+    ],
+    "benefit": "articles are published on and through appropriate dates"
+  },
+  "categories": {
+    "primary_entities": [
+      "news item"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "set",
+      "publishing"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site editor",
+        "to": "set",
+        "kind": "triggers"
+      },
+      {
+        "from": "set",
+        "to": "news item",
+        "kind": "targets"
+      },
+      {
+        "from": "site editor",
+        "to": "publishing",
+        "kind": "triggers"
+      },
+      {
+        "from": "publishing",
+        "to": "news item",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1346,
+    "output": 217,
+    "time (ns)": 6378140000
+  }
+}

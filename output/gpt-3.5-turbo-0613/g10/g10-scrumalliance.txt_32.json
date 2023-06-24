@@ -1,0 +1,57 @@
+{
+  "story": "#G10# As a site editor, I want to update any course or event, so that I can fix things the original author hasn't.\n",
+  "extraction": {
+    "personas": [
+      "site editor"
+    ],
+    "entities": [
+      "course",
+      "event",
+      "original author"
+    ],
+    "actions": [
+      "update",
+      "fix"
+    ],
+    "benefit": "I can fix things the original author hasn't"
+  },
+  "categories": {
+    "primary_entities": [
+      "course",
+      "event"
+    ],
+    "secondary_entities": [
+      "original author"
+    ],
+    "primary_actions": [
+      "update"
+    ],
+    "secondary_actions": [
+      "fix"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site editor",
+        "to": "update",
+        "kind": "triggers"
+      },
+      {
+        "from": "update",
+        "to": "course",
+        "kind": "targets"
+      },
+      {
+        "from": "update",
+        "to": "event",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1318,
+    "output": 195,
+    "time (ns)": 5864833000
+  }
+}

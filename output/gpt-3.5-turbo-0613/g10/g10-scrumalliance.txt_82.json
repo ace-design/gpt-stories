@@ -1,0 +1,55 @@
+{
+  "story": "#G10# As a CSM, I want to have my name listed in the registry without becoming a member of the site, so that employers or others can verify my certification.\n",
+  "extraction": {
+    "personas": [
+      "CSM"
+    ],
+    "entities": [
+      "registry",
+      "site",
+      "employers"
+    ],
+    "actions": [
+      "have my name listed",
+      "verify"
+    ],
+    "benefit": "employers or others can verify my certification"
+  },
+  "categories": {
+    "primary_entities": [
+      "registry",
+      "site",
+      "employers"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have my name listed",
+      "verify"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "CSM",
+        "to": "have my name listed",
+        "kind": "triggers"
+      },
+      {
+        "from": "have my name listed",
+        "to": "registry",
+        "kind": "targets"
+      },
+      {
+        "from": "verify",
+        "to": "employers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1349,
+    "output": 209,
+    "time (ns)": 5835000000
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "story": "#G10# As a trainer, I want to copy one of my courses or events, so that I can create a new one.\n",
+  "extraction": {
+    "personas": [
+      "trainer"
+    ],
+    "entities": [
+      "courses",
+      "events"
+    ],
+    "actions": [
+      "copy",
+      "create"
+    ],
+    "benefit": "I can create a new course or event"
+  },
+  "categories": {
+    "primary_entities": [
+      "courses",
+      "events"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "copy",
+      "create"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "trainer",
+        "to": "copy",
+        "kind": "triggers"
+      },
+      {
+        "from": "copy",
+        "to": "courses",
+        "kind": "targets"
+      },
+      {
+        "from": "copy",
+        "to": "events",
+        "kind": "targets"
+      },
+      {
+        "from": "copy",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "courses",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "events",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1299,
+    "output": 262,
+    "time (ns)": 8455610000
+  }
+}

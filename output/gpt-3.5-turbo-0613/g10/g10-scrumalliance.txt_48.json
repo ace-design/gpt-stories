@@ -1,0 +1,71 @@
+{
+  "story": "#G10# As a site admin, I want to stop publishing jobs on the site 30 days after being posted, so that jobs that may have been filled aren't still listed when the hiring party forgets to come back and delete the ad.\n",
+  "extraction": {
+    "personas": [
+      "site admin"
+    ],
+    "entities": [
+      "publishing jobs",
+      "site"
+    ],
+    "actions": [
+      "stop",
+      "posting",
+      "delete"
+    ],
+    "benefit": "jobs that may have been filled aren't still listed when the hiring party forgets to come back and delete the ad"
+  },
+  "categories": {
+    "primary_entities": [
+      "publishing jobs"
+    ],
+    "secondary_entities": [
+      "site"
+    ],
+    "primary_actions": [
+      "stop",
+      "posting",
+      "delete"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site admin",
+        "to": "stop",
+        "kind": "triggers"
+      },
+      {
+        "from": "stop",
+        "to": "publishing jobs",
+        "kind": "targets"
+      },
+      {
+        "from": "site admin",
+        "to": "posting",
+        "kind": "triggers"
+      },
+      {
+        "from": "posting",
+        "to": "publishing jobs",
+        "kind": "targets"
+      },
+      {
+        "from": "site admin",
+        "to": "delete",
+        "kind": "triggers"
+      },
+      {
+        "from": "delete",
+        "to": "publishing jobs",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1414,
+    "output": 297,
+    "time (ns)": 8203586000
+  }
+}

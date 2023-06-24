@@ -1,0 +1,72 @@
+{
+  "story": "#G10# As a site admin, I want to see the results for each trainer and averages for the class, so that I can identify any outliers or possible problems.\n",
+  "extraction": {
+    "personas": [
+      "site admin"
+    ],
+    "entities": [
+      "results",
+      "trainer",
+      "averages",
+      "class"
+    ],
+    "actions": [
+      "see",
+      "identify"
+    ],
+    "benefit": "I can identify any outliers or possible problems"
+  },
+  "categories": {
+    "primary_entities": [
+      "results",
+      "trainer",
+      "averages",
+      "class"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see",
+      "identify"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site admin",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "results",
+        "kind": "targets"
+      },
+      {
+        "from": "site admin",
+        "to": "identify",
+        "kind": "triggers"
+      },
+      {
+        "from": "identify",
+        "to": "trainer",
+        "kind": "targets"
+      },
+      {
+        "from": "identify",
+        "to": "averages",
+        "kind": "targets"
+      },
+      {
+        "from": "identify",
+        "to": "class",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1343,
+    "output": 280,
+    "time (ns)": 7778227000
+  }
+}

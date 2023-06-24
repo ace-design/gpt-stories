@@ -1,0 +1,59 @@
+{
+  "story": "#G10# As a corporatesponsor, I want to display my logo on a corporate sponsors page, so that others see the company's support of Scrum.\n",
+  "extraction": {
+    "personas": [
+      "corporatesponsor"
+    ],
+    "entities": [
+      "logo",
+      "corporate sponsors page",
+      "company's support of Scrum"
+    ],
+    "actions": [
+      "display"
+    ],
+    "benefit": "others see the company's support of Scrum"
+  },
+  "categories": {
+    "primary_entities": [
+      "logo",
+      "corporate sponsors page"
+    ],
+    "secondary_entities": [
+      "company's support of Scrum"
+    ],
+    "primary_actions": [
+      "display"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "corporatesponsor",
+        "to": "display",
+        "kind": "triggers"
+      },
+      {
+        "from": "display",
+        "to": "logo",
+        "kind": "targets"
+      },
+      {
+        "from": "display",
+        "to": "corporate sponsors page",
+        "kind": "targets"
+      },
+      {
+        "from": "display",
+        "to": "company's support of Scrum",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1348,
+    "output": 241,
+    "time (ns)": 6535845000
+  }
+}

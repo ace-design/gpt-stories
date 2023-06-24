@@ -1,0 +1,55 @@
+{
+  "story": "#G10# As a trainer, I want to see the upcoming courses are what I want visitors to notice, so that they register and there's a benefit to my membership.\n",
+  "extraction": {
+    "personas": [
+      "trainer"
+    ],
+    "entities": [
+      "upcoming courses",
+      "visitors"
+    ],
+    "actions": [
+      "see",
+      "register"
+    ],
+    "benefit": "there's a benefit to my membership"
+  },
+  "categories": {
+    "primary_entities": [
+      "upcoming courses"
+    ],
+    "secondary_entities": [
+      "visitors"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": [
+      "register"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "trainer",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "upcoming courses",
+        "kind": "targets"
+      },
+      {
+        "from": "register",
+        "to": "visitors",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1327,
+    "output": 192,
+    "time (ns)": 4996439000
+  }
+}

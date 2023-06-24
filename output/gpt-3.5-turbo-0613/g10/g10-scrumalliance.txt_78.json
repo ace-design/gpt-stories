@@ -1,0 +1,65 @@
+{
+  "story": "#G10# As a trainer, I want to show my rating up on my profile page, so that site visitors can choose wisely.\n",
+  "extraction": {
+    "personas": [
+      "trainer"
+    ],
+    "entities": [
+      "rating",
+      "profile page",
+      "site visitors"
+    ],
+    "actions": [
+      "show",
+      "choose"
+    ],
+    "benefit": "site visitors can choose wisely"
+  },
+  "categories": {
+    "primary_entities": [
+      "rating",
+      "profile page",
+      "site visitors"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "show",
+      "choose"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "trainer",
+        "to": "show",
+        "kind": "triggers"
+      },
+      {
+        "from": "show",
+        "to": "rating",
+        "kind": "targets"
+      },
+      {
+        "from": "show",
+        "to": "profile page",
+        "kind": "targets"
+      },
+      {
+        "from": "show",
+        "to": "site visitors",
+        "kind": "targets"
+      },
+      {
+        "from": "choose",
+        "to": "site visitors",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1308,
+    "output": 246,
+    "time (ns)": 8835009000
+  }
+}

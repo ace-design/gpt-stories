@@ -1,0 +1,47 @@
+{
+  "story": "#G10# As a site editor, I want to have a prominent area on the home page where I can put special announcements not necessarily news or articles, so that I can give them additional exposure.\n",
+  "extraction": {
+    "personas": [
+      "site editor"
+    ],
+    "entities": [
+      "home page",
+      "special announcements"
+    ],
+    "actions": [
+      "put"
+    ],
+    "benefit": "give them additional exposure"
+  },
+  "categories": {
+    "primary_entities": [
+      "home page"
+    ],
+    "secondary_entities": [
+      "special announcements"
+    ],
+    "primary_actions": [
+      "put"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site editor",
+        "to": "put",
+        "kind": "triggers"
+      },
+      {
+        "from": "put",
+        "to": "home page",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1328,
+    "output": 157,
+    "time (ns)": 4775157000
+  }
+}

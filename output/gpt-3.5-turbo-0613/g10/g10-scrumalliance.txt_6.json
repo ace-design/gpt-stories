@@ -1,0 +1,81 @@
+{
+  "story": "#G10# As a Practitioner, I want to write an article for the site with a small graphic shown with the article showing my CSP or CST status, so that others know my certifications when reading.\n",
+  "extraction": {
+    "personas": [
+      "Practitioner"
+    ],
+    "entities": [
+      "article",
+      "site",
+      "graphic",
+      "CSP",
+      "CST"
+    ],
+    "actions": [
+      "write",
+      "show"
+    ],
+    "benefit": "others know my certifications when reading"
+  },
+  "categories": {
+    "primary_entities": [
+      "article",
+      "site",
+      "graphic"
+    ],
+    "secondary_entities": [
+      "CSP",
+      "CST"
+    ],
+    "primary_actions": [
+      "write"
+    ],
+    "secondary_actions": [
+      "show"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Practitioner",
+        "to": "write",
+        "kind": "triggers"
+      },
+      {
+        "from": "write",
+        "to": "article",
+        "kind": "targets"
+      },
+      {
+        "from": "write",
+        "to": "site",
+        "kind": "targets"
+      },
+      {
+        "from": "write",
+        "to": "graphic",
+        "kind": "targets"
+      },
+      {
+        "from": "write",
+        "to": "CSP",
+        "kind": "targets"
+      },
+      {
+        "from": "write",
+        "to": "CST",
+        "kind": "targets"
+      },
+      {
+        "from": "show",
+        "to": "graphic",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1371,
+    "output": 310,
+    "time (ns)": 11850199000
+  }
+}

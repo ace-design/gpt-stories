@@ -1,0 +1,60 @@
+{
+  "story": "#G10# As a site member, I want to view the profiles of other members, so that I can find others I might want to connect with.\n",
+  "extraction": {
+    "personas": [
+      "site member"
+    ],
+    "entities": [
+      "profiles",
+      "other members"
+    ],
+    "actions": [
+      "view",
+      "connect"
+    ],
+    "benefit": "find others I might want to connect with"
+  },
+  "categories": {
+    "primary_entities": [
+      "profiles"
+    ],
+    "secondary_entities": [
+      "other members"
+    ],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": [
+      "connect"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site member",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "profiles",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "other members",
+        "kind": "targets"
+      },
+      {
+        "from": "connect",
+        "to": "other members",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1313,
+    "output": 215,
+    "time (ns)": 6339189000
+  }
+}

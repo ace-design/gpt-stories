@@ -1,0 +1,58 @@
+{
+  "story": "#G10# As a site visitor, I want to see new content when I come to the site, so that I come back more often.\n",
+  "extraction": {
+    "personas": [
+      "site visitor"
+    ],
+    "entities": [
+      "new content",
+      "site"
+    ],
+    "actions": [
+      "see",
+      "come back"
+    ],
+    "benefit": "I come back more often"
+  },
+  "categories": {
+    "primary_entities": [
+      "new content",
+      "site"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see",
+      "come back"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "new content",
+        "kind": "targets"
+      },
+      {
+        "from": "site visitor",
+        "to": "come back",
+        "kind": "triggers"
+      },
+      {
+        "from": "come back",
+        "to": "I come back more often",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1307,
+    "output": 223,
+    "time (ns)": 8064509000
+  }
+}

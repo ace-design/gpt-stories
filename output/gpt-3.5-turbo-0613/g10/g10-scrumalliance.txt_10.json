@@ -1,0 +1,51 @@
+{
+  "story": "#G10# As a site member, I want to mark my profile as private in which case only my name will appear, so that no one can learn things about me I don't want shared.\n",
+  "extraction": {
+    "personas": [
+      "site member"
+    ],
+    "entities": [
+      "profile"
+    ],
+    "actions": [
+      "mark",
+      "appear",
+      "learn",
+      "shared"
+    ],
+    "benefit": "no one can learn things about me I don't want shared"
+  },
+  "categories": {
+    "primary_entities": [
+      "profile"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "mark"
+    ],
+    "secondary_actions": [
+      "appear",
+      "learn",
+      "shared"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site member",
+        "to": "mark",
+        "kind": "triggers"
+      },
+      {
+        "from": "mark",
+        "to": "profile",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1355,
+    "output": 172,
+    "time (ns)": 7837837000
+  }
+}

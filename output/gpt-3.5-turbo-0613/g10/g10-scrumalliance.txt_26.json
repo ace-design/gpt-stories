@@ -1,0 +1,74 @@
+{
+  "story": "#G10# As a site administrator, I want to create an Other Course or Event that is not charged a listing fee, so that the Scrum Alliance doesn't charge itself for Scrum Gatherings that it puts on.\n",
+  "extraction": {
+    "personas": [
+      "site administrator"
+    ],
+    "entities": [
+      "Other Course or Event",
+      "listing fee",
+      "Scrum Alliance",
+      "Scrum Gatherings"
+    ],
+    "actions": [
+      "create",
+      "charge"
+    ],
+    "benefit": "Scrum Alliance doesn't charge itself for Scrum Gatherings"
+  },
+  "categories": {
+    "primary_entities": [
+      "Other Course or Event",
+      "Scrum Alliance"
+    ],
+    "secondary_entities": [
+      "listing fee",
+      "Scrum Gatherings"
+    ],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": [
+      "charge"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site administrator",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "Other Course or Event",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "listing fee",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "Scrum Alliance",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "Scrum Gatherings",
+        "kind": "targets"
+      },
+      {
+        "from": "charge",
+        "to": "Scrum Alliance",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1405,
+    "output": 306,
+    "time (ns)": 8627578000
+  }
+}

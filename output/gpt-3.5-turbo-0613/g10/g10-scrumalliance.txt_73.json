@@ -1,0 +1,59 @@
+{
+  "story": "#G10# As a site visitor, I want to see a list of the most popular items on the site, so that I am most likely to read the most important or best content.\n",
+  "extraction": {
+    "personas": [
+      "site visitor"
+    ],
+    "entities": [
+      "list",
+      "most popular items",
+      "site"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "I am most likely to read the most important or best content"
+  },
+  "categories": {
+    "primary_entities": [
+      "list",
+      "site"
+    ],
+    "secondary_entities": [
+      "most popular items"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "list",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "most popular items",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "site",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1347,
+    "output": 222,
+    "time (ns)": 6476455000
+  }
+}

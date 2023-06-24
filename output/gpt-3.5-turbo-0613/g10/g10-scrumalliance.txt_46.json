@@ -1,0 +1,55 @@
+{
+  "story": "#G10# As a site member, I want to subscribe to an RSS feed of jobs available, so that I can read them without visiting the site.\n",
+  "extraction": {
+    "personas": [
+      "site member"
+    ],
+    "entities": [
+      "RSS feed",
+      "jobs available"
+    ],
+    "actions": [
+      "subscribe",
+      "read"
+    ],
+    "benefit": "read jobs without visiting the site"
+  },
+  "categories": {
+    "primary_entities": [
+      "RSS feed"
+    ],
+    "secondary_entities": [
+      "jobs available"
+    ],
+    "primary_actions": [
+      "subscribe"
+    ],
+    "secondary_actions": [
+      "read"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site member",
+        "to": "subscribe",
+        "kind": "triggers"
+      },
+      {
+        "from": "subscribe",
+        "to": "RSS feed",
+        "kind": "targets"
+      },
+      {
+        "from": "read",
+        "to": "jobs available",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1312,
+    "output": 190,
+    "time (ns)": 5758923000
+  }
+}

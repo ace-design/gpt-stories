@@ -1,0 +1,52 @@
+{
+  "story": "#G10# As a site editor, I want to maintain a FAQ section, so that support gets fewer easily answered questions.\n",
+  "extraction": {
+    "personas": [
+      "site editor"
+    ],
+    "entities": [
+      "FAQ section",
+      "support"
+    ],
+    "actions": [
+      "maintain"
+    ],
+    "benefit": "support gets fewer easily answered questions"
+  },
+  "categories": {
+    "primary_entities": [
+      "FAQ section"
+    ],
+    "secondary_entities": [
+      "support"
+    ],
+    "primary_actions": [
+      "maintain"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site editor",
+        "to": "maintain",
+        "kind": "triggers"
+      },
+      {
+        "from": "maintain",
+        "to": "FAQ section",
+        "kind": "targets"
+      },
+      {
+        "from": "maintain",
+        "to": "support",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1287,
+    "output": 187,
+    "time (ns)": 5559972000
+  }
+}

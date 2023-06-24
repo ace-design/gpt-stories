@@ -1,0 +1,44 @@
+{
+  "story": "#G10# As a site member, I want to have full access to all articles, so that there is a benefit to being a member.\n",
+  "extraction": {
+    "personas": [
+      "site member"
+    ],
+    "entities": [
+      "articles"
+    ],
+    "actions": [
+      "have full access"
+    ],
+    "benefit": "there is a benefit to being a member"
+  },
+  "categories": {
+    "primary_entities": [
+      "articles"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have full access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site member",
+        "to": "have full access",
+        "kind": "triggers"
+      },
+      {
+        "from": "have full access",
+        "to": "articles",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1295,
+    "output": 159,
+    "time (ns)": 5351846000
+  }
+}

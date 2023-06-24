@@ -1,0 +1,56 @@
+{
+  "story": "#G10# As a site admin, I want to view all classes in a pending state, so that I can approve any that need to be approved.\n",
+  "extraction": {
+    "personas": [
+      "site admin"
+    ],
+    "entities": [
+      "classes"
+    ],
+    "actions": [
+      "view",
+      "approve"
+    ],
+    "benefit": "I can approve any classes that need to be approved"
+  },
+  "categories": {
+    "primary_entities": [
+      "classes"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view",
+      "approve"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site admin",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "classes",
+        "kind": "targets"
+      },
+      {
+        "from": "site admin",
+        "to": "approve",
+        "kind": "triggers"
+      },
+      {
+        "from": "approve",
+        "to": "classes",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1308,
+    "output": 211,
+    "time (ns)": 6710025000
+  }
+}

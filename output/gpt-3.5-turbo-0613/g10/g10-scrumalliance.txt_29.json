@@ -1,0 +1,60 @@
+{
+  "story": "#G10# As a trainer, I want to delete one of my courses or events, so that it's no longer listed if I cancel for some reason.\n",
+  "extraction": {
+    "personas": [
+      "trainer"
+    ],
+    "entities": [
+      "course",
+      "events"
+    ],
+    "actions": [
+      "delete",
+      "cancel"
+    ],
+    "benefit": "it's no longer listed if I cancel for some reason"
+  },
+  "categories": {
+    "primary_entities": [
+      "course"
+    ],
+    "secondary_entities": [
+      "events"
+    ],
+    "primary_actions": [
+      "delete"
+    ],
+    "secondary_actions": [
+      "cancel"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "trainer",
+        "to": "delete",
+        "kind": "triggers"
+      },
+      {
+        "from": "delete",
+        "to": "course",
+        "kind": "targets"
+      },
+      {
+        "from": "trainer",
+        "to": "cancel",
+        "kind": "triggers"
+      },
+      {
+        "from": "cancel",
+        "to": "events",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1317,
+    "output": 213,
+    "time (ns)": 7909522000
+  }
+}

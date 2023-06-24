@@ -1,0 +1,68 @@
+{
+  "story": "#G10# As a site editor, I want to set start publishing dates, old article date, and stop publishing dates for articles, so that articles appear only during appropriate periods.\n",
+  "extraction": {
+    "personas": [
+      "site editor"
+    ],
+    "entities": [
+      "articles"
+    ],
+    "actions": [
+      "set start publishing dates",
+      "set old article date",
+      "set stop publishing dates"
+    ],
+    "benefit": "articles appear only during appropriate periods"
+  },
+  "categories": {
+    "primary_entities": [
+      "articles"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "set start publishing dates",
+      "set old article date",
+      "set stop publishing dates"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site editor",
+        "to": "set start publishing dates",
+        "kind": "triggers"
+      },
+      {
+        "from": "site editor",
+        "to": "set old article date",
+        "kind": "triggers"
+      },
+      {
+        "from": "site editor",
+        "to": "set stop publishing dates",
+        "kind": "triggers"
+      },
+      {
+        "from": "set start publishing dates",
+        "to": "articles",
+        "kind": "targets"
+      },
+      {
+        "from": "set old article date",
+        "to": "articles",
+        "kind": "targets"
+      },
+      {
+        "from": "set stop publishing dates",
+        "to": "articles",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1351,
+    "output": 301,
+    "time (ns)": 8014701000
+  }
+}

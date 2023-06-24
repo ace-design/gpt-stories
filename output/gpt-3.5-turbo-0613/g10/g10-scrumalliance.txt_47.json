@@ -1,0 +1,56 @@
+{
+  "story": "#G10# As a site admin, I want to edit and delete help wanted ads, so that I can correct small problems or make sure each ad complies with site guidelines.\n",
+  "extraction": {
+    "personas": [
+      "site admin"
+    ],
+    "entities": [
+      "help wanted ads"
+    ],
+    "actions": [
+      "edit",
+      "delete"
+    ],
+    "benefit": "I can correct small problems or make sure each ad complies with site guidelines"
+  },
+  "categories": {
+    "primary_entities": [
+      "help wanted ads"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "edit",
+      "delete"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site admin",
+        "to": "edit",
+        "kind": "triggers"
+      },
+      {
+        "from": "site admin",
+        "to": "delete",
+        "kind": "triggers"
+      },
+      {
+        "from": "edit",
+        "to": "help wanted ads",
+        "kind": "targets"
+      },
+      {
+        "from": "delete",
+        "to": "help wanted ads",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1339,
+    "output": 224,
+    "time (ns)": 6282906000
+  }
+}

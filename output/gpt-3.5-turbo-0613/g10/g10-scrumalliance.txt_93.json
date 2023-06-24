@@ -1,0 +1,66 @@
+{
+  "story": "#G10# As a site administrator, I want to set the annual fees for members, Practitioners and Trainers, so that fees can be set without involving a programmer.\n",
+  "extraction": {
+    "personas": [
+      "site administrator"
+    ],
+    "entities": [
+      "annual fees",
+      "members",
+      "Practitioners",
+      "Trainers"
+    ],
+    "actions": [
+      "set"
+    ],
+    "benefit": "fees can be set without involving a programmer"
+  },
+  "categories": {
+    "primary_entities": [
+      "annual fees"
+    ],
+    "secondary_entities": [
+      "members",
+      "Practitioners",
+      "Trainers"
+    ],
+    "primary_actions": [
+      "set"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site administrator",
+        "to": "set",
+        "kind": "triggers"
+      },
+      {
+        "from": "set",
+        "to": "annual fees",
+        "kind": "targets"
+      },
+      {
+        "from": "set",
+        "to": "members",
+        "kind": "targets"
+      },
+      {
+        "from": "set",
+        "to": "Practitioners",
+        "kind": "targets"
+      },
+      {
+        "from": "set",
+        "to": "Trainers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1353,
+    "output": 259,
+    "time (ns)": 13648707000
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "story": "#G10# As a site member, I want to describe myself on my own page in a semi-structured way, so that others can learn about me.\n",
+  "extraction": {
+    "personas": [
+      "site member"
+    ],
+    "entities": [
+      "myself",
+      "others"
+    ],
+    "actions": [
+      "describe",
+      "learn"
+    ],
+    "benefit": "others can learn about me"
+  },
+  "categories": {
+    "primary_entities": [
+      "myself"
+    ],
+    "secondary_entities": [
+      "others"
+    ],
+    "primary_actions": [
+      "describe"
+    ],
+    "secondary_actions": [
+      "learn"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site member",
+        "to": "describe",
+        "kind": "triggers"
+      },
+      {
+        "from": "describe",
+        "to": "myself",
+        "kind": "targets"
+      },
+      {
+        "from": "describe",
+        "to": "others",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1310,
+    "output": 186,
+    "time (ns)": 6847112000
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "story": "#G10# As a site visitor, I want to see a list of all upcoming Certification Courses and can page through them if there are a lot, so that I can choose the best course for me.\n",
+  "extraction": {
+    "personas": [
+      "site visitor"
+    ],
+    "entities": [
+      "Certification Courses"
+    ],
+    "actions": [
+      "see",
+      "page through",
+      "choose"
+    ],
+    "benefit": "I can choose the best course for me"
+  },
+  "categories": {
+    "primary_entities": [
+      "Certification Courses"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see",
+      "choose"
+    ],
+    "secondary_actions": [
+      "page through"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "Certification Courses",
+        "kind": "targets"
+      },
+      {
+        "from": "site visitor",
+        "to": "page through",
+        "kind": "triggers"
+      },
+      {
+        "from": "page through",
+        "to": "Certification Courses",
+        "kind": "targets"
+      },
+      {
+        "from": "site visitor",
+        "to": "choose",
+        "kind": "triggers"
+      },
+      {
+        "from": "choose",
+        "to": "Certification Courses",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1350,
+    "output": 280,
+    "time (ns)": 7870072000
+  }
+}

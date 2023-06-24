@@ -1,0 +1,76 @@
+{
+  "story": "#G10# As a site admin, I want to move people in a trainer's class from a pending state to the registry once I have received proof of payment from the trainer.\n",
+  "extraction": {
+    "personas": [
+      "site admin"
+    ],
+    "entities": [
+      "people",
+      "trainer's class",
+      "pending state",
+      "registry",
+      "proof of payment"
+    ],
+    "actions": [
+      "move",
+      "receive"
+    ],
+    "benefit": "I can manage the registration process efficiently"
+  },
+  "categories": {
+    "primary_entities": [
+      "people",
+      "trainer's class",
+      "pending state",
+      "registry"
+    ],
+    "secondary_entities": [
+      "proof of payment"
+    ],
+    "primary_actions": [
+      "move"
+    ],
+    "secondary_actions": [
+      "receive"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site admin",
+        "to": "move",
+        "kind": "triggers"
+      },
+      {
+        "from": "move",
+        "to": "people",
+        "kind": "targets"
+      },
+      {
+        "from": "move",
+        "to": "trainer's class",
+        "kind": "targets"
+      },
+      {
+        "from": "move",
+        "to": "pending state",
+        "kind": "targets"
+      },
+      {
+        "from": "move",
+        "to": "registry",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "proof of payment",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1365,
+    "output": 293,
+    "time (ns)": 7786373000
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "story": "#G10# As a site visitor, I want to have articles that interest me and are easy to get to, so that I come to the site for my agile news and learning.\n",
+  "extraction": {
+    "personas": [
+      "site visitor"
+    ],
+    "entities": [
+      "articles"
+    ],
+    "actions": [
+      "have",
+      "get to",
+      "come to"
+    ],
+    "benefit": "I come to the site for my agile news and learning"
+  },
+  "categories": {
+    "primary_entities": [
+      "articles"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "get to",
+      "come to"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "site visitor",
+        "to": "get to",
+        "kind": "triggers"
+      },
+      {
+        "from": "site visitor",
+        "to": "come to",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "articles",
+        "kind": "targets"
+      },
+      {
+        "from": "get to",
+        "to": "articles",
+        "kind": "targets"
+      },
+      {
+        "from": "come to",
+        "to": "articles",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1343,
+    "output": 278,
+    "time (ns)": 7908948000
+  }
+}

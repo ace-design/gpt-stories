@@ -1,0 +1,49 @@
+{
+  "story": "#G10# As a site editor, I want to be able to indicate whether an article is publicly available or for members only, so that visitors are incentivized to become members.\n",
+  "extraction": {
+    "personas": [
+      "site editor"
+    ],
+    "entities": [
+      "article"
+    ],
+    "actions": [
+      "indicate",
+      "available",
+      "members only"
+    ],
+    "benefit": "visitors are incentivized to become members"
+  },
+  "categories": {
+    "primary_entities": [
+      "article"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "indicate"
+    ],
+    "secondary_actions": [
+      "available",
+      "members only"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site editor",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "article",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1332,
+    "output": 168,
+    "time (ns)": 5050683000
+  }
+}

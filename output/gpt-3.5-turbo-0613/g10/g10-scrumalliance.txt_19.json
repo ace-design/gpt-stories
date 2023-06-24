@@ -1,0 +1,47 @@
+{
+  "story": "#G10# As a site member, I want to subscribe to an RSS feed of news, so that I remain sufficiently and easily informed.\n",
+  "extraction": {
+    "personas": [
+      "site member"
+    ],
+    "entities": [
+      "RSS feed",
+      "news"
+    ],
+    "actions": [
+      "subscribe"
+    ],
+    "benefit": "remain sufficiently and easily informed"
+  },
+  "categories": {
+    "primary_entities": [
+      "RSS feed"
+    ],
+    "secondary_entities": [
+      "news"
+    ],
+    "primary_actions": [
+      "subscribe"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site member",
+        "to": "subscribe",
+        "kind": "triggers"
+      },
+      {
+        "from": "subscribe",
+        "to": "RSS feed",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1291,
+    "output": 156,
+    "time (ns)": 5152975000
+  }
+}

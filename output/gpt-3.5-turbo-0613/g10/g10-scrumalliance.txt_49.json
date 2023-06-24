@@ -1,0 +1,69 @@
+{
+  "story": "#G10# As a recruiter, I want to be able to extend an ad for another 30 days by visiting the site and updating the posting, so that my ad remains active.\n",
+  "extraction": {
+    "personas": [
+      "recruiter"
+    ],
+    "entities": [
+      "ad"
+    ],
+    "actions": [
+      "extend",
+      "visiting",
+      "updating"
+    ],
+    "benefit": "my ad remains active"
+  },
+  "categories": {
+    "primary_entities": [
+      "ad"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "extend"
+    ],
+    "secondary_actions": [
+      "visiting",
+      "updating"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "recruiter",
+        "to": "extend",
+        "kind": "triggers"
+      },
+      {
+        "from": "extend",
+        "to": "ad",
+        "kind": "targets"
+      },
+      {
+        "from": "recruiter",
+        "to": "visiting",
+        "kind": "triggers"
+      },
+      {
+        "from": "visiting",
+        "to": "ad",
+        "kind": "targets"
+      },
+      {
+        "from": "recruiter",
+        "to": "updating",
+        "kind": "triggers"
+      },
+      {
+        "from": "updating",
+        "to": "ad",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1326,
+    "output": 270,
+    "time (ns)": 7693203000
+  }
+}

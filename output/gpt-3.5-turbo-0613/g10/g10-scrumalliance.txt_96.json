@@ -1,0 +1,56 @@
+{
+  "story": "#G10# As a trainer, I want to read information of relevance only to trainers, so that the Scrum Alliance can share information with me easily.\n",
+  "extraction": {
+    "personas": [
+      "trainer"
+    ],
+    "entities": [
+      "information"
+    ],
+    "actions": [
+      "read",
+      "share"
+    ],
+    "benefit": "Scrum Alliance can share information with me easily"
+  },
+  "categories": {
+    "primary_entities": [
+      "information"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "read",
+      "share"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "trainer",
+        "to": "read",
+        "kind": "triggers"
+      },
+      {
+        "from": "read",
+        "to": "information",
+        "kind": "targets"
+      },
+      {
+        "from": "trainer",
+        "to": "share",
+        "kind": "triggers"
+      },
+      {
+        "from": "share",
+        "to": "information",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1304,
+    "output": 207,
+    "time (ns)": 6071784000
+  }
+}

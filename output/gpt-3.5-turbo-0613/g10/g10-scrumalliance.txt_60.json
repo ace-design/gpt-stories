@@ -1,0 +1,58 @@
+{
+  "story": "#G10# As a site visitor, I want to be able to read some of your articles, so that I can learn without first joining the site.\n",
+  "extraction": {
+    "personas": [
+      "site visitor"
+    ],
+    "entities": [
+      "articles",
+      "site"
+    ],
+    "actions": [
+      "read",
+      "learn"
+    ],
+    "benefit": "I can learn without first joining the site"
+  },
+  "categories": {
+    "primary_entities": [
+      "articles",
+      "site"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "read",
+      "learn"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "read",
+        "kind": "triggers"
+      },
+      {
+        "from": "read",
+        "to": "articles",
+        "kind": "targets"
+      },
+      {
+        "from": "site visitor",
+        "to": "learn",
+        "kind": "triggers"
+      },
+      {
+        "from": "learn",
+        "to": "articles",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1313,
+    "output": 215,
+    "time (ns)": 6477341000
+  }
+}

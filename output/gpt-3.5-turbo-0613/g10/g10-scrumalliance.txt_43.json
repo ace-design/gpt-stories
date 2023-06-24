@@ -1,0 +1,55 @@
+{
+  "story": "#G10# As a recruiter, I want to post a help wanted ad, so that I can attract candidates.\n",
+  "extraction": {
+    "personas": [
+      "recruiter"
+    ],
+    "entities": [
+      "help wanted ad",
+      "candidates"
+    ],
+    "actions": [
+      "post",
+      "attract"
+    ],
+    "benefit": "I can attract candidates"
+  },
+  "categories": {
+    "primary_entities": [
+      "help wanted ad"
+    ],
+    "secondary_entities": [
+      "candidates"
+    ],
+    "primary_actions": [
+      "post"
+    ],
+    "secondary_actions": [
+      "attract"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "recruiter",
+        "to": "post",
+        "kind": "triggers"
+      },
+      {
+        "from": "post",
+        "to": "help wanted ad",
+        "kind": "targets"
+      },
+      {
+        "from": "post",
+        "to": "attract",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1289,
+    "output": 193,
+    "time (ns)": 5661089000
+  }
+}

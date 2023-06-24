@@ -1,0 +1,44 @@
+{
+  "story": "#G10# As a site visitor, I want to be able to get back to the home page quickly and easily, so that I don't get lost navigating.\n",
+  "extraction": {
+    "personas": [
+      "site visitor"
+    ],
+    "entities": [
+      "home page"
+    ],
+    "actions": [
+      "get back"
+    ],
+    "benefit": "I don't get lost navigating"
+  },
+  "categories": {
+    "primary_entities": [
+      "home page"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "get back"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "get back",
+        "kind": "triggers"
+      },
+      {
+        "from": "get back",
+        "to": "home page",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1303,
+    "output": 156,
+    "time (ns)": 5562771000
+  }
+}

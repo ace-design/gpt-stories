@@ -1,0 +1,44 @@
+{
+  "story": "#G10# As a trainer, I want to be assured that no one can submit the same answers multiple time and skew my results, so that my ratings are accurate.\n",
+  "extraction": {
+    "personas": [
+      "trainer"
+    ],
+    "entities": [
+      "answers"
+    ],
+    "actions": [
+      "submit"
+    ],
+    "benefit": "assured that no one can submit the same answers multiple times and skew my results"
+  },
+  "categories": {
+    "primary_entities": [
+      "answers"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "submit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "trainer",
+        "to": "submit",
+        "kind": "triggers"
+      },
+      {
+        "from": "submit",
+        "to": "answers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1318,
+    "output": 157,
+    "time (ns)": 4955014000
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "story": "#G10# As a site admin, I want to delete any course or event, so that I can remove things that will no longer occur.\n",
+  "extraction": {
+    "personas": [
+      "site admin"
+    ],
+    "entities": [
+      "course",
+      "event"
+    ],
+    "actions": [
+      "delete"
+    ],
+    "benefit": "I can remove things that will no longer occur"
+  },
+  "categories": {
+    "primary_entities": [
+      "course"
+    ],
+    "secondary_entities": [
+      "event"
+    ],
+    "primary_actions": [
+      "delete"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site admin",
+        "to": "delete",
+        "kind": "triggers"
+      },
+      {
+        "from": "delete",
+        "to": "course",
+        "kind": "targets"
+      },
+      {
+        "from": "delete",
+        "to": "event",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1299,
+    "output": 182,
+    "time (ns)": 9115802000
+  }
+}

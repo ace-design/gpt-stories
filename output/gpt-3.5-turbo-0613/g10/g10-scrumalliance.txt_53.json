@@ -1,0 +1,51 @@
+{
+  "story": "#G10# As a site member who has read a teaser on the front page, I want to read the entire article so that I can finish articles that appeal to me.\n",
+  "extraction": {
+    "personas": [
+      "site member"
+    ],
+    "entities": [
+      "teaser",
+      "article"
+    ],
+    "actions": [
+      "read"
+    ],
+    "benefit": "finish articles that appeal to me"
+  },
+  "categories": {
+    "primary_entities": [
+      "teaser",
+      "article"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "read"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site member",
+        "to": "read",
+        "kind": "triggers"
+      },
+      {
+        "from": "read",
+        "to": "teaser",
+        "kind": "targets"
+      },
+      {
+        "from": "read",
+        "to": "article",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1315,
+    "output": 183,
+    "time (ns)": 6442969000
+  }
+}

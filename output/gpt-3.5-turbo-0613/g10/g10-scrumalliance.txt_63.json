@@ -1,0 +1,55 @@
+{
+  "story": "#G10# As a site visitor, I want to subscribe to an RSS feed of articles, so that I can read them without visiting the site.\n",
+  "extraction": {
+    "personas": [
+      "site visitor"
+    ],
+    "entities": [
+      "RSS feed",
+      "articles"
+    ],
+    "actions": [
+      "subscribe",
+      "read"
+    ],
+    "benefit": "read articles without visiting the site"
+  },
+  "categories": {
+    "primary_entities": [
+      "RSS feed"
+    ],
+    "secondary_entities": [
+      "articles"
+    ],
+    "primary_actions": [
+      "subscribe"
+    ],
+    "secondary_actions": [
+      "read"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "subscribe",
+        "kind": "triggers"
+      },
+      {
+        "from": "subscribe",
+        "to": "RSS feed",
+        "kind": "targets"
+      },
+      {
+        "from": "read",
+        "to": "articles",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1306,
+    "output": 187,
+    "time (ns)": 5547284000
+  }
+}

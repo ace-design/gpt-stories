@@ -140,7 +140,7 @@ def prompt_for_concept_categorization(conversation, extracteds):
       {'role': 'assistant', 
        'content': f'Here are the extracted concepts:\n{extracteds}'})
    conversation.append(
-      {'role': 'system', 'content': "You know need to make the difference between primary concepts and secondary concepts in the information you have extracted"})
+      {'role': 'system', 'content': "You now need to make the difference between primary concepts and secondary concepts in the information you have extracted"})
    conversation.append(
       {'role': 'system', 'content': "In the example that was given initially, the actions primary action is 'begin' and the secondary one is 'validate'. The primary entity is 'user testing' and the secondary entity is 'stakeholder UI improvement requests'."}
    )

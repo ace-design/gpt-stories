@@ -1,0 +1,49 @@
+{
+  "story": "#G10# As a site editor, I want to edit the content of the email automatically sent to new Certified Scrum Masters and Product Owners, so that I don't need to involve a programmer on simple email edits.\n",
+  "extraction": {
+    "personas": [
+      "site editor"
+    ],
+    "entities": [
+      "email",
+      "Certified Scrum Masters",
+      "Product Owners"
+    ],
+    "actions": [
+      "edit"
+    ],
+    "benefit": "I don't need to involve a programmer on simple email edits"
+  },
+  "categories": {
+    "primary_entities": [
+      "email"
+    ],
+    "secondary_entities": [
+      "Certified Scrum Masters",
+      "Product Owners"
+    ],
+    "primary_actions": [
+      "edit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site editor",
+        "to": "edit",
+        "kind": "triggers"
+      },
+      {
+        "from": "edit",
+        "to": "email",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1374,
+    "output": 176,
+    "time (ns)": 5254837000
+  }
+}

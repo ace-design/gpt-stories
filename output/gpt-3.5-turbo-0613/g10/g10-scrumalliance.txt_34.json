@@ -1,0 +1,60 @@
+{
+  "story": "#G10# As a site visitor, I want to have an advanced search option that lets me fill in a form of search criteria, so that I can quickly find what I am looking for.\n",
+  "extraction": {
+    "personas": [
+      "site visitor"
+    ],
+    "entities": [
+      "advanced search option",
+      "form of search criteria"
+    ],
+    "actions": [
+      "fill in",
+      "quickly find"
+    ],
+    "benefit": "I can quickly find what I am looking for"
+  },
+  "categories": {
+    "primary_entities": [
+      "advanced search option"
+    ],
+    "secondary_entities": [
+      "form of search criteria"
+    ],
+    "primary_actions": [
+      "quickly find"
+    ],
+    "secondary_actions": [
+      "fill in"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "fill in",
+        "kind": "triggers"
+      },
+      {
+        "from": "fill in",
+        "to": "advanced search option",
+        "kind": "targets"
+      },
+      {
+        "from": "site visitor",
+        "to": "quickly find",
+        "kind": "triggers"
+      },
+      {
+        "from": "quickly find",
+        "to": "form of search criteria",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1360,
+    "output": 241,
+    "time (ns)": 7480304000
+  }
+}

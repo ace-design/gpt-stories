@@ -1,0 +1,51 @@
+{
+  "story": "#G10# As a site editor, I want to be able to designate whether or not an ever makes the home page, so that the best content is featured most prominently.\n",
+  "extraction": {
+    "personas": [
+      "site editor"
+    ],
+    "entities": [
+      "event",
+      "home page"
+    ],
+    "actions": [
+      "designate"
+    ],
+    "benefit": "the best content is featured most prominently"
+  },
+  "categories": {
+    "primary_entities": [
+      "event",
+      "home page"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "designate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site editor",
+        "to": "designate",
+        "kind": "triggers"
+      },
+      {
+        "from": "designate",
+        "to": "event",
+        "kind": "targets"
+      },
+      {
+        "from": "designate",
+        "to": "home page",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1320,
+    "output": 189,
+    "time (ns)": 5976966000
+  }
+}

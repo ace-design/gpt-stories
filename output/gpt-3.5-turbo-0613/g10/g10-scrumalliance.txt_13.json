@@ -1,0 +1,74 @@
+{
+  "story": "#G10# As a site administrator, I want to read practicing and training applications and approve or reject them, so that only applicants who qualify can become CSPs or CSTs.\n",
+  "extraction": {
+    "personas": [
+      "site administrator"
+    ],
+    "entities": [
+      "practicing and training applications",
+      "CSPs",
+      "CSTs"
+    ],
+    "actions": [
+      "read",
+      "approve",
+      "reject"
+    ],
+    "benefit": "only applicants who qualify can become CSPs or CSTs"
+  },
+  "categories": {
+    "primary_entities": [
+      "practicing and training applications"
+    ],
+    "secondary_entities": [
+      "CSPs",
+      "CSTs"
+    ],
+    "primary_actions": [
+      "read"
+    ],
+    "secondary_actions": [
+      "approve",
+      "reject"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site administrator",
+        "to": "read",
+        "kind": "triggers"
+      },
+      {
+        "from": "read",
+        "to": "practicing and training applications",
+        "kind": "targets"
+      },
+      {
+        "from": "approve",
+        "to": "CSPs",
+        "kind": "targets"
+      },
+      {
+        "from": "reject",
+        "to": "CSPs",
+        "kind": "targets"
+      },
+      {
+        "from": "approve",
+        "to": "CSTs",
+        "kind": "targets"
+      },
+      {
+        "from": "reject",
+        "to": "CSTs",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1376,
+    "output": 307,
+    "time (ns)": 9935502000
+  }
+}

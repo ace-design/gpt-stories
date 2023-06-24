@@ -1,0 +1,44 @@
+{
+  "story": "#G10# As a site administrator, I want to edit any site member profile, so that I can correct problems for members.\n",
+  "extraction": {
+    "personas": [
+      "site administrator"
+    ],
+    "entities": [
+      "site member profile"
+    ],
+    "actions": [
+      "edit"
+    ],
+    "benefit": "I can correct problems for members"
+  },
+  "categories": {
+    "primary_entities": [
+      "site member profile"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "edit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site administrator",
+        "to": "edit",
+        "kind": "triggers"
+      },
+      {
+        "from": "edit",
+        "to": "site member profile",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1282,
+    "output": 155,
+    "time (ns)": 4943295000
+  }
+}

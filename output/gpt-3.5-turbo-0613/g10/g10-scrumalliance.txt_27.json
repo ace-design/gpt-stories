@@ -1,0 +1,57 @@
+{
+  "story": "#G10# As a site administrator, I want to set the listing fee per Other Course or Event, so that we have flexibility on what to charge in the future.\n",
+  "extraction": {
+    "personas": [
+      "site administrator"
+    ],
+    "entities": [
+      "listing fee",
+      "Other Course or Event"
+    ],
+    "actions": [
+      "set"
+    ],
+    "benefit": "flexibility on what to charge in the future"
+  },
+  "categories": {
+    "primary_entities": [
+      "listing fee"
+    ],
+    "secondary_entities": [
+      "Other Course or Event"
+    ],
+    "primary_actions": [
+      "set"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site administrator",
+        "to": "set",
+        "kind": "triggers"
+      },
+      {
+        "from": "set",
+        "to": "listing fee",
+        "kind": "targets"
+      },
+      {
+        "from": "site administrator",
+        "to": "set",
+        "kind": "triggers"
+      },
+      {
+        "from": "set",
+        "to": "Other Course or Event",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1326,
+    "output": 221,
+    "time (ns)": 6584306000
+  }
+}

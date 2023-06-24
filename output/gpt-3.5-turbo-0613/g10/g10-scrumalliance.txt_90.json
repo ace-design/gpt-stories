@@ -1,0 +1,77 @@
+{
+  "story": "#G10# As a corporatesponsor, I want to make my logo randomly appear on the home page, so that others see the company's support of Scrum.\n",
+  "extraction": {
+    "personas": [
+      "corporatesponsor"
+    ],
+    "entities": [
+      "logo",
+      "home page",
+      "company's support of Scrum"
+    ],
+    "actions": [
+      "make",
+      "appear"
+    ],
+    "benefit": "others see the company's support of Scrum"
+  },
+  "categories": {
+    "primary_entities": [
+      "logo",
+      "home page"
+    ],
+    "secondary_entities": [
+      "company's support of Scrum"
+    ],
+    "primary_actions": [
+      "make"
+    ],
+    "secondary_actions": [
+      "appear"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "corporatesponsor",
+        "to": "make",
+        "kind": "triggers"
+      },
+      {
+        "from": "make",
+        "to": "logo",
+        "kind": "targets"
+      },
+      {
+        "from": "make",
+        "to": "home page",
+        "kind": "targets"
+      },
+      {
+        "from": "make",
+        "to": "company's support of Scrum",
+        "kind": "targets"
+      },
+      {
+        "from": "appear",
+        "to": "logo",
+        "kind": "targets"
+      },
+      {
+        "from": "appear",
+        "to": "home page",
+        "kind": "targets"
+      },
+      {
+        "from": "appear",
+        "to": "company's support of Scrum",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1352,
+    "output": 321,
+    "time (ns)": 8607730000
+  }
+}

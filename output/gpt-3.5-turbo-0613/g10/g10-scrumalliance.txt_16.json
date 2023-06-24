@@ -1,0 +1,47 @@
+{
+  "story": "#G10# As a site visitor, I want to access old news that is no longer on the home page, so that I can access things I remember from the past or that others mention to me.\n",
+  "extraction": {
+    "personas": [
+      "site visitor"
+    ],
+    "entities": [
+      "old news",
+      "home page"
+    ],
+    "actions": [
+      "access"
+    ],
+    "benefit": "access things I remember from the past or that others mention to me"
+  },
+  "categories": {
+    "primary_entities": [
+      "old news"
+    ],
+    "secondary_entities": [
+      "home page"
+    ],
+    "primary_actions": [
+      "access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "old news",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1349,
+    "output": 166,
+    "time (ns)": 5036372000
+  }
+}

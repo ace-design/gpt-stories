@@ -1,0 +1,58 @@
+{
+  "story": "#G10# As a member, I want to receive a reminder and a link, so that I can renew my membership.\n",
+  "extraction": {
+    "personas": [
+      "member"
+    ],
+    "entities": [
+      "reminder",
+      "link"
+    ],
+    "actions": [
+      "receive",
+      "renew"
+    ],
+    "benefit": "I can renew my membership"
+  },
+  "categories": {
+    "primary_entities": [
+      "reminder",
+      "link"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "receive",
+      "renew"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "member",
+        "to": "receive",
+        "kind": "triggers"
+      },
+      {
+        "from": "receive",
+        "to": "reminder",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "link",
+        "kind": "targets"
+      },
+      {
+        "from": "member",
+        "to": "renew",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1290,
+    "output": 212,
+    "time (ns)": 6166498000
+  }
+}

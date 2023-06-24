@@ -1,0 +1,47 @@
+{
+  "story": "#G10# As a Practitioner, I want to include additional details about me in my profile page, so that I can showcase my experience.\n",
+  "extraction": {
+    "personas": [
+      "Practitioner"
+    ],
+    "entities": [
+      "profile page"
+    ],
+    "actions": [
+      "include",
+      "showcase"
+    ],
+    "benefit": "I can showcase my experience"
+  },
+  "categories": {
+    "primary_entities": [
+      "profile page"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "include"
+    ],
+    "secondary_actions": [
+      "showcase"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Practitioner",
+        "to": "include",
+        "kind": "triggers"
+      },
+      {
+        "from": "include",
+        "to": "profile page",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1298,
+    "output": 160,
+    "time (ns)": 5015892000
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "story": "#G10# As a visitor, I want to download presentations, PDFs, etc. on Scrum, so that I can learn from them or use them.\n",
+  "extraction": {
+    "personas": [
+      "visitor"
+    ],
+    "entities": [
+      "presentations",
+      "PDFs",
+      "Scrum"
+    ],
+    "actions": [
+      "download",
+      "learn",
+      "use"
+    ],
+    "benefit": "I can learn from them or use them"
+  },
+  "categories": {
+    "primary_entities": [
+      "presentations",
+      "PDFs",
+      "Scrum"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "download"
+    ],
+    "secondary_actions": [
+      "learn",
+      "use"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "visitor",
+        "to": "download",
+        "kind": "triggers"
+      },
+      {
+        "from": "download",
+        "to": "presentations",
+        "kind": "targets"
+      },
+      {
+        "from": "download",
+        "to": "PDFs",
+        "kind": "targets"
+      },
+      {
+        "from": "download",
+        "to": "Scrum",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1342,
+    "output": 231,
+    "time (ns)": 6893914000
+  }
+}

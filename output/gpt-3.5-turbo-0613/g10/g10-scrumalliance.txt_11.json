@@ -1,0 +1,60 @@
+{
+  "story": "#G10# As a site member, I want to mark my email address as private even if the rest of my profile is not, so that no one can contact me.\n",
+  "extraction": {
+    "personas": [
+      "site member"
+    ],
+    "entities": [
+      "email address",
+      "profile"
+    ],
+    "actions": [
+      "mark",
+      "contact"
+    ],
+    "benefit": "no one can contact me"
+  },
+  "categories": {
+    "primary_entities": [
+      "email address"
+    ],
+    "secondary_entities": [
+      "profile"
+    ],
+    "primary_actions": [
+      "mark"
+    ],
+    "secondary_actions": [
+      "contact"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site member",
+        "to": "mark",
+        "kind": "triggers"
+      },
+      {
+        "from": "mark",
+        "to": "email address",
+        "kind": "targets"
+      },
+      {
+        "from": "mark",
+        "to": "profile",
+        "kind": "targets"
+      },
+      {
+        "from": "contact",
+        "to": "site member",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1319,
+    "output": 213,
+    "time (ns)": 6311571000
+  }
+}

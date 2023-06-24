@@ -1,0 +1,44 @@
+{
+  "story": "#G10# As a site visitor, I want to read FAQs, so that I can get quick answers.\n",
+  "extraction": {
+    "personas": [
+      "site visitor"
+    ],
+    "entities": [
+      "FAQs"
+    ],
+    "actions": [
+      "read"
+    ],
+    "benefit": "I can get quick answers"
+  },
+  "categories": {
+    "primary_entities": [
+      "FAQs"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "read"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "read",
+        "kind": "triggers"
+      },
+      {
+        "from": "read",
+        "to": "FAQs",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1265,
+    "output": 151,
+    "time (ns)": 4660683000
+  }
+}

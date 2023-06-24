@@ -1,0 +1,65 @@
+{
+  "story": "#G10# As a trainer, I want to load an Excel file into the site, so that the course participants are added to the Scrum Alliance records.\n",
+  "extraction": {
+    "personas": [
+      "trainer"
+    ],
+    "entities": [
+      "Excel file",
+      "site",
+      "course participants",
+      "Scrum Alliance records"
+    ],
+    "actions": [
+      "load"
+    ],
+    "benefit": "the course participants are added to the Scrum Alliance records"
+  },
+  "categories": {
+    "primary_entities": [
+      "Excel file",
+      "site",
+      "course participants",
+      "Scrum Alliance records"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "load"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "trainer",
+        "to": "load",
+        "kind": "triggers"
+      },
+      {
+        "from": "load",
+        "to": "Excel file",
+        "kind": "targets"
+      },
+      {
+        "from": "load",
+        "to": "site",
+        "kind": "targets"
+      },
+      {
+        "from": "load",
+        "to": "course participants",
+        "kind": "targets"
+      },
+      {
+        "from": "load",
+        "to": "Scrum Alliance records",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1344,
+    "output": 260,
+    "time (ns)": 7293888000
+  }
+}

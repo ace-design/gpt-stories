@@ -1,0 +1,51 @@
+{
+  "story": "#G10# As a CST, I want to pay an annual fee, so that my CST status is active.\n",
+  "extraction": {
+    "personas": [
+      "CST"
+    ],
+    "entities": [
+      "annual fee",
+      "CST status"
+    ],
+    "actions": [
+      "pay"
+    ],
+    "benefit": "my CST status is active"
+  },
+  "categories": {
+    "primary_entities": [
+      "annual fee",
+      "CST status"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "pay"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "CST",
+        "to": "pay",
+        "kind": "triggers"
+      },
+      {
+        "from": "pay",
+        "to": "annual fee",
+        "kind": "targets"
+      },
+      {
+        "from": "pay",
+        "to": "CST status",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1283,
+    "output": 188,
+    "time (ns)": 7404209000
+  }
+}

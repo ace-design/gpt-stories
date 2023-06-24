@@ -1,0 +1,65 @@
+{
+  "story": "#G10# As a site member, I want to fill out an application to become a Certified Scrum Practitioner, so that I can earn that designation.\n",
+  "extraction": {
+    "personas": [
+      "site member"
+    ],
+    "entities": [
+      "application",
+      "Certified Scrum Practitioner"
+    ],
+    "actions": [
+      "fill out",
+      "become",
+      "earn"
+    ],
+    "benefit": "I can earn that designation"
+  },
+  "categories": {
+    "primary_entities": [
+      "application",
+      "Certified Scrum Practitioner"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "fill out",
+      "become",
+      "earn"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site member",
+        "to": "fill out",
+        "kind": "triggers"
+      },
+      {
+        "from": "fill out",
+        "to": "application",
+        "kind": "targets"
+      },
+      {
+        "from": "fill out",
+        "to": "Certified Scrum Practitioner",
+        "kind": "targets"
+      },
+      {
+        "from": "become",
+        "to": "Certified Scrum Practitioner",
+        "kind": "targets"
+      },
+      {
+        "from": "earn",
+        "to": "Certified Scrum Practitioner",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1340,
+    "output": 274,
+    "time (ns)": 7850868000
+  }
+}

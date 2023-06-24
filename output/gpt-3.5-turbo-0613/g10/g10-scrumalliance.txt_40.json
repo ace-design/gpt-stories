@@ -1,0 +1,52 @@
+{
+  "story": "#G10# As a site member, I want to download the latest training material and methodology PDFs, so that I have them.\n",
+  "extraction": {
+    "personas": [
+      "site member"
+    ],
+    "entities": [
+      "training material",
+      "methodology PDFs"
+    ],
+    "actions": [
+      "download"
+    ],
+    "benefit": "I have them"
+  },
+  "categories": {
+    "primary_entities": [
+      "training material"
+    ],
+    "secondary_entities": [
+      "methodology PDFs"
+    ],
+    "primary_actions": [
+      "download"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site member",
+        "to": "download",
+        "kind": "triggers"
+      },
+      {
+        "from": "download",
+        "to": "training material",
+        "kind": "targets"
+      },
+      {
+        "from": "download",
+        "to": "methodology PDFs",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1293,
+    "output": 188,
+    "time (ns)": 5852678000
+  }
+}

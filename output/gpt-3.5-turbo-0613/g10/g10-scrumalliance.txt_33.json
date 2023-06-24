@@ -1,0 +1,69 @@
+{
+  "story": "#G10# As a trainer, I want to turn a course into an event or an event into a course, so that I can correctly classify anything that was entered incorrectly.\n",
+  "extraction": {
+    "personas": [
+      "trainer"
+    ],
+    "entities": [
+      "course",
+      "event"
+    ],
+    "actions": [
+      "turn",
+      "classify"
+    ],
+    "benefit": "correctly classify anything that was entered incorrectly"
+  },
+  "categories": {
+    "primary_entities": [
+      "course",
+      "event"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "turn"
+    ],
+    "secondary_actions": [
+      "classify"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "trainer",
+        "to": "turn",
+        "kind": "triggers"
+      },
+      {
+        "from": "turn",
+        "to": "course",
+        "kind": "targets"
+      },
+      {
+        "from": "turn",
+        "to": "event",
+        "kind": "targets"
+      },
+      {
+        "from": "trainer",
+        "to": "classify",
+        "kind": "triggers"
+      },
+      {
+        "from": "classify",
+        "to": "course",
+        "kind": "targets"
+      },
+      {
+        "from": "classify",
+        "to": "event",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1321,
+    "output": 261,
+    "time (ns)": 7705989000
+  }
+}

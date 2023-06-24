@@ -1,0 +1,72 @@
+{
+  "story": "#G10# As a site editor, I want to have some flexibility as to where things appear, so that I can accommodate different types of content.\n",
+  "extraction": {
+    "personas": [
+      "site editor"
+    ],
+    "entities": [
+      "things",
+      "different types of content"
+    ],
+    "actions": [
+      "have",
+      "appear",
+      "accommodate"
+    ],
+    "benefit": "I can accommodate different types of content"
+  },
+  "categories": {
+    "primary_entities": [
+      "things"
+    ],
+    "secondary_entities": [
+      "different types of content"
+    ],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": [
+      "appear",
+      "accommodate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site editor",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "things",
+        "kind": "targets"
+      },
+      {
+        "from": "site editor",
+        "to": "appear",
+        "kind": "triggers"
+      },
+      {
+        "from": "appear",
+        "to": "different types of content",
+        "kind": "targets"
+      },
+      {
+        "from": "site editor",
+        "to": "accommodate",
+        "kind": "triggers"
+      },
+      {
+        "from": "accommodate",
+        "to": "different types of content",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1329,
+    "output": 290,
+    "time (ns)": 7931050000
+  }
+}

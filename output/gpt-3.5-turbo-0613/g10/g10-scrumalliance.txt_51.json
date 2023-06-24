@@ -1,0 +1,51 @@
+{
+  "story": "#G10# As a site visitor, I want to read a new article on the front page about once a week, so that I am up on all the latest happenings.\n",
+  "extraction": {
+    "personas": [
+      "site visitor"
+    ],
+    "entities": [
+      "new article",
+      "front page"
+    ],
+    "actions": [
+      "read"
+    ],
+    "benefit": "I am up on all the latest happenings"
+  },
+  "categories": {
+    "primary_entities": [
+      "new article",
+      "front page"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "read"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "read",
+        "kind": "triggers"
+      },
+      {
+        "from": "read",
+        "to": "new article",
+        "kind": "targets"
+      },
+      {
+        "from": "read",
+        "to": "front page",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1327,
+    "output": 189,
+    "time (ns)": 6047578000
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "story": "#G10# As a site visitor, I want to view a section of the website that teaches me the basics of what Scrum is, so that I can learn that quickly.\n",
+  "extraction": {
+    "personas": [
+      "site visitor"
+    ],
+    "entities": [
+      "section of the website"
+    ],
+    "actions": [
+      "view",
+      "teaches"
+    ],
+    "benefit": "I can learn that quickly"
+  },
+  "categories": {
+    "primary_entities": [
+      "section of the website"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": [
+      "teaches"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "section of the website",
+        "kind": "targets"
+      },
+      {
+        "from": "site visitor",
+        "to": "teaches",
+        "kind": "triggers"
+      },
+      {
+        "from": "teaches",
+        "to": "section of the website",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1323,
+    "output": 221,
+    "time (ns)": 6402072000
+  }
+}

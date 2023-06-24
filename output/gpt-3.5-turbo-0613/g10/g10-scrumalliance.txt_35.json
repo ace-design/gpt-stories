@@ -1,0 +1,103 @@
+{
+  "story": "#G10# As a site visitor, I want to view a course I can click on the trainer's name and be taken to the trainer's profile, so that I can read more about a trainer before registering for a course.\n",
+  "extraction": {
+    "personas": [
+      "site visitor"
+    ],
+    "entities": [
+      "course",
+      "trainer's name",
+      "trainer's profile"
+    ],
+    "actions": [
+      "view",
+      "click",
+      "be taken",
+      "read",
+      "register"
+    ],
+    "benefit": "I can read more about a trainer before registering for a course"
+  },
+  "categories": {
+    "primary_entities": [
+      "course",
+      "trainer's name"
+    ],
+    "secondary_entities": [
+      "trainer's profile"
+    ],
+    "primary_actions": [
+      "view",
+      "click",
+      "register"
+    ],
+    "secondary_actions": [
+      "be taken",
+      "read"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "course",
+        "kind": "targets"
+      },
+      {
+        "from": "site visitor",
+        "to": "click",
+        "kind": "triggers"
+      },
+      {
+        "from": "click",
+        "to": "trainer's name",
+        "kind": "targets"
+      },
+      {
+        "from": "click",
+        "to": "trainer's profile",
+        "kind": "targets"
+      },
+      {
+        "from": "site visitor",
+        "to": "be taken",
+        "kind": "triggers"
+      },
+      {
+        "from": "be taken",
+        "to": "trainer's profile",
+        "kind": "targets"
+      },
+      {
+        "from": "site visitor",
+        "to": "read",
+        "kind": "triggers"
+      },
+      {
+        "from": "read",
+        "to": "trainer's profile",
+        "kind": "targets"
+      },
+      {
+        "from": "site visitor",
+        "to": "register",
+        "kind": "triggers"
+      },
+      {
+        "from": "register",
+        "to": "course",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1414,
+    "output": 442,
+    "time (ns)": 12436684000
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "story": "#G10# As a site visitor, I want to see a list of all upcoming Events, so that I can decide if I want to attend any.\n",
+  "extraction": {
+    "personas": [
+      "site visitor"
+    ],
+    "entities": [
+      "upcoming Events"
+    ],
+    "actions": [
+      "see",
+      "decide",
+      "attend"
+    ],
+    "benefit": "I can decide if I want to attend any"
+  },
+  "categories": {
+    "primary_entities": [
+      "upcoming Events"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see",
+      "decide",
+      "attend"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "upcoming Events",
+        "kind": "targets"
+      },
+      {
+        "from": "site visitor",
+        "to": "decide",
+        "kind": "triggers"
+      },
+      {
+        "from": "decide",
+        "to": "attend",
+        "kind": "triggers"
+      },
+      {
+        "from": "attend",
+        "to": "upcoming Events",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1324,
+    "output": 254,
+    "time (ns)": 7474856000
+  }
+}

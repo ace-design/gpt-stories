@@ -1,0 +1,60 @@
+{
+  "story": "#G10# As a site visitor, I want to see a trainer's rating, so that I choose a course from an appropriate trainer.\n",
+  "extraction": {
+    "personas": [
+      "site visitor"
+    ],
+    "entities": [
+      "trainer's rating",
+      "course",
+      "trainer"
+    ],
+    "actions": [
+      "see",
+      "choose"
+    ],
+    "benefit": "I can choose a course from an appropriate trainer"
+  },
+  "categories": {
+    "primary_entities": [
+      "trainer's rating",
+      "course",
+      "trainer"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see",
+      "choose"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "trainer's rating",
+        "kind": "targets"
+      },
+      {
+        "from": "choose",
+        "to": "course",
+        "kind": "targets"
+      },
+      {
+        "from": "choose",
+        "to": "trainer",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1321,
+    "output": 226,
+    "time (ns)": 6309802000
+  }
+}

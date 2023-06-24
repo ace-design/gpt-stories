@@ -1,0 +1,65 @@
+{
+  "story": "#G10# As a site member, I want to send an email to any member via a form, so that we can connect.\n",
+  "extraction": {
+    "personas": [
+      "site member"
+    ],
+    "entities": [
+      "email",
+      "member",
+      "form"
+    ],
+    "actions": [
+      "send",
+      "connect"
+    ],
+    "benefit": "we can connect"
+  },
+  "categories": {
+    "primary_entities": [
+      "email",
+      "member",
+      "form"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "send",
+      "connect"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site member",
+        "to": "send",
+        "kind": "triggers"
+      },
+      {
+        "from": "send",
+        "to": "email",
+        "kind": "targets"
+      },
+      {
+        "from": "send",
+        "to": "member",
+        "kind": "targets"
+      },
+      {
+        "from": "send",
+        "to": "form",
+        "kind": "targets"
+      },
+      {
+        "from": "send",
+        "to": "connect",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1300,
+    "output": 240,
+    "time (ns)": 7426821000
+  }
+}

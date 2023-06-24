@@ -1,0 +1,59 @@
+{
+  "story": "#G10# As a site visitor, I want to know as soon as I visit what on earth Scrum is and why it needs an alliance, so that I don't bounce immediately o\ufb00 the page.\n",
+  "extraction": {
+    "personas": [
+      "site visitor"
+    ],
+    "entities": [
+      "Scrum"
+    ],
+    "actions": [
+      "know",
+      "visit",
+      "bounce off"
+    ],
+    "benefit": "I don't bounce immediately off the page"
+  },
+  "categories": {
+    "primary_entities": [
+      "Scrum"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "visit"
+    ],
+    "secondary_actions": [
+      "bounce off"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "Scrum",
+        "kind": "targets"
+      },
+      {
+        "from": "site visitor",
+        "to": "visit",
+        "kind": "triggers"
+      },
+      {
+        "from": "visit",
+        "to": "bounce off",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1356,
+    "output": 220,
+    "time (ns)": 6702663000
+  }
+}

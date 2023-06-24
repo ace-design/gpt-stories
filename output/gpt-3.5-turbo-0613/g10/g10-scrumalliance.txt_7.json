@@ -1,0 +1,78 @@
+{
+  "story": "#G10# As a trainer, I want to list my upcoming classes in my profile and include a link to a detailed page about each, so that prospective attendees can find my courses.\n",
+  "extraction": {
+    "personas": [
+      "trainer"
+    ],
+    "entities": [
+      "upcoming classes",
+      "profile",
+      "detailed page",
+      "prospective attendees",
+      "courses"
+    ],
+    "actions": [
+      "list",
+      "include",
+      "find"
+    ],
+    "benefit": "prospective attendees can find my courses"
+  },
+  "categories": {
+    "primary_entities": [
+      "upcoming classes",
+      "profile",
+      "detailed page"
+    ],
+    "secondary_entities": [
+      "prospective attendees",
+      "courses"
+    ],
+    "primary_actions": [
+      "list",
+      "include"
+    ],
+    "secondary_actions": [
+      "find"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "trainer",
+        "to": "list",
+        "kind": "triggers"
+      },
+      {
+        "from": "list",
+        "to": "upcoming classes",
+        "kind": "targets"
+      },
+      {
+        "from": "trainer",
+        "to": "include",
+        "kind": "triggers"
+      },
+      {
+        "from": "include",
+        "to": "detailed page",
+        "kind": "targets"
+      },
+      {
+        "from": "prospective attendees",
+        "to": "find",
+        "kind": "triggers"
+      },
+      {
+        "from": "find",
+        "to": "courses",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1383,
+    "output": 306,
+    "time (ns)": 8521105000
+  }
+}

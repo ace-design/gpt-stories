@@ -1,0 +1,47 @@
+{
+  "story": "#G10# As a site editor, I want to post information in a trainers-only section, so that only trainers see it.\n",
+  "extraction": {
+    "personas": [
+      "site editor"
+    ],
+    "entities": [
+      "information",
+      "trainers-only section"
+    ],
+    "actions": [
+      "post"
+    ],
+    "benefit": "only trainers see it"
+  },
+  "categories": {
+    "primary_entities": [
+      "information"
+    ],
+    "secondary_entities": [
+      "trainers-only section"
+    ],
+    "primary_actions": [
+      "post"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site editor",
+        "to": "post",
+        "kind": "triggers"
+      },
+      {
+        "from": "post",
+        "to": "information",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1289,
+    "output": 158,
+    "time (ns)": 5312751000
+  }
+}

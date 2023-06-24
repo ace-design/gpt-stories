@@ -1,0 +1,75 @@
+{
+  "story": "#G10# As a site visitor, I want to see a list of all upcoming Other Courses and can page through them if necessary, so that I can choose the best course for me.\n",
+  "extraction": {
+    "personas": [
+      "site visitor"
+    ],
+    "entities": [
+      "list",
+      "upcoming Other Courses"
+    ],
+    "actions": [
+      "see",
+      "page through",
+      "choose"
+    ],
+    "benefit": "choose the best course for me"
+  },
+  "categories": {
+    "primary_entities": [
+      "list",
+      "upcoming Other Courses"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see",
+      "page through",
+      "choose"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "list",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "upcoming Other Courses",
+        "kind": "targets"
+      },
+      {
+        "from": "page through",
+        "to": "list",
+        "kind": "targets"
+      },
+      {
+        "from": "page through",
+        "to": "upcoming Other Courses",
+        "kind": "targets"
+      },
+      {
+        "from": "choose",
+        "to": "list",
+        "kind": "targets"
+      },
+      {
+        "from": "choose",
+        "to": "upcoming Other Courses",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1351,
+    "output": 311,
+    "time (ns)": 8604597000
+  }
+}

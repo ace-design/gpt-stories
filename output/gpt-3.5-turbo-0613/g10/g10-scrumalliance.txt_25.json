@@ -1,0 +1,57 @@
+{
+  "story": "#G10# As a trainer, I want to create an Other Course or Event I am charged a listing fee for that activity, so that I don't list events I don't really intend to hold.\n",
+  "extraction": {
+    "personas": [
+      "trainer"
+    ],
+    "entities": [
+      "Other Course or Event"
+    ],
+    "actions": [
+      "create",
+      "charged"
+    ],
+    "benefit": "I don't list events I don't really intend to hold"
+  },
+  "categories": {
+    "primary_entities": [
+      "Other Course or Event"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": [
+      "charged"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "trainer",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "Other Course or Event",
+        "kind": "targets"
+      },
+      {
+        "from": "trainer",
+        "to": "charged",
+        "kind": "triggers"
+      },
+      {
+        "from": "charged",
+        "to": "Other Course or Event",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1347,
+    "output": 221,
+    "time (ns)": 7397247000
+  }
+}

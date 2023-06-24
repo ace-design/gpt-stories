@@ -1,0 +1,71 @@
+{
+  "story": "#G10# As a site editor, I want to assign priority numbers to news items, so that I can indicate which articles I want featured most prominently on the site.\n",
+  "extraction": {
+    "personas": [
+      "site editor"
+    ],
+    "entities": [
+      "news items",
+      "site"
+    ],
+    "actions": [
+      "assign",
+      "indicate",
+      "feature"
+    ],
+    "benefit": "I can indicate which articles I want featured most prominently on the site."
+  },
+  "categories": {
+    "primary_entities": [
+      "news items",
+      "site"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "assign",
+      "feature"
+    ],
+    "secondary_actions": [
+      "indicate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site editor",
+        "to": "assign",
+        "kind": "triggers"
+      },
+      {
+        "from": "assign",
+        "to": "news items",
+        "kind": "targets"
+      },
+      {
+        "from": "site editor",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "news items",
+        "kind": "targets"
+      },
+      {
+        "from": "site editor",
+        "to": "feature",
+        "kind": "triggers"
+      },
+      {
+        "from": "feature",
+        "to": "news items",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1347,
+    "output": 286,
+    "time (ns)": 8830050000
+  }
+}

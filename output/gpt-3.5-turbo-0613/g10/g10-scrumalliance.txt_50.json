@@ -1,0 +1,56 @@
+{
+  "story": "#G10# As an advertiser, I want to be emailed a reminder seven day before an ad is about to expire, so that I can go extend the ad.\n",
+  "extraction": {
+    "personas": [
+      "advertiser"
+    ],
+    "entities": [
+      "ad"
+    ],
+    "actions": [
+      "be emailed",
+      "extend"
+    ],
+    "benefit": "I can extend the ad"
+  },
+  "categories": {
+    "primary_entities": [
+      "ad"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "be emailed",
+      "extend"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "advertiser",
+        "to": "be emailed",
+        "kind": "triggers"
+      },
+      {
+        "from": "be emailed",
+        "to": "ad",
+        "kind": "targets"
+      },
+      {
+        "from": "advertiser",
+        "to": "extend",
+        "kind": "triggers"
+      },
+      {
+        "from": "extend",
+        "to": "ad",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1307,
+    "output": 210,
+    "time (ns)": 8559175000
+  }
+}

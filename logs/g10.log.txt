@@ -1,0 +1,695 @@
+START: 13:27:10
+# Processing g10-scrumalliance.txt
+- Story #[1] -- started at 13:27:10
+    - #G10# As a site member, I want to describe myself on my own page in a semi-structured way, so that others can learn about me.
+
+        - calling model 13:27:10
+        - calling model 13:27:14
+        - calling model 13:27:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_1.json
+- Story #[2] -- started at 13:27:23
+    - #G10# As a site member, I want to fill out an application to become a Certified Scrum Practitioner, so that I can earn that designation.
+
+        - calling model 13:27:23
+        - calling model 13:27:27
+        - calling model 13:27:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_2.json
+- Story #[3] -- started at 13:27:37
+    - #G10# As a Practitioner, I want to include additional details about me in my profile page, so that I can showcase my experience.
+
+        - calling model 13:27:37
+        - calling model 13:27:40
+        - calling model 13:27:44
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_3.json
+- Story #[4] -- started at 13:27:48
+    - #G10# As a site member, I want to fill out an application to become a Certified Scrum Trainer, so that I can teach CSM and CSPO courses and certify others.
+
+        - calling model 13:27:48
+        - calling model 13:27:52
+        - calling model 13:27:56
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_4.json
+- Story #[5] -- started at 13:28:05
+    - #G10# As a Trainer, I want to include additional details in my profile page about me, so that others can learn about me and decide if I am the right trainer for them.
+
+        - calling model 13:28:05
+        - calling model 13:28:08
+        - calling model 13:28:12
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_5.json
+- Story #[6] -- started at 13:28:19
+    - #G10# As a Practitioner, I want to write an article for the site with a small graphic shown with the article showing my CSP or CST status, so that others know my certifications when reading.
+
+        - calling model 13:28:19
+        - calling model 13:28:23
+        - calling model 13:28:29
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_6.json
+- Story #[7] -- started at 13:28:37
+    - #G10# As a trainer, I want to list my upcoming classes in my profile and include a link to a detailed page about each, so that prospective attendees can find my courses.
+
+        - calling model 13:28:37
+        - calling model 13:28:41
+        - calling model 13:28:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_7.json
+- Story #[8] -- started at 13:28:51
+    - #G10# As a site member, I want to view the profiles of other members, so that I can find others I might want to connect with.
+
+        - calling model 13:28:51
+        - calling model 13:28:55
+        - calling model 13:28:58
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_8.json
+- Story #[9] -- started at 13:29:04
+    - #G10# As a site member, I want to search for profiles based on a few fields, so that I can find others I might want to connect with.
+
+        - calling model 13:29:04
+        - calling model 13:29:07
+        - calling model 13:29:11
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_9.json
+- Story #[10] -- started at 13:29:16
+    - #G10# As a site member, I want to mark my profile as private in which case only my name will appear, so that no one can learn things about me I don't want shared.
+
+        - calling model 13:29:16
+        - calling model 13:29:20
+        - calling model 13:29:23
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_10.json
+- Story #[11] -- started at 13:29:30
+    - #G10# As a site member, I want to mark my email address as private even if the rest of my profile is not, so that no one can contact me.
+
+        - calling model 13:29:30
+        - calling model 13:29:34
+        - calling model 13:29:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_11.json
+- Story #[12] -- started at 13:29:42
+    - #G10# As a site member, I want to send an email to any member via a form, so that we can connect.
+
+        - calling model 13:29:42
+        - calling model 13:29:46
+        - calling model 13:29:50
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_12.json
+- Story #[13] -- started at 13:29:56
+    - #G10# As a site administrator, I want to read practicing and training applications and approve or reject them, so that only applicants who qualify can become CSPs or CSTs.
+
+        - calling model 13:29:56
+        - calling model 13:30:00
+        - calling model 13:30:05
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_13.json
+- Story #[14] -- started at 13:30:12
+    - #G10# As a site administrator, I want to edit any site member profile, so that I can correct problems for members.
+
+        - calling model 13:30:12
+        - calling model 13:30:15
+        - calling model 13:30:19
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_14.json
+- Story #[15] -- started at 13:30:23
+    - #G10# As a site visitor, I want to read current news on the home page, so that I stay current on agile news.
+
+        - calling model 13:30:23
+        - calling model 13:30:27
+        - calling model 13:30:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_15.json
+- Story #[16] -- started at 13:30:34
+    - #G10# As a site visitor, I want to access old news that is no longer on the home page, so that I can access things I remember from the past or that others mention to me.
+
+        - calling model 13:30:34
+        - calling model 13:30:38
+        - calling model 13:30:41
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_16.json
+- Story #[17] -- started at 13:30:45
+    - #G10# As a site visitor, I want to email news items to the editor, so that they can be considered for publication.
+
+        - calling model 13:30:45
+        - calling model 13:30:49
+        - calling model 13:30:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_17.json
+- Story #[18] -- started at 13:30:57
+    - #G10# As a site editor, I want to set the following dates on a news item: Start Publishing Date, Old News Date, Stop Publishing Date, so that articles are published on and through appropriate dates.
+
+        - calling model 13:30:57
+        - calling model 13:31:01
+        - calling model 13:31:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_18.json
+- Story #[19] -- started at 13:31:09
+    - #G10# As a site member, I want to subscribe to an RSS feed of news, so that I remain sufficiently and easily informed.
+
+        - calling model 13:31:09
+        - calling model 13:31:13
+        - calling model 13:31:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_19.json
+- Story #[20] -- started at 13:31:21
+    - #G10# As a site editor, I want to assign priority numbers to news items, so that I can indicate which articles I want featured most prominently on the site.
+
+        - calling model 13:31:21
+        - calling model 13:31:25
+        - calling model 13:31:29
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_20.json
+- Story #[21] -- started at 13:31:35
+    - #G10# As a site visitor, I want to see a list of all upcoming Certification Courses and can page through them if there are a lot, so that I can choose the best course for me.
+
+        - calling model 13:31:35
+        - calling model 13:31:39
+        - calling model 13:31:43
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_21.json
+- Story #[22] -- started at 13:31:49
+    - #G10# As a site visitor, I want to see a list of all upcoming Other Courses and can page through them if necessary, so that I can choose the best course for me.
+
+        - calling model 13:31:49
+        - calling model 13:31:53
+        - calling model 13:31:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_22.json
+- Story #[23] -- started at 13:32:04
+    - #G10# As a site visitor, I want to see a list of all upcoming Events, so that I can decide if I want to attend any.
+
+        - calling model 13:32:04
+        - calling model 13:32:08
+        - calling model 13:32:11
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_23.json
+- Story #[24] -- started at 13:32:17
+    - #G10# As a trainer, I want to create a new course or event, so that site visitors can see it.
+
+        - calling model 13:32:17
+        - calling model 13:32:22
+        - calling model 13:32:26
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_24.json
+- Story #[25] -- started at 13:32:32
+    - #G10# As a trainer, I want to create an Other Course or Event I am charged a listing fee for that activity, so that I don't list events I don't really intend to hold.
+
+        - calling model 13:32:32
+        - calling model 13:32:35
+        - calling model 13:32:39
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_25.json
+- Story #[26] -- started at 13:32:45
+    - #G10# As a site administrator, I want to create an Other Course or Event that is not charged a listing fee, so that the Scrum Alliance doesn't charge itself for Scrum Gatherings that it puts on.
+
+        - calling model 13:32:45
+        - calling model 13:32:49
+        - calling model 13:32:53
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_26.json
+- Story #[27] -- started at 13:33:00
+    - #G10# As a site administrator, I want to set the listing fee per Other Course or Event, so that we have flexibility on what to charge in the future.
+
+        - calling model 13:33:00
+        - calling model 13:33:03
+       - exception caught! Pausing for 60 seconds
+        - calling model 13:34:33
+        - calling model 13:34:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_27.json
+- Story #[28] -- started at 13:34:42
+    - #G10# As a trainer, I want to update one of my existing courses or events, so that it reflects accurate information.
+
+        - calling model 13:34:42
+        - calling model 13:34:46
+        - calling model 13:34:49
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_28.json
+- Story #[29] -- started at 13:34:54
+    - #G10# As a trainer, I want to delete one of my courses or events, so that it's no longer listed if I cancel for some reason.
+
+        - calling model 13:34:54
+        - calling model 13:34:57
+        - calling model 13:35:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_29.json
+- Story #[30] -- started at 13:35:08
+    - #G10# As a trainer, I want to copy one of my courses or events, so that I can create a new one.
+
+        - calling model 13:35:08
+        - calling model 13:35:11
+        - calling model 13:35:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_30.json
+- Story #[31] -- started at 13:35:22
+    - #G10# As a site admin, I want to delete any course or event, so that I can remove things that will no longer occur.
+
+        - calling model 13:35:22
+        - calling model 13:35:26
+        - calling model 13:35:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_31.json
+- Story #[32] -- started at 13:35:37
+    - #G10# As a site editor, I want to update any course or event, so that I can fix things the original author hasn't.
+
+        - calling model 13:35:37
+        - calling model 13:35:41
+        - calling model 13:35:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_32.json
+- Story #[33] -- started at 13:35:49
+    - #G10# As a trainer, I want to turn a course into an event or an event into a course, so that I can correctly classify anything that was entered incorrectly.
+
+        - calling model 13:35:49
+        - calling model 13:35:53
+        - calling model 13:35:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_33.json
+- Story #[34] -- started at 13:36:03
+    - #G10# As a site visitor, I want to have an advanced search option that lets me fill in a form of search criteria, so that I can quickly find what I am looking for.
+
+        - calling model 13:36:03
+        - calling model 13:36:07
+        - calling model 13:36:11
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_34.json
+- Story #[35] -- started at 13:36:17
+    - #G10# As a site visitor, I want to view a course I can click on the trainer's name and be taken to the trainer's profile, so that I can read more about a trainer before registering for a course.
+
+        - calling model 13:36:17
+        - calling model 13:36:21
+        - calling model 13:36:25
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_35.json
+- Story #[36] -- started at 13:36:35
+    - #G10# As a site visitor, I want to subscribe to an RSS feed of upcoming courses and events, so that I am up to day without having to visit the site.
+
+        - calling model 13:36:35
+        - calling model 13:36:39
+        - calling model 13:36:42
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_36.json
+- Story #[37] -- started at 13:36:46
+    - #G10# As a site visitor, I want to read FAQs, so that I can get quick answers.
+
+        - calling model 13:36:46
+        - calling model 13:36:50
+        - calling model 13:36:53
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_37.json
+- Story #[38] -- started at 13:36:57
+    - #G10# As a site editor, I want to maintain a FAQ section, so that support gets fewer easily answered questions.
+
+        - calling model 13:36:57
+        - calling model 13:37:01
+        - calling model 13:37:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_38.json
+- Story #[39] -- started at 13:37:09
+    - #G10# As a site visitor, I want to do a full-text search of the FAQs, so that I can find an answer quickly.
+
+        - calling model 13:37:09
+        - calling model 13:37:12
+        - calling model 13:37:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_39.json
+- Story #[40] -- started at 13:37:20
+    - #G10# As a site member, I want to download the latest training material and methodology PDFs, so that I have them.
+
+        - calling model 13:37:20
+        - calling model 13:37:24
+        - calling model 13:37:27
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_40.json
+- Story #[41] -- started at 13:37:32
+    - #G10# As a visitor, I want to download presentations, PDFs, etc. on Scrum, so that I can learn from them or use them.
+
+        - calling model 13:37:32
+        - calling model 13:37:36
+        - calling model 13:37:39
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_41.json
+- Story #[42] -- started at 13:37:45
+    - #G10# As a site member, I want to scroll through a listing of jobs, so that I can see if there any I am interested in.
+
+        - calling model 13:37:45
+        - calling model 13:37:48
+        - calling model 13:37:53
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_42.json
+- Story #[43] -- started at 13:37:57
+    - #G10# As a recruiter, I want to post a help wanted ad, so that I can attract candidates.
+
+        - calling model 13:37:57
+        - calling model 13:38:01
+        - calling model 13:38:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_43.json
+- Story #[44] -- started at 13:38:09
+    - #G10# As a site admin, I want to approve each help wanted ad before it gets to the site, so that we're sure of the quality of jobs being listed.
+
+        - calling model 13:38:09
+        - calling model 13:38:12
+        - calling model 13:38:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_44.json
+- Story #[45] -- started at 13:38:20
+    - #G10# As a site admin, I want to be emailed whenever a job is submitted, so that I am aware of it and can decide if I want to post it.
+
+        - calling model 13:38:20
+        - calling model 13:38:24
+        - calling model 13:38:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_45.json
+- Story #[46] -- started at 13:38:32
+    - #G10# As a site member, I want to subscribe to an RSS feed of jobs available, so that I can read them without visiting the site.
+
+        - calling model 13:38:32
+        - calling model 13:38:36
+        - calling model 13:38:39
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_46.json
+- Story #[47] -- started at 13:38:44
+    - #G10# As a site admin, I want to edit and delete help wanted ads, so that I can correct small problems or make sure each ad complies with site guidelines.
+
+        - calling model 13:38:44
+        - calling model 13:38:47
+        - calling model 13:38:51
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_47.json
+- Story #[48] -- started at 13:38:56
+    - #G10# As a site admin, I want to stop publishing jobs on the site 30 days after being posted, so that jobs that may have been filled aren't still listed when the hiring party forgets to come back and delete the ad.
+
+        - calling model 13:38:56
+        - calling model 13:39:00
+        - calling model 13:39:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_48.json
+- Story #[49] -- started at 13:39:10
+    - #G10# As a recruiter, I want to be able to extend an ad for another 30 days by visiting the site and updating the posting, so that my ad remains active.
+
+        - calling model 13:39:10
+        - calling model 13:39:14
+        - calling model 13:39:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_49.json
+- Story #[50] -- started at 13:39:24
+    - #G10# As an advertiser, I want to be emailed a reminder seven day before an ad is about to expire, so that I can go extend the ad.
+
+        - calling model 13:39:24
+        - calling model 13:39:30
+        - calling model 13:39:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_50.json
+- Story #[51] -- started at 13:39:39
+    - #G10# As a site visitor, I want to read a new article on the front page about once a week, so that I am up on all the latest happenings.
+
+        - calling model 13:39:39
+        - calling model 13:39:42
+        - calling model 13:39:46
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_51.json
+- Story #[52] -- started at 13:39:51
+    - #G10# As the site editor, I want to include a teaser with each article, so that site visitors can decide if they want to read the rest.
+
+        - calling model 13:39:51
+        - calling model 13:39:54
+        - calling model 13:39:58
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_52.json
+- Story #[53] -- started at 13:40:05
+    - #G10# As a site member who has read a teaser on the front page, I want to read the entire article so that I can finish articles that appeal to me.
+
+        - calling model 13:40:05
+        - calling model 13:40:09
+        - calling model 13:40:12
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_53.json
+- Story #[54] -- started at 13:40:17
+    - #G10# As the site editor, I want to add an article to the site, so that the site has plenty of content.
+
+        - calling model 13:40:17
+        - calling model 13:40:21
+        - calling model 13:40:24
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_54.json
+- Story #[55] -- started at 13:40:29
+    - #G10# As a site editor, I want to set start publishing dates, old article date, and stop publishing dates for articles, so that articles appear only during appropriate periods.
+
+        - calling model 13:40:29
+        - calling model 13:40:33
+        - calling model 13:40:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_55.json
+- Story #[56] -- started at 13:40:43
+    - #G10# As a site editor, I want to be able to designate whether or not an ever makes the home page, so that the best content is featured most prominently.
+
+        - calling model 13:40:43
+        - calling model 13:40:47
+        - calling model 13:40:50
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_56.json
+- Story #[57] -- started at 13:40:55
+    - #G10# As the site editor, I want to have pretty good control over how the article, so that articles are visually appealing.
+
+        - calling model 13:40:55
+        - calling model 13:40:58
+        - calling model 13:41:02
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_57.json
+- Story #[58] -- started at 13:41:06
+    - #G10# As a site visitor, I want to click the link from the article teaser to take me directly to the body of the article. not to another teaser setup, so that I can easily finish the article.
+
+        - calling model 13:41:06
+        - calling model 13:41:13
+        - calling model 13:41:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_58.json
+- Story #[59] -- started at 13:41:24
+    - #G10# As a site editor, I want to be able to indicate whether an article is publicly available or for members only, so that visitors are incentivized to become members.
+
+        - calling model 13:41:24
+        - calling model 13:41:28
+        - calling model 13:41:31
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_59.json
+- Story #[60] -- started at 13:41:35
+    - #G10# As a site visitor, I want to be able to read some of your articles, so that I can learn without first joining the site.
+
+        - calling model 13:41:35
+        - calling model 13:41:39
+        - calling model 13:41:43
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_60.json
+- Story #[61] -- started at 13:41:48
+    - #G10# As a site member, I want to have full access to all articles, so that there is a benefit to being a member.
+
+        - calling model 13:41:48
+        - calling model 13:41:51
+        - calling model 13:41:55
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_61.json
+- Story #[62] -- started at 13:41:59
+    - #G10# As a site visitor, I want to do a full-text search of article body, title, and author name, so that I can find what I want.
+
+        - calling model 13:41:59
+        - calling model 13:42:03
+        - calling model 13:42:07
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_62.json
+- Story #[63] -- started at 13:42:12
+    - #G10# As a site visitor, I want to subscribe to an RSS feed of articles, so that I can read them without visiting the site.
+
+        - calling model 13:42:12
+        - calling model 13:42:16
+        - calling model 13:42:19
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_63.json
+- Story #[64] -- started at 13:42:24
+    - #G10# As a site visitor, I want to post comments about articles, so that others can read them.
+
+        - calling model 13:42:24
+        - calling model 13:42:32
+        - calling model 13:42:35
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_64.json
+- Story #[65] -- started at 13:42:39
+    - #G10# As a site editor, I want to have a prominent area on the home page where I can put special announcements not necessarily news or articles, so that I can give them additional exposure.
+
+        - calling model 13:42:39
+        - calling model 13:42:43
+       - exception caught! Pausing for 60 seconds
+        - calling model 13:44:13
+        - calling model 13:44:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_65.json
+- Story #[66] -- started at 13:44:20
+    - #G10# As a site editor, I want to have some flexibility as to where things appear, so that I can accommodate different types of content.
+
+        - calling model 13:44:20
+        - calling model 13:44:24
+        - calling model 13:44:27
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_66.json
+- Story #[67] -- started at 13:44:34
+    - #G10# As a trainer, I want to see the upcoming courses are what I want visitors to notice, so that they register and there's a benefit to my membership.
+
+        - calling model 13:44:34
+        - calling model 13:44:38
+        - calling model 13:44:41
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_67.json
+- Story #[68] -- started at 13:44:45
+    - #G10# As a site visitor, I want to see new content when I come to the site, so that I come back more often.
+
+        - calling model 13:44:45
+        - calling model 13:44:50
+        - calling model 13:44:54
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_68.json
+- Story #[69] -- started at 13:44:59
+    - #G10# As a site visitor, I want to have articles that interest me and are easy to get to, so that I come to the site for my agile news and learning.
+
+        - calling model 13:44:59
+        - calling model 13:45:03
+        - calling model 13:45:06
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_69.json
+- Story #[70] -- started at 13:45:13
+    - #G10# As a site visitor, I want to know as soon as I visit what on earth Scrum is and why it needs an alliance, so that I don't bounce immediately oﬀ the page.
+
+        - calling model 13:45:13
+        - calling model 13:45:17
+        - calling model 13:45:20
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_70.json
+- Story #[71] -- started at 13:45:26
+    - #G10# As a site visitor, I want to know as I glance around the home page what on earth a CSM is and why I'd want to be one, so that I read more.
+
+        - calling model 13:45:26
+        - calling model 13:45:30
+        - calling model 13:45:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_71.json
+- Story #[72] -- started at 13:45:39
+    - #G10# As a site visitor, I want to be able to get back to the home page quickly and easily, so that I don't get lost navigating.
+
+        - calling model 13:45:39
+        - calling model 13:45:42
+        - calling model 13:45:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_72.json
+- Story #[73] -- started at 13:45:50
+    - #G10# As a site visitor, I want to see a list of the most popular items on the site, so that I am most likely to read the most important or best content.
+
+        - calling model 13:45:50
+        - calling model 13:45:54
+        - calling model 13:45:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_73.json
+- Story #[74] -- started at 13:46:03
+    - #G10# As a trainer, I want to be assured that no one can submit the same answers multiple time and skew my results, so that my ratings are accurate.
+
+        - calling model 13:46:03
+        - calling model 13:46:06
+        - calling model 13:46:10
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_74.json
+- Story #[75] -- started at 13:46:14
+    - #G10# As a trainer, I want to be notified about the results of surveys about my classes, so that I can read them.
+
+        - calling model 13:46:14
+        - calling model 13:46:17
+        - calling model 13:46:21
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_75.json
+- Story #[76] -- started at 13:46:29
+    - #G10# As a site admin, I want to see the results for each trainer and averages for the class, so that I can identify any outliers or possible problems.
+
+        - calling model 13:46:29
+        - calling model 13:46:33
+        - calling model 13:46:36
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_76.json
+- Story #[77] -- started at 13:46:43
+    - #G10# As a site visitor, I want to see a trainer's rating, so that I choose a course from an appropriate trainer.
+
+        - calling model 13:46:43
+        - calling model 13:46:46
+        - calling model 13:46:50
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_77.json
+- Story #[78] -- started at 13:46:55
+    - #G10# As a trainer, I want to show my rating up on my profile page, so that site visitors can choose wisely.
+
+        - calling model 13:46:55
+        - calling model 13:46:59
+        - calling model 13:47:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_78.json
+- Story #[79] -- started at 13:47:10
+    - #G10# As a site visitor, I want to view a section of the website that teaches me the basics of what Scrum is, so that I can learn that quickly.
+
+        - calling model 13:47:10
+        - calling model 13:47:13
+        - calling model 13:47:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_79.json
+- Story #[80] -- started at 13:47:22
+    - #G10# As a site editor, I want to create the content of the What Is Scrum section, so that it's there for visitors.
+
+        - calling model 13:47:22
+       - exception caught! Pausing for 60 seconds
+        - calling model 13:48:52
+        - calling model 13:48:56
+        - calling model 13:48:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_80.json
+- Story #[81] -- started at 13:49:03
+    - #G10# As a site visitor, I want to view lists on the site of all Certified Scrum Masters, Practitioners, Trainers, and Certified Scrum Product Owners.
+
+        - calling model 13:49:03
+        - calling model 13:49:07
+        - calling model 13:49:11
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_81.json
+- Story #[82] -- started at 13:49:17
+    - #G10# As a CSM, I want to have my name listed in the registry without becoming a member of the site, so that employers or others can verify my certification.
+
+        - calling model 13:49:17
+        - calling model 13:49:20
+        - calling model 13:49:24
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_82.json
+- Story #[83] -- started at 13:49:28
+    - #G10# As a trainer, I want to load an Excel file into the site, so that the course participants are added to the Scrum Alliance records.
+
+        - calling model 13:49:28
+        - calling model 13:49:32
+        - calling model 13:49:36
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_83.json
+- Story #[84] -- started at 13:49:42
+    - #G10# As a site admin, I want to view all classes in a pending state, so that I can approve any that need to be approved.
+
+        - calling model 13:49:42
+        - calling model 13:49:45
+        - calling model 13:49:49
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_84.json
+- Story #[85] -- started at 13:49:54
+    - #G10# As a site admin, I want to move people in a trainer's class from a pending state to the registry once I have received proof of payment from the trainer.
+
+        - calling model 13:49:54
+        - calling model 13:49:58
+        - calling model 13:50:02
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_85.json
+- Story #[86] -- started at 13:50:08
+    - #G10# As a CSM, I want to be sent an email welcoming me to the Scrum Alliance and with instructions to register or activate my membership once my name has been loaded to the registry.
+
+        - calling model 13:50:08
+        - calling model 13:50:12
+       - exception caught! Pausing for 60 seconds
+        - calling model 13:51:42
+        - calling model 13:51:46
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_86.json
+- Story #[87] -- started at 13:51:52
+    - #G10# As a site editor, I want to edit the content of the email automatically sent to new Certified Scrum Masters and Product Owners, so that I don't need to involve a programmer on simple email edits.
+
+        - calling model 13:51:52
+        - calling model 13:51:56
+        - calling model 13:51:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_87.json
+- Story #[88] -- started at 13:52:03
+    - #G10# As a company, I want to join the Scrum Alliance by paying a corporate membership fee, so that I can show the company's support of Scrum.
+
+        - calling model 13:52:03
+        - calling model 13:52:07
+    - /!\ Invalid JSON Detected
+{
+  "primary_entities": ["Scrum Alliance", "corporate membership fee"],
+  "secondary_entities": [],
+  "primary_actions": ["join", "pay"],
+  "secondary_actions": [],
+}
+- Story #[89] -- started at 13:52:09
+    - #G10# As a corporatesponsor, I want to display my logo on a corporate sponsors page, so that others see the company's support of Scrum.
+
+        - calling model 13:52:09
+        - calling model 13:52:12
+        - calling model 13:52:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_89.json
+- Story #[90] -- started at 13:52:21
+    - #G10# As a corporatesponsor, I want to make my logo randomly appear on the home page, so that others see the company's support of Scrum.
+
+        - calling model 13:52:21
+        - calling model 13:52:25
+        - calling model 13:52:29
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_90.json
+- Story #[91] -- started at 13:52:36
+    - #G10# As a CSM, I want to be charged a fee once I am approved for Practitioner status, so that my certification status can be activated.
+
+        - calling model 13:52:36
+        - calling model 13:52:40
+        - calling model 13:52:43
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_91.json
+- Story #[92] -- started at 13:52:50
+    - #G10# As a CST, I want to pay an annual fee, so that my CST status is active.
+
+        - calling model 13:52:50
+        - calling model 13:52:55
+        - calling model 13:52:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_92.json
+- Story #[93] -- started at 13:53:04
+    - #G10# As a site administrator, I want to set the annual fees for members, Practitioners and Trainers, so that fees can be set without involving a programmer.
+
+        - calling model 13:53:04
+        - calling model 13:53:07
+        - calling model 13:53:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_93.json
+- Story #[94] -- started at 13:53:23
+    - #G10# As a member, I want to receive a reminder and a link, so that I can renew my membership.
+
+        - calling model 13:53:23
+        - calling model 13:53:27
+        - calling model 13:53:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_94.json
+- Story #[95] -- started at 13:53:35
+    - #G10# As a member, I want to have the system email me a new password or a password reminder since i have short-term memory problems.
+
+        - calling model 13:53:35
+        - calling model 13:53:39
+        - calling model 13:53:42
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_95.json
+- Story #[96] -- started at 13:53:48
+    - #G10# As a trainer, I want to read information of relevance only to trainers, so that the Scrum Alliance can share information with me easily.
+
+        - calling model 13:53:48
+        - calling model 13:53:51
+        - calling model 13:53:55
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_96.json
+- Story #[97] -- started at 13:54:00
+    - #G10# As a site editor, I want to post information in a trainers-only section, so that only trainers see it.
+
+        - calling model 13:54:00
+        - calling model 13:54:03
+        - calling model 13:54:07
+    - saving result into: ./output/gpt-3.5-turbo-0613/g10-scrumalliance.txt_97.json
+END: 13:54:11

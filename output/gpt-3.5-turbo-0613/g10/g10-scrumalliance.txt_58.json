@@ -1,0 +1,84 @@
+{
+  "story": "#G10# As a site visitor, I want to click the link from the article teaser to take me directly to the body of the article. not to another teaser setup, so that I can easily finish the article.\n",
+  "extraction": {
+    "personas": [
+      "site visitor"
+    ],
+    "entities": [
+      "link",
+      "article teaser",
+      "body of the article"
+    ],
+    "actions": [
+      "click",
+      "take",
+      "finish"
+    ],
+    "benefit": "I can easily finish the article"
+  },
+  "categories": {
+    "primary_entities": [
+      "link",
+      "body of the article"
+    ],
+    "secondary_entities": [
+      "article teaser"
+    ],
+    "primary_actions": [
+      "click",
+      "finish"
+    ],
+    "secondary_actions": [
+      "take"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "click",
+        "kind": "triggers"
+      },
+      {
+        "from": "click",
+        "to": "link",
+        "kind": "targets"
+      },
+      {
+        "from": "click",
+        "to": "body of the article",
+        "kind": "targets"
+      },
+      {
+        "from": "site visitor",
+        "to": "take",
+        "kind": "triggers"
+      },
+      {
+        "from": "take",
+        "to": "link",
+        "kind": "targets"
+      },
+      {
+        "from": "take",
+        "to": "article teaser",
+        "kind": "targets"
+      },
+      {
+        "from": "site visitor",
+        "to": "finish",
+        "kind": "triggers"
+      },
+      {
+        "from": "finish",
+        "to": "body of the article",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1375,
+    "output": 340,
+    "time (ns)": 11802649000
+  }
+}

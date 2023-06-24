@@ -1,0 +1,47 @@
+{
+  "story": "#G10# As a site visitor, I want to read current news on the home page, so that I stay current on agile news.\n",
+  "extraction": {
+    "personas": [
+      "site visitor"
+    ],
+    "entities": [
+      "current news",
+      "home page"
+    ],
+    "actions": [
+      "read"
+    ],
+    "benefit": "stay current on agile news"
+  },
+  "categories": {
+    "primary_entities": [
+      "current news"
+    ],
+    "secondary_entities": [
+      "home page"
+    ],
+    "primary_actions": [
+      "read"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "read",
+        "kind": "triggers"
+      },
+      {
+        "from": "read",
+        "to": "current news",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1294,
+    "output": 158,
+    "time (ns)": 5460206000
+  }
+}

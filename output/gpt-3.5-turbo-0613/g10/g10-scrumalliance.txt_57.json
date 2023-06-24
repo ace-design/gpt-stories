@@ -1,0 +1,44 @@
+{
+  "story": "#G10# As the site editor, I want to have pretty good control over how the article, so that articles are visually appealing.\n",
+  "extraction": {
+    "personas": [
+      "site editor"
+    ],
+    "entities": [
+      "article"
+    ],
+    "actions": [
+      "have control over"
+    ],
+    "benefit": "articles are visually appealing"
+  },
+  "categories": {
+    "primary_entities": [
+      "article"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have control over"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site editor",
+        "to": "have control over",
+        "kind": "triggers"
+      },
+      {
+        "from": "have control over",
+        "to": "article",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1281,
+    "output": 155,
+    "time (ns)": 5450803000
+  }
+}

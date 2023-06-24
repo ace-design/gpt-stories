@@ -1,0 +1,58 @@
+{
+  "story": "#G10# As a site visitor, I want to do a full-text search of article body, title, and author name, so that I can find what I want.\n",
+  "extraction": {
+    "personas": [
+      "site visitor"
+    ],
+    "entities": [
+      "article body",
+      "title",
+      "author name"
+    ],
+    "actions": [
+      "do a full-text search"
+    ],
+    "benefit": "I can find what I want"
+  },
+  "categories": {
+    "primary_entities": [
+      "article body",
+      "title",
+      "author name"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "do a full-text search"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "do a full-text search",
+        "kind": "triggers"
+      },
+      {
+        "from": "do a full-text search",
+        "to": "article body",
+        "kind": "targets"
+      },
+      {
+        "from": "do a full-text search",
+        "to": "title",
+        "kind": "targets"
+      },
+      {
+        "from": "do a full-text search",
+        "to": "author name",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1339,
+    "output": 241,
+    "time (ns)": 6958773000
+  }
+}

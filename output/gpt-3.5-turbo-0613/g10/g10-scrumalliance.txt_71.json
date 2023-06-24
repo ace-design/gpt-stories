@@ -1,0 +1,59 @@
+{
+  "story": "#G10# As a site visitor, I want to know as I glance around the home page what on earth a CSM is and why I'd want to be one, so that I read more.\n",
+  "extraction": {
+    "personas": [
+      "site visitor"
+    ],
+    "entities": [
+      "CSM"
+    ],
+    "actions": [
+      "know",
+      "glance around",
+      "read"
+    ],
+    "benefit": "I want to know what a CSM is and why I'd want to be one"
+  },
+  "categories": {
+    "primary_entities": [
+      "CSM"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "read"
+    ],
+    "secondary_actions": [
+      "glance around"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "CSM",
+        "kind": "targets"
+      },
+      {
+        "from": "glance around",
+        "to": "CSM",
+        "kind": "targets"
+      },
+      {
+        "from": "read",
+        "to": "CSM",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1368,
+    "output": 232,
+    "time (ns)": 6768595000
+  }
+}

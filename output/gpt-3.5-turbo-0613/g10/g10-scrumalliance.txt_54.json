@@ -1,0 +1,51 @@
+{
+  "story": "#G10# As the site editor, I want to add an article to the site, so that the site has plenty of content.\n",
+  "extraction": {
+    "personas": [
+      "site editor"
+    ],
+    "entities": [
+      "article",
+      "site"
+    ],
+    "actions": [
+      "add"
+    ],
+    "benefit": "the site has plenty of content"
+  },
+  "categories": {
+    "primary_entities": [
+      "article",
+      "site"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "add"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site editor",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "article",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "site",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1288,
+    "output": 180,
+    "time (ns)": 5493165000
+  }
+}

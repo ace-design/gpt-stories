@@ -1,0 +1,47 @@
+{
+  "story": "#G10# As a site visitor, I want to post comments about articles, so that others can read them.\n",
+  "extraction": {
+    "personas": [
+      "site visitor"
+    ],
+    "entities": [
+      "comments",
+      "articles"
+    ],
+    "actions": [
+      "post"
+    ],
+    "benefit": "others can read them"
+  },
+  "categories": {
+    "primary_entities": [
+      "comments"
+    ],
+    "secondary_entities": [
+      "articles"
+    ],
+    "primary_actions": [
+      "post"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "post",
+        "kind": "triggers"
+      },
+      {
+        "from": "post",
+        "to": "comments",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1271,
+    "output": 152,
+    "time (ns)": 9533385000
+  }
+}

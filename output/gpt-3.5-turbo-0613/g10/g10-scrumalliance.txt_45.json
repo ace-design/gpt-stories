@@ -1,0 +1,53 @@
+{
+  "story": "#G10# As a site admin, I want to be emailed whenever a job is submitted, so that I am aware of it and can decide if I want to post it.\n",
+  "extraction": {
+    "personas": [
+      "site admin"
+    ],
+    "entities": [
+      "job"
+    ],
+    "actions": [
+      "be emailed",
+      "submit",
+      "post"
+    ],
+    "benefit": "I am aware of it and can decide if I want to post it"
+  },
+  "categories": {
+    "primary_entities": [
+      "job"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "be emailed",
+      "submit",
+      "post"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site admin",
+        "to": "be emailed",
+        "kind": "triggers"
+      },
+      {
+        "from": "submit",
+        "to": "job",
+        "kind": "targets"
+      },
+      {
+        "from": "post",
+        "to": "job",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1343,
+    "output": 197,
+    "time (ns)": 5797260000
+  }
+}

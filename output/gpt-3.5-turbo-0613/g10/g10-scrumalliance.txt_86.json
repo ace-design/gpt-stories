@@ -1,0 +1,67 @@
+{
+  "story": "#G10# As a CSM, I want to be sent an email welcoming me to the Scrum Alliance and with instructions to register or activate my membership once my name has been loaded to the registry.\n",
+  "extraction": {
+    "personas": [
+      "CSM"
+    ],
+    "entities": [
+      "Scrum Alliance",
+      "registry"
+    ],
+    "actions": [
+      "be sent",
+      "register",
+      "activate"
+    ],
+    "benefit": "I can register or activate my membership"
+  },
+  "categories": {
+    "primary_entities": [
+      "Scrum Alliance"
+    ],
+    "secondary_entities": [
+      "registry"
+    ],
+    "primary_actions": [
+      "be sent"
+    ],
+    "secondary_actions": [
+      "register",
+      "activate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "CSM",
+        "to": "be sent",
+        "kind": "triggers"
+      },
+      {
+        "from": "be sent",
+        "to": "Scrum Alliance",
+        "kind": "targets"
+      },
+      {
+        "from": "be sent",
+        "to": "registry",
+        "kind": "targets"
+      },
+      {
+        "from": "register",
+        "to": "Scrum Alliance",
+        "kind": "targets"
+      },
+      {
+        "from": "activate",
+        "to": "Scrum Alliance",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1356,
+    "output": 256,
+    "time (ns)": 7913861000
+  }
+}

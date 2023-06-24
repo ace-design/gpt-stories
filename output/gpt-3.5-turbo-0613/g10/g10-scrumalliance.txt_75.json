@@ -1,0 +1,68 @@
+{
+  "story": "#G10# As a trainer, I want to be notified about the results of surveys about my classes, so that I can read them.\n",
+  "extraction": {
+    "personas": [
+      "trainer"
+    ],
+    "entities": [
+      "results of surveys",
+      "my classes"
+    ],
+    "actions": [
+      "be notified",
+      "read"
+    ],
+    "benefit": "I can read the results of surveys about my classes"
+  },
+  "categories": {
+    "primary_entities": [
+      "results of surveys",
+      "my classes"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "be notified",
+      "read"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "trainer",
+        "to": "be notified",
+        "kind": "triggers"
+      },
+      {
+        "from": "be notified",
+        "to": "results of surveys",
+        "kind": "targets"
+      },
+      {
+        "from": "trainer",
+        "to": "read",
+        "kind": "triggers"
+      },
+      {
+        "from": "read",
+        "to": "results of surveys",
+        "kind": "targets"
+      },
+      {
+        "from": "trainer",
+        "to": "read",
+        "kind": "triggers"
+      },
+      {
+        "from": "read",
+        "to": "my classes",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1318,
+    "output": 280,
+    "time (ns)": 9338642000
+  }
+}

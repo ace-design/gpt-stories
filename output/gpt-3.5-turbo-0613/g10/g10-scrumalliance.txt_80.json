@@ -1,0 +1,44 @@
+{
+  "story": "#G10# As a site editor, I want to create the content of the What Is Scrum section, so that it's there for visitors.\n",
+  "extraction": {
+    "personas": [
+      "site editor"
+    ],
+    "entities": [
+      "What Is Scrum section"
+    ],
+    "actions": [
+      "create"
+    ],
+    "benefit": "it's there for visitors"
+  },
+  "categories": {
+    "primary_entities": [
+      "What Is Scrum section"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site editor",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "What Is Scrum section",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1298,
+    "output": 160,
+    "time (ns)": 5023784000
+  }
+}

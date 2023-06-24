@@ -1,0 +1,72 @@
+{
+  "story": "#G10# As a CSM, I want to be charged a fee once I am approved for Practitioner status, so that my certification status can be activated.\n",
+  "extraction": {
+    "personas": [
+      "CSM"
+    ],
+    "entities": [
+      "fee",
+      "Practitioner status",
+      "certification status"
+    ],
+    "actions": [
+      "charged",
+      "approved",
+      "activated"
+    ],
+    "benefit": "my certification status can be activated"
+  },
+  "categories": {
+    "primary_entities": [
+      "fee",
+      "Practitioner status",
+      "certification status"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "charged",
+      "approved",
+      "activated"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "CSM",
+        "to": "charged",
+        "kind": "triggers"
+      },
+      {
+        "from": "charged",
+        "to": "fee",
+        "kind": "targets"
+      },
+      {
+        "from": "CSM",
+        "to": "approved",
+        "kind": "triggers"
+      },
+      {
+        "from": "approved",
+        "to": "Practitioner status",
+        "kind": "targets"
+      },
+      {
+        "from": "Practitioner status",
+        "to": "activated",
+        "kind": "triggers"
+      },
+      {
+        "from": "activated",
+        "to": "certification status",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1348,
+    "output": 294,
+    "time (ns)": 8247242000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G10# As a site member, I want to scroll through a listing of jobs, so that I can see if there any I am interested in.\n",
+  "extraction": {
+    "personas": [
+      "site member"
+    ],
+    "entities": [
+      "listing of jobs"
+    ],
+    "actions": [
+      "scroll through"
+    ],
+    "benefit": "see if there are any I am interested in"
+  },
+  "categories": {
+    "primary_entities": [
+      "listing of jobs"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "scroll through"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site member",
+        "to": "scroll through",
+        "kind": "triggers"
+      },
+      {
+        "from": "scroll through",
+        "to": "listing of jobs",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1306,
+    "output": 162,
+    "time (ns)": 6069184000
+  }
+}

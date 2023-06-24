@@ -1,0 +1,93 @@
+{
+  "story": "#G10# As a site member, I want to fill out an application to become a Certified Scrum Trainer, so that I can teach CSM and CSPO courses and certify others.\n",
+  "extraction": {
+    "personas": [
+      "site member"
+    ],
+    "entities": [
+      "application",
+      "Certified Scrum Trainer",
+      "CSM",
+      "CSPO courses",
+      "others"
+    ],
+    "actions": [
+      "fill out",
+      "become",
+      "teach",
+      "certify"
+    ],
+    "benefit": "I can teach CSM and CSPO courses and certify others"
+  },
+  "categories": {
+    "primary_entities": [
+      "application",
+      "Certified Scrum Trainer",
+      "CSM",
+      "CSPO courses",
+      "others"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "fill out",
+      "become",
+      "teach",
+      "certify"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site member",
+        "to": "fill out",
+        "kind": "triggers"
+      },
+      {
+        "from": "fill out",
+        "to": "application",
+        "kind": "targets"
+      },
+      {
+        "from": "site member",
+        "to": "become",
+        "kind": "triggers"
+      },
+      {
+        "from": "become",
+        "to": "Certified Scrum Trainer",
+        "kind": "targets"
+      },
+      {
+        "from": "site member",
+        "to": "teach",
+        "kind": "triggers"
+      },
+      {
+        "from": "teach",
+        "to": "CSM",
+        "kind": "targets"
+      },
+      {
+        "from": "teach",
+        "to": "CSPO courses",
+        "kind": "targets"
+      },
+      {
+        "from": "site member",
+        "to": "certify",
+        "kind": "triggers"
+      },
+      {
+        "from": "certify",
+        "to": "others",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1420,
+    "output": 416,
+    "time (ns)": 10963852000
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "story": "#G10# As a member, I want to have the system email me a new password or a password reminder since i have short-term memory problems.\n",
+  "extraction": {
+    "personas": [
+      "member"
+    ],
+    "entities": [
+      "system",
+      "password"
+    ],
+    "actions": [
+      "email",
+      "remind"
+    ],
+    "benefit": "I can have a new password or a password reminder"
+  },
+  "categories": {
+    "primary_entities": [
+      "system",
+      "password"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "email",
+      "remind"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "member",
+        "to": "email",
+        "kind": "triggers"
+      },
+      {
+        "from": "email",
+        "to": "system",
+        "kind": "targets"
+      },
+      {
+        "from": "member",
+        "to": "remind",
+        "kind": "triggers"
+      },
+      {
+        "from": "remind",
+        "to": "system",
+        "kind": "targets"
+      },
+      {
+        "from": "member",
+        "to": "password",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1315,
+    "output": 243,
+    "time (ns)": 6378026000
+  }
+}

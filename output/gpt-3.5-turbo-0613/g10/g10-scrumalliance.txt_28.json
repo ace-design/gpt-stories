@@ -1,0 +1,52 @@
+{
+  "story": "#G10# As a trainer, I want to update one of my existing courses or events, so that it reflects accurate information.\n",
+  "extraction": {
+    "personas": [
+      "trainer"
+    ],
+    "entities": [
+      "existing courses",
+      "events"
+    ],
+    "actions": [
+      "update"
+    ],
+    "benefit": "reflect accurate information"
+  },
+  "categories": {
+    "primary_entities": [
+      "existing courses"
+    ],
+    "secondary_entities": [
+      "events"
+    ],
+    "primary_actions": [
+      "update"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "trainer",
+        "to": "update",
+        "kind": "triggers"
+      },
+      {
+        "from": "update",
+        "to": "existing courses",
+        "kind": "targets"
+      },
+      {
+        "from": "update",
+        "to": "events",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1279,
+    "output": 177,
+    "time (ns)": 5654219000
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "story": "#G10# As a site admin, I want to approve each help wanted ad before it gets to the site, so that we're sure of the quality of jobs being listed.\n",
+  "extraction": {
+    "personas": [
+      "site admin"
+    ],
+    "entities": [
+      "help wanted ad",
+      "site"
+    ],
+    "actions": [
+      "approve"
+    ],
+    "benefit": "we're sure of the quality of jobs being listed"
+  },
+  "categories": {
+    "primary_entities": [
+      "help wanted ad",
+      "site"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "approve"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site admin",
+        "to": "approve",
+        "kind": "triggers"
+      },
+      {
+        "from": "approve",
+        "to": "help wanted ad",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1329,
+    "output": 165,
+    "time (ns)": 5626636000
+  }
+}

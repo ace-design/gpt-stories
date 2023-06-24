@@ -1,0 +1,50 @@
+{
+  "story": "#G10# As a site visitor, I want to do a full-text search of the FAQs, so that I can find an answer quickly.\n",
+  "extraction": {
+    "personas": [
+      "site visitor"
+    ],
+    "entities": [
+      "FAQs",
+      "answer"
+    ],
+    "actions": [
+      "do a full-text search",
+      "find"
+    ],
+    "benefit": "I can find an answer quickly"
+  },
+  "categories": {
+    "primary_entities": [
+      "FAQs"
+    ],
+    "secondary_entities": [
+      "answer"
+    ],
+    "primary_actions": [
+      "do a full-text search"
+    ],
+    "secondary_actions": [
+      "find"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "do a full-text search",
+        "kind": "triggers"
+      },
+      {
+        "from": "do a full-text search",
+        "to": "FAQs",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1315,
+    "output": 178,
+    "time (ns)": 5456691000
+  }
+}

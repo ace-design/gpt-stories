@@ -1,0 +1,65 @@
+{
+  "story": "#G10# As a site visitor, I want to view lists on the site of all Certified Scrum Masters, Practitioners, Trainers, and Certified Scrum Product Owners.\n",
+  "extraction": {
+    "personas": [
+      "site visitor"
+    ],
+    "entities": [
+      "Certified Scrum Masters",
+      "Practitioners",
+      "Trainers",
+      "Certified Scrum Product Owners"
+    ],
+    "actions": [
+      "view"
+    ],
+    "benefit": "I can view lists of all Certified Scrum Masters, Practitioners, Trainers, and Certified Scrum Product Owners on the site."
+  },
+  "categories": {
+    "primary_entities": [
+      "Certified Scrum Masters",
+      "Practitioners",
+      "Trainers",
+      "Certified Scrum Product Owners"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "Certified Scrum Masters",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "Practitioners",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "Trainers",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "Certified Scrum Product Owners",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1419,
+    "output": 302,
+    "time (ns)": 7236060000
+  }
+}

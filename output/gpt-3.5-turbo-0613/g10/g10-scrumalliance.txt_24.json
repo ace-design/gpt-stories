@@ -1,0 +1,62 @@
+{
+  "story": "#G10# As a trainer, I want to create a new course or event, so that site visitors can see it.\n",
+  "extraction": {
+    "personas": [
+      "trainer"
+    ],
+    "entities": [
+      "course",
+      "event",
+      "site visitors"
+    ],
+    "actions": [
+      "create",
+      "see"
+    ],
+    "benefit": "site visitors can see it"
+  },
+  "categories": {
+    "primary_entities": [
+      "course",
+      "event"
+    ],
+    "secondary_entities": [
+      "site visitors"
+    ],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": [
+      "see"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "trainer",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "course",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "event",
+        "kind": "targets"
+      },
+      {
+        "from": "site visitors",
+        "to": "see",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1296,
+    "output": 216,
+    "time (ns)": 8144580000
+  }
+}

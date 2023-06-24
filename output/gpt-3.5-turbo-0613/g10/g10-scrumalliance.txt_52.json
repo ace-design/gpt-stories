@@ -1,0 +1,74 @@
+{
+  "story": "#G10# As the site editor, I want to include a teaser with each article, so that site visitors can decide if they want to read the rest.\n",
+  "extraction": {
+    "personas": [
+      "site editor"
+    ],
+    "entities": [
+      "teaser",
+      "article",
+      "site visitors"
+    ],
+    "actions": [
+      "include",
+      "decide",
+      "read"
+    ],
+    "benefit": "site visitors can decide if they want to read the rest"
+  },
+  "categories": {
+    "primary_entities": [
+      "teaser",
+      "article"
+    ],
+    "secondary_entities": [
+      "site visitors"
+    ],
+    "primary_actions": [
+      "include"
+    ],
+    "secondary_actions": [
+      "decide",
+      "read"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site editor",
+        "to": "include",
+        "kind": "triggers"
+      },
+      {
+        "from": "include",
+        "to": "teaser",
+        "kind": "targets"
+      },
+      {
+        "from": "include",
+        "to": "article",
+        "kind": "targets"
+      },
+      {
+        "from": "include",
+        "to": "site visitors",
+        "kind": "targets"
+      },
+      {
+        "from": "site visitors",
+        "to": "decide",
+        "kind": "triggers"
+      },
+      {
+        "from": "site visitors",
+        "to": "read",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1346,
+    "output": 289,
+    "time (ns)": 8343450000
+  }
+}

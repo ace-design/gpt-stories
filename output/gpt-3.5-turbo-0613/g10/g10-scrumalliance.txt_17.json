@@ -1,0 +1,50 @@
+{
+  "story": "#G10# As a site visitor, I want to email news items to the editor, so that they can be considered for publication.\n",
+  "extraction": {
+    "personas": [
+      "site visitor",
+      "editor"
+    ],
+    "entities": [
+      "news items"
+    ],
+    "actions": [
+      "email"
+    ],
+    "benefit": "news items can be considered for publication"
+  },
+  "categories": {
+    "primary_entities": [
+      "news items"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "email"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site visitor",
+        "to": "email",
+        "kind": "triggers"
+      },
+      {
+        "from": "email",
+        "to": "news items",
+        "kind": "targets"
+      },
+      {
+        "from": "email",
+        "to": "editor",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1290,
+    "output": 181,
+    "time (ns)": 5748102000
+  }
+}
