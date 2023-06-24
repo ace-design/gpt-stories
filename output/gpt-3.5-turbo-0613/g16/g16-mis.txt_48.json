@@ -1,0 +1,42 @@
+{
+  "story": "#G16# bidirectionally with the repository.\n",
+  "extraction": {
+    "personas": [],
+    "entities": [
+      "repository"
+    ],
+    "actions": [
+      "bidirectionally"
+    ],
+    "benefit": ""
+  },
+  "categories": {
+    "primary_entities": [
+      "repository"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "bidirectionally"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "UI designer",
+        "to": "bidirectionally",
+        "kind": "triggers"
+      },
+      {
+        "from": "bidirectionally",
+        "to": "repository",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1216,
+    "output": 147,
+    "time (ns)": 4613928000
+  }
+}

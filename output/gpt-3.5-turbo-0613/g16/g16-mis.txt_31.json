@@ -1,0 +1,68 @@
+{
+  "story": "#G16# As a DigitalRecords Archivist, I want to have a method to add and remove individual people from deposit groups.\n",
+  "extraction": {
+    "personas": [
+      "DigitalRecords Archivist"
+    ],
+    "entities": [
+      "individual people",
+      "deposit groups"
+    ],
+    "actions": [
+      "add",
+      "remove"
+    ],
+    "benefit": "have a method to add and remove individual people from deposit groups"
+  },
+  "categories": {
+    "primary_entities": [
+      "individual people",
+      "deposit groups"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "add",
+      "remove"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DigitalRecords Archivist",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "DigitalRecords Archivist",
+        "to": "remove",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "individual people",
+        "kind": "targets"
+      },
+      {
+        "from": "remove",
+        "to": "individual people",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "deposit groups",
+        "kind": "targets"
+      },
+      {
+        "from": "remove",
+        "to": "deposit groups",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1316,
+    "output": 283,
+    "time (ns)": 9226331000
+  }
+}

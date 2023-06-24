@@ -1,0 +1,89 @@
+{
+  "story": "#G16# As a DigitalRecords Archivist, I want to have the batch ingest tool to recognize and set embargoes, permissions for embargoed items should be allow everyone to view metadata, and collection curator and repository administrators to download the files.\n",
+  "extraction": {
+    "personas": [
+      "DigitalRecords Archivist"
+    ],
+    "entities": [
+      "batch ingest tool",
+      "embargoes",
+      "metadata",
+      "collection curator",
+      "repository administrators",
+      "files"
+    ],
+    "actions": [
+      "recognize",
+      "set",
+      "allow",
+      "view",
+      "download"
+    ],
+    "benefit": "I can manage embargoes and permissions for embargoed items"
+  },
+  "categories": {
+    "primary_entities": [
+      "batch ingest tool",
+      "embargoes",
+      "metadata"
+    ],
+    "secondary_entities": [
+      "collection curator",
+      "repository administrators",
+      "files"
+    ],
+    "primary_actions": [
+      "recognize",
+      "set"
+    ],
+    "secondary_actions": [
+      "allow",
+      "view",
+      "download"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DigitalRecords Archivist",
+        "to": "recognize",
+        "kind": "triggers"
+      },
+      {
+        "from": "DigitalRecords Archivist",
+        "to": "set",
+        "kind": "triggers"
+      },
+      {
+        "from": "recognize",
+        "to": "batch ingest tool",
+        "kind": "targets"
+      },
+      {
+        "from": "set",
+        "to": "batch ingest tool",
+        "kind": "targets"
+      },
+      {
+        "from": "allow",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "download",
+        "to": "files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1463,
+    "output": 360,
+    "time (ns)": 9780598000
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "story": "#G16# As a collection curator, I want to set a date after which data will expire and be deleted or hidden then deleted.\n",
+  "extraction": {
+    "personas": [
+      "collection curator"
+    ],
+    "entities": [
+      "data"
+    ],
+    "actions": [
+      "set",
+      "expire",
+      "delete",
+      "hide"
+    ],
+    "benefit": "data will be deleted or hidden then deleted"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "set",
+      "expire",
+      "delete"
+    ],
+    "secondary_actions": [
+      "hide"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "collection curator",
+        "to": "set",
+        "kind": "triggers"
+      },
+      {
+        "from": "set",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "collection curator",
+        "to": "expire",
+        "kind": "triggers"
+      },
+      {
+        "from": "expire",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "collection curator",
+        "to": "delete",
+        "kind": "triggers"
+      },
+      {
+        "from": "delete",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "collection curator",
+        "to": "hide",
+        "kind": "triggers"
+      },
+      {
+        "from": "hide",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1308,
+    "output": 324,
+    "time (ns)": 9263498000
+  }
+}

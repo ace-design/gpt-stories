@@ -1,0 +1,63 @@
+{
+  "story": "#G16# As a repository manager, I want to elect to either replicate remotely or not and possibly to replicate beyond the primary remote site.\n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "replicate remotely",
+      "primary remote site"
+    ],
+    "actions": [
+      "elect",
+      "replicate"
+    ],
+    "benefit": "to have the option to replicate beyond the primary remote site"
+  },
+  "categories": {
+    "primary_entities": [
+      "replicate remotely",
+      "primary remote site"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "elect",
+      "replicate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "elect",
+        "kind": "triggers"
+      },
+      {
+        "from": "repository manager",
+        "to": "replicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "elect",
+        "to": "replicate remotely",
+        "kind": "targets"
+      },
+      {
+        "from": "replicate",
+        "to": "primary remote site",
+        "kind": "targets"
+      },
+      {
+        "from": "replicate",
+        "to": "replicate beyond the primary remote site",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1325,
+    "output": 266,
+    "time (ns)": 8319034000
+  }
+}

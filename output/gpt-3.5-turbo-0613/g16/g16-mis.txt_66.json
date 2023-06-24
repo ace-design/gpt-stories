@@ -1,0 +1,44 @@
+{
+  "story": "#G16# As a collection curator, I want to view the permission on my objects all together.\n",
+  "extraction": {
+    "personas": [
+      "collection curator"
+    ],
+    "entities": [
+      "objects"
+    ],
+    "actions": [
+      "view"
+    ],
+    "benefit": "to view the permission on my objects all together"
+  },
+  "categories": {
+    "primary_entities": [
+      "objects"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "collection curator",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "objects",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1264,
+    "output": 152,
+    "time (ns)": 4912495000
+  }
+}

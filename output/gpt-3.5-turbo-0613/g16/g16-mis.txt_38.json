@@ -1,0 +1,58 @@
+{
+  "story": "#G16# As repository manager, I want to view authenticated, active users and anonymous users.\n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "authenticated users",
+      "active users",
+      "anonymous users"
+    ],
+    "actions": [
+      "view"
+    ],
+    "benefit": "I can manage the repository based on user authentication and activity"
+  },
+  "categories": {
+    "primary_entities": [
+      "authenticated users",
+      "active users",
+      "anonymous users"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "authenticated users",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "active users",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "anonymous users",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1292,
+    "output": 225,
+    "time (ns)": 6439812000
+  }
+}

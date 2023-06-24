@@ -1,0 +1,44 @@
+{
+  "story": "#G16# As a repoadmin, I want to have Symplectic Elements to communicate\n",
+  "extraction": {
+    "personas": [
+      "repoadmin"
+    ],
+    "entities": [
+      "Symplectic Elements"
+    ],
+    "actions": [
+      "communicate"
+    ],
+    "benefit": "to have Symplectic Elements to communicate"
+  },
+  "categories": {
+    "primary_entities": [
+      "Symplectic Elements"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "communicate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repoadmin",
+        "to": "communicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "communicate",
+        "to": "Symplectic Elements",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1276,
+    "output": 166,
+    "time (ns)": 4979633000
+  }
+}

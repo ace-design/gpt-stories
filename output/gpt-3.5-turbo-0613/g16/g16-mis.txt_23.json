@@ -1,0 +1,47 @@
+{
+  "story": "#G16# As a DigitalRecords Archivist, I want to have a method to batch ingest ETDs we receive from ProQuest.\n",
+  "extraction": {
+    "personas": [
+      "DigitalRecords Archivist"
+    ],
+    "entities": [
+      "ETDs",
+      "ProQuest"
+    ],
+    "actions": [
+      "batch ingest"
+    ],
+    "benefit": "have a method to batch ingest ETDs"
+  },
+  "categories": {
+    "primary_entities": [
+      "ETDs"
+    ],
+    "secondary_entities": [
+      "ProQuest"
+    ],
+    "primary_actions": [
+      "batch ingest"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DigitalRecords Archivist",
+        "to": "batch ingest",
+        "kind": "triggers"
+      },
+      {
+        "from": "batch ingest",
+        "to": "ETDs",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1309,
+    "output": 170,
+    "time (ns)": 5417220000
+  }
+}

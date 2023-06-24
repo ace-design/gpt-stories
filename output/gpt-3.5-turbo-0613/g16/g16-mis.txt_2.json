@@ -1,0 +1,52 @@
+{
+  "story": "#G16# As a collection curator, I want to see the scheduled records deletion date be displayed on the item and component pages.\n",
+  "extraction": {
+    "personas": [
+      "collection curator"
+    ],
+    "entities": [
+      "scheduled records"
+    ],
+    "actions": [
+      "see",
+      "displayed"
+    ],
+    "benefit": "I can see the scheduled records deletion date on the item and component pages"
+  },
+  "categories": {
+    "primary_entities": [
+      "scheduled records"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": [
+      "displayed"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "collection curator",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "scheduled records",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "item and component pages",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1305,
+    "output": 195,
+    "time (ns)": 5761157000
+  }
+}

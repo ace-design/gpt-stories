@@ -1,0 +1,34 @@
+{
+  "story": "#G16# Auditing & Reporting.\n",
+  "extraction": {
+    "personas": [],
+    "entities": [],
+    "actions": [],
+    "benefit": ""
+  },
+  "categories": {
+    "primary_entities": [],
+    "secondary_entities": [],
+    "primary_actions": [],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "UI designer",
+        "to": "begin",
+        "kind": "triggers"
+      },
+      {
+        "from": "begin",
+        "to": "user testing",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1192,
+    "output": 132,
+    "time (ns)": 4746010000
+  }
+}

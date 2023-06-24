@@ -1,0 +1,75 @@
+{
+  "story": "#G16# As a collection curator, I want to allow some collections the option of setting an embargo date at deposit.\n",
+  "extraction": {
+    "personas": [
+      "collection curator"
+    ],
+    "entities": [
+      "collections",
+      "embargo date",
+      "deposit"
+    ],
+    "actions": [
+      "allow",
+      "setting"
+    ],
+    "benefit": "some collections the option of setting an embargo date at deposit"
+  },
+  "categories": {
+    "primary_entities": [
+      "collections",
+      "embargo date",
+      "deposit"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "allow",
+      "setting"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "collection curator",
+        "to": "allow",
+        "kind": "triggers"
+      },
+      {
+        "from": "allow",
+        "to": "collections",
+        "kind": "targets"
+      },
+      {
+        "from": "allow",
+        "to": "embargo date",
+        "kind": "targets"
+      },
+      {
+        "from": "allow",
+        "to": "deposit",
+        "kind": "targets"
+      },
+      {
+        "from": "setting",
+        "to": "collections",
+        "kind": "targets"
+      },
+      {
+        "from": "setting",
+        "to": "embargo date",
+        "kind": "targets"
+      },
+      {
+        "from": "setting",
+        "to": "deposit",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1313,
+    "output": 305,
+    "time (ns)": 9131843000
+  }
+}

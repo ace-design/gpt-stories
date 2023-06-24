@@ -1,0 +1,52 @@
+{
+  "story": "#G16# As a repository manager, I want to specify the remote replication policy for each collection.\n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "remote replication policy",
+      "collection"
+    ],
+    "actions": [
+      "specify"
+    ],
+    "benefit": "to specify the remote replication policy for each collection"
+  },
+  "categories": {
+    "primary_entities": [
+      "remote replication policy"
+    ],
+    "secondary_entities": [
+      "collection"
+    ],
+    "primary_actions": [
+      "specify"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "specify",
+        "kind": "triggers"
+      },
+      {
+        "from": "specify",
+        "to": "remote replication policy",
+        "kind": "targets"
+      },
+      {
+        "from": "specify",
+        "to": "collection",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1281,
+    "output": 193,
+    "time (ns)": 7704986000
+  }
+}

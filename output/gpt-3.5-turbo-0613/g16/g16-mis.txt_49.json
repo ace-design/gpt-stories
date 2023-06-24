@@ -1,0 +1,67 @@
+{
+  "story": "#G16# As a developer, I want to upgrade to Fedora 4 and migrate our applications and data.\n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "Fedora 4",
+      "applications",
+      "data"
+    ],
+    "actions": [
+      "upgrade",
+      "migrate"
+    ],
+    "benefit": "to have the latest version of Fedora and ensure a smooth transition of our applications and data"
+  },
+  "categories": {
+    "primary_entities": [
+      "Fedora 4"
+    ],
+    "secondary_entities": [
+      "applications",
+      "data"
+    ],
+    "primary_actions": [
+      "upgrade"
+    ],
+    "secondary_actions": [
+      "migrate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "upgrade",
+        "kind": "triggers"
+      },
+      {
+        "from": "upgrade",
+        "to": "Fedora 4",
+        "kind": "targets"
+      },
+      {
+        "from": "developer",
+        "to": "migrate",
+        "kind": "triggers"
+      },
+      {
+        "from": "migrate",
+        "to": "applications",
+        "kind": "targets"
+      },
+      {
+        "from": "migrate",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1320,
+    "output": 264,
+    "time (ns)": 7517021000
+  }
+}

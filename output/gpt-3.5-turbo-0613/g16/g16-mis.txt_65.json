@@ -1,0 +1,56 @@
+{
+  "story": "#G16# As a repository manager, I want to view available versions of an object and restore a version from the staff interface.\n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "object"
+    ],
+    "actions": [
+      "view available versions",
+      "restore a version"
+    ],
+    "benefit": "to do it from the staff interface"
+  },
+  "categories": {
+    "primary_entities": [
+      "object"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view available versions",
+      "restore a version"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "view available versions",
+        "kind": "triggers"
+      },
+      {
+        "from": "repository manager",
+        "to": "restore a version",
+        "kind": "triggers"
+      },
+      {
+        "from": "view available versions",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "restore a version",
+        "to": "object",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1299,
+    "output": 224,
+    "time (ns)": 6281425000
+  }
+}

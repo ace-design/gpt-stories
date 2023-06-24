@@ -1,0 +1,56 @@
+{
+  "story": "#G16# As a superuser, I want to enter and exit the superuser scope.\n",
+  "extraction": {
+    "personas": [
+      "superuser"
+    ],
+    "entities": [
+      "superuser scope"
+    ],
+    "actions": [
+      "enter",
+      "exit"
+    ],
+    "benefit": "I can access and leave the superuser scope"
+  },
+  "categories": {
+    "primary_entities": [
+      "superuser scope"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "enter",
+      "exit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "superuser",
+        "to": "enter",
+        "kind": "triggers"
+      },
+      {
+        "from": "enter",
+        "to": "superuser scope",
+        "kind": "targets"
+      },
+      {
+        "from": "superuser",
+        "to": "exit",
+        "kind": "triggers"
+      },
+      {
+        "from": "exit",
+        "to": "superuser scope",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1276,
+    "output": 218,
+    "time (ns)": 6795247000
+  }
+}

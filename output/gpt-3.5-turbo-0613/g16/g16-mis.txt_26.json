@@ -1,0 +1,76 @@
+{
+  "story": "#G16# As a visitor, I want to see the embargo status and release date clearly displayed and perhaps highlighted in some way.\n",
+  "extraction": {
+    "personas": [
+      "visitor"
+    ],
+    "entities": [
+      "embargo status",
+      "release date"
+    ],
+    "actions": [
+      "see",
+      "displayed",
+      "highlighted"
+    ],
+    "benefit": "I can easily understand the embargo status and release date"
+  },
+  "categories": {
+    "primary_entities": [
+      "embargo status",
+      "release date"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see",
+      "displayed"
+    ],
+    "secondary_actions": [
+      "highlighted"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "visitor",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "embargo status",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "release date",
+        "kind": "targets"
+      },
+      {
+        "from": "displayed",
+        "to": "embargo status",
+        "kind": "targets"
+      },
+      {
+        "from": "displayed",
+        "to": "release date",
+        "kind": "targets"
+      },
+      {
+        "from": "highlighted",
+        "to": "embargo status",
+        "kind": "targets"
+      },
+      {
+        "from": "highlighted",
+        "to": "release date",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1322,
+    "output": 316,
+    "time (ns)": 9942791000
+  }
+}

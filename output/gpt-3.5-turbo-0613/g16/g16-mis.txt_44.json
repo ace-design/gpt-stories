@@ -1,0 +1,52 @@
+{
+  "story": "#G16# As a repoadmin, I want to provide the server SLA to data contributors.\n",
+  "extraction": {
+    "personas": [
+      "repoadmin"
+    ],
+    "entities": [
+      "server SLA",
+      "data contributors"
+    ],
+    "actions": [
+      "provide"
+    ],
+    "benefit": "data contributors can have clear expectations on server performance"
+  },
+  "categories": {
+    "primary_entities": [
+      "server SLA"
+    ],
+    "secondary_entities": [
+      "data contributors"
+    ],
+    "primary_actions": [
+      "provide"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repoadmin",
+        "to": "provide",
+        "kind": "triggers"
+      },
+      {
+        "from": "provide",
+        "to": "server SLA",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "data contributors",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1286,
+    "output": 193,
+    "time (ns)": 5948238000
+  }
+}

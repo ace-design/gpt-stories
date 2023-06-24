@@ -1,0 +1,65 @@
+{
+  "story": "#G16# As a collection curator, I want to have a summary of all remote replication status at collection level on my dashboard.\n",
+  "extraction": {
+    "personas": [
+      "collection curator"
+    ],
+    "entities": [
+      "remote replication status",
+      "collection level",
+      "dashboard"
+    ],
+    "actions": [
+      "have",
+      "summary"
+    ],
+    "benefit": "to easily monitor the remote replication status of all collections"
+  },
+  "categories": {
+    "primary_entities": [
+      "remote replication status",
+      "collection level",
+      "dashboard"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "summary"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "collection curator",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "remote replication status",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "collection level",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "dashboard",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "summary",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1320,
+    "output": 255,
+    "time (ns)": 9653696000
+  }
+}

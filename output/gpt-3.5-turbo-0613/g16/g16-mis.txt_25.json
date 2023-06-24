@@ -1,0 +1,82 @@
+{
+  "story": "#G16# As a DigitalRecords Archivist, I want to have the repository to lift embargoes on the release date and set the access controls to the configuration set on item on that date.\n",
+  "extraction": {
+    "personas": [
+      "DigitalRecords Archivist"
+    ],
+    "entities": [
+      "repository",
+      "embargoes",
+      "release date",
+      "access controls",
+      "configuration set",
+      "item"
+    ],
+    "actions": [
+      "lift",
+      "set"
+    ],
+    "benefit": "to lift embargoes on the release date and set the access controls to the configuration set on item on that date"
+  },
+  "categories": {
+    "primary_entities": [
+      "repository",
+      "release date",
+      "access controls",
+      "configuration set"
+    ],
+    "secondary_entities": [
+      "embargoes",
+      "item"
+    ],
+    "primary_actions": [
+      "lift",
+      "set"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DigitalRecords Archivist",
+        "to": "lift",
+        "kind": "triggers"
+      },
+      {
+        "from": "lift",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "lift",
+        "to": "embargoes",
+        "kind": "targets"
+      },
+      {
+        "from": "lift",
+        "to": "release date",
+        "kind": "targets"
+      },
+      {
+        "from": "set",
+        "to": "access controls",
+        "kind": "targets"
+      },
+      {
+        "from": "set",
+        "to": "configuration set",
+        "kind": "targets"
+      },
+      {
+        "from": "set",
+        "to": "item",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1424,
+    "output": 345,
+    "time (ns)": 10297692000
+  }
+}

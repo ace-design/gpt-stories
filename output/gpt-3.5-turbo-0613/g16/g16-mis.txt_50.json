@@ -1,0 +1,65 @@
+{
+  "story": "#G16# As a collection curator, I want to have metadata changes made to items with repository-assigned DOIs to be propagated to the EZID.\n",
+  "extraction": {
+    "personas": [
+      "collection curator"
+    ],
+    "entities": [
+      "metadata changes",
+      "items",
+      "repository-assigned DOIs",
+      "EZID"
+    ],
+    "actions": [
+      "propagated"
+    ],
+    "benefit": "have metadata changes made to items with repository-assigned DOIs propagated to the EZID"
+  },
+  "categories": {
+    "primary_entities": [
+      "metadata changes",
+      "items",
+      "repository-assigned DOIs",
+      "EZID"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "propagated"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "collection curator",
+        "to": "propagated",
+        "kind": "triggers"
+      },
+      {
+        "from": "propagated",
+        "to": "metadata changes",
+        "kind": "targets"
+      },
+      {
+        "from": "propagated",
+        "to": "items",
+        "kind": "targets"
+      },
+      {
+        "from": "propagated",
+        "to": "repository-assigned DOIs",
+        "kind": "targets"
+      },
+      {
+        "from": "propagated",
+        "to": "EZID",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1364,
+    "output": 285,
+    "time (ns)": 7880877000
+  }
+}

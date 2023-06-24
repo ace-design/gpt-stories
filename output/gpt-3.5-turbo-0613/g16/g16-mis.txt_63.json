@@ -1,0 +1,44 @@
+{
+  "story": "#G16# As a collection curator I want to change permissions on one or more items simultaneously.\n",
+  "extraction": {
+    "personas": [
+      "collection curator"
+    ],
+    "entities": [
+      "one or more items"
+    ],
+    "actions": [
+      "change permissions"
+    ],
+    "benefit": "to do it simultaneously"
+  },
+  "categories": {
+    "primary_entities": [
+      "one or more items"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "change permissions"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "collection curator",
+        "to": "change permissions",
+        "kind": "triggers"
+      },
+      {
+        "from": "change permissions",
+        "to": "one or more items",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1263,
+    "output": 160,
+    "time (ns)": 5190605000
+  }
+}

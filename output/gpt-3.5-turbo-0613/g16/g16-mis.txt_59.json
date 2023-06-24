@@ -1,0 +1,59 @@
+{
+  "story": "#G16# As a collection curator, I want to restrict access to my collection or items to Duke IP addresses.\n",
+  "extraction": {
+    "personas": [
+      "collection curator"
+    ],
+    "entities": [
+      "collection",
+      "items",
+      "Duke IP addresses"
+    ],
+    "actions": [
+      "restrict access"
+    ],
+    "benefit": "I can restrict access to my collection or items to Duke IP addresses"
+  },
+  "categories": {
+    "primary_entities": [
+      "collection"
+    ],
+    "secondary_entities": [
+      "items",
+      "Duke IP addresses"
+    ],
+    "primary_actions": [
+      "restrict access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "collection curator",
+        "to": "restrict access",
+        "kind": "triggers"
+      },
+      {
+        "from": "restrict access",
+        "to": "collection",
+        "kind": "targets"
+      },
+      {
+        "from": "restrict access",
+        "to": "items",
+        "kind": "targets"
+      },
+      {
+        "from": "restrict access",
+        "to": "Duke IP addresses",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1310,
+    "output": 232,
+    "time (ns)": 6672706000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G16# As a depositor, I want to see what kinds of things the repository accepts and what formats are accepted and recommended.\n",
+  "extraction": {
+    "personas": [
+      "depositor"
+    ],
+    "entities": [
+      "repository"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "I want to see what kinds of things the repository accepts and what formats are accepted and recommended."
+  },
+  "categories": {
+    "primary_entities": [
+      "repository"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "depositor",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "repository",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1305,
+    "output": 161,
+    "time (ns)": 6777041000
+  }
+}

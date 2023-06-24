@@ -1,0 +1,58 @@
+{
+  "story": "#G16# As a collection owner, I want to have submitters to my collection to be unable to modify existing items in that collection.\n",
+  "extraction": {
+    "personas": [
+      "collection owner"
+    ],
+    "entities": [
+      "submitters",
+      "collection",
+      "existing items"
+    ],
+    "actions": [
+      "unable to modify"
+    ],
+    "benefit": "have submitters to my collection to be unable to modify existing items in that collection"
+  },
+  "categories": {
+    "primary_entities": [
+      "submitters",
+      "collection",
+      "existing items"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "unable to modify"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "collection owner",
+        "to": "unable to modify",
+        "kind": "triggers"
+      },
+      {
+        "from": "unable to modify",
+        "to": "submitters",
+        "kind": "targets"
+      },
+      {
+        "from": "unable to modify",
+        "to": "collection",
+        "kind": "targets"
+      },
+      {
+        "from": "unable to modify",
+        "to": "existing items",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1332,
+    "output": 239,
+    "time (ns)": 7194808000
+  }
+}

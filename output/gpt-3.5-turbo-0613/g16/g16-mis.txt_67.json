@@ -1,0 +1,86 @@
+{
+  "story": "#G16# As a non-Duke researcher, I want to describe my team and mine's objects in the repository after they've been deposited if we've been assigned permission to edit metadata.\n",
+  "extraction": {
+    "personas": [
+      "non-Duke researcher"
+    ],
+    "entities": [
+      "team",
+      "repository"
+    ],
+    "actions": [
+      "describe",
+      "deposit",
+      "edit metadata"
+    ],
+    "benefit": "to document objects in the repository after they've been deposited"
+  },
+  "categories": {
+    "primary_entities": [
+      "team",
+      "repository"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "describe",
+      "deposit"
+    ],
+    "secondary_actions": [
+      "edit metadata"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "non-Duke researcher",
+        "to": "describe",
+        "kind": "triggers"
+      },
+      {
+        "from": "non-Duke researcher",
+        "to": "deposit",
+        "kind": "triggers"
+      },
+      {
+        "from": "non-Duke researcher",
+        "to": "edit metadata",
+        "kind": "triggers"
+      },
+      {
+        "from": "describe",
+        "to": "team",
+        "kind": "targets"
+      },
+      {
+        "from": "describe",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "deposit",
+        "to": "team",
+        "kind": "targets"
+      },
+      {
+        "from": "deposit",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "edit metadata",
+        "to": "team",
+        "kind": "targets"
+      },
+      {
+        "from": "edit metadata",
+        "to": "repository",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1354,
+    "output": 363,
+    "time (ns)": 10087179000
+  }
+}

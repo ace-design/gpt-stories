@@ -1,0 +1,80 @@
+{
+  "story": "#G16# As a repository manager, I want to view a dashboard statistics about collections size including a list of collections, the number of items and components in each, total storage consumed by each collection, visualization of deposit activity.\n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "dashboard",
+      "collections",
+      "items",
+      "components",
+      "storage",
+      "deposit activity"
+    ],
+    "actions": [
+      "view"
+    ],
+    "benefit": "to have access to statistics about collections size and deposit activity"
+  },
+  "categories": {
+    "primary_entities": [
+      "dashboard",
+      "collections",
+      "items",
+      "components",
+      "storage"
+    ],
+    "secondary_entities": [
+      "deposit activity"
+    ],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "dashboard",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "collections",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "items",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "components",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "storage",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "deposit activity",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1390,
+    "output": 311,
+    "time (ns)": 8567525000
+  }
+}

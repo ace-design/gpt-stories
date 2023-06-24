@@ -1,0 +1,66 @@
+{
+  "story": "#G16# As a DigitalRecords Archivist, I want to expose the descriptive record for each ETD item for re-use external to Fedora.\n",
+  "extraction": {
+    "personas": [
+      "DigitalRecords Archivist"
+    ],
+    "entities": [
+      "descriptive record",
+      "ETD item",
+      "Fedora"
+    ],
+    "actions": [
+      "expose",
+      "re-use external"
+    ],
+    "benefit": "for re-use external to Fedora"
+  },
+  "categories": {
+    "primary_entities": [
+      "descriptive record",
+      "ETD item",
+      "Fedora"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "expose"
+    ],
+    "secondary_actions": [
+      "re-use external"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DigitalRecords Archivist",
+        "to": "expose",
+        "kind": "triggers"
+      },
+      {
+        "from": "expose",
+        "to": "descriptive record",
+        "kind": "targets"
+      },
+      {
+        "from": "expose",
+        "to": "ETD item",
+        "kind": "targets"
+      },
+      {
+        "from": "expose",
+        "to": "Fedora",
+        "kind": "targets"
+      },
+      {
+        "from": "expose",
+        "to": "re-use external",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1338,
+    "output": 273,
+    "time (ns)": 8991878000
+  }
+}

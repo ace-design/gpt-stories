@@ -1,0 +1,69 @@
+{
+  "story": "#G16# As a repository manager, I want to see a display of recent errors deduplicated for easy comprehension like Symplectic Elements provides.\n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "recent errors"
+    ],
+    "actions": [
+      "see",
+      "display",
+      "deduplicated"
+    ],
+    "benefit": "easy comprehension"
+  },
+  "categories": {
+    "primary_entities": [
+      "recent errors"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see",
+      "display"
+    ],
+    "secondary_actions": [
+      "deduplicated"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "recent errors",
+        "kind": "targets"
+      },
+      {
+        "from": "repository manager",
+        "to": "display",
+        "kind": "triggers"
+      },
+      {
+        "from": "display",
+        "to": "recent errors",
+        "kind": "targets"
+      },
+      {
+        "from": "repository manager",
+        "to": "deduplicated",
+        "kind": "triggers"
+      },
+      {
+        "from": "deduplicated",
+        "to": "recent errors",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1299,
+    "output": 269,
+    "time (ns)": 7993804000
+  }
+}

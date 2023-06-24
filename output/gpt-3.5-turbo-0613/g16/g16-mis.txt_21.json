@@ -1,0 +1,98 @@
+{
+  "story": "#G16# As a repoadmin, I want to have users to be presented with a license or a selection of licenses, specific to the collection, and deposit to be denied if the submitter does not accept the license.\n",
+  "extraction": {
+    "personas": [
+      "repoadmin"
+    ],
+    "entities": [
+      "users",
+      "license",
+      "selection of licenses",
+      "collection",
+      "deposit"
+    ],
+    "actions": [
+      "presented",
+      "deposit",
+      "accept"
+    ],
+    "benefit": "users are presented with a license or a selection of licenses specific to the collection, and deposit is denied if the submitter does not accept the license"
+  },
+  "categories": {
+    "primary_entities": [
+      "users",
+      "license",
+      "collection",
+      "deposit"
+    ],
+    "secondary_entities": [
+      "selection of licenses"
+    ],
+    "primary_actions": [
+      "presented",
+      "accept"
+    ],
+    "secondary_actions": [
+      "denied"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repoadmin",
+        "to": "presented",
+        "kind": "triggers"
+      },
+      {
+        "from": "presented",
+        "to": "users",
+        "kind": "targets"
+      },
+      {
+        "from": "repoadmin",
+        "to": "accept",
+        "kind": "triggers"
+      },
+      {
+        "from": "accept",
+        "to": "deposit",
+        "kind": "targets"
+      },
+      {
+        "from": "deposit",
+        "to": "users",
+        "kind": "targets"
+      },
+      {
+        "from": "accept",
+        "to": "license",
+        "kind": "targets"
+      },
+      {
+        "from": "accept",
+        "to": "selection of licenses",
+        "kind": "targets"
+      },
+      {
+        "from": "presented",
+        "to": "collection",
+        "kind": "targets"
+      },
+      {
+        "from": "denied",
+        "to": "deposit",
+        "kind": "triggers"
+      },
+      {
+        "from": "denied",
+        "to": "submitter",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1445,
+    "output": 427,
+    "time (ns)": 23578215000
+  }
+}

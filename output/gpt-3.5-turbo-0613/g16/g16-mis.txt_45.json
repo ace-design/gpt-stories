@@ -1,0 +1,51 @@
+{
+  "story": "#G16# As a repoadmin, I want to update the repository index without disrupting access to the public interface.\n",
+  "extraction": {
+    "personas": [
+      "repoadmin"
+    ],
+    "entities": [
+      "repository index",
+      "public interface"
+    ],
+    "actions": [
+      "update"
+    ],
+    "benefit": "without disrupting access to the public interface"
+  },
+  "categories": {
+    "primary_entities": [
+      "repository index",
+      "public interface"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "update"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repoadmin",
+        "to": "update",
+        "kind": "triggers"
+      },
+      {
+        "from": "update",
+        "to": "repository index",
+        "kind": "targets"
+      },
+      {
+        "from": "update",
+        "to": "public interface",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1289,
+    "output": 189,
+    "time (ns)": 5536831000
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "story": "#G16# As a depositor, I want to easily find information about which data can be assigned a DOI, how to get one, and what metadata are required.\n",
+  "extraction": {
+    "personas": [
+      "depositor"
+    ],
+    "entities": [
+      "data",
+      "DOI",
+      "metadata"
+    ],
+    "actions": [
+      "find information",
+      "get"
+    ],
+    "benefit": "easily find information about which data can be assigned a DOI, how to get one, and what metadata are required"
+  },
+  "categories": {
+    "primary_entities": [
+      "data",
+      "DOI",
+      "metadata"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "find information",
+      "get"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "depositor",
+        "to": "find information",
+        "kind": "triggers"
+      },
+      {
+        "from": "depositor",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "find information",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "DOI",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "metadata",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1364,
+    "output": 265,
+    "time (ns)": 7602306000
+  }
+}

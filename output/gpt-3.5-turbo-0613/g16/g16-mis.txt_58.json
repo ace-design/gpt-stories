@@ -1,0 +1,65 @@
+{
+  "story": "#G16# As a collection curator, I want to create groups of users to manage permissions in the repository in an easy way.\n",
+  "extraction": {
+    "personas": [
+      "collection curator"
+    ],
+    "entities": [
+      "groups of users",
+      "permissions",
+      "repository"
+    ],
+    "actions": [
+      "create",
+      "manage"
+    ],
+    "benefit": "manage permissions in the repository in an easy way"
+  },
+  "categories": {
+    "primary_entities": [
+      "groups of users",
+      "permissions",
+      "repository"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create",
+      "manage"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "collection curator",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "groups of users",
+        "kind": "targets"
+      },
+      {
+        "from": "collection curator",
+        "to": "manage",
+        "kind": "triggers"
+      },
+      {
+        "from": "manage",
+        "to": "permissions",
+        "kind": "targets"
+      },
+      {
+        "from": "manage",
+        "to": "repository",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1315,
+    "output": 253,
+    "time (ns)": 7291117000
+  }
+}

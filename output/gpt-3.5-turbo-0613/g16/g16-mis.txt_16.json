@@ -1,0 +1,44 @@
+{
+  "story": "#G16# As a collection curator, I want to have items be made available under the permissions they were configured once the embargo date has been reached.\n",
+  "extraction": {
+    "personas": [
+      "collection curator"
+    ],
+    "entities": [
+      "items"
+    ],
+    "actions": [
+      "made available"
+    ],
+    "benefit": "under the permissions they were configured once the embargo date has been reached"
+  },
+  "categories": {
+    "primary_entities": [
+      "items"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "made available"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "collection curator",
+        "to": "made available",
+        "kind": "triggers"
+      },
+      {
+        "from": "made available",
+        "to": "items",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1305,
+    "output": 160,
+    "time (ns)": 5044931000
+  }
+}

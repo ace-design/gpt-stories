@@ -1,0 +1,44 @@
+{
+  "story": "#G16# As a collection curator, I want to have item metadata to be discoverable while the item is under embargo.\n",
+  "extraction": {
+    "personas": [
+      "collection curator"
+    ],
+    "entities": [
+      "item metadata"
+    ],
+    "actions": [
+      "discoverable"
+    ],
+    "benefit": "while the item is under embargo"
+  },
+  "categories": {
+    "primary_entities": [
+      "item metadata"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "discoverable"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "collection curator",
+        "to": "discoverable",
+        "kind": "triggers"
+      },
+      {
+        "from": "discoverable",
+        "to": "item metadata",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1279,
+    "output": 156,
+    "time (ns)": 5030701000
+  }
+}

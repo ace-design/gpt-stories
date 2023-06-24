@@ -1,0 +1,72 @@
+{
+  "story": "#G16# As a collection curator, I want to see a dashboard widget showing a summary of recent submissions to my collection.\n",
+  "extraction": {
+    "personas": [
+      "collection curator"
+    ],
+    "entities": [
+      "dashboard widget",
+      "recent submissions",
+      "collection"
+    ],
+    "actions": [
+      "see",
+      "showing",
+      "summary"
+    ],
+    "benefit": "I can easily track and manage recent submissions to my collection"
+  },
+  "categories": {
+    "primary_entities": [
+      "dashboard widget",
+      "recent submissions",
+      "collection"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see",
+      "showing",
+      "summary"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "collection curator",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "dashboard widget",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "recent submissions",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "collection",
+        "kind": "targets"
+      },
+      {
+        "from": "showing",
+        "to": "dashboard widget",
+        "kind": "targets"
+      },
+      {
+        "from": "summary",
+        "to": "dashboard widget",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1328,
+    "output": 289,
+    "time (ns)": 8304736000
+  }
+}

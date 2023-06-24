@@ -1,0 +1,59 @@
+{
+  "story": "#G16# As a data contributor, I want to refer to the Disaster Recovery Plan in grant proposals and Data Management Plans.\n",
+  "extraction": {
+    "personas": [
+      "data contributor"
+    ],
+    "entities": [
+      "Disaster Recovery Plan",
+      "grant proposals",
+      "Data Management Plans"
+    ],
+    "actions": [
+      "refer to"
+    ],
+    "benefit": "I can include the Disaster Recovery Plan in grant proposals and Data Management Plans"
+  },
+  "categories": {
+    "primary_entities": [
+      "Disaster Recovery Plan"
+    ],
+    "secondary_entities": [
+      "grant proposals",
+      "Data Management Plans"
+    ],
+    "primary_actions": [
+      "refer to"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data contributor",
+        "to": "refer to",
+        "kind": "triggers"
+      },
+      {
+        "from": "refer to",
+        "to": "Disaster Recovery Plan",
+        "kind": "targets"
+      },
+      {
+        "from": "refer to",
+        "to": "grant proposals",
+        "kind": "targets"
+      },
+      {
+        "from": "refer to",
+        "to": "Data Management Plans",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1327,
+    "output": 242,
+    "time (ns)": 7381741000
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "story": "#G16# As a repoadmin, I want to have the license be recorded in metadata and displayed alongside the item.\n",
+  "extraction": {
+    "personas": [
+      "repoadmin"
+    ],
+    "entities": [
+      "license",
+      "metadata",
+      "item"
+    ],
+    "actions": [
+      "record",
+      "displayed"
+    ],
+    "benefit": "have the license be recorded in metadata and displayed alongside the item"
+  },
+  "categories": {
+    "primary_entities": [
+      "license",
+      "metadata",
+      "item"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "record",
+      "displayed"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repoadmin",
+        "to": "record",
+        "kind": "triggers"
+      },
+      {
+        "from": "record",
+        "to": "license",
+        "kind": "targets"
+      },
+      {
+        "from": "repoadmin",
+        "to": "displayed",
+        "kind": "triggers"
+      },
+      {
+        "from": "displayed",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "displayed",
+        "to": "item",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1317,
+    "output": 258,
+    "time (ns)": 7696362000
+  }
+}

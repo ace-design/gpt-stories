@@ -1,0 +1,65 @@
+{
+  "story": "#G16# As a collection curator, I want to see the referers for visitors who use resolver-abstracted links to reach my items.\n",
+  "extraction": {
+    "personas": [
+      "collection curator"
+    ],
+    "entities": [
+      "referers",
+      "visitors",
+      "resolver-abstracted links",
+      "items"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "to track the referers for visitors who use resolver-abstracted links to reach my items"
+  },
+  "categories": {
+    "primary_entities": [
+      "referers",
+      "visitors",
+      "resolver-abstracted links",
+      "items"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "collection curator",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "referers",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "visitors",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "resolver-abstracted links",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "items",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1354,
+    "output": 272,
+    "time (ns)": 7593002000
+  }
+}

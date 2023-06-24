@@ -1,0 +1,115 @@
+{
+  "story": "#G16# As a collection curator, I want to have the repository queue my collection for replication upon ingest to our remote storage site and to display the remote replication status in each item and component page in the staff interface.\n",
+  "extraction": {
+    "personas": [
+      "collection curator"
+    ],
+    "entities": [
+      "repository",
+      "collection",
+      "remote storage site",
+      "item",
+      "component",
+      "staff interface"
+    ],
+    "actions": [
+      "queue",
+      "replication",
+      "ingest",
+      "display"
+    ],
+    "benefit": "to have the repository queue my collection for replication upon ingest to our remote storage site and to display the remote replication status in each item and component page in the staff interface"
+  },
+  "categories": {
+    "primary_entities": [
+      "repository",
+      "collection",
+      "remote storage site",
+      "item",
+      "component",
+      "staff interface"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "queue",
+      "replication",
+      "ingest",
+      "display"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "collection curator",
+        "to": "queue",
+        "kind": "triggers"
+      },
+      {
+        "from": "queue",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "collection curator",
+        "to": "replication",
+        "kind": "triggers"
+      },
+      {
+        "from": "replication",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "collection curator",
+        "to": "ingest",
+        "kind": "triggers"
+      },
+      {
+        "from": "ingest",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "collection curator",
+        "to": "display",
+        "kind": "triggers"
+      },
+      {
+        "from": "display",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "repository",
+        "to": "collection",
+        "kind": "targets"
+      },
+      {
+        "from": "repository",
+        "to": "remote storage site",
+        "kind": "targets"
+      },
+      {
+        "from": "item",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "component",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "staff interface",
+        "to": "repository",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1471,
+    "output": 522,
+    "time (ns)": 14469056000
+  }
+}

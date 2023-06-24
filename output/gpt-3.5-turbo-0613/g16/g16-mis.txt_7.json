@@ -1,0 +1,44 @@
+{
+  "story": "#G16# As a developer, I want to determine if we can use the in-built Fedora 4 event audit services.\n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "in-built Fedora 4 event audit services"
+    ],
+    "actions": [
+      "determine"
+    ],
+    "benefit": "use the in-built Fedora 4 event audit services"
+  },
+  "categories": {
+    "primary_entities": [
+      "in-built Fedora 4 event audit services"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "determine"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "determine",
+        "kind": "triggers"
+      },
+      {
+        "from": "determine",
+        "to": "in-built Fedora 4 event audit services",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1303,
+    "output": 176,
+    "time (ns)": 5665462000
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "story": "#G16# As a repository manager, I want to schedule a message to users to be displayed on each page on the repository between select times for things like notification of upcoming downtime.\n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "message",
+      "users",
+      "repository"
+    ],
+    "actions": [
+      "schedule",
+      "display"
+    ],
+    "benefit": "notification of upcoming downtime"
+  },
+  "categories": {
+    "primary_entities": [
+      "message",
+      "users",
+      "repository"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "schedule",
+      "display"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "schedule",
+        "kind": "triggers"
+      },
+      {
+        "from": "schedule",
+        "to": "message",
+        "kind": "targets"
+      },
+      {
+        "from": "schedule",
+        "to": "users",
+        "kind": "targets"
+      },
+      {
+        "from": "schedule",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "display",
+        "to": "message",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1329,
+    "output": 240,
+    "time (ns)": 7058565000
+  }
+}

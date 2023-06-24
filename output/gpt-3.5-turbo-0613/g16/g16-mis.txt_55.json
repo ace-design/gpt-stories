@@ -1,0 +1,47 @@
+{
+  "story": "#G16# As a batch submitter, I want to access documentation describing the folder ingest process.\n",
+  "extraction": {
+    "personas": [
+      "batch submitter"
+    ],
+    "entities": [
+      "documentation",
+      "folder ingest process"
+    ],
+    "actions": [
+      "access"
+    ],
+    "benefit": "I can understand the folder ingest process"
+  },
+  "categories": {
+    "primary_entities": [
+      "documentation"
+    ],
+    "secondary_entities": [
+      "folder ingest process"
+    ],
+    "primary_actions": [
+      "access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "batch submitter",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "documentation",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1276,
+    "output": 161,
+    "time (ns)": 4940596000
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "story": "#G16# As a depositor, I want to get feedback post-ingest alerting me if files I submitted do not conform to their format specifications, if they are not valid, or if they are not wellformed.\n",
+  "extraction": {
+    "personas": [
+      "depositor"
+    ],
+    "entities": [
+      "files I submitted"
+    ],
+    "actions": [
+      "get feedback",
+      "alerting"
+    ],
+    "benefit": "to know if files do not conform to format specifications, are not valid, or not wellformed"
+  },
+  "categories": {
+    "primary_entities": [
+      "files I submitted"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "get feedback"
+    ],
+    "secondary_actions": [
+      "alerting"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "depositor",
+        "to": "get feedback",
+        "kind": "triggers"
+      },
+      {
+        "from": "get feedback",
+        "to": "files I submitted",
+        "kind": "targets"
+      },
+      {
+        "from": "get feedback",
+        "to": "format specifications",
+        "kind": "targets"
+      },
+      {
+        "from": "get feedback",
+        "to": "valid",
+        "kind": "targets"
+      },
+      {
+        "from": "get feedback",
+        "to": "wellformed",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1378,
+    "output": 259,
+    "time (ns)": 7494317000
+  }
+}

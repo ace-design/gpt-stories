@@ -1,0 +1,47 @@
+{
+  "story": "#G16# As a collection curator, I want to create deposit forms specific to the collection.\n",
+  "extraction": {
+    "personas": [
+      "collection curator"
+    ],
+    "entities": [
+      "deposit forms",
+      "collection"
+    ],
+    "actions": [
+      "create"
+    ],
+    "benefit": "specific to the collection"
+  },
+  "categories": {
+    "primary_entities": [
+      "deposit forms"
+    ],
+    "secondary_entities": [
+      "collection"
+    ],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "collection curator",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "deposit forms",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1262,
+    "output": 155,
+    "time (ns)": 5341296000
+  }
+}

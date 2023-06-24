@@ -1,0 +1,50 @@
+{
+  "story": "#G16# As a DigitalRecords Archivist, I want to grant embargo privileges to other repository administrators.\n",
+  "extraction": {
+    "personas": [
+      "DigitalRecords Archivist",
+      "repository administrators"
+    ],
+    "entities": [
+      "embargo privileges"
+    ],
+    "actions": [
+      "grant"
+    ],
+    "benefit": "grant embargo privileges to other repository administrators"
+  },
+  "categories": {
+    "primary_entities": [
+      "embargo privileges"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "grant"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DigitalRecords Archivist",
+        "to": "grant",
+        "kind": "triggers"
+      },
+      {
+        "from": "grant",
+        "to": "embargo privileges",
+        "kind": "targets"
+      },
+      {
+        "from": "DigitalRecords Archivist",
+        "to": "repository administrators",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1281,
+    "output": 194,
+    "time (ns)": 5679491000
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "story": "#G16# As a repoadmin, I want to continue to provide access to the repository in the event that the server fails.\n",
+  "extraction": {
+    "personas": [
+      "repoadmin"
+    ],
+    "entities": [
+      "repository",
+      "server"
+    ],
+    "actions": [
+      "provide access"
+    ],
+    "benefit": "continue to provide access to the repository in the event that the server fails"
+  },
+  "categories": {
+    "primary_entities": [
+      "repository"
+    ],
+    "secondary_entities": [
+      "server"
+    ],
+    "primary_actions": [
+      "provide access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repoadmin",
+        "to": "provide access",
+        "kind": "triggers"
+      },
+      {
+        "from": "provide access",
+        "to": "repository",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1308,
+    "output": 168,
+    "time (ns)": 5096740000
+  }
+}

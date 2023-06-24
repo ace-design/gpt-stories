@@ -1,0 +1,104 @@
+{
+  "story": "#G16# As a collection curator, I want to have my collection be encrypted with a key maintained on that server, a checksum made and stored of the encrypted file, and the encrypted file replicated to our remote storage site.\n",
+  "extraction": {
+    "personas": [
+      "collection curator"
+    ],
+    "entities": [
+      "collection",
+      "key",
+      "server",
+      "checksum",
+      "encrypted file",
+      "remote storage site"
+    ],
+    "actions": [
+      "have",
+      "be encrypted",
+      "maintained",
+      "made",
+      "stored",
+      "replicated"
+    ],
+    "benefit": "ensure the security and integrity of the collection"
+  },
+  "categories": {
+    "primary_entities": [
+      "collection",
+      "key",
+      "server",
+      "checksum",
+      "encrypted file",
+      "remote storage site"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "be encrypted",
+      "maintained",
+      "made",
+      "stored",
+      "replicated"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "collection curator",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "collection",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "key",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "server",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "checksum",
+        "kind": "targets"
+      },
+      {
+        "from": "be encrypted",
+        "to": "encrypted file",
+        "kind": "targets"
+      },
+      {
+        "from": "maintained",
+        "to": "key",
+        "kind": "targets"
+      },
+      {
+        "from": "made",
+        "to": "checksum",
+        "kind": "targets"
+      },
+      {
+        "from": "stored",
+        "to": "encrypted file",
+        "kind": "targets"
+      },
+      {
+        "from": "replicated",
+        "to": "remote storage site",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1445,
+    "output": 430,
+    "time (ns)": 11803211000
+  }
+}

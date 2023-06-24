@@ -1,0 +1,98 @@
+{
+  "story": "#G16# As a faculty member, I want to add a date delimiter to a search string, so that I can limit a search to return only results from before, after, or between a given date or dates.\n",
+  "extraction": {
+    "personas": [
+      "faculty member"
+    ],
+    "entities": [
+      "date delimiter",
+      "search string",
+      "search",
+      "results",
+      "date",
+      "dates"
+    ],
+    "actions": [
+      "add",
+      "limit",
+      "return"
+    ],
+    "benefit": "I can limit a search to return only results from before, after, or between a given date or dates."
+  },
+  "categories": {
+    "primary_entities": [
+      "date delimiter",
+      "search string",
+      "search",
+      "results",
+      "date",
+      "dates"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "add",
+      "limit",
+      "return"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "faculty member",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "date delimiter",
+        "kind": "targets"
+      },
+      {
+        "from": "faculty member",
+        "to": "limit",
+        "kind": "triggers"
+      },
+      {
+        "from": "limit",
+        "to": "search string",
+        "kind": "targets"
+      },
+      {
+        "from": "faculty member",
+        "to": "return",
+        "kind": "triggers"
+      },
+      {
+        "from": "return",
+        "to": "results",
+        "kind": "targets"
+      },
+      {
+        "from": "faculty member",
+        "to": "return",
+        "kind": "triggers"
+      },
+      {
+        "from": "return",
+        "to": "date",
+        "kind": "targets"
+      },
+      {
+        "from": "faculty member",
+        "to": "return",
+        "kind": "triggers"
+      },
+      {
+        "from": "return",
+        "to": "dates",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1431,
+    "output": 420,
+    "time (ns)": 11166849000
+  }
+}

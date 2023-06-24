@@ -1,0 +1,62 @@
+{
+  "story": "#G16# As a collection curator, I want to be able require authentication to access objects unless the request is coming from a whitelisted IP address, list of addresses.\n",
+  "extraction": {
+    "personas": [
+      "collection curator"
+    ],
+    "entities": [
+      "objects",
+      "whitelisted IP address",
+      "list of addresses"
+    ],
+    "actions": [
+      "require authentication",
+      "access"
+    ],
+    "benefit": "be able to restrict access to objects unless the request is coming from a whitelisted IP address"
+  },
+  "categories": {
+    "primary_entities": [
+      "objects"
+    ],
+    "secondary_entities": [
+      "whitelisted IP address",
+      "list of addresses"
+    ],
+    "primary_actions": [
+      "require authentication"
+    ],
+    "secondary_actions": [
+      "access"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "collection curator",
+        "to": "require authentication",
+        "kind": "triggers"
+      },
+      {
+        "from": "require authentication",
+        "to": "objects",
+        "kind": "targets"
+      },
+      {
+        "from": "collection curator",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "objects",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1374,
+    "output": 246,
+    "time (ns)": 6723547000
+  }
+}

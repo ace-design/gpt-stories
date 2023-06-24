@@ -1,0 +1,98 @@
+{
+  "story": "#G16# As a DPC, I want events to be created when a publication is published and unpublished, who did it, comment, so that I can record when and why something was made unavailable.  \n",
+  "extraction": {
+    "personas": [
+      "DPC"
+    ],
+    "entities": [
+      "events",
+      "publication"
+    ],
+    "actions": [
+      "created",
+      "published",
+      "unpublished",
+      "record"
+    ],
+    "benefit": "I can record when and why something was made unavailable"
+  },
+  "categories": {
+    "primary_entities": [
+      "events",
+      "publication"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "created",
+      "published",
+      "unpublished"
+    ],
+    "secondary_actions": [
+      "record"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DPC",
+        "to": "created",
+        "kind": "triggers"
+      },
+      {
+        "from": "DPC",
+        "to": "published",
+        "kind": "triggers"
+      },
+      {
+        "from": "DPC",
+        "to": "unpublished",
+        "kind": "triggers"
+      },
+      {
+        "from": "DPC",
+        "to": "record",
+        "kind": "triggers"
+      },
+      {
+        "from": "created",
+        "to": "events",
+        "kind": "targets"
+      },
+      {
+        "from": "published",
+        "to": "events",
+        "kind": "targets"
+      },
+      {
+        "from": "unpublished",
+        "to": "events",
+        "kind": "targets"
+      },
+      {
+        "from": "record",
+        "to": "events",
+        "kind": "targets"
+      },
+      {
+        "from": "created",
+        "to": "publication",
+        "kind": "targets"
+      },
+      {
+        "from": "published",
+        "to": "publication",
+        "kind": "targets"
+      },
+      {
+        "from": "unpublished",
+        "to": "publication",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1369,
+    "output": 412,
+    "time (ns)": 11716788000
+  }
+}

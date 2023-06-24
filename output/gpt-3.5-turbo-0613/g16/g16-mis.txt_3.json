@@ -1,0 +1,52 @@
+{
+  "story": "#G16# As a repository manager, I want to track who is financially responsible for each item in the repository, who should probably be a person contact including name, phone, email, maybe title and address.\n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "item",
+      "person contact"
+    ],
+    "actions": [
+      "track"
+    ],
+    "benefit": "I can track who is financially responsible for each item in the repository"
+  },
+  "categories": {
+    "primary_entities": [
+      "item"
+    ],
+    "secondary_entities": [
+      "person contact"
+    ],
+    "primary_actions": [
+      "track"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "track",
+        "kind": "triggers"
+      },
+      {
+        "from": "track",
+        "to": "item",
+        "kind": "targets"
+      },
+      {
+        "from": "track",
+        "to": "person contact",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1349,
+    "output": 189,
+    "time (ns)": 5879191000
+  }
+}

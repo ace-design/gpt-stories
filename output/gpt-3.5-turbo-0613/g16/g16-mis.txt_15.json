@@ -1,0 +1,92 @@
+{
+  "story": "#G16# As a repoadmin, I want to have Symplectic Elements bidirectionally communicate and integrate with DDR, which  provide a Fedora Connector and Emory is using a hidden Fedora instance that Hydra collects objects for.\n",
+  "extraction": {
+    "personas": [
+      "repoadmin"
+    ],
+    "entities": [
+      "Symplectic Elements",
+      "DDR",
+      "Fedora Connector",
+      "Emory",
+      "hidden Fedora instance",
+      "Hydra"
+    ],
+    "actions": [
+      "bidirectionally communicate",
+      "integrate",
+      "provide",
+      "collects"
+    ],
+    "benefit": "Symplectic Elements can communicate and integrate with DDR, and Hydra can collect objects from Emory's hidden Fedora instance"
+  },
+  "categories": {
+    "primary_entities": [
+      "Symplectic Elements",
+      "DDR"
+    ],
+    "secondary_entities": [
+      "Fedora Connector",
+      "Emory",
+      "hidden Fedora instance",
+      "Hydra"
+    ],
+    "primary_actions": [
+      "bidirectionally communicate",
+      "integrate"
+    ],
+    "secondary_actions": [
+      "provide",
+      "collects"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repoadmin",
+        "to": "bidirectionally communicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "repoadmin",
+        "to": "integrate",
+        "kind": "triggers"
+      },
+      {
+        "from": "bidirectionally communicate",
+        "to": "Symplectic Elements",
+        "kind": "targets"
+      },
+      {
+        "from": "integrate",
+        "to": "Symplectic Elements",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "Fedora Connector",
+        "kind": "targets"
+      },
+      {
+        "from": "collects",
+        "to": "Hydra",
+        "kind": "targets"
+      },
+      {
+        "from": "collects",
+        "to": "Emory",
+        "kind": "targets"
+      },
+      {
+        "from": "collects",
+        "to": "hidden Fedora instance",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1486,
+    "output": 418,
+    "time (ns)": 12629865000
+  }
+}

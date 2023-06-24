@@ -1,0 +1,52 @@
+{
+  "story": "#G16# As a repoadmin, I want to expose repository contents via OAI-PMH.\n",
+  "extraction": {
+    "personas": [
+      "repoadmin"
+    ],
+    "entities": [
+      "repository contents",
+      "OAI-PMH"
+    ],
+    "actions": [
+      "expose"
+    ],
+    "benefit": "I can expose repository contents via OAI-PMH"
+  },
+  "categories": {
+    "primary_entities": [
+      "repository contents"
+    ],
+    "secondary_entities": [
+      "OAI-PMH"
+    ],
+    "primary_actions": [
+      "expose"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repoadmin",
+        "to": "expose",
+        "kind": "triggers"
+      },
+      {
+        "from": "expose",
+        "to": "repository contents",
+        "kind": "targets"
+      },
+      {
+        "from": "expose",
+        "to": "OAI-PMH",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1302,
+    "output": 206,
+    "time (ns)": 8183733000
+  }
+}

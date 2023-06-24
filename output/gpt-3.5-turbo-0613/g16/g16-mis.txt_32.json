@@ -1,0 +1,44 @@
+{
+  "story": "#G16# As a collection curator, I want to have a tool to perform author authority control.\n",
+  "extraction": {
+    "personas": [
+      "collection curator"
+    ],
+    "entities": [
+      "tool"
+    ],
+    "actions": [
+      "perform author authority control"
+    ],
+    "benefit": "have a tool to perform author authority control"
+  },
+  "categories": {
+    "primary_entities": [
+      "tool"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "perform author authority control"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "collection curator",
+        "to": "perform author authority control",
+        "kind": "triggers"
+      },
+      {
+        "from": "perform author authority control",
+        "to": "tool",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1271,
+    "output": 163,
+    "time (ns)": 6029213000
+  }
+}

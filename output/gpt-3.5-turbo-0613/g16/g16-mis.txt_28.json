@@ -1,0 +1,44 @@
+{
+  "story": "#G16# As a DigitalRecords Archivist, I want to edit the length of embargoes.\n",
+  "extraction": {
+    "personas": [
+      "DigitalRecords Archivist"
+    ],
+    "entities": [
+      "embargoes"
+    ],
+    "actions": [
+      "edit"
+    ],
+    "benefit": "I can control the length of embargoes"
+  },
+  "categories": {
+    "primary_entities": [
+      "embargoes"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "edit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DigitalRecords Archivist",
+        "to": "edit",
+        "kind": "triggers"
+      },
+      {
+        "from": "edit",
+        "to": "embargoes",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1277,
+    "output": 162,
+    "time (ns)": 5240056000
+  }
+}

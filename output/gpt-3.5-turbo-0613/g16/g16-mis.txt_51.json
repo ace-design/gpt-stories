@@ -1,0 +1,75 @@
+{
+  "story": "#G16# As a collection curator, I want to canonically identify authors and creators of my items by unique identifier, so that it's easier to view all of the works by that person together.\n",
+  "extraction": {
+    "personas": [
+      "collection curator"
+    ],
+    "entities": [
+      "authors",
+      "creators",
+      "items"
+    ],
+    "actions": [
+      "canonically identify",
+      "view"
+    ],
+    "benefit": "it's easier to view all of the works by that person together"
+  },
+  "categories": {
+    "primary_entities": [
+      "authors",
+      "creators",
+      "items"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "canonically identify",
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "collection curator",
+        "to": "canonically identify",
+        "kind": "triggers"
+      },
+      {
+        "from": "canonically identify",
+        "to": "authors",
+        "kind": "targets"
+      },
+      {
+        "from": "canonically identify",
+        "to": "creators",
+        "kind": "targets"
+      },
+      {
+        "from": "canonically identify",
+        "to": "items",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "authors",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "creators",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "items",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1371,
+    "output": 321,
+    "time (ns)": 9027946000
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "story": "#G16# As a batch submitter, I want to provide my data and metadata in a simple, documented format to the repository staff for ingest.\n",
+  "extraction": {
+    "personas": [
+      "batch submitter"
+    ],
+    "entities": [
+      "data",
+      "metadata",
+      "repository staff"
+    ],
+    "actions": [
+      "provide",
+      "ingest"
+    ],
+    "benefit": "to submit data and metadata in a simple, documented format"
+  },
+  "categories": {
+    "primary_entities": [
+      "data",
+      "metadata"
+    ],
+    "secondary_entities": [
+      "repository staff"
+    ],
+    "primary_actions": [
+      "provide"
+    ],
+    "secondary_actions": [
+      "ingest"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "batch submitter",
+        "to": "provide",
+        "kind": "triggers"
+      },
+      {
+        "from": "provide",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "repository staff",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "ingest",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1330,
+    "output": 253,
+    "time (ns)": 7379346000
+  }
+}

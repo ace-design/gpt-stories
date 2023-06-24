@@ -1,0 +1,131 @@
+{
+  "story": "#G16# As a faculty member, I want to go to my repository dashboard to manage members of my classes, grant submit permissions by pasting in a list of NetIDs, see confirmation that DDR recognizes the NetIDs, ability to manually remove permissions, ability to set begin and end dates for a submission window, and a have a status screen to clearly illustrate who has and hasn't submitted.\n",
+  "extraction": {
+    "personas": [
+      "faculty member"
+    ],
+    "entities": [
+      "repository dashboard",
+      "members of my classes",
+      "NetIDs",
+      "permissions",
+      "submission window",
+      "status screen"
+    ],
+    "actions": [
+      "manage",
+      "grant",
+      "paste",
+      "recognize",
+      "remove",
+      "set",
+      "illustrate"
+    ],
+    "benefit": "ability to manage members, grant submit permissions, see confirmation, manually remove permissions, set submission window dates, and have a status screen"
+  },
+  "categories": {
+    "primary_entities": [
+      "repository dashboard",
+      "members of my classes",
+      "NetIDs",
+      "permissions",
+      "submission window",
+      "status screen"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "manage",
+      "grant",
+      "paste",
+      "recognize",
+      "remove",
+      "set",
+      "illustrate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "faculty member",
+        "to": "manage",
+        "kind": "triggers"
+      },
+      {
+        "from": "faculty member",
+        "to": "grant",
+        "kind": "triggers"
+      },
+      {
+        "from": "faculty member",
+        "to": "paste",
+        "kind": "triggers"
+      },
+      {
+        "from": "faculty member",
+        "to": "recognize",
+        "kind": "triggers"
+      },
+      {
+        "from": "faculty member",
+        "to": "remove",
+        "kind": "triggers"
+      },
+      {
+        "from": "faculty member",
+        "to": "set",
+        "kind": "triggers"
+      },
+      {
+        "from": "faculty member",
+        "to": "illustrate",
+        "kind": "triggers"
+      },
+      {
+        "from": "manage",
+        "to": "repository dashboard",
+        "kind": "targets"
+      },
+      {
+        "from": "manage",
+        "to": "members of my classes",
+        "kind": "targets"
+      },
+      {
+        "from": "grant",
+        "to": "permissions",
+        "kind": "targets"
+      },
+      {
+        "from": "paste",
+        "to": "NetIDs",
+        "kind": "targets"
+      },
+      {
+        "from": "recognize",
+        "to": "NetIDs",
+        "kind": "targets"
+      },
+      {
+        "from": "remove",
+        "to": "permissions",
+        "kind": "targets"
+      },
+      {
+        "from": "set",
+        "to": "submission window",
+        "kind": "targets"
+      },
+      {
+        "from": "illustrate",
+        "to": "status screen",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1601,
+    "output": 602,
+    "time (ns)": 16130921000
+  }
+}

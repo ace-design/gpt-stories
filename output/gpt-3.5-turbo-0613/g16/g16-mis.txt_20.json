@@ -1,0 +1,79 @@
+{
+  "story": "#G16# As a collection curator, I want to have the item to be allowed under the access permissions set on the object after the embargo data is reached.\n",
+  "extraction": {
+    "personas": [
+      "collection curator"
+    ],
+    "entities": [
+      "item",
+      "access permissions",
+      "object"
+    ],
+    "actions": [
+      "have",
+      "allowed",
+      "set",
+      "reached"
+    ],
+    "benefit": "the item is allowed under the access permissions set on the object after the embargo data is reached"
+  },
+  "categories": {
+    "primary_entities": [
+      "item",
+      "access permissions",
+      "object"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "allowed",
+      "set",
+      "reached"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "collection curator",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "item",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "access permissions",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "object",
+        "kind": "targets"
+      },
+      {
+        "from": "reached",
+        "to": "item",
+        "kind": "triggers"
+      },
+      {
+        "from": "reached",
+        "to": "access permissions",
+        "kind": "triggers"
+      },
+      {
+        "from": "reached",
+        "to": "object",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1369,
+    "output": 328,
+    "time (ns)": 9851371000
+  }
+}

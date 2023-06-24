@@ -1,0 +1,51 @@
+{
+  "story": "#G16# As a repoadmin, I want to provide a Linked Data interface to the repository.\n",
+  "extraction": {
+    "personas": [
+      "repoadmin"
+    ],
+    "entities": [
+      "Linked Data interface",
+      "repository"
+    ],
+    "actions": [
+      "provide"
+    ],
+    "benefit": "to provide a Linked Data interface to the repository"
+  },
+  "categories": {
+    "primary_entities": [
+      "Linked Data interface",
+      "repository"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "provide"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repoadmin",
+        "to": "provide",
+        "kind": "triggers"
+      },
+      {
+        "from": "provide",
+        "to": "Linked Data interface",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "repository",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1284,
+    "output": 191,
+    "time (ns)": 5665714000
+  }
+}

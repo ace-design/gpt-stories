@@ -1,0 +1,51 @@
+{
+  "story": "#G16# As a collection curator, I want to lift an embargo for an object in a simple way.\n",
+  "extraction": {
+    "personas": [
+      "collection curator"
+    ],
+    "entities": [
+      "embargo",
+      "object"
+    ],
+    "actions": [
+      "lift"
+    ],
+    "benefit": "in a simple way"
+  },
+  "categories": {
+    "primary_entities": [
+      "embargo",
+      "object"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "lift"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "collection curator",
+        "to": "lift",
+        "kind": "triggers"
+      },
+      {
+        "from": "lift",
+        "to": "embargo",
+        "kind": "targets"
+      },
+      {
+        "from": "lift",
+        "to": "object",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1272,
+    "output": 181,
+    "time (ns)": 6268650000
+  }
+}

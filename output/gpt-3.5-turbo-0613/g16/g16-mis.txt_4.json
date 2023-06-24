@@ -1,0 +1,58 @@
+{
+  "story": "#G16# As a repository manager, I want to be able t run a report periodically showing the storage consumed by each financial contact.\n",
+  "extraction": {
+    "personas": [
+      "repository manager"
+    ],
+    "entities": [
+      "report",
+      "storage",
+      "financial contact"
+    ],
+    "actions": [
+      "run"
+    ],
+    "benefit": "be able to track storage consumed by each financial contact"
+  },
+  "categories": {
+    "primary_entities": [
+      "report",
+      "storage",
+      "financial contact"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "run"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "repository manager",
+        "to": "run",
+        "kind": "triggers"
+      },
+      {
+        "from": "run",
+        "to": "report",
+        "kind": "targets"
+      },
+      {
+        "from": "run",
+        "to": "storage",
+        "kind": "targets"
+      },
+      {
+        "from": "run",
+        "to": "financial contact",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1308,
+    "output": 218,
+    "time (ns)": 6475592000
+  }
+}

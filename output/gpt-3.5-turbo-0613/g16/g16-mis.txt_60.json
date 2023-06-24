@@ -1,0 +1,61 @@
+{
+  "story": "#G16# As a collection curator, I want users to contact me directly from the repository to request access to restricted objects.\n",
+  "extraction": {
+    "personas": [
+      "collection curator",
+      "users"
+    ],
+    "entities": [
+      "repository",
+      "restricted objects"
+    ],
+    "actions": [
+      "contact",
+      "request access"
+    ],
+    "benefit": "users can directly contact the collection curator to request access to restricted objects"
+  },
+  "categories": {
+    "primary_entities": [
+      "repository"
+    ],
+    "secondary_entities": [
+      "restricted objects"
+    ],
+    "primary_actions": [
+      "contact"
+    ],
+    "secondary_actions": [
+      "request access"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "collection curator",
+        "to": "contact",
+        "kind": "triggers"
+      },
+      {
+        "from": "contact",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "users",
+        "to": "contact",
+        "kind": "triggers"
+      },
+      {
+        "from": "contact",
+        "to": "restricted objects",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1314,
+    "output": 225,
+    "time (ns)": 6887270000
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "story": "#G16# As a collection curator, I want to move items from one collection to another.\n",
+  "extraction": {
+    "personas": [
+      "collection curator"
+    ],
+    "entities": [
+      "items",
+      "collection"
+    ],
+    "actions": [
+      "move"
+    ],
+    "benefit": "I can easily manage and organize my collections."
+  },
+  "categories": {
+    "primary_entities": [
+      "items"
+    ],
+    "secondary_entities": [
+      "collection"
+    ],
+    "primary_actions": [
+      "move"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "collection curator",
+        "to": "move",
+        "kind": "triggers"
+      },
+      {
+        "from": "move",
+        "to": "items",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1269,
+    "output": 156,
+    "time (ns)": 5686069000
+  }
+}

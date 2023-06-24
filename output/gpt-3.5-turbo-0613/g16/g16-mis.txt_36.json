@@ -1,0 +1,80 @@
+{
+  "story": "#G16# As a DigitalRecords Archivist, I want to view and download summary embargo metadata for all ETDs in the repository.\n",
+  "extraction": {
+    "personas": [
+      "DigitalRecords Archivist"
+    ],
+    "entities": [
+      "summary embargo metadata",
+      "ETDs",
+      "repository"
+    ],
+    "actions": [
+      "view",
+      "download"
+    ],
+    "benefit": "I can access and use summary embargo metadata for all ETDs in the repository."
+  },
+  "categories": {
+    "primary_entities": [
+      "summary embargo metadata",
+      "ETDs",
+      "repository"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view",
+      "download"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DigitalRecords Archivist",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "DigitalRecords Archivist",
+        "to": "download",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "summary embargo metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "download",
+        "to": "summary embargo metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "ETDs",
+        "kind": "targets"
+      },
+      {
+        "from": "download",
+        "to": "ETDs",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "repository",
+        "kind": "targets"
+      },
+      {
+        "from": "download",
+        "to": "repository",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1344,
+    "output": 347,
+    "time (ns)": 9541584000
+  }
+}

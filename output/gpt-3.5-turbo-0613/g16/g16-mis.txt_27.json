@@ -1,0 +1,136 @@
+{
+  "story": "#G16# As a DigitalRecords Archivist, I want to have a method to add and remove multiple people to deposit groups in specific collections, to set a date that the deposit window closes, and to have these permissions conferred on these depositors should pick up on the collection's default permission.\n",
+  "extraction": {
+    "personas": [
+      "DigitalRecords Archivist"
+    ],
+    "entities": [
+      "multiple people",
+      "deposit groups",
+      "specific collections",
+      "date",
+      "deposit window",
+      "permissions",
+      "depositors",
+      "collection's default permission"
+    ],
+    "actions": [
+      "add",
+      "remove",
+      "set",
+      "confer",
+      "pick up"
+    ],
+    "benefit": "have a method to add and remove multiple people to deposit groups in specific collections, set a date that the deposit window closes, and have these permissions conferred on these depositors should pick up on the collection's default permission"
+  },
+  "categories": {
+    "primary_entities": [
+      "multiple people",
+      "deposit groups",
+      "specific collections",
+      "date",
+      "deposit window",
+      "permissions",
+      "depositors",
+      "collection's default permission"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "add",
+      "remove",
+      "set",
+      "confer",
+      "pick up"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DigitalRecords Archivist",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "DigitalRecords Archivist",
+        "to": "remove",
+        "kind": "triggers"
+      },
+      {
+        "from": "DigitalRecords Archivist",
+        "to": "set",
+        "kind": "triggers"
+      },
+      {
+        "from": "DigitalRecords Archivist",
+        "to": "confer",
+        "kind": "triggers"
+      },
+      {
+        "from": "DigitalRecords Archivist",
+        "to": "pick up",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "multiple people",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "deposit groups",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "specific collections",
+        "kind": "targets"
+      },
+      {
+        "from": "remove",
+        "to": "multiple people",
+        "kind": "targets"
+      },
+      {
+        "from": "remove",
+        "to": "deposit groups",
+        "kind": "targets"
+      },
+      {
+        "from": "remove",
+        "to": "specific collections",
+        "kind": "targets"
+      },
+      {
+        "from": "set",
+        "to": "date",
+        "kind": "targets"
+      },
+      {
+        "from": "set",
+        "to": "deposit window",
+        "kind": "targets"
+      },
+      {
+        "from": "confer",
+        "to": "permissions",
+        "kind": "targets"
+      },
+      {
+        "from": "pick up",
+        "to": "depositors",
+        "kind": "targets"
+      },
+      {
+        "from": "pick up",
+        "to": "collection's default permission",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1582,
+    "output": 658,
+    "time (ns)": 17932118000
+  }
+}
