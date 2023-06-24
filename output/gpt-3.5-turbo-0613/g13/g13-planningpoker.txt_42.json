@@ -1,0 +1,65 @@
+{
+  "story": "#G13# As a participant, I want to have a small thumbnail photo displayed near where my cards are played, so that the game is more personal because I see who I'm estimating with.\n",
+  "extraction": {
+    "personas": [
+      "participant"
+    ],
+    "entities": [
+      "thumbnail photo",
+      "cards"
+    ],
+    "actions": [
+      "displayed",
+      "played",
+      "estimating"
+    ],
+    "benefit": "the game is more personal because I see who I'm estimating with"
+  },
+  "categories": {
+    "primary_entities": [
+      "thumbnail photo",
+      "cards"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "displayed",
+      "played",
+      "estimating"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "participant",
+        "to": "displayed",
+        "kind": "triggers"
+      },
+      {
+        "from": "participant",
+        "to": "played",
+        "kind": "triggers"
+      },
+      {
+        "from": "participant",
+        "to": "estimating",
+        "kind": "triggers"
+      },
+      {
+        "from": "displayed",
+        "to": "thumbnail photo",
+        "kind": "targets"
+      },
+      {
+        "from": "played",
+        "to": "cards",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1363,
+    "output": 259,
+    "time (ns)": 7054080000
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "story": "#G13# As a participant, I want to see who gave what estimates during the current round, so that I know this when we're discussing the estimates.\n",
+  "extraction": {
+    "personas": [
+      "participant"
+    ],
+    "entities": [
+      "current round"
+    ],
+    "actions": [
+      "see",
+      "gave estimates",
+      "discuss"
+    ],
+    "benefit": "know who gave what estimates during the current round"
+  },
+  "categories": {
+    "primary_entities": [
+      "current round"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": [
+      "gave estimates",
+      "discuss"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "participant",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "current round",
+        "kind": "targets"
+      },
+      {
+        "from": "participant",
+        "to": "gave estimates",
+        "kind": "triggers"
+      },
+      {
+        "from": "gave estimates",
+        "to": "current round",
+        "kind": "targets"
+      },
+      {
+        "from": "participant",
+        "to": "discuss",
+        "kind": "triggers"
+      },
+      {
+        "from": "discuss",
+        "to": "current round",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1326,
+    "output": 280,
+    "time (ns)": 9252126000
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "story": "#G13# As a moderator, I want to invite up to 15 estimators, so that we can play with large but not immense teams.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "15 estimators",
+      "large but not immense teams"
+    ],
+    "actions": [
+      "invite",
+      "play"
+    ],
+    "benefit": "we can play with large but not immense teams"
+  },
+  "categories": {
+    "primary_entities": [
+      "15 estimators",
+      "large but not immense teams"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "invite",
+      "play"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "invite",
+        "kind": "triggers"
+      },
+      {
+        "from": "invite",
+        "to": "15 estimators",
+        "kind": "targets"
+      },
+      {
+        "from": "moderator",
+        "to": "play",
+        "kind": "triggers"
+      },
+      {
+        "from": "play",
+        "to": "large but not immense teams",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1330,
+    "output": 234,
+    "time (ns)": 8227472000
+  }
+}

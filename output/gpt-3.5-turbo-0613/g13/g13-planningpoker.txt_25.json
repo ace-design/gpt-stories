@@ -1,0 +1,51 @@
+{
+  "story": "#G13# As a moderator, I want to see dates and times in my local timezone, so that I don't have to do timezone conversion myself.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "dates",
+      "times"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "I don't have to do timezone conversion myself"
+  },
+  "categories": {
+    "primary_entities": [
+      "dates",
+      "times"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "dates",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "times",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1306,
+    "output": 183,
+    "time (ns)": 5867257000
+  }
+}

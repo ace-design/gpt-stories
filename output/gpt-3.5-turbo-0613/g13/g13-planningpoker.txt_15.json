@@ -1,0 +1,56 @@
+{
+  "story": "#G13# As a moderator, I want to copy/paste stories from a spreadsheet, so that I can get started more quickly.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "spreadsheet"
+    ],
+    "actions": [
+      "copy/paste",
+      "get started"
+    ],
+    "benefit": "I can get started more quickly"
+  },
+  "categories": {
+    "primary_entities": [
+      "spreadsheet"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "copy/paste",
+      "get started"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "copy/paste",
+        "kind": "triggers"
+      },
+      {
+        "from": "copy/paste",
+        "to": "spreadsheet",
+        "kind": "targets"
+      },
+      {
+        "from": "moderator",
+        "to": "get started",
+        "kind": "triggers"
+      },
+      {
+        "from": "get started",
+        "to": "spreadsheet",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1300,
+    "output": 223,
+    "time (ns)": 7093108000
+  }
+}

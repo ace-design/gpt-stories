@@ -1,0 +1,47 @@
+{
+  "story": "#G13# As a developer, I want to have created database indexes, so that the queries run as fast as possible.\n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "database indexes",
+      "queries"
+    ],
+    "actions": [
+      "have created"
+    ],
+    "benefit": "the queries run as fast as possible"
+  },
+  "categories": {
+    "primary_entities": [
+      "database indexes"
+    ],
+    "secondary_entities": [
+      "queries"
+    ],
+    "primary_actions": [
+      "have created"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "have created",
+        "kind": "triggers"
+      },
+      {
+        "from": "have created",
+        "to": "database indexes",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1287,
+    "output": 160,
+    "time (ns)": 7910515000
+  }
+}

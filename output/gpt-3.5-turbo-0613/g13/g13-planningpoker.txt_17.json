@@ -1,0 +1,47 @@
+{
+  "story": "#G13# As a moderator, I want to view a transcript of a game, so that I can see the stories and estimates.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "transcript",
+      "game"
+    ],
+    "actions": [
+      "view"
+    ],
+    "benefit": "I can see the stories and estimates"
+  },
+  "categories": {
+    "primary_entities": [
+      "transcript"
+    ],
+    "secondary_entities": [
+      "game"
+    ],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "transcript",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1292,
+    "output": 158,
+    "time (ns)": 5073493000
+  }
+}

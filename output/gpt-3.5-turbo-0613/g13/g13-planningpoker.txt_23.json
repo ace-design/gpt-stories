@@ -1,0 +1,44 @@
+{
+  "story": "#G13# As a moderator, I want to change my account details, so that I can keep my account details up-to-date.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "account details"
+    ],
+    "actions": [
+      "change"
+    ],
+    "benefit": "I can keep my account details up-to-date."
+  },
+  "categories": {
+    "primary_entities": [
+      "account details"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "change"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "change",
+        "kind": "triggers"
+      },
+      {
+        "from": "change",
+        "to": "account details",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1290,
+    "output": 155,
+    "time (ns)": 8837408000
+  }
+}

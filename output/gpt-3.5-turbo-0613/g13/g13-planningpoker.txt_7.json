@@ -1,0 +1,47 @@
+{
+  "story": "#G13# As a moderator, I want to edit an item in the list of items to be estimated, so that I can make it better reflect the team's understanding of the item.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "item",
+      "list of items"
+    ],
+    "actions": [
+      "edit"
+    ],
+    "benefit": "make it better reflect the team's understanding of the item"
+  },
+  "categories": {
+    "primary_entities": [
+      "item"
+    ],
+    "secondary_entities": [
+      "list of items"
+    ],
+    "primary_actions": [
+      "edit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "edit",
+        "kind": "triggers"
+      },
+      {
+        "from": "edit",
+        "to": "item",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1336,
+    "output": 163,
+    "time (ns)": 8184921000
+  }
+}

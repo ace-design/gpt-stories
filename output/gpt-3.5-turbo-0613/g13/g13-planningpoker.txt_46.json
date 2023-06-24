@@ -1,0 +1,44 @@
+{
+  "story": "#G13# As a developer, I want to have the application function correctly in Internet Explorer 6 and 7, Firefox 1.5 and 2, and Safari 2, so that as many people as possible can fully use the application.\n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "application"
+    ],
+    "actions": [
+      "function correctly"
+    ],
+    "benefit": "as many people as possible can fully use the application"
+  },
+  "categories": {
+    "primary_entities": [
+      "application"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "function correctly"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "function correctly",
+        "kind": "triggers"
+      },
+      {
+        "from": "function correctly",
+        "to": "application",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1360,
+    "output": 155,
+    "time (ns)": 5970437000
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "story": "#G13# As a moderator, I want to accept the average of all estimates, so that we can move on to the next item when we agree.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "average",
+      "estimates",
+      "next item"
+    ],
+    "actions": [
+      "accept",
+      "move on"
+    ],
+    "benefit": "we can move on to the next item when we agree"
+  },
+  "categories": {
+    "primary_entities": [
+      "average",
+      "next item"
+    ],
+    "secondary_entities": [
+      "estimates"
+    ],
+    "primary_actions": [
+      "accept",
+      "move on"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "accept",
+        "kind": "triggers"
+      },
+      {
+        "from": "accept",
+        "to": "average",
+        "kind": "targets"
+      },
+      {
+        "from": "moderator",
+        "to": "move on",
+        "kind": "triggers"
+      },
+      {
+        "from": "move on",
+        "to": "next item",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1336,
+    "output": 232,
+    "time (ns)": 6894009000
+  }
+}

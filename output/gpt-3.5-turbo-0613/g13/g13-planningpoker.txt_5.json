@@ -1,0 +1,68 @@
+{
+  "story": "#G13# As a moderator, I want to select an item to be estimated or re-estimated, so that the team sees that item and can estimate it.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "item"
+    ],
+    "actions": [
+      "select",
+      "estimate",
+      "re-estimate"
+    ],
+    "benefit": "the team sees that item and can estimate it"
+  },
+  "categories": {
+    "primary_entities": [
+      "item"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "select",
+      "estimate",
+      "re-estimate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "select",
+        "kind": "triggers"
+      },
+      {
+        "from": "select",
+        "to": "item",
+        "kind": "targets"
+      },
+      {
+        "from": "moderator",
+        "to": "estimate",
+        "kind": "triggers"
+      },
+      {
+        "from": "estimate",
+        "to": "item",
+        "kind": "targets"
+      },
+      {
+        "from": "moderator",
+        "to": "re-estimate",
+        "kind": "triggers"
+      },
+      {
+        "from": "re-estimate",
+        "to": "item",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1327,
+    "output": 276,
+    "time (ns)": 8634759000
+  }
+}

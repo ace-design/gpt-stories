@@ -1,0 +1,81 @@
+{
+  "story": "#G13# As a developer, I want to have written a site which is compliant with XHTML and CSS standards, so that as many people as possible can access the site and view it as intended.\n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "site"
+    ],
+    "actions": [
+      "have written",
+      "compliant with",
+      "access",
+      "view"
+    ],
+    "benefit": "as many people as possible can access the site and view it as intended"
+  },
+  "categories": {
+    "primary_entities": [
+      "site"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have written",
+      "compliant with"
+    ],
+    "secondary_actions": [
+      "access",
+      "view"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "have written",
+        "kind": "triggers"
+      },
+      {
+        "from": "have written",
+        "to": "site",
+        "kind": "targets"
+      },
+      {
+        "from": "developer",
+        "to": "compliant with",
+        "kind": "triggers"
+      },
+      {
+        "from": "compliant with",
+        "to": "site",
+        "kind": "targets"
+      },
+      {
+        "from": "developer",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "site",
+        "kind": "targets"
+      },
+      {
+        "from": "developer",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "site",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1366,
+    "output": 337,
+    "time (ns)": 9206263000
+  }
+}

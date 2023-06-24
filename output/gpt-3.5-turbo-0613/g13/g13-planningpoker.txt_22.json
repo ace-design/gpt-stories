@@ -1,0 +1,65 @@
+{
+  "story": "#G13# As a moderator, I want to log in using my account name and password, so that I can start using the application.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "account name",
+      "password",
+      "application"
+    ],
+    "actions": [
+      "log in",
+      "start using"
+    ],
+    "benefit": "I can start using the application"
+  },
+  "categories": {
+    "primary_entities": [
+      "account name",
+      "password",
+      "application"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "log in",
+      "start using"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "log in",
+        "kind": "triggers"
+      },
+      {
+        "from": "log in",
+        "to": "account name",
+        "kind": "targets"
+      },
+      {
+        "from": "log in",
+        "to": "password",
+        "kind": "targets"
+      },
+      {
+        "from": "log in",
+        "to": "application",
+        "kind": "targets"
+      },
+      {
+        "from": "log in",
+        "to": "start using",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1318,
+    "output": 256,
+    "time (ns)": 7911345000
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "story": "#G13# As a participant, I want to immediately see that an estimate has been given by a specific estimator, so that I know who has already given an estimate and who we're still waiting for.\n",
+  "extraction": {
+    "personas": [
+      "participant"
+    ],
+    "entities": [
+      "estimate",
+      "specific estimator"
+    ],
+    "actions": [
+      "see",
+      "given",
+      "waiting for"
+    ],
+    "benefit": "know who has already given an estimate and who we're still waiting for"
+  },
+  "categories": {
+    "primary_entities": [
+      "estimate"
+    ],
+    "secondary_entities": [
+      "specific estimator"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": [
+      "given",
+      "waiting for"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "participant",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "estimate",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "specific estimator",
+        "kind": "targets"
+      },
+      {
+        "from": "given",
+        "to": "estimate",
+        "kind": "targets"
+      },
+      {
+        "from": "waiting for",
+        "to": "estimate",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1365,
+    "output": 252,
+    "time (ns)": 7605529000
+  }
+}

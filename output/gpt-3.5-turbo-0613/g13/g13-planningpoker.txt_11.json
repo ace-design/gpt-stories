@@ -1,0 +1,72 @@
+{
+  "story": "#G13# As a moderator, I want to have the \"estimate\" field filled in automatically if all estimators show the same card, so that I can accept it more quickly.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "estimate",
+      "estimators",
+      "card"
+    ],
+    "actions": [
+      "filled in automatically",
+      "show",
+      "accept"
+    ],
+    "benefit": "I can accept it more quickly"
+  },
+  "categories": {
+    "primary_entities": [
+      "estimate",
+      "estimators",
+      "card"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "filled in automatically",
+      "show",
+      "accept"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "filled in automatically",
+        "kind": "triggers"
+      },
+      {
+        "from": "filled in automatically",
+        "to": "estimate",
+        "kind": "targets"
+      },
+      {
+        "from": "estimators",
+        "to": "show",
+        "kind": "triggers"
+      },
+      {
+        "from": "show",
+        "to": "card",
+        "kind": "targets"
+      },
+      {
+        "from": "moderator",
+        "to": "accept",
+        "kind": "triggers"
+      },
+      {
+        "from": "accept",
+        "to": "estimate",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1354,
+    "output": 287,
+    "time (ns)": 8045670000
+  }
+}

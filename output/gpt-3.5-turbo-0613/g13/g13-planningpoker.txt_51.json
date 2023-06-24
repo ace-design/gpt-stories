@@ -1,0 +1,70 @@
+{
+  "story": "#G13# As a user, I want to have nice error pages when something goes wrong, so that I can trust the system and its developers.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "error pages",
+      "system",
+      "developers"
+    ],
+    "actions": [
+      "have",
+      "trust"
+    ],
+    "benefit": "I can trust the system and its developers"
+  },
+  "categories": {
+    "primary_entities": [
+      "error pages",
+      "system",
+      "developers"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "trust"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "error pages",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "system",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "developers",
+        "kind": "targets"
+      },
+      {
+        "from": "trust",
+        "to": "system",
+        "kind": "targets"
+      },
+      {
+        "from": "trust",
+        "to": "developers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1320,
+    "output": 270,
+    "time (ns)": 10357302000
+  }
+}

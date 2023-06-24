@@ -1,0 +1,68 @@
+{
+  "story": "#G13# As a participant, I want to be able to change my estimate up until the last person selects a card and all are shown, so that I can change my mind based on information I hear.\n",
+  "extraction": {
+    "personas": [
+      "participant"
+    ],
+    "entities": [
+      "estimate"
+    ],
+    "actions": [
+      "change",
+      "select",
+      "show"
+    ],
+    "benefit": "I can change my mind based on information I hear"
+  },
+  "categories": {
+    "primary_entities": [
+      "estimate"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "change",
+      "select",
+      "show"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "participant",
+        "to": "change",
+        "kind": "triggers"
+      },
+      {
+        "from": "change",
+        "to": "estimate",
+        "kind": "targets"
+      },
+      {
+        "from": "participant",
+        "to": "select",
+        "kind": "triggers"
+      },
+      {
+        "from": "select",
+        "to": "estimate",
+        "kind": "targets"
+      },
+      {
+        "from": "participant",
+        "to": "show",
+        "kind": "triggers"
+      },
+      {
+        "from": "show",
+        "to": "estimate",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1348,
+    "output": 265,
+    "time (ns)": 8234264000
+  }
+}

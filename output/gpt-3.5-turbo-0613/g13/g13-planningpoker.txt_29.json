@@ -1,0 +1,71 @@
+{
+  "story": "#G13# As an estimator, I want to join a game by entering my name on the page I received the URL for, so that I can participate.\n",
+  "extraction": {
+    "personas": [
+      "estimator"
+    ],
+    "entities": [
+      "game",
+      "page",
+      "URL"
+    ],
+    "actions": [
+      "join",
+      "entering",
+      "received",
+      "participate"
+    ],
+    "benefit": "I can participate"
+  },
+  "categories": {
+    "primary_entities": [
+      "game"
+    ],
+    "secondary_entities": [
+      "page",
+      "URL"
+    ],
+    "primary_actions": [
+      "join"
+    ],
+    "secondary_actions": [
+      "entering",
+      "received",
+      "participate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "estimator",
+        "to": "join",
+        "kind": "triggers"
+      },
+      {
+        "from": "join",
+        "to": "game",
+        "kind": "targets"
+      },
+      {
+        "from": "entering",
+        "to": "page",
+        "kind": "targets"
+      },
+      {
+        "from": "received",
+        "to": "URL",
+        "kind": "targets"
+      },
+      {
+        "from": "participate",
+        "to": "game",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1339,
+    "output": 258,
+    "time (ns)": 7594263000
+  }
+}

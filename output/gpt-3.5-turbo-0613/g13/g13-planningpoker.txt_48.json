@@ -1,0 +1,44 @@
+{
+  "story": "#G13# As a user, I want to have the application respond quickly to my actions, so that I don't get bored.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "application"
+    ],
+    "actions": [
+      "respond"
+    ],
+    "benefit": "I don't get bored"
+  },
+  "categories": {
+    "primary_entities": [
+      "application"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "respond"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "respond",
+        "kind": "triggers"
+      },
+      {
+        "from": "respond",
+        "to": "application",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1275,
+    "output": 146,
+    "time (ns)": 5717831000
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "story": "#G13# As a moderator, I want to start a round by entering an item in a single multi-line text field, so that we can estimate it.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "round",
+      "item"
+    ],
+    "actions": [
+      "start",
+      "enter"
+    ],
+    "benefit": "we can estimate it"
+  },
+  "categories": {
+    "primary_entities": [
+      "round",
+      "item"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "start"
+    ],
+    "secondary_actions": [
+      "enter"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "start",
+        "kind": "triggers"
+      },
+      {
+        "from": "start",
+        "to": "round",
+        "kind": "targets"
+      },
+      {
+        "from": "start",
+        "to": "item",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1306,
+    "output": 183,
+    "time (ns)": 5589337000
+  }
+}

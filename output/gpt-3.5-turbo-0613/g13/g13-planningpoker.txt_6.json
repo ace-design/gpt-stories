@@ -1,0 +1,51 @@
+{
+  "story": "#G13# As a moderator, I want to add an item to the list of items to be estimated, so that so that we can be flexible and accommodate situations where we think of a new story while playing.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "item",
+      "list of items to be estimated"
+    ],
+    "actions": [
+      "add"
+    ],
+    "benefit": "we can be flexible and accommodate situations where we think of a new story while playing"
+  },
+  "categories": {
+    "primary_entities": [
+      "item",
+      "list of items to be estimated"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "add"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "item",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "list of items to be estimated",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1371,
+    "output": 205,
+    "time (ns)": 6274527000
+  }
+}

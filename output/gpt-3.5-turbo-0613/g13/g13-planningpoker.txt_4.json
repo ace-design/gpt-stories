@@ -1,0 +1,71 @@
+{
+  "story": "#G13# As a moderator, I want to see all items we try to estimate this session, so that I can answer questions about the current story such as \"does this include ___\".\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "items",
+      "this session"
+    ],
+    "actions": [
+      "see",
+      "try to estimate"
+    ],
+    "benefit": "answer questions about the current story"
+  },
+  "categories": {
+    "primary_entities": [
+      "items"
+    ],
+    "secondary_entities": [
+      "this session"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": [
+      "try to estimate",
+      "answer questions about the current story"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "items",
+        "kind": "targets"
+      },
+      {
+        "from": "moderator",
+        "to": "try to estimate",
+        "kind": "triggers"
+      },
+      {
+        "from": "try to estimate",
+        "to": "items",
+        "kind": "targets"
+      },
+      {
+        "from": "moderator",
+        "to": "answer questions about the current story",
+        "kind": "triggers"
+      },
+      {
+        "from": "answer questions about the current story",
+        "to": "items",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1344,
+    "output": 291,
+    "time (ns)": 8095874000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G13# As an estimator, I want to see all items we will try to estimate this session, so that I have a feel for the sizes of the various items.\n",
+  "extraction": {
+    "personas": [
+      "estimator"
+    ],
+    "entities": [
+      "items"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "have a feel for the sizes of the various items"
+  },
+  "categories": {
+    "primary_entities": [
+      "items"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "estimator",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "items",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1311,
+    "output": 153,
+    "time (ns)": 6006929000
+  }
+}

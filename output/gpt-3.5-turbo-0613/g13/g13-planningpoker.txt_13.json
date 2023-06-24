@@ -1,0 +1,49 @@
+{
+  "story": "#G13# As a moderator, I want to estimate a story we estimated earlier in the session again, so that we can give a new estimate if we feel different about the story after estimating other related stories.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "story"
+    ],
+    "actions": [
+      "estimate",
+      "feel different",
+      "estimating other related stories"
+    ],
+    "benefit": "give a new estimate if we feel different about the story after estimating other related stories"
+  },
+  "categories": {
+    "primary_entities": [
+      "story"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "estimate"
+    ],
+    "secondary_actions": [
+      "feel different",
+      "estimating other related stories"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "estimate",
+        "kind": "triggers"
+      },
+      {
+        "from": "estimate",
+        "to": "story",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1375,
+    "output": 180,
+    "time (ns)": 7426037000
+  }
+}

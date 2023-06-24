@@ -1,0 +1,44 @@
+{
+  "story": "#G13# As an estimator, I want to see the item we're estimating, so that I know what I'm giving an estimate for.\n",
+  "extraction": {
+    "personas": [
+      "estimator"
+    ],
+    "entities": [
+      "item"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "know what I'm giving an estimate for"
+  },
+  "categories": {
+    "primary_entities": [
+      "item"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "estimator",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "item",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1289,
+    "output": 151,
+    "time (ns)": 4953527000
+  }
+}

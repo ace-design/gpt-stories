@@ -1,0 +1,126 @@
+{
+  "story": "#G13# As a participant, I want to scroll back through the stories and estimates from prior rounds, so that I can use this information when I estimate the item of the current round.\n",
+  "extraction": {
+    "personas": [
+      "participant"
+    ],
+    "entities": [
+      "stories",
+      "estimates",
+      "prior rounds",
+      "item",
+      "current round"
+    ],
+    "actions": [
+      "scroll back",
+      "use",
+      "estimate"
+    ],
+    "benefit": "I can use this information when I estimate the item of the current round"
+  },
+  "categories": {
+    "primary_entities": [
+      "stories",
+      "estimates",
+      "prior rounds",
+      "item",
+      "current round"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "scroll back",
+      "use",
+      "estimate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "participant",
+        "to": "scroll back",
+        "kind": "triggers"
+      },
+      {
+        "from": "scroll back",
+        "to": "stories",
+        "kind": "targets"
+      },
+      {
+        "from": "scroll back",
+        "to": "estimates",
+        "kind": "targets"
+      },
+      {
+        "from": "scroll back",
+        "to": "prior rounds",
+        "kind": "targets"
+      },
+      {
+        "from": "scroll back",
+        "to": "item",
+        "kind": "targets"
+      },
+      {
+        "from": "scroll back",
+        "to": "current round",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "stories",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "estimates",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "prior rounds",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "item",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "current round",
+        "kind": "targets"
+      },
+      {
+        "from": "estimate",
+        "to": "stories",
+        "kind": "targets"
+      },
+      {
+        "from": "estimate",
+        "to": "estimates",
+        "kind": "targets"
+      },
+      {
+        "from": "estimate",
+        "to": "prior rounds",
+        "kind": "targets"
+      },
+      {
+        "from": "estimate",
+        "to": "item",
+        "kind": "targets"
+      },
+      {
+        "from": "estimate",
+        "to": "current round",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1392,
+    "output": 564,
+    "time (ns)": 15388016000
+  }
+}

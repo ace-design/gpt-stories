@@ -1,0 +1,61 @@
+{
+  "story": "#G13# As a moderator, I want to export a transcript of a game as a CSV file, so that I can further process the stories and estimates.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "transcript",
+      "game",
+      "CSV file"
+    ],
+    "actions": [
+      "export",
+      "process"
+    ],
+    "benefit": "I can further process the stories and estimates"
+  },
+  "categories": {
+    "primary_entities": [
+      "transcript",
+      "game",
+      "CSV file"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "export"
+    ],
+    "secondary_actions": [
+      "process"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "export",
+        "kind": "triggers"
+      },
+      {
+        "from": "export",
+        "to": "transcript",
+        "kind": "targets"
+      },
+      {
+        "from": "export",
+        "to": "game",
+        "kind": "targets"
+      },
+      {
+        "from": "export",
+        "to": "CSV file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1329,
+    "output": 224,
+    "time (ns)": 7431791000
+  }
+}

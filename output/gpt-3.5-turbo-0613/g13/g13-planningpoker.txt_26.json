@@ -1,0 +1,67 @@
+{
+  "story": "#G13# As a moderator, I want to get a password reminder by email, so that I can get back to using the application when I've forgotten my password.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "password reminder",
+      "email",
+      "application"
+    ],
+    "actions": [
+      "get",
+      "use",
+      "forgotten"
+    ],
+    "benefit": "I can get back to using the application when I've forgotten my password."
+  },
+  "categories": {
+    "primary_entities": [
+      "password reminder",
+      "email",
+      "application"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "get",
+      "use",
+      "forgotten"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "password reminder",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "email",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "application",
+        "kind": "targets"
+      },
+      {
+        "from": "forgotten",
+        "to": "password reminder",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1360,
+    "output": 263,
+    "time (ns)": 7926685000
+  }
+}

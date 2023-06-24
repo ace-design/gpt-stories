@@ -1,0 +1,57 @@
+{
+  "story": "#G13# As a participant, I want to have the two-minute timer reset itself as soon as we all play an estimate, so that it's ready for use on the next round.\n",
+  "extraction": {
+    "personas": [
+      "participant"
+    ],
+    "entities": [
+      "two-minute timer"
+    ],
+    "actions": [
+      "reset",
+      "play an estimate"
+    ],
+    "benefit": "it's ready for use on the next round"
+  },
+  "categories": {
+    "primary_entities": [
+      "two-minute timer"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "reset"
+    ],
+    "secondary_actions": [
+      "play an estimate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "participant",
+        "to": "reset",
+        "kind": "triggers"
+      },
+      {
+        "from": "reset",
+        "to": "two-minute timer",
+        "kind": "targets"
+      },
+      {
+        "from": "participant",
+        "to": "play an estimate",
+        "kind": "triggers"
+      },
+      {
+        "from": "play an estimate",
+        "to": "two-minute timer",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1335,
+    "output": 222,
+    "time (ns)": 6631580000
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "story": "#G13# As a moderator, I want to export a transcript of a game as a HTML file, so that I can save the stories and estimates locally.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "transcript",
+      "game",
+      "HTML file"
+    ],
+    "actions": [
+      "export",
+      "save"
+    ],
+    "benefit": "I can save the stories and estimates locally"
+  },
+  "categories": {
+    "primary_entities": [
+      "transcript",
+      "game",
+      "HTML file"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "export",
+      "save"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "export",
+        "kind": "triggers"
+      },
+      {
+        "from": "export",
+        "to": "transcript",
+        "kind": "targets"
+      },
+      {
+        "from": "moderator",
+        "to": "save",
+        "kind": "triggers"
+      },
+      {
+        "from": "save",
+        "to": "game",
+        "kind": "targets"
+      },
+      {
+        "from": "moderator",
+        "to": "save",
+        "kind": "triggers"
+      },
+      {
+        "from": "save",
+        "to": "HTML file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1331,
+    "output": 279,
+    "time (ns)": 7998150000
+  }
+}

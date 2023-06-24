@@ -1,0 +1,51 @@
+{
+  "story": "#G13# As a moderator, I want to delete an item from the list of items to be estimated, so that we can remove it and not estimate it.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "item",
+      "list of items to be estimated"
+    ],
+    "actions": [
+      "delete"
+    ],
+    "benefit": "we can remove it and not estimate it"
+  },
+  "categories": {
+    "primary_entities": [
+      "item",
+      "list of items to be estimated"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "delete"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "delete",
+        "kind": "triggers"
+      },
+      {
+        "from": "delete",
+        "to": "item",
+        "kind": "targets"
+      },
+      {
+        "from": "delete",
+        "to": "list of items to be estimated",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1325,
+    "output": 197,
+    "time (ns)": 5893295000
+  }
+}

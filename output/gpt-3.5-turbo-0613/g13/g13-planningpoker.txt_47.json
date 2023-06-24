@@ -1,0 +1,72 @@
+{
+  "story": "#G13# As a developer, I want to have the site comply with the W3C accessibility guidelines where possible, so that people with accessibility issues can use the application.\n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "site",
+      "W3C accessibility guidelines",
+      "application"
+    ],
+    "actions": [
+      "comply",
+      "use"
+    ],
+    "benefit": "people with accessibility issues can use the application"
+  },
+  "categories": {
+    "primary_entities": [
+      "site"
+    ],
+    "secondary_entities": [
+      "W3C accessibility guidelines",
+      "application"
+    ],
+    "primary_actions": [
+      "comply"
+    ],
+    "secondary_actions": [
+      "use"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "comply",
+        "kind": "triggers"
+      },
+      {
+        "from": "comply",
+        "to": "site",
+        "kind": "targets"
+      },
+      {
+        "from": "comply",
+        "to": "W3C accessibility guidelines",
+        "kind": "targets"
+      },
+      {
+        "from": "comply",
+        "to": "application",
+        "kind": "targets"
+      },
+      {
+        "from": "people with accessibility issues",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "application",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1344,
+    "output": 287,
+    "time (ns)": 9081471000
+  }
+}

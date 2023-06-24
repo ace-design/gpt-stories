@@ -1,0 +1,47 @@
+{
+  "story": "#G13# As a user, I want to be able to use Unicode, so that I can use any language I like.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "Unicode",
+      "language"
+    ],
+    "actions": [
+      "use"
+    ],
+    "benefit": "I can use any language I like"
+  },
+  "categories": {
+    "primary_entities": [
+      "Unicode"
+    ],
+    "secondary_entities": [
+      "language"
+    ],
+    "primary_actions": [
+      "use"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "Unicode",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1284,
+    "output": 153,
+    "time (ns)": 5869882000
+  }
+}

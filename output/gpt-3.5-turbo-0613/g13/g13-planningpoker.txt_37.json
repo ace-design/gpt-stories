@@ -1,0 +1,47 @@
+{
+  "story": "#G13# As a participant, I want to be able start a two-minute countdown timer that all participants can see, so that I can limit the time spent discussing the estimates when I think we've talked long enough.\n",
+  "extraction": {
+    "personas": [
+      "participant"
+    ],
+    "entities": [
+      "two-minute countdown timer",
+      "participants"
+    ],
+    "actions": [
+      "start"
+    ],
+    "benefit": "limit the time spent discussing the estimates when I think we've talked long enough"
+  },
+  "categories": {
+    "primary_entities": [
+      "two-minute countdown timer"
+    ],
+    "secondary_entities": [
+      "participants"
+    ],
+    "primary_actions": [
+      "start"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "participant",
+        "to": "start",
+        "kind": "triggers"
+      },
+      {
+        "from": "start",
+        "to": "two-minute countdown timer",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1363,
+    "output": 170,
+    "time (ns)": 5097697000
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "story": "#G13# As a moderator, I want to delete a game, so that stories and estimates for this game are no longer stored.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "game",
+      "stories",
+      "estimates"
+    ],
+    "actions": [
+      "delete"
+    ],
+    "benefit": "stories and estimates for this game are no longer stored"
+  },
+  "categories": {
+    "primary_entities": [
+      "game"
+    ],
+    "secondary_entities": [
+      "stories",
+      "estimates"
+    ],
+    "primary_actions": [
+      "delete"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "delete",
+        "kind": "triggers"
+      },
+      {
+        "from": "delete",
+        "to": "game",
+        "kind": "targets"
+      },
+      {
+        "from": "delete",
+        "to": "stories",
+        "kind": "targets"
+      },
+      {
+        "from": "delete",
+        "to": "estimates",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1307,
+    "output": 217,
+    "time (ns)": 7645570000
+  }
+}

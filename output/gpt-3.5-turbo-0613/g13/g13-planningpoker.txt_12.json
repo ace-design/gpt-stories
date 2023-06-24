@@ -1,0 +1,58 @@
+{
+  "story": "#G13# As a moderator, I want to enter the agreed-upon estimate, so that we can move on to the next item when we agree.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "agreed-upon estimate",
+      "next item"
+    ],
+    "actions": [
+      "enter",
+      "move on"
+    ],
+    "benefit": "we can move on to the next item when we agree"
+  },
+  "categories": {
+    "primary_entities": [
+      "agreed-upon estimate",
+      "next item"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "enter",
+      "move on"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "enter",
+        "kind": "triggers"
+      },
+      {
+        "from": "enter",
+        "to": "agreed-upon estimate",
+        "kind": "targets"
+      },
+      {
+        "from": "moderator",
+        "to": "move on",
+        "kind": "triggers"
+      },
+      {
+        "from": "move on",
+        "to": "next item",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1337,
+    "output": 237,
+    "time (ns)": 6932803000
+  }
+}

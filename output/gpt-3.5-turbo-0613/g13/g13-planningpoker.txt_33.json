@@ -1,0 +1,72 @@
+{
+  "story": "#G13# As a participant, I want to be shown all estimates at the same time after all estimators have given their estimate, so that I can be sure estimates are independent and not influenced by other estimates given in the same draw.\n",
+  "extraction": {
+    "personas": [
+      "participant"
+    ],
+    "entities": [
+      "estimates",
+      "estimators"
+    ],
+    "actions": [
+      "be shown",
+      "given",
+      "influenced"
+    ],
+    "benefit": "be sure estimates are independent and not influenced by other estimates given in the same draw"
+  },
+  "categories": {
+    "primary_entities": [
+      "estimates"
+    ],
+    "secondary_entities": [
+      "estimators"
+    ],
+    "primary_actions": [
+      "be shown"
+    ],
+    "secondary_actions": [
+      "given",
+      "influenced"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "participant",
+        "to": "be shown",
+        "kind": "triggers"
+      },
+      {
+        "from": "be shown",
+        "to": "estimates",
+        "kind": "targets"
+      },
+      {
+        "from": "estimators",
+        "to": "given",
+        "kind": "triggers"
+      },
+      {
+        "from": "given",
+        "to": "estimates",
+        "kind": "targets"
+      },
+      {
+        "from": "estimates",
+        "to": "influenced",
+        "kind": "triggers"
+      },
+      {
+        "from": "influenced",
+        "to": "estimates",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1399,
+    "output": 296,
+    "time (ns)": 8588800000
+  }
+}

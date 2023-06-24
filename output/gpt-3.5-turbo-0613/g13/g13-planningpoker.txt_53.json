@@ -1,0 +1,51 @@
+{
+  "story": "#G13# As a Mike, I want to be able to see some metrics on use of the game, so that I can see how much it is being used.\n",
+  "extraction": {
+    "personas": [
+      "Mike"
+    ],
+    "entities": [
+      "metrics",
+      "game"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "I can see how much the game is being used"
+  },
+  "categories": {
+    "primary_entities": [
+      "metrics",
+      "game"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Mike",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "metrics",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "game",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1315,
+    "output": 182,
+    "time (ns)": 5666305000
+  }
+}

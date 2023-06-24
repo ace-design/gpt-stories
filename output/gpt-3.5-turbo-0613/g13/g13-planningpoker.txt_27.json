@@ -1,0 +1,44 @@
+{
+  "story": "#G13# As a moderator, I want to select whether to have the team estimate with {0, 1/2, 1, 2, 3, 5, 8, etc.} or {0, 1, 2, 4, 8, 16, 32, etc.}, so that the team can use either the modified Fibonacci sequence or powers of 2.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "team"
+    ],
+    "actions": [
+      "select"
+    ],
+    "benefit": "the team can use either the modified Fibonacci sequence or powers of 2"
+  },
+  "categories": {
+    "primary_entities": [
+      "team"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "select"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "select",
+        "kind": "triggers"
+      },
+      {
+        "from": "select",
+        "to": "team",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1472,
+    "output": 157,
+    "time (ns)": 4944975000
+  }
+}

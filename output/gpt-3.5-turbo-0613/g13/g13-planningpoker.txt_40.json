@@ -1,0 +1,56 @@
+{
+  "story": "#G13# As a participant, I want to always have the cards in the same order across multiple draws, so that it's easy to compare estimates.\n",
+  "extraction": {
+    "personas": [
+      "participant"
+    ],
+    "entities": [
+      "cards"
+    ],
+    "actions": [
+      "have",
+      "compare"
+    ],
+    "benefit": "it's easy to compare estimates"
+  },
+  "categories": {
+    "primary_entities": [
+      "cards"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "compare"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "participant",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "cards",
+        "kind": "targets"
+      },
+      {
+        "from": "participant",
+        "to": "compare",
+        "kind": "triggers"
+      },
+      {
+        "from": "compare",
+        "to": "cards",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1298,
+    "output": 204,
+    "time (ns)": 6387719000
+  }
+}

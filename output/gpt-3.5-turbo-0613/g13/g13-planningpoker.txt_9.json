@@ -1,0 +1,44 @@
+{
+  "story": "#G13# As a moderator, I want to show all estimates immediately, so that I can decide to show the estimates that have been given even though not all estimators have given their estimate.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "estimates"
+    ],
+    "actions": [
+      "show"
+    ],
+    "benefit": "I can decide to show the estimates that have been given even though not all estimators have given their estimate."
+  },
+  "categories": {
+    "primary_entities": [
+      "estimates"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "show"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "show",
+        "kind": "triggers"
+      },
+      {
+        "from": "show",
+        "to": "estimates",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1350,
+    "output": 167,
+    "time (ns)": 5254596000
+  }
+}

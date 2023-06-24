@@ -1,0 +1,52 @@
+{
+  "story": "#G13# As a moderator, I want to delete my account, so that account information and games are no longer stored.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "account",
+      "games"
+    ],
+    "actions": [
+      "delete"
+    ],
+    "benefit": "account information and games are no longer stored"
+  },
+  "categories": {
+    "primary_entities": [
+      "account"
+    ],
+    "secondary_entities": [
+      "games"
+    ],
+    "primary_actions": [
+      "delete"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "delete",
+        "kind": "triggers"
+      },
+      {
+        "from": "delete",
+        "to": "account",
+        "kind": "targets"
+      },
+      {
+        "from": "delete",
+        "to": "games",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1285,
+    "output": 181,
+    "time (ns)": 5867371000
+  }
+}

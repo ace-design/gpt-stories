@@ -1,0 +1,44 @@
+{
+  "story": "#G13# As a moderator, I want to browse through previous games, so that I can find the previous game I'm looking for.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "previous games"
+    ],
+    "actions": [
+      "browse"
+    ],
+    "benefit": "I can find the previous game I'm looking for"
+  },
+  "categories": {
+    "primary_entities": [
+      "previous games"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "browse"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "browse",
+        "kind": "triggers"
+      },
+      {
+        "from": "browse",
+        "to": "previous games",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1293,
+    "output": 156,
+    "time (ns)": 4871654000
+  }
+}

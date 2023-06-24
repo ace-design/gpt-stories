@@ -1,0 +1,71 @@
+{
+  "story": "#G13# As a moderator, I want to create a new game by entering a name and an optional description, so that I can start inviting estimators.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "new game",
+      "name",
+      "optional description",
+      "estimators"
+    ],
+    "actions": [
+      "create",
+      "entering",
+      "start inviting"
+    ],
+    "benefit": "I can start inviting estimators"
+  },
+  "categories": {
+    "primary_entities": [
+      "new game"
+    ],
+    "secondary_entities": [
+      "name",
+      "optional description",
+      "estimators"
+    ],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": [
+      "entering",
+      "start inviting"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "new game",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "name",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "optional description",
+        "kind": "targets"
+      },
+      {
+        "from": "start inviting",
+        "to": "estimators",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1351,
+    "output": 266,
+    "time (ns)": 7861550000
+  }
+}

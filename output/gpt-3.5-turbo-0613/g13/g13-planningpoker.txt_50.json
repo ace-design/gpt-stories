@@ -1,0 +1,35 @@
+{
+  "story": "#G13# As a user, I want to see sensible and predictable URLs, so that the application feels logical and transparent.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [],
+    "actions": [
+      "see"
+    ],
+    "benefit": "the application feels logical and transparent"
+  },
+  "categories": {
+    "primary_entities": [],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "see",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1265,
+    "output": 118,
+    "time (ns)": 3941305000
+  }
+}

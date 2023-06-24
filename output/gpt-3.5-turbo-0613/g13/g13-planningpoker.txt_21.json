@@ -1,0 +1,54 @@
+{
+  "story": "#G13# As a moderator, I want to create an account for the application by entering my name, email address, a password and a username, so that I can start using the application.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "account",
+      "application"
+    ],
+    "actions": [
+      "create",
+      "enter"
+    ],
+    "benefit": "I can start using the application"
+  },
+  "categories": {
+    "primary_entities": [
+      "account",
+      "application"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": [
+      "enter"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "account",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "application",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1331,
+    "output": 185,
+    "time (ns)": 5761849000
+  }
+}

@@ -1,0 +1,384 @@
+START: 09:50:47
+# Processing g13-planningpoker.txt
+- Story #[1] -- started at 09:50:47
+    - #G13# As a moderator, I want to create a new game by entering a name and an optional description, so that I can start inviting estimators.
+
+        - calling model 09:50:47
+        - calling model 09:50:51
+        - calling model 09:50:55
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_1.json
+- Story #[2] -- started at 09:51:01
+    - #G13# As a moderator, I want to invite estimators by giving them a URL where they can access the game, so that we can start the game.
+
+        - calling model 09:51:01
+        - calling model 09:51:04
+        - calling model 09:51:08
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_2.json
+- Story #[3] -- started at 09:51:15
+    - #G13# As a moderator, I want to start a round by entering an item in a single multi-line text field, so that we can estimate it.
+
+        - calling model 09:51:15
+        - calling model 09:51:19
+        - calling model 09:51:22
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_3.json
+- Story #[4] -- started at 09:51:27
+    - #G13# As a moderator, I want to see all items we try to estimate this session, so that I can answer questions about the current story such as "does this include ___".
+
+        - calling model 09:51:27
+        - calling model 09:51:30
+        - calling model 09:51:34
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_4.json
+- Story #[5] -- started at 09:51:41
+    - #G13# As a moderator, I want to select an item to be estimated or re-estimated, so that the team sees that item and can estimate it.
+
+        - calling model 09:51:41
+        - calling model 09:51:45
+       - exception caught! Pausing for 60 seconds
+        - calling model 09:53:15
+        - calling model 09:53:19
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_5.json
+- Story #[6] -- started at 09:53:25
+    - #G13# As a moderator, I want to add an item to the list of items to be estimated, so that so that we can be flexible and accommodate situations where we think of a new story while playing.
+
+        - calling model 09:53:25
+        - calling model 09:53:29
+        - calling model 09:53:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_6.json
+- Story #[7] -- started at 09:53:38
+    - #G13# As a moderator, I want to edit an item in the list of items to be estimated, so that I can make it better reflect the team's understanding of the item.
+
+        - calling model 09:53:38
+        - calling model 09:53:41
+        - calling model 09:53:48
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_7.json
+- Story #[8] -- started at 09:53:52
+    - #G13# As a moderator, I want to delete an item from the list of items to be estimated, so that we can remove it and not estimate it.
+
+        - calling model 09:53:52
+        - calling model 09:53:56
+        - calling model 09:53:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_8.json
+- Story #[9] -- started at 09:54:04
+    - #G13# As a moderator, I want to show all estimates immediately, so that I can decide to show the estimates that have been given even though not all estimators have given their estimate.
+
+        - calling model 09:54:04
+        - calling model 09:54:08
+        - calling model 09:54:11
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_9.json
+- Story #[10] -- started at 09:54:15
+    - #G13# As a moderator, I want to accept the average of all estimates, so that we can move on to the next item when we agree.
+
+        - calling model 09:54:15
+        - calling model 09:54:19
+        - calling model 09:54:23
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_10.json
+- Story #[11] -- started at 09:54:28
+    - #G13# As a moderator, I want to have the "estimate" field filled in automatically if all estimators show the same card, so that I can accept it more quickly.
+
+        - calling model 09:54:28
+        - calling model 09:54:32
+        - calling model 09:54:35
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_11.json
+- Story #[12] -- started at 09:54:42
+    - #G13# As a moderator, I want to enter the agreed-upon estimate, so that we can move on to the next item when we agree.
+
+        - calling model 09:54:42
+       - exception caught! Pausing for 60 seconds
+        - calling model 09:56:12
+        - calling model 09:56:16
+        - calling model 09:56:20
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_12.json
+- Story #[13] -- started at 09:56:25
+    - #G13# As a moderator, I want to estimate a story we estimated earlier in the session again, so that we can give a new estimate if we feel different about the story after estimating other related stories.
+
+        - calling model 09:56:25
+        - calling model 09:56:29
+        - calling model 09:56:34
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_13.json
+- Story #[14] -- started at 09:56:38
+    - #G13# As a moderator, I want to import stories from a spreadsheet, so that I don't have to copy and paste each individual story.
+
+        - calling model 09:56:38
+        - calling model 09:56:42
+        - calling model 09:56:46
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_14.json
+- Story #[15] -- started at 09:56:50
+    - #G13# As a moderator, I want to copy/paste stories from a spreadsheet, so that I can get started more quickly.
+
+        - calling model 09:56:50
+        - calling model 09:56:54
+        - calling model 09:56:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_15.json
+- Story #[16] -- started at 09:57:03
+    - #G13# As a moderator, I want to browse through previous games, so that I can find the previous game I'm looking for.
+
+        - calling model 09:57:03
+        - calling model 09:57:06
+        - calling model 09:57:10
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_16.json
+- Story #[17] -- started at 09:57:14
+    - #G13# As a moderator, I want to view a transcript of a game, so that I can see the stories and estimates.
+
+        - calling model 09:57:14
+        - calling model 09:57:17
+       - exception caught! Pausing for 60 seconds
+        - calling model 09:58:47
+        - calling model 09:58:51
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_17.json
+- Story #[18] -- started at 09:58:55
+    - #G13# As a moderator, I want to export a transcript of a game as a HTML file, so that I can save the stories and estimates locally.
+
+        - calling model 09:58:55
+        - calling model 09:58:59
+        - calling model 09:59:02
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_18.json
+- Story #[19] -- started at 09:59:09
+    - #G13# As a moderator, I want to export a transcript of a game as a CSV file, so that I can further process the stories and estimates.
+
+        - calling model 09:59:09
+        - calling model 09:59:12
+        - calling model 09:59:16
+       - exception caught! Pausing for 60 seconds
+        - calling model 10:00:46
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_19.json
+- Story #[20] -- started at 10:00:52
+    - #G13# As a moderator, I want to delete a game, so that stories and estimates for this game are no longer stored.
+
+        - calling model 10:00:52
+        - calling model 10:00:56
+        - calling model 10:01:01
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_20.json
+- Story #[21] -- started at 10:01:06
+    - #G13# As a moderator, I want to create an account for the application by entering my name, email address, a password and a username, so that I can start using the application.
+
+        - calling model 10:01:06
+        - calling model 10:01:09
+        - calling model 10:01:13
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_21.json
+- Story #[22] -- started at 10:01:18
+    - #G13# As a moderator, I want to log in using my account name and password, so that I can start using the application.
+
+        - calling model 10:01:18
+        - calling model 10:01:21
+        - calling model 10:01:25
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_22.json
+- Story #[23] -- started at 10:01:32
+    - #G13# As a moderator, I want to change my account details, so that I can keep my account details up-to-date.
+
+        - calling model 10:01:32
+        - calling model 10:01:35
+        - calling model 10:01:42
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_23.json
+- Story #[24] -- started at 10:01:46
+    - #G13# As a moderator, I want to delete my account, so that account information and games are no longer stored.
+
+        - calling model 10:01:46
+        - calling model 10:01:50
+        - calling model 10:01:54
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_24.json
+- Story #[25] -- started at 10:01:58
+    - #G13# As a moderator, I want to see dates and times in my local timezone, so that I don't have to do timezone conversion myself.
+
+        - calling model 10:01:58
+        - calling model 10:02:02
+        - calling model 10:02:06
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_25.json
+- Story #[26] -- started at 10:02:10
+    - #G13# As a moderator, I want to get a password reminder by email, so that I can get back to using the application when I've forgotten my password.
+
+        - calling model 10:02:10
+        - calling model 10:02:14
+        - calling model 10:02:18
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_26.json
+- Story #[27] -- started at 10:02:24
+    - #G13# As a moderator, I want to select whether to have the team estimate with {0, 1/2, 1, 2, 3, 5, 8, etc.} or {0, 1, 2, 4, 8, 16, 32, etc.}, so that the team can use either the modified Fibonacci sequence or powers of 2.
+
+        - calling model 10:02:24
+        - calling model 10:02:28
+        - calling model 10:02:31
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_27.json
+- Story #[28] -- started at 10:02:35
+    - #G13# As a moderator, I want to invite up to 15 estimators, so that we can play with large but not immense teams.
+
+        - calling model 10:02:35
+        - calling model 10:02:39
+        - calling model 10:02:43
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_28.json
+- Story #[29] -- started at 10:02:49
+    - #G13# As an estimator, I want to join a game by entering my name on the page I received the URL for, so that I can participate.
+
+        - calling model 10:02:49
+        - calling model 10:02:53
+        - calling model 10:02:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_29.json
+- Story #[30] -- started at 10:03:03
+    - #G13# As an estimator, I want to see the item we're estimating, so that I know what I'm giving an estimate for.
+
+        - calling model 10:03:03
+        - calling model 10:03:07
+        - calling model 10:03:10
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_30.json
+- Story #[31] -- started at 10:03:14
+    - #G13# As an estimator, I want to see all items we will try to estimate this session, so that I have a feel for the sizes of the various items.
+
+        - calling model 10:03:14
+        - calling model 10:03:18
+        - calling model 10:03:21
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_31.json
+- Story #[32] -- started at 10:03:26
+    - #G13# As a participant, I want to immediately see that an estimate has been given by a specific estimator, so that I know who has already given an estimate and who we're still waiting for.
+
+        - calling model 10:03:26
+        - calling model 10:03:30
+        - calling model 10:03:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_32.json
+- Story #[33] -- started at 10:03:40
+    - #G13# As a participant, I want to be shown all estimates at the same time after all estimators have given their estimate, so that I can be sure estimates are independent and not influenced by other estimates given in the same draw.
+
+        - calling model 10:03:40
+        - calling model 10:03:44
+        - calling model 10:03:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_33.json
+- Story #[34] -- started at 10:03:54
+    - #G13# As a participant, I want to be able to change my estimate up until the last person selects a card and all are shown, so that I can change my mind based on information I hear.
+
+        - calling model 10:03:54
+        - calling model 10:03:58
+        - calling model 10:04:01
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_34.json
+- Story #[35] -- started at 10:04:08
+    - #G13# As a participant, I want to be able to see each estimator's prior estimates for the story being estimated, so that I can see how his or her opinion has changed so I can ask questions.
+
+        - calling model 10:04:08
+        - calling model 10:04:13
+        - calling model 10:04:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_35.json
+- Story #[36] -- started at 10:04:22
+    - #G13# As a participant, I want to see who gave what estimates during the current round, so that I know this when we're discussing the estimates.
+
+        - calling model 10:04:22
+        - calling model 10:04:25
+        - calling model 10:04:29
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_36.json
+- Story #[37] -- started at 10:04:37
+    - #G13# As a participant, I want to be able start a two-minute countdown timer that all participants can see, so that I can limit the time spent discussing the estimates when I think we've talked long enough.
+
+        - calling model 10:04:37
+        - calling model 10:04:40
+        - calling model 10:04:44
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_37.json
+- Story #[38] -- started at 10:04:48
+    - #G13# As a participant, I want to have the two-minute timer reset itself as soon as we all play an estimate, so that it's ready for use on the next round.
+
+        - calling model 10:04:48
+        - calling model 10:04:52
+        - calling model 10:04:55
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_38.json
+- Story #[39] -- started at 10:05:01
+    - #G13# As a participant, I want to scroll back through the stories and estimates from prior rounds, so that I can use this information when I estimate the item of the current round.
+
+        - calling model 10:05:01
+        - calling model 10:05:05
+        - calling model 10:05:08
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_39.json
+- Story #[40] -- started at 10:05:22
+    - #G13# As a participant, I want to always have the cards in the same order across multiple draws, so that it's easy to compare estimates.
+
+        - calling model 10:05:22
+       - exception caught! Pausing for 60 seconds
+        - calling model 10:06:52
+        - calling model 10:06:56
+        - calling model 10:06:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_40.json
+- Story #[41] -- started at 10:07:04
+    - #G13# As a participant, I want to change my estimate as long as the draw has not been completed, so that I can change my mind.
+
+        - calling model 10:07:04
+        - calling model 10:07:08
+        - calling model 10:07:11
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_41.json
+- Story #[42] -- started at 10:07:16
+    - #G13# As a participant, I want to have a small thumbnail photo displayed near where my cards are played, so that the game is more personal because I see who I'm estimating with.
+
+        - calling model 10:07:16
+        - calling model 10:07:19
+        - calling model 10:07:23
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_42.json
+- Story #[43] -- started at 10:07:29
+    - #G13# As a developer, I want to have written a site which is compliant with XHTML and CSS standards, so that as many people as possible can access the site and view it as intended.
+
+        - calling model 10:07:29
+        - calling model 10:07:33
+        - calling model 10:07:36
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_43.json
+- Story #[44] -- started at 10:07:44
+    - #G13# As a developer, I want to have a list of definitions for commonly used terms, so that everyone working on the project can understand each other more easily.
+
+        - calling model 10:07:44
+        - calling model 10:07:48
+        - calling model 10:07:54
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_44.json
+- Story #[45] -- started at 10:07:58
+    - #G13# As a developer, I want to have created database indexes, so that the queries run as fast as possible.
+
+        - calling model 10:07:58
+        - calling model 10:08:02
+        - calling model 10:08:05
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_45.json
+- Story #[46] -- started at 10:08:12
+    - #G13# As a developer, I want to have the application function correctly in Internet Explorer 6 and 7, Firefox 1.5 and 2, and Safari 2, so that as many people as possible can fully use the application.
+
+        - calling model 10:08:12
+        - calling model 10:08:15
+        - calling model 10:08:20
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_46.json
+- Story #[47] -- started at 10:08:24
+    - #G13# As a developer, I want to have the site comply with the W3C accessibility guidelines where possible, so that people with accessibility issues can use the application.
+
+        - calling model 10:08:24
+        - calling model 10:08:29
+        - calling model 10:08:32
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_47.json
+- Story #[48] -- started at 10:08:39
+    - #G13# As a user, I want to have the application respond quickly to my actions, so that I don't get bored.
+
+        - calling model 10:08:39
+        - calling model 10:08:42
+        - calling model 10:08:46
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_48.json
+- Story #[49] -- started at 10:08:51
+    - #G13# As a user, I want to be able to use Unicode, so that I can use any language I like.
+
+        - calling model 10:08:51
+        - calling model 10:08:54
+        - calling model 10:08:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_49.json
+- Story #[50] -- started at 10:09:03
+    - #G13# As a user, I want to see sensible and predictable URLs, so that the application feels logical and transparent.
+
+        - calling model 10:09:03
+        - calling model 10:09:06
+        - calling model 10:09:09
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_50.json
+- Story #[51] -- started at 10:09:12
+    - #G13# As a user, I want to have nice error pages when something goes wrong, so that I can trust the system and its developers.
+
+        - calling model 10:09:12
+        - calling model 10:09:17
+        - calling model 10:09:22
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_51.json
+- Story #[52] -- started at 10:09:29
+    - #G13# As a Researcher, I want results to be stored in a non-identifiable way, so that I can study the data to see things like whether estimates converged around the first opinion given by "estimator A" for example.
+
+        - calling model 10:09:29
+        - calling model 10:09:33
+        - calling model 10:09:36
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_52.json
+- Story #[53] -- started at 10:09:42
+    - #G13# As a Mike, I want to be able to see some metrics on use of the game, so that I can see how much it is being used.
+
+        - calling model 10:09:42
+        - calling model 10:09:45
+        - calling model 10:09:48
+    - saving result into: ./output/gpt-3.5-turbo-0613/g13-planningpoker.txt_53.json
+END: 10:09:53

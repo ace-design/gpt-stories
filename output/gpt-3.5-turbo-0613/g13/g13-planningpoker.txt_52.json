@@ -1,0 +1,56 @@
+{
+  "story": "#G13# As a Researcher, I want results to be stored in a non-identifiable way, so that I can study the data to see things like whether estimates converged around the first opinion given by \"estimator A\" for example.\n",
+  "extraction": {
+    "personas": [
+      "Researcher"
+    ],
+    "entities": [
+      "results"
+    ],
+    "actions": [
+      "stored",
+      "study"
+    ],
+    "benefit": "I can study the data to see things like whether estimates converged around the first opinion given by 'estimator A'"
+  },
+  "categories": {
+    "primary_entities": [
+      "results"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "stored",
+      "study"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Researcher",
+        "to": "stored",
+        "kind": "triggers"
+      },
+      {
+        "from": "stored",
+        "to": "results",
+        "kind": "targets"
+      },
+      {
+        "from": "Researcher",
+        "to": "study",
+        "kind": "triggers"
+      },
+      {
+        "from": "study",
+        "to": "results",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1391,
+    "output": 223,
+    "time (ns)": 6672596000
+  }
+}

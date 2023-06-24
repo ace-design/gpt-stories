@@ -1,0 +1,44 @@
+{
+  "story": "#G13# As a moderator, I want to import stories from a spreadsheet, so that I don't have to copy and paste each individual story.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "spreadsheet"
+    ],
+    "actions": [
+      "import"
+    ],
+    "benefit": "I don't have to copy and paste each individual story"
+  },
+  "categories": {
+    "primary_entities": [
+      "spreadsheet"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "import"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "import",
+        "kind": "triggers"
+      },
+      {
+        "from": "import",
+        "to": "spreadsheet",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1301,
+    "output": 157,
+    "time (ns)": 5252490000
+  }
+}

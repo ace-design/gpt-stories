@@ -1,0 +1,47 @@
+{
+  "story": "#G13# As a developer, I want to have a list of definitions for commonly used terms, so that everyone working on the project can understand each other more easily.\n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "list of definitions",
+      "commonly used terms"
+    ],
+    "actions": [
+      "have"
+    ],
+    "benefit": "everyone working on the project can understand each other more easily"
+  },
+  "categories": {
+    "primary_entities": [
+      "list of definitions"
+    ],
+    "secondary_entities": [
+      "commonly used terms"
+    ],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "list of definitions",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1331,
+    "output": 169,
+    "time (ns)": 7812256000
+  }
+}

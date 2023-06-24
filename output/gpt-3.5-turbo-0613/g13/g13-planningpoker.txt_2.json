@@ -1,0 +1,72 @@
+{
+  "story": "#G13# As a moderator, I want to invite estimators by giving them a URL where they can access the game, so that we can start the game.\n",
+  "extraction": {
+    "personas": [
+      "moderator"
+    ],
+    "entities": [
+      "estimators",
+      "URL",
+      "game"
+    ],
+    "actions": [
+      "invite",
+      "access",
+      "start"
+    ],
+    "benefit": "we can start the game"
+  },
+  "categories": {
+    "primary_entities": [
+      "estimators",
+      "URL",
+      "game"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "invite",
+      "access",
+      "start"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "moderator",
+        "to": "invite",
+        "kind": "triggers"
+      },
+      {
+        "from": "invite",
+        "to": "estimators",
+        "kind": "targets"
+      },
+      {
+        "from": "invite",
+        "to": "URL",
+        "kind": "targets"
+      },
+      {
+        "from": "invite",
+        "to": "game",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "game",
+        "kind": "targets"
+      },
+      {
+        "from": "start",
+        "to": "game",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1334,
+    "output": 275,
+    "time (ns)": 8424844000
+  }
+}
