@@ -1,0 +1,102 @@
+{
+  "story": "#G11# As a content designer, I want to develop a better understanding of NSF's content types and editorial plan, so that I can make more informed recommendations going forward.\n",
+  "extraction": {
+    "personas": [
+      "content designer"
+    ],
+    "entities": [
+      "NSF's content types",
+      "editorial plan"
+    ],
+    "actions": [
+      "develop",
+      "understanding",
+      "make recommendations"
+    ],
+    "benefit": "make more informed recommendations"
+  },
+  "categories": {
+    "primary_entities": [
+      "NSF's content types"
+    ],
+    "secondary_entities": [
+      "editorial plan"
+    ],
+    "primary_actions": [
+      "develop",
+      "understanding"
+    ],
+    "secondary_actions": [
+      "make recommendations"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "content designer",
+        "to": "develop",
+        "kind": "triggers"
+      },
+      {
+        "from": "develop",
+        "to": "NSF's content types",
+        "kind": "targets"
+      },
+      {
+        "from": "content designer",
+        "to": "develop",
+        "kind": "triggers"
+      },
+      {
+        "from": "develop",
+        "to": "editorial plan",
+        "kind": "targets"
+      },
+      {
+        "from": "content designer",
+        "to": "understanding",
+        "kind": "triggers"
+      },
+      {
+        "from": "understanding",
+        "to": "NSF's content types",
+        "kind": "targets"
+      },
+      {
+        "from": "content designer",
+        "to": "understanding",
+        "kind": "triggers"
+      },
+      {
+        "from": "understanding",
+        "to": "editorial plan",
+        "kind": "targets"
+      },
+      {
+        "from": "content designer",
+        "to": "make recommendations",
+        "kind": "triggers"
+      },
+      {
+        "from": "make recommendations",
+        "to": "NSF's content types",
+        "kind": "targets"
+      },
+      {
+        "from": "content designer",
+        "to": "make recommendations",
+        "kind": "triggers"
+      },
+      {
+        "from": "make recommendations",
+        "to": "editorial plan",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1347,
+    "output": 465,
+    "time (ns)": 13219439000
+  }
+}

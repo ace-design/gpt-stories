@@ -1,0 +1,77 @@
+{
+  "story": "#G11# As a user researcher, I want to make sure the correct NSF people are invited to user interviews, so that they can observe the interviews and make recommendations accordingly.\n",
+  "extraction": {
+    "personas": [
+      "user researcher",
+      "NSF people"
+    ],
+    "entities": [
+      "user interviews"
+    ],
+    "actions": [
+      "make sure",
+      "invite",
+      "observe",
+      "make recommendations"
+    ],
+    "benefit": "they can observe the interviews and make recommendations accordingly"
+  },
+  "categories": {
+    "primary_entities": [
+      "user interviews"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "make sure",
+      "invite",
+      "observe"
+    ],
+    "secondary_actions": [
+      "make recommendations"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user researcher",
+        "to": "make sure",
+        "kind": "triggers"
+      },
+      {
+        "from": "user researcher",
+        "to": "invite",
+        "kind": "triggers"
+      },
+      {
+        "from": "user researcher",
+        "to": "observe",
+        "kind": "triggers"
+      },
+      {
+        "from": "make sure",
+        "to": "user interviews",
+        "kind": "targets"
+      },
+      {
+        "from": "invite",
+        "to": "user interviews",
+        "kind": "targets"
+      },
+      {
+        "from": "observe",
+        "to": "user interviews",
+        "kind": "targets"
+      },
+      {
+        "from": "observe",
+        "to": "make recommendations",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1353,
+    "output": 315,
+    "time (ns)": 8735012000
+  }
+}

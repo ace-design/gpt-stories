@@ -1,0 +1,69 @@
+{
+  "story": "#G11# As a user researcher, I want to begin identifying interview participants, so that I can understand what educators and science influencers need from a future nsf.gov website.\n",
+  "extraction": {
+    "personas": [
+      "user researcher"
+    ],
+    "entities": [
+      "interview participants",
+      "educators",
+      "science influencers",
+      "future nsf.gov website"
+    ],
+    "actions": [
+      "begin",
+      "identifying",
+      "understand"
+    ],
+    "benefit": "I can understand what educators and science influencers need from a future nsf.gov website"
+  },
+  "categories": {
+    "primary_entities": [
+      "interview participants",
+      "educators",
+      "science influencers",
+      "future nsf.gov website"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "begin",
+      "identifying",
+      "understand"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user researcher",
+        "to": "begin",
+        "kind": "triggers"
+      },
+      {
+        "from": "begin",
+        "to": "interview participants",
+        "kind": "targets"
+      },
+      {
+        "from": "begin",
+        "to": "educators",
+        "kind": "targets"
+      },
+      {
+        "from": "begin",
+        "to": "science influencers",
+        "kind": "targets"
+      },
+      {
+        "from": "begin",
+        "to": "future nsf.gov website",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1398,
+    "output": 292,
+    "time (ns)": 8220150000
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "story": "#G11# As a team member, I want to have a high-level sense of the project timeline, so that I can plan my work.\n",
+  "extraction": {
+    "personas": [
+      "team member"
+    ],
+    "entities": [
+      "project timeline"
+    ],
+    "actions": [
+      "have",
+      "plan"
+    ],
+    "benefit": "I can plan my work"
+  },
+  "categories": {
+    "primary_entities": [
+      "project timeline"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "plan"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "team member",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "project timeline",
+        "kind": "targets"
+      },
+      {
+        "from": "team member",
+        "to": "plan",
+        "kind": "triggers"
+      },
+      {
+        "from": "plan",
+        "to": "project timeline",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1295,
+    "output": 210,
+    "time (ns)": 6271965000
+  }
+}

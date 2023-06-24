@@ -1,0 +1,60 @@
+{
+  "story": "#G11# As a researcher, I want to develop the user research protocol for internal workflows, so that we can begin testing against a CMS prototype.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "user research protocol",
+      "internal workflows",
+      "CMS prototype"
+    ],
+    "actions": [
+      "develop",
+      "begin testing"
+    ],
+    "benefit": "we can begin testing against a CMS prototype"
+  },
+  "categories": {
+    "primary_entities": [
+      "user research protocol",
+      "internal workflows",
+      "CMS prototype"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "develop",
+      "begin testing"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "develop",
+        "kind": "triggers"
+      },
+      {
+        "from": "develop",
+        "to": "user research protocol",
+        "kind": "targets"
+      },
+      {
+        "from": "researcher",
+        "to": "begin testing",
+        "kind": "triggers"
+      },
+      {
+        "from": "begin testing",
+        "to": "CMS prototype",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1334,
+    "output": 236,
+    "time (ns)": 7196625000
+  }
+}

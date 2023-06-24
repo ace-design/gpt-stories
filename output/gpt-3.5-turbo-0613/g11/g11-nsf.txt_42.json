@@ -1,0 +1,56 @@
+{
+  "story": "#G11# As a workshop attendee, I want to have a summary of what we learned, so that I can understand our next steps and how they apply to me.\n",
+  "extraction": {
+    "personas": [
+      "workshop attendee"
+    ],
+    "entities": [],
+    "actions": [
+      "have",
+      "learned",
+      "understand",
+      "apply"
+    ],
+    "benefit": "I can understand our next steps and how they apply to me"
+  },
+  "categories": {
+    "primary_entities": [],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "learned",
+      "understand",
+      "apply"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "workshop attendee",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "learned",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "understand",
+        "kind": "triggers"
+      },
+      {
+        "from": "understand",
+        "to": "apply",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1341,
+    "output": 231,
+    "time (ns)": 7333907000
+  }
+}

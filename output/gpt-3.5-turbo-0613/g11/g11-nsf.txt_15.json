@@ -1,0 +1,65 @@
+{
+  "story": "#G11# As a team member, I want to meet with DIS / cloud.gov, so that I can determine the requirements for the beta.nsf.gov ATO.\n",
+  "extraction": {
+    "personas": [
+      "team member"
+    ],
+    "entities": [
+      "DIS",
+      "cloud.gov",
+      "beta.nsf.gov ATO"
+    ],
+    "actions": [
+      "meet",
+      "determine"
+    ],
+    "benefit": "I can determine the requirements for the beta.nsf.gov ATO"
+  },
+  "categories": {
+    "primary_entities": [
+      "DIS",
+      "cloud.gov",
+      "beta.nsf.gov ATO"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "meet",
+      "determine"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "team member",
+        "to": "meet",
+        "kind": "triggers"
+      },
+      {
+        "from": "meet",
+        "to": "DIS",
+        "kind": "targets"
+      },
+      {
+        "from": "meet",
+        "to": "cloud.gov",
+        "kind": "targets"
+      },
+      {
+        "from": "meet",
+        "to": "beta.nsf.gov ATO",
+        "kind": "targets"
+      },
+      {
+        "from": "determine",
+        "to": "beta.nsf.gov ATO",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1362,
+    "output": 275,
+    "time (ns)": 9445104000
+  }
+}

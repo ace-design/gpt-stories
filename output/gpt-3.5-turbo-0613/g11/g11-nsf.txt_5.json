@@ -1,0 +1,60 @@
+{
+  "story": "#G11# As a stakeholder, I want to see the results of user research, so that I can determine if the CMS is right for me.\n",
+  "extraction": {
+    "personas": [
+      "stakeholder"
+    ],
+    "entities": [
+      "user research",
+      "CMS"
+    ],
+    "actions": [
+      "see",
+      "determine"
+    ],
+    "benefit": "I can determine if the CMS is right for me"
+  },
+  "categories": {
+    "primary_entities": [
+      "user research"
+    ],
+    "secondary_entities": [
+      "CMS"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": [
+      "determine"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "stakeholder",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "user research",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "CMS",
+        "kind": "targets"
+      },
+      {
+        "from": "determine",
+        "to": "CMS",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1322,
+    "output": 221,
+    "time (ns)": 6591399000
+  }
+}

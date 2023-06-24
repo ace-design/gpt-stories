@@ -1,0 +1,47 @@
+{
+  "story": "#G11# As a CMS SME, I want to see the webmaster workflow report, so that I can understand how this might impact current direction.\n",
+  "extraction": {
+    "personas": [
+      "CMS SME"
+    ],
+    "entities": [
+      "webmaster workflow report",
+      "current direction"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "I can understand how this might impact current direction"
+  },
+  "categories": {
+    "primary_entities": [
+      "webmaster workflow report"
+    ],
+    "secondary_entities": [
+      "current direction"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "CMS SME",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "webmaster workflow report",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1314,
+    "output": 168,
+    "time (ns)": 6174686000
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "story": "#G11# As an NSF employee, I want to have a final workshop to identify key lessons and features for the content management system decision.\n",
+  "extraction": {
+    "personas": [
+      "NSF employee"
+    ],
+    "entities": [
+      "final workshop",
+      "content management system decision"
+    ],
+    "actions": [
+      "identify",
+      "have"
+    ],
+    "benefit": "to identify key lessons and features for the content management system decision"
+  },
+  "categories": {
+    "primary_entities": [
+      "final workshop"
+    ],
+    "secondary_entities": [
+      "content management system decision"
+    ],
+    "primary_actions": [
+      "identify"
+    ],
+    "secondary_actions": [
+      "have"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "NSF employee",
+        "to": "identify",
+        "kind": "triggers"
+      },
+      {
+        "from": "identify",
+        "to": "final workshop",
+        "kind": "targets"
+      },
+      {
+        "from": "NSF employee",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "final workshop",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1323,
+    "output": 230,
+    "time (ns)": 7196827000
+  }
+}

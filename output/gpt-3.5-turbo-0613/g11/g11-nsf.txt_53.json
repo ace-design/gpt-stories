@@ -1,0 +1,80 @@
+{
+  "story": "#G11# As a web recruiter manager, I want to confirm the recruiter is set up and working properly, so that I can deploy it on more pages.\n",
+  "extraction": {
+    "personas": [
+      "web recruiter manager"
+    ],
+    "entities": [
+      "recruiter"
+    ],
+    "actions": [
+      "confirm",
+      "set up",
+      "working properly",
+      "deploy"
+    ],
+    "benefit": "I can deploy it on more pages"
+  },
+  "categories": {
+    "primary_entities": [
+      "recruiter"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "confirm",
+      "set up",
+      "working properly",
+      "deploy"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "web recruiter manager",
+        "to": "confirm",
+        "kind": "triggers"
+      },
+      {
+        "from": "web recruiter manager",
+        "to": "set up",
+        "kind": "triggers"
+      },
+      {
+        "from": "web recruiter manager",
+        "to": "working properly",
+        "kind": "triggers"
+      },
+      {
+        "from": "web recruiter manager",
+        "to": "deploy",
+        "kind": "triggers"
+      },
+      {
+        "from": "confirm",
+        "to": "recruiter",
+        "kind": "targets"
+      },
+      {
+        "from": "set up",
+        "to": "recruiter",
+        "kind": "targets"
+      },
+      {
+        "from": "working properly",
+        "to": "recruiter",
+        "kind": "targets"
+      },
+      {
+        "from": "deploy",
+        "to": "recruiter",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1337,
+    "output": 349,
+    "time (ns)": 12113277000
+  }
+}

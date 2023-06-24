@@ -1,0 +1,58 @@
+{
+  "story": "#G11# As a team member, I want to have a schedule of more coworking slots, so that I can work in tandem with the rest of the team on a more regular basis.\n",
+  "extraction": {
+    "personas": [
+      "team member"
+    ],
+    "entities": [
+      "schedule",
+      "coworking slots",
+      "team"
+    ],
+    "actions": [
+      "have"
+    ],
+    "benefit": "work in tandem with the rest of the team on a more regular basis"
+  },
+  "categories": {
+    "primary_entities": [
+      "schedule",
+      "coworking slots",
+      "team"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "team member",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "schedule",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "coworking slots",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "team",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1358,
+    "output": 228,
+    "time (ns)": 6635686000
+  }
+}

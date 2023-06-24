@@ -1,0 +1,60 @@
+{
+  "story": "#G11# As a potential research participant, I want to learn about the research and leave my contact information.\n",
+  "extraction": {
+    "personas": [
+      "potential research participant"
+    ],
+    "entities": [
+      "research",
+      "contact information"
+    ],
+    "actions": [
+      "learn",
+      "leave"
+    ],
+    "benefit": "I can learn about the research and leave my contact information"
+  },
+  "categories": {
+    "primary_entities": [
+      "research"
+    ],
+    "secondary_entities": [
+      "contact information"
+    ],
+    "primary_actions": [
+      "learn"
+    ],
+    "secondary_actions": [
+      "leave"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "potential research participant",
+        "to": "learn",
+        "kind": "triggers"
+      },
+      {
+        "from": "learn",
+        "to": "research",
+        "kind": "targets"
+      },
+      {
+        "from": "potential research participant",
+        "to": "leave",
+        "kind": "triggers"
+      },
+      {
+        "from": "leave",
+        "to": "contact information",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1294,
+    "output": 222,
+    "time (ns)": 6480190000
+  }
+}

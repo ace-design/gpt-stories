@@ -1,0 +1,56 @@
+{
+  "story": "#G11# As an NSF employee, I want to have an updated roadmap document, so that I can see prioritized areas to focus on for the next few months and beyond.\n",
+  "extraction": {
+    "personas": [
+      "NSF employee"
+    ],
+    "entities": [
+      "roadmap document"
+    ],
+    "actions": [
+      "have",
+      "see"
+    ],
+    "benefit": "I can see prioritized areas to focus on for the next few months and beyond"
+  },
+  "categories": {
+    "primary_entities": [
+      "roadmap document"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "NSF employee",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "roadmap document",
+        "kind": "targets"
+      },
+      {
+        "from": "NSF employee",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "roadmap document",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1343,
+    "output": 228,
+    "time (ns)": 6800642000
+  }
+}

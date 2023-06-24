@@ -1,0 +1,56 @@
+{
+  "story": "#G11# As a developer, I want to know what the three initial hypotheses are, so that I can plan work around development of prototypes.\n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "three initial hypotheses"
+    ],
+    "actions": [
+      "know",
+      "plan"
+    ],
+    "benefit": "I can plan work around development of prototypes"
+  },
+  "categories": {
+    "primary_entities": [
+      "three initial hypotheses"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "plan"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "developer",
+        "to": "plan",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "three initial hypotheses",
+        "kind": "targets"
+      },
+      {
+        "from": "plan",
+        "to": "three initial hypotheses",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1302,
+    "output": 214,
+    "time (ns)": 6790111000
+  }
+}

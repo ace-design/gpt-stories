@@ -1,0 +1,60 @@
+{
+  "story": "#G11# As an NSF employee, I want to join Github, so that I can participate in the issues as assigned.\n",
+  "extraction": {
+    "personas": [
+      "NSF employee"
+    ],
+    "entities": [
+      "Github",
+      "issues"
+    ],
+    "actions": [
+      "join",
+      "participate"
+    ],
+    "benefit": "I can participate in the issues as assigned"
+  },
+  "categories": {
+    "primary_entities": [
+      "Github"
+    ],
+    "secondary_entities": [
+      "issues"
+    ],
+    "primary_actions": [
+      "join"
+    ],
+    "secondary_actions": [
+      "participate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "NSF employee",
+        "to": "join",
+        "kind": "triggers"
+      },
+      {
+        "from": "join",
+        "to": "Github",
+        "kind": "targets"
+      },
+      {
+        "from": "join",
+        "to": "participate",
+        "kind": "triggers"
+      },
+      {
+        "from": "participate",
+        "to": "issues",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1300,
+    "output": 222,
+    "time (ns)": 6794067000
+  }
+}

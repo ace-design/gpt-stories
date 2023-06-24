@@ -1,0 +1,44 @@
+{
+  "story": "#G11# As a designer, I want to have a new social media wireframe, so that I can begin implementing design.\n",
+  "extraction": {
+    "personas": [
+      "designer"
+    ],
+    "entities": [
+      "social media wireframe"
+    ],
+    "actions": [
+      "begin implementing design"
+    ],
+    "benefit": "I can begin implementing design"
+  },
+  "categories": {
+    "primary_entities": [
+      "social media wireframe"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "begin implementing design"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "designer",
+        "to": "begin implementing design",
+        "kind": "triggers"
+      },
+      {
+        "from": "begin implementing design",
+        "to": "social media wireframe",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1289,
+    "output": 165,
+    "time (ns)": 5344311000
+  }
+}

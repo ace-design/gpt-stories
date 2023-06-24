@@ -1,0 +1,60 @@
+{
+  "story": "#G11# As a site administrator, I want to understand how other similar organizations are handling visual design, so that I can make informed decisions about what appears to work well and what doesn't.\n",
+  "extraction": {
+    "personas": [
+      "site administrator"
+    ],
+    "entities": [
+      "other similar organizations",
+      "visual design"
+    ],
+    "actions": [
+      "understand",
+      "handling"
+    ],
+    "benefit": "make informed decisions about what appears to work well and what doesn't"
+  },
+  "categories": {
+    "primary_entities": [
+      "other similar organizations"
+    ],
+    "secondary_entities": [
+      "visual design"
+    ],
+    "primary_actions": [
+      "understand"
+    ],
+    "secondary_actions": [
+      "handling"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "site administrator",
+        "to": "understand",
+        "kind": "triggers"
+      },
+      {
+        "from": "understand",
+        "to": "other similar organizations",
+        "kind": "targets"
+      },
+      {
+        "from": "site administrator",
+        "to": "handling",
+        "kind": "triggers"
+      },
+      {
+        "from": "handling",
+        "to": "visual design",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1356,
+    "output": 231,
+    "time (ns)": 6990706000
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "story": "#G11# As a VisualDesigner, I want to concept different styles for the nsf.gov website, so that we can discuss different design concepts with stakeholders.\n",
+  "extraction": {
+    "personas": [
+      "VisualDesigner"
+    ],
+    "entities": [
+      "nsf.gov website",
+      "design concepts",
+      "stakeholders"
+    ],
+    "actions": [
+      "concept",
+      "discuss"
+    ],
+    "benefit": "we can discuss different design concepts with stakeholders"
+  },
+  "categories": {
+    "primary_entities": [
+      "nsf.gov website"
+    ],
+    "secondary_entities": [
+      "design concepts",
+      "stakeholders"
+    ],
+    "primary_actions": [
+      "concept"
+    ],
+    "secondary_actions": [
+      "discuss"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "VisualDesigner",
+        "to": "concept",
+        "kind": "triggers"
+      },
+      {
+        "from": "concept",
+        "to": "nsf.gov website",
+        "kind": "targets"
+      },
+      {
+        "from": "VisualDesigner",
+        "to": "discuss",
+        "kind": "triggers"
+      },
+      {
+        "from": "discuss",
+        "to": "design concepts",
+        "kind": "targets"
+      },
+      {
+        "from": "discuss",
+        "to": "stakeholders",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1343,
+    "output": 267,
+    "time (ns)": 7929732000
+  }
+}

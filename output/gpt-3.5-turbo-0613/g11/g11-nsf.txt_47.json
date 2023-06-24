@@ -1,0 +1,47 @@
+{
+  "story": "#G11# As a team member, I want to know when the mid-point checkin is and what will be covered, so that I can plan accordingly.\n",
+  "extraction": {
+    "personas": [
+      "team member"
+    ],
+    "entities": [],
+    "actions": [
+      "know",
+      "plan"
+    ],
+    "benefit": "I can plan accordingly"
+  },
+  "categories": {
+    "primary_entities": [],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "plan"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "team member",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "mid-point checkin",
+        "kind": "targets"
+      },
+      {
+        "from": "team member",
+        "to": "plan",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1293,
+    "output": 179,
+    "time (ns)": 5466720000
+  }
+}

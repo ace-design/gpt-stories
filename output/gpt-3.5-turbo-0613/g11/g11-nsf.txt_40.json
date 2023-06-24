@@ -1,0 +1,72 @@
+{
+  "story": "#G11# As an NSF employee, I want to schedule regular in-person check-ins, so that we can continue to communicate the goals of the project with our stakeholders.\n",
+  "extraction": {
+    "personas": [
+      "NSF employee"
+    ],
+    "entities": [
+      "regular in-person check-ins",
+      "goals of the project",
+      "stakeholders"
+    ],
+    "actions": [
+      "schedule",
+      "communicate"
+    ],
+    "benefit": "continue to communicate the goals of the project with our stakeholders"
+  },
+  "categories": {
+    "primary_entities": [
+      "regular in-person check-ins",
+      "goals of the project"
+    ],
+    "secondary_entities": [
+      "stakeholders"
+    ],
+    "primary_actions": [
+      "schedule"
+    ],
+    "secondary_actions": [
+      "communicate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "NSF employee",
+        "to": "schedule",
+        "kind": "triggers"
+      },
+      {
+        "from": "schedule",
+        "to": "regular in-person check-ins",
+        "kind": "targets"
+      },
+      {
+        "from": "schedule",
+        "to": "goals of the project",
+        "kind": "targets"
+      },
+      {
+        "from": "schedule",
+        "to": "stakeholders",
+        "kind": "targets"
+      },
+      {
+        "from": "communicate",
+        "to": "goals of the project",
+        "kind": "targets"
+      },
+      {
+        "from": "communicate",
+        "to": "stakeholders",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1366,
+    "output": 308,
+    "time (ns)": 8687485000
+  }
+}

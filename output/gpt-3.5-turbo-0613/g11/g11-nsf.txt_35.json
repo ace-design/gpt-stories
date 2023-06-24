@@ -1,0 +1,63 @@
+{
+  "story": "#G11# As a team member, I want to know what the first hypothesis is, so that I can start developing a prototype to test.\n",
+  "extraction": {
+    "personas": [
+      "team member"
+    ],
+    "entities": [
+      "first hypothesis"
+    ],
+    "actions": [
+      "know",
+      "developing",
+      "test"
+    ],
+    "benefit": "I can start developing a prototype to test"
+  },
+  "categories": {
+    "primary_entities": [
+      "first hypothesis"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "developing",
+      "test"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "team member",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "first hypothesis",
+        "kind": "targets"
+      },
+      {
+        "from": "team member",
+        "to": "developing",
+        "kind": "triggers"
+      },
+      {
+        "from": "developing",
+        "to": "test",
+        "kind": "triggers"
+      },
+      {
+        "from": "test",
+        "to": "first hypothesis",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1313,
+    "output": 249,
+    "time (ns)": 6990771000
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "story": "#G11# As a user researcher, I want to have the WIG prototype, so that I can finalize the second task script.\n",
+  "extraction": {
+    "personas": [
+      "user researcher"
+    ],
+    "entities": [
+      "WIG prototype",
+      "second task script"
+    ],
+    "actions": [
+      "have",
+      "finalize"
+    ],
+    "benefit": "I can finalize the second task script"
+  },
+  "categories": {
+    "primary_entities": [
+      "WIG prototype"
+    ],
+    "secondary_entities": [
+      "second task script"
+    ],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": [
+      "finalize"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user researcher",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "WIG prototype",
+        "kind": "targets"
+      },
+      {
+        "from": "user researcher",
+        "to": "finalize",
+        "kind": "triggers"
+      },
+      {
+        "from": "finalize",
+        "to": "second task script",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1308,
+    "output": 224,
+    "time (ns)": 6477089000
+  }
+}

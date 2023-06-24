@@ -1,0 +1,72 @@
+{
+  "story": "#G11# As a user researcher, I want to know when outreach to lists is successful, so that I can plan on a new release to the next listserv on the priority list.\n",
+  "extraction": {
+    "personas": [
+      "user researcher"
+    ],
+    "entities": [
+      "outreach to lists",
+      "new release",
+      "next listserv",
+      "priority list"
+    ],
+    "actions": [
+      "know",
+      "plan"
+    ],
+    "benefit": "I can plan on a new release to the next listserv on the priority list"
+  },
+  "categories": {
+    "primary_entities": [
+      "outreach to lists",
+      "new release",
+      "next listserv",
+      "priority list"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "plan"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user researcher",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "outreach to lists",
+        "kind": "targets"
+      },
+      {
+        "from": "user researcher",
+        "to": "plan",
+        "kind": "triggers"
+      },
+      {
+        "from": "plan",
+        "to": "new release",
+        "kind": "targets"
+      },
+      {
+        "from": "plan",
+        "to": "next listserv",
+        "kind": "targets"
+      },
+      {
+        "from": "plan",
+        "to": "priority list",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1389,
+    "output": 306,
+    "time (ns)": 8881621000
+  }
+}

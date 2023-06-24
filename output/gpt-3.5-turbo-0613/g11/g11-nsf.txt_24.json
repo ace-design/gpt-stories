@@ -1,0 +1,84 @@
+{
+  "story": "#G11# As an NSF employee, I want to narrow down the universe of CMS options and identify/prioritize key considerations for getting to the next step.\n",
+  "extraction": {
+    "personas": [
+      "NSF employee"
+    ],
+    "entities": [
+      "universe of CMS options",
+      "key considerations"
+    ],
+    "actions": [
+      "narrow down",
+      "identify",
+      "prioritize",
+      "getting to the next step"
+    ],
+    "benefit": "I can narrow down the universe of CMS options and identify/prioritize key considerations for getting to the next step"
+  },
+  "categories": {
+    "primary_entities": [
+      "universe of CMS options"
+    ],
+    "secondary_entities": [
+      "key considerations"
+    ],
+    "primary_actions": [
+      "narrow down"
+    ],
+    "secondary_actions": [
+      "identify",
+      "prioritize",
+      "getting to the next step"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "NSF employee",
+        "to": "narrow down",
+        "kind": "triggers"
+      },
+      {
+        "from": "narrow down",
+        "to": "universe of CMS options",
+        "kind": "targets"
+      },
+      {
+        "from": "NSF employee",
+        "to": "identify",
+        "kind": "triggers"
+      },
+      {
+        "from": "identify",
+        "to": "key considerations",
+        "kind": "targets"
+      },
+      {
+        "from": "NSF employee",
+        "to": "prioritize",
+        "kind": "triggers"
+      },
+      {
+        "from": "prioritize",
+        "to": "key considerations",
+        "kind": "targets"
+      },
+      {
+        "from": "NSF employee",
+        "to": "getting to the next step",
+        "kind": "triggers"
+      },
+      {
+        "from": "getting to the next step",
+        "to": "key considerations",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1397,
+    "output": 393,
+    "time (ns)": 10880850000
+  }
+}

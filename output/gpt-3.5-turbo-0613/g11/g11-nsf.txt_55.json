@@ -1,0 +1,59 @@
+{
+  "story": "#G11# As a workshop attendee, I want to see a summary on major findings from the event.\n",
+  "extraction": {
+    "personas": [
+      "workshop attendee"
+    ],
+    "entities": [
+      "summary",
+      "major findings",
+      "event"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "I can have an overview of the major findings from the event"
+  },
+  "categories": {
+    "primary_entities": [
+      "summary"
+    ],
+    "secondary_entities": [
+      "major findings",
+      "event"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "workshop attendee",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "summary",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "major findings",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "event",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1295,
+    "output": 221,
+    "time (ns)": 8422169000
+  }
+}

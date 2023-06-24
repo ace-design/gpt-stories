@@ -1,0 +1,81 @@
+{
+  "story": "#G11# As a VisualDesigner, I want to create a moodboard to aid with visual design concepts for the nsf.gov website, so that we can discuss different design concepts with stakeholders.\n",
+  "extraction": {
+    "personas": [
+      "VisualDesigner"
+    ],
+    "entities": [
+      "moodboard",
+      "nsf.gov website",
+      "design concepts",
+      "stakeholders"
+    ],
+    "actions": [
+      "create",
+      "aid",
+      "discuss"
+    ],
+    "benefit": "discuss different design concepts with stakeholders"
+  },
+  "categories": {
+    "primary_entities": [
+      "moodboard",
+      "nsf.gov website"
+    ],
+    "secondary_entities": [
+      "design concepts",
+      "stakeholders"
+    ],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": [
+      "aid",
+      "discuss"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "VisualDesigner",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "moodboard",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "nsf.gov website",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "design concepts",
+        "kind": "targets"
+      },
+      {
+        "from": "aid",
+        "to": "moodboard",
+        "kind": "targets"
+      },
+      {
+        "from": "discuss",
+        "to": "design concepts",
+        "kind": "targets"
+      },
+      {
+        "from": "discuss",
+        "to": "stakeholders",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1386,
+    "output": 334,
+    "time (ns)": 9037736000
+  }
+}

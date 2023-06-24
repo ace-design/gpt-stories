@@ -1,0 +1,44 @@
+{
+  "story": "#G11# As an NSF employee, I want to understand work performed, so that I can understand when and what I can use later.\n",
+  "extraction": {
+    "personas": [
+      "NSF employee"
+    ],
+    "entities": [
+      "work performed"
+    ],
+    "actions": [
+      "understand"
+    ],
+    "benefit": "I can understand when and what I can use later"
+  },
+  "categories": {
+    "primary_entities": [
+      "work performed"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "understand"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "NSF employee",
+        "to": "understand",
+        "kind": "triggers"
+      },
+      {
+        "from": "understand",
+        "to": "work performed",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1298,
+    "output": 162,
+    "time (ns)": 5161913000
+  }
+}

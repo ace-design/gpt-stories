@@ -1,0 +1,75 @@
+{
+  "story": "#G11# As a web recruiter manager, I want to confirm the recruiter is set up and working properly on Science360.gov.\n",
+  "extraction": {
+    "personas": [
+      "web recruiter manager"
+    ],
+    "entities": [
+      "recruiter",
+      "Science360.gov"
+    ],
+    "actions": [
+      "confirm",
+      "set up",
+      "working properly"
+    ],
+    "benefit": "recruiter is set up and working properly on Science360.gov"
+  },
+  "categories": {
+    "primary_entities": [
+      "recruiter",
+      "Science360.gov"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "confirm",
+      "set up",
+      "working properly"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "web recruiter manager",
+        "to": "confirm",
+        "kind": "triggers"
+      },
+      {
+        "from": "web recruiter manager",
+        "to": "set up",
+        "kind": "triggers"
+      },
+      {
+        "from": "web recruiter manager",
+        "to": "working properly",
+        "kind": "triggers"
+      },
+      {
+        "from": "confirm",
+        "to": "recruiter",
+        "kind": "targets"
+      },
+      {
+        "from": "set up",
+        "to": "recruiter",
+        "kind": "targets"
+      },
+      {
+        "from": "working properly",
+        "to": "recruiter",
+        "kind": "targets"
+      },
+      {
+        "from": "working properly",
+        "to": "Science360.gov",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1337,
+    "output": 332,
+    "time (ns)": 12517969000
+  }
+}

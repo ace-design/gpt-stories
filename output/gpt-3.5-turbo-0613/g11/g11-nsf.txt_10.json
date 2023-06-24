@@ -1,0 +1,58 @@
+{
+  "story": "#G11# As a user researcher, I want to have the finalized OLPA task script, so that I can begin testing with internal users.\n",
+  "extraction": {
+    "personas": [
+      "user researcher"
+    ],
+    "entities": [
+      "OLPA task script",
+      "internal users"
+    ],
+    "actions": [
+      "have",
+      "begin testing"
+    ],
+    "benefit": "I can begin testing with internal users"
+  },
+  "categories": {
+    "primary_entities": [
+      "OLPA task script",
+      "internal users"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "begin testing"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user researcher",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "OLPA task script",
+        "kind": "targets"
+      },
+      {
+        "from": "user researcher",
+        "to": "begin testing",
+        "kind": "triggers"
+      },
+      {
+        "from": "begin testing",
+        "to": "internal users",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1320,
+    "output": 230,
+    "time (ns)": 6773537000
+  }
+}

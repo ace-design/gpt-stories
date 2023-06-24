@@ -1,0 +1,56 @@
+{
+  "story": "#G11# As a content editor, I want to be able to easily find content, so that I can edit it.\n",
+  "extraction": {
+    "personas": [
+      "content editor"
+    ],
+    "entities": [
+      "content"
+    ],
+    "actions": [
+      "find",
+      "edit"
+    ],
+    "benefit": "I can easily find content and edit it"
+  },
+  "categories": {
+    "primary_entities": [
+      "content"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "find",
+      "edit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "content editor",
+        "to": "find",
+        "kind": "triggers"
+      },
+      {
+        "from": "find",
+        "to": "content",
+        "kind": "targets"
+      },
+      {
+        "from": "content editor",
+        "to": "edit",
+        "kind": "triggers"
+      },
+      {
+        "from": "edit",
+        "to": "content",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1286,
+    "output": 209,
+    "time (ns)": 7108039000
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "story": "#G11# As a user researcher, I want to test the user research plan, so that I make sure the in-person interviews are effective and capturing the right information.\n",
+  "extraction": {
+    "personas": [
+      "user researcher"
+    ],
+    "entities": [
+      "user research plan",
+      "in-person interviews"
+    ],
+    "actions": [
+      "test",
+      "make sure"
+    ],
+    "benefit": "I can ensure that the in-person interviews are effective and capturing the right information."
+  },
+  "categories": {
+    "primary_entities": [
+      "user research plan"
+    ],
+    "secondary_entities": [
+      "in-person interviews"
+    ],
+    "primary_actions": [
+      "test"
+    ],
+    "secondary_actions": [
+      "make sure"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user researcher",
+        "to": "test",
+        "kind": "triggers"
+      },
+      {
+        "from": "test",
+        "to": "user research plan",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1350,
+    "output": 180,
+    "time (ns)": 5555571000
+  }
+}

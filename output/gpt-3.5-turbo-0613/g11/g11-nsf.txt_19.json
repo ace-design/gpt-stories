@@ -1,0 +1,56 @@
+{
+  "story": "#G11# As a team member, I want to have an updated acquisitions roadmap, so that I can plan accordingly.\n",
+  "extraction": {
+    "personas": [
+      "team member"
+    ],
+    "entities": [
+      "acquisitions roadmap"
+    ],
+    "actions": [
+      "have",
+      "plan"
+    ],
+    "benefit": "I can plan accordingly"
+  },
+  "categories": {
+    "primary_entities": [
+      "acquisitions roadmap"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "plan"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "team member",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "acquisitions roadmap",
+        "kind": "targets"
+      },
+      {
+        "from": "team member",
+        "to": "plan",
+        "kind": "triggers"
+      },
+      {
+        "from": "plan",
+        "to": "acquisitions roadmap",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1281,
+    "output": 213,
+    "time (ns)": 6482451000
+  }
+}

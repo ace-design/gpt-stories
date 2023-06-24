@@ -1,0 +1,50 @@
+{
+  "story": "#G11# As an NSF administrator, I want to shadow the CMS implementation, so that I can learn as the prototype is developed further.\n",
+  "extraction": {
+    "personas": [
+      "NSF administrator"
+    ],
+    "entities": [
+      "CMS implementation",
+      "prototype"
+    ],
+    "actions": [
+      "shadow",
+      "learn"
+    ],
+    "benefit": "I can learn as the prototype is developed further"
+  },
+  "categories": {
+    "primary_entities": [
+      "CMS implementation"
+    ],
+    "secondary_entities": [
+      "prototype"
+    ],
+    "primary_actions": [
+      "shadow"
+    ],
+    "secondary_actions": [
+      "learn"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "NSF administrator",
+        "to": "shadow",
+        "kind": "triggers"
+      },
+      {
+        "from": "shadow",
+        "to": "CMS implementation",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1308,
+    "output": 167,
+    "time (ns)": 5555956000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G11# As an NSF person interested in attending user interviews, I want to know when they are scheduled and the type of user that will be interviewed.\n",
+  "extraction": {
+    "personas": [
+      "NSF person"
+    ],
+    "entities": [
+      "user interviews"
+    ],
+    "actions": [
+      "know"
+    ],
+    "benefit": "I want to know when they are scheduled and the type of user that will be interviewed."
+  },
+  "categories": {
+    "primary_entities": [
+      "user interviews"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "NSF person",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "user interviews",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1320,
+    "output": 165,
+    "time (ns)": 5625193000
+  }
+}

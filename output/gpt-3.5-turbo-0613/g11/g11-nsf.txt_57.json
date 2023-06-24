@@ -1,0 +1,58 @@
+{
+  "story": "#G11# As a user researcher, I want to begin drafting a research plan, so that I can begin recruiting participants.\n",
+  "extraction": {
+    "personas": [
+      "user researcher"
+    ],
+    "entities": [
+      "research plan",
+      "participants"
+    ],
+    "actions": [
+      "begin drafting",
+      "begin recruiting"
+    ],
+    "benefit": "I can begin recruiting participants"
+  },
+  "categories": {
+    "primary_entities": [
+      "research plan",
+      "participants"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "begin drafting",
+      "begin recruiting"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user researcher",
+        "to": "begin drafting",
+        "kind": "triggers"
+      },
+      {
+        "from": "begin drafting",
+        "to": "research plan",
+        "kind": "targets"
+      },
+      {
+        "from": "user researcher",
+        "to": "begin recruiting",
+        "kind": "triggers"
+      },
+      {
+        "from": "begin recruiting",
+        "to": "participants",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1298,
+    "output": 223,
+    "time (ns)": 6831630000
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "story": "#G11# As a user researcher, I want to conduct a user definition workshop with NSF, so that I can better prepare them and the team for future research work.\n",
+  "extraction": {
+    "personas": [
+      "user researcher",
+      "NSF"
+    ],
+    "entities": [
+      "user definition workshop"
+    ],
+    "actions": [
+      "conduct",
+      "prepare"
+    ],
+    "benefit": "better prepare them and the team for future research work"
+  },
+  "categories": {
+    "primary_entities": [
+      "user definition workshop"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "conduct"
+    ],
+    "secondary_actions": [
+      "prepare"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user researcher",
+        "to": "conduct",
+        "kind": "triggers"
+      },
+      {
+        "from": "conduct",
+        "to": "user definition workshop",
+        "kind": "targets"
+      },
+      {
+        "from": "user researcher",
+        "to": "prepare",
+        "kind": "triggers"
+      },
+      {
+        "from": "prepare",
+        "to": "user definition workshop",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1329,
+    "output": 222,
+    "time (ns)": 6369207000
+  }
+}

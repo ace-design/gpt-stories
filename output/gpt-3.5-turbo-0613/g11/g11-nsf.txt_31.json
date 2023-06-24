@@ -1,0 +1,92 @@
+{
+  "story": "#G11# As an NSF employee, I want to have editorial-planning recommendations, so that I can understand how they might impact an eventual CMS / future web presence.\n",
+  "extraction": {
+    "personas": [
+      "NSF employee"
+    ],
+    "entities": [
+      "editorial-planning recommendations",
+      "CMS",
+      "future web presence"
+    ],
+    "actions": [
+      "have",
+      "understand",
+      "impact"
+    ],
+    "benefit": "I can understand how they might impact an eventual CMS / future web presence"
+  },
+  "categories": {
+    "primary_entities": [
+      "editorial-planning recommendations",
+      "CMS",
+      "future web presence"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "understand",
+      "impact"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "NSF employee",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "editorial-planning recommendations",
+        "kind": "targets"
+      },
+      {
+        "from": "NSF employee",
+        "to": "understand",
+        "kind": "triggers"
+      },
+      {
+        "from": "understand",
+        "to": "editorial-planning recommendations",
+        "kind": "targets"
+      },
+      {
+        "from": "NSF employee",
+        "to": "impact",
+        "kind": "triggers"
+      },
+      {
+        "from": "impact",
+        "to": "editorial-planning recommendations",
+        "kind": "targets"
+      },
+      {
+        "from": "NSF employee",
+        "to": "impact",
+        "kind": "triggers"
+      },
+      {
+        "from": "impact",
+        "to": "CMS",
+        "kind": "targets"
+      },
+      {
+        "from": "NSF employee",
+        "to": "impact",
+        "kind": "triggers"
+      },
+      {
+        "from": "impact",
+        "to": "future web presence",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1375,
+    "output": 425,
+    "time (ns)": 11902715000
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "story": "#G11# As a team member, I want to have a prioritized list of features and elements of a future social element page, so that I can work with the engineers to determine feasibility.\n",
+  "extraction": {
+    "personas": [
+      "team member"
+    ],
+    "entities": [
+      "prioritized list",
+      "features",
+      "elements",
+      "social element page",
+      "engineers",
+      "feasibility"
+    ],
+    "actions": [
+      "work",
+      "determine"
+    ],
+    "benefit": "I can work with the engineers to determine feasibility"
+  },
+  "categories": {
+    "primary_entities": [
+      "prioritized list",
+      "features",
+      "elements",
+      "social element page"
+    ],
+    "secondary_entities": [
+      "engineers",
+      "feasibility"
+    ],
+    "primary_actions": [
+      "work"
+    ],
+    "secondary_actions": [
+      "determine"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "team member",
+        "to": "work",
+        "kind": "triggers"
+      },
+      {
+        "from": "work",
+        "to": "prioritized list",
+        "kind": "targets"
+      },
+      {
+        "from": "work",
+        "to": "features",
+        "kind": "targets"
+      },
+      {
+        "from": "work",
+        "to": "elements",
+        "kind": "targets"
+      },
+      {
+        "from": "work",
+        "to": "social element page",
+        "kind": "targets"
+      },
+      {
+        "from": "work",
+        "to": "engineers",
+        "kind": "targets"
+      },
+      {
+        "from": "work",
+        "to": "feasibility",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1393,
+    "output": 331,
+    "time (ns)": 12896813000
+  }
+}

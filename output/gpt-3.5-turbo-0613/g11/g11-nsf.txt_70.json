@@ -1,0 +1,57 @@
+{
+  "story": "#G11# As an NSF employee, I want to know where the initial in-person meeting will be, so that I can plan on attending.\n",
+  "extraction": {
+    "personas": [
+      "NSF employee"
+    ],
+    "entities": [
+      "initial in-person meeting"
+    ],
+    "actions": [
+      "know",
+      "plan on attending"
+    ],
+    "benefit": "I can plan on attending"
+  },
+  "categories": {
+    "primary_entities": [
+      "initial in-person meeting"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "plan on attending"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "NSF employee",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "initial in-person meeting",
+        "kind": "targets"
+      },
+      {
+        "from": "NSF employee",
+        "to": "plan on attending",
+        "kind": "triggers"
+      },
+      {
+        "from": "plan on attending",
+        "to": "initial in-person meeting",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1307,
+    "output": 228,
+    "time (ns)": 7017714000
+  }
+}

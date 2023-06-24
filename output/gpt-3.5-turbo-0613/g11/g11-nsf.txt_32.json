@@ -1,0 +1,69 @@
+{
+  "story": "#G11# As an NSF employee, I want to know how brand guidelines are developed and maintained, so that I can incorporate them throughout the project.\n",
+  "extraction": {
+    "personas": [
+      "NSF employee"
+    ],
+    "entities": [
+      "brand guidelines"
+    ],
+    "actions": [
+      "developed",
+      "maintained",
+      "incorporate"
+    ],
+    "benefit": "I can incorporate them throughout the project"
+  },
+  "categories": {
+    "primary_entities": [
+      "brand guidelines"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "developed",
+      "maintained"
+    ],
+    "secondary_actions": [
+      "incorporate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "NSF employee",
+        "to": "developed",
+        "kind": "triggers"
+      },
+      {
+        "from": "NSF employee",
+        "to": "maintained",
+        "kind": "triggers"
+      },
+      {
+        "from": "NSF employee",
+        "to": "incorporate",
+        "kind": "triggers"
+      },
+      {
+        "from": "developed",
+        "to": "brand guidelines",
+        "kind": "targets"
+      },
+      {
+        "from": "maintained",
+        "to": "brand guidelines",
+        "kind": "targets"
+      },
+      {
+        "from": "incorporate",
+        "to": "brand guidelines",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1323,
+    "output": 290,
+    "time (ns)": 8018672000
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "story": "#G11# As an author, I want to be able to indent / outdent content.\n",
+  "extraction": {
+    "personas": [
+      "author"
+    ],
+    "entities": [
+      "content"
+    ],
+    "actions": [
+      "indent",
+      "outdent"
+    ],
+    "benefit": "be able to indent / outdent content"
+  },
+  "categories": {
+    "primary_entities": [
+      "content"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "indent",
+      "outdent"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "author",
+        "to": "indent",
+        "kind": "triggers"
+      },
+      {
+        "from": "author",
+        "to": "outdent",
+        "kind": "triggers"
+      },
+      {
+        "from": "indent",
+        "to": "content",
+        "kind": "targets"
+      },
+      {
+        "from": "outdent",
+        "to": "content",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1269,
+    "output": 210,
+    "time (ns)": 6726064000
+  }
+}

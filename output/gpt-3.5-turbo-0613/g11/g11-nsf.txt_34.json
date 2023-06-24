@@ -1,0 +1,69 @@
+{
+  "story": "#G11# As an NSF employee, I want to know how visual design directions were developed, so that I can make better design decisions in the future.\n",
+  "extraction": {
+    "personas": [
+      "NSF employee"
+    ],
+    "entities": [
+      "visual design directions"
+    ],
+    "actions": [
+      "know",
+      "developed",
+      "make design decisions"
+    ],
+    "benefit": "I can make better design decisions in the future"
+  },
+  "categories": {
+    "primary_entities": [
+      "visual design directions"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "make design decisions"
+    ],
+    "secondary_actions": [
+      "developed"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "NSF employee",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "visual design directions",
+        "kind": "targets"
+      },
+      {
+        "from": "NSF employee",
+        "to": "developed",
+        "kind": "triggers"
+      },
+      {
+        "from": "developed",
+        "to": "visual design directions",
+        "kind": "targets"
+      },
+      {
+        "from": "NSF employee",
+        "to": "make design decisions",
+        "kind": "triggers"
+      },
+      {
+        "from": "make design decisions",
+        "to": "visual design directions",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1330,
+    "output": 293,
+    "time (ns)": 8421429000
+  }
+}

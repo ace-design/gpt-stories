@@ -1,0 +1,44 @@
+{
+  "story": "#G11# As a VisualDesigner, I want to demonstrate the value of visual design to the NSF project team, so that visual design is an integral part of a redesign.\n",
+  "extraction": {
+    "personas": [
+      "VisualDesigner"
+    ],
+    "entities": [
+      "NSF project team"
+    ],
+    "actions": [
+      "demonstrate"
+    ],
+    "benefit": "visual design is an integral part of a redesign"
+  },
+  "categories": {
+    "primary_entities": [
+      "NSF project team"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "demonstrate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "VisualDesigner",
+        "to": "demonstrate",
+        "kind": "triggers"
+      },
+      {
+        "from": "demonstrate",
+        "to": "NSF project team",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1324,
+    "output": 169,
+    "time (ns)": 6231562000
+  }
+}

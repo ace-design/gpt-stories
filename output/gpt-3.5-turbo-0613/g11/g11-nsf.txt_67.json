@@ -1,0 +1,44 @@
+{
+  "story": "#G11# As a team member, I want to have a platform that allows me to rapidly prototype HTML ideas.\n",
+  "extraction": {
+    "personas": [
+      "team member"
+    ],
+    "entities": [
+      "platform"
+    ],
+    "actions": [
+      "rapidly prototype"
+    ],
+    "benefit": "have a platform that allows me to rapidly prototype HTML ideas"
+  },
+  "categories": {
+    "primary_entities": [
+      "platform"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "rapidly prototype"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "team member",
+        "to": "rapidly prototype",
+        "kind": "triggers"
+      },
+      {
+        "from": "rapidly prototype",
+        "to": "platform",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1283,
+    "output": 162,
+    "time (ns)": 5822633000
+  }
+}

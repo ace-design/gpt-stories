@@ -1,0 +1,58 @@
+{
+  "story": "#G11# As a team member, I want to understand how work moves between UX/content > visual design > front end dev for a sprint cycle.\n",
+  "extraction": {
+    "personas": [
+      "team member"
+    ],
+    "entities": [
+      "UX/content",
+      "visual design",
+      "front end dev"
+    ],
+    "actions": [
+      "understand"
+    ],
+    "benefit": "how work moves between UX/content > visual design > front end dev for a sprint cycle"
+  },
+  "categories": {
+    "primary_entities": [
+      "UX/content",
+      "visual design",
+      "front end dev"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "understand"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "team member",
+        "to": "understand",
+        "kind": "triggers"
+      },
+      {
+        "from": "understand",
+        "to": "UX/content",
+        "kind": "targets"
+      },
+      {
+        "from": "understand",
+        "to": "visual design",
+        "kind": "targets"
+      },
+      {
+        "from": "understand",
+        "to": "front end dev",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1343,
+    "output": 240,
+    "time (ns)": 6875765000
+  }
+}

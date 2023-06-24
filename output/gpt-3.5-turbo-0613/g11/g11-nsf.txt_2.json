@@ -1,0 +1,58 @@
+{
+  "story": "#G11# As a developer, I want to have the subdomain beta.nsf.gov be set up, so that I can deploy a beta site to it.\n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "subdomain beta.nsf.gov",
+      "beta site"
+    ],
+    "actions": [
+      "set up",
+      "deploy"
+    ],
+    "benefit": "I can deploy a beta site"
+  },
+  "categories": {
+    "primary_entities": [
+      "subdomain beta.nsf.gov",
+      "beta site"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "set up",
+      "deploy"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "set up",
+        "kind": "triggers"
+      },
+      {
+        "from": "set up",
+        "to": "subdomain beta.nsf.gov",
+        "kind": "targets"
+      },
+      {
+        "from": "developer",
+        "to": "deploy",
+        "kind": "triggers"
+      },
+      {
+        "from": "deploy",
+        "to": "beta site",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1334,
+    "output": 232,
+    "time (ns)": 6860136000
+  }
+}

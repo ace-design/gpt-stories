@@ -17,7 +17,7 @@ MODEL = 'gpt-3.5-turbo-0613'              # required to use JSON schemas
 
 ## dataset location
 DATASET = './dataset/current'
-START_AT = 39
+START_AT = 1
 
        ###############################
 ######## Do not edit after this line ########

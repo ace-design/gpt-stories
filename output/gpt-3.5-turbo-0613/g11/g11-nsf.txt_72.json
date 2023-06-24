@@ -1,0 +1,56 @@
+{
+  "story": "#G11# As a team member, I want to know when meetings are, so that I can plan accordingly.\n",
+  "extraction": {
+    "personas": [
+      "team member"
+    ],
+    "entities": [
+      "meetings"
+    ],
+    "actions": [
+      "know",
+      "plan"
+    ],
+    "benefit": "I can plan accordingly"
+  },
+  "categories": {
+    "primary_entities": [
+      "meetings"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "plan"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "team member",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "meetings",
+        "kind": "targets"
+      },
+      {
+        "from": "team member",
+        "to": "plan",
+        "kind": "triggers"
+      },
+      {
+        "from": "plan",
+        "to": "meetings",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1275,
+    "output": 209,
+    "time (ns)": 6585762000
+  }
+}

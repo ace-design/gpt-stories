@@ -1,0 +1,67 @@
+{
+  "story": "#G11# As a user researcher, I want to continue scheduling interviews for hypothesis #1, so that I can be prepared to test our first prototype.\n",
+  "extraction": {
+    "personas": [
+      "user researcher"
+    ],
+    "entities": [
+      "scheduling interviews",
+      "hypothesis #1",
+      "first prototype"
+    ],
+    "actions": [
+      "continue",
+      "be prepared",
+      "test"
+    ],
+    "benefit": "I can be prepared to test our first prototype"
+  },
+  "categories": {
+    "primary_entities": [
+      "scheduling interviews",
+      "hypothesis #1",
+      "first prototype"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "continue",
+      "be prepared",
+      "test"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user researcher",
+        "to": "continue",
+        "kind": "triggers"
+      },
+      {
+        "from": "continue",
+        "to": "scheduling interviews",
+        "kind": "targets"
+      },
+      {
+        "from": "user researcher",
+        "to": "be prepared",
+        "kind": "triggers"
+      },
+      {
+        "from": "be prepared",
+        "to": "test",
+        "kind": "targets"
+      },
+      {
+        "from": "test",
+        "to": "first prototype",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1357,
+    "output": 274,
+    "time (ns)": 8146848000
+  }
+}

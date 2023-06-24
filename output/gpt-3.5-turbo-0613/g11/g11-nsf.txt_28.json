@@ -1,0 +1,68 @@
+{
+  "story": "#G11# As a researcher, I want to recruit for the last round of user research, so that we can summarize our findings and synthesize results.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "last round of user research"
+    ],
+    "actions": [
+      "recruit",
+      "summarize",
+      "synthesize"
+    ],
+    "benefit": "we can summarize our findings and synthesize results"
+  },
+  "categories": {
+    "primary_entities": [
+      "last round of user research"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "recruit",
+      "summarize",
+      "synthesize"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "recruit",
+        "kind": "triggers"
+      },
+      {
+        "from": "recruit",
+        "to": "last round of user research",
+        "kind": "targets"
+      },
+      {
+        "from": "researcher",
+        "to": "summarize",
+        "kind": "triggers"
+      },
+      {
+        "from": "summarize",
+        "to": "last round of user research",
+        "kind": "targets"
+      },
+      {
+        "from": "researcher",
+        "to": "synthesize",
+        "kind": "triggers"
+      },
+      {
+        "from": "synthesize",
+        "to": "last round of user research",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1336,
+    "output": 300,
+    "time (ns)": 8445958000
+  }
+}

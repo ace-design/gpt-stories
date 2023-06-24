@@ -1,0 +1,52 @@
+{
+  "story": "#G11# As a team member, I want to see the first iteration of beta up on cloud.gov.\n",
+  "extraction": {
+    "personas": [
+      "team member"
+    ],
+    "entities": [
+      "beta",
+      "cloud.gov"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "I can see the first iteration of beta up on cloud.gov"
+  },
+  "categories": {
+    "primary_entities": [
+      "beta"
+    ],
+    "secondary_entities": [
+      "cloud.gov"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "team member",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "beta",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "cloud.gov",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1287,
+    "output": 188,
+    "time (ns)": 6167046000
+  }
+}

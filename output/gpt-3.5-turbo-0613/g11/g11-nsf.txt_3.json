@@ -1,0 +1,55 @@
+{
+  "story": "#G11# As a stakeholder, I want to have a decision on whether or not the blog aggregator may work for beta, and if not what will.\n",
+  "extraction": {
+    "personas": [
+      "stakeholder"
+    ],
+    "entities": [
+      "blog aggregator",
+      "beta"
+    ],
+    "actions": [
+      "have",
+      "work"
+    ],
+    "benefit": "have a decision on whether or not the blog aggregator may work for beta, and if not what will"
+  },
+  "categories": {
+    "primary_entities": [
+      "blog aggregator"
+    ],
+    "secondary_entities": [
+      "beta"
+    ],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": [
+      "work"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "stakeholder",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "blog aggregator",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "beta",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1342,
+    "output": 203,
+    "time (ns)": 6063826000
+  }
+}

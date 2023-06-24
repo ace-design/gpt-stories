@@ -1,0 +1,60 @@
+{
+  "story": "#G11# As an NSF member of the team, I want to have a place where I can access all the related reports and documentation, so that I can refer to it easily now and in the future.\n",
+  "extraction": {
+    "personas": [
+      "NSF member of the team"
+    ],
+    "entities": [
+      "related reports",
+      "documentation"
+    ],
+    "actions": [
+      "access",
+      "refer"
+    ],
+    "benefit": "I can refer to it easily now and in the future"
+  },
+  "categories": {
+    "primary_entities": [
+      "related reports"
+    ],
+    "secondary_entities": [
+      "documentation"
+    ],
+    "primary_actions": [
+      "access"
+    ],
+    "secondary_actions": [
+      "refer"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "NSF member of the team",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "related reports",
+        "kind": "targets"
+      },
+      {
+        "from": "NSF member of the team",
+        "to": "refer",
+        "kind": "triggers"
+      },
+      {
+        "from": "refer",
+        "to": "documentation",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1360,
+    "output": 231,
+    "time (ns)": 7286847000
+  }
+}

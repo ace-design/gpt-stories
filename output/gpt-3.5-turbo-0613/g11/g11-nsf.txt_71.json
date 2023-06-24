@@ -1,0 +1,49 @@
+{
+  "story": "#G11# As a designer, I want to have a style guide / design guide / content guide, so that we have a uniform way of delivering product.\n",
+  "extraction": {
+    "personas": [
+      "designer"
+    ],
+    "entities": [
+      "style guide",
+      "design guide",
+      "content guide"
+    ],
+    "actions": [
+      "have"
+    ],
+    "benefit": "we have a uniform way of delivering product"
+  },
+  "categories": {
+    "primary_entities": [
+      "style guide"
+    ],
+    "secondary_entities": [
+      "design guide",
+      "content guide"
+    ],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "designer",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "style guide",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1324,
+    "output": 169,
+    "time (ns)": 7812226000
+  }
+}

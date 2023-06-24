@@ -1,0 +1,60 @@
+{
+  "story": "#G11# As a team member, I want to know what visual design related tasks we might need to plan for this sprint, so that I can assign tasks as necessary.\n",
+  "extraction": {
+    "personas": [
+      "team member"
+    ],
+    "entities": [
+      "visual design related tasks",
+      "sprint"
+    ],
+    "actions": [
+      "plan",
+      "assign"
+    ],
+    "benefit": "I can assign tasks as necessary"
+  },
+  "categories": {
+    "primary_entities": [
+      "visual design related tasks"
+    ],
+    "secondary_entities": [
+      "sprint"
+    ],
+    "primary_actions": [
+      "plan"
+    ],
+    "secondary_actions": [
+      "assign"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "team member",
+        "to": "plan",
+        "kind": "triggers"
+      },
+      {
+        "from": "plan",
+        "to": "visual design related tasks",
+        "kind": "targets"
+      },
+      {
+        "from": "team member",
+        "to": "assign",
+        "kind": "triggers"
+      },
+      {
+        "from": "assign",
+        "to": "visual design related tasks",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1330,
+    "output": 225,
+    "time (ns)": 6583042000
+  }
+}

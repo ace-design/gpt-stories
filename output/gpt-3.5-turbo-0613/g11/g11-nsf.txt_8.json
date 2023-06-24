@@ -1,0 +1,66 @@
+{
+  "story": "#G11# As a team member, I want to determine a design direction for the beta social page, so that we can implement a beta site quickly without established brand guidelines.\n",
+  "extraction": {
+    "personas": [
+      "team member"
+    ],
+    "entities": [
+      "beta social page",
+      "beta site",
+      "brand guidelines"
+    ],
+    "actions": [
+      "determine",
+      "implement"
+    ],
+    "benefit": "implement a beta site quickly without established brand guidelines"
+  },
+  "categories": {
+    "primary_entities": [
+      "beta social page",
+      "beta site"
+    ],
+    "secondary_entities": [
+      "brand guidelines"
+    ],
+    "primary_actions": [
+      "determine",
+      "implement"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "team member",
+        "to": "determine",
+        "kind": "triggers"
+      },
+      {
+        "from": "determine",
+        "to": "beta social page",
+        "kind": "targets"
+      },
+      {
+        "from": "team member",
+        "to": "implement",
+        "kind": "triggers"
+      },
+      {
+        "from": "implement",
+        "to": "beta site",
+        "kind": "targets"
+      },
+      {
+        "from": "implement",
+        "to": "brand guidelines",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1350,
+    "output": 262,
+    "time (ns)": 9177659000
+  }
+}

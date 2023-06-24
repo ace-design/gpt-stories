@@ -1,0 +1,44 @@
+{
+  "story": "#G11# As a content designer, I want to demonstrate the value of user-centered content design to ensure it's an integral part of our recommendations.\n",
+  "extraction": {
+    "personas": [
+      "content designer"
+    ],
+    "entities": [
+      "user-centered content design"
+    ],
+    "actions": [
+      "demonstrate"
+    ],
+    "benefit": "ensure it's an integral part of our recommendations"
+  },
+  "categories": {
+    "primary_entities": [
+      "user-centered content design"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "demonstrate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "content designer",
+        "to": "demonstrate",
+        "kind": "triggers"
+      },
+      {
+        "from": "demonstrate",
+        "to": "user-centered content design",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1309,
+    "output": 169,
+    "time (ns)": 6327375000
+  }
+}

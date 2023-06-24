@@ -1,0 +1,51 @@
+{
+  "story": "#G11# As a CMS administrator, I want to have roles, so that I can assign them to my users.\n",
+  "extraction": {
+    "personas": [
+      "CMS administrator"
+    ],
+    "entities": [
+      "roles",
+      "users"
+    ],
+    "actions": [
+      "assign"
+    ],
+    "benefit": "I can assign roles to my users"
+  },
+  "categories": {
+    "primary_entities": [
+      "roles",
+      "users"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "assign"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "CMS administrator",
+        "to": "assign",
+        "kind": "triggers"
+      },
+      {
+        "from": "assign",
+        "to": "roles",
+        "kind": "targets"
+      },
+      {
+        "from": "assign",
+        "to": "users",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1281,
+    "output": 181,
+    "time (ns)": 5871010000
+  }
+}

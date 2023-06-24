@@ -1,0 +1,74 @@
+{
+  "story": "#G11# As a team member, I want to have a prototype strategy, so that I understand how we will gain understandings from tests that will drive recommendations.\n",
+  "extraction": {
+    "personas": [
+      "team member"
+    ],
+    "entities": [
+      "prototype strategy",
+      "tests",
+      "recommendations"
+    ],
+    "actions": [
+      "have",
+      "gain understandings",
+      "drive"
+    ],
+    "benefit": "understand how we will gain understandings from tests that will drive recommendations"
+  },
+  "categories": {
+    "primary_entities": [
+      "prototype strategy"
+    ],
+    "secondary_entities": [
+      "tests",
+      "recommendations"
+    ],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": [
+      "gain understandings",
+      "drive"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "team member",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "prototype strategy",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "tests",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "recommendations",
+        "kind": "targets"
+      },
+      {
+        "from": "gain understandings",
+        "to": "tests",
+        "kind": "targets"
+      },
+      {
+        "from": "drive",
+        "to": "recommendations",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1358,
+    "output": 292,
+    "time (ns)": 8086894000
+  }
+}

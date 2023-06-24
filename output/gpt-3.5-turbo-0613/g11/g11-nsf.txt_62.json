@@ -1,0 +1,53 @@
+{
+  "story": "#G11# As a team member, I want to have recruiting-email templates ready to go, so that I can start recruiting interviewees ASAP!.\n",
+  "extraction": {
+    "personas": [
+      "team member"
+    ],
+    "entities": [
+      "recruiting-email templates",
+      "interviewees"
+    ],
+    "actions": [
+      "have",
+      "start recruiting"
+    ],
+    "benefit": "I can start recruiting interviewees ASAP!"
+  },
+  "categories": {
+    "primary_entities": [
+      "recruiting-email templates",
+      "interviewees"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "start recruiting"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "team member",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "recruiting-email templates",
+        "kind": "targets"
+      },
+      {
+        "from": "start recruiting",
+        "to": "interviewees",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1331,
+    "output": 208,
+    "time (ns)": 8324596000
+  }
+}

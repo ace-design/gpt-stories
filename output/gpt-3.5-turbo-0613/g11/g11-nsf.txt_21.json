@@ -1,0 +1,62 @@
+{
+  "story": "#G11# As a team member, I want to understand how time off overlaps with plans around the user research.\n",
+  "extraction": {
+    "personas": [
+      "team member"
+    ],
+    "entities": [
+      "time off",
+      "plans",
+      "user research"
+    ],
+    "actions": [
+      "understand",
+      "overlaps"
+    ],
+    "benefit": "to understand how time off overlaps with plans around the user research"
+  },
+  "categories": {
+    "primary_entities": [
+      "time off",
+      "user research"
+    ],
+    "secondary_entities": [
+      "plans"
+    ],
+    "primary_actions": [
+      "understand"
+    ],
+    "secondary_actions": [
+      "overlaps"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "team member",
+        "to": "understand",
+        "kind": "triggers"
+      },
+      {
+        "from": "understand",
+        "to": "time off",
+        "kind": "targets"
+      },
+      {
+        "from": "understand",
+        "to": "plans",
+        "kind": "targets"
+      },
+      {
+        "from": "understand",
+        "to": "user research",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1315,
+    "output": 235,
+    "time (ns)": 7387219000
+  }
+}

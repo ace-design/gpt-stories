@@ -1,0 +1,65 @@
+{
+  "story": "#G11# As a user researcher, I want to set up a website recruitment test, so that I can see if we can recruit users in real time from the website.\n",
+  "extraction": {
+    "personas": [
+      "user researcher"
+    ],
+    "entities": [
+      "website recruitment test",
+      "users",
+      "website"
+    ],
+    "actions": [
+      "set up",
+      "recruit"
+    ],
+    "benefit": "I can see if we can recruit users in real time from the website."
+  },
+  "categories": {
+    "primary_entities": [
+      "website recruitment test",
+      "users",
+      "website"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "set up",
+      "recruit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user researcher",
+        "to": "set up",
+        "kind": "triggers"
+      },
+      {
+        "from": "set up",
+        "to": "website recruitment test",
+        "kind": "targets"
+      },
+      {
+        "from": "user researcher",
+        "to": "recruit",
+        "kind": "triggers"
+      },
+      {
+        "from": "recruit",
+        "to": "users",
+        "kind": "targets"
+      },
+      {
+        "from": "recruit",
+        "to": "website",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1360,
+    "output": 267,
+    "time (ns)": 7588772000
+  }
+}

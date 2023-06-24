@@ -1,0 +1,51 @@
+{
+  "story": "#G11# As a user, I want to add a video to my article.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "video",
+      "article"
+    ],
+    "actions": [
+      "add"
+    ],
+    "benefit": "I can enhance my article with a video"
+  },
+  "categories": {
+    "primary_entities": [
+      "video",
+      "article"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "add"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "video",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "article",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1260,
+    "output": 180,
+    "time (ns)": 5762341000
+  }
+}

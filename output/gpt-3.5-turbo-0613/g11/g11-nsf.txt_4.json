@@ -1,0 +1,56 @@
+{
+  "story": "#G11# As an NSF employee, I want to understand the process of switching the cloud.gov hosting plan over from prototype to FISMA low.\n",
+  "extraction": {
+    "personas": [
+      "NSF employee"
+    ],
+    "entities": [
+      "cloud.gov hosting plan"
+    ],
+    "actions": [
+      "understand",
+      "switching"
+    ],
+    "benefit": "to switch the cloud.gov hosting plan over from prototype to FISMA low"
+  },
+  "categories": {
+    "primary_entities": [
+      "cloud.gov hosting plan"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "understand",
+      "switching"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "NSF employee",
+        "to": "understand",
+        "kind": "triggers"
+      },
+      {
+        "from": "understand",
+        "to": "cloud.gov hosting plan",
+        "kind": "targets"
+      },
+      {
+        "from": "NSF employee",
+        "to": "switching",
+        "kind": "triggers"
+      },
+      {
+        "from": "switching",
+        "to": "cloud.gov hosting plan",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1332,
+    "output": 239,
+    "time (ns)": 8427252000
+  }
+}

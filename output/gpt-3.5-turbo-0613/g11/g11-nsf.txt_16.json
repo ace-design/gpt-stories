@@ -1,0 +1,81 @@
+{
+  "story": "#G11# As a user researcher, I want to have a list of priority workflow candidates that we might test, so that I can make sure we're capturing the priority areas.\n",
+  "extraction": {
+    "personas": [
+      "user researcher"
+    ],
+    "entities": [
+      "list of priority workflow candidates"
+    ],
+    "actions": [
+      "have",
+      "test",
+      "make sure",
+      "capturing"
+    ],
+    "benefit": "I can make sure we're capturing the priority areas"
+  },
+  "categories": {
+    "primary_entities": [
+      "list of priority workflow candidates"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "test"
+    ],
+    "secondary_actions": [
+      "make sure",
+      "capturing"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user researcher",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "list of priority workflow candidates",
+        "kind": "targets"
+      },
+      {
+        "from": "user researcher",
+        "to": "test",
+        "kind": "triggers"
+      },
+      {
+        "from": "test",
+        "to": "list of priority workflow candidates",
+        "kind": "targets"
+      },
+      {
+        "from": "user researcher",
+        "to": "make sure",
+        "kind": "triggers"
+      },
+      {
+        "from": "make sure",
+        "to": "list of priority workflow candidates",
+        "kind": "targets"
+      },
+      {
+        "from": "user researcher",
+        "to": "capturing",
+        "kind": "triggers"
+      },
+      {
+        "from": "capturing",
+        "to": "list of priority workflow candidates",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1357,
+    "output": 358,
+    "time (ns)": 11219206000
+  }
+}

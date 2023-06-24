@@ -1,0 +1,51 @@
+{
+  "story": "#G11# As an NSF employee, I want to have high-level strategy recommendations to implement in conjunction with the new CMS.\n",
+  "extraction": {
+    "personas": [
+      "NSF employee"
+    ],
+    "entities": [
+      "high-level strategy recommendations",
+      "new CMS"
+    ],
+    "actions": [
+      "implement"
+    ],
+    "benefit": "have high-level strategy recommendations to implement in conjunction with the new CMS"
+  },
+  "categories": {
+    "primary_entities": [
+      "high-level strategy recommendations",
+      "new CMS"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "implement"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "NSF employee",
+        "to": "implement",
+        "kind": "triggers"
+      },
+      {
+        "from": "implement",
+        "to": "high-level strategy recommendations",
+        "kind": "targets"
+      },
+      {
+        "from": "implement",
+        "to": "new CMS",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1310,
+    "output": 201,
+    "time (ns)": 6311797000
+  }
+}

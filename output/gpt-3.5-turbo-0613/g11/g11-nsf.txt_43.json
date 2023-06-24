@@ -1,0 +1,56 @@
+{
+  "story": "#G11# As a designer, I want to know what early indications of hypotheses might be, so that I can start planning for the first prototype.\n",
+  "extraction": {
+    "personas": [
+      "designer"
+    ],
+    "entities": [
+      "early indications of hypotheses"
+    ],
+    "actions": [
+      "know",
+      "start planning"
+    ],
+    "benefit": "I can start planning for the first prototype"
+  },
+  "categories": {
+    "primary_entities": [
+      "early indications of hypotheses"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "start planning"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "designer",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "early indications of hypotheses",
+        "kind": "targets"
+      },
+      {
+        "from": "designer",
+        "to": "start planning",
+        "kind": "triggers"
+      },
+      {
+        "from": "start planning",
+        "to": "first prototype",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1313,
+    "output": 223,
+    "time (ns)": 6540249000
+  }
+}

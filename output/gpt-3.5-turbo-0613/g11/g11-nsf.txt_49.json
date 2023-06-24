@@ -1,0 +1,60 @@
+{
+  "story": "#G11# As an NSF employee, I want to learn about how Github is used, so that I can participate in the issues as assigned.\n",
+  "extraction": {
+    "personas": [
+      "NSF employee"
+    ],
+    "entities": [
+      "Github",
+      "issues"
+    ],
+    "actions": [
+      "learn",
+      "participate"
+    ],
+    "benefit": "I can participate in the issues as assigned"
+  },
+  "categories": {
+    "primary_entities": [
+      "Github"
+    ],
+    "secondary_entities": [
+      "issues"
+    ],
+    "primary_actions": [
+      "learn"
+    ],
+    "secondary_actions": [
+      "participate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "NSF employee",
+        "to": "learn",
+        "kind": "triggers"
+      },
+      {
+        "from": "learn",
+        "to": "Github",
+        "kind": "targets"
+      },
+      {
+        "from": "NSF employee",
+        "to": "participate",
+        "kind": "triggers"
+      },
+      {
+        "from": "participate",
+        "to": "issues",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1312,
+    "output": 224,
+    "time (ns)": 6681204000
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "story": "#G11# As a content editor, I want to be able to add videos from Brightcove.\n",
+  "extraction": {
+    "personas": [
+      "content editor"
+    ],
+    "entities": [
+      "videos",
+      "Brightcove"
+    ],
+    "actions": [
+      "add"
+    ],
+    "benefit": "be able to add videos from Brightcove"
+  },
+  "categories": {
+    "primary_entities": [
+      "videos"
+    ],
+    "secondary_entities": [
+      "Brightcove"
+    ],
+    "primary_actions": [
+      "add"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "content editor",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "videos",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "Brightcove",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1281,
+    "output": 188,
+    "time (ns)": 6028482000
+  }
+}

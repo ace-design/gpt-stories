@@ -1,0 +1,71 @@
+{
+  "story": "#G11# As an NSF employee, I want to see how the user recruitment form looks and behaves on a sample page, so that I can understand the impact the recruitment will have on the NSF page.\n",
+  "extraction": {
+    "personas": [
+      "NSF employee"
+    ],
+    "entities": [
+      "user recruitment form",
+      "sample page",
+      "NSF page"
+    ],
+    "actions": [
+      "see",
+      "looks",
+      "behaves",
+      "understand",
+      "impact"
+    ],
+    "benefit": "I can understand the impact the recruitment will have on the NSF page."
+  },
+  "categories": {
+    "primary_entities": [
+      "user recruitment form",
+      "sample page",
+      "NSF page"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see",
+      "looks",
+      "behaves",
+      "understand",
+      "impact"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "NSF employee",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "user recruitment form",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "sample page",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "NSF page",
+        "kind": "targets"
+      },
+      {
+        "from": "understand",
+        "to": "impact",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1414,
+    "output": 289,
+    "time (ns)": 8630365000
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "story": "#G11# As a research participant, I want to make sure that the appearance of the prototype does not distract from the workflow, so that I can complete the user interview.\n",
+  "extraction": {
+    "personas": [
+      "research participant"
+    ],
+    "entities": [
+      "prototype",
+      "workflow",
+      "user interview"
+    ],
+    "actions": [
+      "make sure",
+      "does not distract",
+      "complete"
+    ],
+    "benefit": "I can complete the user interview"
+  },
+  "categories": {
+    "primary_entities": [
+      "prototype",
+      "workflow",
+      "user interview"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "make sure",
+      "complete"
+    ],
+    "secondary_actions": [
+      "does not distract"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "research participant",
+        "to": "make sure",
+        "kind": "triggers"
+      },
+      {
+        "from": "make sure",
+        "to": "prototype",
+        "kind": "targets"
+      },
+      {
+        "from": "make sure",
+        "to": "workflow",
+        "kind": "targets"
+      },
+      {
+        "from": "make sure",
+        "to": "user interview",
+        "kind": "targets"
+      },
+      {
+        "from": "complete",
+        "to": "user interview",
+        "kind": "targets"
+      },
+      {
+        "from": "does not distract",
+        "to": "prototype",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1349,
+    "output": 288,
+    "time (ns)": 9663375000
+  }
+}
