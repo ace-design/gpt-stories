@@ -34,5 +34,5 @@ response = openai.ChatCompletion.create(
     messages = conversation,
     temperature=0.0)
 
-print(json.loads(response))
+print(json.dumps(response, indent=2))
 
