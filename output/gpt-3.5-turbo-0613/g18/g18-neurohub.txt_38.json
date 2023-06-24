@@ -1,0 +1,58 @@
+{
+  "story": "#G18# As a user, I want to capture the same metadata for each file created in an experimental run.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "metadata",
+      "file",
+      "experimental run"
+    ],
+    "actions": [
+      "capture"
+    ],
+    "benefit": "to capture the same metadata for each file created in an experimental run"
+  },
+  "categories": {
+    "primary_entities": [
+      "metadata",
+      "file",
+      "experimental run"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "capture"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "capture",
+        "kind": "triggers"
+      },
+      {
+        "from": "capture",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "capture",
+        "to": "file",
+        "kind": "targets"
+      },
+      {
+        "from": "capture",
+        "to": "experimental run",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1300,
+    "output": 219,
+    "time (ns)": 4889401000
+  }
+}

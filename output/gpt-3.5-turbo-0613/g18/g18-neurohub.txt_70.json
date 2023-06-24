@@ -1,0 +1,73 @@
+{
+  "story": "#G18# As a researcher, I want to have electronic support for keeping track of which data sets were used/output/modified as part of a particular experiment.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "electronic support",
+      "data sets"
+    ],
+    "actions": [
+      "keeping track",
+      "used",
+      "output",
+      "modified"
+    ],
+    "benefit": "to have a record of data sets used/output/modified in an experiment"
+  },
+  "categories": {
+    "primary_entities": [
+      "electronic support",
+      "data sets"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "keeping track"
+    ],
+    "secondary_actions": [
+      "used",
+      "output",
+      "modified"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "keeping track",
+        "kind": "triggers"
+      },
+      {
+        "from": "keeping track",
+        "to": "electronic support",
+        "kind": "targets"
+      },
+      {
+        "from": "keeping track",
+        "to": "data sets",
+        "kind": "targets"
+      },
+      {
+        "from": "keeping track",
+        "to": "used",
+        "kind": "targets"
+      },
+      {
+        "from": "keeping track",
+        "to": "output",
+        "kind": "targets"
+      },
+      {
+        "from": "keeping track",
+        "to": "modified",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1356,
+    "output": 297,
+    "time (ns)": 6166671000
+  }
+}

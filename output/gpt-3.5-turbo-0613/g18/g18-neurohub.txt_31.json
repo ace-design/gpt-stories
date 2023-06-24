@@ -1,0 +1,48 @@
+{
+  "story": "#G18# As a user, I want to have a visual way of viewing particular files uploaded over a time period.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "visual way",
+      "files"
+    ],
+    "actions": [
+      "viewing",
+      "uploaded"
+    ],
+    "benefit": "have a visual way of viewing particular files uploaded over a time period"
+  },
+  "categories": {
+    "primary_entities": [
+      "visual way",
+      "files"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "viewing",
+      "uploaded"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "viewing",
+        "kind": "triggers"
+      },
+      {
+        "from": "uploaded",
+        "to": "files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1306,
+    "output": 171,
+    "time (ns)": 3741547000
+  }
+}

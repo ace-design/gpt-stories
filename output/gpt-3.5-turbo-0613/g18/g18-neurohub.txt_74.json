@@ -1,0 +1,60 @@
+{
+  "story": "#G18# As a researcher, I want to have remote access to my data for off-site working , so that I can still work effectively while away from the lab.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "remote access",
+      "data"
+    ],
+    "actions": [
+      "have",
+      "work"
+    ],
+    "benefit": "I can still work effectively while away from the lab"
+  },
+  "categories": {
+    "primary_entities": [
+      "remote access"
+    ],
+    "secondary_entities": [
+      "data"
+    ],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": [
+      "work"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "remote access",
+        "kind": "targets"
+      },
+      {
+        "from": "researcher",
+        "to": "work",
+        "kind": "triggers"
+      },
+      {
+        "from": "work",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1326,
+    "output": 218,
+    "time (ns)": 4714265000
+  }
+}

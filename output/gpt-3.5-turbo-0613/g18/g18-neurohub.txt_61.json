@@ -1,0 +1,53 @@
+{
+  "story": "#G18# As a user, I want to have the option to tell Neurohub to push posted content to my Twitter feed at the same time.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "Neurohub",
+      "Twitter feed"
+    ],
+    "actions": [
+      "have the option",
+      "push posted content"
+    ],
+    "benefit": "to be able to share content on Twitter"
+  },
+  "categories": {
+    "primary_entities": [
+      "Neurohub",
+      "Twitter feed"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have the option",
+      "push posted content"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "have the option",
+        "kind": "triggers"
+      },
+      {
+        "from": "have the option",
+        "to": "Neurohub",
+        "kind": "targets"
+      },
+      {
+        "from": "push posted content",
+        "to": "Twitter feed",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1329,
+    "output": 209,
+    "time (ns)": 4972414000
+  }
+}

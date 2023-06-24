@@ -1,0 +1,47 @@
+{
+  "story": "#G18# As a user, I want to view how an experimental protocol has evolved over time.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "experimental protocol"
+    ],
+    "actions": [
+      "view",
+      "evolved over time"
+    ],
+    "benefit": "I can see how an experimental protocol has changed over time"
+  },
+  "categories": {
+    "primary_entities": [
+      "experimental protocol"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": [
+      "evolved over time"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "experimental protocol",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1285,
+    "output": 166,
+    "time (ns)": 4056426000
+  }
+}

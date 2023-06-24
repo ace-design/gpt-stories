@@ -1,0 +1,65 @@
+{
+  "story": "#G18# As a researcher,  I want to have the ability to store all the inputs for an experiment so that the provenance of the results can be verified.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "inputs",
+      "experiment",
+      "results"
+    ],
+    "actions": [
+      "store",
+      "verify"
+    ],
+    "benefit": "the provenance of the results can be verified"
+  },
+  "categories": {
+    "primary_entities": [
+      "inputs",
+      "experiment",
+      "results"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "store",
+      "verify"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "store",
+        "kind": "triggers"
+      },
+      {
+        "from": "store",
+        "to": "inputs",
+        "kind": "targets"
+      },
+      {
+        "from": "store",
+        "to": "experiment",
+        "kind": "targets"
+      },
+      {
+        "from": "store",
+        "to": "results",
+        "kind": "targets"
+      },
+      {
+        "from": "verify",
+        "to": "results",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1333,
+    "output": 245,
+    "time (ns)": 5667356000
+  }
+}

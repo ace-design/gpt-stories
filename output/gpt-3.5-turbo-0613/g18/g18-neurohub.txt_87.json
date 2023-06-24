@@ -1,0 +1,57 @@
+{
+  "story": "#G18# As a researcher, I want to have the ability to form links between objects, for example File A is an analysis of File B, so that data can be searched by type and by association.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "objects",
+      "File A",
+      "File B"
+    ],
+    "actions": [
+      "form links",
+      "search"
+    ],
+    "benefit": "data can be searched by type and by association"
+  },
+  "categories": {
+    "primary_entities": [
+      "objects"
+    ],
+    "secondary_entities": [
+      "File A",
+      "File B"
+    ],
+    "primary_actions": [
+      "form links"
+    ],
+    "secondary_actions": [
+      "search"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "form links",
+        "kind": "triggers"
+      },
+      {
+        "from": "form links",
+        "to": "objects",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "objects",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1363,
+    "output": 201,
+    "time (ns)": 4711573000
+  }
+}

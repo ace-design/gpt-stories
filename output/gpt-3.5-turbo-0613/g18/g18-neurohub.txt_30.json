@@ -1,0 +1,44 @@
+{
+  "story": "#G18# As a user, I want to revert to an older version of an uploaded file.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "uploaded file"
+    ],
+    "actions": [
+      "revert"
+    ],
+    "benefit": "I can revert to an older version of an uploaded file"
+  },
+  "categories": {
+    "primary_entities": [
+      "uploaded file"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "revert"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "revert",
+        "kind": "triggers"
+      },
+      {
+        "from": "revert",
+        "to": "uploaded file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1272,
+    "output": 159,
+    "time (ns)": 4193463000
+  }
+}

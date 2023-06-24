@@ -1,0 +1,51 @@
+{
+  "story": "#G18# As a user, I want to associate together files involved in a experiment.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "files",
+      "experiment"
+    ],
+    "actions": [
+      "associate"
+    ],
+    "benefit": "I can easily manage and organize files related to an experiment."
+  },
+  "categories": {
+    "primary_entities": [
+      "files",
+      "experiment"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "associate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "associate",
+        "kind": "triggers"
+      },
+      {
+        "from": "associate",
+        "to": "files",
+        "kind": "targets"
+      },
+      {
+        "from": "associate",
+        "to": "experiment",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1271,
+    "output": 183,
+    "time (ns)": 4591049000
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "story": "#G18# As a researcher, I want to associate meta data to the group as a whole at some point in time after the bulk upload has completed, so that I have a period of time to reflect on suitable values for the meta data.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "group"
+    ],
+    "actions": [
+      "associate",
+      "bulk upload",
+      "reflect"
+    ],
+    "benefit": "I have a period of time to reflect on suitable values for the meta data"
+  },
+  "categories": {
+    "primary_entities": [
+      "group"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "associate",
+      "bulk upload"
+    ],
+    "secondary_actions": [
+      "reflect"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "associate",
+        "kind": "triggers"
+      },
+      {
+        "from": "associate",
+        "to": "group",
+        "kind": "targets"
+      },
+      {
+        "from": "researcher",
+        "to": "bulk upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "bulk upload",
+        "to": "group",
+        "kind": "targets"
+      },
+      {
+        "from": "researcher",
+        "to": "reflect",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1382,
+    "output": 252,
+    "time (ns)": 6277425000
+  }
+}

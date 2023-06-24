@@ -1,0 +1,92 @@
+{
+  "story": "#G18# As a user, I want to view and update an inventory of of the equipment and consumables that are present in the centre.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "inventory",
+      "equipment",
+      "consumables",
+      "centre"
+    ],
+    "actions": [
+      "view",
+      "update"
+    ],
+    "benefit": "I can keep track of the equipment and consumables in the centre"
+  },
+  "categories": {
+    "primary_entities": [
+      "inventory",
+      "equipment",
+      "consumables",
+      "centre"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view",
+      "update"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "user",
+        "to": "update",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "inventory",
+        "kind": "targets"
+      },
+      {
+        "from": "update",
+        "to": "inventory",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "equipment",
+        "kind": "targets"
+      },
+      {
+        "from": "update",
+        "to": "equipment",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "consumables",
+        "kind": "targets"
+      },
+      {
+        "from": "update",
+        "to": "consumables",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "centre",
+        "kind": "targets"
+      },
+      {
+        "from": "update",
+        "to": "centre",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1336,
+    "output": 383,
+    "time (ns)": 7444874000
+  }
+}

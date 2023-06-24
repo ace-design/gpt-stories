@@ -1,0 +1,65 @@
+{
+  "story": "#G18# As a researcher, I want to point my Mendeley client at a group-wide shared repository of research papers and get notifications via Mendeley when new content is added.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "Mendeley client",
+      "group-wide shared repository of research papers"
+    ],
+    "actions": [
+      "point",
+      "get notifications"
+    ],
+    "benefit": "I can stay updated with new content added to the shared repository"
+  },
+  "categories": {
+    "primary_entities": [
+      "Mendeley client"
+    ],
+    "secondary_entities": [
+      "group-wide shared repository of research papers"
+    ],
+    "primary_actions": [
+      "point"
+    ],
+    "secondary_actions": [
+      "get notifications"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "point",
+        "kind": "triggers"
+      },
+      {
+        "from": "point",
+        "to": "Mendeley client",
+        "kind": "targets"
+      },
+      {
+        "from": "get notifications",
+        "to": "Mendeley client",
+        "kind": "targets"
+      },
+      {
+        "from": "researcher",
+        "to": "get notifications",
+        "kind": "triggers"
+      },
+      {
+        "from": "point",
+        "to": "group-wide shared repository of research papers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1369,
+    "output": 276,
+    "time (ns)": 6629637000
+  }
+}

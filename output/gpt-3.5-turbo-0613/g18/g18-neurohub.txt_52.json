@@ -1,0 +1,51 @@
+{
+  "story": "#G18# As a user, I want to download multiple files from the search results in one go.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "multiple files",
+      "search results"
+    ],
+    "actions": [
+      "download"
+    ],
+    "benefit": "I can download multiple files from the search results in one go."
+  },
+  "categories": {
+    "primary_entities": [
+      "multiple files",
+      "search results"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "download"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "download",
+        "kind": "triggers"
+      },
+      {
+        "from": "download",
+        "to": "multiple files",
+        "kind": "targets"
+      },
+      {
+        "from": "download",
+        "to": "search results",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1288,
+    "output": 190,
+    "time (ns)": 4449636000
+  }
+}

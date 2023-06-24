@@ -1,0 +1,60 @@
+{
+  "story": "#G18# As a researcher, I want to create a log book page for an experiment and attach a file to this page.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "log book page",
+      "file"
+    ],
+    "actions": [
+      "create",
+      "attach"
+    ],
+    "benefit": "to keep a record of the experiment and have the file associated with it"
+  },
+  "categories": {
+    "primary_entities": [
+      "log book page"
+    ],
+    "secondary_entities": [
+      "file"
+    ],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": [
+      "attach"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "log book page",
+        "kind": "targets"
+      },
+      {
+        "from": "researcher",
+        "to": "attach",
+        "kind": "triggers"
+      },
+      {
+        "from": "attach",
+        "to": "file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1313,
+    "output": 225,
+    "time (ns)": 6232536000
+  }
+}

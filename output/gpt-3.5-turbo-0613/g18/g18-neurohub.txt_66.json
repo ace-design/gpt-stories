@@ -1,0 +1,59 @@
+{
+  "story": "#G18# As a user, I want to sync events created in NeuroHub with a web-based Calendar such as Google Calendar.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "NeuroHub",
+      "web-based Calendar",
+      "Google Calendar"
+    ],
+    "actions": [
+      "sync"
+    ],
+    "benefit": "I can sync events created in NeuroHub with a web-based Calendar such as Google Calendar"
+  },
+  "categories": {
+    "primary_entities": [
+      "NeuroHub",
+      "Google Calendar"
+    ],
+    "secondary_entities": [
+      "web-based Calendar"
+    ],
+    "primary_actions": [
+      "sync"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "sync",
+        "kind": "triggers"
+      },
+      {
+        "from": "sync",
+        "to": "NeuroHub",
+        "kind": "targets"
+      },
+      {
+        "from": "sync",
+        "to": "web-based Calendar",
+        "kind": "targets"
+      },
+      {
+        "from": "sync",
+        "to": "Google Calendar",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1328,
+    "output": 234,
+    "time (ns)": 5392360000
+  }
+}

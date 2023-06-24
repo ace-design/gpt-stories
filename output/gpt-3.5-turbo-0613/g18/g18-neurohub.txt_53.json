@@ -1,0 +1,51 @@
+{
+  "story": "#G18# As a user, I want to draw tables using HTML tags as part of the content of a log book page.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "HTML tags",
+      "log book page"
+    ],
+    "actions": [
+      "draw"
+    ],
+    "benefit": "to include tables in the content of a log book page"
+  },
+  "categories": {
+    "primary_entities": [
+      "HTML tags",
+      "log book page"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "draw"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "draw",
+        "kind": "triggers"
+      },
+      {
+        "from": "draw",
+        "to": "HTML tags",
+        "kind": "targets"
+      },
+      {
+        "from": "draw",
+        "to": "log book page",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1302,
+    "output": 192,
+    "time (ns)": 4566270000
+  }
+}

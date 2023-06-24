@@ -1,0 +1,51 @@
+{
+  "story": "#G18# As a user, I want to be sure that existing metadata corresponding to the file is not lost when moving a file to a new location.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "metadata",
+      "file"
+    ],
+    "actions": [
+      "moving"
+    ],
+    "benefit": "be sure that existing metadata corresponding to the file is not lost when moving a file to a new location"
+  },
+  "categories": {
+    "primary_entities": [
+      "metadata",
+      "file"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "moving"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "moving",
+        "kind": "triggers"
+      },
+      {
+        "from": "moving",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "moving",
+        "to": "file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1326,
+    "output": 192,
+    "time (ns)": 4290567000
+  }
+}

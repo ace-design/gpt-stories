@@ -1,0 +1,81 @@
+{
+  "story": "#G18# As a user, I want to navigate forwards and backwards between log books and log book pages without having to use my browser's back button.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "log books",
+      "log book pages",
+      "browser's back button"
+    ],
+    "actions": [
+      "navigate forwards",
+      "navigate backwards"
+    ],
+    "benefit": "without having to use my browser's back button"
+  },
+  "categories": {
+    "primary_entities": [
+      "log books",
+      "log book pages"
+    ],
+    "secondary_entities": [
+      "browser's back button"
+    ],
+    "primary_actions": [
+      "navigate forwards",
+      "navigate backwards"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "navigate forwards",
+        "kind": "triggers"
+      },
+      {
+        "from": "user",
+        "to": "navigate backwards",
+        "kind": "triggers"
+      },
+      {
+        "from": "navigate forwards",
+        "to": "log books",
+        "kind": "targets"
+      },
+      {
+        "from": "navigate forwards",
+        "to": "log book pages",
+        "kind": "targets"
+      },
+      {
+        "from": "navigate backwards",
+        "to": "log books",
+        "kind": "targets"
+      },
+      {
+        "from": "navigate backwards",
+        "to": "log book pages",
+        "kind": "targets"
+      },
+      {
+        "from": "navigate forwards",
+        "to": "browser's back button",
+        "kind": "targets"
+      },
+      {
+        "from": "navigate backwards",
+        "to": "browser's back button",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1345,
+    "output": 354,
+    "time (ns)": 9085278000
+  }
+}

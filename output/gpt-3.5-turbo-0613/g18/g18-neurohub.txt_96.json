@@ -1,0 +1,72 @@
+{
+  "story": "#G18# As a researcher,  I want to have the ability to restrict the data I share to certain researchers or groups of researchers.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "data",
+      "researchers",
+      "groups of researchers"
+    ],
+    "actions": [
+      "restrict",
+      "share"
+    ],
+    "benefit": "have the ability to restrict the data I share to certain researchers or groups of researchers"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [
+      "researchers",
+      "groups of researchers"
+    ],
+    "primary_actions": [
+      "restrict"
+    ],
+    "secondary_actions": [
+      "share"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "restrict",
+        "kind": "triggers"
+      },
+      {
+        "from": "restrict",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "restrict",
+        "to": "researchers",
+        "kind": "targets"
+      },
+      {
+        "from": "restrict",
+        "to": "groups of researchers",
+        "kind": "targets"
+      },
+      {
+        "from": "restrict",
+        "to": "researchers",
+        "kind": "targets"
+      },
+      {
+        "from": "restrict",
+        "to": "groups of researchers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1335,
+    "output": 287,
+    "time (ns)": 6274699000
+  }
+}

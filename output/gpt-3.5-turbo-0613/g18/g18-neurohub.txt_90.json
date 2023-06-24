@@ -1,0 +1,68 @@
+{
+  "story": "#G18# As a user,  I want to have the ability to keep my data private on the system, and only share data that I deem should be shared.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "data",
+      "system"
+    ],
+    "actions": [
+      "keep",
+      "share"
+    ],
+    "benefit": "have the ability to keep my data private on the system, and only share data that I deem should be shared"
+  },
+  "categories": {
+    "primary_entities": [
+      "data",
+      "system"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "keep",
+      "share"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "keep",
+        "kind": "triggers"
+      },
+      {
+        "from": "user",
+        "to": "share",
+        "kind": "triggers"
+      },
+      {
+        "from": "keep",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "keep",
+        "to": "system",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "system",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1348,
+    "output": 276,
+    "time (ns)": 7007539000
+  }
+}

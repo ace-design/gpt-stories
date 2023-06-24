@@ -1,0 +1,51 @@
+{
+  "story": "#G18# As a user, I want to filter the files I get from search results based on their  type.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "files",
+      "search results"
+    ],
+    "actions": [
+      "filter"
+    ],
+    "benefit": "I can filter the files based on their type"
+  },
+  "categories": {
+    "primary_entities": [
+      "files",
+      "search results"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "filter"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "filter",
+        "kind": "triggers"
+      },
+      {
+        "from": "filter",
+        "to": "files",
+        "kind": "targets"
+      },
+      {
+        "from": "filter",
+        "to": "search results",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1286,
+    "output": 184,
+    "time (ns)": 4155166000
+  }
+}

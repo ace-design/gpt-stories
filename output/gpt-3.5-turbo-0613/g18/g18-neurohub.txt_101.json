@@ -1,0 +1,53 @@
+{
+  "story": "#G18# As a researcher, I want to have a group-level repository for sharing papers/reviews/comments with other researchers.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "group-level repository",
+      "papers",
+      "reviews",
+      "comments",
+      "other researchers"
+    ],
+    "actions": [
+      "sharing"
+    ],
+    "benefit": "to share papers/reviews/comments with other researchers"
+  },
+  "categories": {
+    "primary_entities": [
+      "group-level repository"
+    ],
+    "secondary_entities": [
+      "papers",
+      "reviews",
+      "comments",
+      "other researchers"
+    ],
+    "primary_actions": [
+      "sharing"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "sharing",
+        "kind": "triggers"
+      },
+      {
+        "from": "sharing",
+        "to": "group-level repository",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1323,
+    "output": 183,
+    "time (ns)": 4392548000
+  }
+}

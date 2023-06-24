@@ -1,0 +1,59 @@
+{
+  "story": "#G18# As a user, I want to view the group's shared calendars via the Neurohub Nodes' Web page as well as on my mobile device.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "group's shared calendars",
+      "Neurohub Nodes' Web page",
+      "mobile device"
+    ],
+    "actions": [
+      "view"
+    ],
+    "benefit": "I can view the group's shared calendars on both the Neurohub Nodes' Web page and my mobile device."
+  },
+  "categories": {
+    "primary_entities": [
+      "group's shared calendars"
+    ],
+    "secondary_entities": [
+      "Neurohub Nodes' Web page",
+      "mobile device"
+    ],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "group's shared calendars",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "Neurohub Nodes' Web page",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "mobile device",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1371,
+    "output": 253,
+    "time (ns)": 5834548000
+  }
+}

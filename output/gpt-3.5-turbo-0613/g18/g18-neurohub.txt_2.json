@@ -1,0 +1,58 @@
+{
+  "story": "#G18# As a system administrator, I want to run a script that tests to see if a Neurohub installation is functioning correctly.\n",
+  "extraction": {
+    "personas": [
+      "system administrator"
+    ],
+    "entities": [
+      "script",
+      "Neurohub installation"
+    ],
+    "actions": [
+      "run",
+      "tests"
+    ],
+    "benefit": "to see if a Neurohub installation is functioning correctly"
+  },
+  "categories": {
+    "primary_entities": [
+      "script",
+      "Neurohub installation"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "run",
+      "tests"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "system administrator",
+        "to": "run",
+        "kind": "triggers"
+      },
+      {
+        "from": "run",
+        "to": "script",
+        "kind": "targets"
+      },
+      {
+        "from": "run",
+        "to": "tests",
+        "kind": "targets"
+      },
+      {
+        "from": "tests",
+        "to": "Neurohub installation",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1314,
+    "output": 224,
+    "time (ns)": 5472783000
+  }
+}

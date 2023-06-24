@@ -1,0 +1,57 @@
+{
+  "story": "#G18# As a researcher, I want to share post-experiment write-ups with other researchers, so that others can more easily replicate my work.\n",
+  "extraction": {
+    "personas": [
+      "researcher",
+      "other researchers"
+    ],
+    "entities": [
+      "post-experiment write-ups"
+    ],
+    "actions": [
+      "share",
+      "replicate"
+    ],
+    "benefit": "others can more easily replicate my work"
+  },
+  "categories": {
+    "primary_entities": [
+      "post-experiment write-ups"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "share",
+      "replicate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "share",
+        "kind": "triggers"
+      },
+      {
+        "from": "share",
+        "to": "post-experiment write-ups",
+        "kind": "targets"
+      },
+      {
+        "from": "researcher",
+        "to": "replicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "replicate",
+        "to": "post-experiment write-ups",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1322,
+    "output": 232,
+    "time (ns)": 5184825000
+  }
+}

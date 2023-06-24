@@ -1,0 +1,106 @@
+{
+  "story": "#G18# As a supervisor, I want to create feedback forms within Neurohub, that my students can fill in and submit, in order to provide me with feedback about the course that they attended.\n",
+  "extraction": {
+    "personas": [
+      "supervisor",
+      "students"
+    ],
+    "entities": [
+      "feedback forms",
+      "Neurohub",
+      "course"
+    ],
+    "actions": [
+      "create",
+      "fill in",
+      "submit",
+      "provide"
+    ],
+    "benefit": "provide me with feedback about the course that they attended"
+  },
+  "categories": {
+    "primary_entities": [
+      "feedback forms",
+      "Neurohub",
+      "course"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create",
+      "fill in",
+      "submit"
+    ],
+    "secondary_actions": [
+      "provide"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "supervisor",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "feedback forms",
+        "kind": "targets"
+      },
+      {
+        "from": "students",
+        "to": "fill in",
+        "kind": "triggers"
+      },
+      {
+        "from": "fill in",
+        "to": "feedback forms",
+        "kind": "targets"
+      },
+      {
+        "from": "students",
+        "to": "submit",
+        "kind": "triggers"
+      },
+      {
+        "from": "submit",
+        "to": "feedback forms",
+        "kind": "targets"
+      },
+      {
+        "from": "students",
+        "to": "provide",
+        "kind": "triggers"
+      },
+      {
+        "from": "provide",
+        "to": "feedback forms",
+        "kind": "targets"
+      },
+      {
+        "from": "students",
+        "to": "provide",
+        "kind": "triggers"
+      },
+      {
+        "from": "provide",
+        "to": "Neurohub",
+        "kind": "targets"
+      },
+      {
+        "from": "students",
+        "to": "provide",
+        "kind": "triggers"
+      },
+      {
+        "from": "provide",
+        "to": "course",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1387,
+    "output": 456,
+    "time (ns)": 12047216000
+  }
+}

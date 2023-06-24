@@ -1,0 +1,44 @@
+{
+  "story": "#G18# As a user, I want to upload large files of over 1GB in size.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "large files"
+    ],
+    "actions": [
+      "upload"
+    ],
+    "benefit": "I can upload large files of over 1GB in size."
+  },
+  "categories": {
+    "primary_entities": [
+      "large files"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "upload"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "large files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1276,
+    "output": 156,
+    "time (ns)": 4127007000
+  }
+}

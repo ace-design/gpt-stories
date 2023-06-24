@@ -1,0 +1,58 @@
+{
+  "story": "#G18# As a user, I want to see the provenance of the page as part of the search results.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "provenance",
+      "page",
+      "search results"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "I can see the provenance of the page as part of the search results"
+  },
+  "categories": {
+    "primary_entities": [
+      "provenance",
+      "page",
+      "search results"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "provenance",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "page",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "search results",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1313,
+    "output": 227,
+    "time (ns)": 5098751000
+  }
+}

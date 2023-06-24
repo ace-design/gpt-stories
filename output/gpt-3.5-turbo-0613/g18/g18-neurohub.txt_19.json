@@ -1,0 +1,83 @@
+{
+  "story": "#G18# As a release engineer, I want to configure nightly builds that automatically perform a Neurohub installation on a virgin operating system, execute tests and report back results, without requiring any manual input/interaction.\n",
+  "extraction": {
+    "personas": [
+      "release engineer"
+    ],
+    "entities": [
+      "nightly builds",
+      "Neurohub installation",
+      "virgin operating system",
+      "tests",
+      "results"
+    ],
+    "actions": [
+      "configure",
+      "perform",
+      "execute",
+      "report"
+    ],
+    "benefit": "automatically perform a Neurohub installation on a virgin operating system, execute tests and report back results without requiring any manual input/interaction"
+  },
+  "categories": {
+    "primary_entities": [
+      "nightly builds",
+      "Neurohub installation",
+      "virgin operating system",
+      "tests",
+      "results"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "configure",
+      "perform",
+      "execute",
+      "report"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "release engineer",
+        "to": "configure",
+        "kind": "triggers"
+      },
+      {
+        "from": "configure",
+        "to": "nightly builds",
+        "kind": "targets"
+      },
+      {
+        "from": "configure",
+        "to": "Neurohub installation",
+        "kind": "targets"
+      },
+      {
+        "from": "configure",
+        "to": "virgin operating system",
+        "kind": "targets"
+      },
+      {
+        "from": "perform",
+        "to": "tests",
+        "kind": "targets"
+      },
+      {
+        "from": "execute",
+        "to": "tests",
+        "kind": "targets"
+      },
+      {
+        "from": "report",
+        "to": "results",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1451,
+    "output": 360,
+    "time (ns)": 7563125000
+  }
+}

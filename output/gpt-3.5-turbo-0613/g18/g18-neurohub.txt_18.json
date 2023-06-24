@@ -1,0 +1,44 @@
+{
+  "story": "#G18# As a researcher, I want to create a log book page.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "log book page"
+    ],
+    "actions": [
+      "create"
+    ],
+    "benefit": ""
+  },
+  "categories": {
+    "primary_entities": [
+      "log book page"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "log book page",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1240,
+    "output": 148,
+    "time (ns)": 4111911000
+  }
+}

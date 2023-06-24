@@ -1,0 +1,44 @@
+{
+  "story": "#G18# As a user, I want to have files I might accidentally delete to be restorable.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "files"
+    ],
+    "actions": [
+      "restorable"
+    ],
+    "benefit": "I can restore files that I might accidentally delete"
+  },
+  "categories": {
+    "primary_entities": [
+      "files"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "restorable"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "restorable",
+        "kind": "triggers"
+      },
+      {
+        "from": "restorable",
+        "to": "files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1268,
+    "output": 154,
+    "time (ns)": 4195274000
+  }
+}

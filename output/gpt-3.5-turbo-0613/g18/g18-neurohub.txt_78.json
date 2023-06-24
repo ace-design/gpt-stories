@@ -1,0 +1,66 @@
+{
+  "story": "#G18# As a researcher, I want to have the system to provide standard metadata, that all researchers in the centre (and beyond) can use, so that we can better understand each others' data.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "system",
+      "standard metadata",
+      "researchers",
+      "centre"
+    ],
+    "actions": [
+      "provide"
+    ],
+    "benefit": "better understand each others' data"
+  },
+  "categories": {
+    "primary_entities": [
+      "system",
+      "standard metadata"
+    ],
+    "secondary_entities": [
+      "researchers",
+      "centre"
+    ],
+    "primary_actions": [
+      "provide"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "provide",
+        "kind": "triggers"
+      },
+      {
+        "from": "provide",
+        "to": "system",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "standard metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "researchers",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "centre",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1356,
+    "output": 247,
+    "time (ns)": 5032982000
+  }
+}

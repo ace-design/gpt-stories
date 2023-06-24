@@ -1,0 +1,75 @@
+{
+  "story": "#G18# As a user, I want to enter metadata / describe an experiment protocol before a file is even created.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "metadata",
+      "experiment protocol",
+      "file"
+    ],
+    "actions": [
+      "enter",
+      "describe"
+    ],
+    "benefit": "to have the experiment protocol described before creating a file"
+  },
+  "categories": {
+    "primary_entities": [
+      "metadata",
+      "experiment protocol",
+      "file"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "enter",
+      "describe"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "enter",
+        "kind": "triggers"
+      },
+      {
+        "from": "enter",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "enter",
+        "to": "experiment protocol",
+        "kind": "targets"
+      },
+      {
+        "from": "enter",
+        "to": "file",
+        "kind": "targets"
+      },
+      {
+        "from": "describe",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "describe",
+        "to": "experiment protocol",
+        "kind": "targets"
+      },
+      {
+        "from": "describe",
+        "to": "file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1306,
+    "output": 298,
+    "time (ns)": 6524332000
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "story": "#G18# As a researcher, I want to have physiology images to be annotated with standard meta data, so that my data can later be searched for and understood.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "physiology images",
+      "standard meta data",
+      "data"
+    ],
+    "actions": [
+      "annotated",
+      "searched for",
+      "understood"
+    ],
+    "benefit": "my data can later be searched for and understood"
+  },
+  "categories": {
+    "primary_entities": [
+      "physiology images",
+      "data"
+    ],
+    "secondary_entities": [
+      "standard meta data"
+    ],
+    "primary_actions": [
+      "annotated"
+    ],
+    "secondary_actions": [
+      "searched for",
+      "understood"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "annotated",
+        "kind": "triggers"
+      },
+      {
+        "from": "annotated",
+        "to": "physiology images",
+        "kind": "targets"
+      },
+      {
+        "from": "annotated",
+        "to": "standard meta data",
+        "kind": "targets"
+      },
+      {
+        "from": "searched for",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "understood",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1360,
+    "output": 275,
+    "time (ns)": 5383380000
+  }
+}

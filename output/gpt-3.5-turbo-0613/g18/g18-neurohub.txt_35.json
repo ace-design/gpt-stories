@@ -1,0 +1,60 @@
+{
+  "story": "#G18# As lab administrator, I want to have increased access to the system to support regular users. \n",
+  "extraction": {
+    "personas": [
+      "lab administrator"
+    ],
+    "entities": [
+      "system",
+      "regular users"
+    ],
+    "actions": [
+      "have increased access",
+      "support"
+    ],
+    "benefit": "to support regular users"
+  },
+  "categories": {
+    "primary_entities": [
+      "system"
+    ],
+    "secondary_entities": [
+      "regular users"
+    ],
+    "primary_actions": [
+      "have increased access"
+    ],
+    "secondary_actions": [
+      "support"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "lab administrator",
+        "to": "have increased access",
+        "kind": "triggers"
+      },
+      {
+        "from": "have increased access",
+        "to": "system",
+        "kind": "targets"
+      },
+      {
+        "from": "lab administrator",
+        "to": "support",
+        "kind": "triggers"
+      },
+      {
+        "from": "support",
+        "to": "regular users",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1284,
+    "output": 220,
+    "time (ns)": 4736780000
+  }
+}

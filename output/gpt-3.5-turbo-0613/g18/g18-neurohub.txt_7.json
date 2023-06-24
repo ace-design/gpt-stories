@@ -1,0 +1,44 @@
+{
+  "story": "#G18# As a lab administrator, I want to theme the Web interface graphics/colours.\n",
+  "extraction": {
+    "personas": [
+      "lab administrator"
+    ],
+    "entities": [
+      "Web interface"
+    ],
+    "actions": [
+      "theme"
+    ],
+    "benefit": "improve graphics/colours"
+  },
+  "categories": {
+    "primary_entities": [
+      "Web interface"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "theme"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "lab administrator",
+        "to": "theme",
+        "kind": "triggers"
+      },
+      {
+        "from": "theme",
+        "to": "Web interface",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1261,
+    "output": 152,
+    "time (ns)": 3976029000
+  }
+}

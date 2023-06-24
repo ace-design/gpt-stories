@@ -1,0 +1,72 @@
+{
+  "story": "#G18# As a user, I want to either keep a logbook entry private or share it with individuals rather than groups.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "logbook entry",
+      "individuals",
+      "groups"
+    ],
+    "actions": [
+      "keep",
+      "share"
+    ],
+    "benefit": "I can either keep a logbook entry private or share it with individuals rather than groups"
+  },
+  "categories": {
+    "primary_entities": [
+      "logbook entry"
+    ],
+    "secondary_entities": [
+      "individuals",
+      "groups"
+    ],
+    "primary_actions": [
+      "keep"
+    ],
+    "secondary_actions": [
+      "share"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "keep",
+        "kind": "triggers"
+      },
+      {
+        "from": "keep",
+        "to": "logbook entry",
+        "kind": "targets"
+      },
+      {
+        "from": "user",
+        "to": "share",
+        "kind": "triggers"
+      },
+      {
+        "from": "share",
+        "to": "logbook entry",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "individuals",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "groups",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1329,
+    "output": 286,
+    "time (ns)": 6704788000
+  }
+}

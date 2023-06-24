@@ -1,0 +1,58 @@
+{
+  "story": "#G18# As a user,  I want to have the ability to change the sharing and ownership of multiple files.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "sharing",
+      "ownership",
+      "multiple files"
+    ],
+    "actions": [
+      "change"
+    ],
+    "benefit": "have the ability to change the sharing and ownership of multiple files"
+  },
+  "categories": {
+    "primary_entities": [
+      "sharing",
+      "ownership",
+      "multiple files"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "change"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "change",
+        "kind": "triggers"
+      },
+      {
+        "from": "change",
+        "to": "sharing",
+        "kind": "targets"
+      },
+      {
+        "from": "change",
+        "to": "ownership",
+        "kind": "targets"
+      },
+      {
+        "from": "change",
+        "to": "multiple files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1301,
+    "output": 218,
+    "time (ns)": 4945347000
+  }
+}

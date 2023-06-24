@@ -1,0 +1,63 @@
+{
+  "story": "#G18# As a system administrator, I want to run a script that installs the Neurohub node onto a virgin Ubuntu operating system.\n",
+  "extraction": {
+    "personas": [
+      "system administrator"
+    ],
+    "entities": [
+      "Neurohub node",
+      "virgin Ubuntu operating system"
+    ],
+    "actions": [
+      "run",
+      "installs"
+    ],
+    "benefit": "I can install the Neurohub node onto a virgin Ubuntu operating system"
+  },
+  "categories": {
+    "primary_entities": [
+      "Neurohub node",
+      "virgin Ubuntu operating system"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "run",
+      "installs"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "system administrator",
+        "to": "run",
+        "kind": "triggers"
+      },
+      {
+        "from": "run",
+        "to": "Neurohub node",
+        "kind": "targets"
+      },
+      {
+        "from": "run",
+        "to": "virgin Ubuntu operating system",
+        "kind": "targets"
+      },
+      {
+        "from": "installs",
+        "to": "Neurohub node",
+        "kind": "targets"
+      },
+      {
+        "from": "installs",
+        "to": "virgin Ubuntu operating system",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1335,
+    "output": 275,
+    "time (ns)": 6140990000
+  }
+}

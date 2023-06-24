@@ -1,0 +1,70 @@
+{
+  "story": "#G18# As a researcher, I want to indicate within my electronic log book which experimental data is good/bad, hide the bad data, but still keep it in the system just in case it is useful in the future.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "electronic log book",
+      "experimental data"
+    ],
+    "actions": [
+      "indicate",
+      "hide",
+      "keep"
+    ],
+    "benefit": "keep the bad data in the system in case it is useful in the future"
+  },
+  "categories": {
+    "primary_entities": [
+      "electronic log book",
+      "experimental data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "indicate",
+      "hide",
+      "keep"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "indicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "researcher",
+        "to": "hide",
+        "kind": "triggers"
+      },
+      {
+        "from": "researcher",
+        "to": "keep",
+        "kind": "triggers"
+      },
+      {
+        "from": "indicate",
+        "to": "electronic log book",
+        "kind": "targets"
+      },
+      {
+        "from": "hide",
+        "to": "experimental data",
+        "kind": "targets"
+      },
+      {
+        "from": "keep",
+        "to": "experimental data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1396,
+    "output": 297,
+    "time (ns)": 7201003000
+  }
+}

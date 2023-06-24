@@ -1,0 +1,72 @@
+{
+  "story": "#G18# As a user, I want to have the ability to move multiple files around and rearrange them using the Neurohub file browser while processing data.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "multiple files",
+      "Neurohub file browser",
+      "data"
+    ],
+    "actions": [
+      "move",
+      "rearrange",
+      "processing"
+    ],
+    "benefit": "have the ability to move multiple files around and rearrange them while processing data"
+  },
+  "categories": {
+    "primary_entities": [
+      "multiple files",
+      "Neurohub file browser",
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "move",
+      "rearrange",
+      "processing"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "move",
+        "kind": "triggers"
+      },
+      {
+        "from": "user",
+        "to": "rearrange",
+        "kind": "triggers"
+      },
+      {
+        "from": "user",
+        "to": "processing",
+        "kind": "triggers"
+      },
+      {
+        "from": "move",
+        "to": "multiple files",
+        "kind": "targets"
+      },
+      {
+        "from": "rearrange",
+        "to": "multiple files",
+        "kind": "targets"
+      },
+      {
+        "from": "processing",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1367,
+    "output": 302,
+    "time (ns)": 6562114000
+  }
+}

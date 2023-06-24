@@ -1,0 +1,55 @@
+{
+  "story": "#G18# As a researcher, I want to collect data as a library of data, which can then be used by one or multiple experiments that are defined at a later stage.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "library of data",
+      "experiments"
+    ],
+    "actions": [
+      "collect data",
+      "use"
+    ],
+    "benefit": "data can be used by one or multiple experiments"
+  },
+  "categories": {
+    "primary_entities": [
+      "library of data"
+    ],
+    "secondary_entities": [
+      "experiments"
+    ],
+    "primary_actions": [
+      "collect data"
+    ],
+    "secondary_actions": [
+      "use"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "collect data",
+        "kind": "triggers"
+      },
+      {
+        "from": "collect data",
+        "to": "library of data",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "experiments",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1339,
+    "output": 200,
+    "time (ns)": 4837558000
+  }
+}

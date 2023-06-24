@@ -1,0 +1,44 @@
+{
+  "story": "#G18# As a user, I want to assign bespoke information to a file dependent on its type.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "file"
+    ],
+    "actions": [
+      "assign"
+    ],
+    "benefit": "to assign bespoke information to a file dependent on its type"
+  },
+  "categories": {
+    "primary_entities": [
+      "file"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "assign"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "assign",
+        "kind": "triggers"
+      },
+      {
+        "from": "assign",
+        "to": "file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1269,
+    "output": 152,
+    "time (ns)": 3659491000
+  }
+}

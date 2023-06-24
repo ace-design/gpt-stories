@@ -1,0 +1,58 @@
+{
+  "story": "#G18# As a researcher,  I want to have the ability to interact with a revision control system so that I can keep track of changes to files over time.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "revision control system",
+      "files"
+    ],
+    "actions": [
+      "interact",
+      "keep track of changes"
+    ],
+    "benefit": "I can keep track of changes to files over time"
+  },
+  "categories": {
+    "primary_entities": [
+      "revision control system",
+      "files"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "interact",
+      "keep track of changes"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "interact",
+        "kind": "triggers"
+      },
+      {
+        "from": "interact",
+        "to": "revision control system",
+        "kind": "targets"
+      },
+      {
+        "from": "researcher",
+        "to": "keep track of changes",
+        "kind": "triggers"
+      },
+      {
+        "from": "keep track of changes",
+        "to": "files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1344,
+    "output": 239,
+    "time (ns)": 5021138000
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "story": "#G18# As a researcher,  I want to have the ability to bulk upload directories and files with minimal effort.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "bulk upload directories",
+      "files"
+    ],
+    "actions": [
+      "have the ability"
+    ],
+    "benefit": "with minimal effort"
+  },
+  "categories": {
+    "primary_entities": [
+      "bulk upload directories"
+    ],
+    "secondary_entities": [
+      "files"
+    ],
+    "primary_actions": [
+      "have the ability"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "have the ability",
+        "kind": "triggers"
+      },
+      {
+        "from": "have the ability",
+        "to": "bulk upload directories",
+        "kind": "targets"
+      },
+      {
+        "from": "have the ability",
+        "to": "files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1284,
+    "output": 192,
+    "time (ns)": 4435680000
+  }
+}

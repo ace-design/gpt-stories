@@ -1,0 +1,74 @@
+{
+  "story": "#G18# As a researcher, I want to have the ability to attach standard meta data for behavioural observations (and video), so that my data can later be searched for and understood.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "standard meta data",
+      "behavioural observations",
+      "video",
+      "data"
+    ],
+    "actions": [
+      "attach",
+      "search",
+      "understand"
+    ],
+    "benefit": "my data can later be searched for and understood"
+  },
+  "categories": {
+    "primary_entities": [
+      "standard meta data",
+      "behavioural observations",
+      "video",
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "attach",
+      "search",
+      "understand"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "attach",
+        "kind": "triggers"
+      },
+      {
+        "from": "attach",
+        "to": "standard meta data",
+        "kind": "targets"
+      },
+      {
+        "from": "attach",
+        "to": "behavioural observations",
+        "kind": "targets"
+      },
+      {
+        "from": "attach",
+        "to": "video",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "understand",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1378,
+    "output": 300,
+    "time (ns)": 6634235000
+  }
+}

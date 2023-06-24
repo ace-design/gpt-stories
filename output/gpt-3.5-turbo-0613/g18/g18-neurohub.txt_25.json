@@ -1,0 +1,44 @@
+{
+  "story": "#G18# As a user, I want to use the tags that I use are part of a controlled vocabulary.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "tags"
+    ],
+    "actions": [
+      "use"
+    ],
+    "benefit": "the tags I use are part of a controlled vocabulary"
+  },
+  "categories": {
+    "primary_entities": [
+      "tags"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "use"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "tags",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1273,
+    "output": 151,
+    "time (ns)": 3567231000
+  }
+}

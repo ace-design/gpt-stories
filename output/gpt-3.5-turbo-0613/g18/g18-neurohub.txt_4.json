@@ -1,0 +1,51 @@
+{
+  "story": "#G18# As an investigator, I want to view the acceptance test results, so that I can understand how feature-complete the Neurohub node currently is.\n",
+  "extraction": {
+    "personas": [
+      "investigator"
+    ],
+    "entities": [
+      "acceptance test results",
+      "Neurohub node"
+    ],
+    "actions": [
+      "view"
+    ],
+    "benefit": "I can understand how feature-complete the Neurohub node currently is."
+  },
+  "categories": {
+    "primary_entities": [
+      "acceptance test results",
+      "Neurohub node"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "investigator",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "acceptance test results",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "Neurohub node",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1332,
+    "output": 204,
+    "time (ns)": 4846601000
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "story": "#G18# As a user, I want to limit my search to a particular set of log books.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "search",
+      "log books"
+    ],
+    "actions": [
+      "limit"
+    ],
+    "benefit": "I can limit my search to a particular set of log books"
+  },
+  "categories": {
+    "primary_entities": [
+      "search"
+    ],
+    "secondary_entities": [
+      "log books"
+    ],
+    "primary_actions": [
+      "limit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "limit",
+        "kind": "triggers"
+      },
+      {
+        "from": "limit",
+        "to": "search",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1282,
+    "output": 160,
+    "time (ns)": 3747691000
+  }
+}

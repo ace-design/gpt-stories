@@ -1,0 +1,69 @@
+{
+  "story": "#G18# As a researcher,  I want to have the ability to locate and access data that colleagues want to share.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "data",
+      "colleagues"
+    ],
+    "actions": [
+      "locate",
+      "access"
+    ],
+    "benefit": "have the ability to locate and access data that colleagues want to share"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [
+      "colleagues"
+    ],
+    "primary_actions": [
+      "locate",
+      "access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "locate",
+        "kind": "triggers"
+      },
+      {
+        "from": "researcher",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "locate",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "locate",
+        "to": "colleagues",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "colleagues",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1310,
+    "output": 277,
+    "time (ns)": 5720524000
+  }
+}

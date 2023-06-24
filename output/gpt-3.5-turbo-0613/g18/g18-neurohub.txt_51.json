@@ -1,0 +1,51 @@
+{
+  "story": "#G18# As a user, I want to attach multiple files at once to a log book page.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "multiple files",
+      "log book page"
+    ],
+    "actions": [
+      "attach"
+    ],
+    "benefit": "I can attach multiple files at once to a log book page"
+  },
+  "categories": {
+    "primary_entities": [
+      "multiple files",
+      "log book page"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "attach"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "attach",
+        "kind": "triggers"
+      },
+      {
+        "from": "attach",
+        "to": "multiple files",
+        "kind": "targets"
+      },
+      {
+        "from": "attach",
+        "to": "log book page",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1289,
+    "output": 193,
+    "time (ns)": 4329080000
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "story": "#G18# As a researcher, I want to have the ability to locate experiment files using meta data, regardless of where those files are located.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "experiment files",
+      "meta data"
+    ],
+    "actions": [
+      "locate"
+    ],
+    "benefit": "have the ability to locate experiment files using meta data, regardless of where those files are located"
+  },
+  "categories": {
+    "primary_entities": [
+      "experiment files"
+    ],
+    "secondary_entities": [
+      "meta data"
+    ],
+    "primary_actions": [
+      "locate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "locate",
+        "kind": "triggers"
+      },
+      {
+        "from": "locate",
+        "to": "experiment files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1323,
+    "output": 171,
+    "time (ns)": 3968881000
+  }
+}

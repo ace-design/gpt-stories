@@ -1,0 +1,66 @@
+{
+  "story": "#G18# As a researcher, I want to upload files prior to having them attached to a log book page using the web interface.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "files",
+      "log book page",
+      "web interface"
+    ],
+    "actions": [
+      "upload",
+      "attach"
+    ],
+    "benefit": "prioritize files before attaching them to a log book page"
+  },
+  "categories": {
+    "primary_entities": [
+      "files",
+      "log book page"
+    ],
+    "secondary_entities": [
+      "web interface"
+    ],
+    "primary_actions": [
+      "upload",
+      "attach"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "files",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "log book page",
+        "kind": "targets"
+      },
+      {
+        "from": "attach",
+        "to": "log book page",
+        "kind": "targets"
+      },
+      {
+        "from": "attach",
+        "to": "web interface",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1324,
+    "output": 257,
+    "time (ns)": 5557977000
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "story": "#G18# As a user, I want to manage the references / papers I have investigated.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "references",
+      "papers"
+    ],
+    "actions": [
+      "manage",
+      "investigated"
+    ],
+    "benefit": "I can keep track of the references and papers I have investigated."
+  },
+  "categories": {
+    "primary_entities": [
+      "references",
+      "papers"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "manage"
+    ],
+    "secondary_actions": [
+      "investigated"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "manage",
+        "kind": "triggers"
+      },
+      {
+        "from": "manage",
+        "to": "references",
+        "kind": "targets"
+      },
+      {
+        "from": "manage",
+        "to": "papers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1286,
+    "output": 191,
+    "time (ns)": 4286230000
+  }
+}

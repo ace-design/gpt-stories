@@ -1,0 +1,65 @@
+{
+  "story": "#G18# As a researcher, I want to access files stored in my Neurohub workspace, using a network drive attached to my workstation.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "files",
+      "Neurohub workspace",
+      "network drive",
+      "workstation"
+    ],
+    "actions": [
+      "access"
+    ],
+    "benefit": "I can access files stored in my Neurohub workspace using a network drive attached to my workstation."
+  },
+  "categories": {
+    "primary_entities": [
+      "files",
+      "Neurohub workspace",
+      "network drive",
+      "workstation"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "files",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "Neurohub workspace",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "network drive",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "workstation",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1350,
+    "output": 269,
+    "time (ns)": 5906691000
+  }
+}

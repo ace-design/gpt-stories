@@ -1,0 +1,51 @@
+{
+  "story": "#G18# As a system administrator, I want to have a managed backup protocol for the system.\n",
+  "extraction": {
+    "personas": [
+      "system administrator"
+    ],
+    "entities": [
+      "managed backup protocol",
+      "system"
+    ],
+    "actions": [
+      "have"
+    ],
+    "benefit": "for the system"
+  },
+  "categories": {
+    "primary_entities": [
+      "managed backup protocol",
+      "system"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "system administrator",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "managed backup protocol",
+        "kind": "targets"
+      },
+      {
+        "from": "have",
+        "to": "system",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1267,
+    "output": 183,
+    "time (ns)": 4135136000
+  }
+}

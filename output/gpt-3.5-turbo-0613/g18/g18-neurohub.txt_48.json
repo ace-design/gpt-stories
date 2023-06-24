@@ -1,0 +1,58 @@
+{
+  "story": "#G18# As a user, I want to limit my search results to one or more log book sections from one or more log books.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "search results",
+      "log book sections",
+      "log books"
+    ],
+    "actions": [
+      "limit"
+    ],
+    "benefit": "I can limit my search results to specific log book sections from specific log books."
+  },
+  "categories": {
+    "primary_entities": [
+      "search results",
+      "log book sections",
+      "log books"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "limit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "limit",
+        "kind": "triggers"
+      },
+      {
+        "from": "limit",
+        "to": "search results",
+        "kind": "targets"
+      },
+      {
+        "from": "limit",
+        "to": "log book sections",
+        "kind": "targets"
+      },
+      {
+        "from": "limit",
+        "to": "log books",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1330,
+    "output": 230,
+    "time (ns)": 4670425000
+  }
+}

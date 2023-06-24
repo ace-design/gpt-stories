@@ -1,0 +1,73 @@
+{
+  "story": "#G18# As a researcher, I want to have a timeline display of multiple data files and their associated images, so that I can compare the data taken from experiments on particular dates.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "timeline display",
+      "data files",
+      "images",
+      "experiments",
+      "dates"
+    ],
+    "actions": [
+      "compare"
+    ],
+    "benefit": "I can compare the data taken from experiments on particular dates"
+  },
+  "categories": {
+    "primary_entities": [
+      "timeline display",
+      "data files",
+      "images"
+    ],
+    "secondary_entities": [
+      "experiments",
+      "dates"
+    ],
+    "primary_actions": [
+      "compare"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "compare",
+        "kind": "triggers"
+      },
+      {
+        "from": "compare",
+        "to": "timeline display",
+        "kind": "targets"
+      },
+      {
+        "from": "compare",
+        "to": "data files",
+        "kind": "targets"
+      },
+      {
+        "from": "compare",
+        "to": "images",
+        "kind": "targets"
+      },
+      {
+        "from": "compare",
+        "to": "experiments",
+        "kind": "targets"
+      },
+      {
+        "from": "compare",
+        "to": "dates",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1363,
+    "output": 286,
+    "time (ns)": 7334509000
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "story": "#G18# As a researcher, I want to secure remote access to the Neurohub node when working away from the laboratory\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "remote access",
+      "Neurohub node",
+      "laboratory"
+    ],
+    "actions": [
+      "secure"
+    ],
+    "benefit": "working away from the laboratory"
+  },
+  "categories": {
+    "primary_entities": [
+      "remote access",
+      "Neurohub node",
+      "laboratory"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "secure"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "secure",
+        "kind": "triggers"
+      },
+      {
+        "from": "secure",
+        "to": "remote access",
+        "kind": "targets"
+      },
+      {
+        "from": "secure",
+        "to": "Neurohub node",
+        "kind": "targets"
+      },
+      {
+        "from": "secure",
+        "to": "laboratory",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1307,
+    "output": 228,
+    "time (ns)": 5552308000
+  }
+}

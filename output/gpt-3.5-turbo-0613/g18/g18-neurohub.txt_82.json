@@ -1,0 +1,47 @@
+{
+  "story": "#G18# As a researcher, I want to have the ability to search for images of cells using standard meta data.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "images of cells",
+      "standard meta data"
+    ],
+    "actions": [
+      "search"
+    ],
+    "benefit": "have the ability to search for images of cells using standard meta data"
+  },
+  "categories": {
+    "primary_entities": [
+      "images of cells"
+    ],
+    "secondary_entities": [
+      "standard meta data"
+    ],
+    "primary_actions": [
+      "search"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "images of cells",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1304,
+    "output": 171,
+    "time (ns)": 3870248000
+  }
+}

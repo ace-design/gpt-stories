@@ -1,0 +1,47 @@
+{
+  "story": "#G18# As a user, I want to make uploaded data files to be non-modifiable.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "uploaded data files"
+    ],
+    "actions": [
+      "make",
+      "non-modifiable"
+    ],
+    "benefit": "to ensure the integrity of the data"
+  },
+  "categories": {
+    "primary_entities": [
+      "uploaded data files"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "make"
+    ],
+    "secondary_actions": [
+      "non-modifiable"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "make",
+        "kind": "triggers"
+      },
+      {
+        "from": "make",
+        "to": "uploaded data files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1277,
+    "output": 163,
+    "time (ns)": 3779569000
+  }
+}

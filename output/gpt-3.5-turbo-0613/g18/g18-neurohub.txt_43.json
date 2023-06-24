@@ -1,0 +1,58 @@
+{
+  "story": "#G18# As a user, I want to create a protocol and assign metadata to any stag.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "protocol",
+      "stag"
+    ],
+    "actions": [
+      "create",
+      "assign"
+    ],
+    "benefit": "I can assign metadata to any stag"
+  },
+  "categories": {
+    "primary_entities": [
+      "protocol",
+      "stag"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create",
+      "assign"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "protocol",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "stag",
+        "kind": "targets"
+      },
+      {
+        "from": "assign",
+        "to": "stag",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1276,
+    "output": 210,
+    "time (ns)": 4626349000
+  }
+}

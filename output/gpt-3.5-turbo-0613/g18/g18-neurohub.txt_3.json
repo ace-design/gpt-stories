@@ -1,0 +1,74 @@
+{
+  "story": "#G18# As a release engineer, I want to call a script to execute acceptance tests against a Neurohub installation and report back the results.\n",
+  "extraction": {
+    "personas": [
+      "release engineer"
+    ],
+    "entities": [
+      "script",
+      "acceptance tests",
+      "Neurohub installation",
+      "results"
+    ],
+    "actions": [
+      "call",
+      "execute",
+      "report back"
+    ],
+    "benefit": "to execute acceptance tests against a Neurohub installation and report back the results"
+  },
+  "categories": {
+    "primary_entities": [
+      "script",
+      "acceptance tests",
+      "Neurohub installation",
+      "results"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "call",
+      "execute",
+      "report back"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "release engineer",
+        "to": "call",
+        "kind": "triggers"
+      },
+      {
+        "from": "call",
+        "to": "script",
+        "kind": "targets"
+      },
+      {
+        "from": "call",
+        "to": "execute",
+        "kind": "targets"
+      },
+      {
+        "from": "execute",
+        "to": "acceptance tests",
+        "kind": "targets"
+      },
+      {
+        "from": "execute",
+        "to": "Neurohub installation",
+        "kind": "targets"
+      },
+      {
+        "from": "report back",
+        "to": "results",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1364,
+    "output": 305,
+    "time (ns)": 7194002000
+  }
+}

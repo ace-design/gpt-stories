@@ -1,0 +1,52 @@
+{
+  "story": "#G18# As a user, I want to have the system to also forward important news items to an external mailing list.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "system",
+      "external mailing list"
+    ],
+    "actions": [
+      "forward"
+    ],
+    "benefit": "have the system to also forward important news items to an external mailing list"
+  },
+  "categories": {
+    "primary_entities": [
+      "system"
+    ],
+    "secondary_entities": [
+      "external mailing list"
+    ],
+    "primary_actions": [
+      "forward"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "forward",
+        "kind": "triggers"
+      },
+      {
+        "from": "forward",
+        "to": "system",
+        "kind": "targets"
+      },
+      {
+        "from": "forward",
+        "to": "external mailing list",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1301,
+    "output": 191,
+    "time (ns)": 4233177000
+  }
+}

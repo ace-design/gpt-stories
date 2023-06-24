@@ -1,0 +1,52 @@
+{
+  "story": "#G18# As a systems administrator, I want  to install Neurohub dependencies into an Ubuntu 10.04 LTS machine using the normal Ubuntu package management tools.\n",
+  "extraction": {
+    "personas": [
+      "systems administrator"
+    ],
+    "entities": [
+      "Neurohub dependencies",
+      "Ubuntu 10.04 LTS machine"
+    ],
+    "actions": [
+      "install"
+    ],
+    "benefit": "to use the normal Ubuntu package management tools"
+  },
+  "categories": {
+    "primary_entities": [
+      "Neurohub dependencies"
+    ],
+    "secondary_entities": [
+      "Ubuntu 10.04 LTS machine"
+    ],
+    "primary_actions": [
+      "install"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "systems administrator",
+        "to": "install",
+        "kind": "triggers"
+      },
+      {
+        "from": "install",
+        "to": "Neurohub dependencies",
+        "kind": "targets"
+      },
+      {
+        "from": "install",
+        "to": "Ubuntu 10.04 LTS machine",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1336,
+    "output": 208,
+    "time (ns)": 5245195000
+  }
+}

@@ -1,0 +1,733 @@
+START: 17:45:23
+# Processing g18-neurohub.txt
+- Story #[1] -- started at 17:45:23
+    - #G18# As a system administrator, I want to run a script that installs the Neurohub node onto a virgin Ubuntu operating system.
+
+        - calling model 17:45:23
+        - calling model 17:45:26
+        - calling model 17:45:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_1.json
+- Story #[2] -- started at 17:45:35
+    - #G18# As a system administrator, I want to run a script that tests to see if a Neurohub installation is functioning correctly.
+
+        - calling model 17:45:35
+        - calling model 17:45:39
+        - calling model 17:45:42
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_2.json
+- Story #[3] -- started at 17:45:46
+    - #G18# As a release engineer, I want to call a script to execute acceptance tests against a Neurohub installation and report back the results.
+
+        - calling model 17:45:46
+        - calling model 17:45:51
+        - calling model 17:45:54
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_3.json
+- Story #[4] -- started at 17:45:59
+    - #G18# As an investigator, I want to view the acceptance test results, so that I can understand how feature-complete the Neurohub node currently is.
+
+        - calling model 17:45:59
+        - calling model 17:46:03
+        - calling model 17:46:06
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_4.json
+- Story #[5] -- started at 17:46:10
+    - #G18# As an MRI operator, I want to digitally record the responses that subjects make when completing paper-based forms.
+
+        - calling model 17:46:10
+        - calling model 17:46:14
+        - calling model 17:46:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_5.json
+- Story #[6] -- started at 17:46:23
+    - #G18# As a user, I want to navigate forwards and backwards between log books and log book pages without having to use my browser's back button.
+
+        - calling model 17:46:23
+        - calling model 17:46:27
+        - calling model 17:46:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_6.json
+- Story #[7] -- started at 17:46:38
+    - #G18# As a lab administrator, I want to theme the Web interface graphics/colours.
+
+        - calling model 17:46:38
+        - calling model 17:46:41
+        - calling model 17:46:44
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_7.json
+- Story #[8] -- started at 17:46:48
+    - #G18# As a systems administrator, I want  to install Neurohub dependencies into an Ubuntu 10.04 LTS machine using the normal Ubuntu package management tools.
+
+        - calling model 17:46:48
+        - calling model 17:46:51
+       - exception caught! Pausing for 60 seconds
+        - calling model 17:48:21
+        - calling model 17:48:24
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_8.json
+- Story #[9] -- started at 17:48:29
+    - #G18# As a researcher, I want to create a log book page for an experiment and attach a file to this page.
+
+        - calling model 17:48:29
+        - calling model 17:48:33
+        - calling model 17:48:36
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_9.json
+- Story #[10] -- started at 17:48:41
+    - #G18# As a researcher, I want to create a log book page for an experiment and attach a directory that contains multiple files.
+
+        - calling model 17:48:41
+        - calling model 17:48:45
+        - calling model 17:48:48
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_10.json
+- Story #[11] -- started at 17:48:53
+    - #G18# As a researcher, I want to upload files prior to having them attached to a log book page.
+
+        - calling model 17:48:53
+        - calling model 17:48:57
+        - calling model 17:49:00
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_11.json
+- Story #[12] -- started at 17:49:04
+    - #G18# As a researcher, I want to upload files prior to having them attached to a log book page using the web interface.
+
+        - calling model 17:49:04
+        - calling model 17:49:08
+        - calling model 17:49:11
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_12.json
+- Story #[13] -- started at 17:49:16
+    - #G18# As a researcher, I want to upload files prior to having them attached to a log book page using a mapped network drive.
+
+        - calling model 17:49:16
+        - calling model 17:49:19
+        - calling model 17:49:22
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_13.json
+- Story #[14] -- started at 17:49:27
+    - #G18# As a researcher, I want to attach currently non-attached files to a log book page.
+
+        - calling model 17:49:27
+       - exception caught! Pausing for 60 seconds
+        - calling model 17:50:57
+        - calling model 17:51:00
+        - calling model 17:51:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_14.json
+- Story #[15] -- started at 17:51:07
+    - #G18# As a researcher, I want to receive an alert of any unattached files that are in my workspace.
+
+        - calling model 17:51:07
+        - calling model 17:51:10
+        - calling model 17:51:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_15.json
+- Story #[16] -- started at 17:51:18
+    - #G18# As a researcher, I want to download files attached to an experiment using my Web browser.
+
+        - calling model 17:51:18
+        - calling model 17:51:21
+        - calling model 17:51:24
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_16.json
+- Story #[17] -- started at 17:51:29
+    - #G18# As a researcher, I want to access files stored in my Neurohub workspace, using a network drive attached to my workstation.
+
+        - calling model 17:51:29
+        - calling model 17:51:33
+        - calling model 17:51:36
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_17.json
+- Story #[18] -- started at 17:51:41
+    - #G18# As a researcher, I want to create a log book page.
+
+        - calling model 17:51:41
+        - calling model 17:51:44
+        - calling model 17:51:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_18.json
+- Story #[19] -- started at 17:51:51
+    - #G18# As a release engineer, I want to configure nightly builds that automatically perform a Neurohub installation on a virgin operating system, execute tests and report back results, without requiring any manual input/interaction.
+
+        - calling model 17:51:51
+        - calling model 17:51:55
+        - calling model 17:51:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_19.json
+- Story #[20] -- started at 17:52:05
+    - #G18# As a supervisor, I want to view what my researchers were doing on a given date or period of time.
+
+        - calling model 17:52:05
+        - calling model 17:52:08
+        - calling model 17:52:11
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_20.json
+- Story #[21] -- started at 17:52:15
+    - #G18# As a user, I want to upload large files of over 1GB in size.
+
+        - calling model 17:52:15
+        - calling model 17:52:18
+        - calling model 17:52:21
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_21.json
+- Story #[22] -- started at 17:52:25
+    - #G18# As a user, I want to assign tags to files that I have uploaded.
+
+        - calling model 17:52:25
+       - exception caught! Pausing for 60 seconds
+        - calling model 17:53:55
+        - calling model 17:53:59
+        - calling model 17:54:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_22.json
+- Story #[23] -- started at 17:54:06
+    - #G18# As a user, I want to assign bespoke information to a file dependent on its type.
+
+        - calling model 17:54:06
+        - calling model 17:54:09
+        - calling model 17:54:12
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_23.json
+- Story #[24] -- started at 17:54:16
+    - #G18# As a user, I want to filter the files I get from search results based on their  type.
+
+        - calling model 17:54:16
+        - calling model 17:54:19
+        - calling model 17:54:22
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_24.json
+- Story #[25] -- started at 17:54:26
+    - #G18# As a user, I want to use the tags that I use are part of a controlled vocabulary.
+
+        - calling model 17:54:26
+        - calling model 17:54:29
+        - calling model 17:54:32
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_25.json
+- Story #[26] -- started at 17:54:35
+    - #G18# As a user, I want to make uploaded data files to be non-modifiable.
+
+        - calling model 17:54:35
+        - calling model 17:54:39
+        - calling model 17:54:42
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_26.json
+- Story #[27] -- started at 17:54:45
+    - #G18# As a user, I want to make predicated links between files.
+
+        - calling model 17:54:45
+        - calling model 17:54:49
+        - calling model 17:54:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_27.json
+- Story #[28] -- started at 17:54:55
+    - #G18# As a user, I want to restrict what can be entered to a metadata field.
+
+        - calling model 17:54:55
+        - calling model 17:54:58
+        - calling model 17:55:01
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_28.json
+- Story #[29] -- started at 17:55:05
+    - #G18# As a user, I want to have files I might accidentally delete to be restorable.
+
+        - calling model 17:55:05
+        - calling model 17:55:08
+        - calling model 17:55:11
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_29.json
+- Story #[30] -- started at 17:55:15
+    - #G18# As a user, I want to revert to an older version of an uploaded file.
+
+        - calling model 17:55:15
+        - calling model 17:55:18
+        - calling model 17:55:21
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_30.json
+- Story #[31] -- started at 17:55:25
+    - #G18# As a user, I want to have a visual way of viewing particular files uploaded over a time period.
+
+        - calling model 17:55:25
+        - calling model 17:55:28
+        - calling model 17:55:31
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_31.json
+- Story #[32] -- started at 17:55:35
+    - #G18# As a user, I want to associate together files involved in a experiment.
+
+        - calling model 17:55:35
+        - calling model 17:55:38
+        - calling model 17:55:41
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_32.json
+- Story #[33] -- started at 17:55:45
+    - #G18# As a system administrator, I want to have a managed backup protocol for the system.
+
+        - calling model 17:55:45
+        - calling model 17:55:48
+        - calling model 17:55:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_33.json
+- Story #[34] -- started at 17:55:55
+    - #G18# As a user, I want to enter metadata / describe an experiment protocol before a file is even created.
+
+        - calling model 17:55:55
+        - calling model 17:55:59
+        - calling model 17:56:02
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_34.json
+- Story #[35] -- started at 17:56:08
+    - #G18# As lab administrator, I want to have increased access to the system to support regular users. 
+
+        - calling model 17:56:08
+        - calling model 17:56:11
+        - calling model 17:56:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_35.json
+- Story #[36] -- started at 17:56:19
+    - #G18# As a user, I want to link together experimental runs to build an experiment.
+
+        - calling model 17:56:19
+        - calling model 17:56:22
+        - calling model 17:56:26
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_36.json
+- Story #[37] -- started at 17:56:31
+    - #G18# As a lab administrator, I want to create page templates with bespoke metadata fields.
+
+        - calling model 17:56:31
+        - calling model 17:56:34
+        - calling model 17:56:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_37.json
+- Story #[38] -- started at 17:56:41
+    - #G18# As a user, I want to capture the same metadata for each file created in an experimental run.
+
+        - calling model 17:56:41
+        - calling model 17:56:45
+        - calling model 17:56:48
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_38.json
+- Story #[39] -- started at 17:56:52
+    - #G18# As a lab administrator, I want a way of managing worm strain stocks that is integrated with Wormbase.
+
+        - calling model 17:56:52
+        - calling model 17:56:56
+        - calling model 17:56:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_39.json
+- Story #[40] -- started at 17:57:03
+    - #G18# As a user, I want to search for and download human-readable experimental protocols.
+
+        - calling model 17:57:03
+        - calling model 17:57:06
+        - calling model 17:57:09
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_40.json
+- Story #[41] -- started at 17:57:14
+    - #G18# As a user, I want to modify or branch an experimental protocol, whilst retaining the original.
+
+        - calling model 17:57:14
+        - calling model 17:57:17
+        - calling model 17:57:20
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_41.json
+- Story #[42] -- started at 17:57:24
+    - #G18# As a user, I want to view how an experimental protocol has evolved over time.
+
+        - calling model 17:57:24
+        - calling model 17:57:28
+        - calling model 17:57:31
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_42.json
+- Story #[43] -- started at 17:57:34
+    - #G18# As a user, I want to create a protocol and assign metadata to any stag.
+
+        - calling model 17:57:34
+        - calling model 17:57:38
+        - calling model 17:57:41
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_43.json
+- Story #[44] -- started at 17:57:45
+    - #G18# As a user, I want to prove definitively that I created a page on a certain date.
+
+        - calling model 17:57:45
+        - calling model 17:57:49
+        - calling model 17:57:51
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_44.json
+- Story #[45] -- started at 17:57:56
+    - #G18# As a user, I want to manage the references / papers I have investigated.
+
+        - calling model 17:57:56
+        - calling model 17:57:59
+        - calling model 17:58:02
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_45.json
+- Story #[46] -- started at 17:58:06
+    - #G18# As a user, I want to search specifically for files rather than log book pages.
+
+        - calling model 17:58:06
+        - calling model 17:58:09
+       - exception caught! Pausing for 60 seconds
+        - calling model 17:59:39
+        - calling model 17:59:42
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_46.json
+- Story #[47] -- started at 17:59:46
+    - #G18# As a user, I want to limit my search to a particular set of log books.
+
+        - calling model 17:59:46
+        - calling model 17:59:49
+        - calling model 17:59:53
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_47.json
+- Story #[48] -- started at 17:59:56
+    - #G18# As a user, I want to limit my search results to one or more log book sections from one or more log books.
+
+        - calling model 17:59:56
+        - calling model 17:59:59
+        - calling model 18:00:02
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_48.json
+- Story #[49] -- started at 18:00:07
+    - #G18# As a user, I want to download files directly from the search results page.
+
+        - calling model 18:00:07
+        - calling model 18:00:10
+        - calling model 18:00:13
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_49.json
+- Story #[50] -- started at 18:00:17
+    - #G18# As a user, I want to see the provenance of the page as part of the search results.
+
+        - calling model 18:00:17
+        - calling model 18:00:20
+        - calling model 18:00:23
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_50.json
+- Story #[51] -- started at 18:00:28
+    - #G18# As a user, I want to attach multiple files at once to a log book page.
+
+        - calling model 18:00:28
+        - calling model 18:00:31
+        - calling model 18:00:34
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_51.json
+- Story #[52] -- started at 18:00:38
+    - #G18# As a user, I want to download multiple files from the search results in one go.
+
+        - calling model 18:00:38
+        - calling model 18:00:42
+        - calling model 18:00:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_52.json
+- Story #[53] -- started at 18:00:49
+    - #G18# As a user, I want to draw tables using HTML tags as part of the content of a log book page.
+
+        - calling model 18:00:49
+        - calling model 18:00:52
+        - calling model 18:00:55
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_53.json
+- Story #[54] -- started at 18:00:59
+    - #G18# As a lab member, I want to view events and equipment bookings within the group.
+
+        - calling model 18:00:59
+        - calling model 18:01:02
+        - calling model 18:01:05
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_54.json
+- Story #[55] -- started at 18:01:09
+    - #G18# As a user, I want to store worm behaviour videos with an encoding that can be analysed by the worm analysis software written by Christopher James.
+
+        - calling model 18:01:09
+        - calling model 18:01:13
+        - calling model 18:01:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_55.json
+- Story #[56] -- started at 18:01:21
+    - #G18# As a system administrator, I want to migrate data from an older version of NeuroHub to the current version.
+
+        - calling model 18:01:21
+        - calling model 18:01:24
+        - calling model 18:01:27
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_56.json
+- Story #[57] -- started at 18:01:32
+    - #G18# As a user, I want to have the system to also forward important news items to an external mailing list.
+
+        - calling model 18:01:32
+        - calling model 18:01:35
+        - calling model 18:01:38
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_57.json
+- Story #[58] -- started at 18:01:42
+    - #G18# As a user, I want to view and update an inventory of of the equipment and consumables that are present in the centre.
+
+        - calling model 18:01:42
+        - calling model 18:01:45
+        - calling model 18:01:49
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_58.json
+- Story #[59] -- started at 18:01:56
+    - #G18# As a user, I want to have a spreadsheet hosted within the Neurohub Web page, so that I can edit and calculate costs collaboratively with others while working on the proposal.
+
+        - calling model 18:01:56
+        - calling model 18:01:59
+        - calling model 18:02:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_59.json
+- Story #[60] -- started at 18:02:07
+    - #G18# As a supervisor, I want to create feedback forms within Neurohub, that my students can fill in and submit, in order to provide me with feedback about the course that they attended.
+
+        - calling model 18:02:07
+        - calling model 18:02:11
+        - calling model 18:02:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_60.json
+- Story #[61] -- started at 18:02:25
+    - #G18# As a user, I want to have the option to tell Neurohub to push posted content to my Twitter feed at the same time.
+
+        - calling model 18:02:25
+        - calling model 18:02:28
+        - calling model 18:02:32
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_61.json
+- Story #[62] -- started at 18:02:36
+    - #G18# As a user, I want to either keep a logbook entry private or share it with individuals rather than groups.
+
+        - calling model 18:02:36
+        - calling model 18:02:40
+        - calling model 18:02:43
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_62.json
+- Story #[63] -- started at 18:02:49
+    - #G18# As a user, I want to have the details of the workflow execution to be recorded in a neurohub log book while executing a workflow.
+
+        - calling model 18:02:49
+        - calling model 18:02:52
+        - calling model 18:02:55
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_63.json
+- Story #[64] -- started at 18:02:59
+    - #G18# As a user, I want to have that my Twitter Tweets to appear in Neurohub, so that other researchers in the centre can see what I am up to.
+
+        - calling model 18:02:59
+        - calling model 18:03:02
+        - calling model 18:03:05
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_64.json
+- Story #[65] -- started at 18:03:10
+    - #G18# As a user, I want to view the group's shared calendars via the Neurohub Nodes' Web page as well as on my mobile device.
+
+        - calling model 18:03:10
+        - calling model 18:03:14
+        - calling model 18:03:18
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_65.json
+- Story #[66] -- started at 18:03:22
+    - #G18# As a user, I want to sync events created in NeuroHub with a web-based Calendar such as Google Calendar.
+
+        - calling model 18:03:22
+        - calling model 18:03:26
+        - calling model 18:03:29
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_66.json
+- Story #[67] -- started at 18:03:34
+    - #G18# As a researcher, I want to have the ability to insert Greek symbols into my logbook entries.
+
+        - calling model 18:03:34
+        - calling model 18:03:37
+        - calling model 18:03:40
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_67.json
+- Story #[68] -- started at 18:03:44
+    - #G18# As a user, I want to have the ability to move multiple files around and rearrange them using the Neurohub file browser while processing data.
+
+        - calling model 18:03:44
+        - calling model 18:03:48
+        - calling model 18:03:51
+       - exception caught! Pausing for 60 seconds
+        - calling model 18:05:21
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_68.json
+- Story #[69] -- started at 18:05:27
+    - #G18# As a researcher, I want to point my Mendeley client at a group-wide shared repository of research papers and get notifications via Mendeley when new content is added.
+
+        - calling model 18:05:27
+        - calling model 18:05:30
+        - calling model 18:05:34
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_69.json
+- Story #[70] -- started at 18:05:39
+    - #G18# As a researcher, I want to have electronic support for keeping track of which data sets were used/output/modified as part of a particular experiment.
+
+        - calling model 18:05:39
+        - calling model 18:05:43
+        - calling model 18:05:46
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_70.json
+- Story #[71] -- started at 18:05:52
+    - #G18# As a user, I want a mechanism for electronically sharing papers and notes with other researchers, so that we can collaborate effectively.
+
+        - calling model 18:05:52
+        - calling model 18:05:55
+        - calling model 18:05:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_71.json
+- Story #[72] -- started at 18:06:04
+    - #G18# As a researcher, I want to have services to support the long term curation of data, so that I can be sure that data will not get 'lost' with the passage of time.
+
+        - calling model 18:06:04
+        - calling model 18:06:08
+        - calling model 18:06:11
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_72.json
+- Story #[73] -- started at 18:06:16
+    - #G18# As a researcher, I want to have a timeline display of multiple data files and their associated images, so that I can compare the data taken from experiments on particular dates.
+
+        - calling model 18:06:16
+        - calling model 18:06:20
+        - calling model 18:06:24
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_73.json
+- Story #[74] -- started at 18:06:29
+    - #G18# As a researcher, I want to have remote access to my data for off-site working , so that I can still work effectively while away from the lab.
+
+        - calling model 18:06:29
+        - calling model 18:06:32
+        - calling model 18:06:35
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_74.json
+- Story #[75] -- started at 18:06:40
+    - #G18# As a researcher, I want to share post-experiment write-ups with other researchers, so that others can more easily replicate my work.
+
+        - calling model 18:06:40
+        - calling model 18:06:43
+        - calling model 18:06:46
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_75.json
+- Story #[76] -- started at 18:06:51
+    - #G18# As a researcher, I want to collect data as a library of data, which can then be used by one or multiple experiments that are defined at a later stage.
+
+        - calling model 18:06:51
+        - calling model 18:06:54
+        - calling model 18:06:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_76.json
+- Story #[77] -- started at 18:07:02
+    - #G18# As a researcher, I want to indicate within my electronic log book which experimental data is good/bad, hide the bad data, but still keep it in the system just in case it is useful in the future.
+
+        - calling model 18:07:02
+        - calling model 18:07:05
+        - calling model 18:07:08
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_77.json
+- Story #[78] -- started at 18:07:15
+    - #G18# As a researcher, I want to have the system to provide standard metadata, that all researchers in the centre (and beyond) can use, so that we can better understand each others' data.
+
+        - calling model 18:07:15
+        - calling model 18:07:18
+        - calling model 18:07:21
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_78.json
+- Story #[79] -- started at 18:07:26
+    - #G18# As a researcher, I want to have physiology images to be annotated with standard meta data, so that my data can later be searched for and understood.
+
+        - calling model 18:07:26
+        - calling model 18:07:30
+        - calling model 18:07:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_79.json
+- Story #[80] -- started at 18:07:37
+    - #G18# As a researcher, I want to have the ability to attach standard meta data for behavioural observations (and video), so that my data can later be searched for and understood.
+
+        - calling model 18:07:37
+        - calling model 18:07:41
+        - calling model 18:07:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_80.json
+- Story #[81] -- started at 18:07:50
+    - #G18# As a researcher,  I want to have the ability to attach standard meta data for drug responses, so that my data can later be searched for and understood.
+
+        - calling model 18:07:50
+        - calling model 18:07:53
+        - calling model 18:07:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_81.json
+- Story #[82] -- started at 18:08:02
+    - #G18# As a researcher, I want to have the ability to search for images of cells using standard meta data.
+
+        - calling model 18:08:02
+        - calling model 18:08:05
+        - calling model 18:08:08
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_82.json
+- Story #[83] -- started at 18:08:12
+    - #G18# As a researcher, I want to have at least some meta data to be automatically inserted when new data is added to the system.
+
+        - calling model 18:08:12
+        - calling model 18:08:15
+        - calling model 18:08:18
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_83.json
+- Story #[84] -- started at 18:08:22
+    - #G18# As a researcher,  I want to have the ability to attach detailed meta data to the data and entries that I create.
+
+        - calling model 18:08:22
+        - calling model 18:08:26
+        - calling model 18:08:29
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_84.json
+- Story #[85] -- started at 18:08:33
+    - #G18# As a researcher, I want to have the ability to select a partially pre-populated template that already contains commonly entered meta data while adding new data to the system, so that I do not waste time repeatedly inserting the same meta data over and over again for each individual file or log book entry.
+
+        - calling model 18:08:33
+       - exception caught! Pausing for 60 seconds
+        - calling model 18:10:03
+        - calling model 18:10:07
+       - exception caught! Pausing for 60 seconds
+        - calling model 18:11:37
+        - calling model 18:11:41
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_85.json
+- Story #[86] -- started at 18:11:52
+    - #G18# As a user, I want to be sure that existing metadata corresponding to the file is not lost when moving a file to a new location.
+
+        - calling model 18:11:52
+        - calling model 18:11:55
+        - calling model 18:11:58
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_86.json
+- Story #[87] -- started at 18:12:02
+    - #G18# As a researcher, I want to have the ability to form links between objects, for example File A is an analysis of File B, so that data can be searched by type and by association.
+
+        - calling model 18:12:02
+        - calling model 18:12:06
+        - calling model 18:12:09
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_87.json
+- Story #[88] -- started at 18:12:13
+    - #G18# As a researcher, I want to have the ability to locate experiment files using meta data, regardless of where those files are located.
+
+        - calling model 18:12:13
+        - calling model 18:12:16
+        - calling model 18:12:19
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_88.json
+- Story #[89] -- started at 18:12:23
+    - #G18# As a researcher, I want to have any data that I have written to the VRE to be protected from modification or deletion, so that original data can always be traced back to an experiment and a point in time.
+
+        - calling model 18:12:23
+        - calling model 18:12:26
+        - calling model 18:12:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_89.json
+- Story #[90] -- started at 18:12:34
+    - #G18# As a user,  I want to have the ability to keep my data private on the system, and only share data that I deem should be shared.
+
+        - calling model 18:12:34
+        - calling model 18:12:38
+        - calling model 18:12:41
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_90.json
+- Story #[91] -- started at 18:12:48
+    - #G18# As a researcher,  I want to have the ability to store all the inputs for an experiment so that the provenance of the results can be verified.
+
+        - calling model 18:12:48
+        - calling model 18:12:51
+        - calling model 18:12:54
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_91.json
+- Story #[92] -- started at 18:12:59
+    - #G18# As a researcher, I want to have the ability to search for files by file type and format.
+
+        - calling model 18:12:59
+        - calling model 18:13:02
+        - calling model 18:13:05
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_92.json
+- Story #[93] -- started at 18:13:09
+    - #G18# As a researcher,  I want to have the ability to bulk upload directories and files with minimal effort.
+
+        - calling model 18:13:09
+        - calling model 18:13:12
+        - calling model 18:13:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_93.json
+- Story #[94] -- started at 18:13:19
+    - #G18# As a researcher, I want to associate meta data to the group as a whole at some point in time after the bulk upload has completed, so that I have a period of time to reflect on suitable values for the meta data.
+
+        - calling model 18:13:19
+        - calling model 18:13:23
+        - calling model 18:13:26
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_94.json
+- Story #[95] -- started at 18:13:31
+    - #G18# As a user,  I want to have the ability to change the sharing and ownership of multiple files.
+
+        - calling model 18:13:31
+        - calling model 18:13:35
+        - calling model 18:13:38
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_95.json
+- Story #[96] -- started at 18:13:42
+    - #G18# As a researcher,  I want to have the ability to restrict the data I share to certain researchers or groups of researchers.
+
+        - calling model 18:13:42
+        - calling model 18:13:46
+       - exception caught! Pausing for 60 seconds
+        - calling model 18:15:16
+        - calling model 18:15:19
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_96.json
+- Story #[97] -- started at 18:15:25
+    - #G18# As a researcher,  I want to have the ability to locate and access data that colleagues want to share.
+
+        - calling model 18:15:25
+        - calling model 18:15:28
+        - calling model 18:15:31
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_97.json
+- Story #[98] -- started at 18:15:36
+    - #G18# As a researcher,  I want to have the ability to interact with a revision control system so that I can keep track of changes to files over time.
+
+        - calling model 18:15:36
+        - calling model 18:15:39
+        - calling model 18:15:43
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_98.json
+- Story #[99] -- started at 18:15:47
+    - #G18# As a JuniorResearcher,  I want to have the ability to harvest knowledge from within the group, so that I can learn from more experienced researchers.
+
+        - calling model 18:15:47
+        - calling model 18:15:51
+        - calling model 18:15:54
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_99.json
+- Story #[100] -- started at 18:15:58
+    - #G18# As a researcher, I want to secure remote access to the Neurohub node when working away from the laboratory
+
+        - calling model 18:15:58
+        - calling model 18:16:02
+        - calling model 18:16:05
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_100.json
+- Story #[101] -- started at 18:16:10
+    - #G18# As a researcher, I want to have a group-level repository for sharing papers/reviews/comments with other researchers.
+
+        - calling model 18:16:10
+        - calling model 18:16:14
+        - calling model 18:16:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_101.json
+- Story #[102] -- started at 18:16:20
+    - #G18# As a researcher, I want to have the details of the workflow plan as well as the execution history and results recorded in Neurohub while executing a workflow
+
+        - calling model 18:16:20
+        - calling model 18:16:24
+        - calling model 18:16:27
+    - saving result into: ./output/gpt-3.5-turbo-0613/g18-neurohub.txt_102.json
+END: 18:16:33

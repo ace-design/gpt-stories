@@ -1,0 +1,51 @@
+{
+  "story": "#G18# As a user, I want to download files directly from the search results page.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "files",
+      "search results page"
+    ],
+    "actions": [
+      "download"
+    ],
+    "benefit": "I can download files directly from the search results page"
+  },
+  "categories": {
+    "primary_entities": [
+      "files",
+      "search results page"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "download"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "download",
+        "kind": "triggers"
+      },
+      {
+        "from": "download",
+        "to": "files",
+        "kind": "targets"
+      },
+      {
+        "from": "download",
+        "to": "search results page",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1276,
+    "output": 188,
+    "time (ns)": 3960442000
+  }
+}

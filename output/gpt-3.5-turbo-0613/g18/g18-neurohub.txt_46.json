@@ -1,0 +1,47 @@
+{
+  "story": "#G18# As a user, I want to search specifically for files rather than log book pages.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "files",
+      "log book pages"
+    ],
+    "actions": [
+      "search"
+    ],
+    "benefit": "search specifically for files"
+  },
+  "categories": {
+    "primary_entities": [
+      "files"
+    ],
+    "secondary_entities": [
+      "log book pages"
+    ],
+    "primary_actions": [
+      "search"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1266,
+    "output": 154,
+    "time (ns)": 4274024000
+  }
+}

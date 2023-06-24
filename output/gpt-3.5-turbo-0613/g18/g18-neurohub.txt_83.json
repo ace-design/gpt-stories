@@ -1,0 +1,60 @@
+{
+  "story": "#G18# As a researcher, I want to have at least some meta data to be automatically inserted when new data is added to the system.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "meta data",
+      "new data",
+      "system"
+    ],
+    "actions": [
+      "automatically inserted",
+      "added"
+    ],
+    "benefit": "have at least some meta data to be automatically inserted when new data is added to the system"
+  },
+  "categories": {
+    "primary_entities": [
+      "meta data",
+      "new data",
+      "system"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "automatically inserted",
+      "added"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "automatically inserted",
+        "kind": "triggers"
+      },
+      {
+        "from": "automatically inserted",
+        "to": "meta data",
+        "kind": "targets"
+      },
+      {
+        "from": "new data",
+        "to": "added",
+        "kind": "triggers"
+      },
+      {
+        "from": "added",
+        "to": "system",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1348,
+    "output": 244,
+    "time (ns)": 4804909000
+  }
+}

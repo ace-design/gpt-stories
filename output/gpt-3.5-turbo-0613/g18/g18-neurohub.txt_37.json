@@ -1,0 +1,52 @@
+{
+  "story": "#G18# As a lab administrator, I want to create page templates with bespoke metadata fields.\n",
+  "extraction": {
+    "personas": [
+      "lab administrator"
+    ],
+    "entities": [
+      "page templates",
+      "bespoke metadata fields"
+    ],
+    "actions": [
+      "create"
+    ],
+    "benefit": "to have page templates with bespoke metadata fields"
+  },
+  "categories": {
+    "primary_entities": [
+      "page templates"
+    ],
+    "secondary_entities": [
+      "bespoke metadata fields"
+    ],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "lab administrator",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "page templates",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "bespoke metadata fields",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1279,
+    "output": 193,
+    "time (ns)": 4407421000
+  }
+}

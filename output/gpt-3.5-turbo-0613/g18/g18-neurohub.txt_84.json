@@ -1,0 +1,59 @@
+{
+  "story": "#G18# As a researcher,  I want to have the ability to attach detailed meta data to the data and entries that I create.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "meta data",
+      "data",
+      "entries"
+    ],
+    "actions": [
+      "attach"
+    ],
+    "benefit": "have the ability to attach detailed meta data to the data and entries"
+  },
+  "categories": {
+    "primary_entities": [
+      "meta data"
+    ],
+    "secondary_entities": [
+      "data",
+      "entries"
+    ],
+    "primary_actions": [
+      "attach"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "attach",
+        "kind": "triggers"
+      },
+      {
+        "from": "attach",
+        "to": "meta data",
+        "kind": "targets"
+      },
+      {
+        "from": "attach",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "attach",
+        "to": "entries",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1316,
+    "output": 220,
+    "time (ns)": 4741227000
+  }
+}

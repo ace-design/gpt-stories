@@ -1,0 +1,52 @@
+{
+  "story": "#G18# As a researcher, I want to have the ability to insert Greek symbols into my logbook entries.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "Greek symbols",
+      "logbook entries"
+    ],
+    "actions": [
+      "insert"
+    ],
+    "benefit": "have the ability to insert Greek symbols into my logbook entries"
+  },
+  "categories": {
+    "primary_entities": [
+      "Greek symbols"
+    ],
+    "secondary_entities": [
+      "logbook entries"
+    ],
+    "primary_actions": [
+      "insert"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "insert",
+        "kind": "triggers"
+      },
+      {
+        "from": "insert",
+        "to": "Greek symbols",
+        "kind": "targets"
+      },
+      {
+        "from": "insert",
+        "to": "logbook entries",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1296,
+    "output": 194,
+    "time (ns)": 4491106000
+  }
+}

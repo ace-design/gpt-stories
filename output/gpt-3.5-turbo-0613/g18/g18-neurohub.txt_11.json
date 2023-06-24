@@ -1,0 +1,51 @@
+{
+  "story": "#G18# As a researcher, I want to upload files prior to having them attached to a log book page.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "files",
+      "log book page"
+    ],
+    "actions": [
+      "upload"
+    ],
+    "benefit": "prioritize files before attaching them to a log book page"
+  },
+  "categories": {
+    "primary_entities": [
+      "files",
+      "log book page"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "upload"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "files",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "log book page",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1292,
+    "output": 191,
+    "time (ns)": 4580611000
+  }
+}

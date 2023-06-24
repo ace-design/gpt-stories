@@ -1,0 +1,66 @@
+{
+  "story": "#G18# As a researcher, I want to have the details of the workflow plan as well as the execution history and results recorded in Neurohub while executing a workflow\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "workflow plan",
+      "execution history",
+      "results",
+      "Neurohub"
+    ],
+    "actions": [
+      "record"
+    ],
+    "benefit": "I can have the details of the workflow plan, execution history, and results recorded in Neurohub while executing a workflow"
+  },
+  "categories": {
+    "primary_entities": [
+      "workflow plan",
+      "execution history",
+      "results"
+    ],
+    "secondary_entities": [
+      "Neurohub"
+    ],
+    "primary_actions": [
+      "record"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "record",
+        "kind": "triggers"
+      },
+      {
+        "from": "record",
+        "to": "workflow plan",
+        "kind": "targets"
+      },
+      {
+        "from": "record",
+        "to": "execution history",
+        "kind": "targets"
+      },
+      {
+        "from": "record",
+        "to": "results",
+        "kind": "targets"
+      },
+      {
+        "from": "record",
+        "to": "Neurohub",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1372,
+    "output": 270,
+    "time (ns)": 6245585000
+  }
+}

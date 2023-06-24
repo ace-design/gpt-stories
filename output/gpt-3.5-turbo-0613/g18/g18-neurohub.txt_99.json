@@ -1,0 +1,61 @@
+{
+  "story": "#G18# As a JuniorResearcher,  I want to have the ability to harvest knowledge from within the group, so that I can learn from more experienced researchers.\n",
+  "extraction": {
+    "personas": [
+      "JuniorResearcher",
+      "experienced researchers"
+    ],
+    "entities": [
+      "knowledge",
+      "group"
+    ],
+    "actions": [
+      "harvest",
+      "learn"
+    ],
+    "benefit": "I can learn from more experienced researchers"
+  },
+  "categories": {
+    "primary_entities": [
+      "knowledge"
+    ],
+    "secondary_entities": [
+      "group"
+    ],
+    "primary_actions": [
+      "harvest"
+    ],
+    "secondary_actions": [
+      "learn"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "JuniorResearcher",
+        "to": "harvest",
+        "kind": "triggers"
+      },
+      {
+        "from": "harvest",
+        "to": "knowledge",
+        "kind": "targets"
+      },
+      {
+        "from": "JuniorResearcher",
+        "to": "learn",
+        "kind": "triggers"
+      },
+      {
+        "from": "learn",
+        "to": "experienced researchers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1332,
+    "output": 226,
+    "time (ns)": 5015401000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G18# As a supervisor, I want to view what my researchers were doing on a given date or period of time.\n",
+  "extraction": {
+    "personas": [
+      "supervisor"
+    ],
+    "entities": [
+      "researchers"
+    ],
+    "actions": [
+      "view"
+    ],
+    "benefit": "I can see what my researchers were doing on a given date or period of time."
+  },
+  "categories": {
+    "primary_entities": [
+      "researchers"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "supervisor",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "researchers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1298,
+    "output": 162,
+    "time (ns)": 4127734000
+  }
+}

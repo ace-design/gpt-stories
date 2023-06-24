@@ -1,0 +1,51 @@
+{
+  "story": "#G18# As a lab member, I want to view events and equipment bookings within the group.\n",
+  "extraction": {
+    "personas": [
+      "lab member"
+    ],
+    "entities": [
+      "events",
+      "equipment bookings"
+    ],
+    "actions": [
+      "view"
+    ],
+    "benefit": "within the group"
+  },
+  "categories": {
+    "primary_entities": [
+      "events",
+      "equipment bookings"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "lab member",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "events",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "equipment bookings",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1264,
+    "output": 180,
+    "time (ns)": 4280075000
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "story": "#G18# As a user, I want a mechanism for electronically sharing papers and notes with other researchers, so that we can collaborate effectively.\n",
+  "extraction": {
+    "personas": [
+      "user",
+      "researchers"
+    ],
+    "entities": [
+      "mechanism",
+      "papers",
+      "notes",
+      "researchers"
+    ],
+    "actions": [
+      "sharing",
+      "collaborate"
+    ],
+    "benefit": "collaborate effectively"
+  },
+  "categories": {
+    "primary_entities": [
+      "mechanism",
+      "papers",
+      "notes"
+    ],
+    "secondary_entities": [
+      "researchers"
+    ],
+    "primary_actions": [
+      "sharing"
+    ],
+    "secondary_actions": [
+      "collaborate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "sharing",
+        "kind": "triggers"
+      },
+      {
+        "from": "sharing",
+        "to": "mechanism",
+        "kind": "targets"
+      },
+      {
+        "from": "sharing",
+        "to": "papers",
+        "kind": "targets"
+      },
+      {
+        "from": "sharing",
+        "to": "notes",
+        "kind": "targets"
+      },
+      {
+        "from": "sharing",
+        "to": "researchers",
+        "kind": "targets"
+      },
+      {
+        "from": "collaborate",
+        "to": "researchers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1332,
+    "output": 287,
+    "time (ns)": 6769543000
+  }
+}

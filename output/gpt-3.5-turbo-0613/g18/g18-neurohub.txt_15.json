@@ -1,0 +1,55 @@
+{
+  "story": "#G18# As a researcher, I want to receive an alert of any unattached files that are in my workspace.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "unattached files",
+      "workspace"
+    ],
+    "actions": [
+      "receive",
+      "alert"
+    ],
+    "benefit": "I can be notified of any unattached files in my workspace"
+  },
+  "categories": {
+    "primary_entities": [
+      "unattached files"
+    ],
+    "secondary_entities": [
+      "workspace"
+    ],
+    "primary_actions": [
+      "receive"
+    ],
+    "secondary_actions": [
+      "alert"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "receive",
+        "kind": "triggers"
+      },
+      {
+        "from": "receive",
+        "to": "unattached files",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "workspace",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1303,
+    "output": 196,
+    "time (ns)": 4478189000
+  }
+}

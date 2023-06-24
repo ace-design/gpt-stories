@@ -1,0 +1,56 @@
+{
+  "story": "#G18# As a user, I want to modify or branch an experimental protocol, whilst retaining the original.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "experimental protocol"
+    ],
+    "actions": [
+      "modify",
+      "branch"
+    ],
+    "benefit": "retain the original"
+  },
+  "categories": {
+    "primary_entities": [
+      "experimental protocol"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "modify",
+      "branch"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "modify",
+        "kind": "triggers"
+      },
+      {
+        "from": "user",
+        "to": "branch",
+        "kind": "triggers"
+      },
+      {
+        "from": "modify",
+        "to": "experimental protocol",
+        "kind": "targets"
+      },
+      {
+        "from": "branch",
+        "to": "experimental protocol",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1268,
+    "output": 205,
+    "time (ns)": 4414722000
+  }
+}

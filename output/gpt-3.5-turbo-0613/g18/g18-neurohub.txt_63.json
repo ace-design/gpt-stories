@@ -1,0 +1,47 @@
+{
+  "story": "#G18# As a user, I want to have the details of the workflow execution to be recorded in a neurohub log book while executing a workflow.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "workflow execution",
+      "neurohub log book"
+    ],
+    "actions": [
+      "record"
+    ],
+    "benefit": "have the details of the workflow execution recorded in a neurohub log book"
+  },
+  "categories": {
+    "primary_entities": [
+      "workflow execution"
+    ],
+    "secondary_entities": [
+      "neurohub log book"
+    ],
+    "primary_actions": [
+      "record"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "record",
+        "kind": "triggers"
+      },
+      {
+        "from": "record",
+        "to": "workflow execution",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1328,
+    "output": 171,
+    "time (ns)": 4087333000
+  }
+}

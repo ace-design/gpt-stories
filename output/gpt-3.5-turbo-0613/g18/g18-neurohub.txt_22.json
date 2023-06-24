@@ -1,0 +1,44 @@
+{
+  "story": "#G18# As a user, I want to assign tags to files that I have uploaded.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "files"
+    ],
+    "actions": [
+      "assign tags"
+    ],
+    "benefit": "organize and categorize my uploaded files"
+  },
+  "categories": {
+    "primary_entities": [
+      "files"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "assign tags"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "assign tags",
+        "kind": "triggers"
+      },
+      {
+        "from": "assign tags",
+        "to": "files",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1260,
+    "output": 153,
+    "time (ns)": 5041887000
+  }
+}

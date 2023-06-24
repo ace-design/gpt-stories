@@ -1,0 +1,70 @@
+{
+  "story": "#G18# As a user, I want to store worm behaviour videos with an encoding that can be analysed by the worm analysis software written by Christopher James.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "worm behaviour videos",
+      "worm analysis software",
+      "Christopher James"
+    ],
+    "actions": [
+      "store",
+      "analyse"
+    ],
+    "benefit": "the videos can be analysed by the worm analysis software"
+  },
+  "categories": {
+    "primary_entities": [
+      "worm behaviour videos",
+      "worm analysis software",
+      "Christopher James"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "store",
+      "analyse"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "store",
+        "kind": "triggers"
+      },
+      {
+        "from": "store",
+        "to": "worm behaviour videos",
+        "kind": "targets"
+      },
+      {
+        "from": "user",
+        "to": "analyse",
+        "kind": "triggers"
+      },
+      {
+        "from": "analyse",
+        "to": "worm behaviour videos",
+        "kind": "targets"
+      },
+      {
+        "from": "analyse",
+        "to": "worm analysis software",
+        "kind": "targets"
+      },
+      {
+        "from": "analyse",
+        "to": "Christopher James",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1342,
+    "output": 293,
+    "time (ns)": 5542449000
+  }
+}

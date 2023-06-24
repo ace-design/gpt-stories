@@ -1,0 +1,67 @@
+{
+  "story": "#G18# As an MRI operator, I want to digitally record the responses that subjects make when completing paper-based forms.\n",
+  "extraction": {
+    "personas": [
+      "MRI operator"
+    ],
+    "entities": [
+      "responses",
+      "subjects",
+      "paper-based forms"
+    ],
+    "actions": [
+      "digitally record",
+      "completing"
+    ],
+    "benefit": "I can digitally record the responses that subjects make when completing paper-based forms"
+  },
+  "categories": {
+    "primary_entities": [
+      "responses"
+    ],
+    "secondary_entities": [
+      "subjects",
+      "paper-based forms"
+    ],
+    "primary_actions": [
+      "digitally record"
+    ],
+    "secondary_actions": [
+      "completing"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "MRI operator",
+        "to": "digitally record",
+        "kind": "triggers"
+      },
+      {
+        "from": "digitally record",
+        "to": "responses",
+        "kind": "targets"
+      },
+      {
+        "from": "digitally record",
+        "to": "subjects",
+        "kind": "targets"
+      },
+      {
+        "from": "digitally record",
+        "to": "paper-based forms",
+        "kind": "targets"
+      },
+      {
+        "from": "completing",
+        "to": "responses",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1328,
+    "output": 272,
+    "time (ns)": 6482317000
+  }
+}

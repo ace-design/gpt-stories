@@ -1,0 +1,56 @@
+{
+  "story": "#G18# As a user, I want to search for and download human-readable experimental protocols.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "human-readable experimental protocols"
+    ],
+    "actions": [
+      "search for",
+      "download"
+    ],
+    "benefit": "I can access and use the experimental protocols easily."
+  },
+  "categories": {
+    "primary_entities": [
+      "human-readable experimental protocols"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "search for",
+      "download"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "search for",
+        "kind": "triggers"
+      },
+      {
+        "from": "user",
+        "to": "download",
+        "kind": "triggers"
+      },
+      {
+        "from": "search for",
+        "to": "human-readable experimental protocols",
+        "kind": "targets"
+      },
+      {
+        "from": "download",
+        "to": "human-readable experimental protocols",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1282,
+    "output": 223,
+    "time (ns)": 5173760000
+  }
+}

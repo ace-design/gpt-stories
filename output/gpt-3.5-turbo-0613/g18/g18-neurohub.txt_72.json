@@ -1,0 +1,58 @@
+{
+  "story": "#G18# As a researcher, I want to have services to support the long term curation of data, so that I can be sure that data will not get 'lost' with the passage of time.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "services",
+      "data"
+    ],
+    "actions": [
+      "support",
+      "curation"
+    ],
+    "benefit": "I can be sure that data will not get 'lost' with the passage of time."
+  },
+  "categories": {
+    "primary_entities": [
+      "services",
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "support",
+      "curation"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "support",
+        "kind": "triggers"
+      },
+      {
+        "from": "support",
+        "to": "services",
+        "kind": "targets"
+      },
+      {
+        "from": "researcher",
+        "to": "curation",
+        "kind": "triggers"
+      },
+      {
+        "from": "curation",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1369,
+    "output": 228,
+    "time (ns)": 5313175000
+  }
+}

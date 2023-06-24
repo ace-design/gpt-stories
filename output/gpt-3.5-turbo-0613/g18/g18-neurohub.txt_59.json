@@ -1,0 +1,63 @@
+{
+  "story": "#G18# As a user, I want to have a spreadsheet hosted within the Neurohub Web page, so that I can edit and calculate costs collaboratively with others while working on the proposal.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "spreadsheet",
+      "Neurohub Web page",
+      "costs",
+      "proposal"
+    ],
+    "actions": [
+      "edit",
+      "calculate"
+    ],
+    "benefit": "collaboratively work on the proposal"
+  },
+  "categories": {
+    "primary_entities": [
+      "spreadsheet",
+      "Neurohub Web page"
+    ],
+    "secondary_entities": [
+      "costs",
+      "proposal"
+    ],
+    "primary_actions": [
+      "edit",
+      "calculate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "edit",
+        "kind": "triggers"
+      },
+      {
+        "from": "user",
+        "to": "calculate",
+        "kind": "triggers"
+      },
+      {
+        "from": "edit",
+        "to": "spreadsheet",
+        "kind": "targets"
+      },
+      {
+        "from": "calculate",
+        "to": "spreadsheet",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1368,
+    "output": 236,
+    "time (ns)": 5257983000
+  }
+}

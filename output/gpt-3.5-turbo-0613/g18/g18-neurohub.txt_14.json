@@ -1,0 +1,51 @@
+{
+  "story": "#G18# As a researcher, I want to attach currently non-attached files to a log book page.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "currently non-attached files",
+      "log book page"
+    ],
+    "actions": [
+      "attach"
+    ],
+    "benefit": "to attach currently non-attached files to a log book page"
+  },
+  "categories": {
+    "primary_entities": [
+      "currently non-attached files",
+      "log book page"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "attach"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "attach",
+        "kind": "triggers"
+      },
+      {
+        "from": "attach",
+        "to": "currently non-attached files",
+        "kind": "targets"
+      },
+      {
+        "from": "attach",
+        "to": "log book page",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1303,
+    "output": 204,
+    "time (ns)": 4518812000
+  }
+}

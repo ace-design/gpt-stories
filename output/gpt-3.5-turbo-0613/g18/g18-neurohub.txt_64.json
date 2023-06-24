@@ -1,0 +1,61 @@
+{
+  "story": "#G18# As a user, I want to have that my Twitter Tweets to appear in Neurohub, so that other researchers in the centre can see what I am up to.\n",
+  "extraction": {
+    "personas": [
+      "user",
+      "researchers"
+    ],
+    "entities": [
+      "Twitter Tweets",
+      "Neurohub"
+    ],
+    "actions": [
+      "appear",
+      "see"
+    ],
+    "benefit": "other researchers in the centre can see what I am up to"
+  },
+  "categories": {
+    "primary_entities": [
+      "Twitter Tweets"
+    ],
+    "secondary_entities": [
+      "Neurohub"
+    ],
+    "primary_actions": [
+      "appear"
+    ],
+    "secondary_actions": [
+      "see"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "appear",
+        "kind": "triggers"
+      },
+      {
+        "from": "appear",
+        "to": "Twitter Tweets",
+        "kind": "targets"
+      },
+      {
+        "from": "researchers",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "Twitter Tweets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1348,
+    "output": 227,
+    "time (ns)": 5737934000
+  }
+}

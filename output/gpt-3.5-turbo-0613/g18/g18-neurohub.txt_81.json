@@ -1,0 +1,72 @@
+{
+  "story": "#G18# As a researcher,  I want to have the ability to attach standard meta data for drug responses, so that my data can later be searched for and understood.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "standard meta data",
+      "drug responses",
+      "data"
+    ],
+    "actions": [
+      "attach",
+      "search",
+      "understand"
+    ],
+    "benefit": "my data can later be searched for and understood"
+  },
+  "categories": {
+    "primary_entities": [
+      "standard meta data",
+      "drug responses",
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "attach",
+      "search",
+      "understand"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "attach",
+        "kind": "triggers"
+      },
+      {
+        "from": "attach",
+        "to": "standard meta data",
+        "kind": "targets"
+      },
+      {
+        "from": "researcher",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "researcher",
+        "to": "understand",
+        "kind": "triggers"
+      },
+      {
+        "from": "understand",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1357,
+    "output": 292,
+    "time (ns)": 5678759000
+  }
+}

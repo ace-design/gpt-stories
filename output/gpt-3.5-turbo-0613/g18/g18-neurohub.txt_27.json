@@ -1,0 +1,47 @@
+{
+  "story": "#G18# As a user, I want to make predicated links between files.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "predicated links",
+      "files"
+    ],
+    "actions": [
+      "make"
+    ],
+    "benefit": "I can make predicated links between files"
+  },
+  "categories": {
+    "primary_entities": [
+      "predicated links"
+    ],
+    "secondary_entities": [
+      "files"
+    ],
+    "primary_actions": [
+      "make"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "make",
+        "kind": "triggers"
+      },
+      {
+        "from": "make",
+        "to": "predicated links",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1265,
+    "output": 160,
+    "time (ns)": 3805093000
+  }
+}

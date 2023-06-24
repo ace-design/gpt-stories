@@ -1,0 +1,70 @@
+{
+  "story": "#G18# As a researcher, I want to have any data that I have written to the VRE to be protected from modification or deletion, so that original data can always be traced back to an experiment and a point in time.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "data",
+      "VRE"
+    ],
+    "actions": [
+      "written",
+      "protected",
+      "modification",
+      "deletion",
+      "traced back"
+    ],
+    "benefit": "original data can always be traced back to an experiment and a point in time"
+  },
+  "categories": {
+    "primary_entities": [
+      "data",
+      "VRE"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "written",
+      "protected",
+      "traced back"
+    ],
+    "secondary_actions": [
+      "modification",
+      "deletion"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "written",
+        "kind": "triggers"
+      },
+      {
+        "from": "written",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "written",
+        "to": "VRE",
+        "kind": "targets"
+      },
+      {
+        "from": "protected",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "traced back",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1412,
+    "output": 273,
+    "time (ns)": 5540171000
+  }
+}

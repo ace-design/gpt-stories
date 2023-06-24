@@ -1,0 +1,56 @@
+{
+  "story": "#G18# As a user, I want to prove definitively that I created a page on a certain date.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "page"
+    ],
+    "actions": [
+      "prove",
+      "created"
+    ],
+    "benefit": "I can prove definitively that I created a page on a certain date."
+  },
+  "categories": {
+    "primary_entities": [
+      "page"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "prove",
+      "created"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "prove",
+        "kind": "triggers"
+      },
+      {
+        "from": "prove",
+        "to": "page",
+        "kind": "targets"
+      },
+      {
+        "from": "user",
+        "to": "created",
+        "kind": "triggers"
+      },
+      {
+        "from": "created",
+        "to": "page",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1292,
+    "output": 212,
+    "time (ns)": 4599245000
+  }
+}

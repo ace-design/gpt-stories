@@ -1,0 +1,52 @@
+{
+  "story": "#G18# As a lab administrator, I want a way of managing worm strain stocks that is integrated with Wormbase.\n",
+  "extraction": {
+    "personas": [
+      "lab administrator"
+    ],
+    "entities": [
+      "worm strain stocks",
+      "Wormbase"
+    ],
+    "actions": [
+      "managing"
+    ],
+    "benefit": "a way of managing worm strain stocks that is integrated with Wormbase"
+  },
+  "categories": {
+    "primary_entities": [
+      "worm strain stocks"
+    ],
+    "secondary_entities": [
+      "Wormbase"
+    ],
+    "primary_actions": [
+      "managing"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "lab administrator",
+        "to": "managing",
+        "kind": "triggers"
+      },
+      {
+        "from": "managing",
+        "to": "worm strain stocks",
+        "kind": "targets"
+      },
+      {
+        "from": "managing",
+        "to": "Wormbase",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1307,
+    "output": 203,
+    "time (ns)": 4363989000
+  }
+}

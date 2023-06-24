@@ -1,0 +1,59 @@
+{
+  "story": "#G18# As a system administrator, I want to migrate data from an older version of NeuroHub to the current version.\n",
+  "extraction": {
+    "personas": [
+      "system administrator"
+    ],
+    "entities": [
+      "data",
+      "older version of NeuroHub",
+      "current version"
+    ],
+    "actions": [
+      "migrate"
+    ],
+    "benefit": "to have the data migrated from an older version of NeuroHub to the current version"
+  },
+  "categories": {
+    "primary_entities": [
+      "data",
+      "current version"
+    ],
+    "secondary_entities": [
+      "older version of NeuroHub"
+    ],
+    "primary_actions": [
+      "migrate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "system administrator",
+        "to": "migrate",
+        "kind": "triggers"
+      },
+      {
+        "from": "migrate",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "migrate",
+        "to": "current version",
+        "kind": "targets"
+      },
+      {
+        "from": "migrate",
+        "to": "older version of NeuroHub",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1328,
+    "output": 241,
+    "time (ns)": 4800619000
+  }
+}

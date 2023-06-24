@@ -1,0 +1,58 @@
+{
+  "story": "#G18# As a researcher, I want to download files attached to an experiment using my Web browser.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "files",
+      "experiment",
+      "Web browser"
+    ],
+    "actions": [
+      "download"
+    ],
+    "benefit": "I can download files attached to an experiment using my Web browser"
+  },
+  "categories": {
+    "primary_entities": [
+      "files",
+      "experiment",
+      "Web browser"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "download"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "download",
+        "kind": "triggers"
+      },
+      {
+        "from": "download",
+        "to": "files",
+        "kind": "targets"
+      },
+      {
+        "from": "download",
+        "to": "experiment",
+        "kind": "targets"
+      },
+      {
+        "from": "download",
+        "to": "Web browser",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1294,
+    "output": 220,
+    "time (ns)": 5255380000
+  }
+}

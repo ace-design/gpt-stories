@@ -1,0 +1,110 @@
+{
+  "story": "#G18# As a researcher, I want to have the ability to select a partially pre-populated template that already contains commonly entered meta data while adding new data to the system, so that I do not waste time repeatedly inserting the same meta data over and over again for each individual file or log book entry.\n",
+  "extraction": {
+    "personas": [
+      "researcher"
+    ],
+    "entities": [
+      "partially pre-populated template",
+      "meta data",
+      "system",
+      "individual file",
+      "log book entry"
+    ],
+    "actions": [
+      "select",
+      "adding",
+      "waste",
+      "repeatedly inserting"
+    ],
+    "benefit": "do not waste time repeatedly inserting the same meta data over and over again for each individual file or log book entry"
+  },
+  "categories": {
+    "primary_entities": [
+      "partially pre-populated template",
+      "meta data",
+      "system"
+    ],
+    "secondary_entities": [
+      "individual file",
+      "log book entry"
+    ],
+    "primary_actions": [
+      "select",
+      "adding"
+    ],
+    "secondary_actions": [
+      "waste",
+      "repeatedly inserting"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "researcher",
+        "to": "select",
+        "kind": "triggers"
+      },
+      {
+        "from": "select",
+        "to": "partially pre-populated template",
+        "kind": "targets"
+      },
+      {
+        "from": "researcher",
+        "to": "adding",
+        "kind": "triggers"
+      },
+      {
+        "from": "adding",
+        "to": "meta data",
+        "kind": "targets"
+      },
+      {
+        "from": "adding",
+        "to": "system",
+        "kind": "targets"
+      },
+      {
+        "from": "researcher",
+        "to": "waste",
+        "kind": "triggers"
+      },
+      {
+        "from": "waste",
+        "to": "individual file",
+        "kind": "targets"
+      },
+      {
+        "from": "waste",
+        "to": "log book entry",
+        "kind": "targets"
+      },
+      {
+        "from": "researcher",
+        "to": "repeatedly inserting",
+        "kind": "triggers"
+      },
+      {
+        "from": "repeatedly inserting",
+        "to": "meta data",
+        "kind": "targets"
+      },
+      {
+        "from": "repeatedly inserting",
+        "to": "individual file",
+        "kind": "targets"
+      },
+      {
+        "from": "repeatedly inserting",
+        "to": "log book entry",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1515,
+    "output": 515,
+    "time (ns)": 12669300000
+  }
+}

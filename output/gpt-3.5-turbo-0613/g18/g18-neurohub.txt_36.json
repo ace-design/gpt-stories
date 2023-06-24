@@ -1,0 +1,68 @@
+{
+  "story": "#G18# As a user, I want to link together experimental runs to build an experiment.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "experimental runs",
+      "experiment"
+    ],
+    "actions": [
+      "link together",
+      "build"
+    ],
+    "benefit": "I can build an experiment by linking together experimental runs"
+  },
+  "categories": {
+    "primary_entities": [
+      "experimental runs",
+      "experiment"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "link together",
+      "build"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "link together",
+        "kind": "triggers"
+      },
+      {
+        "from": "link together",
+        "to": "experimental runs",
+        "kind": "targets"
+      },
+      {
+        "from": "link together",
+        "to": "experiment",
+        "kind": "targets"
+      },
+      {
+        "from": "user",
+        "to": "build",
+        "kind": "triggers"
+      },
+      {
+        "from": "build",
+        "to": "experimental runs",
+        "kind": "targets"
+      },
+      {
+        "from": "build",
+        "to": "experiment",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1285,
+    "output": 273,
+    "time (ns)": 6275524000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G18# As a user, I want to restrict what can be entered to a metadata field.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "metadata field"
+    ],
+    "actions": [
+      "restrict"
+    ],
+    "benefit": "I can control what can be entered in the metadata field"
+  },
+  "categories": {
+    "primary_entities": [
+      "metadata field"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "restrict"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "restrict",
+        "kind": "triggers"
+      },
+      {
+        "from": "restrict",
+        "to": "metadata field",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1269,
+    "output": 155,
+    "time (ns)": 3462244000
+  }
+}
