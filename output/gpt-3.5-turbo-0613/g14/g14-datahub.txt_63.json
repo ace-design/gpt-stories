@@ -1,0 +1,73 @@
+{
+  "story": "#G14# As an Admin, I want to see key metrics about usage such as users, API usage, downloads, so that that I know how things are going.\n",
+  "extraction": {
+    "personas": [
+      "Admin"
+    ],
+    "entities": [
+      "key metrics",
+      "usage",
+      "users",
+      "API usage",
+      "downloads"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "I know how things are going"
+  },
+  "categories": {
+    "primary_entities": [
+      "key metrics",
+      "usage"
+    ],
+    "secondary_entities": [
+      "users",
+      "API usage",
+      "downloads"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Admin",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "key metrics",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "usage",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "users",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "API usage",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "downloads",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1339,
+    "output": 276,
+    "time (ns)": 10455956000
+  }
+}

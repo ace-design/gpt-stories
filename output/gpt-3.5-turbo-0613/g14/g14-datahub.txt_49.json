@@ -1,0 +1,68 @@
+{
+  "story": "#G14# As a Consumer, I want to be notified of changes to a package I care about, so that that I can check out what has changed and take action.\n",
+  "extraction": {
+    "personas": [
+      "Consumer"
+    ],
+    "entities": [
+      "package"
+    ],
+    "actions": [
+      "be notified",
+      "check out",
+      "take action"
+    ],
+    "benefit": "I can check out what has changed and take action"
+  },
+  "categories": {
+    "primary_entities": [
+      "package"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "be notified",
+      "check out",
+      "take action"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Consumer",
+        "to": "be notified",
+        "kind": "triggers"
+      },
+      {
+        "from": "be notified",
+        "to": "package",
+        "kind": "targets"
+      },
+      {
+        "from": "Consumer",
+        "to": "check out",
+        "kind": "triggers"
+      },
+      {
+        "from": "check out",
+        "to": "package",
+        "kind": "targets"
+      },
+      {
+        "from": "Consumer",
+        "to": "take action",
+        "kind": "triggers"
+      },
+      {
+        "from": "take action",
+        "to": "package",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1336,
+    "output": 277,
+    "time (ns)": 7819653000
+  }
+}

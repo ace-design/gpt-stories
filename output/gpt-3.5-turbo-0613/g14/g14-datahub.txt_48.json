@@ -1,0 +1,44 @@
+{
+  "story": "#G14# As a Consumer, I want to download a Data package at a particular version, so that that I know it is compatible with my scripts and system.\n",
+  "extraction": {
+    "personas": [
+      "Consumer"
+    ],
+    "entities": [
+      "Data package"
+    ],
+    "actions": [
+      "download"
+    ],
+    "benefit": "I know it is compatible with my scripts and system"
+  },
+  "categories": {
+    "primary_entities": [
+      "Data package"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "download"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Consumer",
+        "to": "download",
+        "kind": "triggers"
+      },
+      {
+        "from": "download",
+        "to": "Data package",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1306,
+    "output": 154,
+    "time (ns)": 4736115000
+  }
+}

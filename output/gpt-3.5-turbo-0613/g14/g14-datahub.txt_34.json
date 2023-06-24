@@ -1,0 +1,92 @@
+{
+  "story": "#G14# As a Data Analyst I want to download a data package, so that that I can study it and wrangle with it to infer new data or generate new insights.\n",
+  "extraction": {
+    "personas": [
+      "Data Analyst"
+    ],
+    "entities": [
+      "data package"
+    ],
+    "actions": [
+      "download",
+      "study",
+      "wrangle",
+      "infer",
+      "generate"
+    ],
+    "benefit": "I can study the data package and wrangle with it to infer new data or generate new insights."
+  },
+  "categories": {
+    "primary_entities": [
+      "data package"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "download",
+      "study",
+      "wrangle",
+      "infer",
+      "generate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Analyst",
+        "to": "download",
+        "kind": "triggers"
+      },
+      {
+        "from": "download",
+        "to": "data package",
+        "kind": "targets"
+      },
+      {
+        "from": "Data Analyst",
+        "to": "study",
+        "kind": "triggers"
+      },
+      {
+        "from": "study",
+        "to": "data package",
+        "kind": "targets"
+      },
+      {
+        "from": "Data Analyst",
+        "to": "wrangle",
+        "kind": "triggers"
+      },
+      {
+        "from": "wrangle",
+        "to": "data package",
+        "kind": "targets"
+      },
+      {
+        "from": "Data Analyst",
+        "to": "infer",
+        "kind": "triggers"
+      },
+      {
+        "from": "infer",
+        "to": "data package",
+        "kind": "targets"
+      },
+      {
+        "from": "Data Analyst",
+        "to": "generate",
+        "kind": "triggers"
+      },
+      {
+        "from": "generate",
+        "to": "data package",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1376,
+    "output": 405,
+    "time (ns)": 11231253000
+  }
+}

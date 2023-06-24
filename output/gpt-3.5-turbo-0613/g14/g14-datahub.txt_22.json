@@ -1,0 +1,44 @@
+{
+  "story": "#G14# As a Consumer, I want to view a data package online, so that I can get a sense of whether this is the dataset I want.\n",
+  "extraction": {
+    "personas": [
+      "Consumer"
+    ],
+    "entities": [
+      "data package"
+    ],
+    "actions": [
+      "view"
+    ],
+    "benefit": "I can get a sense of whether this is the dataset I want"
+  },
+  "categories": {
+    "primary_entities": [
+      "data package"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Consumer",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "data package",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1309,
+    "output": 157,
+    "time (ns)": 4919405000
+  }
+}

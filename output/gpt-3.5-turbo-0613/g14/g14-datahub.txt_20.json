@@ -1,0 +1,44 @@
+{
+  "story": "#G14# As a Publisher, I want to undelete the deleted data packages, so that that the deleted data packages is now visible again.\n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "deleted data packages"
+    ],
+    "actions": [
+      "undelete"
+    ],
+    "benefit": "the deleted data packages is now visible again"
+  },
+  "categories": {
+    "primary_entities": [
+      "deleted data packages"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "undelete"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "undelete",
+        "kind": "triggers"
+      },
+      {
+        "from": "undelete",
+        "to": "deleted data packages",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1296,
+    "output": 159,
+    "time (ns)": 5131643000
+  }
+}

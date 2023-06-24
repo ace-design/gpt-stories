@@ -1,0 +1,60 @@
+{
+  "story": "#G14# As a Consumer, I want to browse and find publishers, so that that I can find interesting publishers and their packages.\n",
+  "extraction": {
+    "personas": [
+      "Consumer"
+    ],
+    "entities": [
+      "publishers",
+      "packages"
+    ],
+    "actions": [
+      "browse",
+      "find"
+    ],
+    "benefit": "I can find interesting publishers and their packages"
+  },
+  "categories": {
+    "primary_entities": [
+      "publishers"
+    ],
+    "secondary_entities": [
+      "packages"
+    ],
+    "primary_actions": [
+      "browse"
+    ],
+    "secondary_actions": [
+      "find"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Consumer",
+        "to": "browse",
+        "kind": "triggers"
+      },
+      {
+        "from": "browse",
+        "to": "publishers",
+        "kind": "targets"
+      },
+      {
+        "from": "Consumer",
+        "to": "find",
+        "kind": "triggers"
+      },
+      {
+        "from": "find",
+        "to": "packages",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1299,
+    "output": 213,
+    "time (ns)": 6664630000
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "story": "#G14# As a Publisher, I want to know if this site has a pricing plan and what the prices are, so that that I can work out what this will cost me in the future and have a sense that these guys are sustainable. \n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "site",
+      "pricing plan"
+    ],
+    "actions": [
+      "know",
+      "work out",
+      "have a sense"
+    ],
+    "benefit": "work out what this will cost me in the future and have a sense that these guys are sustainable"
+  },
+  "categories": {
+    "primary_entities": [
+      "site",
+      "pricing plan"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "work out",
+      "have a sense"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "site",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "pricing plan",
+        "kind": "targets"
+      },
+      {
+        "from": "work out",
+        "to": "site",
+        "kind": "targets"
+      },
+      {
+        "from": "work out",
+        "to": "pricing plan",
+        "kind": "targets"
+      },
+      {
+        "from": "have a sense",
+        "to": "site",
+        "kind": "targets"
+      },
+      {
+        "from": "have a sense",
+        "to": "pricing plan",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1411,
+    "output": 320,
+    "time (ns)": 8936535000
+  }
+}

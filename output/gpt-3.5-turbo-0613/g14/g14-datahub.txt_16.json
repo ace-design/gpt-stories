@@ -1,0 +1,86 @@
+{
+  "story": "#G14# As a Consumer, I want to be able to get the data for a data package even if the original data has been moved or removed, so that that I can still use is and my app or analysis keeps working.\n",
+  "extraction": {
+    "personas": [
+      "Consumer"
+    ],
+    "entities": [
+      "data package",
+      "original data"
+    ],
+    "actions": [
+      "get",
+      "moved",
+      "removed",
+      "use",
+      "keep working"
+    ],
+    "benefit": "I can still use the data package and my app or analysis keeps working"
+  },
+  "categories": {
+    "primary_entities": [
+      "data package"
+    ],
+    "secondary_entities": [
+      "original data"
+    ],
+    "primary_actions": [
+      "get",
+      "use",
+      "keep working"
+    ],
+    "secondary_actions": [
+      "moved",
+      "removed"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Consumer",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "data package",
+        "kind": "targets"
+      },
+      {
+        "from": "Consumer",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "data package",
+        "kind": "targets"
+      },
+      {
+        "from": "Consumer",
+        "to": "keep working",
+        "kind": "triggers"
+      },
+      {
+        "from": "keep working",
+        "to": "data package",
+        "kind": "targets"
+      },
+      {
+        "from": "moved",
+        "to": "data package",
+        "kind": "triggers"
+      },
+      {
+        "from": "removed",
+        "to": "data package",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1404,
+    "output": 350,
+    "time (ns)": 10624740000
+  }
+}

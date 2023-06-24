@@ -1,0 +1,82 @@
+{
+  "story": "#G14# As a Publisher, I want to be warned that a tag exists when I try to overwrite it, so that that I don't accidentally overwrite stable tagged data which is relied on by consumers.\n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "tag",
+      "data",
+      "consumers"
+    ],
+    "actions": [
+      "warn",
+      "overwrite",
+      "rely on"
+    ],
+    "benefit": "I don't accidentally overwrite stable tagged data which is relied on by consumers."
+  },
+  "categories": {
+    "primary_entities": [
+      "tag",
+      "data",
+      "consumers"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "warn",
+      "overwrite",
+      "rely on"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "warn",
+        "kind": "triggers"
+      },
+      {
+        "from": "warn",
+        "to": "tag",
+        "kind": "targets"
+      },
+      {
+        "from": "warn",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "warn",
+        "to": "consumers",
+        "kind": "targets"
+      },
+      {
+        "from": "overwrite",
+        "to": "tag",
+        "kind": "targets"
+      },
+      {
+        "from": "rely on",
+        "to": "tag",
+        "kind": "targets"
+      },
+      {
+        "from": "rely on",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "rely on",
+        "to": "consumers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1382,
+    "output": 343,
+    "time (ns)": 9453067000
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "story": "#G14# As a Developer, I want to list all DataPackages requirements for my project in the file and pin the exact versions of any DataPackage that my project depends on, so that that the project can be deterministically deployed locally and won't break because of the DataPackage schema changes. \n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "DataPackages",
+      "file"
+    ],
+    "actions": [
+      "list",
+      "pin",
+      "depend"
+    ],
+    "benefit": "deterministically deploy project locally and avoid breaking due to DataPackage schema changes"
+  },
+  "categories": {
+    "primary_entities": [
+      "DataPackages",
+      "file"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "list",
+      "pin"
+    ],
+    "secondary_actions": [
+      "depend"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "list",
+        "kind": "triggers"
+      },
+      {
+        "from": "Developer",
+        "to": "pin",
+        "kind": "triggers"
+      },
+      {
+        "from": "list",
+        "to": "DataPackages",
+        "kind": "targets"
+      },
+      {
+        "from": "pin",
+        "to": "DataPackages",
+        "kind": "targets"
+      },
+      {
+        "from": "pin",
+        "to": "file",
+        "kind": "targets"
+      },
+      {
+        "from": "depend",
+        "to": "DataPackages",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1422,
+    "output": 279,
+    "time (ns)": 8936965000
+  }
+}

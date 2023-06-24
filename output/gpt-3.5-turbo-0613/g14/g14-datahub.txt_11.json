@@ -1,0 +1,44 @@
+{
+  "story": "#G14# As a Publisher, I want to permanently delete a data package, so that that it no longer takes up storage space.\n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "data package"
+    ],
+    "actions": [
+      "permanently delete"
+    ],
+    "benefit": "it no longer takes up storage space"
+  },
+  "categories": {
+    "primary_entities": [
+      "data package"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "permanently delete"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "permanently delete",
+        "kind": "triggers"
+      },
+      {
+        "from": "permanently delete",
+        "to": "data package",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1291,
+    "output": 163,
+    "time (ns)": 5348062000
+  }
+}

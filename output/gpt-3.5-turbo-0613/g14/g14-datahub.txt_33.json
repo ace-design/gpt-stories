@@ -1,0 +1,50 @@
+{
+  "story": "#G14# As a Consumer, I want to load a Data Package from R, so that that I can immediately start playing with it.\n",
+  "extraction": {
+    "personas": [
+      "Consumer"
+    ],
+    "entities": [
+      "Data Package",
+      "R"
+    ],
+    "actions": [
+      "load",
+      "start playing"
+    ],
+    "benefit": "I can immediately start playing with the Data Package"
+  },
+  "categories": {
+    "primary_entities": [
+      "Data Package"
+    ],
+    "secondary_entities": [
+      "R"
+    ],
+    "primary_actions": [
+      "load"
+    ],
+    "secondary_actions": [
+      "start playing"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Consumer",
+        "to": "load",
+        "kind": "triggers"
+      },
+      {
+        "from": "load",
+        "to": "Data Package",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1307,
+    "output": 165,
+    "time (ns)": 6315143000
+  }
+}

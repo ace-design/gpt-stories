@@ -1,0 +1,49 @@
+{
+  "story": "#G14# As a Publisher, I want to know what do next after signing up, so that that I can get going quickly.\n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [],
+    "actions": [
+      "know",
+      "signing up",
+      "get going"
+    ],
+    "benefit": "I can get going quickly"
+  },
+  "categories": {
+    "primary_entities": [],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "signing up",
+      "get going"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "signing up",
+        "kind": "triggers"
+      },
+      {
+        "from": "signing up",
+        "to": "get going",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1296,
+    "output": 192,
+    "time (ns)": 7930682000
+  }
+}

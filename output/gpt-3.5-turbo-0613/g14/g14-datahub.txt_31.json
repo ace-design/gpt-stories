@@ -1,0 +1,49 @@
+{
+  "story": "#G14# As a Consumer, I want to download the data package in one file, so that that I don't have to download descriptor and each resource by hand.\n",
+  "extraction": {
+    "personas": [
+      "Consumer"
+    ],
+    "entities": [
+      "data package",
+      "descriptor",
+      "resource"
+    ],
+    "actions": [
+      "download"
+    ],
+    "benefit": "I don't have to download descriptor and each resource by hand"
+  },
+  "categories": {
+    "primary_entities": [
+      "data package"
+    ],
+    "secondary_entities": [
+      "descriptor",
+      "resource"
+    ],
+    "primary_actions": [
+      "download"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Consumer",
+        "to": "download",
+        "kind": "triggers"
+      },
+      {
+        "from": "download",
+        "to": "data package",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1330,
+    "output": 167,
+    "time (ns)": 9385949000
+  }
+}

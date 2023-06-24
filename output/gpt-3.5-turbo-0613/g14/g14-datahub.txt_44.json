@@ -1,0 +1,80 @@
+{
+  "story": "#G14# As a Publisher, I want to be able to get access to a previous version I tagged, so that that I can return to it and review it. \n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "previous version"
+    ],
+    "actions": [
+      "get access",
+      "tag",
+      "return",
+      "review"
+    ],
+    "benefit": "be able to return to a previous version and review it"
+  },
+  "categories": {
+    "primary_entities": [
+      "previous version"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "get access",
+      "tag",
+      "return",
+      "review"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "get access",
+        "kind": "triggers"
+      },
+      {
+        "from": "Publisher",
+        "to": "tag",
+        "kind": "triggers"
+      },
+      {
+        "from": "Publisher",
+        "to": "return",
+        "kind": "triggers"
+      },
+      {
+        "from": "Publisher",
+        "to": "review",
+        "kind": "triggers"
+      },
+      {
+        "from": "get access",
+        "to": "previous version",
+        "kind": "targets"
+      },
+      {
+        "from": "tag",
+        "to": "previous version",
+        "kind": "targets"
+      },
+      {
+        "from": "return",
+        "to": "previous version",
+        "kind": "targets"
+      },
+      {
+        "from": "review",
+        "to": "previous version",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1344,
+    "output": 333,
+    "time (ns)": 9437785000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G14# As a Consumer, I want to search data packages, so that that I can find the ones I want.\n",
+  "extraction": {
+    "personas": [
+      "Consumer"
+    ],
+    "entities": [
+      "data packages"
+    ],
+    "actions": [
+      "search"
+    ],
+    "benefit": "I can find the ones I want"
+  },
+  "categories": {
+    "primary_entities": [
+      "data packages"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "search"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Consumer",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "data packages",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1276,
+    "output": 151,
+    "time (ns)": 4915272000
+  }
+}

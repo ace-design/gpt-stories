@@ -1,0 +1,44 @@
+{
+  "story": "#G14# As a Publisher, I want to sign up for a given pricing plan, so that that I am entitled to what it allows.\n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "pricing plan"
+    ],
+    "actions": [
+      "sign up"
+    ],
+    "benefit": "I am entitled to what it allows"
+  },
+  "categories": {
+    "primary_entities": [
+      "pricing plan"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "sign up"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "sign up",
+        "kind": "triggers"
+      },
+      {
+        "from": "sign up",
+        "to": "pricing plan",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1291,
+    "output": 155,
+    "time (ns)": 5652388000
+  }
+}

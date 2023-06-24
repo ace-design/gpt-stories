@@ -1,0 +1,47 @@
+{
+  "story": "#G14# As a Publisher, I want to publish a data package in the UI, so that that it is available and published.\n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "data package",
+      "UI"
+    ],
+    "actions": [
+      "publish"
+    ],
+    "benefit": "it is available and published"
+  },
+  "categories": {
+    "primary_entities": [
+      "data package"
+    ],
+    "secondary_entities": [
+      "UI"
+    ],
+    "primary_actions": [
+      "publish"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "publish",
+        "kind": "triggers"
+      },
+      {
+        "from": "publish",
+        "to": "data package",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1286,
+    "output": 154,
+    "time (ns)": 4897986000
+  }
+}

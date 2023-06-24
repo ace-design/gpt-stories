@@ -1,0 +1,58 @@
+{
+  "story": "#G14# As a Publisher, I want to use a publish command to update a data package that is already in the registry, so that it appears there.\n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "publish command",
+      "data package",
+      "registry"
+    ],
+    "actions": [
+      "update"
+    ],
+    "benefit": "it appears in the registry"
+  },
+  "categories": {
+    "primary_entities": [
+      "publish command",
+      "data package",
+      "registry"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "update"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "update",
+        "kind": "triggers"
+      },
+      {
+        "from": "update",
+        "to": "publish command",
+        "kind": "targets"
+      },
+      {
+        "from": "update",
+        "to": "data package",
+        "kind": "targets"
+      },
+      {
+        "from": "update",
+        "to": "registry",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1314,
+    "output": 214,
+    "time (ns)": 7707545000
+  }
+}

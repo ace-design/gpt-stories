@@ -1,0 +1,76 @@
+{
+  "story": "#G14# As an owner, I want to invite someone using their email to sign up and become a member of my Publisher, so that that they are authorized to publish data packages under my Publisher.\n",
+  "extraction": {
+    "personas": [
+      "owner"
+    ],
+    "entities": [
+      "someone",
+      "email",
+      "Publisher",
+      "data packages"
+    ],
+    "actions": [
+      "invite",
+      "sign up",
+      "become a member",
+      "publish"
+    ],
+    "benefit": "they are authorized to publish data packages under my Publisher"
+  },
+  "categories": {
+    "primary_entities": [
+      "someone",
+      "email",
+      "Publisher",
+      "data packages"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "invite",
+      "sign up",
+      "become a member",
+      "publish"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "owner",
+        "to": "invite",
+        "kind": "triggers"
+      },
+      {
+        "from": "invite",
+        "to": "someone",
+        "kind": "targets"
+      },
+      {
+        "from": "invite",
+        "to": "email",
+        "kind": "targets"
+      },
+      {
+        "from": "invite",
+        "to": "Publisher",
+        "kind": "targets"
+      },
+      {
+        "from": "become a member",
+        "to": "Publisher",
+        "kind": "targets"
+      },
+      {
+        "from": "publish",
+        "to": "data packages",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1393,
+    "output": 301,
+    "time (ns)": 25919849000
+  }
+}

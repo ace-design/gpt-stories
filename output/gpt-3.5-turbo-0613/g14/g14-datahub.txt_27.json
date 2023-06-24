@@ -1,0 +1,74 @@
+{
+  "story": "#G14# As a Publisher, I want to see real examples of published packages so that I can understand how useful and simple the datapackage format and the registry is.\n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "real examples",
+      "published packages",
+      "datapackage format",
+      "registry"
+    ],
+    "actions": [
+      "see",
+      "understand"
+    ],
+    "benefit": "I can understand how useful and simple the datapackage format and the registry is"
+  },
+  "categories": {
+    "primary_entities": [
+      "real examples",
+      "published packages"
+    ],
+    "secondary_entities": [
+      "datapackage format",
+      "registry"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": [
+      "understand"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "real examples",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "published packages",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "datapackage format",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "registry",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "understand",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1364,
+    "output": 293,
+    "time (ns)": 8417749000
+  }
+}

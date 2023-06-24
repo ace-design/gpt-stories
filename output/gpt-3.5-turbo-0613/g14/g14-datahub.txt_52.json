@@ -1,0 +1,72 @@
+{
+  "story": "#G14# As a Consumer, I want to see a publisher's profile, so that that I can discover their packages and get a sense of how active and good they are.\n",
+  "extraction": {
+    "personas": [
+      "Consumer"
+    ],
+    "entities": [
+      "publisher's profile",
+      "packages"
+    ],
+    "actions": [
+      "see",
+      "discover",
+      "get a sense of"
+    ],
+    "benefit": "I can discover their packages and get a sense of how active and good they are."
+  },
+  "categories": {
+    "primary_entities": [
+      "publisher's profile"
+    ],
+    "secondary_entities": [
+      "packages"
+    ],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": [
+      "discover",
+      "get a sense of"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Consumer",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "publisher's profile",
+        "kind": "targets"
+      },
+      {
+        "from": "Consumer",
+        "to": "discover",
+        "kind": "triggers"
+      },
+      {
+        "from": "discover",
+        "to": "packages",
+        "kind": "targets"
+      },
+      {
+        "from": "Consumer",
+        "to": "get a sense of",
+        "kind": "triggers"
+      },
+      {
+        "from": "get a sense of",
+        "to": "packages",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1365,
+    "output": 293,
+    "time (ns)": 9694835000
+  }
+}

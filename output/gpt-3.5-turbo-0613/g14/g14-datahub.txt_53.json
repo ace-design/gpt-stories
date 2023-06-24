@@ -1,0 +1,52 @@
+{
+  "story": "#G14# As a Consumer, I want to view a publisher's profile, so that that I can see who is behind a particular package or to see what other packages they produce. \n",
+  "extraction": {
+    "personas": [
+      "Consumer"
+    ],
+    "entities": [
+      "publisher's profile",
+      "package"
+    ],
+    "actions": [
+      "view"
+    ],
+    "benefit": "I can see who is behind a particular package or to see what other packages they produce"
+  },
+  "categories": {
+    "primary_entities": [
+      "publisher's profile"
+    ],
+    "secondary_entities": [
+      "package"
+    ],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Consumer",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "publisher's profile",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "package",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1346,
+    "output": 194,
+    "time (ns)": 5963750000
+  }
+}

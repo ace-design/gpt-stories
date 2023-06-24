@@ -1,0 +1,78 @@
+{
+  "story": "#G14# As a Publisher, I want to publish a data package where its resource data is stored on my servers but the registry caches a copy of that data, so that that if my data is lost or gets broken I still have a copy people can use.\n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "data package",
+      "resource data",
+      "servers",
+      "registry"
+    ],
+    "actions": [
+      "publish",
+      "store",
+      "cache",
+      "use"
+    ],
+    "benefit": "have a copy people can use"
+  },
+  "categories": {
+    "primary_entities": [
+      "data package",
+      "servers"
+    ],
+    "secondary_entities": [
+      "resource data",
+      "registry"
+    ],
+    "primary_actions": [
+      "publish",
+      "store"
+    ],
+    "secondary_actions": [
+      "cache",
+      "use"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "publish",
+        "kind": "triggers"
+      },
+      {
+        "from": "publish",
+        "to": "data package",
+        "kind": "targets"
+      },
+      {
+        "from": "publish",
+        "to": "servers",
+        "kind": "targets"
+      },
+      {
+        "from": "publish",
+        "to": "cache",
+        "kind": "targets"
+      },
+      {
+        "from": "cache",
+        "to": "registry",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "people",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1412,
+    "output": 286,
+    "time (ns)": 8116743000
+  }
+}

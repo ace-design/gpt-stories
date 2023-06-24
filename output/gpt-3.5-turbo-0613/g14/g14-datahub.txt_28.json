@@ -1,0 +1,51 @@
+{
+  "story": "#G14# As a Consumer, I want to see some example data packages quickly, so that I get a sense of what is on this site and if it is useful to look further.\n",
+  "extraction": {
+    "personas": [
+      "Consumer"
+    ],
+    "entities": [
+      "example data packages",
+      "site"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "get a sense of what is on this site and if it is useful to look further"
+  },
+  "categories": {
+    "primary_entities": [
+      "example data packages",
+      "site"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Consumer",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "example data packages",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "site",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1347,
+    "output": 195,
+    "time (ns)": 6361779000
+  }
+}

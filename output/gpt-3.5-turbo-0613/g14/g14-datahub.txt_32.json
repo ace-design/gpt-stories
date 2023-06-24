@@ -1,0 +1,67 @@
+{
+  "story": "#G14# As a Developer, I want to use data package as a node lib in my project, so that that I can depend on it using my normal dependency framework.\n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "data package",
+      "node lib",
+      "project",
+      "dependency framework"
+    ],
+    "actions": [
+      "use",
+      "depend"
+    ],
+    "benefit": "I can depend on it using my normal dependency framework"
+  },
+  "categories": {
+    "primary_entities": [
+      "data package",
+      "node lib",
+      "project",
+      "dependency framework"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "use",
+      "depend"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "data package",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "node lib",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "project",
+        "kind": "targets"
+      },
+      {
+        "from": "depend",
+        "to": "dependency framework",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1354,
+    "output": 259,
+    "time (ns)": 7721858000
+  }
+}

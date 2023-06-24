@@ -1,0 +1,62 @@
+{
+  "story": "#G14# As an Admin, I want to set key configuration parameters for my site deployment, so that that I can change key information like the site title.\n",
+  "extraction": {
+    "personas": [
+      "Admin"
+    ],
+    "entities": [
+      "key configuration parameters",
+      "site deployment",
+      "site title"
+    ],
+    "actions": [
+      "set",
+      "change"
+    ],
+    "benefit": "I can change key information like the site title"
+  },
+  "categories": {
+    "primary_entities": [
+      "key configuration parameters",
+      "site deployment"
+    ],
+    "secondary_entities": [
+      "site title"
+    ],
+    "primary_actions": [
+      "set"
+    ],
+    "secondary_actions": [
+      "change"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Admin",
+        "to": "set",
+        "kind": "triggers"
+      },
+      {
+        "from": "set",
+        "to": "key configuration parameters",
+        "kind": "targets"
+      },
+      {
+        "from": "set",
+        "to": "site deployment",
+        "kind": "targets"
+      },
+      {
+        "from": "change",
+        "to": "site title",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1334,
+    "output": 228,
+    "time (ns)": 8032982000
+  }
+}

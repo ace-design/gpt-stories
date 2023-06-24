@@ -1,0 +1,68 @@
+{
+  "story": "#G14# As a Consumer, I want to see how much the data has been downloaded, so that that I can choose most popular in the case when there are several alternatives for my use case.\n",
+  "extraction": {
+    "personas": [
+      "Consumer"
+    ],
+    "entities": [
+      "data"
+    ],
+    "actions": [
+      "see",
+      "downloaded",
+      "choose"
+    ],
+    "benefit": "I can choose most popular in the case when there are several alternatives for my use case."
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see",
+      "downloaded",
+      "choose"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Consumer",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "Consumer",
+        "to": "downloaded",
+        "kind": "triggers"
+      },
+      {
+        "from": "Consumer",
+        "to": "choose",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "downloaded",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "choose",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1361,
+    "output": 276,
+    "time (ns)": 7764635000
+  }
+}

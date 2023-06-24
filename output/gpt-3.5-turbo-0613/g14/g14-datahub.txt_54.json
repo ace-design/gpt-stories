@@ -1,0 +1,52 @@
+{
+  "story": "#G14# As a Consumer, I want to search among all data packages owned by a publisher, so that that I can easily find one data package amongst all the data packages by this publisher.\n",
+  "extraction": {
+    "personas": [
+      "Consumer"
+    ],
+    "entities": [
+      "data packages",
+      "publisher"
+    ],
+    "actions": [
+      "search"
+    ],
+    "benefit": "I can easily find one data package amongst all the data packages by this publisher."
+  },
+  "categories": {
+    "primary_entities": [
+      "data packages"
+    ],
+    "secondary_entities": [
+      "publisher"
+    ],
+    "primary_actions": [
+      "search"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Consumer",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "data packages",
+        "kind": "targets"
+      },
+      {
+        "from": "search",
+        "to": "publisher",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1344,
+    "output": 189,
+    "time (ns)": 8224711000
+  }
+}

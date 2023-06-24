@@ -1,0 +1,44 @@
+{
+  "story": "#G14# As a Publisher, I want to be able to restore the deleted data package via cli, so that that it is back visible and available to view, download.\n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "deleted data package"
+    ],
+    "actions": [
+      "restore"
+    ],
+    "benefit": "it is back visible and available to view, download"
+  },
+  "categories": {
+    "primary_entities": [
+      "deleted data package"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "restore"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "restore",
+        "kind": "triggers"
+      },
+      {
+        "from": "restore",
+        "to": "deleted data package",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1315,
+    "output": 157,
+    "time (ns)": 5050914000
+  }
+}

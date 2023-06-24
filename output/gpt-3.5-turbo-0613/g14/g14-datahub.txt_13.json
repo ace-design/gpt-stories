@@ -1,0 +1,57 @@
+{
+  "story": "#G14# As a Publisher, I want to data to be validated when I publish it, so that that I know immediately if I have accidentally broken my data or have bugs and can take action to correct.\n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "data"
+    ],
+    "actions": [
+      "publish",
+      "validate"
+    ],
+    "benefit": "I know immediately if I have accidentally broken my data or have bugs and can take action to correct."
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "publish"
+    ],
+    "secondary_actions": [
+      "validate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "publish",
+        "kind": "triggers"
+      },
+      {
+        "from": "publish",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "Publisher",
+        "to": "validate",
+        "kind": "triggers"
+      },
+      {
+        "from": "validate",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1357,
+    "output": 216,
+    "time (ns)": 7722241000
+  }
+}

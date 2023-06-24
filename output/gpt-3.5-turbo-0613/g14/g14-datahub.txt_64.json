@@ -1,0 +1,67 @@
+{
+  "story": "#G14# As an Admin, I want to have a pricing plan and billing system, so that that I can charge users and make my platform sustainable.\n",
+  "extraction": {
+    "personas": [
+      "Admin"
+    ],
+    "entities": [
+      "pricing plan",
+      "billing system",
+      "users",
+      "platform"
+    ],
+    "actions": [
+      "charge",
+      "make sustainable"
+    ],
+    "benefit": "I can charge users and make my platform sustainable"
+  },
+  "categories": {
+    "primary_entities": [
+      "pricing plan",
+      "billing system",
+      "users",
+      "platform"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "charge",
+      "make sustainable"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Admin",
+        "to": "charge",
+        "kind": "triggers"
+      },
+      {
+        "from": "charge",
+        "to": "pricing plan",
+        "kind": "targets"
+      },
+      {
+        "from": "charge",
+        "to": "billing system",
+        "kind": "targets"
+      },
+      {
+        "from": "charge",
+        "to": "users",
+        "kind": "targets"
+      },
+      {
+        "from": "make sustainable",
+        "to": "platform",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1340,
+    "output": 258,
+    "time (ns)": 8417415000
+  }
+}

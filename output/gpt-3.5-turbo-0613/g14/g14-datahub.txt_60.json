@@ -1,0 +1,45 @@
+{
+  "story": "#G14# As an owner, I want to make a user an owner, so that they have full control.\n",
+  "extraction": {
+    "personas": [
+      "owner",
+      "user"
+    ],
+    "entities": [
+      "user"
+    ],
+    "actions": [
+      "make"
+    ],
+    "benefit": "they have full control"
+  },
+  "categories": {
+    "primary_entities": [
+      "user"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "make"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "owner",
+        "to": "make",
+        "kind": "triggers"
+      },
+      {
+        "from": "make",
+        "to": "user",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1267,
+    "output": 148,
+    "time (ns)": 4962887000
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "story": "#G14# As a Data Analyst, I want to compare different versions of some datapackage locally, so that that I can see schema changes clearly and adjust my analytics code to the desired schema version.\n",
+  "extraction": {
+    "personas": [
+      "Data Analyst"
+    ],
+    "entities": [
+      "datapackage",
+      "schema"
+    ],
+    "actions": [
+      "compare",
+      "adjust"
+    ],
+    "benefit": "see schema changes clearly and adjust analytics code"
+  },
+  "categories": {
+    "primary_entities": [
+      "datapackage",
+      "schema"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "compare",
+      "adjust"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Analyst",
+        "to": "compare",
+        "kind": "triggers"
+      },
+      {
+        "from": "compare",
+        "to": "datapackage",
+        "kind": "targets"
+      },
+      {
+        "from": "Data Analyst",
+        "to": "adjust",
+        "kind": "triggers"
+      },
+      {
+        "from": "adjust",
+        "to": "schema",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1343,
+    "output": 218,
+    "time (ns)": 6878741000
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "story": "#G14# As a Publisher, I want to be able to preview the views of the current data package using cli prior to publishing, so that that I can refine the json declarations of datapackage view section to achieve a great looking result.\n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "current data package",
+      "cli",
+      "json declarations",
+      "datapackage view section"
+    ],
+    "actions": [
+      "preview",
+      "publish",
+      "refine"
+    ],
+    "benefit": "achieve a great looking result"
+  },
+  "categories": {
+    "primary_entities": [
+      "current data package"
+    ],
+    "secondary_entities": [
+      "cli",
+      "json declarations",
+      "datapackage view section"
+    ],
+    "primary_actions": [
+      "preview"
+    ],
+    "secondary_actions": [
+      "publish",
+      "refine"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "preview",
+        "kind": "triggers"
+      },
+      {
+        "from": "preview",
+        "to": "current data package",
+        "kind": "targets"
+      },
+      {
+        "from": "Publisher",
+        "to": "publish",
+        "kind": "triggers"
+      },
+      {
+        "from": "publish",
+        "to": "current data package",
+        "kind": "targets"
+      },
+      {
+        "from": "Publisher",
+        "to": "refine",
+        "kind": "triggers"
+      },
+      {
+        "from": "refine",
+        "to": "current data package",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1403,
+    "output": 299,
+    "time (ns)": 8420818000
+  }
+}

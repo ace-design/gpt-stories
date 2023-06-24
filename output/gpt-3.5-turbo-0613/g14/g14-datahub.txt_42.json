@@ -1,0 +1,56 @@
+{
+  "story": "#G14# As a Publisher, I want to be able to overwrite the previously tagged datapackage, so that that I can fix it if I mess up.\n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "datapackage"
+    ],
+    "actions": [
+      "overwrite",
+      "fix"
+    ],
+    "benefit": "I can fix the previously tagged datapackage if I mess up"
+  },
+  "categories": {
+    "primary_entities": [
+      "datapackage"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "overwrite",
+      "fix"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "overwrite",
+        "kind": "triggers"
+      },
+      {
+        "from": "overwrite",
+        "to": "datapackage",
+        "kind": "targets"
+      },
+      {
+        "from": "Publisher",
+        "to": "fix",
+        "kind": "triggers"
+      },
+      {
+        "from": "fix",
+        "to": "datapackage",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1316,
+    "output": 214,
+    "time (ns)": 7093614000
+  }
+}

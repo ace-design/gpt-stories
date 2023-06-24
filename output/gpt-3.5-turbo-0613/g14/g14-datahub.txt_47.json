@@ -1,0 +1,44 @@
+{
+  "story": "#G14# As a Consumer, I want to view a Datapackage at a particular version online, so that that I can present/discuss the particular data timeslice of interest with other people.\n",
+  "extraction": {
+    "personas": [
+      "Consumer"
+    ],
+    "entities": [
+      "Datapackage"
+    ],
+    "actions": [
+      "view"
+    ],
+    "benefit": "I can present/discuss the particular data timeslice of interest with other people."
+  },
+  "categories": {
+    "primary_entities": [
+      "Datapackage"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Consumer",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "Datapackage",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1342,
+    "output": 162,
+    "time (ns)": 5237252000
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "story": "#G14# As a publisher, I want to show the world how my published data is, so that that it immediately catches consumer's attention. \n",
+  "extraction": {
+    "personas": [
+      "publisher"
+    ],
+    "entities": [
+      "published data"
+    ],
+    "actions": [
+      "show"
+    ],
+    "benefit": "it immediately catches consumer's attention"
+  },
+  "categories": {
+    "primary_entities": [
+      "published data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "show"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "publisher",
+        "to": "show",
+        "kind": "triggers"
+      },
+      {
+        "from": "show",
+        "to": "published data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1289,
+    "output": 150,
+    "time (ns)": 4912581000
+  }
+}

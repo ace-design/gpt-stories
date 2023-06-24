@@ -1,0 +1,70 @@
+{
+  "story": "#G14# As a Web Developer, I want to be able to install multiple versions of the same datapackage separately, so that that all my projects could be developed independently and deployed locally.\n",
+  "extraction": {
+    "personas": [
+      "Web Developer"
+    ],
+    "entities": [
+      "multiple versions of the same datapackage",
+      "projects"
+    ],
+    "actions": [
+      "install",
+      "develop",
+      "deploy"
+    ],
+    "benefit": "all my projects could be developed independently and deployed locally"
+  },
+  "categories": {
+    "primary_entities": [
+      "multiple versions of the same datapackage",
+      "projects"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "install",
+      "develop",
+      "deploy"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Web Developer",
+        "to": "install",
+        "kind": "triggers"
+      },
+      {
+        "from": "install",
+        "to": "multiple versions of the same datapackage",
+        "kind": "targets"
+      },
+      {
+        "from": "Web Developer",
+        "to": "develop",
+        "kind": "triggers"
+      },
+      {
+        "from": "develop",
+        "to": "projects",
+        "kind": "targets"
+      },
+      {
+        "from": "Web Developer",
+        "to": "deploy",
+        "kind": "triggers"
+      },
+      {
+        "from": "deploy",
+        "to": "projects",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1365,
+    "output": 293,
+    "time (ns)": 8523922000
+  }
+}

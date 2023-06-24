@@ -1,0 +1,44 @@
+{
+  "story": "#G14# As an owner, I want to remove a user as an owner, so that they are just a member and no longer have full control.\n",
+  "extraction": {
+    "personas": [
+      "owner"
+    ],
+    "entities": [
+      "user"
+    ],
+    "actions": [
+      "remove"
+    ],
+    "benefit": "they are just a member and no longer have full control"
+  },
+  "categories": {
+    "primary_entities": [
+      "user"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "remove"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "owner",
+        "to": "remove",
+        "kind": "triggers"
+      },
+      {
+        "from": "remove",
+        "to": "user",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1299,
+    "output": 152,
+    "time (ns)": 4985035000
+  }
+}

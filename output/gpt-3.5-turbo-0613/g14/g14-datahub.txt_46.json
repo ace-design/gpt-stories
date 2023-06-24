@@ -1,0 +1,68 @@
+{
+  "story": "#G14# As a Consumer, I want to get a sense of the age of the datapackage that I have downloaded before, so that that I can decide if I should update or not.\n",
+  "extraction": {
+    "personas": [
+      "Consumer"
+    ],
+    "entities": [
+      "datapackage"
+    ],
+    "actions": [
+      "get a sense",
+      "downloaded",
+      "update"
+    ],
+    "benefit": "decide if I should update or not"
+  },
+  "categories": {
+    "primary_entities": [
+      "datapackage"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "get a sense",
+      "downloaded",
+      "update"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Consumer",
+        "to": "get a sense",
+        "kind": "triggers"
+      },
+      {
+        "from": "Consumer",
+        "to": "downloaded",
+        "kind": "triggers"
+      },
+      {
+        "from": "Consumer",
+        "to": "update",
+        "kind": "triggers"
+      },
+      {
+        "from": "get a sense",
+        "to": "datapackage",
+        "kind": "targets"
+      },
+      {
+        "from": "downloaded",
+        "to": "datapackage",
+        "kind": "targets"
+      },
+      {
+        "from": "update",
+        "to": "datapackage",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1347,
+    "output": 280,
+    "time (ns)": 7915589000
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "story": "#G14# As a Publisher, I want to version my Data Package and keep multiple versions around including older versions, so that that I do not break consumer systems when I change my datapackage.\n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "Data Package",
+      "consumer systems"
+    ],
+    "actions": [
+      "version",
+      "keep"
+    ],
+    "benefit": "I do not break consumer systems when I change my datapackage."
+  },
+  "categories": {
+    "primary_entities": [
+      "Data Package"
+    ],
+    "secondary_entities": [
+      "consumer systems"
+    ],
+    "primary_actions": [
+      "version"
+    ],
+    "secondary_actions": [
+      "keep"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "version",
+        "kind": "triggers"
+      },
+      {
+        "from": "version",
+        "to": "Data Package",
+        "kind": "targets"
+      },
+      {
+        "from": "Publisher",
+        "to": "keep",
+        "kind": "triggers"
+      },
+      {
+        "from": "keep",
+        "to": "Data Package",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1348,
+    "output": 220,
+    "time (ns)": 6895028000
+  }
+}

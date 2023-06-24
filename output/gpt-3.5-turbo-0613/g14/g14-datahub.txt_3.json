@@ -1,0 +1,72 @@
+{
+  "story": "#G14# As a Publisher, I want to sign up for an account, so that that I can publish my data package to the registry and to have a publisher account to publish my data package under.\n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "account",
+      "data package",
+      "registry",
+      "publisher account"
+    ],
+    "actions": [
+      "sign up",
+      "publish"
+    ],
+    "benefit": "I can publish my data package to the registry and have a publisher account to publish my data package under."
+  },
+  "categories": {
+    "primary_entities": [
+      "account",
+      "data package",
+      "registry",
+      "publisher account"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "sign up",
+      "publish"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "sign up",
+        "kind": "triggers"
+      },
+      {
+        "from": "sign up",
+        "to": "account",
+        "kind": "targets"
+      },
+      {
+        "from": "Publisher",
+        "to": "publish",
+        "kind": "triggers"
+      },
+      {
+        "from": "publish",
+        "to": "data package",
+        "kind": "targets"
+      },
+      {
+        "from": "publish",
+        "to": "registry",
+        "kind": "targets"
+      },
+      {
+        "from": "publish",
+        "to": "publisher account",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1394,
+    "output": 296,
+    "time (ns)": 9146804000
+  }
+}

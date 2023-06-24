@@ -1,0 +1,47 @@
+{
+  "story": "#G14# As a consumer, I want to view the data package, so that that I can get a sense of whether I want this dataset or not.\n",
+  "extraction": {
+    "personas": [
+      "consumer"
+    ],
+    "entities": [
+      "data package",
+      "dataset"
+    ],
+    "actions": [
+      "view"
+    ],
+    "benefit": "I can get a sense of whether I want this dataset or not"
+  },
+  "categories": {
+    "primary_entities": [
+      "data package"
+    ],
+    "secondary_entities": [
+      "dataset"
+    ],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "consumer",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "data package",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1317,
+    "output": 162,
+    "time (ns)": 7429743000
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "story": "#G14# As a Visitor, I want to sign up via github or google, so that that I don't have to enter lots of information and remember my password for yet another website.\n",
+  "extraction": {
+    "personas": [
+      "Visitor"
+    ],
+    "entities": [
+      "github",
+      "google"
+    ],
+    "actions": [
+      "sign up"
+    ],
+    "benefit": "I don't have to enter lots of information and remember my password for yet another website."
+  },
+  "categories": {
+    "primary_entities": [
+      "github",
+      "google"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "sign up"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Visitor",
+        "to": "sign up",
+        "kind": "triggers"
+      },
+      {
+        "from": "sign up",
+        "to": "github",
+        "kind": "targets"
+      },
+      {
+        "from": "sign up",
+        "to": "google",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1346,
+    "output": 194,
+    "time (ns)": 5964321000
+  }
+}

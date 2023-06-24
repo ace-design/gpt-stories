@@ -1,0 +1,47 @@
+{
+  "story": "#G14# As a Publisher, I want to publish a dataset, so that I can share the dataset publicly with everyone.\n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "dataset"
+    ],
+    "actions": [
+      "publish",
+      "share"
+    ],
+    "benefit": "I can share the dataset publicly with everyone"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "publish"
+    ],
+    "secondary_actions": [
+      "share"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "publish",
+        "kind": "triggers"
+      },
+      {
+        "from": "publish",
+        "to": "dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1282,
+    "output": 154,
+    "time (ns)": 5248167000
+  }
+}

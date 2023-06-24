@@ -1,0 +1,49 @@
+{
+  "story": "#G14# As a Publisher, I want to preview a datapackage I have prepared, so that that I can check it works and share the results.\n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "datapackage"
+    ],
+    "actions": [
+      "preview",
+      "check",
+      "share"
+    ],
+    "benefit": "I can check it works and share the results"
+  },
+  "categories": {
+    "primary_entities": [
+      "datapackage"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "preview"
+    ],
+    "secondary_actions": [
+      "check",
+      "share"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "preview",
+        "kind": "triggers"
+      },
+      {
+        "from": "preview",
+        "to": "datapackage",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1314,
+    "output": 164,
+    "time (ns)": 6307008000
+  }
+}

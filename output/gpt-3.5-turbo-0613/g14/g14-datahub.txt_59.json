@@ -1,0 +1,60 @@
+{
+  "story": "#G14# As an owner, I want to view all the people in my organization and what roles they have, so that that I can change these if I want.\n",
+  "extraction": {
+    "personas": [
+      "owner"
+    ],
+    "entities": [
+      "people",
+      "organization",
+      "roles"
+    ],
+    "actions": [
+      "view",
+      "change"
+    ],
+    "benefit": "I can change the roles of people in my organization"
+  },
+  "categories": {
+    "primary_entities": [
+      "people",
+      "organization",
+      "roles"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view",
+      "change"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "owner",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "people",
+        "kind": "targets"
+      },
+      {
+        "from": "owner",
+        "to": "change",
+        "kind": "triggers"
+      },
+      {
+        "from": "change",
+        "to": "roles",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1333,
+    "output": 220,
+    "time (ns)": 8757297000
+  }
+}

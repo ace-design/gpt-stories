@@ -1,0 +1,56 @@
+{
+  "story": "#G14# As a Consumer, I want to see how active the site is, so that I can decide if I should get involved.\n",
+  "extraction": {
+    "personas": [
+      "Consumer"
+    ],
+    "entities": [
+      "site"
+    ],
+    "actions": [
+      "see",
+      "get involved"
+    ],
+    "benefit": "I can decide if I should get involved"
+  },
+  "categories": {
+    "primary_entities": [
+      "site"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see",
+      "get involved"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Consumer",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "site",
+        "kind": "targets"
+      },
+      {
+        "from": "Consumer",
+        "to": "get involved",
+        "kind": "triggers"
+      },
+      {
+        "from": "get involved",
+        "to": "site",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1296,
+    "output": 210,
+    "time (ns)": 6613801000
+  }
+}

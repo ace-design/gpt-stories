@@ -1,0 +1,83 @@
+{
+  "story": "#G14# As a Consumer, I want to know that the data I am downloading is good and can be relied on, so that that I don't have to check it myself or run into annoying bugs later on.\n",
+  "extraction": {
+    "personas": [
+      "Consumer"
+    ],
+    "entities": [
+      "data"
+    ],
+    "actions": [
+      "downloading",
+      "relied on",
+      "check",
+      "run into",
+      "bugs"
+    ],
+    "benefit": "I don't have to check it myself or run into annoying bugs later on."
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "downloading",
+      "relied on"
+    ],
+    "secondary_actions": [
+      "check",
+      "run into",
+      "bugs"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Consumer",
+        "to": "downloading",
+        "kind": "triggers"
+      },
+      {
+        "from": "downloading",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "Consumer",
+        "to": "relied on",
+        "kind": "triggers"
+      },
+      {
+        "from": "relied on",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "Consumer",
+        "to": "check",
+        "kind": "triggers"
+      },
+      {
+        "from": "check",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "Consumer",
+        "to": "run into",
+        "kind": "triggers"
+      },
+      {
+        "from": "run into",
+        "to": "bugs",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1397,
+    "output": 352,
+    "time (ns)": 9914294000
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "story": "#G14# As an Admin, I want to invite someone to join the platform, so that that they can start contributing or using data.\n",
+  "extraction": {
+    "personas": [
+      "Admin"
+    ],
+    "entities": [
+      "someone",
+      "platform"
+    ],
+    "actions": [
+      "invite",
+      "join",
+      "contribute",
+      "use"
+    ],
+    "benefit": "they can start contributing or using data"
+  },
+  "categories": {
+    "primary_entities": [
+      "someone",
+      "platform"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "invite",
+      "join"
+    ],
+    "secondary_actions": [
+      "contribute",
+      "use"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Admin",
+        "to": "invite",
+        "kind": "triggers"
+      },
+      {
+        "from": "invite",
+        "to": "someone",
+        "kind": "targets"
+      },
+      {
+        "from": "invite",
+        "to": "platform",
+        "kind": "targets"
+      },
+      {
+        "from": "join",
+        "to": "platform",
+        "kind": "targets"
+      },
+      {
+        "from": "contribute",
+        "to": "platform",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "platform",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1319,
+    "output": 274,
+    "time (ns)": 7999414000
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "story": "#G14# As a Consumer, I want to know full details of how the data package schema has changed, so that that I can adjust my scripts to handle it.\n",
+  "extraction": {
+    "personas": [
+      "Consumer"
+    ],
+    "entities": [
+      "data package schema"
+    ],
+    "actions": [
+      "know",
+      "adjust"
+    ],
+    "benefit": "I can adjust my scripts to handle it"
+  },
+  "categories": {
+    "primary_entities": [
+      "data package schema"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "adjust"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Consumer",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "data package schema",
+        "kind": "targets"
+      },
+      {
+        "from": "Consumer",
+        "to": "adjust",
+        "kind": "triggers"
+      },
+      {
+        "from": "adjust",
+        "to": "data package schema",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1317,
+    "output": 214,
+    "time (ns)": 6346754000
+  }
+}

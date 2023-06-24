@@ -1,0 +1,52 @@
+{
+  "story": "#G14# As a Publisher, I want to import my data package into the registry, so that my data has a permanent online home to access. \n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "data package",
+      "registry"
+    ],
+    "actions": [
+      "import"
+    ],
+    "benefit": "my data has a permanent online home to access"
+  },
+  "categories": {
+    "primary_entities": [
+      "data package"
+    ],
+    "secondary_entities": [
+      "registry"
+    ],
+    "primary_actions": [
+      "import"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "import",
+        "kind": "triggers"
+      },
+      {
+        "from": "import",
+        "to": "data package",
+        "kind": "targets"
+      },
+      {
+        "from": "import",
+        "to": "registry",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1306,
+    "output": 183,
+    "time (ns)": 6885105000
+  }
+}

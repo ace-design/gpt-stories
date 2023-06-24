@@ -1,0 +1,63 @@
+{
+  "story": "#G14# As an Owner, I want to invite an existing user, so that the user can become a member of my publisher.\n",
+  "extraction": {
+    "personas": [
+      "Owner"
+    ],
+    "entities": [
+      "existing user",
+      "my publisher"
+    ],
+    "actions": [
+      "invite",
+      "become a member"
+    ],
+    "benefit": "the user can become a member of my publisher"
+  },
+  "categories": {
+    "primary_entities": [
+      "existing user",
+      "my publisher"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "invite",
+      "become a member"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Owner",
+        "to": "invite",
+        "kind": "triggers"
+      },
+      {
+        "from": "invite",
+        "to": "existing user",
+        "kind": "targets"
+      },
+      {
+        "from": "invite",
+        "to": "my publisher",
+        "kind": "targets"
+      },
+      {
+        "from": "existing user",
+        "to": "become a member",
+        "kind": "triggers"
+      },
+      {
+        "from": "become a member",
+        "to": "my publisher",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1316,
+    "output": 258,
+    "time (ns)": 7675704000
+  }
+}

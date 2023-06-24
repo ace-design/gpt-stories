@@ -1,0 +1,51 @@
+{
+  "story": "#G14# As a Consumer, I want to download a DataPackage's data one coherent SQLite database, so that that I can get it easily in one form.\n",
+  "extraction": {
+    "personas": [
+      "Consumer"
+    ],
+    "entities": [
+      "DataPackage",
+      "SQLite database"
+    ],
+    "actions": [
+      "download"
+    ],
+    "benefit": "I can get the data easily in one form"
+  },
+  "categories": {
+    "primary_entities": [
+      "DataPackage",
+      "SQLite database"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "download"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Consumer",
+        "to": "download",
+        "kind": "triggers"
+      },
+      {
+        "from": "download",
+        "to": "DataPackage",
+        "kind": "targets"
+      },
+      {
+        "from": "download",
+        "to": "SQLite database",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1316,
+    "output": 187,
+    "time (ns)": 5759987000
+  }
+}

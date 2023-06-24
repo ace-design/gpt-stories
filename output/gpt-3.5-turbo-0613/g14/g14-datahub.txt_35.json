@@ -1,0 +1,58 @@
+{
+  "story": "#G14# As a Data Analyst, I want to update previously downloaded data package, so that that I can work with the most recent data.\n",
+  "extraction": {
+    "personas": [
+      "Data Analyst"
+    ],
+    "entities": [
+      "previously downloaded data package",
+      "most recent data"
+    ],
+    "actions": [
+      "update",
+      "work"
+    ],
+    "benefit": "I can work with the most recent data"
+  },
+  "categories": {
+    "primary_entities": [
+      "previously downloaded data package",
+      "most recent data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "update",
+      "work"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Analyst",
+        "to": "update",
+        "kind": "triggers"
+      },
+      {
+        "from": "update",
+        "to": "previously downloaded data package",
+        "kind": "targets"
+      },
+      {
+        "from": "Data Analyst",
+        "to": "work",
+        "kind": "triggers"
+      },
+      {
+        "from": "work",
+        "to": "most recent data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1325,
+    "output": 233,
+    "time (ns)": 6661478000
+  }
+}

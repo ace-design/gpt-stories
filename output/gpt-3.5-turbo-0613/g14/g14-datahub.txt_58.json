@@ -1,0 +1,58 @@
+{
+  "story": "#G14# As an owner, I want to remove someone from membership in my publisher, so that they no longer have ability to publish or modify my data packages.\n",
+  "extraction": {
+    "personas": [
+      "owner"
+    ],
+    "entities": [
+      "membership",
+      "publisher",
+      "data packages"
+    ],
+    "actions": [
+      "remove"
+    ],
+    "benefit": "they no longer have ability to publish or modify my data packages"
+  },
+  "categories": {
+    "primary_entities": [
+      "membership",
+      "publisher",
+      "data packages"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "remove"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "owner",
+        "to": "remove",
+        "kind": "triggers"
+      },
+      {
+        "from": "remove",
+        "to": "membership",
+        "kind": "targets"
+      },
+      {
+        "from": "remove",
+        "to": "publisher",
+        "kind": "targets"
+      },
+      {
+        "from": "remove",
+        "to": "data packages",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1328,
+    "output": 218,
+    "time (ns)": 15616447000
+  }
+}

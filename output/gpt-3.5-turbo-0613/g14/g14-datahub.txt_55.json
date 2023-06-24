@@ -1,0 +1,44 @@
+{
+  "story": "#G14# As an Owner, I want to edit my profile, so that that it is updated with new information.\n",
+  "extraction": {
+    "personas": [
+      "Owner"
+    ],
+    "entities": [
+      "profile"
+    ],
+    "actions": [
+      "edit"
+    ],
+    "benefit": "it is updated with new information"
+  },
+  "categories": {
+    "primary_entities": [
+      "profile"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "edit"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Owner",
+        "to": "edit",
+        "kind": "triggers"
+      },
+      {
+        "from": "edit",
+        "to": "profile",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1268,
+    "output": 147,
+    "time (ns)": 5984061000
+  }
+}
