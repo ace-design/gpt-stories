@@ -1,0 +1,51 @@
+{
+  "story": "#G08# As a ResearcherGovernment Publisher, I want to add general reference data to my narrow dataset, so that my dataset is more useful. \n",
+  "extraction": {
+    "personas": [
+      "ResearcherGovernment Publisher"
+    ],
+    "entities": [
+      "general reference data",
+      "narrow dataset"
+    ],
+    "actions": [
+      "add"
+    ],
+    "benefit": "my dataset is more useful"
+  },
+  "categories": {
+    "primary_entities": [
+      "general reference data",
+      "narrow dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "add"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "ResearcherGovernment Publisher",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "general reference data",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "narrow dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1314,
+    "output": 195,
+    "time (ns)": 5704484000
+  }
+}

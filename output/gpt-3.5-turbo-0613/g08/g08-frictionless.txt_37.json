@@ -1,0 +1,63 @@
+{
+  "story": "#G08# As a Publisher, I would like an integration with Open Refine, so that I can output cleaned Data Packages. \n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "Open Refine",
+      "Data Packages"
+    ],
+    "actions": [
+      "integration",
+      "output cleaned"
+    ],
+    "benefit": "I can output cleaned Data Packages"
+  },
+  "categories": {
+    "primary_entities": [
+      "Open Refine",
+      "Data Packages"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "integration",
+      "output cleaned"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "integration",
+        "kind": "triggers"
+      },
+      {
+        "from": "integration",
+        "to": "Open Refine",
+        "kind": "targets"
+      },
+      {
+        "from": "integration",
+        "to": "Data Packages",
+        "kind": "targets"
+      },
+      {
+        "from": "Publisher",
+        "to": "output cleaned",
+        "kind": "triggers"
+      },
+      {
+        "from": "output cleaned",
+        "to": "Data Packages",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1307,
+    "output": 249,
+    "time (ns)": 7147185000
+  }
+}

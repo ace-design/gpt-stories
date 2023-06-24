@@ -1,0 +1,82 @@
+{
+  "story": "#G08# As a Researcher, I want to be able to save new visualizations, so that I can share them with others or include them in the Data Package. \n",
+  "extraction": {
+    "personas": [
+      "Researcher"
+    ],
+    "entities": [
+      "visualizations",
+      "Data Package"
+    ],
+    "actions": [
+      "save",
+      "share",
+      "include"
+    ],
+    "benefit": "I can share them with others or include them in the Data Package"
+  },
+  "categories": {
+    "primary_entities": [
+      "visualizations"
+    ],
+    "secondary_entities": [
+      "Data Package"
+    ],
+    "primary_actions": [
+      "save"
+    ],
+    "secondary_actions": [
+      "share",
+      "include"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Researcher",
+        "to": "save",
+        "kind": "triggers"
+      },
+      {
+        "from": "save",
+        "to": "visualizations",
+        "kind": "targets"
+      },
+      {
+        "from": "Researcher",
+        "to": "share",
+        "kind": "triggers"
+      },
+      {
+        "from": "share",
+        "to": "visualizations",
+        "kind": "targets"
+      },
+      {
+        "from": "Researcher",
+        "to": "include",
+        "kind": "triggers"
+      },
+      {
+        "from": "include",
+        "to": "visualizations",
+        "kind": "targets"
+      },
+      {
+        "from": "Researcher",
+        "to": "include",
+        "kind": "triggers"
+      },
+      {
+        "from": "include",
+        "to": "Data Package",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1350,
+    "output": 336,
+    "time (ns)": 9342286000
+  }
+}

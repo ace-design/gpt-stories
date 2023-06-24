@@ -1,0 +1,49 @@
+{
+  "story": "#G08# As a developer, I want an DSpace integration, so that I can integrate data-packaged data with pipelines that use Dspace. \n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "DSpace",
+      "data-packaged data",
+      "pipelines"
+    ],
+    "actions": [
+      "integrate"
+    ],
+    "benefit": "I can integrate data-packaged data with pipelines that use DSpace"
+  },
+  "categories": {
+    "primary_entities": [
+      "DSpace"
+    ],
+    "secondary_entities": [
+      "data-packaged data",
+      "pipelines"
+    ],
+    "primary_actions": [
+      "integrate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "integrate",
+        "kind": "triggers"
+      },
+      {
+        "from": "integrate",
+        "to": "DSpace",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1338,
+    "output": 180,
+    "time (ns)": 5664342000
+  }
+}

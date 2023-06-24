@@ -1,0 +1,58 @@
+{
+  "story": "#G08# As a Publisher, I want to know how many users have previewed a dataset, so that I know how interest in a dataset relates to its actual download numbers. \n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "users",
+      "dataset"
+    ],
+    "actions": [
+      "previewed",
+      "know"
+    ],
+    "benefit": "know how interest in a dataset relates to its actual download numbers"
+  },
+  "categories": {
+    "primary_entities": [
+      "users",
+      "dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "previewed",
+      "know"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "previewed",
+        "kind": "triggers"
+      },
+      {
+        "from": "previewed",
+        "to": "users",
+        "kind": "targets"
+      },
+      {
+        "from": "Publisher",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1340,
+    "output": 220,
+    "time (ns)": 5285441000
+  }
+}

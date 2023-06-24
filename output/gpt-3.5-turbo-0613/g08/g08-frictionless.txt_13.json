@@ -1,0 +1,50 @@
+{
+  "story": "#G08# As a Researcher, I want to get a Data Package into LibreOffice/OpenOffice in seconds, so that I can start using the data for doing analysis and visualizations. \n",
+  "extraction": {
+    "personas": [
+      "Researcher"
+    ],
+    "entities": [
+      "Data Package",
+      "LibreOffice/OpenOffice"
+    ],
+    "actions": [
+      "get",
+      "start using"
+    ],
+    "benefit": "I can start using the data for doing analysis and visualizations"
+  },
+  "categories": {
+    "primary_entities": [
+      "Data Package"
+    ],
+    "secondary_entities": [
+      "LibreOffice/OpenOffice"
+    ],
+    "primary_actions": [
+      "get"
+    ],
+    "secondary_actions": [
+      "start using"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Researcher",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "Data Package",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1360,
+    "output": 178,
+    "time (ns)": 6549468000
+  }
+}

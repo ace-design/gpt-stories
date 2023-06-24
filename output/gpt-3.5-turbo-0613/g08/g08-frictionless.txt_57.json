@@ -1,0 +1,87 @@
+{
+  "story": "#G08# As a DeveloperDataWrangler, I want to store my Data Package in GitHub and have it automatically stored into CKAN, so that I get a data API and my dataset is listed in a relevant catalog. \n",
+  "extraction": {
+    "personas": [
+      "DeveloperDataWrangler"
+    ],
+    "entities": [
+      "Data Package",
+      "GitHub",
+      "CKAN",
+      "data API",
+      "dataset",
+      "catalog"
+    ],
+    "actions": [
+      "store",
+      "automatically stored",
+      "get",
+      "listed"
+    ],
+    "benefit": "I get a data API and my dataset is listed in a relevant catalog"
+  },
+  "categories": {
+    "primary_entities": [
+      "Data Package",
+      "GitHub",
+      "CKAN"
+    ],
+    "secondary_entities": [
+      "data API",
+      "dataset",
+      "catalog"
+    ],
+    "primary_actions": [
+      "store"
+    ],
+    "secondary_actions": [
+      "automatically stored",
+      "get",
+      "listed"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DeveloperDataWrangler",
+        "to": "store",
+        "kind": "triggers"
+      },
+      {
+        "from": "store",
+        "to": "Data Package",
+        "kind": "targets"
+      },
+      {
+        "from": "store",
+        "to": "GitHub",
+        "kind": "targets"
+      },
+      {
+        "from": "store",
+        "to": "CKAN",
+        "kind": "targets"
+      },
+      {
+        "from": "store",
+        "to": "data API",
+        "kind": "targets"
+      },
+      {
+        "from": "store",
+        "to": "dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "store",
+        "to": "catalog",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1440,
+    "output": 345,
+    "time (ns)": 8907761000
+  }
+}

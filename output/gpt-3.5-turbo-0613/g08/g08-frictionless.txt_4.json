@@ -1,0 +1,81 @@
+{
+  "story": "#G08# As a Publisher, I want to be able to provide a visualization of data in the Data Package, so that I can provide my analysis and show my work to users of the data. \n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "Data Package"
+    ],
+    "actions": [
+      "provide",
+      "visualization",
+      "provide analysis",
+      "show work"
+    ],
+    "benefit": "I can provide my analysis and show my work to users of the data"
+  },
+  "categories": {
+    "primary_entities": [
+      "Data Package"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "provide",
+      "visualization"
+    ],
+    "secondary_actions": [
+      "provide analysis",
+      "show work"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "provide",
+        "kind": "triggers"
+      },
+      {
+        "from": "provide",
+        "to": "Data Package",
+        "kind": "targets"
+      },
+      {
+        "from": "Publisher",
+        "to": "visualization",
+        "kind": "triggers"
+      },
+      {
+        "from": "visualization",
+        "to": "Data Package",
+        "kind": "targets"
+      },
+      {
+        "from": "Publisher",
+        "to": "provide analysis",
+        "kind": "triggers"
+      },
+      {
+        "from": "provide analysis",
+        "to": "Data Package",
+        "kind": "targets"
+      },
+      {
+        "from": "Publisher",
+        "to": "show work",
+        "kind": "triggers"
+      },
+      {
+        "from": "show work",
+        "to": "Data Package",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1369,
+    "output": 339,
+    "time (ns)": 8297550000
+  }
+}

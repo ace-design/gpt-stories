@@ -1,0 +1,58 @@
+{
+  "story": "#G08# As a Researcher, I want a tool that can generate basic statistics about a dataset, so that I can get a quick preview of the data. \n",
+  "extraction": {
+    "personas": [
+      "Researcher"
+    ],
+    "entities": [
+      "tool",
+      "dataset"
+    ],
+    "actions": [
+      "generate",
+      "preview"
+    ],
+    "benefit": "I can get a quick preview of the data"
+  },
+  "categories": {
+    "primary_entities": [
+      "tool",
+      "dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "generate",
+      "preview"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Researcher",
+        "to": "generate",
+        "kind": "triggers"
+      },
+      {
+        "from": "generate",
+        "to": "tool",
+        "kind": "targets"
+      },
+      {
+        "from": "generate",
+        "to": "dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "generate",
+        "to": "preview",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1324,
+    "output": 214,
+    "time (ns)": 4974214000
+  }
+}

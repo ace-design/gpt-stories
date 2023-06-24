@@ -1,0 +1,47 @@
+{
+  "story": "#G08# As a Researcher, I want an integration with https://data.mendeley.com/, so that I can validate my data upon ingest to the service.\n",
+  "extraction": {
+    "personas": [
+      "Researcher"
+    ],
+    "entities": [
+      "https://data.mendeley.com/"
+    ],
+    "actions": [
+      "validate",
+      "ingest"
+    ],
+    "benefit": "I can validate my data upon ingest to the service."
+  },
+  "categories": {
+    "primary_entities": [
+      "https://data.mendeley.com/"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "ingest"
+    ],
+    "secondary_actions": [
+      "validate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Researcher",
+        "to": "ingest",
+        "kind": "triggers"
+      },
+      {
+        "from": "ingest",
+        "to": "https://data.mendeley.com/",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1341,
+    "output": 182,
+    "time (ns)": 4838385000
+  }
+}

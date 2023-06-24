@@ -1,0 +1,72 @@
+{
+  "story": "#G08# As a Researcher, working with data in NetCDF, I want NetCDF integration, so that I can store my data in plaintext while still retaining its metadata. \n",
+  "extraction": {
+    "personas": [
+      "Researcher"
+    ],
+    "entities": [
+      "NetCDF",
+      "data",
+      "plaintext"
+    ],
+    "actions": [
+      "working with",
+      "store",
+      "retaining"
+    ],
+    "benefit": "I can store my data in plaintext while still retaining its metadata"
+  },
+  "categories": {
+    "primary_entities": [
+      "NetCDF",
+      "data",
+      "plaintext"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "working with",
+      "store",
+      "retaining"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Researcher",
+        "to": "working with",
+        "kind": "triggers"
+      },
+      {
+        "from": "working with",
+        "to": "NetCDF",
+        "kind": "targets"
+      },
+      {
+        "from": "Researcher",
+        "to": "store",
+        "kind": "triggers"
+      },
+      {
+        "from": "store",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "Researcher",
+        "to": "retaining",
+        "kind": "triggers"
+      },
+      {
+        "from": "retaining",
+        "to": "plaintext",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1366,
+    "output": 294,
+    "time (ns)": 6932819000
+  }
+}

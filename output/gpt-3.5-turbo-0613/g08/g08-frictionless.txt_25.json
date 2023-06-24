@@ -1,0 +1,56 @@
+{
+  "story": "#G08# As a Developer, I want a Mongo integration, so that I can integrate data-packaged data with pipelines that use Mongo. \n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "Mongo"
+    ],
+    "actions": [
+      "integrate",
+      "use"
+    ],
+    "benefit": "I can integrate data-packaged data with pipelines that use Mongo"
+  },
+  "categories": {
+    "primary_entities": [
+      "Mongo"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "integrate",
+      "use"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "integrate",
+        "kind": "triggers"
+      },
+      {
+        "from": "integrate",
+        "to": "Mongo",
+        "kind": "targets"
+      },
+      {
+        "from": "Developer",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "Mongo",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1307,
+    "output": 214,
+    "time (ns)": 8899147000
+  }
+}

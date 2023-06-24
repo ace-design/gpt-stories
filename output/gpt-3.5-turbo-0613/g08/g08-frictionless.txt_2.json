@@ -1,0 +1,47 @@
+{
+  "story": "#G08# As a Researcher, I want to get a Data Package into Julia in seconds, so that I can start using the data for doing analysis and visualizations. \n",
+  "extraction": {
+    "personas": [
+      "Researcher"
+    ],
+    "entities": [
+      "Data Package",
+      "Julia"
+    ],
+    "actions": [
+      "get"
+    ],
+    "benefit": "start using the data for doing analysis and visualizations"
+  },
+  "categories": {
+    "primary_entities": [
+      "Data Package"
+    ],
+    "secondary_entities": [
+      "Julia"
+    ],
+    "primary_actions": [
+      "get"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Researcher",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "Data Package",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1328,
+    "output": 163,
+    "time (ns)": 4763832000
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "story": "#G08# As a Developer, I want Feather integration, so that I can integrate data-packaged data with pipelines that use Feather. \n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "Feather",
+      "data-packaged data",
+      "pipelines"
+    ],
+    "actions": [
+      "integrate"
+    ],
+    "benefit": "I can integrate data-packaged data with pipelines that use Feather"
+  },
+  "categories": {
+    "primary_entities": [
+      "Feather"
+    ],
+    "secondary_entities": [
+      "data-packaged data",
+      "pipelines"
+    ],
+    "primary_actions": [
+      "integrate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "integrate",
+        "kind": "triggers"
+      },
+      {
+        "from": "integrate",
+        "to": "Feather",
+        "kind": "targets"
+      },
+      {
+        "from": "integrate",
+        "to": "data-packaged data",
+        "kind": "targets"
+      },
+      {
+        "from": "integrate",
+        "to": "pipelines",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1327,
+    "output": 235,
+    "time (ns)": 6477445000
+  }
+}

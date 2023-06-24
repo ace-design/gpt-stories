@@ -1,0 +1,51 @@
+{
+  "story": "#G08# As a Developer, I want to get a Data Package into Node, so that I can start using the data for doing analysis and visualizations.\n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "Data Package",
+      "Node"
+    ],
+    "actions": [
+      "get"
+    ],
+    "benefit": "I can start using the data for doing analysis and visualizations"
+  },
+  "categories": {
+    "primary_entities": [
+      "Data Package",
+      "Node"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "get"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "Data Package",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "Node",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1316,
+    "output": 187,
+    "time (ns)": 5996704000
+  }
+}

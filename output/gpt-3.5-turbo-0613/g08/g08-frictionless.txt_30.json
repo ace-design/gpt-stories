@@ -1,0 +1,47 @@
+{
+  "story": "#G08# As a ResearcherGovernment Publisher, I want to map lines in my dataset using geographic data in my dataset, so that my dataset is more engaging for non-technical users. \n",
+  "extraction": {
+    "personas": [
+      "ResearcherGovernment Publisher"
+    ],
+    "entities": [
+      "lines",
+      "geographic data"
+    ],
+    "actions": [
+      "map"
+    ],
+    "benefit": "my dataset is more engaging for non-technical users"
+  },
+  "categories": {
+    "primary_entities": [
+      "lines"
+    ],
+    "secondary_entities": [
+      "geographic data"
+    ],
+    "primary_actions": [
+      "map"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "ResearcherGovernment Publisher",
+        "to": "map",
+        "kind": "triggers"
+      },
+      {
+        "from": "map",
+        "to": "lines",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1341,
+    "output": 166,
+    "time (ns)": 4536505000
+  }
+}

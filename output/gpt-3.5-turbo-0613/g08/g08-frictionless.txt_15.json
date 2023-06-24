@@ -1,0 +1,119 @@
+{
+  "story": "#G08# As a Developer, I want a jQuery plugin for Core Data Packages, so that I can use it to apply to form control that uses a core dataset for autocompletion. \n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "jQuery plugin",
+      "Core Data Packages",
+      "form control",
+      "core dataset"
+    ],
+    "actions": [
+      "use",
+      "apply",
+      "autocompletion"
+    ],
+    "benefit": "I can use it to apply to form control that uses a core dataset for autocompletion"
+  },
+  "categories": {
+    "primary_entities": [
+      "jQuery plugin",
+      "Core Data Packages",
+      "form control",
+      "core dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "use",
+      "apply",
+      "autocompletion"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "Developer",
+        "to": "apply",
+        "kind": "triggers"
+      },
+      {
+        "from": "Developer",
+        "to": "autocompletion",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "jQuery plugin",
+        "kind": "targets"
+      },
+      {
+        "from": "apply",
+        "to": "jQuery plugin",
+        "kind": "targets"
+      },
+      {
+        "from": "autocompletion",
+        "to": "jQuery plugin",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "Core Data Packages",
+        "kind": "targets"
+      },
+      {
+        "from": "apply",
+        "to": "Core Data Packages",
+        "kind": "targets"
+      },
+      {
+        "from": "autocompletion",
+        "to": "Core Data Packages",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "form control",
+        "kind": "targets"
+      },
+      {
+        "from": "apply",
+        "to": "form control",
+        "kind": "targets"
+      },
+      {
+        "from": "autocompletion",
+        "to": "form control",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "core dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "apply",
+        "to": "core dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "autocompletion",
+        "to": "core dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1403,
+    "output": 555,
+    "time (ns)": 14634189000
+  }
+}

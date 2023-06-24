@@ -1,0 +1,44 @@
+{
+  "story": "#G08# As a ResearcherPublisher, I want to add a DOI to a dataset, so that I can cite it in papers stored  with the data. \n",
+  "extraction": {
+    "personas": [
+      "ResearcherPublisher"
+    ],
+    "entities": [
+      "dataset"
+    ],
+    "actions": [
+      "add"
+    ],
+    "benefit": "I can cite the dataset in papers stored with the data"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "add"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "ResearcherPublisher",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1312,
+    "output": 156,
+    "time (ns)": 4324576000
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "story": "#G08# As a Researcher, working with data, I want an Microsoft Power BI integration, so that I can import datasets without downloading them locally. \n",
+  "extraction": {
+    "personas": [
+      "Researcher"
+    ],
+    "entities": [
+      "Microsoft Power BI",
+      "datasets"
+    ],
+    "actions": [
+      "import"
+    ],
+    "benefit": "import datasets without downloading them locally"
+  },
+  "categories": {
+    "primary_entities": [
+      "Microsoft Power BI"
+    ],
+    "secondary_entities": [
+      "datasets"
+    ],
+    "primary_actions": [
+      "import"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Researcher",
+        "to": "import",
+        "kind": "triggers"
+      },
+      {
+        "from": "import",
+        "to": "Microsoft Power BI",
+        "kind": "targets"
+      },
+      {
+        "from": "import",
+        "to": "datasets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1308,
+    "output": 185,
+    "time (ns)": 4192543000
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "story": "#G08# As a Repository Manager, I want a tool that makes it easy for researchers/ users to add basic metadata to their research data, so that it is more findable and therefore useful. \n",
+  "extraction": {
+    "personas": [
+      "Repository Manager",
+      "Researchers",
+      "Users"
+    ],
+    "entities": [
+      "tool",
+      "research data"
+    ],
+    "actions": [
+      "add basic metadata",
+      "make it easy",
+      "findable",
+      "useful"
+    ],
+    "benefit": "research data is more findable and therefore useful"
+  },
+  "categories": {
+    "primary_entities": [
+      "tool",
+      "research data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "add basic metadata",
+      "make it easy",
+      "findable",
+      "useful"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Repository Manager",
+        "to": "add basic metadata",
+        "kind": "triggers"
+      },
+      {
+        "from": "Repository Manager",
+        "to": "make it easy",
+        "kind": "triggers"
+      },
+      {
+        "from": "Repository Manager",
+        "to": "findable",
+        "kind": "triggers"
+      },
+      {
+        "from": "Repository Manager",
+        "to": "useful",
+        "kind": "triggers"
+      },
+      {
+        "from": "Researchers",
+        "to": "add basic metadata",
+        "kind": "triggers"
+      },
+      {
+        "from": "Users",
+        "to": "add basic metadata",
+        "kind": "triggers"
+      },
+      {
+        "from": "add basic metadata",
+        "to": "tool",
+        "kind": "targets"
+      },
+      {
+        "from": "research data",
+        "to": "findable",
+        "kind": "targets"
+      },
+      {
+        "from": "research data",
+        "to": "useful",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1396,
+    "output": 395,
+    "time (ns)": 10235769000
+  }
+}

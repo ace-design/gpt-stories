@@ -1,0 +1,47 @@
+{
+  "story": "#G08# As a Developer, I want to get a Data Package into Clojure in seconds, so that I can start using the data in doing analysis and visualizations. \n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "Data Package",
+      "Clojure"
+    ],
+    "actions": [
+      "get"
+    ],
+    "benefit": "I can start using the data in doing analysis and visualizations"
+  },
+  "categories": {
+    "primary_entities": [
+      "Data Package"
+    ],
+    "secondary_entities": [
+      "Clojure"
+    ],
+    "primary_actions": [
+      "get"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "Data Package",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1330,
+    "output": 163,
+    "time (ns)": 5130643000
+  }
+}

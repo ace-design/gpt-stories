@@ -1,0 +1,47 @@
+{
+  "story": "#G08# As a DeveloperWrangler, I want to use a command line tool that allows met to validate data, so that I can feel trust in the validity and usefulness of the data quickly and in the context of my command line workflow. \n",
+  "extraction": {
+    "personas": [
+      "DeveloperWrangler"
+    ],
+    "entities": [
+      "command line tool",
+      "data"
+    ],
+    "actions": [
+      "validate"
+    ],
+    "benefit": "I can feel trust in the validity and usefulness of the data quickly and in the context of my command line workflow."
+  },
+  "categories": {
+    "primary_entities": [
+      "command line tool"
+    ],
+    "secondary_entities": [
+      "data"
+    ],
+    "primary_actions": [
+      "validate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DeveloperWrangler",
+        "to": "validate",
+        "kind": "triggers"
+      },
+      {
+        "from": "validate",
+        "to": "command line tool",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1398,
+    "output": 178,
+    "time (ns)": 4637353000
+  }
+}

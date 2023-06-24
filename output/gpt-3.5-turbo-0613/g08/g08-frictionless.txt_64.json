@@ -1,0 +1,85 @@
+{
+  "story": "#G08# As a Publisher, I would like a tool to check data availability persistence after publication. \n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "tool",
+      "data availability"
+    ],
+    "actions": [
+      "check",
+      "persistence",
+      "publication"
+    ],
+    "benefit": "I can ensure data availability persistence after publication"
+  },
+  "categories": {
+    "primary_entities": [
+      "tool",
+      "data availability"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "check",
+      "persistence",
+      "publication"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "check",
+        "kind": "triggers"
+      },
+      {
+        "from": "check",
+        "to": "tool",
+        "kind": "targets"
+      },
+      {
+        "from": "check",
+        "to": "data availability",
+        "kind": "targets"
+      },
+      {
+        "from": "Publisher",
+        "to": "persistence",
+        "kind": "triggers"
+      },
+      {
+        "from": "persistence",
+        "to": "tool",
+        "kind": "targets"
+      },
+      {
+        "from": "persistence",
+        "to": "data availability",
+        "kind": "targets"
+      },
+      {
+        "from": "Publisher",
+        "to": "publication",
+        "kind": "triggers"
+      },
+      {
+        "from": "publication",
+        "to": "tool",
+        "kind": "targets"
+      },
+      {
+        "from": "publication",
+        "to": "data availability",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1296,
+    "output": 354,
+    "time (ns)": 7614181000
+  }
+}

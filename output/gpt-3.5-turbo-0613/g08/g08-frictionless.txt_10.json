@@ -1,0 +1,52 @@
+{
+  "story": "#G08# As a Researcher, I want to get a Data Package into SPSS in seconds, so that I can start using the data for doing analysis and visualizations. \n",
+  "extraction": {
+    "personas": [
+      "Researcher"
+    ],
+    "entities": [
+      "Data Package",
+      "SPSS"
+    ],
+    "actions": [
+      "get"
+    ],
+    "benefit": "I can start using the data for doing analysis and visualizations"
+  },
+  "categories": {
+    "primary_entities": [
+      "Data Package"
+    ],
+    "secondary_entities": [
+      "SPSS"
+    ],
+    "primary_actions": [
+      "get"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Researcher",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "Data Package",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "SPSS",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1335,
+    "output": 191,
+    "time (ns)": 5764262000
+  }
+}

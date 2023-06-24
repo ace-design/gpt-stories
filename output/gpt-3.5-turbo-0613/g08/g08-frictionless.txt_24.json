@@ -1,0 +1,49 @@
+{
+  "story": "#G08# As a Developer, I want an EPrints integration, so that I can integrate data-packaged data with pipelines that use EPrints. \n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "EPrints",
+      "data-packaged data",
+      "pipelines"
+    ],
+    "actions": [
+      "integrate"
+    ],
+    "benefit": "I can integrate data-packaged data with pipelines that use EPrints"
+  },
+  "categories": {
+    "primary_entities": [
+      "EPrints"
+    ],
+    "secondary_entities": [
+      "data-packaged data",
+      "pipelines"
+    ],
+    "primary_actions": [
+      "integrate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "integrate",
+        "kind": "triggers"
+      },
+      {
+        "from": "integrate",
+        "to": "EPrints",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1349,
+    "output": 184,
+    "time (ns)": 4777713000
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "story": "#G08# As a Researcher, I want an app that create proxy Data Packages for well know and reliable data, sources, so that I can load high quality data using Data Package tooling. \n",
+  "extraction": {
+    "personas": [
+      "Researcher"
+    ],
+    "entities": [
+      "app",
+      "proxy Data Packages",
+      "well known and reliable data sources",
+      "Data Package tooling"
+    ],
+    "actions": [
+      "create",
+      "load"
+    ],
+    "benefit": "I can load high quality data using Data Package tooling"
+  },
+  "categories": {
+    "primary_entities": [
+      "app",
+      "proxy Data Packages",
+      "well known and reliable data sources",
+      "Data Package tooling"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create",
+      "load"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Researcher",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "app",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "proxy Data Packages",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "well known and reliable data sources",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "Data Package tooling",
+        "kind": "targets"
+      },
+      {
+        "from": "Researcher",
+        "to": "load",
+        "kind": "triggers"
+      },
+      {
+        "from": "load",
+        "to": "app",
+        "kind": "targets"
+      },
+      {
+        "from": "load",
+        "to": "proxy Data Packages",
+        "kind": "targets"
+      },
+      {
+        "from": "load",
+        "to": "well known and reliable data sources",
+        "kind": "targets"
+      },
+      {
+        "from": "load",
+        "to": "Data Package tooling",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1397,
+    "output": 420,
+    "time (ns)": 10215591000
+  }
+}

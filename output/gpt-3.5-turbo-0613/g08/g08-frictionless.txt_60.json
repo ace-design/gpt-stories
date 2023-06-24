@@ -1,0 +1,66 @@
+{
+  "story": "#G08# As a Researcher, I want an app that generates an OpenRefine reconciliation API endpoint from a Tabular Data Package, so that I can use it to clean messy data. \n",
+  "extraction": {
+    "personas": [
+      "Researcher"
+    ],
+    "entities": [
+      "app",
+      "OpenRefine reconciliation API endpoint",
+      "Tabular Data Package"
+    ],
+    "actions": [
+      "generates",
+      "use"
+    ],
+    "benefit": "clean messy data"
+  },
+  "categories": {
+    "primary_entities": [
+      "app",
+      "OpenRefine reconciliation API endpoint"
+    ],
+    "secondary_entities": [
+      "Tabular Data Package"
+    ],
+    "primary_actions": [
+      "generates",
+      "use"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Researcher",
+        "to": "generates",
+        "kind": "triggers"
+      },
+      {
+        "from": "generates",
+        "to": "app",
+        "kind": "targets"
+      },
+      {
+        "from": "generates",
+        "to": "OpenRefine reconciliation API endpoint",
+        "kind": "targets"
+      },
+      {
+        "from": "Researcher",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "Tabular Data Package",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1365,
+    "output": 269,
+    "time (ns)": 6632841000
+  }
+}

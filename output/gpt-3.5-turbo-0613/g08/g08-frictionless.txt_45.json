@@ -1,0 +1,44 @@
+{
+  "story": "#G08# As a ResearcherPublisher, I want validate my data with a minimum of clicks, so that I can feel trust in the validity and usefulness of the data. \n",
+  "extraction": {
+    "personas": [
+      "ResearcherPublisher"
+    ],
+    "entities": [
+      "data"
+    ],
+    "actions": [
+      "validate"
+    ],
+    "benefit": "I can feel trust in the validity and usefulness of the data"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "validate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "ResearcherPublisher",
+        "to": "validate",
+        "kind": "triggers"
+      },
+      {
+        "from": "validate",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1320,
+    "output": 157,
+    "time (ns)": 4459212000
+  }
+}

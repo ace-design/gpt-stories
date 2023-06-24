@@ -1,0 +1,55 @@
+{
+  "story": "#G08# As a ResearcherPublisher, I want to know that my data conforms to its Data Package profile, so that I can feel trust in the validity and usefulness of the data. \n",
+  "extraction": {
+    "personas": [
+      "ResearcherPublisher"
+    ],
+    "entities": [
+      "data",
+      "Data Package profile"
+    ],
+    "actions": [
+      "know",
+      "conforms"
+    ],
+    "benefit": "feel trust in the validity and usefulness of the data"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [
+      "Data Package profile"
+    ],
+    "primary_actions": [
+      "know"
+    ],
+    "secondary_actions": [
+      "conforms"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "ResearcherPublisher",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "know",
+        "to": "Data Package profile",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1349,
+    "output": 198,
+    "time (ns)": 5265534000
+  }
+}

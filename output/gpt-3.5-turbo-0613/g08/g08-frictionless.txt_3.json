@@ -1,0 +1,66 @@
+{
+  "story": "#G08# As a Publisher, I want to add type information to my data, so that it is more useful to others and can be used better with tools like visualization programs. \n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "type information",
+      "data",
+      "tools",
+      "visualization programs"
+    ],
+    "actions": [
+      "add"
+    ],
+    "benefit": "it is more useful to others and can be used better with tools like visualization programs"
+  },
+  "categories": {
+    "primary_entities": [
+      "type information",
+      "data"
+    ],
+    "secondary_entities": [
+      "tools",
+      "visualization programs"
+    ],
+    "primary_actions": [
+      "add"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "type information",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "tools",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "visualization programs",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1359,
+    "output": 255,
+    "time (ns)": 7300686000
+  }
+}

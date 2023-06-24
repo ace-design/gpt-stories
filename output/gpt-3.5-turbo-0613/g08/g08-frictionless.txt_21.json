@@ -1,0 +1,81 @@
+{
+  "story": "#G08# As a Machine Learning expert, I would like to package ML datasets as data packages, so that I can easily import them into my ML platform, so that I can start using the data in doing analysis. \n",
+  "extraction": {
+    "personas": [
+      "Machine Learning expert"
+    ],
+    "entities": [
+      "ML datasets",
+      "data packages",
+      "ML platform",
+      "data"
+    ],
+    "actions": [
+      "package",
+      "import",
+      "start using",
+      "doing analysis"
+    ],
+    "benefit": "I can easily import ML datasets into my ML platform and start using the data for analysis"
+  },
+  "categories": {
+    "primary_entities": [
+      "ML datasets",
+      "data packages",
+      "ML platform",
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "package",
+      "import",
+      "start using",
+      "doing analysis"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Machine Learning expert",
+        "to": "package",
+        "kind": "triggers"
+      },
+      {
+        "from": "package",
+        "to": "ML datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "package",
+        "to": "data packages",
+        "kind": "targets"
+      },
+      {
+        "from": "package",
+        "to": "ML platform",
+        "kind": "targets"
+      },
+      {
+        "from": "import",
+        "to": "ML datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "start using",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "doing analysis",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1426,
+    "output": 339,
+    "time (ns)": 9556377000
+  }
+}

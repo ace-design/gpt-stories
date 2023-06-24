@@ -1,0 +1,102 @@
+{
+  "story": "#G08# As a publisher, I want to package reproducible steps to get a certain data state, so my methodology is transparent and can be rerun by others. \n",
+  "extraction": {
+    "personas": [
+      "publisher"
+    ],
+    "entities": [
+      "reproducible steps",
+      "data state",
+      "methodology"
+    ],
+    "actions": [
+      "package",
+      "get",
+      "rerun"
+    ],
+    "benefit": "my methodology is transparent and can be rerun by others"
+  },
+  "categories": {
+    "primary_entities": [
+      "reproducible steps",
+      "data state",
+      "methodology"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "package",
+      "get",
+      "rerun"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "publisher",
+        "to": "package",
+        "kind": "triggers"
+      },
+      {
+        "from": "package",
+        "to": "reproducible steps",
+        "kind": "targets"
+      },
+      {
+        "from": "package",
+        "to": "data state",
+        "kind": "targets"
+      },
+      {
+        "from": "package",
+        "to": "methodology",
+        "kind": "targets"
+      },
+      {
+        "from": "publisher",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "reproducible steps",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "data state",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "methodology",
+        "kind": "targets"
+      },
+      {
+        "from": "publisher",
+        "to": "rerun",
+        "kind": "triggers"
+      },
+      {
+        "from": "rerun",
+        "to": "reproducible steps",
+        "kind": "targets"
+      },
+      {
+        "from": "rerun",
+        "to": "data state",
+        "kind": "targets"
+      },
+      {
+        "from": "rerun",
+        "to": "methodology",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1365,
+    "output": 459,
+    "time (ns)": 9577996000
+  }
+}

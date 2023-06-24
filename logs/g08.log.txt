@@ -1,0 +1,486 @@
+START: 14:34:56
+# Processing g08-frictionless.txt
+- Story #[1] -- started at 14:34:56
+    - #G08# As a Developer, I want to get a Data Package into Node, so that I can start using the data for doing analysis and visualizations.
+
+        - calling model 14:34:56
+       - exception caught! Pausing for 60 seconds
+        - calling model 14:36:26
+        - calling model 14:36:30
+        - calling model 14:36:34
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_1.json
+- Story #[2] -- started at 14:36:38
+    - #G08# As a Researcher, I want to get a Data Package into Julia in seconds, so that I can start using the data for doing analysis and visualizations. 
+
+        - calling model 14:36:38
+        - calling model 14:36:42
+        - calling model 14:36:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_2.json
+- Story #[3] -- started at 14:36:49
+    - #G08# As a Publisher, I want to add type information to my data, so that it is more useful to others and can be used better with tools like visualization programs. 
+
+        - calling model 14:36:49
+        - calling model 14:36:53
+        - calling model 14:36:56
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_3.json
+- Story #[4] -- started at 14:37:03
+    - #G08# As a Publisher, I want to be able to provide a visualization of data in the Data Package, so that I can provide my analysis and show my work to users of the data. 
+
+        - calling model 14:37:03
+        - calling model 14:37:06
+        - calling model 14:37:10
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_4.json
+- Story #[5] -- started at 14:37:17
+    - #G08# As a Researcher, I want to be able to save new visualizations, so that I can share them with others or include them in the Data Package. 
+
+        - calling model 14:37:17
+        - calling model 14:37:21
+        - calling model 14:37:24
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_5.json
+- Story #[6] -- started at 14:37:32
+    - #G08# As a ResearcherPublisher, I want to know that my data conforms to its Data Package profile, so that I can feel trust in the validity and usefulness of the data. 
+
+        - calling model 14:37:32
+        - calling model 14:37:36
+        - calling model 14:37:40
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_6.json
+- Story #[7] -- started at 14:37:43
+    - #G08# As a ResearcherPublisher, I want to understand the ways in which my data is invalid, so that I can know how to fix it. 
+
+        - calling model 14:37:43
+        - calling model 14:37:47
+        - calling model 14:37:50
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_7.json
+- Story #[8] -- started at 14:37:56
+    - #G08# As a Researcher, I want to get a Data Package into R in seconds, so that I can start using the data for doing analysis and visualizations. 
+
+        - calling model 14:37:56
+        - calling model 14:37:59
+        - calling model 14:38:02
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_8.json
+- Story #[9] -- started at 14:38:08
+    - #G08# As a Researcher, I want to get a Data Package into Excel in seconds, so that I can start using the data for doing analysis and visualizations. 
+
+        - calling model 14:38:08
+        - calling model 14:38:12
+        - calling model 14:38:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_9.json
+- Story #[10] -- started at 14:38:19
+    - #G08# As a Researcher, I want to get a Data Package into SPSS in seconds, so that I can start using the data for doing analysis and visualizations. 
+
+        - calling model 14:38:19
+        - calling model 14:38:23
+        - calling model 14:38:27
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_10.json
+- Story #[11] -- started at 14:38:31
+    - #G08# As a Researcher, I want to get a Data Package into STATA in seconds, so that I can start using the data for doing analysis and visualizations. 
+
+        - calling model 14:38:31
+        - calling model 14:38:35
+        - calling model 14:38:38
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_11.json
+- Story #[12] -- started at 14:38:42
+    - #G08# As a Researcher, I want to be able to translate my EML dataset to a Data Package, so that I can benefit from the wide array of tools available for Data Packages. 
+
+        - calling model 14:38:42
+        - calling model 14:38:46
+        - calling model 14:38:49
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_12.json
+- Story #[13] -- started at 14:38:53
+    - #G08# As a Researcher, I want to get a Data Package into LibreOffice/OpenOffice in seconds, so that I can start using the data for doing analysis and visualizations. 
+
+        - calling model 14:38:53
+        - calling model 14:38:58
+        - calling model 14:39:02
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_13.json
+- Story #[14] -- started at 14:39:06
+    - #G08# As a Developer, I want to get a Data Package into Python in seconds, so that I can start using the data for doing analysis and visualizations. 
+
+        - calling model 14:39:06
+        - calling model 14:39:09
+        - calling model 14:39:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_14.json
+- Story #[15] -- started at 14:39:19
+    - #G08# As a Developer, I want a jQuery plugin for Core Data Packages, so that I can use it to apply to form control that uses a core dataset for autocompletion. 
+
+        - calling model 14:39:19
+        - calling model 14:39:23
+        - calling model 14:39:27
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_15.json
+- Story #[16] -- started at 14:39:39
+    - #G08# As a Researcher, I want to get my Excel spreadsheet into a Data Package, so that I can benefit from better tooling and standardization. 
+
+        - calling model 14:39:39
+        - calling model 14:39:43
+        - calling model 14:39:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_16.json
+- Story #[17] -- started at 14:39:51
+    - #G08# As a Developer, I want to do exploratory data analysis in R and operationalize that analysis in Python, so that I can use the best tool for the job.
+
+        - calling model 14:39:51
+        - calling model 14:39:55
+        - calling model 14:40:02
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_17.json
+- Story #[18] -- started at 14:40:09
+    - #G08# As a Developer, I want to get a Data Package into Clojure in seconds, so that I can start using the data in doing analysis and visualizations. 
+
+        - calling model 14:40:09
+        - calling model 14:40:13
+        - calling model 14:40:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_18.json
+- Story #[19] -- started at 14:40:20
+    - #G08# As a Developer, I want to get a Data Package into Julia in seconds, so that I can start using the data in doing analysis and visualizations. 
+
+        - calling model 14:40:20
+        - calling model 14:40:24
+        - calling model 14:40:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_19.json
+- Story #[20] -- started at 14:40:33
+    - #G08# As a Developer, I want to get a Data Package into C++ in seconds, so that I can start using the data in doing analysis and visualizations. 
+
+        - calling model 14:40:33
+        - calling model 14:40:36
+        - calling model 14:40:40
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_20.json
+- Story #[21] -- started at 14:40:45
+    - #G08# As a Machine Learning expert, I would like to package ML datasets as data packages, so that I can easily import them into my ML platform, so that I can start using the data in doing analysis. 
+
+        - calling model 14:40:45
+        - calling model 14:40:49
+        - calling model 14:40:54
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_21.json
+- Story #[22] -- started at 14:41:00
+    - #G08# As a Developer, I want an Elasticsearch integration, so that I can integrate data-packaged data with pipelines that use Elasticsearch. 
+
+        - calling model 14:41:00
+        - calling model 14:41:04
+        - calling model 14:41:08
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_22.json
+- Story #[23] -- started at 14:41:13
+    - #G08# As a Developer, I want an SPSS integration, so that I can integrate data-packaged data with pipelines that use SPSS. 
+
+        - calling model 14:41:13
+        - calling model 14:41:17
+        - calling model 14:41:20
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_23.json
+- Story #[24] -- started at 14:41:27
+    - #G08# As a Developer, I want an EPrints integration, so that I can integrate data-packaged data with pipelines that use EPrints. 
+
+        - calling model 14:41:27
+        - calling model 14:41:31
+        - calling model 14:41:34
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_24.json
+- Story #[25] -- started at 14:41:38
+    - #G08# As a Developer, I want a Mongo integration, so that I can integrate data-packaged data with pipelines that use Mongo. 
+
+        - calling model 14:41:38
+        - calling model 14:41:41
+        - calling model 14:41:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_25.json
+- Story #[26] -- started at 14:41:53
+    - #G08# As a Developer, I want a DAT integration, so that I can integrate data-packaged data with pipelines that use DAT. 
+
+        - calling model 14:41:53
+        - calling model 14:41:59
+       - exception caught! Pausing for 60 seconds
+        - calling model 14:43:29
+        - calling model 14:43:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_26.json
+- Story #[27] -- started at 14:43:38
+    - #G08# As a ResearcherGovernment Publisher, I want to add general reference data to my narrow dataset, so that my dataset is more useful. 
+
+        - calling model 14:43:38
+        - calling model 14:43:42
+        - calling model 14:43:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_27.json
+- Story #[28] -- started at 14:43:50
+    - #G08# As a ResearcherGovernment Publisher, I want to add general country names to my dataset that only contains country codes, so that my dataset is more readable. 
+
+        - calling model 14:43:50
+        - calling model 14:43:54
+        - calling model 14:43:58
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_28.json
+- Story #[29] -- started at 14:44:02
+    - #G08# As a ResearcherGovernment Publisher, I want to add reference data on inflation to my spending dataset, so that the spending lines in my dataset is more understandable. 
+
+        - calling model 14:44:02
+        - calling model 14:44:10
+        - calling model 14:44:13
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_29.json
+- Story #[30] -- started at 14:44:18
+    - #G08# As a ResearcherGovernment Publisher, I want to map lines in my dataset using geographic data in my dataset, so that my dataset is more engaging for non-technical users. 
+
+        - calling model 14:44:18
+        - calling model 14:44:22
+        - calling model 14:44:25
+       - exception caught! Pausing for 60 seconds
+        - calling model 14:45:55
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_30.json
+- Story #[31] -- started at 14:45:59
+    - #G08# As a Researcher, I want to be able to reference a remote-controlled vocabulary for my dataset, so that I can be sure that column of my dataset are valid against a single shard list of terms. 
+
+        - calling model 14:45:59
+        - calling model 14:46:03
+        - calling model 14:46:07
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_31.json
+- Story #[32] -- started at 14:46:11
+    - #G08# As a developer, I want an DSpace integration, so that I can integrate data-packaged data with pipelines that use Dspace. 
+
+        - calling model 14:46:11
+        - calling model 14:46:15
+        - calling model 14:46:19
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_32.json
+- Story #[33] -- started at 14:46:23
+    - #G08# As a Developer, I want Feather integration, so that I can integrate data-packaged data with pipelines that use Feather. 
+
+        - calling model 14:46:23
+        - calling model 14:46:26
+        - calling model 14:46:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_33.json
+- Story #[34] -- started at 14:46:36
+    - #G08# As a Developer, I want HDF5 integration, so that I can integrate data-packaged data with pipelines that use HDF5.
+
+        - calling model 14:46:36
+        - calling model 14:46:39
+        - calling model 14:46:42
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_34.json
+- Story #[35] -- started at 14:46:47
+    - #G08# As a Researcher, working with data, I want an Microsoft Power BI integration, so that I can import datasets without downloading them locally. 
+
+        - calling model 14:46:47
+        - calling model 14:46:50
+        - calling model 14:46:53
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_35.json
+- Story #[36] -- started at 14:46:57
+    - #G08# As a ResearcherPublisher, I want an integration with Zenodo, so that when I store my dataset in GitHub, I don’t have to retype descriptive information about my dataset. 
+
+        - calling model 14:46:57
+        - calling model 14:47:01
+        - calling model 14:47:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_36.json
+- Story #[37] -- started at 14:47:08
+    - #G08# As a Publisher, I would like an integration with Open Refine, so that I can output cleaned Data Packages. 
+
+        - calling model 14:47:08
+        - calling model 14:47:12
+        - calling model 14:47:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_37.json
+- Story #[38] -- started at 14:47:22
+    - #G08# As a ResearcherPublisher, I want to publish Data Packages to CKAN, so that my data is findable, and I can have a data API. 
+
+        - calling model 14:47:22
+        - calling model 14:47:25
+        - calling model 14:47:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_38.json
+- Story #[39] -- started at 14:47:33
+    - #G08# As a ResearcherDeveloper, would like the ability import/export from MS-SQL, so that I can use Data Packages in workflows that involve MS-SQL. 
+
+        - calling model 14:47:33
+        - calling model 14:47:37
+        - calling model 14:47:40
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_39.json
+- Story #[40] -- started at 14:47:46
+    - #G08# As a Researcher, working with data in NetCDF, I want NetCDF integration, so that I can store my data in plaintext while still retaining its metadata. 
+
+        - calling model 14:47:46
+        - calling model 14:47:49
+        - calling model 14:47:53
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_40.json
+- Story #[41] -- started at 14:47:58
+    - #G08# As a Researcher, I want an integration with https://data.mendeley.com/, so that I can validate my data upon ingest to the service.
+
+        - calling model 14:47:58
+        - calling model 14:48:02
+        - calling model 14:48:05
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_41.json
+- Story #[42] -- started at 14:48:09
+    - #G08# As a Publisher, I would like an integration with Excel, so that I can output cleaned Data Packages. 
+
+        - calling model 14:48:09
+        - calling model 14:48:13
+        - calling model 14:48:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_42.json
+- Story #[43] -- started at 14:48:21
+    - #G08# As a Publisher, I want to store my data quickly and easily online. 
+
+        - calling model 14:48:21
+       - exception caught! Pausing for 60 seconds
+        - calling model 14:49:51
+        - calling model 14:49:54
+       - exception caught! Pausing for 60 seconds
+        - calling model 14:51:24
+        - calling model 14:51:27
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_43.json
+- Story #[44] -- started at 14:51:32
+    - #G08# As a Repository Manager, I want a tool that makes it easy for researchers/ users to add basic metadata to their research data, so that it is more findable and therefore useful. 
+
+        - calling model 14:51:32
+        - calling model 14:51:36
+        - calling model 14:51:40
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_44.json
+- Story #[45] -- started at 14:51:48
+    - #G08# As a ResearcherPublisher, I want validate my data with a minimum of clicks, so that I can feel trust in the validity and usefulness of the data. 
+
+        - calling model 14:51:48
+        - calling model 14:51:52
+        - calling model 14:51:55
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_45.json
+- Story #[46] -- started at 14:51:59
+    - #G08# As a publisher, I want to be able to check that every time I update my data it is still good, so that I can catch errors early and store reliable data. 
+
+        - calling model 14:51:59
+        - calling model 14:52:02
+        - calling model 14:52:05
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_46.json
+- Story #[47] -- started at 14:52:10
+    - #G08# As a DeveloperWrangler, I want to use a command line tool that allows met to validate data, so that I can feel trust in the validity and usefulness of the data quickly and in the context of my command line workflow. 
+
+        - calling model 14:52:10
+        - calling model 14:52:14
+        - calling model 14:52:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_47.json
+- Story #[48] -- started at 14:52:21
+    - #G08# As a developer, I want an online service that is connected to my data repository that validates data on update, so that I can delegate data validation to a third party. 
+
+        - calling model 14:52:21
+       - exception caught! Pausing for 60 seconds
+        - calling model 14:53:51
+        - calling model 14:53:55
+        - calling model 14:53:58
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_48.json
+- Story #[49] -- started at 14:54:04
+    - #G08# As a government Publisher, I want to make it easy to prove that our published data is valid, so that I can claim that we are living up to our transparency commitments. 
+
+        - calling model 14:54:04
+        - calling model 14:54:07
+        - calling model 14:54:11
+       - exception caught! Pausing for 60 seconds
+        - calling model 14:55:41
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_49.json
+- Story #[50] -- started at 14:55:45
+    - #G08# As a Civic Tech Activist, I want to make it easy to assess the quality of data stored by the government, so that I can make sure that government is living up to its transparency commitments. 
+
+        - calling model 14:55:45
+        - calling model 14:55:48
+        - calling model 14:55:51
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_50.json
+- Story #[51] -- started at 14:55:56
+    - #G08# As a publisher, I want to embed an interactive preview of my data on my site, so that users can be encouraged that this is the correct data for them. 
+
+        - calling model 14:55:56
+        - calling model 14:55:59
+        - calling model 14:56:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_51.json
+- Story #[52] -- started at 14:56:07
+    - #G08# As a publisher, I want to embed a preview button on my site, so that users can preview the data and be encouraged that this is the correct data for them.
+
+        - calling model 14:56:07
+        - calling model 14:56:11
+        - calling model 14:56:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_52.json
+- Story #[53] -- started at 14:56:21
+    - #G08# As a Publisher, I want to know how many users have previewed a dataset, so that I know how interest in a dataset relates to its actual download numbers. 
+
+        - calling model 14:56:21
+        - calling model 14:56:24
+        - calling model 14:56:27
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_53.json
+- Story #[54] -- started at 14:56:32
+    - #G08# As a Developer, I want to customize an existing wizard for my specific type of data, so that I can give my users a great user experience.
+
+        - calling model 14:56:32
+        - calling model 14:56:35
+        - calling model 14:56:39
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_54.json
+- Story #[55] -- started at 14:56:43
+    - #G08# As a Publisher, I want to add useful metadata or add in new data columns to make the dataset more useful. 
+
+        - calling model 14:56:43
+        - calling model 14:56:47
+        - calling model 14:56:50
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_55.json
+- Story #[56] -- started at 14:56:55
+    - #G08# As a publisher, I want to package reproducible steps to get a certain data state, so my methodology is transparent and can be rerun by others. 
+
+        - calling model 14:56:55
+        - calling model 14:56:59
+        - calling model 14:57:02
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_56.json
+- Story #[57] -- started at 14:57:11
+    - #G08# As a DeveloperDataWrangler, I want to store my Data Package in GitHub and have it automatically stored into CKAN, so that I get a data API and my dataset is listed in a relevant catalog. 
+
+        - calling model 14:57:11
+        - calling model 14:57:15
+        - calling model 14:57:20
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_57.json
+- Story #[58] -- started at 14:57:26
+    - #G08# As a Researcher, I want a tool that can generate basic statistics about a dataset, so that I can get a quick preview of the data. 
+
+        - calling model 14:57:26
+        - calling model 14:57:29
+        - calling model 14:57:32
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_58.json
+- Story #[59] -- started at 14:57:37
+    - #G08# As a DeveloperPublisher, I want a tool to create an embeddable data summary via iframe, so that I can embed data summaries across sites. 
+
+        - calling model 14:57:37
+        - calling model 14:57:40
+        - calling model 14:57:44
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_59.json
+- Story #[60] -- started at 14:57:49
+    - #G08# As a Researcher, I want an app that generates an OpenRefine reconciliation API endpoint from a Tabular Data Package, so that I can use it to clean messy data. 
+
+        - calling model 14:57:49
+        - calling model 14:57:52
+        - calling model 14:57:56
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_60.json
+- Story #[61] -- started at 14:58:02
+    - #G08# As a Researcher, I want an app that create proxy Data Packages for well know and reliable data, sources, so that I can load high quality data using Data Package tooling. 
+
+        - calling model 14:58:02
+        - calling model 14:58:05
+        - calling model 14:58:09
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_61.json
+- Story #[62] -- started at 14:58:18
+    - #G08# As a RepositoryManagerResearcher, I want an app that acts as a match-making service for packaging data, so that owners are paired with data packagers. 
+
+        - calling model 14:58:18
+        - calling model 14:58:22
+        - calling model 14:58:25
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_62.json
+- Story #[63] -- started at 14:58:30
+    - #G08# As a developer, I would like to create a web socket protocol for Frictionless data tools, so that I can easily use data packages with additional data analysis tools. 
+
+        - calling model 14:58:30
+        - calling model 14:58:34
+        - calling model 14:58:38
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_63.json
+- Story #[64] -- started at 14:58:43
+    - #G08# As a Publisher, I would like a tool to check data availability persistence after publication. 
+
+        - calling model 14:58:43
+        - calling model 14:58:47
+        - calling model 14:58:50
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_64.json
+- Story #[65] -- started at 14:58:57
+    - #G08# As a ResearcherPublisher, I want to specify the funding that contributed to the creation of a given dataset, so that funding agencies can identify the funding, source for a given dataset. 
+
+        - calling model 14:58:57
+        - calling model 14:59:00
+        - calling model 14:59:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_65.json
+- Story #[66] -- started at 14:59:09
+    - #G08# As a ResearcherPublisher, I want to add a DOI to a dataset, so that I can cite it in papers stored  with the data. 
+
+        - calling model 14:59:09
+        - calling model 14:59:12
+        - calling model 14:59:15
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_66.json
+- Story #[67] -- started at 14:59:19
+    - #G08# 
+
+        - calling model 14:59:19
+        - calling model 14:59:22
+        - calling model 14:59:25
+    - saving result into: ./output/gpt-3.5-turbo-0613/g08-frictionless.txt_67.json
+END: 14:59:29

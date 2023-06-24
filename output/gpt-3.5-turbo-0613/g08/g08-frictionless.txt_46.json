@@ -1,0 +1,71 @@
+{
+  "story": "#G08# As a publisher, I want to be able to check that every time I update my data it is still good, so that I can catch errors early and store reliable data. \n",
+  "extraction": {
+    "personas": [
+      "publisher"
+    ],
+    "entities": [
+      "data"
+    ],
+    "actions": [
+      "check",
+      "update",
+      "catch",
+      "store"
+    ],
+    "benefit": "catch errors early and store reliable data"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "check",
+      "update"
+    ],
+    "secondary_actions": [
+      "catch",
+      "store"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "publisher",
+        "to": "check",
+        "kind": "triggers"
+      },
+      {
+        "from": "publisher",
+        "to": "update",
+        "kind": "triggers"
+      },
+      {
+        "from": "check",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "update",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "catch",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "store",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1340,
+    "output": 266,
+    "time (ns)": 5656022000
+  }
+}

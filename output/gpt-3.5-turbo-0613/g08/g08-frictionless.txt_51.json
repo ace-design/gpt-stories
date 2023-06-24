@@ -1,0 +1,58 @@
+{
+  "story": "#G08# As a publisher, I want to embed an interactive preview of my data on my site, so that users can be encouraged that this is the correct data for them. \n",
+  "extraction": {
+    "personas": [
+      "publisher"
+    ],
+    "entities": [
+      "interactive preview",
+      "data",
+      "site"
+    ],
+    "actions": [
+      "embed"
+    ],
+    "benefit": "users can be encouraged that this is the correct data for them"
+  },
+  "categories": {
+    "primary_entities": [
+      "interactive preview",
+      "data",
+      "site"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "embed"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "publisher",
+        "to": "embed",
+        "kind": "triggers"
+      },
+      {
+        "from": "embed",
+        "to": "interactive preview",
+        "kind": "targets"
+      },
+      {
+        "from": "embed",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "embed",
+        "to": "site",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1340,
+    "output": 218,
+    "time (ns)": 5046261000
+  }
+}

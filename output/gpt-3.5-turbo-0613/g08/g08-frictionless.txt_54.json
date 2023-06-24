@@ -1,0 +1,58 @@
+{
+  "story": "#G08# As a Developer, I want to customize an existing wizard for my specific type of data, so that I can give my users a great user experience.\n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "existing wizard",
+      "specific type of data",
+      "users"
+    ],
+    "actions": [
+      "customize"
+    ],
+    "benefit": "give my users a great user experience"
+  },
+  "categories": {
+    "primary_entities": [
+      "existing wizard",
+      "specific type of data",
+      "users"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "customize"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "customize",
+        "kind": "triggers"
+      },
+      {
+        "from": "customize",
+        "to": "existing wizard",
+        "kind": "targets"
+      },
+      {
+        "from": "customize",
+        "to": "specific type of data",
+        "kind": "targets"
+      },
+      {
+        "from": "customize",
+        "to": "users",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1327,
+    "output": 222,
+    "time (ns)": 5513099000
+  }
+}

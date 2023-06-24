@@ -1,0 +1,76 @@
+{
+  "story": "#G08# As a RepositoryManagerResearcher, I want an app that acts as a match-making service for packaging data, so that owners are paired with data packagers. \n",
+  "extraction": {
+    "personas": [
+      "RepositoryManagerResearcher"
+    ],
+    "entities": [
+      "app",
+      "match-making service",
+      "packaging data",
+      "owners",
+      "data packagers"
+    ],
+    "actions": [
+      "acts as",
+      "paired with"
+    ],
+    "benefit": "owners are paired with data packagers"
+  },
+  "categories": {
+    "primary_entities": [
+      "app",
+      "match-making service",
+      "packaging data"
+    ],
+    "secondary_entities": [
+      "owners",
+      "data packagers"
+    ],
+    "primary_actions": [
+      "acts as"
+    ],
+    "secondary_actions": [
+      "paired with"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "RepositoryManagerResearcher",
+        "to": "acts as",
+        "kind": "triggers"
+      },
+      {
+        "from": "acts as",
+        "to": "app",
+        "kind": "targets"
+      },
+      {
+        "from": "acts as",
+        "to": "match-making service",
+        "kind": "targets"
+      },
+      {
+        "from": "acts as",
+        "to": "packaging data",
+        "kind": "targets"
+      },
+      {
+        "from": "acts as",
+        "to": "owners",
+        "kind": "targets"
+      },
+      {
+        "from": "acts as",
+        "to": "data packagers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1378,
+    "output": 310,
+    "time (ns)": 6479842000
+  }
+}

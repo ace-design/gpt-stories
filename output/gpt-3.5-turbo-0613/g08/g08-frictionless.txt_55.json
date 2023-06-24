@@ -1,0 +1,58 @@
+{
+  "story": "#G08# As a Publisher, I want to add useful metadata or add in new data columns to make the dataset more useful. \n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "metadata",
+      "data columns",
+      "dataset"
+    ],
+    "actions": [
+      "add"
+    ],
+    "benefit": "make the dataset more useful"
+  },
+  "categories": {
+    "primary_entities": [
+      "metadata",
+      "data columns",
+      "dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "add"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "data columns",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1296,
+    "output": 211,
+    "time (ns)": 6057785000
+  }
+}

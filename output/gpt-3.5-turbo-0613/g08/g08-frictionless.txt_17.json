@@ -1,0 +1,79 @@
+{
+  "story": "#G08# As a Developer, I want to do exploratory data analysis in R and operationalize that analysis in Python, so that I can use the best tool for the job.\n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "exploratory data analysis",
+      "R",
+      "Python"
+    ],
+    "actions": [
+      "do",
+      "operationalize",
+      "use"
+    ],
+    "benefit": "I can use the best tool for the job"
+  },
+  "categories": {
+    "primary_entities": [
+      "exploratory data analysis"
+    ],
+    "secondary_entities": [
+      "R",
+      "Python"
+    ],
+    "primary_actions": [
+      "do"
+    ],
+    "secondary_actions": [
+      "operationalize",
+      "use"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "do",
+        "kind": "triggers"
+      },
+      {
+        "from": "do",
+        "to": "exploratory data analysis",
+        "kind": "targets"
+      },
+      {
+        "from": "Developer",
+        "to": "operationalize",
+        "kind": "triggers"
+      },
+      {
+        "from": "operationalize",
+        "to": "R",
+        "kind": "targets"
+      },
+      {
+        "from": "operationalize",
+        "to": "Python",
+        "kind": "targets"
+      },
+      {
+        "from": "Developer",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "best tool for the job",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1364,
+    "output": 325,
+    "time (ns)": 11817164000
+  }
+}

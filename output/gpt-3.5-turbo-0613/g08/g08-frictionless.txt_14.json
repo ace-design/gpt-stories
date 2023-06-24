@@ -1,0 +1,51 @@
+{
+  "story": "#G08# As a Developer, I want to get a Data Package into Python in seconds, so that I can start using the data for doing analysis and visualizations. \n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "Data Package",
+      "Python"
+    ],
+    "actions": [
+      "get"
+    ],
+    "benefit": "I can start using the data for doing analysis and visualizations"
+  },
+  "categories": {
+    "primary_entities": [
+      "Data Package",
+      "Python"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "get"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "Data Package",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "Python",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1325,
+    "output": 187,
+    "time (ns)": 6755415000
+  }
+}

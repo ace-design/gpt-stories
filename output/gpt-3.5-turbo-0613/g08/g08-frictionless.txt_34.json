@@ -1,0 +1,58 @@
+{
+  "story": "#G08# As a Developer, I want HDF5 integration, so that I can integrate data-packaged data with pipelines that use HDF5.\n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "HDF5",
+      "data-packaged data",
+      "pipelines"
+    ],
+    "actions": [
+      "integrate"
+    ],
+    "benefit": "I can integrate data-packaged data with pipelines that use HDF5"
+  },
+  "categories": {
+    "primary_entities": [
+      "HDF5",
+      "data-packaged data",
+      "pipelines"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "integrate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "integrate",
+        "kind": "triggers"
+      },
+      {
+        "from": "integrate",
+        "to": "HDF5",
+        "kind": "targets"
+      },
+      {
+        "from": "integrate",
+        "to": "data-packaged data",
+        "kind": "targets"
+      },
+      {
+        "from": "integrate",
+        "to": "pipelines",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1336,
+    "output": 240,
+    "time (ns)": 5353294000
+  }
+}

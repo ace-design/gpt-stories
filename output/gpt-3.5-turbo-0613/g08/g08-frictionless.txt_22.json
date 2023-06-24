@@ -1,0 +1,49 @@
+{
+  "story": "#G08# As a Developer, I want an Elasticsearch integration, so that I can integrate data-packaged data with pipelines that use Elasticsearch. \n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "Elasticsearch",
+      "data-packaged data",
+      "pipelines"
+    ],
+    "actions": [
+      "integrate"
+    ],
+    "benefit": "I can integrate data-packaged data with pipelines that use Elasticsearch"
+  },
+  "categories": {
+    "primary_entities": [
+      "Elasticsearch"
+    ],
+    "secondary_entities": [
+      "data-packaged data",
+      "pipelines"
+    ],
+    "primary_actions": [
+      "integrate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "integrate",
+        "kind": "triggers"
+      },
+      {
+        "from": "integrate",
+        "to": "Elasticsearch",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1333,
+    "output": 182,
+    "time (ns)": 6986652000
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "story": "#G08# As a Researcher, I want to get my Excel spreadsheet into a Data Package, so that I can benefit from better tooling and standardization. \n",
+  "extraction": {
+    "personas": [
+      "Researcher"
+    ],
+    "entities": [
+      "Excel spreadsheet",
+      "Data Package"
+    ],
+    "actions": [
+      "get"
+    ],
+    "benefit": "I can benefit from better tooling and standardization"
+  },
+  "categories": {
+    "primary_entities": [
+      "Excel spreadsheet"
+    ],
+    "secondary_entities": [
+      "Data Package"
+    ],
+    "primary_actions": [
+      "get"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Researcher",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "Excel spreadsheet",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "Data Package",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1322,
+    "output": 189,
+    "time (ns)": 6174877000
+  }
+}

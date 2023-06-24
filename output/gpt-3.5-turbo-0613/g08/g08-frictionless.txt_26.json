@@ -1,0 +1,58 @@
+{
+  "story": "#G08# As a Developer, I want a DAT integration, so that I can integrate data-packaged data with pipelines that use DAT. \n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "DAT integration",
+      "data-packaged data",
+      "pipelines"
+    ],
+    "actions": [
+      "integrate"
+    ],
+    "benefit": "I can integrate data-packaged data with pipelines that use DAT"
+  },
+  "categories": {
+    "primary_entities": [
+      "DAT integration",
+      "data-packaged data",
+      "pipelines"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "integrate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "integrate",
+        "kind": "triggers"
+      },
+      {
+        "from": "integrate",
+        "to": "DAT integration",
+        "kind": "targets"
+      },
+      {
+        "from": "integrate",
+        "to": "data-packaged data",
+        "kind": "targets"
+      },
+      {
+        "from": "integrate",
+        "to": "pipelines",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1331,
+    "output": 236,
+    "time (ns)": 9503578000
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "story": "#G08# As a ResearcherDeveloper, would like the ability import/export from MS-SQL, so that I can use Data Packages in workflows that involve MS-SQL. \n",
+  "extraction": {
+    "personas": [
+      "ResearcherDeveloper"
+    ],
+    "entities": [
+      "MS-SQL",
+      "Data Packages"
+    ],
+    "actions": [
+      "import/export",
+      "use"
+    ],
+    "benefit": "I can use Data Packages in workflows that involve MS-SQL"
+  },
+  "categories": {
+    "primary_entities": [
+      "MS-SQL",
+      "Data Packages"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "import/export",
+      "use"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "ResearcherDeveloper",
+        "to": "import/export",
+        "kind": "triggers"
+      },
+      {
+        "from": "import/export",
+        "to": "MS-SQL",
+        "kind": "targets"
+      },
+      {
+        "from": "ResearcherDeveloper",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "Data Packages",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1350,
+    "output": 235,
+    "time (ns)": 6739027000
+  }
+}

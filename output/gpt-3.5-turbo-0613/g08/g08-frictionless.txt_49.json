@@ -1,0 +1,52 @@
+{
+  "story": "#G08# As a government Publisher, I want to make it easy to prove that our published data is valid, so that I can claim that we are living up to our transparency commitments. \n",
+  "extraction": {
+    "personas": [
+      "government Publisher"
+    ],
+    "entities": [
+      "published data"
+    ],
+    "actions": [
+      "make it easy to prove",
+      "claim"
+    ],
+    "benefit": "to live up to transparency commitments"
+  },
+  "categories": {
+    "primary_entities": [
+      "published data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "make it easy to prove"
+    ],
+    "secondary_actions": [
+      "claim"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "government Publisher",
+        "to": "make it easy to prove",
+        "kind": "triggers"
+      },
+      {
+        "from": "make it easy to prove",
+        "to": "published data",
+        "kind": "targets"
+      },
+      {
+        "from": "government Publisher",
+        "to": "claim",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1337,
+    "output": 200,
+    "time (ns)": 4945698000
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "story": "#G08# As a publisher, I want to embed a preview button on my site, so that users can preview the data and be encouraged that this is the correct data for them.\n",
+  "extraction": {
+    "personas": [
+      "publisher"
+    ],
+    "entities": [
+      "preview button",
+      "site",
+      "data"
+    ],
+    "actions": [
+      "embed",
+      "preview",
+      "encouraged"
+    ],
+    "benefit": "users can preview the data and be encouraged that this is the correct data for them"
+  },
+  "categories": {
+    "primary_entities": [
+      "preview button",
+      "site",
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "embed",
+      "preview",
+      "encouraged"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "publisher",
+        "to": "embed",
+        "kind": "triggers"
+      },
+      {
+        "from": "embed",
+        "to": "preview button",
+        "kind": "targets"
+      },
+      {
+        "from": "embed",
+        "to": "site",
+        "kind": "targets"
+      },
+      {
+        "from": "embed",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "preview",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "encouraged",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1372,
+    "output": 290,
+    "time (ns)": 7495023000
+  }
+}

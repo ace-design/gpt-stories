@@ -1,0 +1,47 @@
+{
+  "story": "#G08# As a ResearcherGovernment Publisher, I want to add general country names to my dataset that only contains country codes, so that my dataset is more readable. \n",
+  "extraction": {
+    "personas": [
+      "ResearcherGovernment Publisher"
+    ],
+    "entities": [
+      "dataset",
+      "country codes"
+    ],
+    "actions": [
+      "add"
+    ],
+    "benefit": "my dataset is more readable"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset"
+    ],
+    "secondary_entities": [
+      "country codes"
+    ],
+    "primary_actions": [
+      "add"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "ResearcherGovernment Publisher",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1316,
+    "output": 159,
+    "time (ns)": 6604123000
+  }
+}

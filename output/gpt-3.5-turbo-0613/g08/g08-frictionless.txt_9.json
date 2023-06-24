@@ -1,0 +1,52 @@
+{
+  "story": "#G08# As a Researcher, I want to get a Data Package into Excel in seconds, so that I can start using the data for doing analysis and visualizations. \n",
+  "extraction": {
+    "personas": [
+      "Researcher"
+    ],
+    "entities": [
+      "Data Package",
+      "Excel"
+    ],
+    "actions": [
+      "get"
+    ],
+    "benefit": "I can start using the data for doing analysis and visualizations"
+  },
+  "categories": {
+    "primary_entities": [
+      "Data Package"
+    ],
+    "secondary_entities": [
+      "Excel"
+    ],
+    "primary_actions": [
+      "get"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Researcher",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "Data Package",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "Excel",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1329,
+    "output": 188,
+    "time (ns)": 5347994000
+  }
+}

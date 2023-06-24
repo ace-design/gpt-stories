@@ -1,0 +1,63 @@
+{
+  "story": "#G08# As a ResearcherPublisher, I want to specify the funding that contributed to the creation of a given dataset, so that funding agencies can identify the funding, source for a given dataset. \n",
+  "extraction": {
+    "personas": [
+      "ResearcherPublisher",
+      "funding agencies"
+    ],
+    "entities": [
+      "dataset",
+      "funding"
+    ],
+    "actions": [
+      "specify",
+      "contribute",
+      "identify"
+    ],
+    "benefit": "funding agencies can identify the funding source for a given dataset"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset"
+    ],
+    "secondary_entities": [
+      "funding"
+    ],
+    "primary_actions": [
+      "specify"
+    ],
+    "secondary_actions": [
+      "contribute",
+      "identify"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "ResearcherPublisher",
+        "to": "specify",
+        "kind": "triggers"
+      },
+      {
+        "from": "specify",
+        "to": "dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "funding agencies",
+        "to": "identify",
+        "kind": "triggers"
+      },
+      {
+        "from": "identify",
+        "to": "funding",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1378,
+    "output": 240,
+    "time (ns)": 5763592000
+  }
+}

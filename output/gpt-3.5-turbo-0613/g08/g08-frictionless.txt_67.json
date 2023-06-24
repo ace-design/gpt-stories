@@ -1,0 +1,29 @@
+{
+  "story": "#G08# \n",
+  "extraction": null,
+  "categories": {
+    "primary_entities": [],
+    "secondary_entities": [],
+    "primary_actions": [],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "UI designer",
+        "to": "begin",
+        "kind": "triggers"
+      },
+      {
+        "from": "begin",
+        "to": "user testing",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1144,
+    "output": 132,
+    "time (ns)": 4129239000
+  }
+}

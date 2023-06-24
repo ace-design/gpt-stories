@@ -1,0 +1,56 @@
+{
+  "story": "#G08# As a ResearcherPublisher, I want to understand the ways in which my data is invalid, so that I can know how to fix it. \n",
+  "extraction": {
+    "personas": [
+      "ResearcherPublisher"
+    ],
+    "entities": [
+      "data"
+    ],
+    "actions": [
+      "understand",
+      "fix"
+    ],
+    "benefit": "know how to fix it"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "understand",
+      "fix"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "ResearcherPublisher",
+        "to": "understand",
+        "kind": "triggers"
+      },
+      {
+        "from": "understand",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "ResearcherPublisher",
+        "to": "fix",
+        "kind": "triggers"
+      },
+      {
+        "from": "fix",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1309,
+    "output": 213,
+    "time (ns)": 6082346000
+  }
+}

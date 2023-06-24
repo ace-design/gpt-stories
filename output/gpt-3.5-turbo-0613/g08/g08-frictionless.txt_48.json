@@ -1,0 +1,74 @@
+{
+  "story": "#G08# As a developer, I want an online service that is connected to my data repository that validates data on update, so that I can delegate data validation to a third party. \n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "online service",
+      "data repository",
+      "third party"
+    ],
+    "actions": [
+      "validate",
+      "update",
+      "delegate"
+    ],
+    "benefit": "I can delegate data validation to a third party"
+  },
+  "categories": {
+    "primary_entities": [
+      "online service"
+    ],
+    "secondary_entities": [
+      "data repository",
+      "third party"
+    ],
+    "primary_actions": [
+      "validate"
+    ],
+    "secondary_actions": [
+      "update",
+      "delegate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "validate",
+        "kind": "triggers"
+      },
+      {
+        "from": "validate",
+        "to": "online service",
+        "kind": "targets"
+      },
+      {
+        "from": "update",
+        "to": "online service",
+        "kind": "targets"
+      },
+      {
+        "from": "delegate",
+        "to": "online service",
+        "kind": "targets"
+      },
+      {
+        "from": "developer",
+        "to": "update",
+        "kind": "triggers"
+      },
+      {
+        "from": "developer",
+        "to": "delegate",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1358,
+    "output": 283,
+    "time (ns)": 6682266000
+  }
+}

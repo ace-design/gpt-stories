@@ -1,0 +1,52 @@
+{
+  "story": "#G08# As a ResearcherPublisher, I want to publish Data Packages to CKAN, so that my data is findable, and I can have a data API. \n",
+  "extraction": {
+    "personas": [
+      "ResearcherPublisher"
+    ],
+    "entities": [
+      "Data Packages",
+      "CKAN"
+    ],
+    "actions": [
+      "publish"
+    ],
+    "benefit": "my data is findable, and I can have a data API"
+  },
+  "categories": {
+    "primary_entities": [
+      "Data Packages"
+    ],
+    "secondary_entities": [
+      "CKAN"
+    ],
+    "primary_actions": [
+      "publish"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "ResearcherPublisher",
+        "to": "publish",
+        "kind": "triggers"
+      },
+      {
+        "from": "publish",
+        "to": "Data Packages",
+        "kind": "targets"
+      },
+      {
+        "from": "publish",
+        "to": "CKAN",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1336,
+    "output": 194,
+    "time (ns)": 5188330000
+  }
+}

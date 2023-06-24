@@ -1,0 +1,63 @@
+{
+  "story": "#G08# As a ResearcherPublisher, I want an integration with Zenodo, so that when I store my dataset in GitHub, I don\u2019t have to retype descriptive information about my dataset. \n",
+  "extraction": {
+    "personas": [
+      "ResearcherPublisher"
+    ],
+    "entities": [
+      "Zenodo",
+      "GitHub",
+      "dataset"
+    ],
+    "actions": [
+      "integration",
+      "store",
+      "retype"
+    ],
+    "benefit": "I don\u2019t have to retype descriptive information about my dataset"
+  },
+  "categories": {
+    "primary_entities": [
+      "Zenodo",
+      "GitHub",
+      "dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "integration",
+      "store"
+    ],
+    "secondary_actions": [
+      "retype"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "ResearcherPublisher",
+        "to": "integration",
+        "kind": "triggers"
+      },
+      {
+        "from": "integration",
+        "to": "Zenodo",
+        "kind": "targets"
+      },
+      {
+        "from": "store",
+        "to": "GitHub",
+        "kind": "targets"
+      },
+      {
+        "from": "store",
+        "to": "dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1375,
+    "output": 235,
+    "time (ns)": 5284513000
+  }
+}

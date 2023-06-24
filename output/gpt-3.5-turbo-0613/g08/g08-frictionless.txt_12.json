@@ -1,0 +1,47 @@
+{
+  "story": "#G08# As a Researcher, I want to be able to translate my EML dataset to a Data Package, so that I can benefit from the wide array of tools available for Data Packages. \n",
+  "extraction": {
+    "personas": [
+      "Researcher"
+    ],
+    "entities": [
+      "EML dataset",
+      "Data Package"
+    ],
+    "actions": [
+      "translate"
+    ],
+    "benefit": "I can benefit from the wide array of tools available for Data Packages"
+  },
+  "categories": {
+    "primary_entities": [
+      "EML dataset"
+    ],
+    "secondary_entities": [
+      "Data Package"
+    ],
+    "primary_actions": [
+      "translate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Researcher",
+        "to": "translate",
+        "kind": "triggers"
+      },
+      {
+        "from": "translate",
+        "to": "EML dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1352,
+    "output": 169,
+    "time (ns)": 4839217000
+  }
+}

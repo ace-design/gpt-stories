@@ -1,0 +1,63 @@
+{
+  "story": "#G08# As a Publisher, I would like an integration with Excel, so that I can output cleaned Data Packages. \n",
+  "extraction": {
+    "personas": [
+      "Publisher"
+    ],
+    "entities": [
+      "Excel",
+      "Data Packages"
+    ],
+    "actions": [
+      "integration",
+      "output"
+    ],
+    "benefit": "I can output cleaned Data Packages"
+  },
+  "categories": {
+    "primary_entities": [
+      "Excel",
+      "Data Packages"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "integration",
+      "output"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Publisher",
+        "to": "integration",
+        "kind": "triggers"
+      },
+      {
+        "from": "integration",
+        "to": "Excel",
+        "kind": "targets"
+      },
+      {
+        "from": "integration",
+        "to": "Data Packages",
+        "kind": "targets"
+      },
+      {
+        "from": "Publisher",
+        "to": "output",
+        "kind": "triggers"
+      },
+      {
+        "from": "output",
+        "to": "Data Packages",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1292,
+    "output": 239,
+    "time (ns)": 5866120000
+  }
+}

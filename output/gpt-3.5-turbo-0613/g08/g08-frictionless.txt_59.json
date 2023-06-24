@@ -1,0 +1,76 @@
+{
+  "story": "#G08# As a DeveloperPublisher, I want a tool to create an embeddable data summary via iframe, so that I can embed data summaries across sites. \n",
+  "extraction": {
+    "personas": [
+      "DeveloperPublisher"
+    ],
+    "entities": [
+      "tool",
+      "embeddable data summary",
+      "iframe",
+      "data summaries",
+      "sites"
+    ],
+    "actions": [
+      "create",
+      "embed"
+    ],
+    "benefit": "embed data summaries across sites"
+  },
+  "categories": {
+    "primary_entities": [
+      "tool",
+      "embeddable data summary",
+      "iframe"
+    ],
+    "secondary_entities": [
+      "data summaries",
+      "sites"
+    ],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": [
+      "embed"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "DeveloperPublisher",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "tool",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "embeddable data summary",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "iframe",
+        "kind": "targets"
+      },
+      {
+        "from": "embed",
+        "to": "data summaries",
+        "kind": "targets"
+      },
+      {
+        "from": "embed",
+        "to": "sites",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1355,
+    "output": 291,
+    "time (ns)": 5959927000
+  }
+}

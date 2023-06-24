@@ -1,0 +1,54 @@
+{
+  "story": "#G08# As a ResearcherGovernment Publisher, I want to add reference data on inflation to my spending dataset, so that the spending lines in my dataset is more understandable. \n",
+  "extraction": {
+    "personas": [
+      "ResearcherGovernment Publisher"
+    ],
+    "entities": [
+      "reference data",
+      "inflation",
+      "spending dataset"
+    ],
+    "actions": [
+      "add"
+    ],
+    "benefit": "the spending lines in my dataset is more understandable"
+  },
+  "categories": {
+    "primary_entities": [
+      "reference data",
+      "spending dataset"
+    ],
+    "secondary_entities": [
+      "inflation"
+    ],
+    "primary_actions": [
+      "add"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "ResearcherGovernment Publisher",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "reference data",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "spending dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1345,
+    "output": 203,
+    "time (ns)": 9737972000
+  }
+}

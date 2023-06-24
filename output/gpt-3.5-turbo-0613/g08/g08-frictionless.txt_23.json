@@ -1,0 +1,58 @@
+{
+  "story": "#G08# As a Developer, I want an SPSS integration, so that I can integrate data-packaged data with pipelines that use SPSS. \n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "SPSS",
+      "data-packaged data",
+      "pipelines"
+    ],
+    "actions": [
+      "integrate"
+    ],
+    "benefit": "I can integrate data-packaged data with pipelines that use SPSS"
+  },
+  "categories": {
+    "primary_entities": [
+      "SPSS",
+      "data-packaged data",
+      "pipelines"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "integrate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "integrate",
+        "kind": "triggers"
+      },
+      {
+        "from": "integrate",
+        "to": "SPSS",
+        "kind": "targets"
+      },
+      {
+        "from": "integrate",
+        "to": "data-packaged data",
+        "kind": "targets"
+      },
+      {
+        "from": "integrate",
+        "to": "pipelines",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1339,
+    "output": 237,
+    "time (ns)": 7502771000
+  }
+}

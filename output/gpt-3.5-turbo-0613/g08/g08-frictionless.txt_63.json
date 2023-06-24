@@ -1,0 +1,67 @@
+{
+  "story": "#G08# As a developer, I would like to create a web socket protocol for Frictionless data tools, so that I can easily use data packages with additional data analysis tools. \n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "web socket protocol",
+      "Frictionless data tools",
+      "data packages",
+      "additional data analysis tools"
+    ],
+    "actions": [
+      "create",
+      "use"
+    ],
+    "benefit": "I can easily use data packages with additional data analysis tools"
+  },
+  "categories": {
+    "primary_entities": [
+      "web socket protocol",
+      "Frictionless data tools",
+      "data packages",
+      "additional data analysis tools"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create",
+      "use"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "web socket protocol",
+        "kind": "targets"
+      },
+      {
+        "from": "developer",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "data packages",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "additional data analysis tools",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1386,
+    "output": 278,
+    "time (ns)": 6884754000
+  }
+}

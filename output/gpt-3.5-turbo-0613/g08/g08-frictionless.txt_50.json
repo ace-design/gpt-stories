@@ -1,0 +1,56 @@
+{
+  "story": "#G08# As a Civic Tech Activist, I want to make it easy to assess the quality of data stored by the government, so that I can make sure that government is living up to its transparency commitments. \n",
+  "extraction": {
+    "personas": [
+      "Civic Tech Activist"
+    ],
+    "entities": [
+      "data stored by the government"
+    ],
+    "actions": [
+      "assess",
+      "make it easy"
+    ],
+    "benefit": "make sure that government is living up to its transparency commitments"
+  },
+  "categories": {
+    "primary_entities": [
+      "data stored by the government"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "assess",
+      "make it easy"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Civic Tech Activist",
+        "to": "assess",
+        "kind": "triggers"
+      },
+      {
+        "from": "assess",
+        "to": "data stored by the government",
+        "kind": "targets"
+      },
+      {
+        "from": "Civic Tech Activist",
+        "to": "make it easy",
+        "kind": "triggers"
+      },
+      {
+        "from": "make it easy",
+        "to": "data stored by the government",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1376,
+    "output": 249,
+    "time (ns)": 5363673000
+  }
+}
