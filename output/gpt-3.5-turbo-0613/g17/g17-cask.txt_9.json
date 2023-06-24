@@ -1,0 +1,87 @@
+{
+  "story": "#G17# As an app developer, I want to ensure that when I deploy a new version of an app that includes a different version of a dataset type deployed by another app and this app shares a dataset instance of this type with the other app the deployment will fail with a version conflict error. \n",
+  "extraction": {
+    "personas": [
+      "app developer"
+    ],
+    "entities": [
+      "app",
+      "dataset type",
+      "another app",
+      "dataset instance"
+    ],
+    "actions": [
+      "deploy",
+      "share"
+    ],
+    "benefit": "ensure deployment fails with version conflict error"
+  },
+  "categories": {
+    "primary_entities": [
+      "app",
+      "dataset type",
+      "another app",
+      "dataset instance"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "deploy",
+      "share"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "app developer",
+        "to": "deploy",
+        "kind": "triggers"
+      },
+      {
+        "from": "deploy",
+        "to": "app",
+        "kind": "targets"
+      },
+      {
+        "from": "deploy",
+        "to": "dataset type",
+        "kind": "targets"
+      },
+      {
+        "from": "deploy",
+        "to": "another app",
+        "kind": "targets"
+      },
+      {
+        "from": "deploy",
+        "to": "dataset instance",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "app",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "dataset type",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "another app",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "dataset instance",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1425,
+    "output": 361,
+    "time (ns)": 9801113000
+  }
+}

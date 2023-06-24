@@ -1,0 +1,72 @@
+{
+  "story": "#G17# As a plugin developer, I want to use a custom dataset type that was deployed independently or as part of an app inside the plugin. \n",
+  "extraction": {
+    "personas": [
+      "plugin developer"
+    ],
+    "entities": [
+      "custom dataset type",
+      "app",
+      "plugin"
+    ],
+    "actions": [
+      "use",
+      "deploy"
+    ],
+    "benefit": "I can use a custom dataset type that was deployed independently or as part of an app inside the plugin"
+  },
+  "categories": {
+    "primary_entities": [
+      "custom dataset type",
+      "plugin"
+    ],
+    "secondary_entities": [
+      "app"
+    ],
+    "primary_actions": [
+      "use"
+    ],
+    "secondary_actions": [
+      "deploy"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "plugin developer",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "custom dataset type",
+        "kind": "targets"
+      },
+      {
+        "from": "plugin developer",
+        "to": "deploy",
+        "kind": "triggers"
+      },
+      {
+        "from": "deploy",
+        "to": "custom dataset type",
+        "kind": "targets"
+      },
+      {
+        "from": "deploy",
+        "to": "app",
+        "kind": "targets"
+      },
+      {
+        "from": "deploy",
+        "to": "plugin",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1349,
+    "output": 289,
+    "time (ns)": 8173422000
+  }
+}

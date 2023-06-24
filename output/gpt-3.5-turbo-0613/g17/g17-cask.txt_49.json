@@ -1,0 +1,44 @@
+{
+  "story": "#G17# As a user, I want to update a single property of a dataset instance without knowing all other properties. \n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "dataset instance"
+    ],
+    "actions": [
+      "update"
+    ],
+    "benefit": "I can update a single property without knowing all other properties"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset instance"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "update"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "update",
+        "kind": "triggers"
+      },
+      {
+        "from": "update",
+        "to": "dataset instance",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1284,
+    "output": 155,
+    "time (ns)": 43047552000
+  }
+}

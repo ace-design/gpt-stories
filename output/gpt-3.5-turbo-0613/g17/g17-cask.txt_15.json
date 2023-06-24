@@ -1,0 +1,74 @@
+{
+  "story": "#G17# As an app developer, I want to only depend on the interface of a dataset type in my app and have the system inject the implementation at runtime.\n",
+  "extraction": {
+    "personas": [
+      "app developer"
+    ],
+    "entities": [
+      "interface",
+      "dataset type",
+      "system",
+      "implementation"
+    ],
+    "actions": [
+      "depend",
+      "inject"
+    ],
+    "benefit": "only depend on the interface of a dataset type in my app and have the system inject the implementation at runtime"
+  },
+  "categories": {
+    "primary_entities": [
+      "interface",
+      "dataset type"
+    ],
+    "secondary_entities": [
+      "system",
+      "implementation"
+    ],
+    "primary_actions": [
+      "depend"
+    ],
+    "secondary_actions": [
+      "inject"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "app developer",
+        "to": "depend",
+        "kind": "triggers"
+      },
+      {
+        "from": "depend",
+        "to": "interface",
+        "kind": "targets"
+      },
+      {
+        "from": "depend",
+        "to": "dataset type",
+        "kind": "targets"
+      },
+      {
+        "from": "depend",
+        "to": "system",
+        "kind": "targets"
+      },
+      {
+        "from": "depend",
+        "to": "implementation",
+        "kind": "targets"
+      },
+      {
+        "from": "inject",
+        "to": "implementation",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1363,
+    "output": 289,
+    "time (ns)": 7813073000
+  }
+}

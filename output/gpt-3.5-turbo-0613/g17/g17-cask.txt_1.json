@@ -1,0 +1,79 @@
+{
+  "story": "#G17# As an app developer, I want to include the code of a dataset type in my app artifact and create a dataset of that type when deploying the app.\n",
+  "extraction": {
+    "personas": [
+      "app developer"
+    ],
+    "entities": [
+      "code",
+      "dataset type",
+      "app artifact",
+      "dataset"
+    ],
+    "actions": [
+      "include",
+      "create",
+      "deploy"
+    ],
+    "benefit": "I can create a dataset of the specified type when deploying the app"
+  },
+  "categories": {
+    "primary_entities": [
+      "code",
+      "dataset type",
+      "app artifact",
+      "dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "include",
+      "create",
+      "deploy"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "app developer",
+        "to": "include",
+        "kind": "triggers"
+      },
+      {
+        "from": "include",
+        "to": "code",
+        "kind": "targets"
+      },
+      {
+        "from": "app developer",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "dataset type",
+        "kind": "targets"
+      },
+      {
+        "from": "app developer",
+        "to": "deploy",
+        "kind": "triggers"
+      },
+      {
+        "from": "deploy",
+        "to": "app artifact",
+        "kind": "targets"
+      },
+      {
+        "from": "deploy",
+        "to": "dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1365,
+    "output": 321,
+    "time (ns)": 9499576000
+  }
+}

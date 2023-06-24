@@ -1,0 +1,59 @@
+{
+  "story": "#G17# As a dataset developer, I want to list all dataset instances that use a dataset type or a specific version of a type.\n",
+  "extraction": {
+    "personas": [
+      "dataset developer"
+    ],
+    "entities": [
+      "dataset instances",
+      "dataset type",
+      "specific version"
+    ],
+    "actions": [
+      "list"
+    ],
+    "benefit": "to find all dataset instances that use a dataset type or a specific version of a type"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset instances"
+    ],
+    "secondary_entities": [
+      "dataset type",
+      "specific version"
+    ],
+    "primary_actions": [
+      "list"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "dataset developer",
+        "to": "list",
+        "kind": "triggers"
+      },
+      {
+        "from": "list",
+        "to": "dataset instances",
+        "kind": "targets"
+      },
+      {
+        "from": "list",
+        "to": "dataset type",
+        "kind": "targets"
+      },
+      {
+        "from": "list",
+        "to": "specific version",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1330,
+    "output": 230,
+    "time (ns)": 6649413000
+  }
+}

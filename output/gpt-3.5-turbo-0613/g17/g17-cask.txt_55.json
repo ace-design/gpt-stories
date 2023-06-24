@@ -1,0 +1,65 @@
+{
+  "story": "#G17# As an app developer, I want to tolerate existing datasets if their properties are different but compatible when creating a dataset as part of app deployment. \n",
+  "extraction": {
+    "personas": [
+      "app developer"
+    ],
+    "entities": [
+      "existing datasets",
+      "dataset",
+      "app deployment"
+    ],
+    "actions": [
+      "tolerate",
+      "creating"
+    ],
+    "benefit": "tolerate existing datasets if their properties are different but compatible when creating a dataset as part of app deployment"
+  },
+  "categories": {
+    "primary_entities": [
+      "existing datasets",
+      "dataset",
+      "app deployment"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "tolerate",
+      "creating"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "app developer",
+        "to": "tolerate",
+        "kind": "triggers"
+      },
+      {
+        "from": "tolerate",
+        "to": "existing datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "tolerate",
+        "to": "dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "creating",
+        "to": "dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "creating",
+        "to": "app deployment",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1358,
+    "output": 267,
+    "time (ns)": 7505099000
+  }
+}

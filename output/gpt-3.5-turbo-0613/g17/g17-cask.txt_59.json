@@ -1,0 +1,58 @@
+{
+  "story": "#G17# As a user, I want to ensure that dataset creation fails if the dataset cannot be enabled for explore.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "dataset"
+    ],
+    "actions": [
+      "ensure",
+      "creation fails",
+      "enable for explore"
+    ],
+    "benefit": "dataset creation fails if the dataset cannot be enabled for explore"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "ensure",
+      "creation fails",
+      "enable for explore"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "ensure",
+        "kind": "triggers"
+      },
+      {
+        "from": "ensure",
+        "to": "dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "creation fails",
+        "to": "dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "enable for explore",
+        "to": "dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1305,
+    "output": 223,
+    "time (ns)": 6317457000
+  }
+}

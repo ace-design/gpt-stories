@@ -1,0 +1,96 @@
+{
+  "story": "#G17# As a pipeline designer, I want to get a meaningful error message when pipeline creation fails when I use an existing dataset as a sink or source, so that I know that the schema or any other property of the dataset is incompatible with what the pipeline requires. \n",
+  "extraction": {
+    "personas": [
+      "pipeline designer"
+    ],
+    "entities": [
+      "pipeline creation",
+      "existing dataset"
+    ],
+    "actions": [
+      "get",
+      "fail",
+      "use",
+      "know",
+      "require"
+    ],
+    "benefit": "I know that the schema or any other property of the dataset is incompatible with what the pipeline requires"
+  },
+  "categories": {
+    "primary_entities": [
+      "pipeline creation"
+    ],
+    "secondary_entities": [
+      "existing dataset"
+    ],
+    "primary_actions": [
+      "get"
+    ],
+    "secondary_actions": [
+      "fail",
+      "use",
+      "know",
+      "require"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "pipeline designer",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "pipeline creation",
+        "kind": "targets"
+      },
+      {
+        "from": "pipeline designer",
+        "to": "fail",
+        "kind": "triggers"
+      },
+      {
+        "from": "fail",
+        "to": "pipeline creation",
+        "kind": "targets"
+      },
+      {
+        "from": "pipeline designer",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "existing dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "pipeline designer",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "existing dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "pipeline designer",
+        "to": "require",
+        "kind": "triggers"
+      },
+      {
+        "from": "require",
+        "to": "pipeline creation",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1437,
+    "output": 407,
+    "time (ns)": 11085165000
+  }
+}

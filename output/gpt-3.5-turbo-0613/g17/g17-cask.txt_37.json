@@ -1,0 +1,72 @@
+{
+  "story": "#G17# As a dataset developer, I want to have the option of implementing a migration procedure that can be run after an upgrade of a dataset instance to a new version of it type. \n",
+  "extraction": {
+    "personas": [
+      "dataset developer"
+    ],
+    "entities": [
+      "migration procedure",
+      "dataset instance",
+      "new version"
+    ],
+    "actions": [
+      "implement",
+      "run",
+      "upgrade"
+    ],
+    "benefit": "have the option of implementing a migration procedure that can be run after an upgrade of a dataset instance to a new version of it type"
+  },
+  "categories": {
+    "primary_entities": [
+      "migration procedure",
+      "dataset instance",
+      "new version"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "implement",
+      "run",
+      "upgrade"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "dataset developer",
+        "to": "implement",
+        "kind": "triggers"
+      },
+      {
+        "from": "dataset developer",
+        "to": "run",
+        "kind": "triggers"
+      },
+      {
+        "from": "dataset developer",
+        "to": "upgrade",
+        "kind": "triggers"
+      },
+      {
+        "from": "implement",
+        "to": "migration procedure",
+        "kind": "targets"
+      },
+      {
+        "from": "run",
+        "to": "dataset instance",
+        "kind": "targets"
+      },
+      {
+        "from": "upgrade",
+        "to": "new version",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1400,
+    "output": 306,
+    "time (ns)": 9880188000
+  }
+}

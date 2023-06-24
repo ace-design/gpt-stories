@@ -1,0 +1,51 @@
+{
+  "story": "#G17# As an app developer, I want to create a dataset instance with a specific version of a dataset type.\n",
+  "extraction": {
+    "personas": [
+      "app developer"
+    ],
+    "entities": [
+      "dataset instance",
+      "dataset type"
+    ],
+    "actions": [
+      "create"
+    ],
+    "benefit": "I can create a dataset instance with a specific version of a dataset type"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset instance",
+      "dataset type"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "app developer",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "dataset instance",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "dataset type",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1301,
+    "output": 194,
+    "time (ns)": 5865175000
+  }
+}

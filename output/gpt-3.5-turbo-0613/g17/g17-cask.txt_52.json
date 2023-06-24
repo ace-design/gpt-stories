@@ -1,0 +1,54 @@
+{
+  "story": "#G17# As a user, I want to ensure that if reconfiguration of a dataset fails then no changes have taken effect, so that all steps required to reconfigure a dataset must be done as a single atomic action.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "reconfiguration of a dataset"
+    ],
+    "actions": [
+      "ensure",
+      "fail",
+      "take effect",
+      "reconfigure",
+      "done",
+      "atomic action"
+    ],
+    "benefit": "all steps required to reconfigure a dataset must be done as a single atomic action"
+  },
+  "categories": {
+    "primary_entities": [
+      "reconfiguration of a dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "ensure",
+      "fail",
+      "take effect",
+      "reconfigure",
+      "done",
+      "atomic action"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "ensure",
+        "kind": "triggers"
+      },
+      {
+        "from": "ensure",
+        "to": "reconfiguration of a dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1417,
+    "output": 205,
+    "time (ns)": 6257081000
+  }
+}

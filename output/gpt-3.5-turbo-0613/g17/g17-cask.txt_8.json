@@ -1,0 +1,74 @@
+{
+  "story": "#G17# As an app developer, I want to ensure that when I deploy a new version of an app that includes an older version of a dataset type deployed by another app and I expect that the dataset instances created by this app use the dataset type code included in this app.\n",
+  "extraction": {
+    "personas": [
+      "app developer"
+    ],
+    "entities": [
+      "app",
+      "dataset type",
+      "dataset instances"
+    ],
+    "actions": [
+      "deploy",
+      "include",
+      "expect",
+      "use"
+    ],
+    "benefit": "ensure that dataset instances use the correct dataset type code"
+  },
+  "categories": {
+    "primary_entities": [
+      "app",
+      "dataset type",
+      "dataset instances"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "deploy",
+      "include",
+      "expect",
+      "use"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "app developer",
+        "to": "deploy",
+        "kind": "triggers"
+      },
+      {
+        "from": "deploy",
+        "to": "app",
+        "kind": "targets"
+      },
+      {
+        "from": "deploy",
+        "to": "dataset type",
+        "kind": "targets"
+      },
+      {
+        "from": "app",
+        "to": "dataset type",
+        "kind": "triggers"
+      },
+      {
+        "from": "dataset type",
+        "to": "dataset instances",
+        "kind": "targets"
+      },
+      {
+        "from": "app",
+        "to": "dataset instances",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1425,
+    "output": 294,
+    "time (ns)": 8071310000
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "story": "#G17# As an app developer, I want to deploy a new version of a dataset type as part of an app artifact, without affecting other datasets of this type.\n",
+  "extraction": {
+    "personas": [
+      "app developer"
+    ],
+    "entities": [
+      "dataset type",
+      "app artifact"
+    ],
+    "actions": [
+      "deploy"
+    ],
+    "benefit": "deploy a new version of a dataset type without affecting other datasets of this type"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset type",
+      "app artifact"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "deploy"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "app developer",
+        "to": "deploy",
+        "kind": "triggers"
+      },
+      {
+        "from": "deploy",
+        "to": "dataset type",
+        "kind": "targets"
+      },
+      {
+        "from": "deploy",
+        "to": "app artifact",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1333,
+    "output": 195,
+    "time (ns)": 8631625000
+  }
+}

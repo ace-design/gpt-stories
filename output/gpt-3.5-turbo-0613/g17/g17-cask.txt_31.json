@@ -1,0 +1,107 @@
+{
+  "story": "#G17# As a plugin developer, I want to include the code for a dataset type in the plugin artifact, so that when a pipeline using this plugin is created a dataset instance of that type is created and it is explorable and available to apps.\n",
+  "extraction": {
+    "personas": [
+      "plugin developer"
+    ],
+    "entities": [
+      "code",
+      "dataset type",
+      "plugin artifact",
+      "pipeline",
+      "dataset instance",
+      "apps"
+    ],
+    "actions": [
+      "include",
+      "create",
+      "explore",
+      "available"
+    ],
+    "benefit": "when a pipeline using this plugin is created a dataset instance of that type is created and it is explorable and available to apps"
+  },
+  "categories": {
+    "primary_entities": [
+      "code",
+      "dataset type",
+      "plugin artifact",
+      "pipeline"
+    ],
+    "secondary_entities": [
+      "dataset instance",
+      "apps"
+    ],
+    "primary_actions": [
+      "include",
+      "create"
+    ],
+    "secondary_actions": [
+      "explore",
+      "available"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "plugin developer",
+        "to": "include",
+        "kind": "triggers"
+      },
+      {
+        "from": "include",
+        "to": "code",
+        "kind": "targets"
+      },
+      {
+        "from": "plugin developer",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "dataset type",
+        "kind": "targets"
+      },
+      {
+        "from": "plugin developer",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "plugin artifact",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "pipeline",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "dataset instance",
+        "kind": "targets"
+      },
+      {
+        "from": "explore",
+        "to": "dataset instance",
+        "kind": "targets"
+      },
+      {
+        "from": "available",
+        "to": "dataset instance",
+        "kind": "targets"
+      },
+      {
+        "from": "available",
+        "to": "apps",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1470,
+    "output": 457,
+    "time (ns)": 12318826000
+  }
+}

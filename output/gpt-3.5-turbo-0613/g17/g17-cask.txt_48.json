@@ -1,0 +1,44 @@
+{
+  "story": "#G17# As a user, I want to update the properties of a dataset instance and I expect this to fail if the new properties are not compatible with a meaningful error message.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "dataset instance"
+    ],
+    "actions": [
+      "update"
+    ],
+    "benefit": "I expect this to fail if the new properties are not compatible with a meaningful error message."
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset instance"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "update"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "update",
+        "kind": "triggers"
+      },
+      {
+        "from": "update",
+        "to": "dataset instance",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1331,
+    "output": 161,
+    "time (ns)": 5135118000
+  }
+}

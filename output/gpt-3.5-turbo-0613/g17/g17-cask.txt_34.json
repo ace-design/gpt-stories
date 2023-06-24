@@ -1,0 +1,59 @@
+{
+  "story": "#G17# As a pipeline developer, I want to upgrade a dataset instance to a newer version of the code after the pipeline was created.\n",
+  "extraction": {
+    "personas": [
+      "pipeline developer"
+    ],
+    "entities": [
+      "dataset instance",
+      "newer version of the code",
+      "pipeline"
+    ],
+    "actions": [
+      "upgrade"
+    ],
+    "benefit": "to ensure the dataset instance is using the latest code"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset instance",
+      "newer version of the code"
+    ],
+    "secondary_entities": [
+      "pipeline"
+    ],
+    "primary_actions": [
+      "upgrade"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "pipeline developer",
+        "to": "upgrade",
+        "kind": "triggers"
+      },
+      {
+        "from": "upgrade",
+        "to": "dataset instance",
+        "kind": "targets"
+      },
+      {
+        "from": "upgrade",
+        "to": "newer version of the code",
+        "kind": "targets"
+      },
+      {
+        "from": "upgrade",
+        "to": "pipeline",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1325,
+    "output": 232,
+    "time (ns)": 8240861000
+  }
+}

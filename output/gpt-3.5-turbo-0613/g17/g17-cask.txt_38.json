@@ -1,0 +1,56 @@
+{
+  "story": "#G17# As a developer, I want to take a dataset offline, so that I can perform a long-running maintenance or migration procedure.\n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "dataset"
+    ],
+    "actions": [
+      "take offline",
+      "perform"
+    ],
+    "benefit": "I can perform a long-running maintenance or migration procedure"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "take offline",
+      "perform"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "take offline",
+        "kind": "triggers"
+      },
+      {
+        "from": "take offline",
+        "to": "dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "developer",
+        "to": "perform",
+        "kind": "triggers"
+      },
+      {
+        "from": "perform",
+        "to": "dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1300,
+    "output": 212,
+    "time (ns)": 7201473000
+  }
+}

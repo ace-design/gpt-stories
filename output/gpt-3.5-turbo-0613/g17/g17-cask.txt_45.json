@@ -1,0 +1,52 @@
+{
+  "story": "#G17# As a user, I want to configure time-to-live in a uniform way across all dataset types.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "time-to-live",
+      "dataset types"
+    ],
+    "actions": [
+      "configure"
+    ],
+    "benefit": "in a uniform way across all dataset types"
+  },
+  "categories": {
+    "primary_entities": [
+      "time-to-live"
+    ],
+    "secondary_entities": [
+      "dataset types"
+    ],
+    "primary_actions": [
+      "configure"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "configure",
+        "kind": "triggers"
+      },
+      {
+        "from": "configure",
+        "to": "time-to-live",
+        "kind": "targets"
+      },
+      {
+        "from": "configure",
+        "to": "dataset types",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1286,
+    "output": 188,
+    "time (ns)": 5672954000
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "story": "#G17# As a user, I want to ensure that an update of explore never leads to silent loss of data or data available for explore. \n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "explore",
+      "data"
+    ],
+    "actions": [
+      "ensure",
+      "update",
+      "leads to",
+      "silent loss",
+      "data available"
+    ],
+    "benefit": "never leads to silent loss of data or data available for explore"
+  },
+  "categories": {
+    "primary_entities": [
+      "explore",
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "ensure",
+      "update"
+    ],
+    "secondary_actions": [
+      "leads to",
+      "silent loss",
+      "data available"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "ensure",
+        "kind": "triggers"
+      },
+      {
+        "from": "ensure",
+        "to": "explore",
+        "kind": "targets"
+      },
+      {
+        "from": "ensure",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "update",
+        "to": "explore",
+        "kind": "targets"
+      },
+      {
+        "from": "leads to",
+        "to": "silent loss",
+        "kind": "targets"
+      },
+      {
+        "from": "leads to",
+        "to": "data available",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1353,
+    "output": 296,
+    "time (ns)": 8046323000
+  }
+}

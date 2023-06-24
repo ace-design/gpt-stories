@@ -1,0 +1,58 @@
+{
+  "story": "#G17# As a dataset developer, I want to separate the interface from the implementation of a dataset type.\n",
+  "extraction": {
+    "personas": [
+      "dataset developer"
+    ],
+    "entities": [
+      "interface",
+      "implementation",
+      "dataset type"
+    ],
+    "actions": [
+      "separate"
+    ],
+    "benefit": "to separate the interface from the implementation of a dataset type"
+  },
+  "categories": {
+    "primary_entities": [
+      "interface",
+      "implementation",
+      "dataset type"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "separate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "dataset developer",
+        "to": "separate",
+        "kind": "triggers"
+      },
+      {
+        "from": "separate",
+        "to": "interface",
+        "kind": "targets"
+      },
+      {
+        "from": "separate",
+        "to": "implementation",
+        "kind": "targets"
+      },
+      {
+        "from": "separate",
+        "to": "dataset type",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1298,
+    "output": 225,
+    "time (ns)": 6479482000
+  }
+}

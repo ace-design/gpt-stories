@@ -1,0 +1,47 @@
+{
+  "story": "#G17# As a hydrator user, I want to explore the datasets created by my pipeline.\n",
+  "extraction": {
+    "personas": [
+      "hydrator user"
+    ],
+    "entities": [
+      "datasets",
+      "pipeline"
+    ],
+    "actions": [
+      "explore"
+    ],
+    "benefit": "I can explore the datasets created by my pipeline"
+  },
+  "categories": {
+    "primary_entities": [
+      "datasets"
+    ],
+    "secondary_entities": [
+      "pipeline"
+    ],
+    "primary_actions": [
+      "explore"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "hydrator user",
+        "to": "explore",
+        "kind": "triggers"
+      },
+      {
+        "from": "explore",
+        "to": "datasets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1277,
+    "output": 163,
+    "time (ns)": 5307752000
+  }
+}

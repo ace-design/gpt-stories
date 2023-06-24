@@ -62,6 +62,3 @@
 #G17# As a user, I want to ensure that an update of explore never leads to silent loss of data or data available for explore. 
 #G17# As a user, I want to enable explore for a dataset that was not configured for explore initially.
 #G17# As a user, I want to disable explore for a dataset that was configured for explore initially.
-#G17# 
-#G17# 
-#G17# 

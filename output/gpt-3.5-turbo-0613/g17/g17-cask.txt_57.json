@@ -1,0 +1,44 @@
+{
+  "story": "#G17# As a user, I want to specify as part of dataset configuration whether it is explorable.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "dataset configuration"
+    ],
+    "actions": [
+      "specify"
+    ],
+    "benefit": "to determine if the dataset is explorable"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset configuration"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "specify"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "specify",
+        "kind": "triggers"
+      },
+      {
+        "from": "specify",
+        "to": "dataset configuration",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1272,
+    "output": 156,
+    "time (ns)": 5069739000
+  }
+}

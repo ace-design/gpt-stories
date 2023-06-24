@@ -1,0 +1,68 @@
+{
+  "story": "#G17# As an app developer, I want to share a dataset type that I had previously deployed as part of an app.\n",
+  "extraction": {
+    "personas": [
+      "app developer"
+    ],
+    "entities": [
+      "dataset type",
+      "app"
+    ],
+    "actions": [
+      "share",
+      "deployed"
+    ],
+    "benefit": "I can share a dataset type that I had previously deployed as part of an app"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset type",
+      "app"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "share",
+      "deployed"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "app developer",
+        "to": "share",
+        "kind": "triggers"
+      },
+      {
+        "from": "share",
+        "to": "dataset type",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "app",
+        "kind": "targets"
+      },
+      {
+        "from": "app developer",
+        "to": "deployed",
+        "kind": "triggers"
+      },
+      {
+        "from": "deployed",
+        "to": "dataset type",
+        "kind": "targets"
+      },
+      {
+        "from": "deployed",
+        "to": "app",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1320,
+    "output": 282,
+    "time (ns)": 8008879000
+  }
+}

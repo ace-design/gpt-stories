@@ -1,0 +1,76 @@
+{
+  "story": "#G17# As a hydrator user, I want to ensure that all dataset instances created by apps are available as sinks and sources for pipelines.\n",
+  "extraction": {
+    "personas": [
+      "hydrator user"
+    ],
+    "entities": [
+      "dataset instances",
+      "apps",
+      "sinks",
+      "sources",
+      "pipelines"
+    ],
+    "actions": [
+      "ensure",
+      "created",
+      "available"
+    ],
+    "benefit": "all dataset instances created by apps are available as sinks and sources for pipelines"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset instances",
+      "apps",
+      "sinks",
+      "sources",
+      "pipelines"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "ensure",
+      "created",
+      "available"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "hydrator user",
+        "to": "ensure",
+        "kind": "triggers"
+      },
+      {
+        "from": "ensure",
+        "to": "dataset instances",
+        "kind": "targets"
+      },
+      {
+        "from": "ensure",
+        "to": "apps",
+        "kind": "targets"
+      },
+      {
+        "from": "ensure",
+        "to": "sinks",
+        "kind": "targets"
+      },
+      {
+        "from": "ensure",
+        "to": "sources",
+        "kind": "targets"
+      },
+      {
+        "from": "ensure",
+        "to": "pipelines",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1366,
+    "output": 304,
+    "time (ns)": 7994509000
+  }
+}

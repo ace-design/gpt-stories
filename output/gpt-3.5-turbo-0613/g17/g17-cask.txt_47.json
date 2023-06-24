@@ -1,0 +1,56 @@
+{
+  "story": "#G17# As a user, I want to find out what properties of a dataset can be updated.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "dataset"
+    ],
+    "actions": [
+      "find out",
+      "update"
+    ],
+    "benefit": "I can update the properties of a dataset"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "find out",
+      "update"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "find out",
+        "kind": "triggers"
+      },
+      {
+        "from": "find out",
+        "to": "dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "user",
+        "to": "update",
+        "kind": "triggers"
+      },
+      {
+        "from": "update",
+        "to": "dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1275,
+    "output": 210,
+    "time (ns)": 6371358000
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "story": "#G17# As a user, I want to specify the schema of a dataset in a uniform way across all dataset types.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "schema",
+      "dataset"
+    ],
+    "actions": [
+      "specify"
+    ],
+    "benefit": "uniform way across all dataset types"
+  },
+  "categories": {
+    "primary_entities": [
+      "schema",
+      "dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "specify"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "specify",
+        "kind": "triggers"
+      },
+      {
+        "from": "specify",
+        "to": "schema",
+        "kind": "targets"
+      },
+      {
+        "from": "specify",
+        "to": "dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1283,
+    "output": 183,
+    "time (ns)": 5441591000
+  }
+}

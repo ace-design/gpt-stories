@@ -1,0 +1,55 @@
+{
+  "story": "#G17# As a user, I want to ensure that dataset reconfiguration fails if the corresponding update of the explore table fails.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "dataset reconfiguration",
+      "explore table"
+    ],
+    "actions": [
+      "ensure",
+      "fails"
+    ],
+    "benefit": "ensure that dataset reconfiguration fails if the corresponding update of the explore table fails"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset reconfiguration"
+    ],
+    "secondary_entities": [
+      "explore table"
+    ],
+    "primary_actions": [
+      "ensure"
+    ],
+    "secondary_actions": [
+      "fails"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "ensure",
+        "kind": "triggers"
+      },
+      {
+        "from": "ensure",
+        "to": "dataset reconfiguration",
+        "kind": "targets"
+      },
+      {
+        "from": "ensure",
+        "to": "explore table",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1319,
+    "output": 203,
+    "time (ns)": 5861422000
+  }
+}

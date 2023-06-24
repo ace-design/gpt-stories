@@ -1,0 +1,75 @@
+{
+  "story": "#G17# As an app developer, I want to explore a dataset instance of a type that was deployed as part of an app.\n",
+  "extraction": {
+    "personas": [
+      "app developer"
+    ],
+    "entities": [
+      "dataset instance",
+      "type",
+      "app"
+    ],
+    "actions": [
+      "explore",
+      "deployed"
+    ],
+    "benefit": "I can explore a dataset instance of a type that was deployed as part of an app"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset instance",
+      "type",
+      "app"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "explore",
+      "deployed"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "app developer",
+        "to": "explore",
+        "kind": "triggers"
+      },
+      {
+        "from": "explore",
+        "to": "dataset instance",
+        "kind": "targets"
+      },
+      {
+        "from": "explore",
+        "to": "type",
+        "kind": "targets"
+      },
+      {
+        "from": "explore",
+        "to": "app",
+        "kind": "targets"
+      },
+      {
+        "from": "deployed",
+        "to": "dataset instance",
+        "kind": "targets"
+      },
+      {
+        "from": "deployed",
+        "to": "type",
+        "kind": "targets"
+      },
+      {
+        "from": "deployed",
+        "to": "app",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1337,
+    "output": 318,
+    "time (ns)": 8834849000
+  }
+}

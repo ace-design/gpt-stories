@@ -1,0 +1,51 @@
+{
+  "story": "#G17# As a dataset developer, I want to have an archetype that helps me package my dataset type properly.\n",
+  "extraction": {
+    "personas": [
+      "dataset developer"
+    ],
+    "entities": [
+      "archetype",
+      "dataset type"
+    ],
+    "actions": [
+      "package"
+    ],
+    "benefit": "helps me package my dataset type properly"
+  },
+  "categories": {
+    "primary_entities": [
+      "archetype",
+      "dataset type"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "package"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "dataset developer",
+        "to": "package",
+        "kind": "triggers"
+      },
+      {
+        "from": "package",
+        "to": "archetype",
+        "kind": "targets"
+      },
+      {
+        "from": "package",
+        "to": "dataset type",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1286,
+    "output": 188,
+    "time (ns)": 5556244000
+  }
+}

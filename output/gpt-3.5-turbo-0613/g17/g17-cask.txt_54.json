@@ -1,0 +1,57 @@
+{
+  "story": "#G17# As an app developer, I want to ensure that application redeployment fails if any of its datasets cannot be reconfigured.\n",
+  "extraction": {
+    "personas": [
+      "app developer"
+    ],
+    "entities": [
+      "application",
+      "datasets"
+    ],
+    "actions": [
+      "ensure",
+      "redeployment fails",
+      "reconfigured"
+    ],
+    "benefit": "application redeployment fails if any of its datasets cannot be reconfigured"
+  },
+  "categories": {
+    "primary_entities": [
+      "application"
+    ],
+    "secondary_entities": [
+      "datasets"
+    ],
+    "primary_actions": [
+      "ensure"
+    ],
+    "secondary_actions": [
+      "redeployment fails",
+      "reconfigured"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "app developer",
+        "to": "ensure",
+        "kind": "triggers"
+      },
+      {
+        "from": "ensure",
+        "to": "application",
+        "kind": "targets"
+      },
+      {
+        "from": "ensure",
+        "to": "datasets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1326,
+    "output": 203,
+    "time (ns)": 7194408000
+  }
+}

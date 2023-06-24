@@ -1,0 +1,63 @@
+{
+  "story": "#G17# As a user, I want to find out what properties are supported by the dataset type what values are allowed and what the defaults are when creating a dataset instance. \n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "dataset type",
+      "dataset instance"
+    ],
+    "actions": [
+      "find out",
+      "create"
+    ],
+    "benefit": "knowing the properties, allowed values, and defaults of a dataset instance"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset type",
+      "dataset instance"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "find out",
+      "create"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "find out",
+        "kind": "triggers"
+      },
+      {
+        "from": "find out",
+        "to": "dataset type",
+        "kind": "targets"
+      },
+      {
+        "from": "find out",
+        "to": "dataset instance",
+        "kind": "targets"
+      },
+      {
+        "from": "user",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "dataset instance",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1347,
+    "output": 255,
+    "time (ns)": 7079201000
+  }
+}

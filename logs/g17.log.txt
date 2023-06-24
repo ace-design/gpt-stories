@@ -1,0 +1,461 @@
+START: 21:11:20
+# Processing g17-cask.txt
+- Story #[1] -- started at 21:11:20
+    - #G17# As an app developer, I want to include the code of a dataset type in my app artifact and create a dataset of that type when deploying the app.
+
+        - calling model 21:11:20
+        - calling model 21:11:24
+        - calling model 21:11:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_1.json
+- Story #[2] -- started at 21:11:36
+    - #G17# As an app developer, I want to deploy a new version of a dataset type as part of deploying a new version of the app that includes it and I expect that all dataset instances of that type that were created as part of the app deployment start using the new code.
+
+        - calling model 21:11:36
+        - calling model 21:11:39
+        - calling model 21:11:43
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_2.json
+- Story #[3] -- started at 21:11:49
+    - #G17# As an app developer, I want to deploy a new version of a dataset type as part of an app artifact, without affecting other datasets of this type.
+
+        - calling model 21:11:49
+        - calling model 21:11:53
+        - calling model 21:11:56
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_3.json
+- Story #[4] -- started at 21:12:03
+    - #G17# As an app developer, I want to explore a dataset instance of a type that was deployed as part of an app.
+
+        - calling model 21:12:03
+        - calling model 21:12:07
+        - calling model 21:12:11
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_4.json
+- Story #[5] -- started at 21:12:18
+    - #G17# As an app developer, I want to ensure that when I deploy an artifact without creating an app this will not create any dataset types or instances.
+
+        - calling model 21:12:18
+        - calling model 21:12:23
+        - calling model 21:12:27
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_5.json
+- Story #[6] -- started at 21:12:35
+    - #G17# As an app developer, I want to share a dataset type across multiple applications that include the dataset type's code in their artifacts.
+
+        - calling model 21:12:35
+        - calling model 21:12:39
+        - calling model 21:12:44
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_6.json
+- Story #[7] -- started at 21:12:48
+    - #G17# As an app developer, I want to ensure that when I deploy a new version of an app that includes a shared dataset type that all dataset instances created by this app start using the new code but all dataset instances created by other apps remain unchanged.
+
+        - calling model 21:12:48
+        - calling model 21:12:52
+        - calling model 21:12:56
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_7.json
+- Story #[8] -- started at 21:13:02
+    - #G17# As an app developer, I want to ensure that when I deploy a new version of an app that includes an older version of a dataset type deployed by another app and I expect that the dataset instances created by this app use the dataset type code included in this app.
+
+        - calling model 21:13:02
+        - calling model 21:13:05
+        - calling model 21:13:09
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_8.json
+- Story #[9] -- started at 21:13:16
+    - #G17# As an app developer, I want to ensure that when I deploy a new version of an app that includes a different version of a dataset type deployed by another app and this app shares a dataset instance of this type with the other app the deployment will fail with a version conflict error. 
+
+        - calling model 21:13:16
+        - calling model 21:13:19
+        - calling model 21:13:23
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_9.json
+- Story #[10] -- started at 21:13:32
+    - #G17# As an app developer, I want to share a dataset type that I had previously deployed as part of an app.
+
+        - calling model 21:13:32
+        - calling model 21:13:35
+       - exception caught! Pausing for 60 seconds
+        - calling model 21:15:05
+        - calling model 21:15:09
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_10.json
+- Story #[11] -- started at 21:15:16
+    - #G17# As a dataset developer, I want to deploy a dataset type independent from any app and allow apps to create and use dataset instances of that type.
+
+        - calling model 21:15:16
+        - calling model 21:15:20
+        - calling model 21:15:23
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_11.json
+- Story #[12] -- started at 21:15:30
+    - #G17# As a dataset developer, I want to have the option of forcing applications to have the dataset code injected at runtime.
+
+        - calling model 21:15:30
+        - calling model 21:15:34
+        - calling model 21:15:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_12.json
+- Story #[13] -- started at 21:15:43
+    - #G17# As a dataset developer, I want to have an archetype that helps me package my dataset type properly.
+
+        - calling model 21:15:43
+        - calling model 21:15:46
+        - calling model 21:15:49
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_13.json
+- Story #[14] -- started at 21:15:54
+    - #G17# As a dataset developer, I want to separate the interface from the implementation of a dataset type.
+
+        - calling model 21:15:54
+        - calling model 21:15:58
+        - calling model 21:16:01
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_14.json
+- Story #[15] -- started at 21:16:07
+    - #G17# As an app developer, I want to only depend on the interface of a dataset type in my app and have the system inject the implementation at runtime.
+
+        - calling model 21:16:07
+        - calling model 21:16:11
+        - calling model 21:16:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_15.json
+- Story #[16] -- started at 21:16:20
+    - #G17# As an app developer, I want to write unit tests for an app that depends on the interface of a dataset type.
+
+        - calling model 21:16:20
+        - calling model 21:16:25
+        - calling model 21:16:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_16.json
+- Story #[17] -- started at 21:16:34
+    - #G17# As a dataset developer, I want to assign explicit versions to the code of a dataset type.
+
+        - calling model 21:16:34
+        - calling model 21:16:38
+        - calling model 21:16:41
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_17.json
+- Story #[18] -- started at 21:16:47
+    - #G17# As a dataset developer, I want to deploy a new version of a dataset type without affecting the dataset instances of that type.
+
+        - calling model 21:16:47
+        - calling model 21:16:50
+       - exception caught! Pausing for 60 seconds
+        - calling model 21:18:20
+        - calling model 21:18:24
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_18.json
+- Story #[19] -- started at 21:18:28
+    - #G17# As an app developer, I want to create a dataset instance with a specific version of a dataset type.
+
+        - calling model 21:18:28
+        - calling model 21:18:32
+        - calling model 21:18:35
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_19.json
+- Story #[20] -- started at 21:18:40
+    - #G17# As a dataset developer, I want to explore a dataset instance created from a dataset type that was deployed by itself.
+
+        - calling model 21:18:40
+        - calling model 21:18:44
+        - calling model 21:18:48
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_20.json
+- Story #[21] -- started at 21:18:53
+    - #G17# As a dataset developer, I want to delete outdated versions of a dataset type and I expect this to fail if there are any dataset instances with that version of the type.
+
+        - calling model 21:18:53
+        - calling model 21:18:57
+        - calling model 21:19:01
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_21.json
+- Story #[22] -- started at 21:19:06
+    - #G17# As a dataset developer, I want to list all dataset instances that use a dataset type or a specific version of a type.
+
+        - calling model 21:19:06
+        - calling model 21:19:10
+        - calling model 21:19:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_22.json
+- Story #[23] -- started at 21:19:19
+    - #G17# As a data scientist, I want to be able to create a dataset instance of an existing dataset type without writing code.
+
+        - calling model 21:19:19
+        - calling model 21:19:23
+        - calling model 21:19:26
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_23.json
+- Story #[24] -- started at 21:19:32
+    - #G17# As a data scientist, I want to be able to upgrade a dataset instance to a new version of its code.
+
+        - calling model 21:19:32
+        - calling model 21:19:35
+        - calling model 21:19:39
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_24.json
+- Story #[25] -- started at 21:19:44
+    - #G17# As a hydrator user, I want to create a pipeline that reads or writes an existing dataset instance.
+
+        - calling model 21:19:44
+        - calling model 21:19:48
+        - calling model 21:19:51
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_25.json
+- Story #[26] -- started at 21:19:56
+    - #G17# As a hydrator user, I want to create a pipeline that reads or writes a new dataset instance and I want to create that dataset instance as part of pipeline creation.
+
+        - calling model 21:19:56
+        - calling model 21:20:01
+        - calling model 21:20:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_26.json
+- Story #[27] -- started at 21:20:09
+    - #G17# As a hydrator user, I want to specify an explicit version of the dataset types of the dataset instances created by my pipeline and I expect pipeline creation to fail if that results in incompatible upgrade of an existing dataset instance that is shared with other apps or pipelines.
+
+        - calling model 21:20:09
+        - calling model 21:20:14
+        - calling model 21:20:18
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_27.json
+- Story #[28] -- started at 21:20:26
+    - #G17# As a hydrator user, I want to explore the datasets created by my pipeline.
+
+        - calling model 21:20:26
+        - calling model 21:20:30
+        - calling model 21:20:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_28.json
+- Story #[29] -- started at 21:20:37
+    - #G17# As a hydrator user, I want to ensure that all dataset instances created by apps are available as sinks and sources for pipelines.
+
+        - calling model 21:20:37
+        - calling model 21:20:41
+        - calling model 21:20:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_29.json
+- Story #[30] -- started at 21:20:51
+    - #G17# As an app developer, I want to ensure that all dataset instances created by Hydrator pipelines are accessible to the app.
+
+        - calling model 21:20:51
+        - calling model 21:20:55
+        - calling model 21:20:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_30.json
+- Story #[31] -- started at 21:21:06
+    - #G17# As a plugin developer, I want to include the code for a dataset type in the plugin artifact, so that when a pipeline using this plugin is created a dataset instance of that type is created and it is explorable and available to apps.
+
+        - calling model 21:21:06
+        - calling model 21:21:10
+        - calling model 21:21:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_31.json
+- Story #[32] -- started at 21:21:24
+    - #G17# As a plugin developer, I want to use a custom dataset type that was deployed independently or as part of an app inside the plugin. 
+
+        - calling model 21:21:24
+        - calling model 21:21:28
+        - calling model 21:21:32
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_32.json
+- Story #[33] -- started at 21:21:38
+    - #G17# As a plugin developer, I want to upgrade the code of a dataset type used by a dataset instance created by that plugin when I deploy a new version of the plugin and update the pipeline to use that version.
+
+        - calling model 21:21:38
+       - exception caught! Pausing for 60 seconds
+        - calling model 21:23:08
+        - calling model 21:23:12
+        - calling model 21:23:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_33.json
+- Story #[34] -- started at 21:23:24
+    - #G17# As a pipeline developer, I want to upgrade a dataset instance to a newer version of the code after the pipeline was created.
+
+        - calling model 21:23:24
+        - calling model 21:23:28
+        - calling model 21:23:32
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_34.json
+- Story #[35] -- started at 21:23:38
+    - #G17# As a dataset developer, I want to have the option of implementing an upgrade step for when a dataset instance is upgraded to a new version of the dataset type.
+
+        - calling model 21:23:38
+        - calling model 21:23:42
+        - calling model 21:23:46
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_35.json
+- Story #[36] -- started at 21:23:53
+    - #G17# As a dataset developer, I want to have a way to reject an upgrade of a dataset instance to a newer version of it type if the upgrade is not compatible.
+
+        - calling model 21:23:53
+        - calling model 21:23:57
+        - calling model 21:24:01
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_36.json
+- Story #[37] -- started at 21:24:06
+    - #G17# As a dataset developer, I want to have the option of implementing a migration procedure that can be run after an upgrade of a dataset instance to a new version of it type. 
+
+        - calling model 21:24:06
+        - calling model 21:24:10
+        - calling model 21:24:14
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_37.json
+- Story #[38] -- started at 21:24:21
+    - #G17# As a developer, I want to take a dataset offline, so that I can perform a long-running maintenance or migration procedure.
+
+        - calling model 21:24:21
+        - calling model 21:24:25
+        - calling model 21:24:29
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_38.json
+- Story #[39] -- started at 21:24:35
+    - #G17# As a dataset developer, I want to implement custom administrative operations such as "compaction" or "rebalance" that are no common to all dataset types.
+
+        - calling model 21:24:35
+        - calling model 21:24:39
+        - calling model 21:24:42
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_39.json
+- Story #[40] -- started at 21:24:49
+    - #G17# As an app developer, I want to perform custom administrative operations on dataset instances from my app and the CLI and REST or the UI.
+
+        - calling model 21:24:49
+        - calling model 21:24:53
+        - calling model 21:24:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_40.json
+- Story #[41] -- started at 21:25:03
+    - #G17# As a user, I want to find out what properties are supported by the dataset type what values are allowed and what the defaults are when creating a dataset instance. 
+
+        - calling model 21:25:03
+        - calling model 21:25:07
+        - calling model 21:25:11
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_41.json
+- Story #[42] -- started at 21:25:16
+    - #G17# As a user, I want to specify the schema of a dataset in a uniform way across all dataset types.
+
+        - calling model 21:25:16
+        - calling model 21:25:20
+        - calling model 21:25:23
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_42.json
+- Story #[43] -- started at 21:25:28
+    - #G17# As a user, I want to specify schema as a JSON string.
+
+        - calling model 21:25:28
+        - calling model 21:25:31
+        - calling model 21:25:35
+       - exception caught! Pausing for 60 seconds
+        - calling model 21:27:05
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_43.json
+- Story #[44] -- started at 21:27:09
+    - #G17# As a user, I want to specify schema as a SQL schema string.
+
+        - calling model 21:27:09
+        - calling model 21:27:12
+        - calling model 21:27:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_44.json
+- Story #[45] -- started at 21:27:20
+    - #G17# As a user, I want to configure time-to-live in a uniform way across all dataset types.
+
+        - calling model 21:27:20
+        - calling model 21:27:23
+        - calling model 21:27:27
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_45.json
+- Story #[46] -- started at 21:27:31
+    - #G17# As a user, I want to see the properties that were used to configure a dataset instance.
+
+        - calling model 21:27:31
+        - calling model 21:27:35
+       - exception caught! Pausing for 60 seconds
+        - calling model 21:29:05
+        - calling model 21:29:08
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_46.json
+- Story #[47] -- started at 21:29:13
+    - #G17# As a user, I want to find out what properties of a dataset can be updated.
+
+        - calling model 21:29:13
+        - calling model 21:29:17
+        - calling model 21:29:20
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_47.json
+- Story #[48] -- started at 21:29:26
+    - #G17# As a user, I want to update the properties of a dataset instance and I expect this to fail if the new properties are not compatible with a meaningful error message.
+
+        - calling model 21:29:26
+        - calling model 21:29:29
+        - calling model 21:29:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_48.json
+- Story #[49] -- started at 21:29:37
+    - #G17# As a user, I want to update a single property of a dataset instance without knowing all other properties. 
+
+        - calling model 21:29:37
+        - calling model 21:29:40
+        - calling model 21:29:44
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_49.json
+- Story #[50] -- started at 21:30:26
+    - #G17# As a user, I want to remove a single property of a dataset instance without knowing all other properties. 
+
+        - calling model 21:30:26
+        - calling model 21:30:29
+        - calling model 21:30:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_50.json
+- Story #[51] -- started at 21:30:37
+    - #G17# As a user, I want to trigger a migration process for a dataset if updating its properties requires that.
+
+        - calling model 21:30:37
+        - calling model 21:30:40
+        - calling model 21:30:44
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_51.json
+- Story #[52] -- started at 21:30:49
+    - #G17# As a user, I want to ensure that if reconfiguration of a dataset fails then no changes have taken effect, so that all steps required to reconfigure a dataset must be done as a single atomic action.
+
+        - calling model 21:30:49
+        - calling model 21:30:53
+        - calling model 21:30:57
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_52.json
+- Story #[53] -- started at 21:31:01
+    - #G17# As an app developer, I want to ensure that application creation fails if any of its datasets cannot be created.
+
+        - calling model 21:31:01
+        - calling model 21:31:05
+        - calling model 21:31:09
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_53.json
+- Story #[54] -- started at 21:31:15
+    - #G17# As an app developer, I want to ensure that application redeployment fails if any of its datasets cannot be reconfigured.
+
+        - calling model 21:31:15
+        - calling model 21:31:19
+        - calling model 21:31:23
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_54.json
+- Story #[55] -- started at 21:31:28
+    - #G17# As an app developer, I want to tolerate existing datasets if their properties are different but compatible when creating a dataset as part of app deployment. 
+
+        - calling model 21:31:28
+        - calling model 21:31:32
+        - calling model 21:31:36
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_55.json
+- Story #[56] -- started at 21:31:42
+    - #G17# As a pipeline designer, I want to get a meaningful error message when pipeline creation fails when I use an existing dataset as a sink or source, so that I know that the schema or any other property of the dataset is incompatible with what the pipeline requires. 
+
+        - calling model 21:31:42
+        - calling model 21:31:46
+        - calling model 21:31:50
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_56.json
+- Story #[57] -- started at 21:31:59
+    - #G17# As a user, I want to specify as part of dataset configuration whether it is explorable.
+
+        - calling model 21:31:59
+        - calling model 21:32:03
+        - calling model 21:32:06
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_57.json
+- Story #[58] -- started at 21:32:10
+    - #G17# As a user, I want to specify the explore schema separately.
+
+        - calling model 21:32:10
+        - calling model 21:32:13
+        - calling model 21:32:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_58.json
+- Story #[59] -- started at 21:32:21
+    - #G17# As a user, I want to ensure that dataset creation fails if the dataset cannot be enabled for explore.
+
+        - calling model 21:32:21
+        - calling model 21:32:25
+        - calling model 21:32:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_59.json
+- Story #[60] -- started at 21:32:33
+    - #G17# As a user, I want to ensure that dataset reconfiguration fails if the corresponding update of the explore table fails.
+
+        - calling model 21:32:33
+        - calling model 21:32:37
+        - calling model 21:32:40
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_60.json
+- Story #[61] -- started at 21:32:45
+    - #G17# As a user, I want to ensure that a dataset operation fails if it fails to make its required changes to explore.
+
+        - calling model 21:32:45
+        - calling model 21:32:49
+        - calling model 21:32:53
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_61.json
+- Story #[62] -- started at 21:32:59
+    - #G17# As a user, I want to ensure that an update of explore never leads to silent loss of data or data available for explore. 
+
+        - calling model 21:32:59
+        - calling model 21:33:03
+        - calling model 21:33:06
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_62.json
+- Story #[63] -- started at 21:33:13
+    - #G17# As a user, I want to enable explore for a dataset that was not configured for explore initially.
+
+        - calling model 21:33:13
+        - calling model 21:33:16
+        - calling model 21:33:19
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_63.json
+- Story #[64] -- started at 21:33:23
+    - #G17# As a user, I want to disable explore for a dataset that was configured for explore initially.
+
+        - calling model 21:33:23
+        - calling model 21:33:27
+        - calling model 21:33:30
+    - saving result into: ./output/gpt-3.5-turbo-0613/g17-cask.txt_64.json
+END: 21:33:34

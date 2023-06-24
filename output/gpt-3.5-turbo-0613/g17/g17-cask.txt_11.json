@@ -1,0 +1,75 @@
+{
+  "story": "#G17# As a dataset developer, I want to deploy a dataset type independent from any app and allow apps to create and use dataset instances of that type.\n",
+  "extraction": {
+    "personas": [
+      "dataset developer",
+      "apps"
+    ],
+    "entities": [
+      "dataset type",
+      "app",
+      "dataset instances"
+    ],
+    "actions": [
+      "deploy",
+      "create",
+      "use"
+    ],
+    "benefit": "allow apps to create and use dataset instances of that type"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset type",
+      "app"
+    ],
+    "secondary_entities": [
+      "dataset instances"
+    ],
+    "primary_actions": [
+      "deploy",
+      "create"
+    ],
+    "secondary_actions": [
+      "use"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "dataset developer",
+        "to": "deploy",
+        "kind": "triggers"
+      },
+      {
+        "from": "deploy",
+        "to": "dataset type",
+        "kind": "targets"
+      },
+      {
+        "from": "dataset developer",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "dataset instances",
+        "kind": "targets"
+      },
+      {
+        "from": "apps",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "dataset instances",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1349,
+    "output": 289,
+    "time (ns)": 8337171000
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "story": "#G17# As a data scientist, I want to be able to upgrade a dataset instance to a new version of its code.\n",
+  "extraction": {
+    "personas": [
+      "data scientist"
+    ],
+    "entities": [
+      "dataset instance",
+      "new version of its code"
+    ],
+    "actions": [
+      "upgrade"
+    ],
+    "benefit": "be able to upgrade a dataset instance to a new version of its code"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset instance"
+    ],
+    "secondary_entities": [
+      "new version of its code"
+    ],
+    "primary_actions": [
+      "upgrade"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data scientist",
+        "to": "upgrade",
+        "kind": "triggers"
+      },
+      {
+        "from": "upgrade",
+        "to": "dataset instance",
+        "kind": "targets"
+      },
+      {
+        "from": "upgrade",
+        "to": "new version of its code",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1315,
+    "output": 202,
+    "time (ns)": 6405921000
+  }
+}

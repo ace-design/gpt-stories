@@ -1,0 +1,51 @@
+{
+  "story": "#G17# As a dataset developer, I want to have a way to reject an upgrade of a dataset instance to a newer version of it type if the upgrade is not compatible.\n",
+  "extraction": {
+    "personas": [
+      "dataset developer"
+    ],
+    "entities": [
+      "dataset instance",
+      "newer version"
+    ],
+    "actions": [
+      "reject"
+    ],
+    "benefit": "have a way to reject an upgrade of a dataset instance to a newer version of its type if the upgrade is not compatible"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset instance",
+      "newer version"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "reject"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "dataset developer",
+        "to": "reject",
+        "kind": "triggers"
+      },
+      {
+        "from": "reject",
+        "to": "dataset instance",
+        "kind": "targets"
+      },
+      {
+        "from": "reject",
+        "to": "newer version",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1360,
+    "output": 207,
+    "time (ns)": 6770465000
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "story": "#G17# As a hydrator user, I want to specify an explicit version of the dataset types of the dataset instances created by my pipeline and I expect pipeline creation to fail if that results in incompatible upgrade of an existing dataset instance that is shared with other apps or pipelines.\n",
+  "extraction": {
+    "personas": [
+      "hydrator user"
+    ],
+    "entities": [
+      "dataset types",
+      "dataset instances",
+      "pipeline",
+      "existing dataset instance",
+      "other apps",
+      "pipelines"
+    ],
+    "actions": [
+      "specify",
+      "create",
+      "fail",
+      "upgrade",
+      "share"
+    ],
+    "benefit": "I can specify an explicit version of the dataset types and ensure compatibility with other apps and pipelines"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset types",
+      "dataset instances",
+      "pipeline"
+    ],
+    "secondary_entities": [
+      "existing dataset instance",
+      "other apps",
+      "pipelines"
+    ],
+    "primary_actions": [
+      "specify",
+      "create"
+    ],
+    "secondary_actions": [
+      "fail",
+      "upgrade",
+      "share"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "hydrator user",
+        "to": "specify",
+        "kind": "triggers"
+      },
+      {
+        "from": "specify",
+        "to": "dataset types",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "dataset instances",
+        "kind": "targets"
+      },
+      {
+        "from": "fail",
+        "to": "pipeline",
+        "kind": "targets"
+      },
+      {
+        "from": "upgrade",
+        "to": "existing dataset instance",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "other apps",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "pipelines",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1488,
+    "output": 362,
+    "time (ns)": 11030534000
+  }
+}

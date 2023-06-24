@@ -1,0 +1,51 @@
+{
+  "story": "#G17# As a dataset developer, I want to assign explicit versions to the code of a dataset type.\n",
+  "extraction": {
+    "personas": [
+      "dataset developer"
+    ],
+    "entities": [
+      "code",
+      "dataset type"
+    ],
+    "actions": [
+      "assign explicit versions"
+    ],
+    "benefit": "to track changes and ensure consistency"
+  },
+  "categories": {
+    "primary_entities": [
+      "code",
+      "dataset type"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "assign explicit versions"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "dataset developer",
+        "to": "assign explicit versions",
+        "kind": "triggers"
+      },
+      {
+        "from": "assign explicit versions",
+        "to": "code",
+        "kind": "targets"
+      },
+      {
+        "from": "assign explicit versions",
+        "to": "dataset type",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1282,
+    "output": 193,
+    "time (ns)": 6764754000
+  }
+}

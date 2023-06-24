@@ -1,0 +1,66 @@
+{
+  "story": "#G17# As a user, I want to ensure that a dataset operation fails if it fails to make its required changes to explore.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "dataset operation"
+    ],
+    "actions": [
+      "ensure",
+      "fails",
+      "make required changes",
+      "explore"
+    ],
+    "benefit": "ensure that a dataset operation fails if it fails to make its required changes to explore"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset operation"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "ensure",
+      "fails",
+      "make required changes"
+    ],
+    "secondary_actions": [
+      "explore"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "ensure",
+        "kind": "triggers"
+      },
+      {
+        "from": "ensure",
+        "to": "dataset operation",
+        "kind": "targets"
+      },
+      {
+        "from": "fails",
+        "to": "dataset operation",
+        "kind": "targets"
+      },
+      {
+        "from": "make required changes",
+        "to": "dataset operation",
+        "kind": "targets"
+      },
+      {
+        "from": "explore",
+        "to": "dataset operation",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1334,
+    "output": 264,
+    "time (ns)": 7502584000
+  }
+}

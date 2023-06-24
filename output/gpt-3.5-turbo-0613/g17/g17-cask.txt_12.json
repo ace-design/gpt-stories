@@ -1,0 +1,52 @@
+{
+  "story": "#G17# As a dataset developer, I want to have the option of forcing applications to have the dataset code injected at runtime.\n",
+  "extraction": {
+    "personas": [
+      "dataset developer"
+    ],
+    "entities": [
+      "applications"
+    ],
+    "actions": [
+      "have the option of forcing",
+      "injected at runtime"
+    ],
+    "benefit": "to have the dataset code injected at runtime"
+  },
+  "categories": {
+    "primary_entities": [
+      "applications"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have the option of forcing"
+    ],
+    "secondary_actions": [
+      "injected at runtime"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "dataset developer",
+        "to": "have the option of forcing",
+        "kind": "triggers"
+      },
+      {
+        "from": "have the option of forcing",
+        "to": "applications",
+        "kind": "targets"
+      },
+      {
+        "from": "have the option of forcing",
+        "to": "injected at runtime",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1308,
+    "output": 210,
+    "time (ns)": 6588274000
+  }
+}

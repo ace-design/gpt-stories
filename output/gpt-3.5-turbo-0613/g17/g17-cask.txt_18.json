@@ -1,0 +1,51 @@
+{
+  "story": "#G17# As a dataset developer, I want to deploy a new version of a dataset type without affecting the dataset instances of that type.\n",
+  "extraction": {
+    "personas": [
+      "dataset developer"
+    ],
+    "entities": [
+      "dataset type",
+      "dataset instances"
+    ],
+    "actions": [
+      "deploy"
+    ],
+    "benefit": "without affecting the dataset instances of that type"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset type",
+      "dataset instances"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "deploy"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "dataset developer",
+        "to": "deploy",
+        "kind": "triggers"
+      },
+      {
+        "from": "deploy",
+        "to": "dataset type",
+        "kind": "targets"
+      },
+      {
+        "from": "deploy",
+        "to": "dataset instances",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1301,
+    "output": 188,
+    "time (ns)": 5665777000
+  }
+}

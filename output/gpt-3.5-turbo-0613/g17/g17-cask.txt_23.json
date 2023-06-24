@@ -1,0 +1,52 @@
+{
+  "story": "#G17# As a data scientist, I want to be able to create a dataset instance of an existing dataset type without writing code.\n",
+  "extraction": {
+    "personas": [
+      "data scientist"
+    ],
+    "entities": [
+      "dataset instance",
+      "existing dataset type"
+    ],
+    "actions": [
+      "create"
+    ],
+    "benefit": "be able to create a dataset instance of an existing dataset type without writing code"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset instance"
+    ],
+    "secondary_entities": [
+      "existing dataset type"
+    ],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "data scientist",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "dataset instance",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "existing dataset type",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1314,
+    "output": 197,
+    "time (ns)": 6485712000
+  }
+}

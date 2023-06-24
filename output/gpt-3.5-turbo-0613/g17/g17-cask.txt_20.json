@@ -1,0 +1,60 @@
+{
+  "story": "#G17# As a dataset developer, I want to explore a dataset instance created from a dataset type that was deployed by itself.\n",
+  "extraction": {
+    "personas": [
+      "dataset developer"
+    ],
+    "entities": [
+      "dataset instance",
+      "dataset type"
+    ],
+    "actions": [
+      "explore",
+      "created",
+      "deployed"
+    ],
+    "benefit": "I can explore a dataset instance created from a dataset type that was deployed by itself."
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset instance",
+      "dataset type"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "explore",
+      "created",
+      "deployed"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "dataset developer",
+        "to": "explore",
+        "kind": "triggers"
+      },
+      {
+        "from": "explore",
+        "to": "dataset instance",
+        "kind": "targets"
+      },
+      {
+        "from": "created",
+        "to": "dataset instance",
+        "kind": "targets"
+      },
+      {
+        "from": "deployed",
+        "to": "dataset type",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1337,
+    "output": 241,
+    "time (ns)": 7151960000
+  }
+}

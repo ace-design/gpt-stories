@@ -1,0 +1,44 @@
+{
+  "story": "#G17# As a user, I want to remove a single property of a dataset instance without knowing all other properties. \n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "dataset instance"
+    ],
+    "actions": [
+      "remove"
+    ],
+    "benefit": "I can remove a single property without knowing all other properties"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset instance"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "remove"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "remove",
+        "kind": "triggers"
+      },
+      {
+        "from": "remove",
+        "to": "dataset instance",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1284,
+    "output": 155,
+    "time (ns)": 5005706000
+  }
+}

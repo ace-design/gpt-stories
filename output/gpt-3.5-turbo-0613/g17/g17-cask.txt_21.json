@@ -1,0 +1,52 @@
+{
+  "story": "#G17# As a dataset developer, I want to delete outdated versions of a dataset type and I expect this to fail if there are any dataset instances with that version of the type.\n",
+  "extraction": {
+    "personas": [
+      "dataset developer"
+    ],
+    "entities": [
+      "dataset type",
+      "dataset instances"
+    ],
+    "actions": [
+      "delete"
+    ],
+    "benefit": "I expect this to fail if there are any dataset instances with that version of the type."
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset type"
+    ],
+    "secondary_entities": [
+      "dataset instances"
+    ],
+    "primary_actions": [
+      "delete"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "dataset developer",
+        "to": "delete",
+        "kind": "triggers"
+      },
+      {
+        "from": "delete",
+        "to": "dataset type",
+        "kind": "targets"
+      },
+      {
+        "from": "delete",
+        "to": "dataset instances",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1347,
+    "output": 196,
+    "time (ns)": 6934783000
+  }
+}

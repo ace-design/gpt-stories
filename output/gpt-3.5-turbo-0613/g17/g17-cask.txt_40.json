@@ -1,0 +1,66 @@
+{
+  "story": "#G17# As an app developer, I want to perform custom administrative operations on dataset instances from my app and the CLI and REST or the UI.\n",
+  "extraction": {
+    "personas": [
+      "app developer"
+    ],
+    "entities": [
+      "dataset instances",
+      "CLI",
+      "REST",
+      "UI"
+    ],
+    "actions": [
+      "perform custom administrative operations"
+    ],
+    "benefit": "perform custom administrative operations on dataset instances from my app and the CLI and REST or the UI"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset instances"
+    ],
+    "secondary_entities": [
+      "CLI",
+      "REST",
+      "UI"
+    ],
+    "primary_actions": [
+      "perform custom administrative operations"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "app developer",
+        "to": "perform custom administrative operations",
+        "kind": "triggers"
+      },
+      {
+        "from": "perform custom administrative operations",
+        "to": "dataset instances",
+        "kind": "targets"
+      },
+      {
+        "from": "perform custom administrative operations",
+        "to": "CLI",
+        "kind": "targets"
+      },
+      {
+        "from": "perform custom administrative operations",
+        "to": "REST",
+        "kind": "targets"
+      },
+      {
+        "from": "perform custom administrative operations",
+        "to": "UI",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1350,
+    "output": 277,
+    "time (ns)": 8226528000
+  }
+}

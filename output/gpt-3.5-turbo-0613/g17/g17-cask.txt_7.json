@@ -1,0 +1,68 @@
+{
+  "story": "#G17# As an app developer, I want to ensure that when I deploy a new version of an app that includes a shared dataset type that all dataset instances created by this app start using the new code but all dataset instances created by other apps remain unchanged.\n",
+  "extraction": {
+    "personas": [
+      "app developer"
+    ],
+    "entities": [
+      "app",
+      "shared dataset type",
+      "dataset instances"
+    ],
+    "actions": [
+      "deploy",
+      "start using",
+      "remain unchanged"
+    ],
+    "benefit": "ensure that all dataset instances created by this app start using the new code"
+  },
+  "categories": {
+    "primary_entities": [
+      "app",
+      "shared dataset type",
+      "dataset instances"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "deploy",
+      "start using"
+    ],
+    "secondary_actions": [
+      "remain unchanged"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "app developer",
+        "to": "deploy",
+        "kind": "triggers"
+      },
+      {
+        "from": "deploy",
+        "to": "shared dataset type",
+        "kind": "targets"
+      },
+      {
+        "from": "deploy",
+        "to": "dataset instances",
+        "kind": "targets"
+      },
+      {
+        "from": "start using",
+        "to": "shared dataset type",
+        "kind": "triggers"
+      },
+      {
+        "from": "remain unchanged",
+        "to": "dataset instances",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1419,
+    "output": 275,
+    "time (ns)": 7711534000
+  }
+}

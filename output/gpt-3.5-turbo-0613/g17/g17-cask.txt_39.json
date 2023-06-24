@@ -1,0 +1,66 @@
+{
+  "story": "#G17# As a dataset developer, I want to implement custom administrative operations such as \"compaction\" or \"rebalance\" that are no common to all dataset types.\n",
+  "extraction": {
+    "personas": [
+      "dataset developer"
+    ],
+    "entities": [
+      "custom administrative operations",
+      "compaction",
+      "rebalance",
+      "dataset types"
+    ],
+    "actions": [
+      "implement"
+    ],
+    "benefit": "have custom administrative operations for specific dataset types"
+  },
+  "categories": {
+    "primary_entities": [
+      "custom administrative operations",
+      "dataset types"
+    ],
+    "secondary_entities": [
+      "compaction",
+      "rebalance"
+    ],
+    "primary_actions": [
+      "implement"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "dataset developer",
+        "to": "implement",
+        "kind": "triggers"
+      },
+      {
+        "from": "implement",
+        "to": "custom administrative operations",
+        "kind": "targets"
+      },
+      {
+        "from": "implement",
+        "to": "dataset types",
+        "kind": "targets"
+      },
+      {
+        "from": "implement",
+        "to": "compaction",
+        "kind": "targets"
+      },
+      {
+        "from": "implement",
+        "to": "rebalance",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1348,
+    "output": 258,
+    "time (ns)": 8414609000
+  }
+}

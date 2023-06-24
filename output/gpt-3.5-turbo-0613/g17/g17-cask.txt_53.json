@@ -1,0 +1,71 @@
+{
+  "story": "#G17# As an app developer, I want to ensure that application creation fails if any of its datasets cannot be created.\n",
+  "extraction": {
+    "personas": [
+      "app developer"
+    ],
+    "entities": [
+      "application",
+      "datasets"
+    ],
+    "actions": [
+      "ensure",
+      "creation fails",
+      "cannot be created"
+    ],
+    "benefit": "application creation fails if any of its datasets cannot be created"
+  },
+  "categories": {
+    "primary_entities": [
+      "application",
+      "datasets"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "ensure",
+      "creation fails"
+    ],
+    "secondary_actions": [
+      "cannot be created"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "app developer",
+        "to": "ensure",
+        "kind": "triggers"
+      },
+      {
+        "from": "ensure",
+        "to": "application",
+        "kind": "targets"
+      },
+      {
+        "from": "ensure",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "creation fails",
+        "to": "application",
+        "kind": "targets"
+      },
+      {
+        "from": "creation fails",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "cannot be created",
+        "to": "datasets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1317,
+    "output": 281,
+    "time (ns)": 7707409000
+  }
+}

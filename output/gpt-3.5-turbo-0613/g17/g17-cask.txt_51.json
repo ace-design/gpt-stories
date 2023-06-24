@@ -1,0 +1,61 @@
+{
+  "story": "#G17# As a user, I want to trigger a migration process for a dataset if updating its properties requires that.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "migration process",
+      "dataset",
+      "properties"
+    ],
+    "actions": [
+      "trigger",
+      "updating"
+    ],
+    "benefit": "updating dataset properties requires migration process"
+  },
+  "categories": {
+    "primary_entities": [
+      "migration process",
+      "dataset",
+      "properties"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "trigger"
+    ],
+    "secondary_actions": [
+      "updating"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "trigger",
+        "kind": "triggers"
+      },
+      {
+        "from": "trigger",
+        "to": "migration process",
+        "kind": "targets"
+      },
+      {
+        "from": "trigger",
+        "to": "dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "trigger",
+        "to": "properties",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1296,
+    "output": 217,
+    "time (ns)": 6425463000
+  }
+}

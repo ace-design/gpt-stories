@@ -1,0 +1,84 @@
+{
+  "story": "#G17# As an app developer, I want to ensure that when I deploy an artifact without creating an app this will not create any dataset types or instances.\n",
+  "extraction": {
+    "personas": [
+      "app developer"
+    ],
+    "entities": [
+      "artifact",
+      "app",
+      "dataset types",
+      "instances"
+    ],
+    "actions": [
+      "deploy",
+      "create"
+    ],
+    "benefit": "ensure that when I deploy an artifact without creating an app this will not create any dataset types or instances"
+  },
+  "categories": {
+    "primary_entities": [
+      "artifact"
+    ],
+    "secondary_entities": [
+      "app",
+      "dataset types",
+      "instances"
+    ],
+    "primary_actions": [
+      "deploy"
+    ],
+    "secondary_actions": [
+      "create"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "app developer",
+        "to": "deploy",
+        "kind": "triggers"
+      },
+      {
+        "from": "deploy",
+        "to": "artifact",
+        "kind": "targets"
+      },
+      {
+        "from": "deploy",
+        "to": "app",
+        "kind": "targets"
+      },
+      {
+        "from": "deploy",
+        "to": "dataset types",
+        "kind": "targets"
+      },
+      {
+        "from": "deploy",
+        "to": "instances",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "app",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "dataset types",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "instances",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1358,
+    "output": 342,
+    "time (ns)": 10693090000
+  }
+}

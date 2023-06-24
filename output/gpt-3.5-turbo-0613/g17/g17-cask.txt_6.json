@@ -1,0 +1,49 @@
+{
+  "story": "#G17# As an app developer, I want to share a dataset type across multiple applications that include the dataset type's code in their artifacts.\n",
+  "extraction": {
+    "personas": [
+      "app developer"
+    ],
+    "entities": [
+      "dataset type",
+      "multiple applications",
+      "artifacts"
+    ],
+    "actions": [
+      "share"
+    ],
+    "benefit": "include the dataset type's code in their artifacts"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset type"
+    ],
+    "secondary_entities": [
+      "multiple applications",
+      "artifacts"
+    ],
+    "primary_actions": [
+      "share"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "app developer",
+        "to": "share",
+        "kind": "triggers"
+      },
+      {
+        "from": "share",
+        "to": "dataset type",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1317,
+    "output": 170,
+    "time (ns)": 6869101000
+  }
+}

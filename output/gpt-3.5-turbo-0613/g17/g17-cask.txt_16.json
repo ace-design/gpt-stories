@@ -1,0 +1,65 @@
+{
+  "story": "#G17# As an app developer, I want to write unit tests for an app that depends on the interface of a dataset type.\n",
+  "extraction": {
+    "personas": [
+      "app developer"
+    ],
+    "entities": [
+      "app",
+      "unit tests",
+      "interface",
+      "dataset type"
+    ],
+    "actions": [
+      "write"
+    ],
+    "benefit": "to ensure the app functions correctly with the dataset type interface"
+  },
+  "categories": {
+    "primary_entities": [
+      "app",
+      "unit tests",
+      "interface",
+      "dataset type"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "write"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "app developer",
+        "to": "write",
+        "kind": "triggers"
+      },
+      {
+        "from": "write",
+        "to": "app",
+        "kind": "targets"
+      },
+      {
+        "from": "write",
+        "to": "unit tests",
+        "kind": "targets"
+      },
+      {
+        "from": "write",
+        "to": "interface",
+        "kind": "targets"
+      },
+      {
+        "from": "write",
+        "to": "dataset type",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1322,
+    "output": 253,
+    "time (ns)": 7527961000
+  }
+}

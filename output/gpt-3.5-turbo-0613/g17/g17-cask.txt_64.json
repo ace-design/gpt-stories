@@ -1,0 +1,44 @@
+{
+  "story": "#G17# As a user, I want to disable explore for a dataset that was configured for explore initially.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "dataset"
+    ],
+    "actions": [
+      "disable"
+    ],
+    "benefit": "disable explore for a dataset that was configured for explore initially"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "disable"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "disable",
+        "kind": "triggers"
+      },
+      {
+        "from": "disable",
+        "to": "dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1272,
+    "output": 152,
+    "time (ns)": 4740730000
+  }
+}

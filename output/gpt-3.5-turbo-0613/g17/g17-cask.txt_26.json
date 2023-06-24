@@ -1,0 +1,56 @@
+{
+  "story": "#G17# As a hydrator user, I want to create a pipeline that reads or writes a new dataset instance and I want to create that dataset instance as part of pipeline creation.\n",
+  "extraction": {
+    "personas": [
+      "hydrator user"
+    ],
+    "entities": [
+      "pipeline",
+      "dataset instance"
+    ],
+    "actions": [
+      "create",
+      "reads",
+      "writes"
+    ],
+    "benefit": "I can create a pipeline that reads or writes a new dataset instance and create that dataset instance as part of pipeline creation."
+  },
+  "categories": {
+    "primary_entities": [
+      "pipeline",
+      "dataset instance"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": [
+      "reads",
+      "writes"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "hydrator user",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "pipeline",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "dataset instance",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1375,
+    "output": 213,
+    "time (ns)": 6610143000
+  }
+}

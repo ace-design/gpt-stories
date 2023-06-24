@@ -1,0 +1,44 @@
+{
+  "story": "#G17# As a user, I want to specify the explore schema separately.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "explore schema"
+    ],
+    "actions": [
+      "specify"
+    ],
+    "benefit": "separately"
+  },
+  "categories": {
+    "primary_entities": [
+      "explore schema"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "specify"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "specify",
+        "kind": "triggers"
+      },
+      {
+        "from": "specify",
+        "to": "explore schema",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1247,
+    "output": 154,
+    "time (ns)": 4672989000
+  }
+}

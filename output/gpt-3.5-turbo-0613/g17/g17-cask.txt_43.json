@@ -1,0 +1,44 @@
+{
+  "story": "#G17# As a user, I want to specify schema as a JSON string.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "schema"
+    ],
+    "actions": [
+      "specify"
+    ],
+    "benefit": "I can specify schema as a JSON string"
+  },
+  "categories": {
+    "primary_entities": [
+      "schema"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "specify"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "specify",
+        "kind": "triggers"
+      },
+      {
+        "from": "specify",
+        "to": "schema",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1254,
+    "output": 153,
+    "time (ns)": 5085547000
+  }
+}

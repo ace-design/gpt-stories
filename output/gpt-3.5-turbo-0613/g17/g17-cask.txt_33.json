@@ -1,0 +1,86 @@
+{
+  "story": "#G17# As a plugin developer, I want to upgrade the code of a dataset type used by a dataset instance created by that plugin when I deploy a new version of the plugin and update the pipeline to use that version.\n",
+  "extraction": {
+    "personas": [
+      "plugin developer"
+    ],
+    "entities": [
+      "dataset type",
+      "dataset instance",
+      "plugin",
+      "pipeline"
+    ],
+    "actions": [
+      "upgrade",
+      "deploy",
+      "update"
+    ],
+    "benefit": "ensure compatibility between plugin version and dataset instance"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset type",
+      "dataset instance"
+    ],
+    "secondary_entities": [
+      "plugin",
+      "pipeline"
+    ],
+    "primary_actions": [
+      "upgrade"
+    ],
+    "secondary_actions": [
+      "deploy",
+      "update"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "plugin developer",
+        "to": "upgrade",
+        "kind": "triggers"
+      },
+      {
+        "from": "upgrade",
+        "to": "dataset type",
+        "kind": "targets"
+      },
+      {
+        "from": "upgrade",
+        "to": "dataset instance",
+        "kind": "targets"
+      },
+      {
+        "from": "plugin developer",
+        "to": "deploy",
+        "kind": "triggers"
+      },
+      {
+        "from": "deploy",
+        "to": "plugin",
+        "kind": "targets"
+      },
+      {
+        "from": "deploy",
+        "to": "pipeline",
+        "kind": "targets"
+      },
+      {
+        "from": "plugin developer",
+        "to": "update",
+        "kind": "triggers"
+      },
+      {
+        "from": "update",
+        "to": "pipeline",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1385,
+    "output": 339,
+    "time (ns)": 9887458000
+  }
+}

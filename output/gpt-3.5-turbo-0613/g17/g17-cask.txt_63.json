@@ -1,0 +1,44 @@
+{
+  "story": "#G17# As a user, I want to enable explore for a dataset that was not configured for explore initially.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "dataset"
+    ],
+    "actions": [
+      "enable explore"
+    ],
+    "benefit": "explore a dataset that was not configured for explore initially"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "enable explore"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "enable explore",
+        "kind": "triggers"
+      },
+      {
+        "from": "enable explore",
+        "to": "dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1278,
+    "output": 156,
+    "time (ns)": 4714157000
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "story": "#G17# As a user, I want to see the properties that were used to configure a dataset instance.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "properties",
+      "dataset instance"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "to understand the configuration of the dataset instance"
+  },
+  "categories": {
+    "primary_entities": [
+      "properties",
+      "dataset instance"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "properties",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "dataset instance",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1278,
+    "output": 183,
+    "time (ns)": 5741025000
+  }
+}

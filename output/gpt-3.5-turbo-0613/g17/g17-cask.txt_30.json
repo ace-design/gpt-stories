@@ -1,0 +1,62 @@
+{
+  "story": "#G17# As an app developer, I want to ensure that all dataset instances created by Hydrator pipelines are accessible to the app.\n",
+  "extraction": {
+    "personas": [
+      "app developer"
+    ],
+    "entities": [
+      "dataset instances",
+      "Hydrator pipelines",
+      "app"
+    ],
+    "actions": [
+      "ensure",
+      "created",
+      "accessible"
+    ],
+    "benefit": "all dataset instances created by Hydrator pipelines are accessible to the app"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset instances",
+      "Hydrator pipelines",
+      "app"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "ensure",
+      "created",
+      "accessible"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "app developer",
+        "to": "ensure",
+        "kind": "triggers"
+      },
+      {
+        "from": "ensure",
+        "to": "dataset instances",
+        "kind": "targets"
+      },
+      {
+        "from": "ensure",
+        "to": "Hydrator pipelines",
+        "kind": "targets"
+      },
+      {
+        "from": "ensure",
+        "to": "app",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1346,
+    "output": 243,
+    "time (ns)": 8035404000
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "story": "#G17# As a hydrator user, I want to create a pipeline that reads or writes an existing dataset instance.\n",
+  "extraction": {
+    "personas": [
+      "hydrator user"
+    ],
+    "entities": [
+      "pipeline",
+      "dataset instance"
+    ],
+    "actions": [
+      "create",
+      "reads",
+      "writes"
+    ],
+    "benefit": "to read or write an existing dataset instance"
+  },
+  "categories": {
+    "primary_entities": [
+      "pipeline"
+    ],
+    "secondary_entities": [
+      "dataset instance"
+    ],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": [
+      "reads",
+      "writes"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "hydrator user",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "pipeline",
+        "kind": "targets"
+      },
+      {
+        "from": "reads",
+        "to": "dataset instance",
+        "kind": "targets"
+      },
+      {
+        "from": "writes",
+        "to": "dataset instance",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1303,
+    "output": 223,
+    "time (ns)": 6450298000
+  }
+}

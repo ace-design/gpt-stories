@@ -1,0 +1,66 @@
+{
+  "story": "#G17# As an app developer, I want to deploy a new version of a dataset type as part of deploying a new version of the app that includes it and I expect that all dataset instances of that type that were created as part of the app deployment start using the new code.\n",
+  "extraction": {
+    "personas": [
+      "app developer"
+    ],
+    "entities": [
+      "dataset type",
+      "dataset instances"
+    ],
+    "actions": [
+      "deploy",
+      "deploying",
+      "start using"
+    ],
+    "benefit": "all dataset instances start using the new code"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset type",
+      "dataset instances"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "deploy"
+    ],
+    "secondary_actions": [
+      "deploying",
+      "start using"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "app developer",
+        "to": "deploy",
+        "kind": "triggers"
+      },
+      {
+        "from": "deploy",
+        "to": "dataset type",
+        "kind": "targets"
+      },
+      {
+        "from": "deploy",
+        "to": "dataset instances",
+        "kind": "targets"
+      },
+      {
+        "from": "dataset instances",
+        "to": "start using",
+        "kind": "triggers"
+      },
+      {
+        "from": "dataset instances",
+        "to": "new code",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1410,
+    "output": 258,
+    "time (ns)": 7299358000
+  }
+}

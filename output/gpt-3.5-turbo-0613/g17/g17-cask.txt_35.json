@@ -1,0 +1,65 @@
+{
+  "story": "#G17# As a dataset developer, I want to have the option of implementing an upgrade step for when a dataset instance is upgraded to a new version of the dataset type.\n",
+  "extraction": {
+    "personas": [
+      "dataset developer"
+    ],
+    "entities": [
+      "upgrade step",
+      "dataset instance",
+      "new version",
+      "dataset type"
+    ],
+    "actions": [
+      "implementing"
+    ],
+    "benefit": "have the option of implementing an upgrade step"
+  },
+  "categories": {
+    "primary_entities": [
+      "upgrade step",
+      "dataset instance",
+      "new version",
+      "dataset type"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "implementing"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "dataset developer",
+        "to": "implementing",
+        "kind": "triggers"
+      },
+      {
+        "from": "implementing",
+        "to": "upgrade step",
+        "kind": "targets"
+      },
+      {
+        "from": "implementing",
+        "to": "dataset instance",
+        "kind": "targets"
+      },
+      {
+        "from": "implementing",
+        "to": "new version",
+        "kind": "targets"
+      },
+      {
+        "from": "implementing",
+        "to": "dataset type",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1349,
+    "output": 263,
+    "time (ns)": 8519062000
+  }
+}
