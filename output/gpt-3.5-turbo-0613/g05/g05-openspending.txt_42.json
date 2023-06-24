@@ -1,0 +1,51 @@
+{
+  "story": "#G05# As a User, I want to be able to set my own username, So that my data is more easily discoverable.\n",
+  "extraction": {
+    "personas": [
+      "User"
+    ],
+    "entities": [
+      "username",
+      "data"
+    ],
+    "actions": [
+      "set"
+    ],
+    "benefit": "my data is more easily discoverable"
+  },
+  "categories": {
+    "primary_entities": [
+      "username",
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "set"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "User",
+        "to": "set",
+        "kind": "triggers"
+      },
+      {
+        "from": "set",
+        "to": "username",
+        "kind": "targets"
+      },
+      {
+        "from": "set",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1291,
+    "output": 179,
+    "time (ns)": 4837226000
+  }
+}

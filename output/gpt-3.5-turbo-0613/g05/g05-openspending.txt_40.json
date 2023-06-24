@@ -1,0 +1,74 @@
+{
+  "story": "#G05# As a Data Publishing User, I want to have my dataset update automatically as the source file/files changes, So that OpenSpending always shows current data.\n",
+  "extraction": {
+    "personas": [
+      "Data Publishing User"
+    ],
+    "entities": [
+      "dataset",
+      "source file/files",
+      "OpenSpending"
+    ],
+    "actions": [
+      "update",
+      "changes",
+      "shows"
+    ],
+    "benefit": "OpenSpending always shows current data"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset",
+      "OpenSpending"
+    ],
+    "secondary_entities": [
+      "source file/files"
+    ],
+    "primary_actions": [
+      "update",
+      "shows"
+    ],
+    "secondary_actions": [
+      "changes"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Publishing User",
+        "to": "update",
+        "kind": "triggers"
+      },
+      {
+        "from": "update",
+        "to": "dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "source file/files",
+        "to": "changes",
+        "kind": "triggers"
+      },
+      {
+        "from": "changes",
+        "to": "dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "OpenSpending",
+        "to": "shows",
+        "kind": "triggers"
+      },
+      {
+        "from": "shows",
+        "to": "dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1349,
+    "output": 288,
+    "time (ns)": 6228537000
+  }
+}

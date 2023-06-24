@@ -1,0 +1,56 @@
+{
+  "story": "#G05# As a Data Publishing User, I want to have a view on all the datasets I have published, So that I can perform management actions on my own datasets.\n",
+  "extraction": {
+    "personas": [
+      "Data Publishing User"
+    ],
+    "entities": [
+      "datasets"
+    ],
+    "actions": [
+      "have a view",
+      "perform management actions"
+    ],
+    "benefit": "I can perform management actions on my own datasets"
+  },
+  "categories": {
+    "primary_entities": [
+      "datasets"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have a view",
+      "perform management actions"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Publishing User",
+        "to": "have a view",
+        "kind": "triggers"
+      },
+      {
+        "from": "have a view",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "Data Publishing User",
+        "to": "perform management actions",
+        "kind": "triggers"
+      },
+      {
+        "from": "perform management actions",
+        "to": "datasets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1332,
+    "output": 229,
+    "time (ns)": 5938061000
+  }
+}

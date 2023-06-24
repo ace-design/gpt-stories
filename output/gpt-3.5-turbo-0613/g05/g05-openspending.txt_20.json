@@ -1,0 +1,50 @@
+{
+  "story": "#G05# As a Data Consuming User, I want to be able to download an image ofa particular view state, So that I can use it offline.\n",
+  "extraction": {
+    "personas": [
+      "Data Consuming User"
+    ],
+    "entities": [
+      "image",
+      "view state"
+    ],
+    "actions": [
+      "download",
+      "use offline"
+    ],
+    "benefit": "I can use the image offline"
+  },
+  "categories": {
+    "primary_entities": [
+      "image"
+    ],
+    "secondary_entities": [
+      "view state"
+    ],
+    "primary_actions": [
+      "download"
+    ],
+    "secondary_actions": [
+      "use offline"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Consuming User",
+        "to": "download",
+        "kind": "triggers"
+      },
+      {
+        "from": "download",
+        "to": "image",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1322,
+    "output": 167,
+    "time (ns)": 4567924000
+  }
+}

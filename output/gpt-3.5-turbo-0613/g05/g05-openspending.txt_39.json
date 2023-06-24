@@ -1,0 +1,77 @@
+{
+  "story": "#G05# As an API User, I want to be able to persistently store visualisation state in the database, So that such can be shared more easily and contribute to a visualisation gallery.\n",
+  "extraction": {
+    "personas": [
+      "API User"
+    ],
+    "entities": [
+      "visualisation state",
+      "database"
+    ],
+    "actions": [
+      "persistently store",
+      "share",
+      "contribute"
+    ],
+    "benefit": "visualisation state can be shared more easily and contribute to a visualisation gallery"
+  },
+  "categories": {
+    "primary_entities": [
+      "visualisation state"
+    ],
+    "secondary_entities": [
+      "database"
+    ],
+    "primary_actions": [
+      "persistently store"
+    ],
+    "secondary_actions": [
+      "share",
+      "contribute"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "API User",
+        "to": "persistently store",
+        "kind": "triggers"
+      },
+      {
+        "from": "persistently store",
+        "to": "visualisation state",
+        "kind": "targets"
+      },
+      {
+        "from": "API User",
+        "to": "share",
+        "kind": "triggers"
+      },
+      {
+        "from": "share",
+        "to": "visualisation state",
+        "kind": "targets"
+      },
+      {
+        "from": "API User",
+        "to": "contribute",
+        "kind": "triggers"
+      },
+      {
+        "from": "contribute",
+        "to": "visualisation state",
+        "kind": "targets"
+      },
+      {
+        "from": "visualisation state",
+        "to": "database",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1375,
+    "output": 327,
+    "time (ns)": 11344488000
+  }
+}

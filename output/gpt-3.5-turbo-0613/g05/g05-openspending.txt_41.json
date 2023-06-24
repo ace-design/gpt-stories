@@ -1,0 +1,77 @@
+{
+  "story": "#G05# As an OpenSpending Community Member, I want to have a blog that highlights any and all projects in the open fiscal space, So that I can relate to openspending.org as the central hub of fiscal openness.\n",
+  "extraction": {
+    "personas": [
+      "OpenSpending Community Member"
+    ],
+    "entities": [
+      "blog",
+      "projects",
+      "open fiscal space",
+      "openspending.org"
+    ],
+    "actions": [
+      "highlight",
+      "relate"
+    ],
+    "benefit": "I can relate to openspending.org as the central hub of fiscal openness"
+  },
+  "categories": {
+    "primary_entities": [
+      "blog",
+      "projects",
+      "open fiscal space",
+      "openspending.org"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "highlight",
+      "relate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OpenSpending Community Member",
+        "to": "highlight",
+        "kind": "triggers"
+      },
+      {
+        "from": "highlight",
+        "to": "blog",
+        "kind": "targets"
+      },
+      {
+        "from": "highlight",
+        "to": "projects",
+        "kind": "targets"
+      },
+      {
+        "from": "highlight",
+        "to": "open fiscal space",
+        "kind": "targets"
+      },
+      {
+        "from": "highlight",
+        "to": "openspending.org",
+        "kind": "targets"
+      },
+      {
+        "from": "relate",
+        "to": "openspending.org",
+        "kind": "targets"
+      },
+      {
+        "from": "relate",
+        "to": "central hub of fiscal openness",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1409,
+    "output": 334,
+    "time (ns)": 7241327000
+  }
+}

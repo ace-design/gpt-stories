@@ -1,0 +1,126 @@
+{
+  "story": "#G05# As a Data Consuming User, I want to be able to share an image of a particular view state to the social networks that support this, So that I can provide richer context in those communication channels for data I am sharing.\n",
+  "extraction": {
+    "personas": [
+      "Data Consuming User"
+    ],
+    "entities": [
+      "image",
+      "view state",
+      "social networks",
+      "communication channels",
+      "data"
+    ],
+    "actions": [
+      "share",
+      "support",
+      "provide"
+    ],
+    "benefit": "I can provide richer context in those communication channels for data I am sharing."
+  },
+  "categories": {
+    "primary_entities": [
+      "image",
+      "view state",
+      "social networks",
+      "communication channels",
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "share",
+      "support",
+      "provide"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Consuming User",
+        "to": "share",
+        "kind": "triggers"
+      },
+      {
+        "from": "share",
+        "to": "image",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "view state",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "social networks",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "communication channels",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "support",
+        "to": "image",
+        "kind": "targets"
+      },
+      {
+        "from": "support",
+        "to": "view state",
+        "kind": "targets"
+      },
+      {
+        "from": "support",
+        "to": "social networks",
+        "kind": "targets"
+      },
+      {
+        "from": "support",
+        "to": "communication channels",
+        "kind": "targets"
+      },
+      {
+        "from": "support",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "image",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "view state",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "social networks",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "communication channels",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1430,
+    "output": 562,
+    "time (ns)": 13748116000
+  }
+}

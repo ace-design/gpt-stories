@@ -1,0 +1,70 @@
+{
+  "story": "#G05# As a Data Publishing User, I want to know if my CSV file is valid, So that I can fix possible data issues before publishing it on Open Spending.\n",
+  "extraction": {
+    "personas": [
+      "Data Publishing User"
+    ],
+    "entities": [
+      "CSV file",
+      "Open Spending"
+    ],
+    "actions": [
+      "know",
+      "fix",
+      "publish"
+    ],
+    "benefit": "I can fix possible data issues before publishing it on Open Spending"
+  },
+  "categories": {
+    "primary_entities": [
+      "CSV file",
+      "Open Spending"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "fix",
+      "publish"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Publishing User",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "CSV file",
+        "kind": "targets"
+      },
+      {
+        "from": "Data Publishing User",
+        "to": "fix",
+        "kind": "triggers"
+      },
+      {
+        "from": "fix",
+        "to": "CSV file",
+        "kind": "targets"
+      },
+      {
+        "from": "Data Publishing User",
+        "to": "publish",
+        "kind": "triggers"
+      },
+      {
+        "from": "publish",
+        "to": "Open Spending",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1350,
+    "output": 288,
+    "time (ns)": 8067340000
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "story": "#G05# As a Data Publishing User, I want to be able to edit the model of data I have already imported, So that I can fix bugs or make enhancements in the API built for my data.\n",
+  "extraction": {
+    "personas": [
+      "Data Publishing User"
+    ],
+    "entities": [
+      "model of data",
+      "API"
+    ],
+    "actions": [
+      "edit",
+      "import",
+      "fix bugs",
+      "make enhancements"
+    ],
+    "benefit": "I can fix bugs or make enhancements in the API built for my data"
+  },
+  "categories": {
+    "primary_entities": [
+      "model of data",
+      "API"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "edit",
+      "import"
+    ],
+    "secondary_actions": [
+      "fix bugs",
+      "make enhancements"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Publishing User",
+        "to": "edit",
+        "kind": "triggers"
+      },
+      {
+        "from": "edit",
+        "to": "model of data",
+        "kind": "targets"
+      },
+      {
+        "from": "Data Publishing User",
+        "to": "import",
+        "kind": "triggers"
+      },
+      {
+        "from": "import",
+        "to": "model of data",
+        "kind": "targets"
+      },
+      {
+        "from": "edit",
+        "to": "API",
+        "kind": "targets"
+      },
+      {
+        "from": "import",
+        "to": "API",
+        "kind": "targets"
+      },
+      {
+        "from": "Data Publishing User",
+        "to": "fix bugs",
+        "kind": "triggers"
+      },
+      {
+        "from": "fix bugs",
+        "to": "API",
+        "kind": "targets"
+      },
+      {
+        "from": "Data Publishing User",
+        "to": "make enhancements",
+        "kind": "triggers"
+      },
+      {
+        "from": "make enhancements",
+        "to": "API",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1388,
+    "output": 407,
+    "time (ns)": 8734266000
+  }
+}

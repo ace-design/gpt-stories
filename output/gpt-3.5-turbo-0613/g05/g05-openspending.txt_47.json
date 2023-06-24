@@ -1,0 +1,80 @@
+{
+  "story": "#G05# As an OpenSpending Community Member, I want to have an app where I can find examples of use of fiscal data visualisations, So that I can find guidance in creating my own with Open Spending.\n",
+  "extraction": {
+    "personas": [
+      "OpenSpending Community Member"
+    ],
+    "entities": [
+      "app",
+      "fiscal data visualisations",
+      "Open Spending"
+    ],
+    "actions": [
+      "find examples",
+      "create"
+    ],
+    "benefit": "find guidance in creating my own with Open Spending"
+  },
+  "categories": {
+    "primary_entities": [
+      "app",
+      "fiscal data visualisations",
+      "Open Spending"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "find examples",
+      "create"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "OpenSpending Community Member",
+        "to": "find examples",
+        "kind": "triggers"
+      },
+      {
+        "from": "OpenSpending Community Member",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "find examples",
+        "to": "app",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "app",
+        "kind": "targets"
+      },
+      {
+        "from": "find examples",
+        "to": "fiscal data visualisations",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "fiscal data visualisations",
+        "kind": "targets"
+      },
+      {
+        "from": "find examples",
+        "to": "Open Spending",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "Open Spending",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1387,
+    "output": 357,
+    "time (ns)": 8020301000
+  }
+}

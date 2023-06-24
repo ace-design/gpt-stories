@@ -1,0 +1,68 @@
+{
+  "story": "#G05# As a Data Publishing User, I want to be able to edit a dataset I have published, So that I can correct or enhance existing data.\n",
+  "extraction": {
+    "personas": [
+      "Data Publishing User"
+    ],
+    "entities": [
+      "dataset"
+    ],
+    "actions": [
+      "edit",
+      "correct",
+      "enhance"
+    ],
+    "benefit": "I can correct or enhance existing data"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "edit",
+      "correct",
+      "enhance"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Publishing User",
+        "to": "edit",
+        "kind": "triggers"
+      },
+      {
+        "from": "edit",
+        "to": "dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "Data Publishing User",
+        "to": "correct",
+        "kind": "triggers"
+      },
+      {
+        "from": "correct",
+        "to": "dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "Data Publishing User",
+        "to": "enhance",
+        "kind": "triggers"
+      },
+      {
+        "from": "enhance",
+        "to": "dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1319,
+    "output": 274,
+    "time (ns)": 6522452000
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "story": "#G05# As a Data Consuming User, I want to visualize by default in treemap, bubble tree, map and pivot table the most recent year when my dataset contain multiple years, So that I'm not confused with the amounts.\n",
+  "extraction": {
+    "personas": [
+      "Data Consuming User"
+    ],
+    "entities": [
+      "treemap",
+      "bubble tree",
+      "map",
+      "pivot table",
+      "dataset",
+      "multiple years",
+      "amounts"
+    ],
+    "actions": [
+      "visualize",
+      "contain"
+    ],
+    "benefit": "I'm not confused with the amounts"
+  },
+  "categories": {
+    "primary_entities": [
+      "treemap",
+      "bubble tree",
+      "map",
+      "pivot table"
+    ],
+    "secondary_entities": [
+      "dataset",
+      "multiple years",
+      "amounts"
+    ],
+    "primary_actions": [
+      "visualize"
+    ],
+    "secondary_actions": [
+      "contain"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Consuming User",
+        "to": "visualize",
+        "kind": "triggers"
+      },
+      {
+        "from": "visualize",
+        "to": "treemap",
+        "kind": "targets"
+      },
+      {
+        "from": "visualize",
+        "to": "bubble tree",
+        "kind": "targets"
+      },
+      {
+        "from": "visualize",
+        "to": "map",
+        "kind": "targets"
+      },
+      {
+        "from": "visualize",
+        "to": "pivot table",
+        "kind": "targets"
+      },
+      {
+        "from": "dataset",
+        "to": "contain",
+        "kind": "triggers"
+      },
+      {
+        "from": "multiple years",
+        "to": "contain",
+        "kind": "triggers"
+      },
+      {
+        "from": "amounts",
+        "to": "contain",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1426,
+    "output": 369,
+    "time (ns)": 9412741000
+  }
+}

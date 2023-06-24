@@ -1,0 +1,58 @@
+{
+  "story": "#G05# As a Platform Administrator, I want to have a view on all datasets published by all users, So that I can perform management actions on any dataset.\n",
+  "extraction": {
+    "personas": [
+      "Platform Administrator"
+    ],
+    "entities": [
+      "datasets",
+      "users"
+    ],
+    "actions": [
+      "have a view",
+      "perform management actions"
+    ],
+    "benefit": "perform management actions on any dataset"
+  },
+  "categories": {
+    "primary_entities": [
+      "datasets",
+      "users"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have a view",
+      "perform management actions"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Platform Administrator",
+        "to": "have a view",
+        "kind": "triggers"
+      },
+      {
+        "from": "Platform Administrator",
+        "to": "perform management actions",
+        "kind": "triggers"
+      },
+      {
+        "from": "have a view",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "perform management actions",
+        "to": "datasets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1327,
+    "output": 229,
+    "time (ns)": 6273499000
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "story": "#G05# As a Data Publishing User, I want to know what my data needs to be able to be visualised on a map, So that I can visualise it on a map.\n",
+  "extraction": {
+    "personas": [
+      "Data Publishing User"
+    ],
+    "entities": [
+      "data"
+    ],
+    "actions": [
+      "know",
+      "visualise"
+    ],
+    "benefit": "I can visualise it on a map"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "know",
+      "visualise"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Publishing User",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "Data Publishing User",
+        "to": "visualise",
+        "kind": "triggers"
+      },
+      {
+        "from": "visualise",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1333,
+    "output": 216,
+    "time (ns)": 5657698000
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "story": "#G05# As a Data Publishing User, I want to have a functioning Python Client, So that I can add data to the datastore in bulk from the command line or my own programs.\n",
+  "extraction": {
+    "personas": [
+      "Data Publishing User"
+    ],
+    "entities": [
+      "Python Client",
+      "datastore"
+    ],
+    "actions": [
+      "add data"
+    ],
+    "benefit": "I can add data to the datastore in bulk from the command line or my own programs"
+  },
+  "categories": {
+    "primary_entities": [
+      "Python Client",
+      "datastore"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "add data"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Publishing User",
+        "to": "add data",
+        "kind": "triggers"
+      },
+      {
+        "from": "add data",
+        "to": "Python Client",
+        "kind": "targets"
+      },
+      {
+        "from": "add data",
+        "to": "datastore",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1354,
+    "output": 204,
+    "time (ns)": 16340564000
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "story": "#G05# As a Data Consuming User, I want to be able to filter, sort and aggregate data by multiple dimensions and measures, So that I can get more granular views on the data.\n",
+  "extraction": {
+    "personas": [
+      "Data Consuming User"
+    ],
+    "entities": [
+      "data"
+    ],
+    "actions": [
+      "filter",
+      "sort",
+      "aggregate"
+    ],
+    "benefit": "I can get more granular views on the data"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "filter",
+      "sort",
+      "aggregate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Consuming User",
+        "to": "filter",
+        "kind": "triggers"
+      },
+      {
+        "from": "Data Consuming User",
+        "to": "sort",
+        "kind": "triggers"
+      },
+      {
+        "from": "Data Consuming User",
+        "to": "aggregate",
+        "kind": "triggers"
+      },
+      {
+        "from": "filter",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "sort",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "aggregate",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1351,
+    "output": 277,
+    "time (ns)": 6530787000
+  }
+}

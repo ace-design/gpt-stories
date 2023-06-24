@@ -1,0 +1,44 @@
+{
+  "story": "#G05# As a Platform Administrator, I want to be able to delete any dataset published, So that I can deal with takedown requests, or clean up test datasets.\n",
+  "extraction": {
+    "personas": [
+      "Platform Administrator"
+    ],
+    "entities": [
+      "dataset"
+    ],
+    "actions": [
+      "delete"
+    ],
+    "benefit": "I can deal with takedown requests or clean up test datasets"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "delete"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Platform Administrator",
+        "to": "delete",
+        "kind": "triggers"
+      },
+      {
+        "from": "delete",
+        "to": "dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1315,
+    "output": 155,
+    "time (ns)": 4843423000
+  }
+}

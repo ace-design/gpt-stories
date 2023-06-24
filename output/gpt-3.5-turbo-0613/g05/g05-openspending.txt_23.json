@@ -1,0 +1,65 @@
+{
+  "story": "#G05# As a Data Consuming User, I want to have consistent use of colour on map visualisations, So that I can better understand the visual logic of the map view.\n",
+  "extraction": {
+    "personas": [
+      "Data Consuming User"
+    ],
+    "entities": [
+      "colour",
+      "map visualisations",
+      "map view"
+    ],
+    "actions": [
+      "have consistent use",
+      "understand"
+    ],
+    "benefit": "better understand the visual logic of the map view"
+  },
+  "categories": {
+    "primary_entities": [
+      "colour",
+      "map visualisations",
+      "map view"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have consistent use",
+      "understand"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Consuming User",
+        "to": "have consistent use",
+        "kind": "triggers"
+      },
+      {
+        "from": "have consistent use",
+        "to": "colour",
+        "kind": "targets"
+      },
+      {
+        "from": "have consistent use",
+        "to": "map visualisations",
+        "kind": "targets"
+      },
+      {
+        "from": "have consistent use",
+        "to": "map view",
+        "kind": "targets"
+      },
+      {
+        "from": "understand",
+        "to": "map view",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1364,
+    "output": 274,
+    "time (ns)": 5972652000
+  }
+}

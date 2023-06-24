@@ -1,0 +1,382 @@
+START: 15:12:13
+# Processing g05-openspending.txt
+- Story #[1] -- started at 15:12:13
+    - #G05# As a Data Publishing User, I want to be able to edit a dataset I have published, So that I can correct or enhance existing data.
+
+        - calling model 15:12:13
+        - calling model 15:12:16
+        - calling model 15:12:19
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_1.json
+- Story #[2] -- started at 15:12:25
+    - #G05# As a Data Publishing User, I want to be able to edit the model of data I have already imported, So that I can fix bugs or make enhancements in the API built for my data.
+
+        - calling model 15:12:25
+        - calling model 15:12:29
+       - exception caught! Pausing for 60 seconds
+        - calling model 15:13:59
+        - calling model 15:14:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_2.json
+- Story #[3] -- started at 15:14:10
+    - #G05# As a Data Publishing User, I want to be able to delete a dataset I have published, So that I can remove unwanted data from OpenSpending.
+
+        - calling model 15:14:10
+        - calling model 15:14:13
+        - calling model 15:14:17
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_3.json
+- Story #[4] -- started at 15:14:21
+    - #G05# As a Platform Administrator, I want to be able to Hide any dataset already added as Public, So that I can maintain Public/Hidden status for other users.
+
+        - calling model 15:14:21
+        - calling model 15:14:24
+        - calling model 15:14:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_4.json
+- Story #[5] -- started at 15:14:32
+    - #G05# As a Platform Administrator, I want to have a view on all datasets published by all users, So that I can perform management actions on any dataset.
+
+        - calling model 15:14:32
+        - calling model 15:14:36
+        - calling model 15:14:40
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_5.json
+- Story #[6] -- started at 15:14:45
+    - #G05# As a Platform Administrator, I want to be able to delete any dataset published, So that I can deal with takedown requests, or clean up test datasets.
+
+        - calling model 15:14:45
+        - calling model 15:14:48
+        - calling model 15:14:52
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_6.json
+- Story #[7] -- started at 15:14:55
+    - #G05# As a Data Publishing User, I want to be able to edit the data source of data I have already imported, So that I can fix bugs or make enhancements in the API built for my data.
+
+        - calling model 15:14:55
+        - calling model 15:14:59
+        - calling model 15:15:03
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_7.json
+- Story #[8] -- started at 15:15:13
+    - #G05# As a Data Publishing User, I want to have the Packager support Constants, So that I can model dimensions that may not exist in the source file.
+
+        - calling model 15:15:13
+        - calling model 15:15:17
+        - calling model 15:15:21
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_8.json
+- Story #[9] -- started at 15:15:26
+    - #G05# As a Data Publishing User, I want to be able to import data in Excel, So that I do not have to convert data formats in order to use the data packager.
+
+        - calling model 15:15:26
+        - calling model 15:15:30
+        - calling model 15:15:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_9.json
+- Story #[10] -- started at 15:15:40
+    - #G05# As a Data Publishing User, I want to know what my data needs to be able to be visualised on a map, So that I can visualise it on a map.
+
+        - calling model 15:15:40
+        - calling model 15:15:44
+        - calling model 15:15:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_10.json
+- Story #[11] -- started at 15:15:52
+    - #G05# As a Data Publishing User, I want to be able to import data in JSON, So that I do not have to convert data formats in order to use the data packager.
+
+        - calling model 15:15:52
+        - calling model 15:15:56
+        - calling model 15:15:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_11.json
+- Story #[12] -- started at 15:16:03
+    - #G05# As a Data Publishing User, I want to be able to import data from a Google Spreadsheet, So that I do not have to convert data formats in order to use the data packager.
+
+        - calling model 15:16:03
+        - calling model 15:16:07
+        - calling model 15:16:10
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_12.json
+- Story #[13] -- started at 15:16:15
+    - #G05# As a Data Publishing User, I want to be able to import data from Fiscal Data Package descriptor file, So that I do not have to convert data formats in order to use the data packager.
+
+        - calling model 15:16:15
+        - calling model 15:16:18
+        - calling model 15:16:22
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_13.json
+- Story #[14] -- started at 15:16:26
+    - #G05# As a Data Publishing User, I want to be able to provide the Platform Administrator with additional GeoJSON sources, So that I can improve the map-based visualisations of my data.
+
+        - calling model 15:16:26
+        - calling model 15:16:30
+        - calling model 15:16:33
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_14.json
+- Story #[15] -- started at 15:16:39
+    - #G05# As a Data Consuming User, I want to be able to filter, sort and aggregate data by multiple dimensions and measures, So that I can get more granular views on the data.
+
+        - calling model 15:16:39
+       - exception caught! Pausing for 60 seconds
+        - calling model 15:18:09
+        - calling model 15:18:12
+        - calling model 15:18:16
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_15.json
+- Story #[16] -- started at 15:18:21
+    - #G05# As a Data Consuming User, I want to be able to download a CSV of the data that is used in any visualisation I am viewing, So that I can use the data in other tools.
+
+        - calling model 15:18:21
+        - calling model 15:18:26
+        - calling model 15:18:29
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_16.json
+- Story #[17] -- started at 15:18:34
+    - #G05# As a Data Consuming User, I want to be able to change the display of all monetary measures across a set of currencies, So that I can understand localised amounts in non-localised figures.
+
+        - calling model 15:18:34
+        - calling model 15:18:37
+        - calling model 15:18:42
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_17.json
+- Story #[18] -- started at 15:18:48
+    - #G05# As a Data Consuming User, I want to see textual descriptions that accompany embedded visualisations, So that I can more easily understand what I am viewing.
+
+        - calling model 15:18:48
+        - calling model 15:18:51
+        - calling model 15:18:55
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_18.json
+- Story #[19] -- started at 15:18:59
+    - #G05# As a Data Consuming User, I want to be able to share a view state as a URL to social networks, So that I can share data that I have found with others.
+
+        - calling model 15:18:59
+        - calling model 15:19:02
+        - calling model 15:19:06
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_19.json
+- Story #[20] -- started at 15:19:11
+    - #G05# As a Data Consuming User, I want to be able to download an image ofa particular view state, So that I can use it offline.
+
+        - calling model 15:19:11
+        - calling model 15:19:15
+       - exception caught! Pausing for 60 seconds
+        - calling model 15:20:45
+        - calling model 15:20:48
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_20.json
+- Story #[21] -- started at 15:20:51
+    - #G05# As a Data Consuming User, I want to be able to share an image of a particular view state to the social networks that support this, So that I can provide richer context in those communication channels for data I am sharing.
+
+        - calling model 15:20:51
+        - calling model 15:20:55
+        - calling model 15:20:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_21.json
+- Story #[22] -- started at 15:21:11
+    - #G05# As a Data Consuming User, I want to be able to have stepped zoom on map visualisations, So that I can have better control over the navigation experience inside a map view.
+
+        - calling model 15:21:11
+        - calling model 15:21:15
+        - calling model 15:21:18
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_22.json
+- Story #[23] -- started at 15:21:30
+    - #G05# As a Data Consuming User, I want to have consistent use of colour on map visualisations, So that I can better understand the visual logic of the map view.
+
+        - calling model 15:21:30
+        - calling model 15:21:33
+        - calling model 15:21:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_23.json
+- Story #[24] -- started at 15:21:42
+    - #G05# As a Developer, I want to be able to customise the Brand Name and Icon, and Primary Color of all frontend Javascript apps, So that I can customise the branding for my own needs.
+
+        - calling model 15:21:42
+        - calling model 15:21:45
+        - calling model 15:21:49
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_24.json
+- Story #[25] -- started at 15:21:54
+    - #G05# As an API User, I want to be able to understand if a user is a Publisher, So that I can offer functionality based on Dataset Publisher privileges.
+
+        - calling model 15:21:54
+        - calling model 15:21:57
+        - calling model 15:22:00
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_25.json
+- Story #[26] -- started at 15:22:06
+    - #G05# As an API User, I want to be able to understand if a user is an Administrator, So that I can offer functionality based on Platform Administration privileges.
+
+        - calling model 15:22:06
+        - calling model 15:22:09
+        - calling model 15:22:12
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_26.json
+- Story #[27] -- started at 15:22:17
+    - #G05# As an API User, I want to be able to get bordering regions|cities when I query a region|city, So that I can provider wider visual context for mapping visualisations.
+
+        - calling model 15:22:17
+        - calling model 15:22:21
+        - calling model 15:22:24
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_27.json
+- Story #[28] -- started at 15:22:29
+    - #G05# As an API User, I want to be able to dynamically request polygons based on the query made, So that I can provide maps that match the query.
+
+        - calling model 15:22:29
+        - calling model 15:22:33
+        - calling model 15:22:36
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_28.json
+- Story #[29] -- started at 15:22:41
+    - #G05# As an API User, I want to have a flexible API using HASC codes for countries, regions and cities, So that I can visualise budget data on maps.
+
+        - calling model 15:22:41
+        - calling model 15:22:45
+        - calling model 15:22:49
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_29.json
+- Story #[30] -- started at 15:22:58
+    - #G05# As an API User, I want to be able to get a CSV output of any cube-based query, So that I can use work with tools that read CSV.
+
+        - calling model 15:22:58
+        - calling model 15:23:01
+        - calling model 15:23:04
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_30.json
+- Story #[31] -- started at 15:23:11
+    - #G05# As an API User, I want to be able to get a set of monetary measures transferred to different currencies, So that I can use this in scenarios that might enable comparison by normalisation.
+
+        - calling model 15:23:11
+        - calling model 15:23:14
+       - exception caught! Pausing for 60 seconds
+        - calling model 15:24:44
+        - calling model 15:24:48
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_31.json
+- Story #[32] -- started at 15:24:54
+    - #G05# As an API User, I want to be able to use metadata to get results from multiple datasets, So that I can build user experiences based on more than one dataset more easily.
+
+        - calling model 15:24:54
+        - calling model 15:24:57
+        - calling model 15:25:01
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_32.json
+- Story #[33] -- started at 15:25:06
+    - #G05# As an API User, I want to be able to use data to get results from multiple datasets, So that I can build user experiences based on more than one dataset more easily.
+
+        - calling model 15:25:06
+        - calling model 15:25:09
+        - calling model 15:25:12
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_33.json
+- Story #[34] -- started at 15:25:17
+    - #G05# As an API User, I want to be able to normalise measures by population, So that I work with datasets in reference to their contextual constraints.
+
+        - calling model 15:25:17
+        - calling model 15:25:20
+        - calling model 15:25:24
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_34.json
+- Story #[35] -- started at 15:25:29
+    - #G05# As an API User, I want to be able to normalise measures by geographical area, So that I work with datasets in reference to their contextual constraints.
+
+        - calling model 15:25:29
+        - calling model 15:25:32
+        - calling model 15:25:36
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_35.json
+- Story #[36] -- started at 15:25:40
+    - #G05# As an API User, I want to be able to normalise measures by GDP, so I work with datasets in reference to their contextual constraints.
+
+        - calling model 15:25:40
+        - calling model 15:25:44
+        - calling model 15:25:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_36.json
+- Story #[37] -- started at 15:25:51
+    - #G05# As an API User, I want to be able to normalise measures by GINI and related socioeconomic indexes, So that I work with datasets in reference to their contextual constraints.
+
+        - calling model 15:25:51
+        - calling model 15:25:55
+        - calling model 15:25:59
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_37.json
+- Story #[38] -- started at 15:26:04
+    - #G05# As an API User, I want to be able to get a relative percentage of a measure to the total of the dataset it comes from, So that I can build alternative displays of the data.
+
+        - calling model 15:26:04
+        - calling model 15:26:08
+        - calling model 15:26:11
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_38.json
+- Story #[39] -- started at 15:26:16
+    - #G05# As an API User, I want to be able to persistently store visualisation state in the database, So that such can be shared more easily and contribute to a visualisation gallery.
+
+        - calling model 15:26:16
+        - calling model 15:26:25
+        - calling model 15:26:28
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_39.json
+- Story #[40] -- started at 15:26:34
+    - #G05# As a Data Publishing User, I want to have my dataset update automatically as the source file/files changes, So that OpenSpending always shows current data.
+
+        - calling model 15:26:34
+        - calling model 15:26:37
+        - calling model 15:26:41
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_40.json
+- Story #[41] -- started at 15:26:46
+    - #G05# As an OpenSpending Community Member, I want to have a blog that highlights any and all projects in the open fiscal space, So that I can relate to openspending.org as the central hub of fiscal openness.
+
+        - calling model 15:26:46
+        - calling model 15:26:50
+        - calling model 15:26:53
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_41.json
+- Story #[42] -- started at 15:26:59
+    - #G05# As a User, I want to be able to set my own username, So that my data is more easily discoverable.
+
+        - calling model 15:26:59
+        - calling model 15:27:03
+        - calling model 15:27:06
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_42.json
+- Story #[43] -- started at 15:27:10
+    - #G05# As a Data Publishing User, I want to be able to add a dataset in a Hidden state, So that I can work on a dataset before having it discoverable via OpenSpending user interfaces.
+
+        - calling model 15:27:10
+        - calling model 15:27:14
+        - calling model 15:27:18
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_43.json
+- Story #[44] -- started at 15:27:25
+    - #G05# As a Data Publishing User, I want to be able to Hide a dataset that I have already added as Public, So that I can fix my mistakes or have a dataset primarily for my own use.
+
+        - calling model 15:27:25
+        - calling model 15:27:29
+        - calling model 15:27:32
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_44.json
+- Story #[45] -- started at 15:27:38
+    - #G05# As a Data Publishing User, I want to have a view on all the datasets I have published, So that I can perform management actions on my own datasets.
+
+        - calling model 15:27:38
+        - calling model 15:27:41
+        - calling model 15:27:45
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_45.json
+- Story #[46] -- started at 15:27:50
+    - #G05# As a Data Publishing User, I want to have a functioning Python Client, So that I can add data to the datastore in bulk from the command line or my own programs.
+
+        - calling model 15:27:50
+        - calling model 15:28:04
+        - calling model 15:28:08
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_46.json
+- Story #[47] -- started at 15:28:12
+    - #G05# As an OpenSpending Community Member, I want to have an app where I can find examples of use of fiscal data visualisations, So that I can find guidance in creating my own with Open Spending.
+
+        - calling model 15:28:12
+        - calling model 15:28:16
+        - calling model 15:28:19
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_47.json
+- Story #[48] -- started at 15:28:26
+    - #G05# As a Data Publishing User, I want to know if my CSV file is valid, So that I can fix possible data issues before publishing it on Open Spending.
+
+        - calling model 15:28:26
+        - calling model 15:28:30
+        - calling model 15:28:34
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_48.json
+- Story #[49] -- started at 15:28:40
+    - #G05# As a Data Consuming User, I want to be able to search any dataset published and publicly accessible by their title and metadata, So that I can find the datasets I'm interested in.
+
+        - calling model 15:28:40
+        - calling model 15:28:44
+        - calling model 15:28:47
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_49.json
+- Story #[50] -- started at 15:28:51
+    - #G05# As a Data Consuming User, I want to visualize by default in treemap, bubble tree, map and pivot table the most recent year when my dataset contain multiple years, So that I'm not confused with the amounts.
+
+        - calling model 15:28:51
+        - calling model 15:28:55
+        - calling model 15:28:58
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_50.json
+- Story #[51] -- started at 15:29:06
+    - #G05# As an API user, I want to be able to change the colors of the embedded visualisations in my own platform, So that I can customize the visualisations.
+
+        - calling model 15:29:06
+        - calling model 15:29:10
+        - calling model 15:29:13
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_51.json
+- Story #[52] -- started at 15:29:18
+    - #G05# As an API user, I want to be able to change some of the styling of the embedded Viewer in my own platform, So that I can brand it to my own organisation's color scheme.
+
+        - calling model 15:29:18
+        - calling model 15:29:22
+        - calling model 15:29:25
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_52.json
+- Story #[53] -- started at 15:29:29
+    - #G05# As a Platform administrator, I want to be able to translate the data types hierarchies of the Viewer while in embed mode, So that my users can understand the interface in their native language.
+
+        - calling model 15:29:29
+        - calling model 15:29:33
+        - calling model 15:29:37
+    - saving result into: ./output/gpt-3.5-turbo-0613/g05-openspending.txt_53.json
+END: 15:29:41

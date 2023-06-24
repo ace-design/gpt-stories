@@ -1,0 +1,69 @@
+{
+  "story": "#G05# As a Data Consuming User, I want to be able to download a CSV of the data that is used in any visualisation I am viewing, So that I can use the data in other tools.\n",
+  "extraction": {
+    "personas": [
+      "Data Consuming User"
+    ],
+    "entities": [
+      "CSV",
+      "data",
+      "visualisation"
+    ],
+    "actions": [
+      "download",
+      "viewing",
+      "use"
+    ],
+    "benefit": "I can use the data in other tools"
+  },
+  "categories": {
+    "primary_entities": [
+      "CSV",
+      "data"
+    ],
+    "secondary_entities": [
+      "visualisation"
+    ],
+    "primary_actions": [
+      "download",
+      "use"
+    ],
+    "secondary_actions": [
+      "viewing"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Consuming User",
+        "to": "download",
+        "kind": "triggers"
+      },
+      {
+        "from": "download",
+        "to": "CSV",
+        "kind": "targets"
+      },
+      {
+        "from": "download",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "viewing",
+        "to": "visualisation",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1377,
+    "output": 258,
+    "time (ns)": 6749545000
+  }
+}

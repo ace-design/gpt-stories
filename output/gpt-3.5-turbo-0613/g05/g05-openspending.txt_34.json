@@ -1,0 +1,65 @@
+{
+  "story": "#G05# As an API User, I want to be able to normalise measures by population, So that I work with datasets in reference to their contextual constraints.\n",
+  "extraction": {
+    "personas": [
+      "API User"
+    ],
+    "entities": [
+      "measures",
+      "population",
+      "datasets"
+    ],
+    "actions": [
+      "normalise",
+      "work"
+    ],
+    "benefit": "I can work with datasets in reference to their contextual constraints"
+  },
+  "categories": {
+    "primary_entities": [
+      "measures",
+      "population",
+      "datasets"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "normalise",
+      "work"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "API User",
+        "to": "normalise",
+        "kind": "triggers"
+      },
+      {
+        "from": "normalise",
+        "to": "measures",
+        "kind": "targets"
+      },
+      {
+        "from": "normalise",
+        "to": "population",
+        "kind": "targets"
+      },
+      {
+        "from": "normalise",
+        "to": "datasets",
+        "kind": "targets"
+      },
+      {
+        "from": "work",
+        "to": "datasets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1340,
+    "output": 256,
+    "time (ns)": 5937288000
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "story": "#G05# As an API User, I want to be able to get bordering regions|cities when I query a region|city, So that I can provider wider visual context for mapping visualisations.\n",
+  "extraction": {
+    "personas": [
+      "API User"
+    ],
+    "entities": [
+      "bordering regions",
+      "cities",
+      "region",
+      "city"
+    ],
+    "actions": [
+      "get"
+    ],
+    "benefit": "I can provide wider visual context for mapping visualizations"
+  },
+  "categories": {
+    "primary_entities": [
+      "bordering regions",
+      "cities"
+    ],
+    "secondary_entities": [
+      "region",
+      "city"
+    ],
+    "primary_actions": [
+      "get"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "API User",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "bordering regions",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "cities",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "region",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "city",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1361,
+    "output": 251,
+    "time (ns)": 5814763000
+  }
+}

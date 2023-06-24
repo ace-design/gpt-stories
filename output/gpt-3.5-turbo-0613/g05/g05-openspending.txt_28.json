@@ -1,0 +1,70 @@
+{
+  "story": "#G05# As an API User, I want to be able to dynamically request polygons based on the query made, So that I can provide maps that match the query.\n",
+  "extraction": {
+    "personas": [
+      "API User"
+    ],
+    "entities": [
+      "polygons",
+      "query",
+      "maps"
+    ],
+    "actions": [
+      "request",
+      "provide"
+    ],
+    "benefit": "I can provide maps that match the query"
+  },
+  "categories": {
+    "primary_entities": [
+      "polygons",
+      "query",
+      "maps"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "request",
+      "provide"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "API User",
+        "to": "request",
+        "kind": "triggers"
+      },
+      {
+        "from": "request",
+        "to": "polygons",
+        "kind": "targets"
+      },
+      {
+        "from": "API User",
+        "to": "provide",
+        "kind": "triggers"
+      },
+      {
+        "from": "provide",
+        "to": "maps",
+        "kind": "targets"
+      },
+      {
+        "from": "API User",
+        "to": "provide",
+        "kind": "triggers"
+      },
+      {
+        "from": "provide",
+        "to": "query",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1334,
+    "output": 276,
+    "time (ns)": 6479726000
+  }
+}

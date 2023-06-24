@@ -1,0 +1,69 @@
+{
+  "story": "#G05# As a Data Publishing User, I want to be able to Hide a dataset that I have already added as Public, So that I can fix my mistakes or have a dataset primarily for my own use.\n",
+  "extraction": {
+    "personas": [
+      "Data Publishing User"
+    ],
+    "entities": [
+      "dataset"
+    ],
+    "actions": [
+      "Hide",
+      "fix",
+      "have"
+    ],
+    "benefit": "fix my mistakes or have a dataset primarily for my own use"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Hide",
+      "fix"
+    ],
+    "secondary_actions": [
+      "have"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Publishing User",
+        "to": "Hide",
+        "kind": "triggers"
+      },
+      {
+        "from": "Hide",
+        "to": "dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "Data Publishing User",
+        "to": "fix",
+        "kind": "triggers"
+      },
+      {
+        "from": "fix",
+        "to": "dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "Data Publishing User",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1357,
+    "output": 274,
+    "time (ns)": 6490758000
+  }
+}

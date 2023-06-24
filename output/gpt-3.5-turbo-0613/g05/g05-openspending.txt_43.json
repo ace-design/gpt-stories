@@ -1,0 +1,84 @@
+{
+  "story": "#G05# As a Data Publishing User, I want to be able to add a dataset in a Hidden state, So that I can work on a dataset before having it discoverable via OpenSpending user interfaces.\n",
+  "extraction": {
+    "personas": [
+      "Data Publishing User"
+    ],
+    "entities": [
+      "dataset",
+      "Hidden state",
+      "OpenSpending user interfaces"
+    ],
+    "actions": [
+      "add",
+      "work on",
+      "discoverable"
+    ],
+    "benefit": "I can work on a dataset before having it discoverable via OpenSpending user interfaces"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset"
+    ],
+    "secondary_entities": [
+      "Hidden state",
+      "OpenSpending user interfaces"
+    ],
+    "primary_actions": [
+      "add",
+      "work on"
+    ],
+    "secondary_actions": [
+      "discoverable"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Publishing User",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "Data Publishing User",
+        "to": "work on",
+        "kind": "triggers"
+      },
+      {
+        "from": "work on",
+        "to": "dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "Hidden state",
+        "kind": "targets"
+      },
+      {
+        "from": "work on",
+        "to": "Hidden state",
+        "kind": "targets"
+      },
+      {
+        "from": "work on",
+        "to": "OpenSpending user interfaces",
+        "kind": "targets"
+      },
+      {
+        "from": "discoverable",
+        "to": "OpenSpending user interfaces",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1405,
+    "output": 366,
+    "time (ns)": 9241240000
+  }
+}

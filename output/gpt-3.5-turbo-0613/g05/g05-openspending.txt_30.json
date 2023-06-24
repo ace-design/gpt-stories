@@ -1,0 +1,47 @@
+{
+  "story": "#G05# As an API User, I want to be able to get a CSV output of any cube-based query, So that I can use work with tools that read CSV.\n",
+  "extraction": {
+    "personas": [
+      "API User"
+    ],
+    "entities": [
+      "CSV output",
+      "cube-based query"
+    ],
+    "actions": [
+      "get"
+    ],
+    "benefit": "I can work with tools that read CSV"
+  },
+  "categories": {
+    "primary_entities": [
+      "CSV output"
+    ],
+    "secondary_entities": [
+      "cube-based query"
+    ],
+    "primary_actions": [
+      "get"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "API User",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "CSV output",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1327,
+    "output": 163,
+    "time (ns)": 7214718000
+  }
+}

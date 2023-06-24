@@ -1,0 +1,52 @@
+{
+  "story": "#G05# As a Data Consuming User, I want to be able to change the display of all monetary measures across a set of currencies, So that I can understand localised amounts in non-localised figures.\n",
+  "extraction": {
+    "personas": [
+      "Data Consuming User"
+    ],
+    "entities": [
+      "monetary measures",
+      "currencies"
+    ],
+    "actions": [
+      "change the display"
+    ],
+    "benefit": "I can understand localised amounts in non-localised figures"
+  },
+  "categories": {
+    "primary_entities": [
+      "monetary measures"
+    ],
+    "secondary_entities": [
+      "currencies"
+    ],
+    "primary_actions": [
+      "change the display"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Consuming User",
+        "to": "change the display",
+        "kind": "triggers"
+      },
+      {
+        "from": "change the display",
+        "to": "monetary measures",
+        "kind": "targets"
+      },
+      {
+        "from": "change the display",
+        "to": "currencies",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1364,
+    "output": 207,
+    "time (ns)": 7752228000
+  }
+}

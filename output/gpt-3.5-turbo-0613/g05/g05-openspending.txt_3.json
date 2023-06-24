@@ -1,0 +1,51 @@
+{
+  "story": "#G05# As a Data Publishing User, I want to be able to delete a dataset I have published, So that I can remove unwanted data from OpenSpending.\n",
+  "extraction": {
+    "personas": [
+      "Data Publishing User"
+    ],
+    "entities": [
+      "dataset",
+      "OpenSpending"
+    ],
+    "actions": [
+      "delete"
+    ],
+    "benefit": "I can remove unwanted data from OpenSpending"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset",
+      "OpenSpending"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "delete"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Publishing User",
+        "to": "delete",
+        "kind": "triggers"
+      },
+      {
+        "from": "delete",
+        "to": "dataset",
+        "kind": "targets"
+      },
+      {
+        "from": "delete",
+        "to": "OpenSpending",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1323,
+    "output": 191,
+    "time (ns)": 4853035000
+  }
+}

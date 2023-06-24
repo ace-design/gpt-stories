@@ -1,0 +1,58 @@
+{
+  "story": "#G05# As an API User, I want to be able to get a relative percentage of a measure to the total of the dataset it comes from, So that I can build alternative displays of the data.\n",
+  "extraction": {
+    "personas": [
+      "API User"
+    ],
+    "entities": [
+      "measure",
+      "dataset"
+    ],
+    "actions": [
+      "get",
+      "build"
+    ],
+    "benefit": "I can build alternative displays of the data"
+  },
+  "categories": {
+    "primary_entities": [
+      "measure",
+      "dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "get",
+      "build"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "API User",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "measure",
+        "kind": "targets"
+      },
+      {
+        "from": "API User",
+        "to": "build",
+        "kind": "triggers"
+      },
+      {
+        "from": "build",
+        "to": "dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1346,
+    "output": 215,
+    "time (ns)": 6247673000
+  }
+}

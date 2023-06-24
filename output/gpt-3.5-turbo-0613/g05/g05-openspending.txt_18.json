@@ -1,0 +1,51 @@
+{
+  "story": "#G05# As a Data Consuming User, I want to see textual descriptions that accompany embedded visualisations, So that I can more easily understand what I am viewing.\n",
+  "extraction": {
+    "personas": [
+      "Data Consuming User"
+    ],
+    "entities": [
+      "textual descriptions",
+      "embedded visualisations"
+    ],
+    "actions": [
+      "see"
+    ],
+    "benefit": "more easily understand what I am viewing"
+  },
+  "categories": {
+    "primary_entities": [
+      "textual descriptions",
+      "embedded visualisations"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "see"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Consuming User",
+        "to": "see",
+        "kind": "triggers"
+      },
+      {
+        "from": "see",
+        "to": "textual descriptions",
+        "kind": "targets"
+      },
+      {
+        "from": "see",
+        "to": "embedded visualisations",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1327,
+    "output": 197,
+    "time (ns)": 5040483000
+  }
+}

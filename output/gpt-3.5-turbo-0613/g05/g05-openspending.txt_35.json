@@ -1,0 +1,59 @@
+{
+  "story": "#G05# As an API User, I want to be able to normalise measures by geographical area, So that I work with datasets in reference to their contextual constraints.\n",
+  "extraction": {
+    "personas": [
+      "API User"
+    ],
+    "entities": [
+      "measures",
+      "geographical area",
+      "datasets"
+    ],
+    "actions": [
+      "normalise"
+    ],
+    "benefit": "I can work with datasets in reference to their contextual constraints"
+  },
+  "categories": {
+    "primary_entities": [
+      "measures",
+      "geographical area"
+    ],
+    "secondary_entities": [
+      "datasets"
+    ],
+    "primary_actions": [
+      "normalise"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "API User",
+        "to": "normalise",
+        "kind": "triggers"
+      },
+      {
+        "from": "normalise",
+        "to": "measures",
+        "kind": "targets"
+      },
+      {
+        "from": "normalise",
+        "to": "geographical area",
+        "kind": "targets"
+      },
+      {
+        "from": "normalise",
+        "to": "datasets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1339,
+    "output": 230,
+    "time (ns)": 5281087000
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "story": "#G05# As a Data Publishing User, I want to be able to import data in Excel, So that I do not have to convert data formats in order to use the data packager.\n",
+  "extraction": {
+    "personas": [
+      "Data Publishing User"
+    ],
+    "entities": [
+      "Excel",
+      "data formats",
+      "data packager"
+    ],
+    "actions": [
+      "import",
+      "convert",
+      "use"
+    ],
+    "benefit": "I do not have to convert data formats in order to use the data packager."
+  },
+  "categories": {
+    "primary_entities": [
+      "Excel",
+      "data packager"
+    ],
+    "secondary_entities": [
+      "data formats"
+    ],
+    "primary_actions": [
+      "import",
+      "use"
+    ],
+    "secondary_actions": [
+      "convert"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Publishing User",
+        "to": "import",
+        "kind": "triggers"
+      },
+      {
+        "from": "import",
+        "to": "Excel",
+        "kind": "targets"
+      },
+      {
+        "from": "import",
+        "to": "data formats",
+        "kind": "targets"
+      },
+      {
+        "from": "import",
+        "to": "data packager",
+        "kind": "targets"
+      },
+      {
+        "from": "Data Publishing User",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "Excel",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "data formats",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "data packager",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1381,
+    "output": 348,
+    "time (ns)": 8627079000
+  }
+}

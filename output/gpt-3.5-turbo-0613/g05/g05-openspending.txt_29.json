@@ -1,0 +1,112 @@
+{
+  "story": "#G05# As an API User, I want to have a flexible API using HASC codes for countries, regions and cities, So that I can visualise budget data on maps.\n",
+  "extraction": {
+    "personas": [
+      "API User"
+    ],
+    "entities": [
+      "API",
+      "HASC codes",
+      "countries",
+      "regions",
+      "cities",
+      "budget data",
+      "maps"
+    ],
+    "actions": [
+      "have",
+      "use",
+      "visualise"
+    ],
+    "benefit": "I can visualise budget data on maps"
+  },
+  "categories": {
+    "primary_entities": [
+      "API",
+      "HASC codes",
+      "countries",
+      "regions",
+      "cities"
+    ],
+    "secondary_entities": [
+      "budget data",
+      "maps"
+    ],
+    "primary_actions": [
+      "have",
+      "use"
+    ],
+    "secondary_actions": [
+      "visualise"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "API User",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "API",
+        "kind": "targets"
+      },
+      {
+        "from": "API User",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "HASC codes",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "countries",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "regions",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "cities",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "budget data",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "maps",
+        "kind": "targets"
+      },
+      {
+        "from": "API User",
+        "to": "visualise",
+        "kind": "triggers"
+      },
+      {
+        "from": "visualise",
+        "to": "budget data",
+        "kind": "targets"
+      },
+      {
+        "from": "visualise",
+        "to": "maps",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1394,
+    "output": 466,
+    "time (ns)": 10065180000
+  }
+}

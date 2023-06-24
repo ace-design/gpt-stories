@@ -1,0 +1,65 @@
+{
+  "story": "#G05# As a Data Consuming User, I want to be able to share a view state as a URL to social networks, So that I can share data that I have found with others.\n",
+  "extraction": {
+    "personas": [
+      "Data Consuming User"
+    ],
+    "entities": [
+      "view state",
+      "URL",
+      "social networks",
+      "data"
+    ],
+    "actions": [
+      "share"
+    ],
+    "benefit": "I can share data that I have found with others"
+  },
+  "categories": {
+    "primary_entities": [
+      "view state",
+      "URL",
+      "social networks",
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "share"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Consuming User",
+        "to": "share",
+        "kind": "triggers"
+      },
+      {
+        "from": "share",
+        "to": "view state",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "URL",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "social networks",
+        "kind": "targets"
+      },
+      {
+        "from": "share",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1363,
+    "output": 256,
+    "time (ns)": 6037885000
+  }
+}

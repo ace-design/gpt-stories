@@ -1,0 +1,69 @@
+{
+  "story": "#G05# As an API User, I want to be able to normalise measures by GINI and related socioeconomic indexes, So that I work with datasets in reference to their contextual constraints.\n",
+  "extraction": {
+    "personas": [
+      "API User"
+    ],
+    "entities": [
+      "measures",
+      "GINI",
+      "socioeconomic indexes",
+      "datasets"
+    ],
+    "actions": [
+      "normalise",
+      "work"
+    ],
+    "benefit": "I can work with datasets in reference to their contextual constraints"
+  },
+  "categories": {
+    "primary_entities": [
+      "measures",
+      "datasets"
+    ],
+    "secondary_entities": [
+      "GINI",
+      "socioeconomic indexes"
+    ],
+    "primary_actions": [
+      "normalise"
+    ],
+    "secondary_actions": [
+      "work"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "API User",
+        "to": "normalise",
+        "kind": "triggers"
+      },
+      {
+        "from": "normalise",
+        "to": "measures",
+        "kind": "targets"
+      },
+      {
+        "from": "normalise",
+        "to": "GINI",
+        "kind": "targets"
+      },
+      {
+        "from": "normalise",
+        "to": "socioeconomic indexes",
+        "kind": "targets"
+      },
+      {
+        "from": "normalise",
+        "to": "datasets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1373,
+    "output": 273,
+    "time (ns)": 6932787000
+  }
+}

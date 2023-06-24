@@ -1,0 +1,47 @@
+{
+  "story": "#G05# As a Platform administrator, I want to be able to translate the data types hierarchies of the Viewer while in embed mode, So that my users can understand the interface in their native language.\n",
+  "extraction": {
+    "personas": [
+      "Platform administrator"
+    ],
+    "entities": [
+      "data types hierarchies",
+      "Viewer"
+    ],
+    "actions": [
+      "translate"
+    ],
+    "benefit": "users can understand the interface in their native language"
+  },
+  "categories": {
+    "primary_entities": [
+      "data types hierarchies"
+    ],
+    "secondary_entities": [
+      "Viewer"
+    ],
+    "primary_actions": [
+      "translate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Platform administrator",
+        "to": "translate",
+        "kind": "triggers"
+      },
+      {
+        "from": "translate",
+        "to": "data types hierarchies",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1350,
+    "output": 169,
+    "time (ns)": 5538998000
+  }
+}

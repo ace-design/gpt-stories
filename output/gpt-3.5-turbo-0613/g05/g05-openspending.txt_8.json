@@ -1,0 +1,62 @@
+{
+  "story": "#G05# As a Data Publishing User, I want to have the Packager support Constants, So that I can model dimensions that may not exist in the source file.\n",
+  "extraction": {
+    "personas": [
+      "Data Publishing User"
+    ],
+    "entities": [
+      "Packager",
+      "Constants",
+      "source file"
+    ],
+    "actions": [
+      "support",
+      "model"
+    ],
+    "benefit": "I can model dimensions that may not exist in the source file."
+  },
+  "categories": {
+    "primary_entities": [
+      "Packager"
+    ],
+    "secondary_entities": [
+      "Constants",
+      "source file"
+    ],
+    "primary_actions": [
+      "support"
+    ],
+    "secondary_actions": [
+      "model"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Publishing User",
+        "to": "support",
+        "kind": "triggers"
+      },
+      {
+        "from": "support",
+        "to": "Packager",
+        "kind": "targets"
+      },
+      {
+        "from": "model",
+        "to": "Constants",
+        "kind": "targets"
+      },
+      {
+        "from": "model",
+        "to": "source file",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1346,
+    "output": 229,
+    "time (ns)": 7091965000
+  }
+}

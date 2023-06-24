@@ -1,0 +1,59 @@
+{
+  "story": "#G05# As a Data Publishing User, I want to be able to import data from Fiscal Data Package descriptor file, So that I do not have to convert data formats in order to use the data packager.\n",
+  "extraction": {
+    "personas": [
+      "Data Publishing User"
+    ],
+    "entities": [
+      "Fiscal Data Package descriptor file",
+      "data formats",
+      "data packager"
+    ],
+    "actions": [
+      "import"
+    ],
+    "benefit": "I do not have to convert data formats in order to use the data packager."
+  },
+  "categories": {
+    "primary_entities": [
+      "Fiscal Data Package descriptor file",
+      "data packager"
+    ],
+    "secondary_entities": [
+      "data formats"
+    ],
+    "primary_actions": [
+      "import"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Publishing User",
+        "to": "import",
+        "kind": "triggers"
+      },
+      {
+        "from": "import",
+        "to": "Fiscal Data Package descriptor file",
+        "kind": "targets"
+      },
+      {
+        "from": "import",
+        "to": "data packager",
+        "kind": "targets"
+      },
+      {
+        "from": "import",
+        "to": "data formats",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1392,
+    "output": 246,
+    "time (ns)": 5506882000
+  }
+}

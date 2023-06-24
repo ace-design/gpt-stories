@@ -1,0 +1,76 @@
+{
+  "story": "#G05# As an API User, I want to be able to use metadata to get results from multiple datasets, So that I can build user experiences based on more than one dataset more easily.\n",
+  "extraction": {
+    "personas": [
+      "API User"
+    ],
+    "entities": [
+      "metadata",
+      "results",
+      "multiple datasets",
+      "user experiences"
+    ],
+    "actions": [
+      "use",
+      "get",
+      "build"
+    ],
+    "benefit": "build user experiences based on more than one dataset more easily"
+  },
+  "categories": {
+    "primary_entities": [
+      "metadata",
+      "results",
+      "user experiences"
+    ],
+    "secondary_entities": [
+      "multiple datasets"
+    ],
+    "primary_actions": [
+      "use",
+      "build"
+    ],
+    "secondary_actions": [
+      "get"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "API User",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "metadata",
+        "kind": "targets"
+      },
+      {
+        "from": "use",
+        "to": "results",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "results",
+        "kind": "targets"
+      },
+      {
+        "from": "build",
+        "to": "user experiences",
+        "kind": "targets"
+      },
+      {
+        "from": "build",
+        "to": "multiple datasets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1373,
+    "output": 288,
+    "time (ns)": 5864171000
+  }
+}

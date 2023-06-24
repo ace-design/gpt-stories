@@ -1,0 +1,65 @@
+{
+  "story": "#G05# As an API User, I want to be able to understand if a user is a Publisher, So that I can offer functionality based on Dataset Publisher privileges.\n",
+  "extraction": {
+    "personas": [
+      "API User"
+    ],
+    "entities": [
+      "user",
+      "Publisher",
+      "Dataset Publisher"
+    ],
+    "actions": [
+      "understand",
+      "offer"
+    ],
+    "benefit": "I can offer functionality based on Dataset Publisher privileges"
+  },
+  "categories": {
+    "primary_entities": [
+      "user",
+      "Publisher",
+      "Dataset Publisher"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "understand",
+      "offer"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "API User",
+        "to": "understand",
+        "kind": "triggers"
+      },
+      {
+        "from": "understand",
+        "to": "user",
+        "kind": "targets"
+      },
+      {
+        "from": "API User",
+        "to": "offer",
+        "kind": "triggers"
+      },
+      {
+        "from": "offer",
+        "to": "Publisher",
+        "kind": "targets"
+      },
+      {
+        "from": "offer",
+        "to": "Dataset Publisher",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1339,
+    "output": 254,
+    "time (ns)": 5864459000
+  }
+}

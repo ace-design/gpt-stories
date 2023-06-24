@@ -1,0 +1,63 @@
+{
+  "story": "#G05# As an API user, I want to be able to change the colors of the embedded visualisations in my own platform, So that I can customize the visualisations.\n",
+  "extraction": {
+    "personas": [
+      "API user"
+    ],
+    "entities": [
+      "embedded visualisations",
+      "my own platform"
+    ],
+    "actions": [
+      "change the colors",
+      "customize the visualisations"
+    ],
+    "benefit": "I can customize the visualisations"
+  },
+  "categories": {
+    "primary_entities": [
+      "embedded visualisations",
+      "my own platform"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "change the colors",
+      "customize the visualisations"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "API user",
+        "to": "change the colors",
+        "kind": "triggers"
+      },
+      {
+        "from": "change the colors",
+        "to": "embedded visualisations",
+        "kind": "targets"
+      },
+      {
+        "from": "API user",
+        "to": "customize the visualisations",
+        "kind": "triggers"
+      },
+      {
+        "from": "customize the visualisations",
+        "to": "embedded visualisations",
+        "kind": "targets"
+      },
+      {
+        "from": "customize the visualisations",
+        "to": "my own platform",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1351,
+    "output": 275,
+    "time (ns)": 6314823000
+  }
+}

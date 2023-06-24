@@ -1,0 +1,70 @@
+{
+  "story": "#G05# As an API User, I want to be able to use data to get results from multiple datasets, So that I can build user experiences based on more than one dataset more easily.\n",
+  "extraction": {
+    "personas": [
+      "API User"
+    ],
+    "entities": [
+      "data",
+      "results",
+      "multiple datasets",
+      "user experiences"
+    ],
+    "actions": [
+      "use",
+      "get",
+      "build"
+    ],
+    "benefit": "build user experiences based on more than one dataset more easily"
+  },
+  "categories": {
+    "primary_entities": [
+      "data",
+      "results",
+      "user experiences"
+    ],
+    "secondary_entities": [
+      "multiple datasets"
+    ],
+    "primary_actions": [
+      "use",
+      "get",
+      "build"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "API User",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "results",
+        "kind": "targets"
+      },
+      {
+        "from": "build",
+        "to": "user experiences",
+        "kind": "targets"
+      },
+      {
+        "from": "build",
+        "to": "multiple datasets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1375,
+    "output": 264,
+    "time (ns)": 5456024000
+  }
+}

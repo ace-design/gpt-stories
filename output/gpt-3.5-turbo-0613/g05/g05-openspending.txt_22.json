@@ -1,0 +1,58 @@
+{
+  "story": "#G05# As a Data Consuming User, I want to be able to have stepped zoom on map visualisations, So that I can have better control over the navigation experience inside a map view.\n",
+  "extraction": {
+    "personas": [
+      "Data Consuming User"
+    ],
+    "entities": [
+      "map visualisations",
+      "navigation experience",
+      "map view"
+    ],
+    "actions": [
+      "have stepped zoom"
+    ],
+    "benefit": "I can have better control over the navigation experience inside a map view"
+  },
+  "categories": {
+    "primary_entities": [
+      "map visualisations",
+      "navigation experience",
+      "map view"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have stepped zoom"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Consuming User",
+        "to": "have stepped zoom",
+        "kind": "triggers"
+      },
+      {
+        "from": "have stepped zoom",
+        "to": "map visualisations",
+        "kind": "targets"
+      },
+      {
+        "from": "have stepped zoom",
+        "to": "navigation experience",
+        "kind": "targets"
+      },
+      {
+        "from": "have stepped zoom",
+        "to": "map view",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1372,
+    "output": 246,
+    "time (ns)": 12839005000
+  }
+}

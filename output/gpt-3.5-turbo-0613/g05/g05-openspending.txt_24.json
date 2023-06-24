@@ -1,0 +1,66 @@
+{
+  "story": "#G05# As a Developer, I want to be able to customise the Brand Name and Icon, and Primary Color of all frontend Javascript apps, So that I can customise the branding for my own needs.\n",
+  "extraction": {
+    "personas": [
+      "Developer"
+    ],
+    "entities": [
+      "Brand Name",
+      "Icon",
+      "Primary Color",
+      "frontend Javascript apps"
+    ],
+    "actions": [
+      "customise"
+    ],
+    "benefit": "I can customise the branding for my own needs."
+  },
+  "categories": {
+    "primary_entities": [
+      "Brand Name",
+      "Icon",
+      "Primary Color"
+    ],
+    "secondary_entities": [
+      "frontend Javascript apps"
+    ],
+    "primary_actions": [
+      "customise"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Developer",
+        "to": "customise",
+        "kind": "triggers"
+      },
+      {
+        "from": "customise",
+        "to": "Brand Name",
+        "kind": "targets"
+      },
+      {
+        "from": "customise",
+        "to": "Icon",
+        "kind": "targets"
+      },
+      {
+        "from": "customise",
+        "to": "Primary Color",
+        "kind": "targets"
+      },
+      {
+        "from": "customise",
+        "to": "frontend Javascript apps",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1376,
+    "output": 262,
+    "time (ns)": 5662526000
+  }
+}

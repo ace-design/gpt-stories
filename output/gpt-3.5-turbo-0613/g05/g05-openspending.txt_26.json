@@ -1,0 +1,65 @@
+{
+  "story": "#G05# As an API User, I want to be able to understand if a user is an Administrator, So that I can offer functionality based on Platform Administration privileges.\n",
+  "extraction": {
+    "personas": [
+      "API User"
+    ],
+    "entities": [
+      "user",
+      "Administrator",
+      "Platform"
+    ],
+    "actions": [
+      "understand",
+      "offer"
+    ],
+    "benefit": "I can offer functionality based on Platform Administration privileges"
+  },
+  "categories": {
+    "primary_entities": [
+      "user",
+      "Administrator",
+      "Platform"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "understand",
+      "offer"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "API User",
+        "to": "understand",
+        "kind": "triggers"
+      },
+      {
+        "from": "understand",
+        "to": "user",
+        "kind": "targets"
+      },
+      {
+        "from": "API User",
+        "to": "offer",
+        "kind": "triggers"
+      },
+      {
+        "from": "offer",
+        "to": "Administrator",
+        "kind": "targets"
+      },
+      {
+        "from": "offer",
+        "to": "Platform",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1336,
+    "output": 251,
+    "time (ns)": 5618020000
+  }
+}

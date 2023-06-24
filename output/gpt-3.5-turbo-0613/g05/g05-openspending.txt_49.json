@@ -1,0 +1,44 @@
+{
+  "story": "#G05# As a Data Consuming User, I want to be able to search any dataset published and publicly accessible by their title and metadata, So that I can find the datasets I'm interested in.\n",
+  "extraction": {
+    "personas": [
+      "Data Consuming User"
+    ],
+    "entities": [
+      "dataset"
+    ],
+    "actions": [
+      "search"
+    ],
+    "benefit": "I can find the datasets I'm interested in"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "search"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Consuming User",
+        "to": "search",
+        "kind": "triggers"
+      },
+      {
+        "from": "search",
+        "to": "dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1331,
+    "output": 156,
+    "time (ns)": 4311422000
+  }
+}

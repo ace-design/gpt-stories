@@ -1,0 +1,59 @@
+{
+  "story": "#G05# As a Data Publishing User, I want to be able to provide the Platform Administrator with additional GeoJSON sources, So that I can improve the map-based visualisations of my data.\n",
+  "extraction": {
+    "personas": [
+      "Data Publishing User",
+      "Platform Administrator"
+    ],
+    "entities": [
+      "GeoJSON sources",
+      "map-based visualisations",
+      "data"
+    ],
+    "actions": [
+      "provide"
+    ],
+    "benefit": "improve the map-based visualisations of my data"
+  },
+  "categories": {
+    "primary_entities": [
+      "GeoJSON sources",
+      "map-based visualisations",
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "provide"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Publishing User",
+        "to": "provide",
+        "kind": "triggers"
+      },
+      {
+        "from": "provide",
+        "to": "GeoJSON sources",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "map-based visualisations",
+        "kind": "targets"
+      },
+      {
+        "from": "provide",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1366,
+    "output": 236,
+    "time (ns)": 6475121000
+  }
+}

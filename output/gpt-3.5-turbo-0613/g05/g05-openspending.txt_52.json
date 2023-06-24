@@ -1,0 +1,58 @@
+{
+  "story": "#G05# As an API user, I want to be able to change some of the styling of the embedded Viewer in my own platform, So that I can brand it to my own organisation's color scheme.\n",
+  "extraction": {
+    "personas": [
+      "API user"
+    ],
+    "entities": [
+      "embedded Viewer",
+      "my own platform"
+    ],
+    "actions": [
+      "change",
+      "brand"
+    ],
+    "benefit": "I can brand it to my own organisation's color scheme"
+  },
+  "categories": {
+    "primary_entities": [
+      "embedded Viewer",
+      "my own platform"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "change",
+      "brand"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "API user",
+        "to": "change",
+        "kind": "triggers"
+      },
+      {
+        "from": "change",
+        "to": "embedded Viewer",
+        "kind": "targets"
+      },
+      {
+        "from": "API user",
+        "to": "brand",
+        "kind": "triggers"
+      },
+      {
+        "from": "brand",
+        "to": "my own platform",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1361,
+    "output": 227,
+    "time (ns)": 4922090000
+  }
+}

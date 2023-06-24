@@ -1,0 +1,62 @@
+{
+  "story": "#G05# As a Data Publishing User, I want to be able to import data in JSON, So that I do not have to convert data formats in order to use the data packager.\n",
+  "extraction": {
+    "personas": [
+      "Data Publishing User"
+    ],
+    "entities": [
+      "data",
+      "JSON",
+      "data packager"
+    ],
+    "actions": [
+      "import",
+      "convert"
+    ],
+    "benefit": "I do not have to convert data formats in order to use the data packager."
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [
+      "JSON",
+      "data packager"
+    ],
+    "primary_actions": [
+      "import"
+    ],
+    "secondary_actions": [
+      "convert"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Data Publishing User",
+        "to": "import",
+        "kind": "triggers"
+      },
+      {
+        "from": "import",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "import",
+        "to": "JSON",
+        "kind": "targets"
+      },
+      {
+        "from": "import",
+        "to": "data packager",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1369,
+    "output": 233,
+    "time (ns)": 5206924000
+  }
+}

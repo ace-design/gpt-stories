@@ -1,0 +1,44 @@
+{
+  "story": "#G05# As a Platform Administrator, I want to be able to Hide any dataset already added as Public, So that I can maintain Public/Hidden status for other users.\n",
+  "extraction": {
+    "personas": [
+      "Platform Administrator"
+    ],
+    "entities": [
+      "dataset"
+    ],
+    "actions": [
+      "Hide"
+    ],
+    "benefit": "I can maintain Public/Hidden status for other users"
+  },
+  "categories": {
+    "primary_entities": [
+      "dataset"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "Hide"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "Platform Administrator",
+        "to": "Hide",
+        "kind": "triggers"
+      },
+      {
+        "from": "Hide",
+        "to": "dataset",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1311,
+    "output": 153,
+    "time (ns)": 5351370000
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "story": "#G05# As an API User, I want to be able to normalise measures by GDP, so I work with datasets in reference to their contextual constraints.\n",
+  "extraction": {
+    "personas": [
+      "API User"
+    ],
+    "entities": [
+      "measures",
+      "GDP",
+      "datasets"
+    ],
+    "actions": [
+      "normalise"
+    ],
+    "benefit": "work with datasets in reference to their contextual constraints"
+  },
+  "categories": {
+    "primary_entities": [
+      "measures",
+      "GDP",
+      "datasets"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "normalise"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "API User",
+        "to": "normalise",
+        "kind": "triggers"
+      },
+      {
+        "from": "normalise",
+        "to": "measures",
+        "kind": "targets"
+      },
+      {
+        "from": "normalise",
+        "to": "GDP",
+        "kind": "targets"
+      },
+      {
+        "from": "normalise",
+        "to": "datasets",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1327,
+    "output": 226,
+    "time (ns)": 4986426000
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "story": "#G05# As an API User, I want to be able to get a set of monetary measures transferred to different currencies, So that I can use this in scenarios that might enable comparison by normalisation.\n",
+  "extraction": {
+    "personas": [
+      "API User"
+    ],
+    "entities": [
+      "monetary measures"
+    ],
+    "actions": [
+      "get",
+      "transferred"
+    ],
+    "benefit": "use this in scenarios that might enable comparison by normalisation"
+  },
+  "categories": {
+    "primary_entities": [
+      "monetary measures"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "get"
+    ],
+    "secondary_actions": [
+      "transferred"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "API User",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "monetary measures",
+        "kind": "targets"
+      },
+      {
+        "from": "API User",
+        "to": "transferred",
+        "kind": "triggers"
+      },
+      {
+        "from": "transferred",
+        "to": "monetary measures",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1347,
+    "output": 223,
+    "time (ns)": 6871870000
+  }
+}
