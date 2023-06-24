@@ -1,0 +1,66 @@
+{
+  "story": "#G04# As a user, I want to be able to anonymously view public information, so that I know about recycling centers near me before creating an account.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "public information",
+      "recycling centers"
+    ],
+    "actions": [
+      "view",
+      "know",
+      "creating an account"
+    ],
+    "benefit": "I know about recycling centers near me before creating an account"
+  },
+  "categories": {
+    "primary_entities": [
+      "public information",
+      "recycling centers"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view",
+      "know"
+    ],
+    "secondary_actions": [
+      "creating an account"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "public information",
+        "kind": "targets"
+      },
+      {
+        "from": "user",
+        "to": "know",
+        "kind": "triggers"
+      },
+      {
+        "from": "know",
+        "to": "recycling centers",
+        "kind": "targets"
+      },
+      {
+        "from": "user",
+        "to": "creating an account",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1342,
+    "output": 261,
+    "time (ns)": 5962488000
+  }
+}

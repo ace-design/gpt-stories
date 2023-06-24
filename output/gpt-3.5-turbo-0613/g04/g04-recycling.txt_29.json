@@ -1,0 +1,58 @@
+{
+  "story": "#G04# As a user, I want to have my personal information kept securely in the database of the website, so that I will not suffer from identity theft or telephone harassment.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "personal information",
+      "database",
+      "website"
+    ],
+    "actions": [
+      "kept securely"
+    ],
+    "benefit": "I will not suffer from identity theft or telephone harassment"
+  },
+  "categories": {
+    "primary_entities": [
+      "personal information",
+      "database",
+      "website"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "kept securely"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "kept securely",
+        "kind": "triggers"
+      },
+      {
+        "from": "kept securely",
+        "to": "personal information",
+        "kind": "targets"
+      },
+      {
+        "from": "kept securely",
+        "to": "database",
+        "kind": "targets"
+      },
+      {
+        "from": "kept securely",
+        "to": "website",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1336,
+    "output": 222,
+    "time (ns)": 4946045000
+  }
+}

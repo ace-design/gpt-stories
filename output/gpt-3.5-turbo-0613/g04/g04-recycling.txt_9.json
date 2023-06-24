@@ -1,0 +1,49 @@
+{
+  "story": "#G04# As a user, I want to be able to view a map display of the public recycling bins around my area.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "map display",
+      "public recycling bins",
+      "area"
+    ],
+    "actions": [
+      "view"
+    ],
+    "benefit": "be able to view a map display of the public recycling bins around my area"
+  },
+  "categories": {
+    "primary_entities": [
+      "map display"
+    ],
+    "secondary_entities": [
+      "public recycling bins",
+      "area"
+    ],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "map display",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1318,
+    "output": 174,
+    "time (ns)": 5047002000
+  }
+}

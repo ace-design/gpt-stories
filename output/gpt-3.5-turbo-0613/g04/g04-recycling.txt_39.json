@@ -1,0 +1,44 @@
+{
+  "story": "#G04# As a user, I want to contact the administrators, so that I can give feedback or ask for help.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "administrators"
+    ],
+    "actions": [
+      "contact"
+    ],
+    "benefit": "I can give feedback or ask for help"
+  },
+  "categories": {
+    "primary_entities": [
+      "administrators"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "contact"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "contact",
+        "kind": "triggers"
+      },
+      {
+        "from": "contact",
+        "to": "administrators",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1278,
+    "output": 152,
+    "time (ns)": 4535944000
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "story": "#G04# As a user, I want to view all locations of recycling centers on a map, so that I can check which routes to take to drop off waste.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "recycling centers",
+      "map",
+      "routes",
+      "waste"
+    ],
+    "actions": [
+      "view",
+      "check",
+      "drop off"
+    ],
+    "benefit": "I can check which routes to take to drop off waste"
+  },
+  "categories": {
+    "primary_entities": [
+      "recycling centers",
+      "map",
+      "routes",
+      "waste"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view",
+      "check",
+      "drop off"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "recycling centers",
+        "kind": "targets"
+      },
+      {
+        "from": "user",
+        "to": "check",
+        "kind": "triggers"
+      },
+      {
+        "from": "check",
+        "to": "routes",
+        "kind": "targets"
+      },
+      {
+        "from": "user",
+        "to": "drop off",
+        "kind": "triggers"
+      },
+      {
+        "from": "drop off",
+        "to": "waste",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1365,
+    "output": 297,
+    "time (ns)": 6256888000
+  }
+}

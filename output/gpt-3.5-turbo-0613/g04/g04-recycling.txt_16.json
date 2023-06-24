@@ -1,0 +1,56 @@
+{
+  "story": "#G04# As an admin, I want to be able to add or remove recycling facilities' information, so that users get the most recent information.\n",
+  "extraction": {
+    "personas": [
+      "admin"
+    ],
+    "entities": [
+      "recycling facilities' information"
+    ],
+    "actions": [
+      "add",
+      "remove"
+    ],
+    "benefit": "users get the most recent information"
+  },
+  "categories": {
+    "primary_entities": [
+      "recycling facilities' information"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "add",
+      "remove"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "admin",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "admin",
+        "to": "remove",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "recycling facilities' information",
+        "kind": "targets"
+      },
+      {
+        "from": "remove",
+        "to": "recycling facilities' information",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1307,
+    "output": 220,
+    "time (ns)": 5169417000
+  }
+}

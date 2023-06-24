@@ -1,0 +1,62 @@
+{
+  "story": "#G04# As an admin, I want to view a dashboard that monitors all the sites' statuses, so that I can have a sense of what people are doing on our sites and know the service status.\n",
+  "extraction": {
+    "personas": [
+      "admin"
+    ],
+    "entities": [
+      "dashboard",
+      "sites' statuses",
+      "service status"
+    ],
+    "actions": [
+      "view",
+      "monitors"
+    ],
+    "benefit": "have a sense of what people are doing on our sites and know the service status"
+  },
+  "categories": {
+    "primary_entities": [
+      "dashboard"
+    ],
+    "secondary_entities": [
+      "sites' statuses",
+      "service status"
+    ],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": [
+      "monitors"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "admin",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "dashboard",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "sites' statuses",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "service status",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1378,
+    "output": 234,
+    "time (ns)": 5555762000
+  }
+}

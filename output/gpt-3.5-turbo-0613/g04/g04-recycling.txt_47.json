@@ -1,0 +1,63 @@
+{
+  "story": "#G04# As an admin, I want to be able to communicate directly with facilities, so that I can keep them updated about features we have on our website.\n",
+  "extraction": {
+    "personas": [
+      "admin"
+    ],
+    "entities": [
+      "facilities",
+      "website"
+    ],
+    "actions": [
+      "communicate",
+      "keep updated"
+    ],
+    "benefit": "I can keep facilities updated about features on our website"
+  },
+  "categories": {
+    "primary_entities": [
+      "facilities",
+      "website"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "communicate",
+      "keep updated"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "admin",
+        "to": "communicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "communicate",
+        "to": "facilities",
+        "kind": "targets"
+      },
+      {
+        "from": "admin",
+        "to": "keep updated",
+        "kind": "triggers"
+      },
+      {
+        "from": "keep updated",
+        "to": "facilities",
+        "kind": "targets"
+      },
+      {
+        "from": "keep updated",
+        "to": "website",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1330,
+    "output": 252,
+    "time (ns)": 6679935000
+  }
+}

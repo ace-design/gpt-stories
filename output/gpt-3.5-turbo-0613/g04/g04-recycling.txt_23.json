@@ -1,0 +1,44 @@
+{
+  "story": "#G04# As an admin, I want to have all data encrypted, so that important information will not be stolen during a server breach or an attack.\n",
+  "extraction": {
+    "personas": [
+      "admin"
+    ],
+    "entities": [
+      "data"
+    ],
+    "actions": [
+      "encrypted"
+    ],
+    "benefit": "important information will not be stolen during a server breach or an attack"
+  },
+  "categories": {
+    "primary_entities": [
+      "data"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "encrypted"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "admin",
+        "to": "encrypted",
+        "kind": "triggers"
+      },
+      {
+        "from": "encrypted",
+        "to": "data",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1303,
+    "output": 154,
+    "time (ns)": 3920644000
+  }
+}

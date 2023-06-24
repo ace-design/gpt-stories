@@ -1,0 +1,55 @@
+{
+  "story": "#G04# As an employee from the HR department, I want to have access to the full information of all employees working for this business.\n",
+  "extraction": {
+    "personas": [
+      "employee from the HR department"
+    ],
+    "entities": [
+      "full information",
+      "employees",
+      "business"
+    ],
+    "actions": [
+      "have access"
+    ],
+    "benefit": "I can have access to the full information of all employees working for this business"
+  },
+  "categories": {
+    "primary_entities": [
+      "full information",
+      "employees",
+      "business"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have access"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "employee from the HR department",
+        "to": "have access",
+        "kind": "triggers"
+      },
+      {
+        "from": "have access",
+        "to": "full information"
+      },
+      {
+        "from": "have access",
+        "to": "employees"
+      },
+      {
+        "from": "have access",
+        "to": "business"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1330,
+    "output": 214,
+    "time (ns)": 4600672000
+  }
+}

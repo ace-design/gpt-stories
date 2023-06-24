@@ -1,0 +1,52 @@
+{
+  "story": "#G04# As an admin, I want to be able to read users' feedback and complaints, so that we can add more features and keep improving the service we provide to them.\n",
+  "extraction": {
+    "personas": [
+      "admin"
+    ],
+    "entities": [
+      "users' feedback",
+      "complaints"
+    ],
+    "actions": [
+      "read"
+    ],
+    "benefit": "we can add more features and keep improving the service we provide to them"
+  },
+  "categories": {
+    "primary_entities": [
+      "users' feedback"
+    ],
+    "secondary_entities": [
+      "complaints"
+    ],
+    "primary_actions": [
+      "read"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "admin",
+        "to": "read",
+        "kind": "triggers"
+      },
+      {
+        "from": "read",
+        "to": "users' feedback",
+        "kind": "targets"
+      },
+      {
+        "from": "read",
+        "to": "complaints",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1343,
+    "output": 197,
+    "time (ns)": 4148218000
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "story": "#G04# As a user, I want to be able to receive tempting rewards, so that I have a reason to use the website.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "tempting rewards",
+      "website"
+    ],
+    "actions": [
+      "receive"
+    ],
+    "benefit": "I have a reason to use the website"
+  },
+  "categories": {
+    "primary_entities": [
+      "tempting rewards",
+      "website"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "receive"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "receive",
+        "kind": "triggers"
+      },
+      {
+        "from": "receive",
+        "to": "tempting rewards",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "website",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1299,
+    "output": 186,
+    "time (ns)": 4022774000
+  }
+}

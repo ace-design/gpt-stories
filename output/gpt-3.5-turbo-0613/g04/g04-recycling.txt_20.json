@@ -1,0 +1,65 @@
+{
+  "story": "#G04# As a user, I want to be able to access the site and do all the other stuffs on all of my electronic devices.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "site",
+      "electronic devices"
+    ],
+    "actions": [
+      "access",
+      "do"
+    ],
+    "benefit": "be able to access the site and do all the other stuffs on all of my electronic devices"
+  },
+  "categories": {
+    "primary_entities": [
+      "site"
+    ],
+    "secondary_entities": [
+      "electronic devices"
+    ],
+    "primary_actions": [
+      "access"
+    ],
+    "secondary_actions": [
+      "do"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "site",
+        "kind": "targets"
+      },
+      {
+        "from": "access",
+        "to": "electronic devices",
+        "kind": "targets"
+      },
+      {
+        "from": "do",
+        "to": "site",
+        "kind": "targets"
+      },
+      {
+        "from": "do",
+        "to": "electronic devices",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1333,
+    "output": 253,
+    "time (ns)": 5980818000
+  }
+}

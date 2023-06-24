@@ -1,0 +1,68 @@
+{
+  "story": "#G04# As a superuser, I want to reply to user questions, so that I can answer any questions about my recycling center.\n",
+  "extraction": {
+    "personas": [
+      "superuser"
+    ],
+    "entities": [
+      "user questions",
+      "my recycling center"
+    ],
+    "actions": [
+      "reply",
+      "answer"
+    ],
+    "benefit": "I can answer any questions about my recycling center"
+  },
+  "categories": {
+    "primary_entities": [
+      "user questions",
+      "my recycling center"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "reply",
+      "answer"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "superuser",
+        "to": "reply",
+        "kind": "triggers"
+      },
+      {
+        "from": "reply",
+        "to": "user questions",
+        "kind": "targets"
+      },
+      {
+        "from": "superuser",
+        "to": "answer",
+        "kind": "triggers"
+      },
+      {
+        "from": "answer",
+        "to": "user questions",
+        "kind": "targets"
+      },
+      {
+        "from": "superuser",
+        "to": "answer",
+        "kind": "triggers"
+      },
+      {
+        "from": "answer",
+        "to": "my recycling center",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1315,
+    "output": 278,
+    "time (ns)": 6145236000
+  }
+}

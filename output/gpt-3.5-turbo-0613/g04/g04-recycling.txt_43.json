@@ -1,0 +1,44 @@
+{
+  "story": "#G04# As a superuser, I want to update the recycling center information, so that I can provide the latest information about the recycling center.\n",
+  "extraction": {
+    "personas": [
+      "superuser"
+    ],
+    "entities": [
+      "recycling center information"
+    ],
+    "actions": [
+      "update"
+    ],
+    "benefit": "I can provide the latest information about the recycling center"
+  },
+  "categories": {
+    "primary_entities": [
+      "recycling center information"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "update"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "superuser",
+        "to": "update",
+        "kind": "triggers"
+      },
+      {
+        "from": "update",
+        "to": "recycling center information",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1305,
+    "output": 162,
+    "time (ns)": 3607127000
+  }
+}

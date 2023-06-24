@@ -1,0 +1,44 @@
+{
+  "story": "#G04# As a user, I want to get feedback when I enter an invalid zip code.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "zip code"
+    ],
+    "actions": [
+      "get feedback"
+    ],
+    "benefit": "I can be informed when I enter an invalid zip code"
+  },
+  "categories": {
+    "primary_entities": [
+      "zip code"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "get feedback"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "get feedback",
+        "kind": "triggers"
+      },
+      {
+        "from": "get feedback",
+        "to": "zip code",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1272,
+    "output": 159,
+    "time (ns)": 3552827000
+  }
+}

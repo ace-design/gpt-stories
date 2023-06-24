@@ -1,0 +1,70 @@
+{
+  "story": "#G04# As a developer, I want to use bootstrap in the process of developing, so that I can easily design my website.\n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "bootstrap",
+      "website"
+    ],
+    "actions": [
+      "use",
+      "developing",
+      "design"
+    ],
+    "benefit": "I can easily design my website"
+  },
+  "categories": {
+    "primary_entities": [
+      "bootstrap",
+      "website"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "use",
+      "developing",
+      "design"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "use",
+        "kind": "triggers"
+      },
+      {
+        "from": "use",
+        "to": "bootstrap",
+        "kind": "targets"
+      },
+      {
+        "from": "developer",
+        "to": "developing",
+        "kind": "triggers"
+      },
+      {
+        "from": "developing",
+        "to": "bootstrap",
+        "kind": "targets"
+      },
+      {
+        "from": "developer",
+        "to": "design",
+        "kind": "triggers"
+      },
+      {
+        "from": "design",
+        "to": "website",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1307,
+    "output": 271,
+    "time (ns)": 5993408000
+  }
+}

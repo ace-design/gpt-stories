@@ -1,0 +1,75 @@
+{
+  "story": "#G04# As a user, I want to be able to give my email ID, so that I can receive notifications for new events as they are posted.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "email ID",
+      "notifications",
+      "events"
+    ],
+    "actions": [
+      "give",
+      "receive"
+    ],
+    "benefit": "I can receive notifications for new events as they are posted"
+  },
+  "categories": {
+    "primary_entities": [
+      "email ID",
+      "notifications",
+      "events"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "give",
+      "receive"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "give",
+        "kind": "triggers"
+      },
+      {
+        "from": "give",
+        "to": "email ID",
+        "kind": "targets"
+      },
+      {
+        "from": "give",
+        "to": "notifications",
+        "kind": "targets"
+      },
+      {
+        "from": "give",
+        "to": "events",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "email ID",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "notifications",
+        "kind": "targets"
+      },
+      {
+        "from": "receive",
+        "to": "events",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1332,
+    "output": 299,
+    "time (ns)": 7586861000
+  }
+}

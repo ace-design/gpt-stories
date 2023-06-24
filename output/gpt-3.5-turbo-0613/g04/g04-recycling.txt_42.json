@@ -1,0 +1,47 @@
+{
+  "story": "#G04# As an admin, I want to onboard recycling centers on the platform, so that I can increase information accuracy.\n",
+  "extraction": {
+    "personas": [
+      "admin"
+    ],
+    "entities": [
+      "recycling centers",
+      "platform"
+    ],
+    "actions": [
+      "onboard"
+    ],
+    "benefit": "increase information accuracy"
+  },
+  "categories": {
+    "primary_entities": [
+      "recycling centers"
+    ],
+    "secondary_entities": [
+      "platform"
+    ],
+    "primary_actions": [
+      "onboard"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "admin",
+        "to": "onboard",
+        "kind": "triggers"
+      },
+      {
+        "from": "onboard",
+        "to": "recycling centers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1282,
+    "output": 159,
+    "time (ns)": 3605422000
+  }
+}

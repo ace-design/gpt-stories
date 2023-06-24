@@ -1,0 +1,51 @@
+{
+  "story": "#G04# As a user, I want to be able to create an acocunt, so that I can create my own profile.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "account",
+      "profile"
+    ],
+    "actions": [
+      "create"
+    ],
+    "benefit": "I can create my own profile"
+  },
+  "categories": {
+    "primary_entities": [
+      "account",
+      "profile"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "create"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "account",
+        "kind": "targets"
+      },
+      {
+        "from": "create",
+        "to": "profile",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1289,
+    "output": 178,
+    "time (ns)": 4240823000
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "story": "#G04# As a developer, I want to attend some UI/UX lessons, so that I can develop an awesome and beautiful features website.\n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "UI/UX lessons",
+      "website"
+    ],
+    "actions": [
+      "attend",
+      "develop"
+    ],
+    "benefit": "I can develop an awesome and beautiful features website"
+  },
+  "categories": {
+    "primary_entities": [
+      "UI/UX lessons",
+      "website"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "attend",
+      "develop"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "attend",
+        "kind": "triggers"
+      },
+      {
+        "from": "attend",
+        "to": "UI/UX lessons",
+        "kind": "targets"
+      },
+      {
+        "from": "developer",
+        "to": "develop",
+        "kind": "triggers"
+      },
+      {
+        "from": "develop",
+        "to": "website",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1316,
+    "output": 222,
+    "time (ns)": 4716739000
+  }
+}

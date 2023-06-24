@@ -1,0 +1,100 @@
+{
+  "story": "#G04# As a recyclingfacility representative, I want to have access to user stats and schedules, so that I can adjust my hours and/or upgrade equipment and capacity in order to be able to accomodate larger amounts of recyclable materials.\n",
+  "extraction": {
+    "personas": [
+      "recycling facility representative"
+    ],
+    "entities": [
+      "user stats",
+      "schedules",
+      "equipment",
+      "capacity",
+      "recyclable materials"
+    ],
+    "actions": [
+      "have access",
+      "adjust",
+      "upgrade",
+      "accommodate"
+    ],
+    "benefit": "be able to accommodate larger amounts of recyclable materials"
+  },
+  "categories": {
+    "primary_entities": [
+      "user stats",
+      "schedules",
+      "equipment",
+      "capacity"
+    ],
+    "secondary_entities": [
+      "recyclable materials"
+    ],
+    "primary_actions": [
+      "have access",
+      "adjust",
+      "upgrade"
+    ],
+    "secondary_actions": [
+      "accommodate"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "recycling facility representative",
+        "to": "have access",
+        "kind": "triggers"
+      },
+      {
+        "from": "recycling facility representative",
+        "to": "adjust",
+        "kind": "triggers"
+      },
+      {
+        "from": "recycling facility representative",
+        "to": "upgrade",
+        "kind": "triggers"
+      },
+      {
+        "from": "have access",
+        "to": "user stats",
+        "kind": "targets"
+      },
+      {
+        "from": "have access",
+        "to": "schedules",
+        "kind": "targets"
+      },
+      {
+        "from": "adjust",
+        "to": "equipment",
+        "kind": "targets"
+      },
+      {
+        "from": "adjust",
+        "to": "capacity",
+        "kind": "targets"
+      },
+      {
+        "from": "upgrade",
+        "to": "equipment",
+        "kind": "targets"
+      },
+      {
+        "from": "upgrade",
+        "to": "capacity",
+        "kind": "targets"
+      },
+      {
+        "from": "accommodate",
+        "to": "recyclable materials",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1438,
+    "output": 431,
+    "time (ns)": 7928584000
+  }
+}

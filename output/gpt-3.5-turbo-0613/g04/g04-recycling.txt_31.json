@@ -1,0 +1,56 @@
+{
+  "story": "#G04# As a company, I want to have a website that is easy to use, so that I can upload or delete stuff step by step.\n",
+  "extraction": {
+    "personas": [
+      "company"
+    ],
+    "entities": [
+      "website"
+    ],
+    "actions": [
+      "upload",
+      "delete"
+    ],
+    "benefit": "I can upload or delete stuff step by step"
+  },
+  "categories": {
+    "primary_entities": [
+      "website"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "upload",
+      "delete"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "company",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "company",
+        "to": "delete",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "website",
+        "kind": "targets"
+      },
+      {
+        "from": "delete",
+        "to": "website",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1304,
+    "output": 207,
+    "time (ns)": 8186067000
+  }
+}

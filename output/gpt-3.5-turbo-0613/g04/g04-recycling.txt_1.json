@@ -1,0 +1,51 @@
+{
+  "story": "#G04# As a user, I want to click on the address, so that it takes me to a new tab with Google Maps.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "address",
+      "Google Maps"
+    ],
+    "actions": [
+      "click"
+    ],
+    "benefit": "It takes me to a new tab with Google Maps"
+  },
+  "categories": {
+    "primary_entities": [
+      "address",
+      "Google Maps"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "click"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "click",
+        "kind": "triggers"
+      },
+      {
+        "from": "click",
+        "to": "address",
+        "kind": "targets"
+      },
+      {
+        "from": "click",
+        "to": "Google Maps",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1300,
+    "output": 185,
+    "time (ns)": 4674165000
+  }
+}

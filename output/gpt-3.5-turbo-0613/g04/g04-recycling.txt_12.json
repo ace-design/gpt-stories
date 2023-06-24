@@ -1,0 +1,43 @@
+{
+  "story": "#G04# As a user, I want to choose a flexible pick up time, so that I can more conveniently use the website.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [],
+    "actions": [
+      "choose",
+      "use"
+    ],
+    "benefit": "I can more conveniently use the website"
+  },
+  "categories": {
+    "primary_entities": [],
+    "secondary_entities": [],
+    "primary_actions": [
+      "choose"
+    ],
+    "secondary_actions": [
+      "use"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "choose",
+        "kind": "triggers"
+      },
+      {
+        "from": "choose",
+        "to": "use",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1280,
+    "output": 149,
+    "time (ns)": 3921424000
+  }
+}

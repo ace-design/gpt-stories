@@ -1,0 +1,73 @@
+{
+  "story": "#G04# As a recyclingfacility, I want to be able to communicate directly with the site admin and convey any issues or concerns I have, so that they fix them.\n",
+  "extraction": {
+    "personas": [
+      "recycling facility",
+      "site admin"
+    ],
+    "entities": [
+      "communication",
+      "issues",
+      "concerns"
+    ],
+    "actions": [
+      "communicate",
+      "convey",
+      "fix"
+    ],
+    "benefit": "fixing issues or concerns"
+  },
+  "categories": {
+    "primary_entities": [
+      "communication",
+      "issues",
+      "concerns"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "communicate",
+      "convey",
+      "fix"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "recycling facility",
+        "to": "communicate",
+        "kind": "triggers"
+      },
+      {
+        "from": "communicate",
+        "to": "site admin",
+        "kind": "targets"
+      },
+      {
+        "from": "convey",
+        "to": "site admin",
+        "kind": "targets"
+      },
+      {
+        "from": "fix",
+        "to": "site admin",
+        "kind": "targets"
+      },
+      {
+        "from": "recycling facility",
+        "to": "convey",
+        "kind": "triggers"
+      },
+      {
+        "from": "recycling facility",
+        "to": "fix",
+        "kind": "triggers"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1359,
+    "output": 299,
+    "time (ns)": 6774053000
+  }
+}

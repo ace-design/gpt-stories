@@ -1,0 +1,74 @@
+{
+  "story": "#G04# As a recyclingfacility representative, I want to be able to update my information and the type of material I accept, so that I can avoid any miscommunication with users.\n",
+  "extraction": {
+    "personas": [
+      "recycling facility representative"
+    ],
+    "entities": [
+      "my information",
+      "type of material",
+      "users"
+    ],
+    "actions": [
+      "update",
+      "accept",
+      "avoid miscommunication"
+    ],
+    "benefit": "avoid any miscommunication with users"
+  },
+  "categories": {
+    "primary_entities": [
+      "my information",
+      "type of material"
+    ],
+    "secondary_entities": [
+      "users"
+    ],
+    "primary_actions": [
+      "update",
+      "accept"
+    ],
+    "secondary_actions": [
+      "avoid miscommunication"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "recycling facility representative",
+        "to": "update",
+        "kind": "triggers"
+      },
+      {
+        "from": "recycling facility representative",
+        "to": "accept",
+        "kind": "triggers"
+      },
+      {
+        "from": "update",
+        "to": "my information",
+        "kind": "targets"
+      },
+      {
+        "from": "accept",
+        "to": "type of material",
+        "kind": "targets"
+      },
+      {
+        "from": "accept",
+        "to": "users",
+        "kind": "targets"
+      },
+      {
+        "from": "accept",
+        "to": "avoid miscommunication",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1361,
+    "output": 294,
+    "time (ns)": 6443836000
+  }
+}

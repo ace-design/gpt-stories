@@ -1,0 +1,47 @@
+{
+  "story": "#G04# As a user, I want to be able to browse through the list of facolities and see which ones are environment-friendly, so that I can know for sure my waste is not going to leave a negative ecological footprint.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "list of facilities"
+    ],
+    "actions": [
+      "browse",
+      "see"
+    ],
+    "benefit": "know for sure my waste is not going to leave a negative ecological footprint"
+  },
+  "categories": {
+    "primary_entities": [
+      "list of facilities"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "browse"
+    ],
+    "secondary_actions": [
+      "see"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "browse",
+        "kind": "triggers"
+      },
+      {
+        "from": "browse",
+        "to": "list of facilities",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1369,
+    "output": 166,
+    "time (ns)": 4674521000
+  }
+}

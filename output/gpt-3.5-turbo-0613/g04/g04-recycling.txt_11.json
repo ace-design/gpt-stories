@@ -1,0 +1,44 @@
+{
+  "story": "#G04# As a user, I want to be able to view the safe disposal events currently being organised around my area.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "safe disposal events"
+    ],
+    "actions": [
+      "view"
+    ],
+    "benefit": "be able to view the safe disposal events currently being organised around my area"
+  },
+  "categories": {
+    "primary_entities": [
+      "safe disposal events"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "safe disposal events",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1293,
+    "output": 161,
+    "time (ns)": 4529720000
+  }
+}

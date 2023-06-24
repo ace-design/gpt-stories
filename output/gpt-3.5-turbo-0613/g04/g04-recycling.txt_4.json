@@ -1,0 +1,56 @@
+{
+  "story": "#G04# As a user, I want to be able to get the hours of each recycling facility, so that I can arrange drop-offs on my off days or during after-work hours.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "recycling facility"
+    ],
+    "actions": [
+      "get",
+      "arrange drop-offs"
+    ],
+    "benefit": "I can arrange drop-offs on my off days or during after-work hours"
+  },
+  "categories": {
+    "primary_entities": [
+      "recycling facility"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "get",
+      "arrange drop-offs"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "recycling facility",
+        "kind": "targets"
+      },
+      {
+        "from": "user",
+        "to": "arrange drop-offs",
+        "kind": "triggers"
+      },
+      {
+        "from": "arrange drop-offs",
+        "to": "recycling facility",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1350,
+    "output": 232,
+    "time (ns)": 6072094000
+  }
+}

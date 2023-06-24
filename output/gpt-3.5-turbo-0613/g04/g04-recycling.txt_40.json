@@ -1,0 +1,51 @@
+{
+  "story": "#G04# As an admin, I want to add recycling center information, so that I can keep the database up-to-date over time.\n",
+  "extraction": {
+    "personas": [
+      "admin"
+    ],
+    "entities": [
+      "recycling center information",
+      "database"
+    ],
+    "actions": [
+      "add"
+    ],
+    "benefit": "keep the database up-to-date over time"
+  },
+  "categories": {
+    "primary_entities": [
+      "recycling center information",
+      "database"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "add"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "admin",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "recycling center information",
+        "kind": "targets"
+      },
+      {
+        "from": "add",
+        "to": "database",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1302,
+    "output": 189,
+    "time (ns)": 6247895000
+  }
+}

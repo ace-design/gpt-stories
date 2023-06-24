@@ -1,0 +1,58 @@
+{
+  "story": "#G04# As a company accountant, I want to view all available activity fees online, so that I can easily create a bill statement.\n",
+  "extraction": {
+    "personas": [
+      "company accountant"
+    ],
+    "entities": [
+      "activity fees",
+      "bill statement"
+    ],
+    "actions": [
+      "view",
+      "create"
+    ],
+    "benefit": "I can easily create a bill statement"
+  },
+  "categories": {
+    "primary_entities": [
+      "activity fees",
+      "bill statement"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view",
+      "create"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "company accountant",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "activity fees",
+        "kind": "targets"
+      },
+      {
+        "from": "company accountant",
+        "to": "create",
+        "kind": "triggers"
+      },
+      {
+        "from": "create",
+        "to": "bill statement",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1308,
+    "output": 220,
+    "time (ns)": 5666085000
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "story": "#G04# As an admin, I want to be able to block specific users based on IP address, so that I can prevent spamming on the websites.\n",
+  "extraction": {
+    "personas": [
+      "admin"
+    ],
+    "entities": [
+      "specific users",
+      "IP address"
+    ],
+    "actions": [
+      "block"
+    ],
+    "benefit": "I can prevent spamming on the websites"
+  },
+  "categories": {
+    "primary_entities": [
+      "specific users",
+      "IP address"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "block"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "admin",
+        "to": "block",
+        "kind": "triggers"
+      },
+      {
+        "from": "block",
+        "to": "specific users",
+        "kind": "targets"
+      },
+      {
+        "from": "block",
+        "to": "IP address",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1311,
+    "output": 186,
+    "time (ns)": 4027848000
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "story": "#G04# As a developer, I want to access an API from the website, so that I can integrate it and implement certain features in my own iOS application.\n",
+  "extraction": {
+    "personas": [
+      "developer"
+    ],
+    "entities": [
+      "API",
+      "website",
+      "iOS application"
+    ],
+    "actions": [
+      "access",
+      "integrate",
+      "implement"
+    ],
+    "benefit": "I can implement certain features in my own iOS application"
+  },
+  "categories": {
+    "primary_entities": [
+      "API",
+      "website",
+      "iOS application"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "access",
+      "integrate",
+      "implement"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "developer",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "API",
+        "kind": "targets"
+      },
+      {
+        "from": "developer",
+        "to": "integrate",
+        "kind": "triggers"
+      },
+      {
+        "from": "integrate",
+        "to": "API",
+        "kind": "targets"
+      },
+      {
+        "from": "developer",
+        "to": "implement",
+        "kind": "triggers"
+      },
+      {
+        "from": "implement",
+        "to": "iOS application",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1345,
+    "output": 284,
+    "time (ns)": 5963678000
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "story": "#G04# As a user, I want to add donation centers as favorites on my profile, so that I can view them later.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "donation centers",
+      "favorites",
+      "profile"
+    ],
+    "actions": [
+      "add",
+      "view"
+    ],
+    "benefit": "I can view them later"
+  },
+  "categories": {
+    "primary_entities": [
+      "donation centers",
+      "favorites",
+      "profile"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "add",
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "add",
+        "kind": "triggers"
+      },
+      {
+        "from": "add",
+        "to": "donation centers",
+        "kind": "targets"
+      },
+      {
+        "from": "user",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "donation centers",
+        "kind": "targets"
+      },
+      {
+        "from": "user",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "favorites",
+        "kind": "targets"
+      },
+      {
+        "from": "user",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "profile",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1308,
+    "output": 325,
+    "time (ns)": 7822983000
+  }
+}

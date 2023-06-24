@@ -1,0 +1,70 @@
+{
+  "story": "#G04# As an admin, I want to view user error logs, so that I can fix or review any issues that are being faced by users of the system.\n",
+  "extraction": {
+    "personas": [
+      "admin"
+    ],
+    "entities": [
+      "user error logs",
+      "users of the system"
+    ],
+    "actions": [
+      "view",
+      "fix",
+      "review"
+    ],
+    "benefit": "I can fix or review any issues that are being faced by users of the system"
+  },
+  "categories": {
+    "primary_entities": [
+      "user error logs",
+      "users of the system"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view",
+      "fix",
+      "review"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "admin",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "user error logs",
+        "kind": "targets"
+      },
+      {
+        "from": "admin",
+        "to": "fix",
+        "kind": "triggers"
+      },
+      {
+        "from": "fix",
+        "to": "user error logs",
+        "kind": "targets"
+      },
+      {
+        "from": "admin",
+        "to": "review",
+        "kind": "triggers"
+      },
+      {
+        "from": "review",
+        "to": "user error logs",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1360,
+    "output": 293,
+    "time (ns)": 6715304000
+  }
+}

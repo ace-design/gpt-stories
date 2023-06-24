@@ -1,0 +1,101 @@
+{
+  "story": "#G04# As an admin, I want to be able to have a dashboard that shows usage stats and locations, so that I can identify the neighbourhoods with the largest number of drop-offs and to try getting more facilities involved.\n",
+  "extraction": {
+    "personas": [
+      "admin"
+    ],
+    "entities": [
+      "dashboard",
+      "usage stats",
+      "locations",
+      "neighbourhoods",
+      "drop-offs",
+      "facilities"
+    ],
+    "actions": [
+      "have",
+      "show",
+      "identify",
+      "try getting involved"
+    ],
+    "benefit": "I can identify the neighbourhoods with the largest number of drop-offs and try getting more facilities involved"
+  },
+  "categories": {
+    "primary_entities": [
+      "dashboard",
+      "usage stats",
+      "locations",
+      "neighbourhoods",
+      "drop-offs",
+      "facilities"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "show",
+      "identify"
+    ],
+    "secondary_actions": [
+      "try getting involved"
+    ]
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "admin",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "admin",
+        "to": "show",
+        "kind": "triggers"
+      },
+      {
+        "from": "admin",
+        "to": "identify",
+        "kind": "triggers"
+      },
+      {
+        "from": "admin",
+        "to": "try getting involved",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "dashboard",
+        "kind": "targets"
+      },
+      {
+        "from": "show",
+        "to": "usage stats",
+        "kind": "targets"
+      },
+      {
+        "from": "show",
+        "to": "locations",
+        "kind": "targets"
+      },
+      {
+        "from": "identify",
+        "to": "neighbourhoods",
+        "kind": "targets"
+      },
+      {
+        "from": "identify",
+        "to": "drop-offs",
+        "kind": "targets"
+      },
+      {
+        "from": "try getting involved",
+        "to": "facilities",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1454,
+    "output": 436,
+    "time (ns)": 8829635000
+  }
+}

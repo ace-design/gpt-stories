@@ -1,0 +1,56 @@
+{
+  "story": "#G04# As an admin, I want to handle all users' activities, so that I can manage more efficiently.\n",
+  "extraction": {
+    "personas": [
+      "admin"
+    ],
+    "entities": [
+      "users' activities"
+    ],
+    "actions": [
+      "handle",
+      "manage"
+    ],
+    "benefit": "I can manage more efficiently"
+  },
+  "categories": {
+    "primary_entities": [
+      "users' activities"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "handle",
+      "manage"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "admin",
+        "to": "handle",
+        "kind": "triggers"
+      },
+      {
+        "from": "handle",
+        "to": "users' activities",
+        "kind": "targets"
+      },
+      {
+        "from": "admin",
+        "to": "manage",
+        "kind": "triggers"
+      },
+      {
+        "from": "manage",
+        "to": "users' activities",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1281,
+    "output": 211,
+    "time (ns)": 5181756000
+  }
+}

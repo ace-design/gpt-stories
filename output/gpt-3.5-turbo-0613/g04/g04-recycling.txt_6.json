@@ -1,0 +1,70 @@
+{
+  "story": "#G04# As a user, I want to be able to select different types of recyclable waste, so I have and get a list of facilities that accept each type and their opening hours, so that I can find an optimal route and schedule.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "recyclable waste",
+      "facilities"
+    ],
+    "actions": [
+      "select",
+      "get",
+      "find"
+    ],
+    "benefit": "I can find an optimal route and schedule"
+  },
+  "categories": {
+    "primary_entities": [
+      "recyclable waste",
+      "facilities"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "select",
+      "get",
+      "find"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "select",
+        "kind": "triggers"
+      },
+      {
+        "from": "select",
+        "to": "recyclable waste",
+        "kind": "targets"
+      },
+      {
+        "from": "user",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "facilities",
+        "kind": "targets"
+      },
+      {
+        "from": "user",
+        "to": "find",
+        "kind": "triggers"
+      },
+      {
+        "from": "find",
+        "to": "optimal route and schedule",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1389,
+    "output": 285,
+    "time (ns)": 6376364000
+  }
+}

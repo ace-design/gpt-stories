@@ -1,0 +1,56 @@
+{
+  "story": "#G04# As an employee, I want to access the route planning system during work, so that I can be guided through the neighbourhood.\n",
+  "extraction": {
+    "personas": [
+      "employee"
+    ],
+    "entities": [
+      "route planning system"
+    ],
+    "actions": [
+      "access",
+      "be guided"
+    ],
+    "benefit": "I can be guided through the neighbourhood"
+  },
+  "categories": {
+    "primary_entities": [
+      "route planning system"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "access",
+      "be guided"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "employee",
+        "to": "access",
+        "kind": "triggers"
+      },
+      {
+        "from": "access",
+        "to": "route planning system",
+        "kind": "targets"
+      },
+      {
+        "from": "employee",
+        "to": "be guided",
+        "kind": "triggers"
+      },
+      {
+        "from": "be guided",
+        "to": "route planning system",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1300,
+    "output": 217,
+    "time (ns)": 4668770000
+  }
+}

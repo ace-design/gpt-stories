@@ -1,0 +1,58 @@
+{
+  "story": "#G04# As an employee, I want to get quick notifications, so that I can process cases the first time.\n",
+  "extraction": {
+    "personas": [
+      "employee"
+    ],
+    "entities": [
+      "quick notifications",
+      "cases"
+    ],
+    "actions": [
+      "get",
+      "process"
+    ],
+    "benefit": "I can process cases the first time"
+  },
+  "categories": {
+    "primary_entities": [
+      "quick notifications",
+      "cases"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "get",
+      "process"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "employee",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "quick notifications",
+        "kind": "targets"
+      },
+      {
+        "from": "employee",
+        "to": "process",
+        "kind": "triggers"
+      },
+      {
+        "from": "process",
+        "to": "cases",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1291,
+    "output": 214,
+    "time (ns)": 7213759000
+  }
+}

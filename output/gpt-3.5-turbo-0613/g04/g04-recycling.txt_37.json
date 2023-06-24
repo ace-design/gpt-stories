@@ -1,0 +1,58 @@
+{
+  "story": "#G04# As a user, I want to upload my week's schedule, so that I can get recommendations for recycling centers that best fit my availability.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "week's schedule",
+      "recycling centers"
+    ],
+    "actions": [
+      "upload",
+      "get recommendations"
+    ],
+    "benefit": "I can get recommendations for recycling centers that best fit my availability"
+  },
+  "categories": {
+    "primary_entities": [
+      "week's schedule",
+      "recycling centers"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "upload",
+      "get recommendations"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "upload",
+        "kind": "triggers"
+      },
+      {
+        "from": "upload",
+        "to": "week's schedule",
+        "kind": "targets"
+      },
+      {
+        "from": "upload",
+        "to": "get recommendations",
+        "kind": "triggers"
+      },
+      {
+        "from": "get recommendations",
+        "to": "recycling centers",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1334,
+    "output": 232,
+    "time (ns)": 4741278000
+  }
+}

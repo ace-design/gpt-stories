@@ -1,0 +1,59 @@
+{
+  "story": "#G04# As a superuser, I want to view users' stats, so that I can view in real-time how many users have visited my recycling center information and their recyclable waste.\n",
+  "extraction": {
+    "personas": [
+      "superuser"
+    ],
+    "entities": [
+      "users' stats",
+      "recycling center information",
+      "recyclable waste"
+    ],
+    "actions": [
+      "view"
+    ],
+    "benefit": "I can view in real-time how many users have visited my recycling center information and their recyclable waste."
+  },
+  "categories": {
+    "primary_entities": [
+      "users' stats",
+      "recycling center information"
+    ],
+    "secondary_entities": [
+      "recyclable waste"
+    ],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "superuser",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "users' stats",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "recycling center information",
+        "kind": "targets"
+      },
+      {
+        "from": "view",
+        "to": "recyclable waste",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1386,
+    "output": 248,
+    "time (ns)": 6307565000
+  }
+}

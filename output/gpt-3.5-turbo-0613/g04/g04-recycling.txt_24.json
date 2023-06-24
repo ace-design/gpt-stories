@@ -1,0 +1,58 @@
+{
+  "story": "#G04# As an executive, I want to have full access to data related to my company, so that I can have a sense of my company's performance.\n",
+  "extraction": {
+    "personas": [
+      "executive"
+    ],
+    "entities": [
+      "data",
+      "my company"
+    ],
+    "actions": [
+      "have full access",
+      "have a sense"
+    ],
+    "benefit": "I can have a sense of my company's performance"
+  },
+  "categories": {
+    "primary_entities": [
+      "data",
+      "my company"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have full access",
+      "have a sense"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "executive",
+        "to": "have full access",
+        "kind": "triggers"
+      },
+      {
+        "from": "executive",
+        "to": "have a sense",
+        "kind": "triggers"
+      },
+      {
+        "from": "have full access",
+        "to": "data",
+        "kind": "targets"
+      },
+      {
+        "from": "have a sense",
+        "to": "my company",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1338,
+    "output": 236,
+    "time (ns)": 5154786000
+  }
+}

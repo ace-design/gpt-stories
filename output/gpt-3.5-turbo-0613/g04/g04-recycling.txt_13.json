@@ -1,0 +1,48 @@
+{
+  "story": "#G04# As a user, I want to view user documentation for the website, so that I know how to use the web app.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "user documentation",
+      "website",
+      "web app"
+    ],
+    "actions": [
+      "view"
+    ],
+    "benefit": "I know how to use the web app"
+  },
+  "categories": {
+    "primary_entities": [
+      "user documentation",
+      "website",
+      "web app"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "view"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "view",
+        "kind": "triggers"
+      },
+      {
+        "from": "view",
+        "to": "user documentation",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1308,
+    "output": 166,
+    "time (ns)": 4990231000
+  }
+}

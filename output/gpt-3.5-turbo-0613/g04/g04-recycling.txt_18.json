@@ -1,0 +1,56 @@
+{
+  "story": "#G04# As a user, I want to be able to check transaction history and keep a record of it, so that I can go back when needed.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "transaction history"
+    ],
+    "actions": [
+      "check",
+      "keep a record"
+    ],
+    "benefit": "I can go back when needed"
+  },
+  "categories": {
+    "primary_entities": [
+      "transaction history"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "check",
+      "keep a record"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "check",
+        "kind": "triggers"
+      },
+      {
+        "from": "user",
+        "to": "keep a record",
+        "kind": "triggers"
+      },
+      {
+        "from": "check",
+        "to": "transaction history",
+        "kind": "targets"
+      },
+      {
+        "from": "keep a record",
+        "to": "transaction history",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1310,
+    "output": 216,
+    "time (ns)": 5844883000
+  }
+}

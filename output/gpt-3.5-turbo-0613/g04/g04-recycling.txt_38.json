@@ -1,0 +1,60 @@
+{
+  "story": "#G04# As a user, I want to link my email account to my profile, so that I can get a temporary password in case I forget my own one.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "email account",
+      "profile",
+      "temporary password"
+    ],
+    "actions": [
+      "link",
+      "get"
+    ],
+    "benefit": "I can get a temporary password in case I forget my own one."
+  },
+  "categories": {
+    "primary_entities": [
+      "email account",
+      "profile",
+      "temporary password"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "link",
+      "get"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "link",
+        "kind": "triggers"
+      },
+      {
+        "from": "link",
+        "to": "email account",
+        "kind": "targets"
+      },
+      {
+        "from": "link",
+        "to": "profile",
+        "kind": "targets"
+      },
+      {
+        "from": "get",
+        "to": "temporary password",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1347,
+    "output": 228,
+    "time (ns)": 6273902000
+  }
+}

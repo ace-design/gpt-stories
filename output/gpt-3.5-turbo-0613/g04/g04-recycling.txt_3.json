@@ -1,0 +1,70 @@
+{
+  "story": "#G04# As a user, I want to be able to enter my zip code and get a list of nearby recycling facilities, so that I can determine which ones I should consider.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "zip code",
+      "recycling facilities"
+    ],
+    "actions": [
+      "enter",
+      "get",
+      "determine"
+    ],
+    "benefit": "I can determine which recycling facilities I should consider"
+  },
+  "categories": {
+    "primary_entities": [
+      "zip code",
+      "recycling facilities"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "enter",
+      "get",
+      "determine"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "enter",
+        "kind": "triggers"
+      },
+      {
+        "from": "enter",
+        "to": "zip code",
+        "kind": "targets"
+      },
+      {
+        "from": "user",
+        "to": "get",
+        "kind": "triggers"
+      },
+      {
+        "from": "get",
+        "to": "recycling facilities",
+        "kind": "targets"
+      },
+      {
+        "from": "user",
+        "to": "determine",
+        "kind": "triggers"
+      },
+      {
+        "from": "determine",
+        "to": "recycling facilities",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1352,
+    "output": 285,
+    "time (ns)": 6376741000
+  }
+}

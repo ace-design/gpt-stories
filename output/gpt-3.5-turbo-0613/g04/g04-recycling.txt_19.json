@@ -1,0 +1,56 @@
+{
+  "story": "#G04# As a user, I want to have a great UI and UX from the sites, so that I have a pleasant experience when navigating through them.\n",
+  "extraction": {
+    "personas": [
+      "user"
+    ],
+    "entities": [
+      "sites"
+    ],
+    "actions": [
+      "have",
+      "navigate"
+    ],
+    "benefit": "I have a pleasant experience when navigating through them"
+  },
+  "categories": {
+    "primary_entities": [
+      "sites"
+    ],
+    "secondary_entities": [],
+    "primary_actions": [
+      "have",
+      "navigate"
+    ],
+    "secondary_actions": []
+  },
+  "relations": {
+    "relations": [
+      {
+        "from": "user",
+        "to": "have",
+        "kind": "triggers"
+      },
+      {
+        "from": "have",
+        "to": "sites",
+        "kind": "targets"
+      },
+      {
+        "from": "user",
+        "to": "navigate",
+        "kind": "triggers"
+      },
+      {
+        "from": "navigate",
+        "to": "sites",
+        "kind": "targets"
+      }
+    ]
+  },
+  "cost": {
+    "input": 1307,
+    "output": 207,
+    "time (ns)": 5338957000
+  }
+}
