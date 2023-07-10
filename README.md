@@ -1,10 +1,29 @@
 # Extracting Domain Models from User Stories using (chat)GPT 3.5
 
+
 ## General Info
 
-- Author: [Sébastien Mosser](mossers@mcmaster.ca), McMaster University & McSCert
+- Authors: 
+  - [Sébastien Mosser](mossers@mcmaster.ca), McMaster University & McSCert
+  - [Sathurshan Arulmohan](arulmohs@mcmaster.ca), McMaster University & McSCert
 - License: [MIT](./LICENSE)
-- Version: 1.0 (July 2023)
+- Version: 1.0 (July 2023) [![DOI](https://zenodo.org/badge/653647570.svg)](https://zenodo.org/badge/latestdoi/653647570)
+
+Citing this work:
+
+```bibtex
+@software{gpt-stories,
+  author       = {Sébastien Mosser and
+                  Sathurshan Arulmohan},
+  title        = {ace-design/gpt-stories: Version 1.0},
+  month        = jul,
+  year         = 2023,
+  publisher    = {Zenodo},
+  version      = {v1.0},
+  doi          = {10.5281/zenodo.8132676},
+  url          = {https://doi.org/10.5281/zenodo.8132676}
+}
+```
 
 ## Installation
 
