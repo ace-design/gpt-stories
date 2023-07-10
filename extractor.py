@@ -16,7 +16,7 @@ openai.api_key_path = './openapi_key.txt' # Your API key should be here
 MODEL = 'gpt-3.5-turbo-0613'              # required to use JSON schemas
 
 ## dataset location
-DATASET = './dataset/complete'
+DATASET = './dataset/small'
 START_AT = 1
 
        ###############################
